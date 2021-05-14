@@ -23,6 +23,10 @@ module.exports = {
         "bugs",
         "features",
       ]
-    }
+    },
+    {
+      type: 'doc',
+      id: 'intel',
+    },
   ],
 }
