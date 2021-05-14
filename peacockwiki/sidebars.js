@@ -10,11 +10,19 @@
  */
 
 module.exports = {
-  tutorialSidebar: [
+  sidebar: [
     {
       type: 'doc',
       label: 'Home',
       id: 'home',
     },
+    {
+      type: "category",
+      label: "Bugs and Features",
+      items: [
+        "bugs",
+        "features",
+      ]
+    }
   ],
 }
