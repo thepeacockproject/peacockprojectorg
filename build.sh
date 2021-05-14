@@ -1,4 +1,4 @@
-curl -fsSL https://yarnpkg.com/install.sh | bash
+source ~/.bashrc
 cd peacockwiki
 yarn
 yarn build
