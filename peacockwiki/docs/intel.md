@@ -8,7 +8,7 @@ No. Sadly, there is no way to properly inject the required code into the game on
 
 ## What are the requirements for using this?
 
-Just an non-pirated copy of the game for PC. This server does not support piracy.  It also checks to ensure you own the required content whenever you try to play a level.
+Just an non-pirated copy of the game for PC. This server does not support piracy. It also checks to ensure you own the required content whenever you try to play a level.
 
 ## What is the worst IOI can do to me for using this?
 

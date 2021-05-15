@@ -8,14 +8,14 @@ To suggest a feature, please see the `#content-requests` channel of our Discord.
 
 ### Loadouts
 
-- Re-add a required keybind to save loadouts.
-- Save starting locations and agency pickups with loadouts.
-- Have a way of choosing between individual loadouts or entire sets of loadouts (for full game runners).
-- Random loadout generator.
+-   Re-add a required keybind to save loadouts.
+-   Save starting locations and agency pickups with loadouts.
+-   Have a way of choosing between individual loadouts or entire sets of loadouts (for full game runners).
+-   Random loadout generator.
 
 ## OpenContracts
 
-- Swap contract creation out for downloading of contracts from official servers (will greatly improve contract accuracy, since our generation algorithm isn't the best).
+-   Swap contract creation out for downloading of contracts from official servers (will greatly improve contract accuracy, since our generation algorithm isn't the best).
 
 ## Confidence
 
