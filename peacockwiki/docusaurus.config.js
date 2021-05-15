@@ -32,6 +32,7 @@ module.exports = {
           showLastUpdateTime: true,
         },
         blog: false,
+        pages: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
