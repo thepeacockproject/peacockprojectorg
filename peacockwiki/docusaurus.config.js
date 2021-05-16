@@ -17,7 +17,7 @@ module.exports = {
         footer: {
             style: "dark",
             links: [],
-            copyright: `Copyright © ${new Date().getFullYear()} The Peacock Project.`,
+            copyright: `Copyright © ${new Date().getFullYear()} The Peacock Project. Not owned, affiliated with, or endorsed by IO Interactive. HITMAN™ is a registered trademark of IO Interactive.`,
         },
     },
     themes: [
