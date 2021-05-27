@@ -11,13 +11,17 @@ To report a bug, please see the `#bug-report` channel of our Discord.
 ## Missions
 
 -   Mission stories don't display properly on the planning screen.
--   The KOats Conspiracy has brackets (`[` and `]`) in its name.
 
 ## General
 
 -   It can take numerous tries to connect to the server.
--   Some bugged suits (for sins and the S2 blood money suit).
+-   Some bugged suits are present (7 deadly sins).
 
 ## Menus
 
 -   The destinations menu displays all escalations at the end instead of attached to the relevant missions.
+
+## Escalations
+
+-   Escalation progress isn't always saved, or gets corrupted.
+-   Custom escalations have brackets (`[` and `]`) in their names.
