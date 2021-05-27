@@ -18,5 +18,9 @@ module.exports = {
             type: "doc",
             id: "ghost-mode",
         },
+        {
+            type: "doc",
+            id: "roadmaps",
+        },
     ],
 }
