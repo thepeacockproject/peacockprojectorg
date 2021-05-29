@@ -3,7 +3,7 @@ module.exports = {
     title: "The Peacock Project Wiki",
     tagline: "The Peacock Project Wiki",
     url: "https://thepeacockproject.org",
-    baseUrl: "/wiki/",
+    baseUrl: "/",
     onBrokenLinks: "warn",
     onBrokenMarkdownLinks: "warn",
     favicon: "null",
@@ -33,7 +33,7 @@ module.exports = {
             "@docusaurus/plugin-content-docs",
             {
                 sidebarPath: require.resolve("./sidebars.js"),
-                routeBasePath: "/",
+                routeBasePath: "/wiki/",
                 showLastUpdateTime: true,
             },
         ],
