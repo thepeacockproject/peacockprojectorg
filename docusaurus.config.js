@@ -1,6 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-    title: "The Peacock Project Wiki",
+    title: "The Peacock Project",
     tagline: "The Peacock Project Wiki",
     url: "https://thepeacockproject.org",
     baseUrl: "/",
@@ -11,8 +11,15 @@ module.exports = {
     projectName: "peacockprojectorg",
     themeConfig: {
         navbar: {
-            title: "Peacock Wiki",
-            items: [],
+            title: "The Peacock Project",
+            items: [
+                {
+                    type: "doc",
+                    position: "left",
+                    docId: "home",
+                    label: "Wiki",
+                },
+            ],
         },
         footer: {
             style: "dark",
