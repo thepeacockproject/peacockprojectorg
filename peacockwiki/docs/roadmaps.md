@@ -12,10 +12,14 @@ The following content will appear on a roadmap in the future:
 
 ## Past Roadmaps
 
-### May 2020
+### June 2021
+
+![June 2021 Roadmap Image](/img/june-2021-roadmap.png)
+
+### May 2021
 
 ![May 2021 Roadmap Image](/img/may-2021-roadmap.png)
 
-### April 2020
+### April 2021
 
 ![April 2021 Roadmap Image](/img/april-2021-roadmap.png)
