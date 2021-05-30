@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
     title: "The Peacock Project",
-    tagline: "The Peacock Project Wiki",
+    tagline: "A replacement for HITMAN&trade; 3's servers that runs on your machine.",
     url: "https://thepeacockproject.org",
     baseUrl: "/",
     onBrokenLinks: "warn",
@@ -32,8 +32,8 @@ module.exports = {
             "@docusaurus/theme-classic",
             {
                 customCss: require.resolve("./src/css/custom.css"),
-            }
-        ]
+            },
+        ],
     ],
     plugins: [
         [
@@ -44,5 +44,6 @@ module.exports = {
                 showLastUpdateTime: true,
             },
         ],
+        "@docusaurus/plugin-content-pages",
     ],
 }
