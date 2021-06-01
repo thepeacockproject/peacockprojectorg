@@ -11,6 +11,10 @@ module.exports = {
     projectName: "peacockprojectorg",
     themeConfig: {
         navbar: {
+            logo: {
+                src: "/ModifiedFinalLogo.png",
+                alt: "Peacock Logo"
+            },
             title: "The Peacock Project",
             items: [
                 {
