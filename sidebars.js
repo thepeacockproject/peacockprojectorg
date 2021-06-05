@@ -22,5 +22,10 @@ module.exports = {
             type: "doc",
             id: "roadmaps",
         },
+        {
+            type: "category",
+            label: "Legal",
+            items: ["legal/privacy-policy"],
+        },
     ],
 }

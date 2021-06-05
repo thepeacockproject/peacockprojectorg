@@ -7,7 +7,7 @@ import styles from "./styles.module.css"
 const features = [
     {
         title: "Fast",
-        imageUrl: "img/undraw_docusaurus_mountain.svg",
+        imageUrl: "img/fast.svg",
         description: (
             <>
                 Peacock is built to be fast. Latency, lag, and delays are not fun, which is why we put a focus on eliminating these factors wherever possible.
@@ -16,7 +16,7 @@ const features = [
     },
     {
         title: "Easy to set up",
-        imageUrl: "img/undraw_docusaurus_tree.svg",
+        imageUrl: "img/easy.svg",
         description: (
             <>
                 It's really easy to give Peacock a go. Assuming you own the game, you can join our Discord, and perform the less then 3 minute set-up process.
@@ -25,7 +25,7 @@ const features = [
     },
     {
         title: "Custom content",
-        imageUrl: "img/undraw_docusaurus_react.svg",
+        imageUrl: "img/custom.svg",
         description: (
             <>
                 Most players and fans of the game can agree that content from the main game is getting a bit stale. We feature exclusive, custom content every month!
