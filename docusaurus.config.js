@@ -1,7 +1,8 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
     title: "The Peacock Project",
-    tagline: "A replacement for HITMAN&trade; 3's servers that runs on your machine.",
+    tagline:
+        "A replacement for HITMAN&trade; 3's servers that runs on your machine.",
     url: "https://thepeacockproject.org",
     baseUrl: "/",
     onBrokenLinks: "warn",
@@ -13,7 +14,7 @@ module.exports = {
         navbar: {
             logo: {
                 src: "/ModifiedFinalLogo.png",
-                alt: "Peacock Logo"
+                alt: "Peacock Logo",
             },
             title: "The Peacock Project",
             items: [
@@ -49,5 +50,6 @@ module.exports = {
             },
         ],
         "@docusaurus/plugin-content-pages",
+        "docusaurus-lunr-search",
     ],
 }
