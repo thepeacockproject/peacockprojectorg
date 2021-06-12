@@ -51,5 +51,6 @@ module.exports = {
         ],
         "@docusaurus/plugin-content-pages",
         "docusaurus-lunr-search",
+        require.resolve("./testimonialsPlugin.js")
     ],
 }

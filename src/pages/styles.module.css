@@ -28,3 +28,11 @@
     height: 200px;
     width: 200px;
 }
+
+.cardSpace {
+    margin-top: 10px;
+}
+
+.bottomCardSpace {
+    margin-bottom: 10px;
+}
