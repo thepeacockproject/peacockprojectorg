@@ -25,6 +25,7 @@ When you log in, the following information is stored in our database:
     - HITMAN&trade;
     - HITMAN&trade; III
 - (Continued from last entry) This data includes ownership status for the game itself, as well as all DLC for the game (if the game has DLC)
+- Unless explicitly opted out of leaderboards, details of the events that are triggered during levels, as well as some scoring metadata.
 
 ## What do we use this data for?
 
@@ -33,6 +34,7 @@ We use this data for purposes including:
 - Verifying you own HITMAN(TM) (III) / its DLC
 - Verifying you are in the Discord server
 - Assigning roles based on ownership status in the Discord server
+- Keeping track of leaderboard positions and statistics, and for moderation of these leaderboards.
 
 ## Request deletion of your data
 

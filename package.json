@@ -15,10 +15,10 @@
         "prettier": "prettier --write **/*.{js,jsx,ts,tsx,md,html,yml,json}"
     },
     "dependencies": {
-        "@docusaurus/core": "2.0.0-beta.aff848e87",
-        "@docusaurus/plugin-content-docs": "2.0.0-beta.aff848e87",
-        "@docusaurus/plugin-content-pages": "2.0.0-beta.aff848e87",
-        "@docusaurus/theme-classic": "2.0.0-beta.aff848e87",
+        "@docusaurus/core": "2.0.0-beta.1",
+        "@docusaurus/plugin-content-docs": "2.0.0-beta.1",
+        "@docusaurus/plugin-content-pages": "2.0.0-beta.1",
+        "@docusaurus/theme-classic": "2.0.0-beta.1",
         "@mdx-js/react": "^1.6.21",
         "@svgr/webpack": "^5.5.0",
         "classnames": "^2.3.1",

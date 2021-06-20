@@ -6,7 +6,8 @@ To report a bug, please see the `#bug-report` channel of our Discord.
 
 ## Contract Creation
 
--   Contract creation is still very much a work-in-progress, and has way too many bugs to list them all here.
+-   Restarting levels breaks everything for most people (requires game and server restart).
+-   Marking targets after they have been killed does not work.
 
 ## General
 

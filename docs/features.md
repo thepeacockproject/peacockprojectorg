@@ -12,3 +12,7 @@ To suggest a feature, please see the `#content-requests` channel of our Discord.
 -   Save starting locations and agency pickups with loadouts.
 -   Have a way of choosing between individual loadouts or entire sets of loadouts (for full game runners).
 -   Random loadout generator.
+
+## Missions
+
+-   Kill Everyone Campaign

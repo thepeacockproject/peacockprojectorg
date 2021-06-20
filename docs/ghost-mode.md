@@ -2,7 +2,7 @@
 
 The Peacock Project is happy to announce that we are running our own [LocalGhost](https://gitlab.com/grappigegovert/LocalGhost) server!
 
-Ghost Mode for HITMAN 2 has returned as an unofficial game mode!
+Ghost Mode for HITMAN™ 2 has returned as an unofficial game mode!
 You and a friend can connect and invite each other to a friendly Ghost Mode match using Steam's invite system.
 
 (_Matchmaking is not yet supported_).
