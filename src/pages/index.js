@@ -22,7 +22,7 @@ const features = [
         description: (
             <>
                 It's really easy to give Peacock a go. Assuming you own the
-                game, you can join our Discord, and perform the less then 3
+                game, you can join our Discord, and perform the less than 3
                 minute set-up process.
             </>
         ),
@@ -45,18 +45,18 @@ function Feature({ imageUrl, title, description }) {
     return (
         <div className={clsx("col col--4", styles.feature)}>
             {
-                imgUrl && null /*(
-                <div className="text--center">
-                    <img
-                        className={styles.featureImage}
-                        src={imgUrl}
-                        alt={title}
-                    />
-                </div>
-            )*/
+                imgUrl && (
+                    <div className="text--center">
+                        <img
+                            className={styles.featureImage}
+                            src={imgUrl}
+                            alt={title}
+                        />
+                    </div>
+                )
             }
-            <h3>{title}</h3>
-            <p>{description}</p>
+            <h3 className="text--center">{title}</h3>
+            <p className="text--center">{description}</p>
         </div>
     )
 }

@@ -51,6 +51,14 @@ module.exports = {
         ],
         "@docusaurus/plugin-content-pages",
         "docusaurus-lunr-search",
-        require.resolve("./testimonialsPlugin.js")
+        require.resolve("./testimonialsPlugin.js"),
+        [
+            "@docusaurus/plugin-sitemap",
+            {
+                changefreq: "weekly",
+                priority: 0.5,
+                trailingSlash: false,
+            },
+        ],
     ],
 }
