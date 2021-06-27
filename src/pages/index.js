@@ -3,6 +3,7 @@ import clsx from "clsx"
 import Layout from "@theme/Layout"
 import Link from "@docusaurus/Link"
 import styles from "./styles.module.css"
+import OpenIcon from "../components/open-icon.svg"
 
 const features = [
     {
@@ -94,7 +95,7 @@ function Home() {
                             )}
                             to={"/testimonials"}
                         >
-                            Read what our users say
+                            Read what our users say <OpenIcon className={styles.icon}/>
                         </Link>
                     </div>
                 </section>
