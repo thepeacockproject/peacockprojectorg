@@ -85,7 +85,7 @@ function Home() {
                         </div>
                     </section>
                 )}
-                <section about="testimonials" class={styles.bottomCardSpace}>
+                <section className={styles.bottomCardSpace}>
                     <h3 className={"text--center"}>Don't believe us?</h3>
                     <div className={styles.buttons}>
                         <Link
