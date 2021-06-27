@@ -36,3 +36,9 @@
 .bottomCardSpace {
     margin-bottom: 10px;
 }
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

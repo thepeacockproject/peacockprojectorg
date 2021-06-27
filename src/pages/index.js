@@ -1,7 +1,7 @@
 import React from "react"
 import clsx from "clsx"
 import Layout from "@theme/Layout"
-import useBaseUrl from "@docusaurus/useBaseUrl"
+import Link from "@docusaurus/Link"
 import styles from "./styles.module.css"
 
 const features = [
@@ -32,8 +32,8 @@ const features = [
         imageUrl: "img/custom.svg",
         description: (
             <>
-                Most players and fans of the game can agree that content from
-                the main game is getting a bit stale. We feature exclusive,
+                A lot of players and fans of the game can agree that content
+                from the main game is getting a bit stale. We feature exclusive,
                 custom content every month!
             </>
         ),
@@ -41,20 +41,17 @@ const features = [
 ]
 
 function Feature({ imageUrl, title, description }) {
-    const imgUrl = useBaseUrl(imageUrl)
     return (
         <div className={clsx("col col--4", styles.feature)}>
-            {
-                imgUrl && (
-                    <div className="text--center">
-                        <img
-                            className={styles.featureImage}
-                            src={imgUrl}
-                            alt={title}
-                        />
-                    </div>
-                )
-            }
+            {imageUrl && (
+                <div className="text--center">
+                    <img
+                        className={styles.featureImage}
+                        src={imageUrl}
+                        alt={title}
+                    />
+                </div>
+            )}
             <h3 className="text--center">{title}</h3>
             <p className="text--center">{description}</p>
         </div>
@@ -88,6 +85,19 @@ function Home() {
                         </div>
                     </section>
                 )}
+                <section about="testimonials" class={styles.bottomCardSpace}>
+                    <h3 className={"text--center"}>Don't believe us?</h3>
+                    <div className={styles.buttons}>
+                        <Link
+                            className={clsx(
+                                "button button--primary button--lg"
+                            )}
+                            to={"/testimonials"}
+                        >
+                            Read what our users say
+                        </Link>
+                    </div>
+                </section>
             </main>
         </Layout>
     )
