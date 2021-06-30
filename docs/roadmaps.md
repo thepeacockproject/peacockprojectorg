@@ -12,6 +12,17 @@ The following content will appear on a roadmap in the future:
 
 ## Past Roadmaps
 
+### July 2021
+
+:::info Notes about this month
+
+- Doesn't contain any new features, the developer is taking a short mental health vacation.
+- Contains mystery content, meaning we are keeping it a surprise until release time!
+
+:::
+
+![July 2021 Roadmap Image](/img/july-2021-roadmap.png)
+
 ### June 2021
 
 ![June 2021 Roadmap Image](/img/june-2021-roadmap.png)

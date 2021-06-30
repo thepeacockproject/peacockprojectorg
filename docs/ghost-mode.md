@@ -1,3 +1,7 @@
+---
+image: /img/ghostmode.jpg
+---
+
 # Ghost Mode
 
 The Peacock Project is happy to announce that we are running our own [LocalGhost](https://gitlab.com/grappigegovert/LocalGhost) server!

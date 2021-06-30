@@ -2,13 +2,14 @@ import React from "react"
 import clsx from "clsx"
 import Layout from "@theme/Layout"
 import Link from "@docusaurus/Link"
+import ThemedImage from "@theme/ThemedImage"
 import styles from "./styles.module.css"
 import OpenIcon from "../components/open-icon.svg"
 
 const features = [
     {
         title: "Fast",
-        imageUrl: "img/fast.svg",
+        imageUrl: "/img/home/fast.svg",
         description: (
             <>
                 Peacock is built to be fast. Latency, lag, and delays are not
@@ -19,7 +20,7 @@ const features = [
     },
     {
         title: "Easy to set up",
-        imageUrl: "img/easy.svg",
+        imageUrl: "/img/home/easy.svg",
         description: (
             <>
                 It's really easy to give Peacock a go. Assuming you own the
@@ -30,7 +31,7 @@ const features = [
     },
     {
         title: "Custom content",
-        imageUrl: "img/custom.svg",
+        imageUrl: "/img/home/custom.svg",
         description: (
             <>
                 A lot of players and fans of the game can agree that content
@@ -46,10 +47,13 @@ function Feature({ imageUrl, title, description }) {
         <div className={clsx("col col--4", styles.feature)}>
             {imageUrl && (
                 <div className="text--center">
-                    <img
+                    <ThemedImage
                         className={styles.featureImage}
-                        src={imageUrl}
                         alt={title}
+                        sources={{
+                            light: imageUrl,
+                            dark: imageUrl/*.replace(".svg", "-dark.svg")*/,
+                        }}
                     />
                 </div>
             )}
