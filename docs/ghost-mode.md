@@ -11,7 +11,7 @@ You and a friend can connect and invite each other to a friendly Ghost Mode matc
 
 (_Matchmaking is not yet supported_).
 
-Ghost Mode is available for PC players who own HITMAN 2 (legitimately).
+Ghost Mode is available for PC players who own HITMAN™ 2 (legitimately).
 
 ## How to Connect
 
