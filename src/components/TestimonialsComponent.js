@@ -6,7 +6,7 @@ import styles from "../pages/styles.module.css"
 function TestimonialsComponent({ data }) {
     return (
         <Layout
-            title={`Testimonials`}
+            title="Testimonials"
             description="What our users say about Peacock."
         >
             <header className={clsx("hero hero--primary", styles.heroBanner)}>

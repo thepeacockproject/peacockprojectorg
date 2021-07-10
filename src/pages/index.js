@@ -9,7 +9,7 @@ import OpenIcon from "../components/open-icon.svg"
 const features = [
     {
         title: "Fast",
-        imageUrl: "/img/home/fast.svg",
+        imageUrl: "/img/home/FastLight.svg",
         description: (
             <>
                 Peacock is built to be fast. Latency, lag, and delays are not
@@ -20,7 +20,7 @@ const features = [
     },
     {
         title: "Easy to set up",
-        imageUrl: "/img/home/easy.svg",
+        imageUrl: "/img/home/EasyLight.svg",
         description: (
             <>
                 It's really easy to give Peacock a go. Assuming you own the
@@ -31,7 +31,7 @@ const features = [
     },
     {
         title: "Custom content",
-        imageUrl: "/img/home/custom.svg",
+        imageUrl: "/img/home/CustomLight.svg",
         description: (
             <>
                 A lot of players and fans of the game can agree that content
@@ -52,7 +52,7 @@ function Feature({ imageUrl, title, description }) {
                         alt={title}
                         sources={{
                             light: imageUrl,
-                            dark: imageUrl/*.replace(".svg", "-dark.svg")*/,
+                            dark: imageUrl.replace("Light", "Dark"),
                         }}
                     />
                 </div>
