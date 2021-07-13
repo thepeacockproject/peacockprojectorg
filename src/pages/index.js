@@ -2,7 +2,6 @@ import React from "react"
 import clsx from "clsx"
 import Layout from "@theme/Layout"
 import Link from "@docusaurus/Link"
-import ThemedImage from "@theme/ThemedImage"
 import styles from "./styles.module.css"
 import OpenIcon from "../components/open-icon.svg"
 
@@ -47,14 +46,7 @@ function Feature({ imageUrl, title, description }) {
         <div className={clsx("col col--4", styles.feature)}>
             {imageUrl && (
                 <div className="text--center">
-                    <ThemedImage
-                        className={styles.featureImage}
-                        alt={title}
-                        sources={{
-                            light: imageUrl,
-                            dark: imageUrl.replace("Light", "Dark"),
-                        }}
-                    />
+                    <img className={featureImage} alt={title} src={imageUrl} />
                 </div>
             )}
             <h3 className="text--center">{title}</h3>
