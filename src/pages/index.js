@@ -2,14 +2,16 @@ import React from "react"
 import clsx from "clsx"
 import Layout from "@theme/Layout"
 import Link from "@docusaurus/Link"
-import ThemedImage from "@theme/ThemedImage"
 import styles from "./styles.module.css"
 import OpenIcon from "../components/open-icon.svg"
+import CustomLight from "../../static/img/home/CustomLight.svg"
+import FastLight from "../../static/img/home/FastLight.svg"
+import EasyLight from "../../static/img/home/EasyLight.svg"
 
 const features = [
     {
         title: "Fast",
-        imageUrl: "/img/home/FastLight.svg",
+        imageUrl: <FastLight className={styles.featureImage} />,
         description: (
             <>
                 Peacock is built to be fast. Latency, lag, and delays are not
@@ -20,7 +22,7 @@ const features = [
     },
     {
         title: "Easy to set up",
-        imageUrl: "/img/home/EasyLight.svg",
+        imageUrl: <EasyLight className={styles.featureImage} />,
         description: (
             <>
                 It's really easy to give Peacock a go. Assuming you own the
@@ -31,7 +33,7 @@ const features = [
     },
     {
         title: "Custom content",
-        imageUrl: "/img/home/CustomLight.svg",
+        imageUrl: <CustomLight className={styles.featureImage} />,
         description: (
             <>
                 A lot of players and fans of the game can agree that content
@@ -47,14 +49,7 @@ function Feature({ imageUrl, title, description }) {
         <div className={clsx("col col--4", styles.feature)}>
             {imageUrl && (
                 <div className="text--center">
-                    <ThemedImage
-                        className={styles.featureImage}
-                        alt={title}
-                        sources={{
-                            light: imageUrl,
-                            dark: imageUrl.replace("Light", "Dark"),
-                        }}
-                    />
+                    {imageUrl}
                 </div>
             )}
             <h3 className="text--center">{title}</h3>
