@@ -36,9 +36,7 @@ const features = [
         imageUrl: <CustomLight className={styles.featureImage} />,
         description: (
             <>
-                A lot of players and fans of the game can agree that content
-                from the main game is getting a bit stale. We feature exclusive,
-                custom content every month!
+                We feature exclusive, custom content every month!
             </>
         ),
     },

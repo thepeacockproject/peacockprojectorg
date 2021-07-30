@@ -2,14 +2,6 @@
 
 Each month, we do roadmaps, containing content/features we plan to implement.
 
-## Future Roadmap Content
-
-The following content will appear on a roadmap in the future:
-
--   Challenges
--   Progression
--   All content from official servers (7DS, deluxe, everything else)
-
 ## Past Roadmaps
 
 ### July 2021

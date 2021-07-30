@@ -29,8 +29,53 @@ module.exports = {
         },
         footer: {
             style: "dark",
-            links: [],
-            copyright: `Copyright © ${new Date().getFullYear()} The Peacock Project. Not owned, affiliated with, or endorsed by IO Interactive. HITMAN™ is a registered trademark of IO Interactive.`,
+            links: [
+                {
+                    title: "Wiki",
+                    items: [
+                        {
+                            label: "Bug Tracker",
+                            to: "/wiki/bugs",
+                        },
+                        {
+                            label: "Requested Features",
+                            to: "/wiki/features",
+                        },
+                        {
+                            label: "Knowledge Base",
+                            to: "/wiki/intel",
+                        },
+                    ],
+                },
+                {
+                    title: "Community",
+                    items: [
+                        {
+                            label: "Testimonials",
+                            to: "/testimonials"
+                        },
+                        {
+                            label: "Ghost Mode",
+                            to: "/wiki/ghost-mode",
+                        },
+                    ],
+                },
+                {
+                    title: "Other",
+                    items: [
+                        {
+                            label: "Privacy Policy",
+                            to: "/wiki/legal/privacy-policy"
+                        },
+                    ],
+                }
+            ],
+            logo: {
+                alt: "Peacock Feather Logo",
+                src: "/ModifiedFinalLogo.png",
+                // href: "https://thepeacockproject.org/branding",
+            },
+            copyright: `Copyright © ${new Date().getFullYear()} The Peacock Project. Not owned, affiliated with, or endorsed by IO Interactive. HITMAN™ is a registered trademark of Square Enix Group.`,
         },
     },
     themes: [
