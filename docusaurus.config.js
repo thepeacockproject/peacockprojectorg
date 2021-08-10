@@ -58,6 +58,10 @@ module.exports = {
                             label: "Ghost Mode",
                             to: "/wiki/ghost-mode",
                         },
+                        {
+                            label: "Branding",
+                            to: "/branding",
+                        },
                     ],
                 },
                 {
