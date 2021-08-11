@@ -37,11 +37,7 @@ Yes, you can. Assuming the save was made while on Peacock (not on IOI servers or
 
 ## Will this work for H2 or H2016?
 
-Right now, no.
-
-We have no plans to support HITMAN™ 2.
-
-HITMAN™ (2016) support will is in active development.
+Somewhat. We are still actively working on support for both games, and you can give it a try, but be warned: there will be bugs.
 
 ## Does this in any way affect my official servers profile?
 
