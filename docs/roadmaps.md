@@ -4,18 +4,15 @@ Each month, we do roadmaps, containing content/features we plan to implement.
 
 ## Past Roadmaps
 
+### September 2021
+
+![September 2021 Roadmap Image](/img/september-2021-roadmap.png)
+
 ### August 2021
 
 ![August 2021 Roadmap Image](/img/august-2021-roadmap.png)
 
 ### July 2021
-
-:::info Notes about this month
-
-- Doesn't contain any new features, the developer is taking a short mental health vacation.
-- Contains mystery content, meaning we are keeping it a surprise until release time!
-
-:::
 
 ![July 2021 Roadmap Image](/img/july-2021-roadmap.png)
 
