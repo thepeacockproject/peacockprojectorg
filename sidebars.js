@@ -12,6 +12,10 @@ module.exports = {
         },
         {
             type: "doc",
+            id: "custom-content",
+        },
+        {
+            type: "doc",
             id: "intel",
         },
         {
