@@ -27,6 +27,10 @@ module.exports = {
             id: "roadmaps",
         },
         {
+            type: "doc",
+            id: "credits",
+        },
+        {
             type: "category",
             label: "Legal",
             items: ["legal/privacy-policy"],

@@ -7,7 +7,7 @@ module.exports = {
     baseUrl: "/",
     onBrokenLinks: "warn",
     onBrokenMarkdownLinks: "warn",
-    favicon: "null",
+    favicon: "/favicon.ico",
     organizationName: "RDIL",
     projectName: "peacockprojectorg",
     baseUrlIssueBanner: false,
@@ -61,6 +61,10 @@ module.exports = {
                         {
                             label: "Branding",
                             to: "/branding",
+                        },
+                        {
+                            label: "Credits",
+                            to: "/wiki/credits",
                         },
                     ],
                 },

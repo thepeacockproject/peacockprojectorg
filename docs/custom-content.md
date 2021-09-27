@@ -49,4 +49,3 @@ Travel to Sapienza, and eliminate Rocco, one of the most infamous NPCs in HITMAN
 ![The Barbegue Befuddlement tile image](/img/custom/contractescalation-miami-flumpybuns.png)
 
 Travel to Miami and face the challenge of smuggling around a shotgun!
-

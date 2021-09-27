@@ -13,3 +13,7 @@
 .navbar__logo {
     height: 150% !important;
 }
+
+.card {
+    margin-bottom: 10px;
+}
