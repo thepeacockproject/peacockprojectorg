@@ -25,6 +25,11 @@ module.exports = {
                     docId: "home",
                     label: "Wiki",
                 },
+                {
+                    href: "https://discord.gg/peacock",
+                    label: "Discord",
+                    position: "left",
+                },
             ],
         },
         footer: {
