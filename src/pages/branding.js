@@ -25,7 +25,7 @@ export default function Branding() {
                     <h2>Logo</h2>
                     <p>Our logo (The Peacock Feather Logo), may be obtained below (free of charge), provided you agree to the following terms:</p>
                     <ul>
-                        <li>Do not edit, modify, distort, recolor, or reconfigure The Peacock Feather Logo in any way, except for rotating it or resizing it for use in a larger picture.</li>
+                        <li>Do not edit, modify, distort, recolor, or reconfigure the logo in any way, except for rotating it or resizing it for use in a larger picture related to Peacock.</li>
                         <li>You may not claim you created it, or use it outside of directly referencing or promoting our project.</li>
                         <li>In the case that you use the logo inside a larger picture, you may not overlay it with anything. It must be completely on top of all other image layers.</li>
                         <li>You may not use the logo to spread false information, rumors, or leaks relating to Peacock or HITMAN&trade;.</li>
