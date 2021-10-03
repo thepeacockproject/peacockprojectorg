@@ -4,6 +4,10 @@ Each month, we do roadmaps, containing content/features we plan to implement.
 
 ## Past Roadmaps
 
+### October 2021
+
+![October 2021 Roadmap Image](/img/october-2021-roadmap.png)
+
 ### September 2021
 
 ![September 2021 Roadmap Image](/img/september-2021-roadmap.png)
