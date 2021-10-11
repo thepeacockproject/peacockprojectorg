@@ -2,7 +2,7 @@
 module.exports = {
     title: "The Peacock Project",
     tagline:
-        "A replacement for HITMAN&trade; 3's servers that runs on your machine.",
+        "A replacement for the HITMAN&trade; World of Assassination (1, 2, and 3)'s servers that runs on your machine.",
     url: "https://thepeacockproject.org",
     baseUrl: "/",
     onBrokenLinks: "warn",
@@ -80,13 +80,17 @@ module.exports = {
                             label: "Privacy Policy",
                             to: "/wiki/legal/privacy-policy"
                         },
+                        //{
+                        //    label: "Terms of Service",
+                        //    to: "/wiki/legal/terms-of-service"
+                        //},
                     ],
                 }
             ],
             logo: {
                 alt: "Peacock Feather Logo",
                 src: "/ModifiedFinalLogo.png",
-                // href: "https://thepeacockproject.org/branding",
+                href: "https://thepeacockproject.org/branding",
             },
             copyright: `Copyright © ${new Date().getFullYear()} The Peacock Project. Not owned, affiliated with, or endorsed by IO Interactive. HITMAN™ is a registered trademark of Square Enix Group.`,
         },
