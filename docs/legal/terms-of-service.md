@@ -25,6 +25,12 @@ Since Peacock costs the team to build and keep going, anybody has the option to 
 All donations are non-refundable.
 Donors may receive early access to some Peacock features that are not yet ready for public consumption.
 All materials provided to donors, unless otherwise stated, are confidential.
+Donors who do accidentally leak confidential information will be given a warning.
+If they do it again after being given a warning, their ability to access this content will be removed.
+
+## Manipulation
+
+Attempting to reverse engineer or otherwise disassemble/reassemble Peacock and/or its connected services is not permitted.
 
 ## Change
 
