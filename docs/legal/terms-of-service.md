@@ -7,17 +7,21 @@ While we aren't exactly lawyers, we do have some terms and conditions that must 
 
 ## Terms
 
-"We", "Us", and "Peacock" shall mean The Peacock Project team.
+"We", "Us", "Our", and "Peacock" shall mean The Peacock Project team.
 "You" shall mean the consumer.
 
 ## Binding
 
-By using Peacock or any related services, you agree to these terms.
+By using Peacock or any related services, you agree to these terms, as well as the terms set in the [Privacy Policy](./privacy-policy.md).
 
 ## Access
 
 We agree to provide access to Peacock for select game owners.
 We have the right to deny you access if you don't own the game, or we otherwise see fit, for any reason.
+
+## Licensing
+
+Peacock is under strict licensing. Unless otherwise stated (see the `LICENSE` and `THIRDPARTYNOTICES.txt` files), all contents are the sole property of The Peacock Project, and are proprietary. All rights to these materials are reserved.
 
 ## Donations
 

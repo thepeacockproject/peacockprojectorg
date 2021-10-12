@@ -80,10 +80,10 @@ module.exports = {
                             label: "Privacy Policy",
                             to: "/wiki/legal/privacy-policy"
                         },
-                        //{
-                        //    label: "Terms of Service",
-                        //    to: "/wiki/legal/terms-of-service"
-                        //},
+                        {
+                            label: "Terms of Service",
+                            to: "/wiki/legal/terms-of-service"
+                        },
                     ],
                 }
             ],

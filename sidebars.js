@@ -33,7 +33,7 @@ module.exports = {
         {
             type: "category",
             label: "Legal",
-            items: ["legal/privacy-policy"],
+            items: ["legal/privacy-policy", "legal/terms-of-service"],
         },
     ],
 }
