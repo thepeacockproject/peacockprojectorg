@@ -26,7 +26,7 @@ module.exports = {
                     label: "Wiki",
                 },
                 {
-                    href: "https://discord.gg/peacock",
+                    href: "https://discord.gg/F8qQTfnajw",
                     label: "Discord",
                     position: "left",
                 },
