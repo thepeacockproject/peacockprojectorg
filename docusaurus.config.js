@@ -121,5 +121,6 @@ module.exports = {
                 changefreq: "weekly",
             },
         ],
+        "@docusaurus/plugin-ideal-image",
     ],
 }

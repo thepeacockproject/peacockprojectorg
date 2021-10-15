@@ -4,8 +4,8 @@
 
 ## Can I use this if I am not on PC?
 
-No. Sadly, there is no way to inject the required code into the game on console, Stadia, Switch, etc.
-Peacock is PC only.
+No. Sadly, we haven't found a way to inject the required code into the game on console, Stadia, Switch, etc.
+Peacock is PC only (at least, for the foreseeable future).
 
 ## What are the requirements for using this?
 
@@ -21,7 +21,7 @@ It can:
 -   Let you play content that isn't officially in the game anymore, such as Holiday Hoarders, Hokkaido Snow Festival, Berlin Egg Hunt, and the HITMAN™ 2 Halloween escalation
 -   Display leaderboards for other Peacock users
 -   Play contracts, and download them from the official servers with ease (our contracts are simple files, you can modify them and share them with your friends!)
--   Give you all unlockables by default (progression coming soon)
+-   Give you all unlockables by default
 
 ## Why Peacock as the name?
 
