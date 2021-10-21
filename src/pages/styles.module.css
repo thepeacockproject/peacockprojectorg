@@ -52,3 +52,11 @@
 .brandingText {
     padding: var(--ifm-footer-padding-vertical) calc(var(--ifm-footer-padding-horizontal) * 2);
 }
+
+.enableGrid {
+    display: grid;
+}
+
+.fixedWidthBtn {
+    width: 300px;
+}

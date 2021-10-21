@@ -84,17 +84,27 @@ function Home() {
                     </section>
                 )}
                 <section className={styles.bottomCardSpace}>
-                    <h3 className={"text--center"}>Don't believe us?</h3>
                     <div className={styles.buttons}>
                         <Link
                             className={clsx(
-                                "button button--primary button--lg"
+                                "button button--primary button--lg",
+                                styles.fixedWidthBtn,
                             )}
-                            to={"/testimonials"}
+                            to="/testimonials"
                         >
-                            Read what our users say <OpenIcon className={styles.icon}/>
+                            Read what our users say
                         </Link>
                     </div>
+                </section>
+                <section className={clsx(styles.bottomCardSpace, styles.enableGrid)}>
+                    <h3 className={clsx("text--center", styles.bottomCardSpace)}>Ready to give Peacock a shot?</h3>
+                    <div className={clsx(styles.buttons, styles.bottomCardSpace)}>
+                        <a href="/discord" className={clsx(
+                            "button button--success button--lg",
+                            styles.fixedWidthBtn
+                        )}>Join our Discord! <OpenIcon className={styles.icon} /></a>
+                    </div>
+                    <small className="text--center">(Downloads are available on Discord, requires verification of game ownership)</small>
                 </section>
             </main>
         </Layout>
