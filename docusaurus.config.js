@@ -14,7 +14,7 @@ module.exports = {
     themeConfig: {
         navbar: {
             logo: {
-                src: "/ModifiedFinalLogo.png",
+                src: "/feather.png",
                 alt: "Peacock Logo",
             },
             title: "The Peacock Project",
@@ -89,7 +89,7 @@ module.exports = {
             ],
             logo: {
                 alt: "Peacock Feather Logo",
-                src: "/ModifiedFinalLogo.png",
+                src: "/feather.png",
                 href: "https://thepeacockproject.org/branding",
             },
             copyright: `Copyright © ${new Date().getFullYear()} The Peacock Project. Not owned, affiliated with, or endorsed by IO Interactive. HITMAN™ is a registered trademark of Square Enix Group.`,
