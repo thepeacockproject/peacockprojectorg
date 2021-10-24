@@ -1,6 +1,10 @@
 ---
 slug: /
+title: Home
+description: Welcome to The Peacock Project's wiki!
 ---
+
+![Peacock Banner](/img/peacock-banner.jpg)
 
 # Home
 
