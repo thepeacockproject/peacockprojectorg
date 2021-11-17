@@ -34,10 +34,10 @@ export default function Branding() {
                     <div className="container">
                         <div className={clsx("card item shadow--md", styles.cardSpace)}>
                             <div className="card__body">
-                                <img aria-describedby="logo-caption" src="/feather.png" alt="Peacock Feather Logo" width={275} height={338} />
+                                <img aria-describedby="logo-caption" src="/img/feather.png" alt="Peacock Feather Logo" width={275} height={338} />
                                 <p id="logo-caption">The Peacock Feather Logo, made by <a target="_blank" rel="noreferrer noopener" href="https://twitter.com/MikeGraphics">Karma4D</a>, based of the original by rdil.</p>
-                                <a href="/feather.png" target="_blank" rel="noopener noreferrer" className={styles.linkSpace}>.PNG</a>
-                                <a href="/feather-alpha.png" target="_blank" rel="noopener noreferrer">.PNG (Alpha)</a>
+                                <a href="/img/feather.png" target="_blank" rel="noopener noreferrer" className={styles.linkSpace}>.PNG</a>
+                                <a href="/img/feather-alpha.png" target="_blank" rel="noopener noreferrer">.PNG (Alpha)</a>
                             </div>
                         </div>
                     </div>

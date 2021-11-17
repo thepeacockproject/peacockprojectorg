@@ -6,11 +6,6 @@ module.exports = {
             id: "home",
         },
         {
-            type: "category",
-            label: "Bugs and Features",
-            items: ["bugs", "features"],
-        },
-        {
             type: "doc",
             id: "custom-content",
         },

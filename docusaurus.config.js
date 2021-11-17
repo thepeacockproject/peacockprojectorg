@@ -11,10 +11,20 @@ module.exports = {
     organizationName: "RDIL",
     projectName: "peacockprojectorg",
     baseUrlIssueBanner: false,
+    webpack: {
+        jsLoader: (isServer) => ({
+            loader: require.resolve("esbuild-loader"),
+            options: {
+                loader: 'tsx',
+                format: isServer ? "cjs" : undefined,
+                target: isServer ? "node12" : "es2017",
+            },
+        }),
+    },
     themeConfig: {
         navbar: {
             logo: {
-                src: "/feather.png",
+                src: "/img/feather.png",
                 alt: "Peacock Logo",
             },
             title: "The Peacock Project",
@@ -39,17 +49,13 @@ module.exports = {
                     title: "Wiki",
                     items: [
                         {
-                            label: "Bug Tracker",
-                            to: "/wiki/bugs",
-                        },
-                        {
-                            label: "Requested Features",
-                            to: "/wiki/features",
-                        },
-                        {
                             label: "Knowledge Base",
                             to: "/wiki/intel",
                         },
+                        {
+                            label: "Help/Bugs/Feature Requests (in our Discord)",
+                            href: "https://discord.gg/F8qQTfnajw",
+                        }
                     ],
                 },
                 {
@@ -89,7 +95,7 @@ module.exports = {
             ],
             logo: {
                 alt: "Peacock Feather Logo",
-                src: "/feather.png",
+                src: "/img/feather.png",
                 href: "https://thepeacockproject.org/branding",
             },
             copyright: `Copyright © ${new Date().getFullYear()} The Peacock Project. Not owned, affiliated with, or endorsed by IO Interactive. HITMAN™ is a registered trademark of Square Enix Group.`,
