@@ -9,7 +9,17 @@ Peacock is PC only (at least, for the foreseeable future).
 
 ## What are the requirements for using this?
 
-Just a non-pirated copy of the game for PC.
+- A non-pirated copy of the game, from one of the following stores:
+  - HITMAN™ from Steam
+  - HITMAN™ GOTY Edition from Epic Games
+  - HITMAN™ 2 from Steam
+  - HITMAN™ 3 from Epic Games
+- For the server:
+  - A platform supported by Node.js, meaning Windows 8.1 or up, or a recent Linux/macOS/FreeBSD installation.
+  - We have alternatives available if you are unable to meet these requirements, please ask in the Discord.
+- For the patcher:
+  - Windows 7 or up
+- You can run the server on any machine that supports the Node.js version that Peacock targets, but the patcher must be run on the same machine as the game.
 
 ## What can the server do?
 
@@ -17,8 +27,8 @@ It can:
 
 -   Keep track of your rating (Silent Assassin, etc.)
 -   Give you a rating screen on mission end
--   Let you play most of the official content, except for some escalations, which are in the process of being ported
--   Let you play content that isn't officially in the game anymore, such as Holiday Hoarders, Hokkaido Snow Festival, Berlin Egg Hunt, and the HITMAN™ 2 Halloween escalation
+-   Let you play most of the official content (with other content available in plugin form)
+-   Let you play content that isn't officially in the game anymore, such as Berlin Egg Hunt
 -   Display leaderboards for other Peacock users
 -   Play contracts, and download them from the official servers with ease (our contracts are simple files, you can modify them and share them with your friends!)
 -   Give you all unlockables by default

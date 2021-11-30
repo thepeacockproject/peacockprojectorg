@@ -43,13 +43,21 @@ Please contact a project admin on Discord, or email me [at symbol] rdil [dot] ro
 
 The Peacock server has the built-in capability as of recently released versions to opt out of certain features that may collect personal information.
 
-To opt out of leaderboard data being submitted to our servers, run the server once, then edit the generated `flags.json5` file, setting the `leaderboardsOptOut` value to `true`.
-To opt out of update checking, run the server once, then edit the generated `flags.json5` file, setting the `disableUpdateChecking` value to `true`.
+To opt out of leaderboard data being submitted to our servers, run the server once, then edit the generated `options.ini` file, setting the `leaderboardsOptOut` value to `true`.
+To opt out of update checking, run the server once, then edit the generated `options.ini` file, setting the `disableUpdateChecking` value to `true`.
 
 ## Responsible disclosure of data breaches
 
 In the case that any data collected is ever leaked, we will try our best to notify the affected users.
 Please note that we may not be able to contact you if you leave the Discord server, disable Discord direct messages, or fail to check Discord when we inform you.
+
+## Use of data by third parties
+
+Our infrastructure makes use of third parties which may process or retain your data, the privacy policies of those services can be found at:
+
+- https://sentry.io/privacy/
+- https://www.cloudflare.com/privacypolicy/
+- https://discord.com/privacy
 
 ## Updates to this policy
 
