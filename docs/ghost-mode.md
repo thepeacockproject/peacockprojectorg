@@ -1,5 +1,6 @@
 ---
 image: /img/ghostmode.jpg
+description: Details about The Peacock Project's Ghost Mode server, allowing players to use the now-scrapped game mode.
 ---
 
 # Ghost Mode
@@ -11,7 +12,7 @@ You and a friend can connect and invite each other to a friendly Ghost Mode matc
 
 (_Matchmaking is not yet supported_).
 
-Ghost Mode is available for PC players who own HITMAN™ 2 (legitimately).
+Ghost Mode is available for PC players who own HITMAN™ 2 on Steam.
 
 ## How to Connect
 
@@ -21,7 +22,7 @@ Ghost Mode is available for PC players who own HITMAN™ 2 (legitimately).
 4. Start HITMAN™ 2, press enter when prompted.
 5. You are ready to play Ghost Mode!
 
-You will need to manually invite a friend, as matchmaking is not yet supported.
+Want to go back to the official servers? Just close the patcher and restart the game.
 
 ## Side Notes
 

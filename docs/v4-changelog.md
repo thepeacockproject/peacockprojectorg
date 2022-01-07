@@ -4,7 +4,7 @@ title: Peacock v4 Changelog
 
 - Gamechangers and contracts mode objectives no longer duplicate upon restart.
 - Jack-O-Lantern now has a proper name and description
-- Hitman™️: Sniper Assassin (standalone game) now has full support (minus challenges, progression, and multiplayer)
+- HITMAN™️: Sniper Assassin (standalone game) now has full support (minus challenges, progression, and multiplayer)
 - Patcher updates: Tray features and consistent design tweaks
 - Escalations in Hitman 2016 now show proper progression
 - Contract lookup box now works in 2016

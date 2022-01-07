@@ -5,7 +5,7 @@
 ## Can I use this if I am not on PC?
 
 No. Sadly, we haven't found a way to inject the required code into the game on console, Stadia, Switch, etc.
-Peacock is PC only (at least, for the foreseeable future).
+Peacock is PC only.
 
 ## What are the requirements for using this?
 
@@ -47,7 +47,7 @@ Yes, you can. Assuming the save was made while on Peacock (not on IOI servers or
 
 ## Will this work for H2 or H2016?
 
-Somewhat. We are still actively working on support for both games, and you can give it a try, but be warned: there will be bugs.
+Somewhat. We are still actively working on support for both games, and you can give it a try, but be warned: there may be bugs.
 
 ## Does this in any way affect my official servers profile?
 
