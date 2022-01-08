@@ -11,16 +11,16 @@ module.exports = {
     organizationName: "RDIL",
     projectName: "peacockprojectorg",
     baseUrlIssueBanner: false,
-    webpack: {
-        jsLoader: (isServer) => ({
-            loader: require.resolve("esbuild-loader"),
-            options: {
-                loader: 'tsx',
-                format: isServer ? "cjs" : undefined,
-                target: isServer ? "node12" : "es2017",
-            },
-        }),
-    },
+    // webpack: {
+    //     jsLoader: (isServer) => ({
+    //         loader: require.resolve("esbuild-loader"),
+    //         options: {
+    //             loader: 'tsx',
+    //             format: isServer ? "cjs" : undefined,
+    //             target: isServer ? "node12" : "es2017",
+    //         },
+    //     }),
+    // },
     themeConfig: {
         navbar: {
             logo: {
