@@ -14,6 +14,7 @@ Peacock is PC only.
   - HITMAN™ GOTY Edition from Epic Games
   - HITMAN™ 2 from Steam
   - HITMAN™ 3 from Epic Games
+  - HITMAN™ 3 from Steam
 - For the server:
   - A platform supported by Node.js, meaning Windows 8.1 or up, or a recent Linux/macOS/FreeBSD installation.
   - We have alternatives available if you are unable to meet these requirements, please ask in the Discord.
