@@ -49,7 +49,6 @@ Also note: Hitman 2016 / Hitman 2 are not as well supported as Hitman 3, there m
 
 ## How to Install / Use Peacock
 
-<div class = "h2_kb">
 <details>
 <summary> Click to Expand </summary>
   
@@ -68,7 +67,6 @@ Also note: Hitman 2016 / Hitman 2 are not as well supported as Hitman 3, there m
 </p>
 
 </details>
-</div>
 
 ## When / How to Update Peacock
 
@@ -94,6 +92,7 @@ Also note: Hitman 2016 / Hitman 2 are not as well supported as Hitman 3, there m
 
 ## General Peacock Use Tips
 
+
 <details>
 <summary>Click to Expand</summary>
 
@@ -116,4 +115,13 @@ Also note: Hitman 2016 / Hitman 2 are not as well supported as Hitman 3, there m
 </details>
   
   
+
+## For Additional Help/ Troubleshooting
+
+<p>
+
+-   Ask in the Peacock Discord ```#help``` channel (https://thepeacockproject.org/discord)
+
+</p>
+
 </div>
