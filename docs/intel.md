@@ -70,7 +70,6 @@ Also note: Hitman 2016 / Hitman 2 are not as well supported as Hitman 3, there m
 </p>
 
 </details>
-</div>
 
 ## When / How to Update Peacock
 
