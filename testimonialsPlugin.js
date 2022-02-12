@@ -5,13 +5,15 @@ module.exports = function (context) {
         name: "docusaurus-peacock-testmonials-plugin",
 
         async loadContent() {
-            return JSON.parse((await fs.readFile("static/testimonials.json")).toString())
+            return JSON.parse(
+                (await fs.readFile("static/testimonials.json")).toString()
+            )
         },
 
         async contentLoaded({ content, actions }) {
             const testiDataPath = await actions.createData(
                 "testimonialsData.json",
-                JSON.stringify(content),
+                JSON.stringify(content)
             )
 
             actions.addRoute({

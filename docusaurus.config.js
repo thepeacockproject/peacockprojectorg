@@ -45,7 +45,7 @@ module.exports = {
                         {
                             label: "Help/Bugs/Feature Requests (in our Discord)",
                             href: "https://discord.gg/F8qQTfnajw",
-                        }
+                        },
                     ],
                 },
                 {
@@ -53,7 +53,7 @@ module.exports = {
                     items: [
                         {
                             label: "Testimonials",
-                            to: "/testimonials"
+                            to: "/testimonials",
                         },
                         {
                             label: "Ghost Mode",
@@ -74,14 +74,14 @@ module.exports = {
                     items: [
                         {
                             label: "Privacy Policy",
-                            to: "/wiki/legal/privacy-policy"
+                            to: "/wiki/legal/privacy-policy",
                         },
                         {
                             label: "Terms of Service",
-                            to: "/wiki/legal/terms-of-service"
+                            to: "/wiki/legal/terms-of-service",
                         },
                     ],
-                }
+                },
             ],
             logo: {
                 alt: "Peacock Feather Logo",

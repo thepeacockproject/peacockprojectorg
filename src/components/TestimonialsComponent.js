@@ -18,18 +18,25 @@ function TestimonialsComponent({ data }) {
                 </div>
             </header>
             <main className={styles.bottomCardSpace}>
-                {data && data.length > 0 && data.map((obj) => (
-                    <section key={obj.author}>
-                        <div className="container">
-                            <div className={clsx("card item shadow--md", styles.cardSpace)}>
-                                <div className="card__body">
-                                    <p>"{obj.text}"</p>
-                                    <p>- {obj.author}</p>
+                {data &&
+                    data.length > 0 &&
+                    data.map((obj) => (
+                        <section key={obj.author}>
+                            <div className="container">
+                                <div
+                                    className={clsx(
+                                        "card item shadow--md",
+                                        styles.cardSpace
+                                    )}
+                                >
+                                    <div className="card__body">
+                                        <p>"{obj.text}"</p>
+                                        <p>- {obj.author}</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </section>
-                ))}
+                        </section>
+                    ))}
             </main>
         </Layout>
     )

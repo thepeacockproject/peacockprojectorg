@@ -12,7 +12,7 @@
         "serve": "docusaurus serve",
         "write-translations": "docusaurus write-translations",
         "write-heading-ids": "docusaurus write-heading-ids",
-        "prettier": "prettier --write **/*.{js,md,html,json}"
+        "prettier": "prettier --write \"**/*.{js,md,html,json}\""
     },
     "resolutions": {
         "react": "^17.0.2"

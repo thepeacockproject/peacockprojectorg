@@ -34,22 +34,14 @@ const features = [
     {
         title: "Custom content",
         imageUrl: <CustomLight className={styles.featureImage} />,
-        description: (
-            <>
-                We feature exclusive, custom content every month!
-            </>
-        ),
+        description: <>We feature exclusive, custom content every month!</>,
     },
 ]
 
 function Feature({ imageUrl, title, description }) {
     return (
         <div className={clsx("col col--4", styles.feature)}>
-            {imageUrl && (
-                <div className="text--center">
-                    {imageUrl}
-                </div>
-            )}
+            {imageUrl && <div className="text--center">{imageUrl}</div>}
             <h3 className="text--center">{title}</h3>
             <p className="text--center">{description}</p>
         </div>
@@ -88,7 +80,7 @@ function Home() {
                         <Link
                             className={clsx(
                                 "button button--primary button--lg",
-                                styles.fixedWidthBtn,
+                                styles.fixedWidthBtn
                             )}
                             to="/testimonials"
                         >
@@ -96,15 +88,32 @@ function Home() {
                         </Link>
                     </div>
                 </section>
-                <section className={clsx(styles.bottomCardSpace, styles.enableGrid)}>
-                    <h3 className={clsx("text--center", styles.bottomCardSpace)}>Ready to give Peacock a shot?</h3>
-                    <div className={clsx(styles.buttons, styles.bottomCardSpace)}>
-                        <a href="/discord" className={clsx(
-                            "button button--success button--lg",
-                            styles.fixedWidthBtn
-                        )}>Join our Discord! <OpenIcon className={styles.icon} /></a>
+                <section
+                    className={clsx(styles.bottomCardSpace, styles.enableGrid)}
+                >
+                    <h3
+                        className={clsx("text--center", styles.bottomCardSpace)}
+                    >
+                        Ready to give Peacock a shot?
+                    </h3>
+                    <div
+                        className={clsx(styles.buttons, styles.bottomCardSpace)}
+                    >
+                        <a
+                            href="/discord"
+                            className={clsx(
+                                "button button--success button--lg",
+                                styles.fixedWidthBtn
+                            )}
+                        >
+                            Join our Discord!{" "}
+                            <OpenIcon className={styles.icon} />
+                        </a>
                     </div>
-                    <small className="text--center">(Downloads are available on Discord, requires verification of game ownership)</small>
+                    <small className="text--center">
+                        (Downloads are available on Discord, requires
+                        verification of game ownership)
+                    </small>
                 </section>
             </main>
         </Layout>

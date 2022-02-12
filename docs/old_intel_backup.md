@@ -9,18 +9,18 @@ Peacock is PC only.
 
 ## What are the requirements for using this?
 
-- A non-pirated copy of the game, from one of the following stores:
-  - HITMAN™ from Steam
-  - HITMAN™ GOTY Edition from Epic Games
-  - HITMAN™ 2 from Steam
-  - HITMAN™ 3 from Epic Games
-  - HITMAN™ 3 from Steam
-- For the server:
-  - A platform supported by Node.js, meaning Windows 8.1 or up, or a recent Linux/macOS/FreeBSD installation.
-  - We have alternatives available if you are unable to meet these requirements, please ask in the Discord.
-- For the patcher:
-  - Windows 7 or up
-- You can run the server on any machine that supports the Node.js version that Peacock targets, but the patcher must be run on the same machine as the game.
+-   A non-pirated copy of the game, from one of the following stores:
+    -   HITMAN™ from Steam
+    -   HITMAN™ GOTY Edition from Epic Games
+    -   HITMAN™ 2 from Steam
+    -   HITMAN™ 3 from Epic Games
+    -   HITMAN™ 3 from Steam
+-   For the server:
+    -   A platform supported by Node.js, meaning Windows 8.1 or up, or a recent Linux/macOS/FreeBSD installation.
+    -   We have alternatives available if you are unable to meet these requirements, please ask in the Discord.
+-   For the patcher:
+    -   Windows 7 or up
+-   You can run the server on any machine that supports the Node.js version that Peacock targets, but the patcher must be run on the same machine as the game.
 
 ## What can the server do?
 

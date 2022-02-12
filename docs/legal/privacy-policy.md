@@ -9,9 +9,9 @@ description: How The Peacock Project handles and stores user data.
 
 This policy applies to the following websites and products:
 
-- All routes starting with '/peacock' on backend.rdil.rocks.
-- Any content displayed on thepeacockproject.org
-- Data sent to us when using the Peacock Server.
+-   All routes starting with '/peacock' on backend.rdil.rocks.
+-   Any content displayed on thepeacockproject.org
+-   Data sent to us when using the Peacock Server.
 
 ## What data do we collect?
 
@@ -23,17 +23,17 @@ This information is stored on our servers for a maximum of 72 hours.
 When you log in, the following information may be logged (in which case it is stored for a maximum of 1 business week),
 or stored in our database for long term data retrieval/storage:
 
-- All details saved when you view the page (as outlined above) (logged)
-- Basic data about your Discord account (see Discord developer documentation for what information is returned when using OAuth 2)
-- Unless explicitly opted out of leaderboards, details of the events that are triggered during levels, as well as scoring details, are stored in our database.
+-   All details saved when you view the page (as outlined above) (logged)
+-   Basic data about your Discord account (see Discord developer documentation for what information is returned when using OAuth 2)
+-   Unless explicitly opted out of leaderboards, details of the events that are triggered during levels, as well as scoring details, are stored in our database.
 
 ## What do we use this data for?
 
 We use this data for purposes including:
 
-- Verifying you are in the Discord server
-- Assigning roles based on ownership status in the Discord server
-- Keeping track of leaderboard positions and statistics, and for moderation of these leaderboards.
+-   Verifying you are in the Discord server
+-   Assigning roles based on ownership status in the Discord server
+-   Keeping track of leaderboard positions and statistics, and for moderation of these leaderboards.
 
 ## Request deletion of your data
 
@@ -55,9 +55,9 @@ Please note that we may not be able to contact you if you leave the Discord serv
 
 Our infrastructure makes use of third parties which may process or retain your data, the privacy policies of those services can be found at:
 
-- https://sentry.io/privacy/
-- https://www.cloudflare.com/privacypolicy/
-- https://discord.com/privacy
+-   https://sentry.io/privacy/
+-   https://www.cloudflare.com/privacypolicy/
+-   https://discord.com/privacy
 
 ## Updates to this policy
 
