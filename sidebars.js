@@ -7,11 +7,11 @@ module.exports = {
         },
         {
             type: "doc",
-            id: "custom-content",
+            id: "intel",
         },
         {
             type: "doc",
-            id: "intel",
+            id: "custom-content",
         },
         {
             type: "doc",
