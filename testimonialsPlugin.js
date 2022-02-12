@@ -1,6 +1,6 @@
 const fs = require("fs/promises")
 
-module.exports = function (context) {
+module.exports = function () {
     return {
         name: "docusaurus-peacock-testmonials-plugin",
 
