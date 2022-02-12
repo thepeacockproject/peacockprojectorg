@@ -1,4 +1,7 @@
-# Knowledge Base
+---
+title: Knowledge Base
+description: Details on what Peacock is, how to install it, how to use it, and more.
+---
 
 <div class="knowlegebase_h2">
 
@@ -49,9 +52,9 @@ Also note: Hitman 2016 / Hitman 2 are not as well supported as Hitman 3, there m
 
 ## How to Install / Use Peacock
 
-<div class = "h2_kb">
+<div class="h2_kb">
 <details>
-<summary> Click to Expand </summary>
+<summary>Click to Expand</summary>
   
 <p>
 
@@ -114,6 +117,6 @@ Also note: Hitman 2016 / Hitman 2 are not as well supported as Hitman 3, there m
 
 </p>
 </details>
-  
-  
+
+
 </div>
