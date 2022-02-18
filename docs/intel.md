@@ -3,6 +3,8 @@ title: Knowledge Base
 description: Details on what Peacock is, how to install it, how to use it, and more.
 ---
 
+<div class="make_h2_smaller">
+
 ## What is Peacock?
 
 <details><summary>Click to Expand</summary>
@@ -122,3 +124,5 @@ Also note: Hitman 2016 / Hitman 2 are not as well supported as Hitman 3, there m
 -   Ask in the Peacock Discord `#help` channel (https://thepeacockproject.org/discord)
 
 </p>
+
+</div>
