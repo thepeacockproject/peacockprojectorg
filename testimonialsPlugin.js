@@ -26,5 +26,9 @@ module.exports = function () {
                 exact: true,
             })
         },
+
+        getPathsToWatch() {
+            return ["static/testimonials.json"]
+        },
     }
 }
