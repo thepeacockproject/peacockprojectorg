@@ -11,6 +11,7 @@ description: Details on what Peacock is, how to install it, how to use it, and m
 -   Peacock is essentially a Hitman server emulator that runs on your own PC.
 -   Benefits of using Peacock include:
     -   **Obtain all unlocks immediately**
+	     -   Note: Colorado, Dubai, and Dartmoor exits may not be fully unlocked on a first playthrough. For Colorado you will have to unlock the tornado exit, for Dubai you will need to open up elevator exit, for Dartmoor you need to exit via bike exit 	once. You can prevent having to unlock these exits each time Peacock updates by following the tips in the "When / How to 	Update" Section below. 
     -   Play [custom](custom-content.mdx) or otherwise discontinued/ time limited content such as [Ghost Mode](https://thepeacockproject.org/wiki/ghost-mode), legacy escalations, elusive targets.
     -   Display leaderboards for other Peacock users
     -   Access Hitman's rating system without being connected to IOI's servers
@@ -81,7 +82,7 @@ Also note: Hitman 2016 / Hitman 2 are not as well supported as Hitman 3, there m
     - Note: Peacock may be temporarily unavailable after a game update, as it takes a few hours for the Peacock Patcher to be updated as well.
 3. If there is a new Peacock update, go to the `#downloads` channel in the Peacock Discord to download the latest build.
 4. Extract (unzip) files. Running the files from within the zipped folder will not work.
-5. **Assuming you have used Peacock during the previous game update**, follow the instructions below to keep your loadouts and in-game savefiles (your loadouts will all default back to ICA19/coins/fiberwire, and your in-game save files will be lost otherwise).
+5. **Assuming you have used Peacock during the previous game update**, follow the instructions below to keep your loadouts and in-game savefiles (Otherwise, your loadouts will all default back to ICA19/coins/fiberwire, you will need to unlock Colorado / Dubai / Dartmoor exits again, and your in-game save files will be lost).
 
     - Copy your old userdata and contractSessions folders (ex: `...Peacock-vx.x.x\Peacock-vx.x.x\userdata`) and (ex: `...Peacock-vx.x.x\Peacock-vx.x.x\contractSessions`) from your previous Peacock build, and paste it into your new Peacock build's main folder (`...Peacock-vy.y.y\Peacock-vy.y.y`), where `x.x.x` stands for the old Peacock version, and `y.y.y` stands for the new Peacock version. Replace any existing files in the new Peacock build's folder, if necessary.
 
