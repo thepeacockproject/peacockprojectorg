@@ -118,48 +118,49 @@ Also note: Hitman 2016 / Hitman 2 are not as well supported as Hitman 3, there m
 </p>
 </details>
 
-</p>
-
-</details>
 
 ## Autosplitter Setup (For Full Game Speedruns)
+
+<details>
+<summary>Click to Expand</summary>
+
+<p>
 
 *Guide written originally by [Fusha](https://www.speedrun.com/user/Fusha)*
 
 ### Specifications
-(see Usage Notes below as well)
+(see "How to Use" and "Other Usage Notes" below as well)
 - 100% accurate to how runs are timed for verification purposes, unlike the [Official Servers Autosplitter](https://www.speedrun.com/hitman_3/guide/kbydm).
 
 - Several miscellaneous glitches like the splitter not working correctly from Outside Romania start are fixed.
 
-- Splits fully automatically, based on which level you start on. Starting and stopping the splitter (by pressing numpad keys etc) is not needed.
+- Splits fully automatically, based on which level you start on and which full game category you are playing. Starting and stopping the splitter (by pressing numpad keys etc) is not needed.
 
 - Works on both Steam and Epic versions of Hitman 3 unlike the Official Servers Autosplitter (which is Epic only).
 
 - Obviously this only works on [Peacock](https://thepeacockproject.org/wiki/intel/), if you are playing on official servers for some reason you should use one of the [other two Livesplit Guides](https://www.speedrun.com/hitman_3/guides).
 
 ### Installation
-0. Close LiveSplit & Peacock if you have either of them open
 
-0a. Install [Peacock](https://thepeacockproject.org/wiki/intel/) and [LiveSplit](https://livesplit.org/downloads/) if you don't have either of them installed (just unzip them wherever you want)
+1. Install [Peacock](https://thepeacockproject.org/wiki/intel/) and [LiveSplit](https://livesplit.org/downloads/) if you don't have either of them installed (just unzip them wherever you want). After you get these apps installed, close them for now.
 
-1. Download LiveSplit server component from here https://github.com/LiveSplit/LiveSplit.Server/releases/tag/1.8.17
+2. Download LiveSplit server component from here https://github.com/LiveSplit/LiveSplit.Server/releases/tag/1.8.17
 
-2. Unzip and place the two files that you just downloaded in the LiveSplit Server component zip into the Components folder inside the ```LiveSplit``` installation folder
+3. Unzip and place the two files that you just downloaded in the LiveSplit Server component zip into the Components folder inside the ```LiveSplit``` installation folder
 
-3. Make sure you have the latest Peacock version installed
+4. Make sure you have the latest Peacock version installed
 
-4. Start LiveSplit
+5. Start LiveSplit
 
-5. Right click on main Livesplit window -> Edit Splits. Edit your split names ("Segment Name") to your liking. Click on "Insert Above / Below" to add new segments. If you like, you can enter your estimated times in "Segment Times".
+6. Right click on main Livesplit window -> Edit Splits. Edit your split names ("Segment Name") to your liking. Click on "Insert Above / Below" to add new segments. If you like, you can enter your estimated times in "Segment Times".
 
-6. Click "ok" on the Splits Editor, then right click the main Livesplit window and select "save layout" for future use.
+7. Click "ok" on the Splits Editor, then right click the main Livesplit window and select "save layout" for future use.
 
-7. Right click on main Livesplit window -> Edit Layout -> Double click on "Timer" -> Select "Game Time" for timing method. 
+8. Right click on main Livesplit window -> Edit Layout -> Double click on "Timer" -> Select "Game Time" for timing method. 
 
-8. While still on the Edit Layout page: Click  "+" button -> Control -> LiveSplit Server
+9. While still on the Edit Layout page: Click  "+" button -> Control -> LiveSplit Server
 
-9. Click "ok" on the Layout Editor, then right click the main Livesplit window and select "save layout" for future use.
+10. Click "ok" on the Layout Editor, then right click the main Livesplit window and select "save layout" for future use.
 
 ### How to use 
 (Do each time you open the game, order is important! Make sure to start LiveSplit and start the server before you start Peacock)
