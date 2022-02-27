@@ -132,7 +132,7 @@ Also note: Hitman 2016 / Hitman 2 are not as well supported as Hitman 3, there m
 (see "How to Use" and "Other Usage Notes" below as well)
 - 100% accurate to how runs are timed for verification purposes, unlike the [Official Servers Autosplitter](https://www.speedrun.com/hitman_3/guide/kbydm).
 
-- Several miscellaneous glitches like the splitter not working correctly from Outside Romania start are fixed.
+- Several miscellaneous glitches like the splitter not working correctly from "Outside" Romania starting location are fixed.
 
 - Splits fully automatically, based on which level you start on and which full game category you are playing. Starting and stopping the splitter (by pressing numpad keys etc) is not needed.
 
