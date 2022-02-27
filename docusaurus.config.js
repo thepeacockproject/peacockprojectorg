@@ -15,7 +15,8 @@ module.exports = {
         metadata: [
             {
                 name: "keywords",
-                content: "peacock, project, hitman, server, replacement, emulator, offline, hitman 3",
+                content:
+                    "peacock, project, hitman, server, replacement, emulator, offline, hitman 3",
             },
         ],
         navbar: {
