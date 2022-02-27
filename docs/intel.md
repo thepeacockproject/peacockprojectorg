@@ -142,34 +142,32 @@ Also note: Hitman 2016 / Hitman 2 are not as well supported as Hitman 3, there m
 
 ### Installation
 
-1. Install [Peacock](https://thepeacockproject.org/wiki/intel/) and [LiveSplit](https://livesplit.org/downloads/) if you don't have either of them installed (just unzip them wherever you want). After you get these apps installed, close them for now.
+1. Install [Peacock](https://thepeacockproject.org/wiki/intel/) and [LiveSplit](https://livesplit.org/downloads/) if you don't have either of them installed (just unzip them wherever you want). **If you already have Peacock installed, make sure to you have it updated to the latest version.** After you get these apps installed/updated, close them for now.
 
 2. Download LiveSplit server component from here: https://github.com/LiveSplit/LiveSplit.Server/releases/tag/1.8.17
 
 3. Unzip and place the two files that you just downloaded in the LiveSplit Server component zip into the Components folder inside the ```LiveSplit``` installation folder.
 
-4. Make sure you have the latest Peacock version installed.
+4. Start LiveSplit.
 
-5. Start LiveSplit.
+6. Right click on main Livesplit window, then click on ```Edit Splits```. Edit your split names (```Segment Name```) to your liking. Click on ```Insert Above / Below``` to add new segments. If you like, you can enter your estimated times in ```Segment Times```.
 
-6. Right click on main Livesplit window -> Edit Splits. Edit your split names ("Segment Name") to your liking. Click on "Insert Above / Below" to add new segments. If you like, you can enter your estimated times in "Segment Times".
+7. Click ```ok``` on the Splits Editor, then right click the main Livesplit window and select ```save layout``` for future use.
 
-7. Click "ok" on the Splits Editor, then right click the main Livesplit window and select "save layout" for future use.
+8. Right click on main Livesplit window, then click on ```Edit Layout```. Double click on ```Timer```, then select ```Game Time``` for timing method. 
 
-8. Right click on main Livesplit window -> Edit Layout -> Double click on "Timer" -> Select "Game Time" for timing method. 
+9. While still on the ```Edit Layout``` page: Click  ```+``` button, then ```Control```, then ```Livesplit Server```.
 
-9. While still on the Edit Layout page: Click  "+" button -> Control -> LiveSplit Server.
-
-10. Click "ok" on the Layout Editor, then right click the main Livesplit window and select "save layout" for future use.
+10. Click ```ok``` on the Layout Editor, then right click the main Livesplit window and select ```save layout``` for future use.
 
 ### How to Use 
 (Do each time you open the game, order is important! Make sure to start LiveSplit and start the server before you start Peacock).
 
 1. Open LiveSplit
 
-2. Right click LiveSplit window -> Control -> Start Server.
+2. Right click on the main LiveSplit window, then select ```Control```, then ```Start Server```.
 
-3. If you would like to change what full game category you are running, edit ```options.ini``` file inside the Peacock folder and change the ```autoSplitterCampaign``` option to either trilogy, 1, 2, or 3 depending on which campaign you want to run (The autosplitter is set to "trilogy" by default). The autosplitter will only work so long as you play the selected campaign, in order.
+3. If you would like to change what full game category you are running, edit ```options.ini``` file inside the Peacock folder and change the ```autoSplitterCampaign``` option to either ```trilogy```, ```1```, ```2```, or ```3``` depending on which campaign you want to run (The autosplitter is set to ```trilogy``` by default). The autosplitter will only work so long as you play the selected campaign, in order.
 
 4. Open the folder where you have installed Peacock, and run ```Start Server.cmd``` and ```PeacockPatcher.exe```.
 
