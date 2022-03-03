@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "The Peacock Project",
+    "description": "The title in the navbar"
+  },
+  "item.label.Wiki": {
+    "message": "Wiki",
+    "description": "Navbar item with label Wiki"
+  },
+  "item.label.Discord": {
+    "message": "Discord",
+    "description": "Navbar item with label Discord"
+  }
+}

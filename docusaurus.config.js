@@ -11,6 +11,18 @@ module.exports = {
     organizationName: "RDIL",
     projectName: "peacockprojectorg",
     baseUrlIssueBanner: false,
+    i18n: {
+        defaultLocale: "en",
+        locales: ["en", "nl", "pt-BR"],
+        localeConfigs: {
+            en: {
+                htmlLang: "en-US",
+            },
+            fa: {
+                direction: "rtl",
+            },
+        },
+    },
     themeConfig: {
         metadata: [
             {
@@ -36,6 +48,10 @@ module.exports = {
                     href: "https://discord.gg/F8qQTfnajw",
                     label: "Discord",
                     position: "left",
+                },
+                {
+                    type: "localeDropdown",
+                    position: "right",
                 },
             ],
         },
@@ -113,6 +129,13 @@ module.exports = {
                 sidebarPath: require.resolve("./sidebars.js"),
                 routeBasePath: "/wiki/",
                 showLastUpdateTime: true,
+                editUrl: ({ locale }) => {
+                    if (locale !== "en") {
+                        return `https://crowdin.com/project/peacock/${locale}`
+                    }
+
+                    return undefined
+                },
             },
         ],
         "@docusaurus/plugin-content-pages",
