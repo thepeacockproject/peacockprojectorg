@@ -1,24 +1,24 @@
 ---
 title: Base de Conhecimento
-description: Details on what Peacock is, how to install it, how to use it, and more.
+description: Detalhes em o que o Peacock é, como instalar, como usar, e mais.
 ---
 
 <div class="make_h2_smaller">
 
-## What is Peacock?
+## O que é Peacock?
 
-<details><summary>Click to Expand</summary>
+<details><summary>Clique para expandir</summary>
 <p>
 
--   Peacock is essentially a Hitman server emulator that runs on your own PC.
--   Benefits of using Peacock include:
-    -   **Obtain all unlocks immediately**
-        -   Note: If it is your first time playing (on either Peacock or official servers), some exits will be locked. You will need to unlock Dubai exits ([need to unlock the elevators](https://youtu.be/IEQgRQyQRf8)), Dartmoor exits ([need to exit via bike at least once](https://youtu.be/AJtJZe9jEi8?t=151)), and Colorado exits ([need to use tornado exit at least once](https://youtu.be/3XKWHrKpXwk?t=140)). These exits are handled client-side.
-    -   Play [custom](custom-content.mdx) or otherwise discontinued/ time limited content such as [Ghost Mode](https://thepeacockproject.org/wiki/ghost-mode), legacy escalations, elusive targets.
-    -   Display leaderboards for other Peacock users
-    -   Access Hitman's rating system without being connected to IOI's servers
-        -   **Note: Peacock is not a fully offline experience.**
-        -   Each time you start the game, you will initially need to be connected to the internet still, to pass Steam or Epic verification.
+-   Peacock é essencialmente um emulador de servidor Hitman que roda no seu próprio computador.
+-   Benefícios de usar Peacock incluem:
+    -   **Obter todas as recompensas imediatamente**
+        -   Nota: Se é a sua primeira vez jogando (seja no Peacock ou em servidores oficiais), algumas saídas estarão bloqueadas. Você precisará desbloquear as saídas de Dubai ([precisa desbloquear os elevadores](https://youtu.be/IEQgRQyQRf8)), saídas de Dartmoor ([precisa sair por meio da moto pelo menos uma vez](https://youtu.be/AJtJZe9jEi8?t=151)), e saídas de Colorado ([precisa usar a saída do abrigo de tornados pelo menos uma vez(https://youtu.be/3XKWHrKpXwk?t=140)). Essas saídas estão sob responsabilidade do usuário.
+    -   Jogue [conteúdo customizado](custom-content.mdx) ou caso contrário conteúdo descontinuado/de tempo limitado como o [Modo Fantasma](https://thepeacockproject.org/wiki/ghost-mode), escalações legacy, alvos elusivos.
+    -   Mostrar placar para outros usuários Peacock
+    -   Acessar o sistema de avaliação do Hitman sem precisar estar conectado aos servidores da IOI
+        -   **Nota: Peacock não é uma experiência completamente offline.**
+        -   Toda vez que você iniciar o jogo, você precisará estar inicialmente conectado a internet, para passar pela verificação Steam ou Epic.
         -   After you have passed Steam/ Epic verification and have connected to Peacock, you are free to disconnect your internet if you like and you will stay connected to Peacock for the duration of your game session.
 -   Trivia: Peacock is the name that the game uses in its source code for the mission "The Showstopper", which ushered in a new era of Hitman. Hence, the reason for the name "Peacock".
 
@@ -27,7 +27,7 @@ description: Details on what Peacock is, how to install it, how to use it, and m
 
 ## Supported Games / Operating Systems
 
-<details><summary>Click to Expand</summary>
+<details><summary>Clique para expandir</summary>
 <p>
 
 **Supported Games / Platforms**
@@ -54,7 +54,7 @@ Also note: Hitman 2016 / Hitman 2 are not as well supported as Hitman 3, there m
 ## How to Install / Use Peacock
 
 <details>
-<summary>Click to Expand</summary>
+<summary>Clique para expandir</summary>
 
 <p>
 
@@ -75,7 +75,7 @@ Also note: Hitman 2016 / Hitman 2 are not as well supported as Hitman 3, there m
 ## When / How to Update Peacock
 
 <details>
-<summary>Click to Expand</summary>
+<summary>Clique para expandir</summary>
 
 <p>
 
@@ -97,7 +97,7 @@ Also note: Hitman 2016 / Hitman 2 are not as well supported as Hitman 3, there m
 ## General Peacock Use Tips
 
 <details>
-<summary>Click to Expand</summary>
+<summary>Clique para expandir</summary>
 
 <p>
 
@@ -113,7 +113,7 @@ Also note: Hitman 2016 / Hitman 2 are not as well supported as Hitman 3, there m
 
 -   Using Peacock will affect your official servers profile in very small ways.
     -   Due to the fact that we have not properly implemented some minor features like content/story spoiler warnings, it will change them all to the 'I have already played' state. Other than that, it shouldn't have any affect.
--   Note: If it is your first time playing (on either Peacock or official servers), some exits will be locked. You will need to unlock Dubai exits ([need to unlock the elevators](https://youtu.be/IEQgRQyQRf8)), Dartmoor exits ([need to exit via bike at least once](https://youtu.be/AJtJZe9jEi8?t=151)), and Colorado exits ([need to use tornado exit at least once](https://youtu.be/3XKWHrKpXwk?t=140)). These exits are handled client-side.
+-   Note: If it is your first time playing (on either Peacock or official servers), some exits will be locked. Você precisará desbloquear as saídas de Dubai ([precisa desbloquear os elevadores](https://youtu.be/IEQgRQyQRf8)), saídas de Dartmoor ([precisa sair por meio da moto pelo menos uma vez](https://youtu.be/AJtJZe9jEi8?t=151)), e saídas de Colorado ([precisa usar a saída do abrigo de tornados pelo menos uma vez(https://youtu.be/3XKWHrKpXwk?t=140)). Essas saídas estão sob responsabilidade do usuário.
 
 </p>
 </details>
@@ -121,7 +121,7 @@ Also note: Hitman 2016 / Hitman 2 are not as well supported as Hitman 3, there m
 ## Autosplitter Setup (For Full Game Speedruns)
 
 <details>
-<summary>Click to Expand</summary>
+<summary>Clique para expandir</summary>
 
 <p>
 

@@ -1,5 +1,5 @@
 ---
-title: Terms of Service
+title: Términos de Servicio
 description: Peacock's Terms of Service and Use.
 ---
 

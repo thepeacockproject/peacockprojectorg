@@ -243,27 +243,27 @@
     "description": "The title of the tag list page"
   },
   "Fast": {
-    "message": "Fast",
+    "message": "Rápido",
     "description": "Homepage 'fast' feature header"
   },
   "homepage.fastDescription": {
-    "message": "Peacock is built to be fast. Latency, lag, and delays are not fun, which is why we put a focus on eliminating these factors wherever possible.",
+    "message": "Peacock foi feito para ser rápido. Latência, lag e atrasos não são divertidos, sendo a razão de colocarmos foco em eliminar esses fatores sempre que possível.",
     "description": "The homepage's 'Fast' feature description"
   },
   "Easy to set up": {
-    "message": "Easy to set up",
+    "message": "Fácil de configurar",
     "description": "Homepage 'Easy to set up' feature header"
   },
   "homepage.easyToSetUpDescription": {
-    "message": "It's really easy to give Peacock a go. Assuming you own the game, you can join our Discord, and perform the less than 3 minute set-up process.",
+    "message": "É bem fácil dar uma chance ao Peacock. Assumindo que você tem o jogo, você pode se juntar ao nosso Discord e passar por um processo de configuração com menos de três minutos.",
     "description": "The homepage's 'Easy to set up' feature description"
   },
   "Custom content": {
-    "message": "Custom content",
+    "message": "Conteúdo customizado",
     "description": "Homepage 'Custom content' feature header"
   },
   "homepage.customContentDescription": {
-    "message": "We feature exclusive, custom content every month!",
+    "message": "Nós temos conteúdo exclusivo e customizado todos os meses!",
     "description": "The homepage's 'Custom content' feature description"
   }
 }
