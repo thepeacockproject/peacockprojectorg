@@ -4,43 +4,43 @@
     "description": "The title of the footer links column with title=Wiki in the footer"
   },
   "link.title.Community": {
-    "message": "Community",
+    "message": "Comunidade",
     "description": "The title of the footer links column with title=Community in the footer"
   },
   "link.title.Other": {
-    "message": "Other",
+    "message": "Outro",
     "description": "The title of the footer links column with title=Other in the footer"
   },
   "link.item.label.Knowledge Base": {
-    "message": "Knowledge Base",
+    "message": "Base de Conhecimento",
     "description": "The label of footer link with label=Knowledge Base linking to /wiki/intel"
   },
   "link.item.label.Help/Bugs/Feature Requests (in our Discord)": {
-    "message": "Help/Bugs/Feature Requests (in our Discord)",
+    "message": "Ajuda/Bugs/Pedidos de Recursos (no nosso Discord)",
     "description": "The label of footer link with label=Help/Bugs/Feature Requests (in our Discord) linking to https://discord.gg/F8qQTfnajw"
   },
   "link.item.label.Testimonials": {
-    "message": "Testimonials",
+    "message": "Depoimentos",
     "description": "The label of footer link with label=Testimonials linking to /testimonials"
   },
   "link.item.label.Ghost Mode": {
-    "message": "Ghost Mode",
+    "message": "Modo Fantasma",
     "description": "The label of footer link with label=Ghost Mode linking to /wiki/ghost-mode"
   },
   "link.item.label.Branding": {
-    "message": "Branding",
+    "message": "Gestão de marcas",
     "description": "The label of footer link with label=Branding linking to /branding"
   },
   "link.item.label.Credits": {
-    "message": "Credits",
+    "message": "Créditos",
     "description": "The label of footer link with label=Credits linking to /wiki/credits"
   },
   "link.item.label.Privacy Policy": {
-    "message": "Privacy Policy",
+    "message": "Política de Privacidade",
     "description": "The label of footer link with label=Privacy Policy linking to /wiki/legal/privacy-policy"
   },
   "link.item.label.Terms of Service": {
-    "message": "Terms of Service",
+    "message": "Termos de Serviço",
     "description": "The label of footer link with label=Terms of Service linking to /wiki/legal/terms-of-service"
   },
   "copyright": {

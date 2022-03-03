@@ -241,5 +241,29 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "Fast": {
+    "message": "Fast",
+    "description": "Homepage 'fast' feature header"
+  },
+  "homepage.fastDescription": {
+    "message": "Peacock is built to be fast. Latency, lag, and delays are not fun, which is why we put a focus on eliminating these factors wherever possible.",
+    "description": "The homepage's 'Fast' feature description"
+  },
+  "Easy to set up": {
+    "message": "Easy to set up",
+    "description": "Homepage 'Easy to set up' feature header"
+  },
+  "homepage.easyToSetUpDescription": {
+    "message": "It's really easy to give Peacock a go. Assuming you own the game, you can join our Discord, and perform the less than 3 minute set-up process.",
+    "description": "The homepage's 'Easy to set up' feature description"
+  },
+  "Custom content": {
+    "message": "Custom content",
+    "description": "Homepage 'Custom content' feature header"
+  },
+  "homepage.customContentDescription": {
+    "message": "We feature exclusive, custom content every month!",
+    "description": "The homepage's 'Custom content' feature description"
   }
 }

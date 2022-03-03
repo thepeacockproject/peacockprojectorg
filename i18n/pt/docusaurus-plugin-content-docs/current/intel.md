@@ -1,5 +1,5 @@
 ---
-title: Knowledge Base
+title: Base de Conhecimento
 description: Details on what Peacock is, how to install it, how to use it, and more.
 ---
 

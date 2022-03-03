@@ -7,34 +7,57 @@ import OpenIcon from "../components/open-icon.svg"
 import CustomLight from "../../static/img/home/CustomLight.svg"
 import FastLight from "../../static/img/home/FastLight.svg"
 import EasyLight from "../../static/img/home/EasyLight.svg"
+import Translate, { translate } from "@docusaurus/Translate"
 
 const features = [
     {
-        title: "Fast",
+        title: translate({
+            message: "Fast",
+            description: "Homepage 'fast' feature header",
+        }),
         imageUrl: <FastLight className={styles.featureImage} />,
         description: (
-            <>
+            <Translate
+                id="homepage.fastDescription"
+                description="The homepage's 'Fast' feature description"
+            >
                 Peacock is built to be fast. Latency, lag, and delays are not
                 fun, which is why we put a focus on eliminating these factors
                 wherever possible.
-            </>
+            </Translate>
         ),
     },
     {
-        title: "Easy to set up",
+        title: translate({
+            message: "Easy to set up",
+            description: "Homepage 'Easy to set up' feature header",
+        }),
         imageUrl: <EasyLight className={styles.featureImage} />,
         description: (
-            <>
+            <Translate
+                id="homepage.easyToSetUpDescription"
+                description="The homepage's 'Easy to set up' feature description"
+            >
                 It's really easy to give Peacock a go. Assuming you own the
                 game, you can join our Discord, and perform the less than 3
                 minute set-up process.
-            </>
+            </Translate>
         ),
     },
     {
-        title: "Custom content",
+        title: translate({
+            message: "Custom content",
+            description: "Homepage 'Custom content' feature header",
+        }),
         imageUrl: <CustomLight className={styles.featureImage} />,
-        description: <>We feature exclusive, custom content every month!</>,
+        description: (
+            <Translate
+                id="homepage.customContentDescription"
+                description="The homepage's 'Custom content' feature description"
+            >
+                We feature exclusive, custom content every month!
+            </Translate>
+        ),
     },
 ]
 
