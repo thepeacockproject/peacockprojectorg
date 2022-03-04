@@ -1,33 +1,33 @@
 ---
 image: /img/ghostmode.jpg
-description: Details about The Peacock Project's Ghost Mode server, allowing players to use the now-scrapped game mode.
+description: Detalhes sobre o Modo Fantasma no servidor do Projeto Peacock, permitindo jogadores usarem o agora desativado modo de jogo.
 ---
 
 # Modo Fantasma
 
-The Peacock Project is happy to announce that we are running our own [LocalGhost](https://gitlab.com/grappigegovert/LocalGhost) server!
+O Projeto Peacock está feliz em anunciar que estamos iniciando o nosso próprio servidor [LocalGhost](https://gitlab.com/grappigegovert/LocalGhost)!
 
-Ghost Mode for HITMAN™ 2 (and HITMAN™ 3 on Steam with a mod) has returned as an unofficial game mode! You and a friend can connect and invite each other to a friendly Ghost Mode match using Steam's invite system.
+O Modo Fantasma para HITMAN™ 2 (e HITMAN™ 3 no steam com um mod) retornou como um modo de jogo não oficial! Você e um amigo podem conectar e convidar um ao outro para uma partida amigável de Modo Fantasma usando o sistema de convites do Steam.
 
-(_Matchmaking is not supported_).
+(_A criação de partidas não é suportada_).
 
-Ghost Mode is available for PC players who own HITMAN™ 2 or HITMAN™ 3 on Steam.
+O Modo Fantasma está disponível para jogadores de PC que têm HITMAN™ 2 ou HITMAN™ 3 no Steam.
 
-## How to Connect
+## Como se Conectar
 
-1. Download the LocalGhost Patcher from [here](https://gitlab.com/grappigegovert/localghost/-/jobs/artifacts/master/download?job=build_patcher).
-2. Open the patcher, and select `ghostmode.rdil.rocks` on the drop-down menu.
-3. If this is your first time running the patcher, open Advanced Settings, and untick the box labeled `Use http instead of https`. Then click save.
-4. Start the game, press enter when prompted.
-5. You are ready to play Ghost Mode!
+1. Faça o download do Inicializador LocalGhost [daqui](https://gitlab.com/grappigegovert/localghost/-/jobs/artifacts/master/download?job=build_patcher).
+2. Abra o inicializador, e selecione `ghostmode.rdil.rocks` no menu suspenso.
+3. Se essa for sua primeira vez rodando o inicializador, abra Advanced Settings (Configurações Avançadas) e deselecione `Use http instead of https`. Então, clique para salvar.
+4. Inicie o jogo, pressione Enter quando pedir.
+5. Você está pronto para jogar o Modo Fantasma!
 
-Want to go back to the official servers? Just close the patcher and restart the game.
+Quer voltar aos servidores oficiais? Feche o inicializador e reinicie o jogo.
 
-## Use in HITMAN™ 3
+## Uso no HITMAN™ 3
 
-To use Ghost Mode in HITMAN™ 3 (Steam version only), you need to install a client-side mod to the game. The mod can be obtained [here](https://www.nexusmods.com/hitman3/mods/260).
+Para usar o Modo Fantasma no HITMAN™ 3 (Versão Steam apenas), você precisará instalar um mod no jogo. O mod pode ser obtido [aqui](https://www.nexusmods.com/hitman3/mods/260).
 
-## Side Notes
+## Notas Extras
 
--   Peacock and LocalGhost are not the same thing. LocalGhost supports Ghost Mode, and Peacock does not.
--   This Ghost Mode server is run by The Peacock Project team, but _is not Peacock itself_!
+-   Peacock e LocalGhost não são a mesma coisa. LocalGhost suporta o Modo Fantasma, e o Peacock não.
+-   Esse servidor de Modo Fantasma é rodade pela equipe do Projeto Peacock, mas _não é o Peacock em si_!

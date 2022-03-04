@@ -1,34 +1,34 @@
 ---
-title: Terms of Service
-description: Peacock's Terms of Service and Use.
+title: Servicevoorwaarden
+description: Peacock's Servicevoorwaarden en Gebruik.
 ---
 
-While we aren't exactly lawyers, we do have some terms and conditions that must be followed.
+We zijn niet echt advocaten, maar we hebben wel een aantal voorwaarden die moeten worden nageleefd.
 
-## Terms
+## Voorwaarden
 
-"We", "Us", "Our", and "Peacock" shall mean The Peacock Project team. "You" shall mean the consumer.
+"Wij", "Ons", "Onze", en "Peacock" betekenen het The Peacock Project team. Onder "Je", "Jou", en "Jouw" wordt de consument verstaan.
 
 ## Binding
 
-By using Peacock or any related services, you agree to these terms, as well as the terms set in the [Privacy Policy](./privacy-policy.md).
+Door het gebruik van Peacock of gerelateerde diensten, ga je akkoord met deze voorwaarden, evenals de voorwaarden in het [Privacybeleid](./privacy-policy.md).
 
-## Access
+## Toegang
 
-We agree to provide access to Peacock for select game owners. We have the right to deny you access if you don't own the game, or we otherwise see fit, for any reason.
+Wij stemmen ermee in om geselecteerde game-eigenaars toegang te verlenen tot Peacock. Wij hebben het recht je de toegang te ontzeggen als je het spel niet in bezit hebt, of als wij dat anderszins nodig achten, om welke reden dan ook.
 
-## Licensing
+## Licentie
 
-Peacock is under strict licensing. Unless otherwise stated (see the `LICENSE` and `THIRDPARTYNOTICES.txt` files), all contents are the sole property of The Peacock Project, and are proprietary. All rights to these materials are reserved.
+Peacock heeft een strikte licentie. Tenzij anders vermeld (zie de bestanden `LICENSE` en `THIRDPARTYNOTICES.txt`), is alle inhoud het exclusieve eigendom van The Peacock Project, en is beschermd door eigendomsrecht. Alle rechten op deze materialen zijn voorbehouden.
 
-## Donations
+## Donaties
 
-Since Peacock costs the team to build and keep going, anybody has the option to donate money to help fund the project. All donations are non-refundable. Donors may receive early access to some Peacock features that are not yet ready for public consumption. All materials provided to donors, unless otherwise stated, are confidential. Donors who do accidentally leak confidential information will be given a warning. If they do it again after being given a warning, their ability to access this content will be removed.
+Aangezien het bouwen en draaiende houden van Peacock het team geld kost, heeft iedereen de mogelijkheid geld te doneren om het project te helpen financieren. Alle donaties worden niet terugbetaald. Donateurs kunnen vroegtijdig toegang krijgen tot sommige Peacock-functies die nog niet klaar zijn voor openbaar gebruik. Al het materiaal dat aan donoren wordt verstrekt, is vertrouwelijk, tenzij anders vermeld. Donateurs die toch per ongeluk vertrouwelijke informatie lekken, krijgen een waarschuwing. Als zij dit na een waarschuwing opnieuw doen, wordt hun toegang tot deze inhoud ontzegd.
 
-## Manipulation
+## Manipulatie
 
-Attempting to reverse engineer or otherwise disassemble/reassemble Peacock and/or its connected services is not permitted.
+Pogingen tot reverse-engineering of het anderszins demonteren/reassembleren van Peacock en/of de daarmee verbonden diensten is niet toegestaan.
 
-## Change
+## Veranderingen
 
-This policy may change at any time at our discretion. We will attempt to notify you of any changes, but in some cases, we may not be able to. The date this policy was last modified can be found at the bottom of this page.
+Dit beleid kan te allen tijde worden gewijzigd. Wij zullen proberen je op de hoogte te brengen van eventuele wijzigingen, maar in sommige gevallen zal dit niet mogelijk zijn. De datum waarop dit beleid voor het laatst werd gewijzigd, vind je onderaan deze pagina.

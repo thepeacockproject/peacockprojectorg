@@ -1,15 +1,15 @@
 ---
 title: Termos de Serviço
-description: Peacock's Terms of Service and Use.
+description: Termos de Serviço e Uso do Peacock.
 ---
 
-While we aren't exactly lawyers, we do have some terms and conditions that must be followed.
+Enquanto não somos exatamente advogados, nós temos alguns termos e condições que precisam ser seguidas.
 
-## Terms
+## Termos
 
-"We", "Us", "Our", and "Peacock" shall mean The Peacock Project team. "You" shall mean the consumer.
+"Nós", "Nosso" e "Peacock" se referem à equipe do Projeto Peacock. "Você" significa o consumidor.
 
-## Binding
+## Vínculo
 
 By using Peacock or any related services, you agree to these terms, as well as the terms set in the [Privacy Policy](./privacy-policy.md).
 

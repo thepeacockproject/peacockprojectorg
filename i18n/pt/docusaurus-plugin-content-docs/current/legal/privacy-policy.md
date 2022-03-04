@@ -1,62 +1,62 @@
 ---
 sidebar_label: Política de Privacidade
-description: How The Peacock Project handles and stores user data.
+description: Como O Projeto Peacock cuida e guarda as informações do usuário.
 ---
 
-# Peacock Privacy Policy
+# Política de Privacidade do Peacock
 
-## Scope
+## Alcance
 
-This policy applies to the following websites and products:
+Essa política se aplica aos seguintes websites e produtos:
 
--   All routes starting with '/peacock' on backend.rdil.rocks.
--   Any content displayed on thepeacockproject.org
--   Data sent to us when using the Peacock Server.
+-   Todas as rotas que se iniciam com '/peacock' em backend.rdil.rocks.
+-   Qualquer conteúdo exibido em thepeacockproject.org
+-   Informações enviadas a nós usando o Servidor Peacock.
 
-## What data do we collect?
+## Que informações coletamos?
 
-When you view any of the pages this policy covers, exactly which page, as well as your IP address, and the time gets logged by us. This practice is typical and used by most websites. This information is stored on our servers for a maximum of 72 hours.
+Quando você vê qualquer página que esta política de privacidade cobre, exatamente qual página, assim como o seu indereço de IP, e a hora é guardado por nós. Essa prática é típica da maioria dos websites. Essa informação fica guardada em nossos servidores por no máximo 72 horas.
 
-When you log in, the following information may be logged (in which case it is stored for a maximum of 1 business week), or stored in our database for long term data retrieval/storage:
+Quando você realiza o log in, as seguintes informações são logadas em nosso servidor (que nesse caso fica guardado por no máximo uma semana útil), ou guardada em nossa base de dados para recuperação/armazenamento de informação de longo prazo:
 
--   All details saved when you view the page (as outlined above) (logged)
--   Basic data about your Discord account (see Discord developer documentation for what information is returned when using OAuth 2)
--   Unless explicitly opted out of leaderboards, details of the events that are triggered during levels, as well as scoring details, are stored in our database.
+-   Todos os detalhes salvos quando você visualiza a página (como destacado acima) (logado)
+-   Informações básicas sobre a sua conta Discord (veja a documentação de desenvolvedor do Discord para saber quais informações são retornadas quando usando OAuth 2)
+-   Exceto quando explicitamente foi desativado de tabelas de classificação, detalhes dos eventos ativados durante as missões, assim como detalhes de pontuação, são guardados em nossa base de dados.
 
-## What do we use this data for?
+## Para que usamos essa informação?
 
-We use this data for purposes including:
+Usamos essa informação para propósitos que incluem:
 
--   Verifying you are in the Discord server
--   Assigning roles based on ownership status in the Discord server
--   Keeping track of leaderboard positions and statistics, and for moderation of these leaderboards.
+-   Verificar que você está no Servidor do Discord
+-   Atribuir cargos com base no seu status de proprietário no servidor Discord
+-   Manter um acompanhamento das posições de tabelas de classificação e estatísticas, e para a moderação dessas tabelas de classificação.
 
-## Request deletion of your data
+## Requerimento da exclusão dos seus dados
 
-Please contact a project admin on Discord, or email me [at symbol] rdil [dot] rocks.
+Por favor contacte um administrador do projeto no Discord, ou evie um email para mim em [arroba] rdil [ponto] rocks.
 
-## Opting out where possible
+## Excluindo onde possível
 
-The Peacock server has the built-in capability as of recently released versions to opt out of certain features that may collect personal information.
+O Servidor Peacock tem a capacidade embutida em versões recentemente lançadas de ter a exclusão de certos recursos que podem coletar informações pessoais.
 
-To opt out of leaderboard data being submitted to our servers, run the server once, then edit the generated `options.ini` file, setting the `leaderboardsOptOut` value to `true`. To opt out of update checking, run the server once, then edit the generated `options.ini` file, setting the `disableUpdateChecking` value to `true`.
+Para ser desativado dos dados de tabela de classificação enviada aos nossos servidores, rode o servidor uma vez, e então edite o arquivo `options.ini` gerado, configurando o valor `leaderboardsOptOut` para `true`. Para ser desativado da checagem de atualização, rode o servidor uma vez, e então edite o arquivo `options.ini` gerado, configurando o valor `disableUpdateChecking` para `true`.
 
-## Responsible disclosure of data breaches
+## Divulgação Responsável de Violação de Dados
 
-In the case that any data collected is ever leaked, we will try our best to notify the affected users. Please note that we may not be able to contact you if you leave the Discord server, disable Discord direct messages, or fail to check Discord when we inform you.
+No caso de qualquer dado coletado seja vazado, tentaremos o nosso melhor para notificar os usuários afetados. Por favor note que podemos não ser capazes de contatá-lo se você deixar o Servidor Discord, desativar mensagens diretas do Discord, ou falhar em checar o Discord quando nós o informarmos.
 
-## Use of data by third parties
+## Uso de dados por terceiros
 
-Our infrastructure makes use of third parties which may process or retain your data, the privacy policies of those services can be found at:
+Nossa infraestrutura faz o uso de terceiros que podem processar ou reter seus dados, as políticas de privacidade desses serviços podem ser encontrados em:
 
 -   https://sentry.io/privacy/
 -   https://www.cloudflare.com/privacypolicy/
 -   https://discord.com/privacy
 
-## Updates to this policy
+## Atualizações a esta política
 
-This policy was created on May 5th, 2021. This policy may change without notice at any time. We advise regularly checking it for any updates that may affect you.
+Estaa política foi criada em 5 de Maio de 2021. Esta política pode mudar sem aviso prévio a qualquer momento. Nós sugerimos que verifique regularmente por quaisquer atualizações que podem afetá-lo.
 
-## Ask a question
+## Perguntas
 
-To ask a question about this policy, please follow the instructions outlined under the "Request deletion of your data" section.
+Para perguntar sobre esta política, por favor siga as instruções destacadas na seção "Requerimento da exclusão dos seus dados".

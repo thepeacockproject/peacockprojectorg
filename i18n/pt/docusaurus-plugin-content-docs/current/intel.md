@@ -19,180 +19,181 @@ description: Detalhes em o que o Peacock é, como instalar, como usar, e mais.
     -   Acessar o sistema de avaliação do Hitman sem precisar estar conectado aos servidores da IOI
         -   **Nota: Peacock não é uma experiência completamente offline.**
         -   Toda vez que você iniciar o jogo, você precisará estar inicialmente conectado a internet, para passar pela verificação Steam ou Epic.
-        -   After you have passed Steam/ Epic verification and have connected to Peacock, you are free to disconnect your internet if you like and you will stay connected to Peacock for the duration of your game session.
--   Trivia: Peacock is the name that the game uses in its source code for the mission "The Showstopper", which ushered in a new era of Hitman. Hence, the reason for the name "Peacock".
+        -   Após passar pela verificação Steam/Epic e estar conectado ao Peacock, você estará livre para se desconectar da internet se quiser e você continuará conectado ao Peacock pela duração da sua sessão de jogo.
+-   Curiosidade: Peacock, ou pavão, é o nome que o jogo usa em seu código base para se referir à missão "Showstopper", que começou uma nova era de Hitman. Dessa forma, a razão do nome "Peacock".
 
 </p>
 </details>
 
-## Supported Games / Operating Systems
+## Jogos Suportados / Sistemas Operacionais
 
 <details><summary>Clique para expandir</summary>
 <p>
 
-**Supported Games / Platforms**
+**Jogos Suportados / Plataformas**
 
 -   Hitman 2016 ([Steam](https://store.steampowered.com/app/236870/HITMAN/) / [Epic](https://www.epicgames.com/store/en-US/p/hitman))
 -   Hitman 2 ([Steam](https://store.steampowered.com/app/863550/HITMAN_2/))
 -   Hitman 3 ([Steam](https://store.steampowered.com/app/1659040/HITMAN_3/) / [Epic](https://www.epicgames.com/store/en-US/p/hitman-3)).
 
-Any platform missing from the list above (**including Hitman 3 on Game Pass**) is not supported by Peacock!
-Also note: Hitman 2016 / Hitman 2 are not as well supported as Hitman 3, there may be bugs.
+Qualquer plataforma não incluída na lista acima (**incluindo Hitman 3 no Xbox Game Pass**) não é suportado pelo Peacock!
+Também note: Hitman 2016 / Hitman 2 não são tão suportados quanto Hitman 3, podem haver vários bugs.
 
-**Supported Operating Systems**
+**Sistemas Operacionais Suportados**
 
--   For the server:
-    -   A platform supported by Node.js, meaning Windows 8.1 or up, or a recent Linux/macOS/FreeBSD installation.
-    -   We have alternatives available if you are unable to meet these requirements, please ask in the Discord.
--   For the patcher:
-    -   Windows 7 or up
--   You can run the server on any machine that supports the Node.js version that Peacock targets, but the patcher must be run on the same machine as the game.
+-   Para o servidor:
+    -   Uma plataforma suportada por Node.js, significando um Windows 8.1 ou mais recente, ou uma instalação mais recente de Linux/macOS/FreeBSD.
+    -   Temos alternativas disponíveis se você não se encontra nesses requerimentos, por favor pergunte no Discord.
+-   Para o inicializador:
+    -   Windows 7 ou acima
+-   Você pode rodar o servidor em qualquer máquina que suporta a versão do Node.js que o Peacock visa, mas o inicializador precisa ser rodado na mesma máquina que o jogo.
 
 </p>
 </details>
 
-## How to Install / Use Peacock
+## Como instalar / Usar o Peacock
 
 <details>
 <summary>Clique para expandir</summary>
 
 <p>
 
-1. Join the Peacock Discord server (https://thepeacockproject.org/discord). You must have a 7 day or older Discord account and have proof of buying Hitman 2016/ Hitman 2/ Hitman 3 to join.
+1. Junte-se ao servidor Discord do Peacock (https://thepeacockproject.org/discord). Você precisa ter uma conta de pelo menos 7 dias e ter provas de ter comprado Hitman 2016/ Hitman 2/ Hitman 3 para poder entrar.
 
-2. Go to the `#downloads` channel in the above Discord server and download the latest Peacock build.
+2. Vá para o canal `#downloads` no servidor Discord acima e faça o download da mais recente versão do Peacock.
 
-3. Extract (unzip) files. Running the files from within the zipped folder will not work.
+3. Extraia (descompacte) os arquivos. Rodar os arquivos de dentro do arquivo compactado não irá funcionar.
 
-4. Open the unzipped `Peacock-vx.x.x` folder (where `x.x.x` stands for whatever the current Peacock version is), and then open the second `Peacock-vx.x.x` folder within as well. From this `...Peacock-vx.x.x\Peacock-vx.x.x` folder, run `Start Server.cmd`, then `PeacockPatcher.exe`. Then open Hitman as normal.
+4. Abra a pasta extraída `Peacock-vx.x.x` (em que `x.x.x` significa qualquer versão atual do Peacock), e então abra a segunda pasta `Peacock-vx.x.x` dentro da anterior. Dessa pasta `...Peacock-vx.x.x\Peacock-vx.x.x`, rode `Start Server.cmd`, o servidor, e depois disso `PeacockPatcher.exe`, o inicializador. Depois disso, abra Hitman normalmente.
 
-    - Note: If you are playing on Hitman 3, you will have to repeat steps 2-3 each time Hitman 3 receives a new update (more info below, in the "When/ How to Update Peacock" section). And for any of the three supported Hitman games, you will need to repeat step 4 every time you launch the game.. The game defaults back to the official servers otherwise.
+    - Nota: Se você joga Hitman 3, você deverá repetir os passos 2-3 a cada vez que o jogo receba uma nova atualização (mais informações abaixo, na seção "Quando/ Como Atualizar o Peacock"). E para qualquer um dos três jogos Hitman suportados, você deverá repetir o passo 4 toda vez que for iniciar o jogo.. O jogo retorna aos servidores oficiais se não o fizer.
 
 </p>
 
 </details>
 
-## When / How to Update Peacock
+## Quando / Como Atualizar o Peacock
 
 <details>
 <summary>Clique para expandir</summary>
 
 <p>
 
-1. When you run `Start Server.cmd`, you may get an alert that Peacock is out of date, as [shown here](https://i.ibb.co/NtGMJjN/peacock-out-of-date.png).
-2. Usually you will need to update Peacock only when there is a new game update, but stay tuned in the Peacock Discord's `#updates` and `#downloads` channels to be safe.
-    - Note: Peacock may be temporarily unavailable after a game update, as it takes a few hours for the Peacock Patcher to be updated as well.
-3. If there is a new Peacock update, go to the `#downloads` channel in the Peacock Discord to download the latest build.
-4. Extract (unzip) files. Running the files from within the zipped folder will not work.
-5. **Assuming you have used Peacock during the previous game update**, follow the instructions below to keep your loadouts and in-game savefiles (Otherwise, your loadouts will all default back to ICA19/coins/fiberwire, and your in-game save files will be lost).
+1. Quando você iniciar `Start Server.cmd`, você pode receber um alerta que o Peacock está desatualizado, como [mostrado aqui](https://i.ibb.co/NtGMJjN/peacock-out-of-date.png).
+2. Normalmente você precisará atualizar o Peacock apenas quando tiver uma nova atualização do jogo, mas fique atento aos canais `#updates` e `#downloads` do servidor Discord do Peacock para se assegurar.
+    - Nota: Peacock pode ficar temporariamente indisponível depois de uma atualização do jogo, já que levam algumas horas para o inicializador do Peacock ser atualizado também.
+3. Se uma nova atualização do Peacock estiver disponível, vá ao canal `#downloads` no servidor Discord do Peacock para fazer o download da última versão.
+4. Extraia (descompacte) os arquivos. Rodar os arquivos de dentro do arquivo compactado não irá funcionar.
+5. **Assumindo que você usou Peacock durante a última atualização do jogo**, siga as instruções abaixo para manter seu equipamento inicial nas missões e arquivos salvos (De outra forma, seu equipamento irá voltar à pistola ICA19/moedas/fio de fibra, e seus arquivos salvos serão perdidos).
 
-    - Copy your old userdata and contractSessions folders (ex: `...Peacock-vx.x.x\Peacock-vx.x.x\userdata`) and (ex: `...Peacock-vx.x.x\Peacock-vx.x.x\contractSessions`) from your previous Peacock build, and paste it into your new Peacock build's main folder (`...Peacock-vy.y.y\Peacock-vy.y.y`), where `x.x.x` stands for the old Peacock version, and `y.y.y` stands for the new Peacock version. Replace any existing files in the new Peacock build's folder, if necessary.
+    - Copie suas antigas pastas userdata e contractSessions (ex: `...Peacock-vx.x.x\Peacock-vx.x.x\userdata`) e (ex: `...Peacock-vx.x.x\Peacock-vx.x.x\contractSessions`) da versão anterior do Peacock e cole na pasta principal da nova versão do Peacock (`...Peacock-vy.y.y\Peacock-vy.y.y`), onde `x.x.x` significa a antiga versão do Peacock, e `y.y.y` significa a nova versão. Substitua qualquer arquivo existente na pasta da nova versão do Peacock, se necessário.
 
-        - Note that Peacock versions before v4.1.0 use the file convention `...Peacock-vx.x.x\assembled\userdata` and `...Peacock-vx.x.x\assembled\contractSessions`instead.
+        - Note que as versões anteriores a v4.1.0 usam a organização de arquivo `...Peacock-vx.x.x\assembled\userdata` e `...Peacock-vx.x.x\assembled\contractSessions` em vez disso.
 
 </p>
 
 </details>
 
-## General Peacock Use Tips
+## Dicas Gerais de Uso do Peacock
 
 <details>
 <summary>Clique para expandir</summary>
 
 <p>
 
--   It may take a few tries to connect to Peacock. If you can't connect, try going back to the Peacock Patcher application and clicking on "Re-patch" until the Peacock Patcher shows "Successfully patched ID".
--   If your game is already connected to the official servers, you may need to disconnect the game from official servers first to connect to Peacock. To disconnect from official servers, go to "Options" from the Hitman 3 main menu, then "Privacy Policy", then "Opt out". Then when you reconnect you should be on Peacock.
+-   Podem levar algumas tentativas para se conectar ao Peacock. Se não puder se conectar, tente voltar ao aplicativo inicializador do Peacock e clique em "Repatch", ou "Reinicializar", até que o inicializador mostre "Sucessfully patched ID", ou "ID inicializada com sucesso".
+-   Se o jogo já está conectado aos servidores oficiais, você pode precisar desconectar o jogo antes para se conectar ao Peacock. Para se desconectar dos servidores oficiais, vá para "Options" no menu principal do Hitman 3, e depois em "Privacy Policy", e "Opt out". Quando você tentar se desconectar depois disso, você deverá estar no Peacock.
 
--   Similarly, you can go offline while connected to Peacock, then toggle the Peacock Patcher application to patch you to Official Servers, then go "online" again to connect to official servers.
+-   Similarmente, você pode ficar offline quando conectado ao Peacock, ativar a opção no inicializador do Peacock para voltar aos servidores oficiais, e clicar em ficar "online" novamente para se conectar aos servidores oficiais.
 
--   To use 7 deadly sins items, make sure you have actually purchased the 7 deadly sins DLC. Then delete the `...Peacock-vx.x.x\Peacock-vx.x.x\userdata` folder, and restart the game.
--   To save multiple loadouts per map (loadout profiles): [Follow this tutorial](https://www.youtube.com/watch?v=ouD9QBSVHI0)
-    -   Note: You should open Hitman with Peacock before following the steps in this tutorial. In addition, Peacock has received a new update, so now just go to `localhost` in your browser instead of `localhost/loadouts`. When you are on the `localhost` page, click on `Loadout Profiles` in the upper left navbar. Then proceed with the rest of the video tutorial.
--   In Game Saving is supported, but note that you can only use official server saves on the official servers version of the game, and Peacock saves on the Peacock version of the game.
+-   Para usar itens dos 7 Pecados Capitais, tenha certeza de ter comprado a DLC 7 Pecados Capitais. Depois, exclua a pasta `...Peacock-vx.x.x\Peacock-vx.x.x\userdata` e reinicie o jogo.
+-   Para salvar múltiplos equipamentos iniciais por mapa (perfis de equipamento): [Siga este tutorial](https://www.youtube.com/watch?v=ouD9QBSVHI0)
+    -   Nota: Você precisa abrir Hitman com o Peacock antes de seguir esses passos nesse tutorial. Além disso, Peacock recebeu uma nova atualização, então agora você pode ir a `localhost` no seu navegador em vez de `localhost/loadouts`. Quando você estiver na página `localhost`, clique em 'Loadout Profiles' na barra de navegação no canto superior esquerdo. E então prossiga com o tutorial do vídeo.
+-   Salvamentos em jogo são suportados, mas note que você só pode usar salvamentos dos servidores oficiais apenas na versão dos servidores oficiais do jogo, e salvamentos no Peacock apenas na versão Peacock do jogo.
 
--   Using Peacock will affect your official servers profile in very small ways.
-    -   Due to the fact that we have not properly implemented some minor features like content/story spoiler warnings, it will change them all to the 'I have already played' state. Other than that, it shouldn't have any affect.
--   Note: If it is your first time playing (on either Peacock or official servers), some exits will be locked. Você precisará desbloquear as saídas de Dubai ([precisa desbloquear os elevadores](https://youtu.be/IEQgRQyQRf8)), saídas de Dartmoor ([precisa sair por meio da moto pelo menos uma vez](https://youtu.be/AJtJZe9jEi8?t=151)), e saídas de Colorado ([precisa usar a saída do abrigo de tornados pelo menos uma vez(https://youtu.be/3XKWHrKpXwk?t=140)). Essas saídas estão sob responsabilidade do usuário.
+-   Usar o Peacock afetará seu perfil nos servidores oficiais de maneiras bem imperceptíveis.
+    -   Devido ao fato que não temos implementado propriamente alguns recursos de menor importância como avisos de spoiler em conteúdo/história, vai colocar todos em um estado como se 'eu já tivesse jogado'. Além disso, não deve ter qualquer efeito.
+-   Nota: Se essa é sua primeira vez jogando (tanto no Peacock como nos servidores oficiais), algumas saídas estarão bloquadas. Você precisará desbloquear as saídas de Dubai ([precisa desbloquear os elevadores](https://youtu.be/IEQgRQyQRf8)), saídas de Dartmoor ([precisa sair por meio da moto pelo menos uma vez](https://youtu.be/AJtJZe9jEi8?t=151)), e saídas de Colorado ([precisa usar a saída do abrigo de tornados pelo menos uma vez(https://youtu.be/3XKWHrKpXwk?t=140)). Essas saídas estão sob responsabilidade do usuário.
 
 </p>
 </details>
 
-## Autosplitter Setup (For Full Game Speedruns)
+## Setup do Autosplitter (Para speedruns do jogo todo)
 
 <details>
 <summary>Clique para expandir</summary>
 
 <p>
 
-_Guide written originally by [Fusha](https://www.speedrun.com/user/Fusha)_
+_Guia escrito originalmente por [Fusha](https://www.speedrun.com/user/Fusha)_
 
-### Specifications
+### Especificações
 
-(see "How to Use" and "Other Usage Notes" below as well)
+(veja "Como Usar" e "Outras Notas de Uso" abaixo também)
 
--   100% accurate to how runs are timed for verification purposes, unlike the [Official Servers Autosplitter](https://www.speedrun.com/hitman_3/guide/kbydm).
+-   100% preciso como runs são cronometradas para propósitos de verificação, ao contrário do [Autosplitter dos Servidores Oficiais](https://www.speedrun.com/hitman_3/guide/kbydm).
 
--   Several miscellaneous glitches like the splitter not working correctly from "Outside" Romania starting location are fixed.
+-   Vários glitches como o splitter não estar funcionando corretamente do local inicial "Outside" em Romania estão resolvidos.
 
--   Splits fully automatically, based on which level you start on and which full game category you are playing. Starting and stopping the splitter (by pressing numpad keys etc) is not needed.
+-   Funciona de forma totalmente automática, baseado em que nível você começa e em qual categoria de jogo completo você está jogando. Iniciar e parar o plitter (por pressionar teclas do teclado numérico etc) não é necessário.
 
--   Works on both Steam and Epic versions of Hitman 3 unlike the Official Servers Autosplitter (which is Epic only).
+-   Funciona nas ambas versões Steam e Epic do Hitman 3 ao contrário do Autosplitter dos Servidores Oficiais (sendo exclusivo da Epic).
 
--   Obviously this only works on [Peacock](https://thepeacockproject.org/wiki/intel/), if you are playing on official servers for some reason you should use one of the [other two Livesplit Guides](https://www.speedrun.com/hitman_3/guides).
+-   Obviamente isso apenas funciona no [Peacock](https://thepeacockproject.org/wiki/intel/), se você está jogando nos servidores oficiais por alguma razão você deverá usar um dos [outros dois Guias Livesplit](https://www.speedrun.com/hitman_3/guides).
 
-### Installation
+### Instalação
 
-1. Install [Peacock](https://thepeacockproject.org/wiki/intel/) and [LiveSplit](https://livesplit.org/downloads/) if you don't have either of them installed (just unzip them wherever you want). **If you already have Peacock installed, make sure to you have it updated to the latest version.** After you get these apps installed/updated, close them for now.
+1. Instale o [Peacock](https://thepeacockproject.org/wiki/intel/) e o [LiveSplit](https://livesplit.org/downloads/) se você não os tiver instalados (extraia-os em qualquer lugar que desejar). **Se você já tem o Peacock instalado, tenha a certeza de ter atualizado para a última versão.** Após ter esses aplicativos instalados/atualizados, feche-os no momento.
 
-2. Download LiveSplit server component from here: https://github.com/LiveSplit/LiveSplit.Server/releases/tag/1.8.17
+2. Faça o download do componente do servidor LiveSplit daqui:
+https://github.com/LiveSplit/LiveSplit.Server/releases/tag/1.8.17
 
-3. Unzip and place the two files that you just downloaded in the LiveSplit Server component zip into the Components folder inside the `LiveSplit` installation folder.
+3. Extraia e coloque os dois arquivo que você acabou de baixar no arquivo zip do componente do servidor LiveSplit na pasta Components dentro da pasta de instalação `LiveSplit`.
 
-4. Start LiveSplit.
+4. Inicie o LiveSplit.
 
-5. Right click on main Livesplit window, then click on `Edit Splits`. Edit your split names (`Segment Name`) to your liking. Click on `Insert Above / Below` to add new segments. If you like, you can enter your estimated times in `Segment Times`.
+5. Clique com o botão direito na janela principal do Livesplit, e clique em `Edit Splits`. Edite seus nomes split (`Segment Name`) para o que desejar. Clique em `Insert Above / Below` para adicionar dois novos segmentos. Se desejar, você pode inserir seus tempos estimados em `Segment Times`.
 
-6. Click `ok` on the Splits Editor, then right click the main Livesplit window and select `save layout` for future use.
+6. Clique em `ok` no Splits Editor, depois clique com o botão direito na janela principal do Livesplit e secione `save layout` para uso futuro.
 
-7. Right click on main Livesplit window, then click on `Edit Layout`. Double click on `Timer`, then select `Game Time` for timing method.
+7. Clique com o botão direito na janela principal do Livesplit, e então clique em `Edit Layout`. Clique duas vezes em `Timer`, e então selecione `Game Time` para o método de cronometragem.
 
-8. While still on the `Edit Layout` page: Click `+` button, then `Control`, then `Livesplit Server`.
+8. Ainda na página `Edit Layout`: Clique no botão `+`, e então em `Control`, e em `Livesplit Server`.
 
-9. Click `ok` on the Layout Editor, then right click the main Livesplit window and select `save layout` for future use.
+9. Clique `ok` no Layout Editor, depois clique com o botão direto na janela principal do Livesplit e selecione `save layout` para uso futuro.
 
-### How to Use
+### Como Usar
 
-(Do each time you open the game, order is important! Make sure to start LiveSplit and start the server before you start Peacock).
+(Faça toda vez que abrir o jogo, a ordem é importante! Tenha a certeza de iniciar o LiveSplit e iniciar o servidor antes de iniciar o Peacock).
 
-1. Open LiveSplit
+1. Abra o LiveSplit
 
-2. Right click on the main LiveSplit window, then select `Control`, then `Start Server`.
+2. Clique com o botão direito na janela principal do LiveSplit, selecione `Control`, e depois em `Start Server`.
 
-3. If you would like to change what full game category you are running, edit `options.ini` file inside the Peacock folder and change the `autoSplitterCampaign` option to either `trilogy`, `1`, `2`, or `3` depending on which campaign you want to run (The autosplitter is set to `trilogy` by default). The autosplitter will only work so long as you play the selected campaign, in order.
+3. Se você quiser mudar qual categoria de jogo completo você está jogando, edite o arquivo `options.ini` dentro da pasta do Peacock e mude a opção `autoSplitterCampaign` para `trilogy`, trilogia, `1`, `2`, ou `3` dependendo em qual campanha você quer jogar (O autosplitter está configurado para `trilogy`, trilogia, por predefinição). O autosplitter só irá funcionar enquanto você jogar a campanha, em ordem.
 
-4. Open the folder where you have installed Peacock, and run `Start Server.cmd` and `PeacockPatcher.exe`.
+4. Abra a pasta onde você instalou o Peacock, e inicie `Start Server.cmd` e `PeacockPatcher.exe`.
 
-5. Start game as normal.
+5. Inicie o jogo normalmente.
 
-### Other Usage Notes
+### Outras Notas de Uso
 
--   The splitter will always fully reset and start a new run as soon as you start the first mission in the selected campaign, no matter what other state it is in. You do not need to start or reset the run in LiveSplit manually (by pressing numpad keys etc).
+-   O splitter sempre irá reiniciar e começar uma nova run assim que você começar a primeira missão na campanha selecionada, sem ser afetada por qualquer outro estado em que esta pode estar. Você não precisar iniciar ou reiniciar a run no LiveSplit manualmente (pressionando teclas no teclado numérico etc).
 
--   If you start a mission that is not the first mission, the one you just played, or the next mission after completing the mission you just played, it will stop the timer and stop tracking times until you reset back to the first mission in the campaign.
+-   Se você começar uma missão que não é a primeira, a que você acabou de jogar, ou a próxima missão depois de completar a missão que você acabou de jogar, o cronômetro irá parar de contar até você reiniciar a primeira missão na campanha.
 
--   The splitter will automatically split (record time and move to next mission) as soon as you successfully complete a mission. However, if you replay the same mission multiple times (other than the first one in the selected campaign), it will automatically add reset times together for you, even if you "complete" the mission and it splits (for example if you failed to get SA at the last second, just replay the mission and it will auto-unsplit and add the reset time).
+-   O splitter vai automaticamente pausar (gravar o tempo e carregar para a próxima missão) assim que você terminar uma missão com sucesso. Porém, se você jogar novamente a mesma missão várias vezes (além da primeira na campanha selecionada), vai automaticamente adicionar o tempo de reset para você, mesmo se você completar a missão e o cronômetro pausar (por exemplo se você falhar SA no último segundo, apenas reinicie a missão e vai auto-despausar e adicionar o tempo de reset).
 
--   After you complete or fail a mission, it will print detailed timing info about the attempt you just made into the Peacock server window, with timing information down to tenths/hundredths of seconds for the attempt you just made as well as detailing the total amount of time with resets on the current mission.
+-   Depois de você completar ou falhar uma missão, o splitter vai detalhar informação do tempo sobre a tentativa que você acabou de realizar na janela do servidor do Peacock, com a informação do cronômetro nas dezenas/centenas de segundos para a tentativa que você acabou de realizar assim como detalhando a quantidade total de tempo com os resets da missão atual.
 
 </p>
 </details>
 
-## For Additional Help / Troubleshooting
+## Para Ajuda Adicional / Solução de Problemas
 
 <p>
 
--   Ask in the Peacock Discord `#help` channel (https://thepeacockproject.org/discord)
+-   Pergunte no canal do servidor Discord do Peacock `#help` (https://thepeacockproject.org/discord)
 
 </p>
 

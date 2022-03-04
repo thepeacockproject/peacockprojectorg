@@ -1,62 +1,62 @@
 ---
-sidebar_label: Privacy Policy
-description: How The Peacock Project handles and stores user data.
+sidebar_label: Privacybeleid
+description: Hoe The Peacock Project omgaat met gebruikersgegevens en deze opslaat.
 ---
 
-# Peacock Privacy Policy
+# Peacock Privacybeleid
 
-## Scope
+## Toepassingsgebied
 
-This policy applies to the following websites and products:
+Dit beleid is van toepassing op de volgende websites en producten:
 
--   All routes starting with '/peacock' on backend.rdil.rocks.
--   Any content displayed on thepeacockproject.org
--   Data sent to us when using the Peacock Server.
+-   Alle routes die beginnen met '/peacock' op backend.rdil.rocks.
+-   Elke inhoud getoond op thepeacockproject.org
+-   Gegevens die ons worden toegezonden bij gebruik van de Peacock Server.
 
-## What data do we collect?
+## Welke gegevens verzamelen wij?
 
-When you view any of the pages this policy covers, exactly which page, as well as your IP address, and the time gets logged by us. This practice is typical and used by most websites. This information is stored on our servers for a maximum of 72 hours.
+Wanneer je één van de pagina's bekijkt waarop dit beleid betrekking heeft, wordt precies welke pagina, evenals je IP-adres en de tijd door ons gelogd. Deze praktijk is typisch en wordt door de meeste websites toegepast. Deze informatie wordt maximaal 72 uur op onze servers bewaard.
 
-When you log in, the following information may be logged (in which case it is stored for a maximum of 1 business week), or stored in our database for long term data retrieval/storage:
+Wanneer je inlogt, kan de volgende informatie worden gelogd (in welk geval deze maximaal 1 werkweek wordt bewaard), of worden opgeslagen in onze database voor het op lange termijn opvragen/bewaren van gegevens:
 
--   All details saved when you view the page (as outlined above) (logged)
--   Basic data about your Discord account (see Discord developer documentation for what information is returned when using OAuth 2)
--   Unless explicitly opted out of leaderboards, details of the events that are triggered during levels, as well as scoring details, are stored in our database.
+-   Alle details die worden opgeslagen wanneer je de pagina bekijkt (zoals hierboven beschreven) (gelogd)
+-   Basisgegevens over je Discord-account (zie de documentatie voor Discord-ontwikkelaars voor welke informatie wordt geretourneerd bij gebruik van OAuth 2)
+-   Tenzij je je expliciet afmeldt voor de leaderboards, worden de details van de gebeurtenissen die tijdens de levels plaatsvinden, evenals de scoringsdetails, in onze database opgeslagen.
 
-## What do we use this data for?
+## Waar gebruiken we deze gegevens voor?
 
-We use this data for purposes including:
+Wij gebruiken deze gegevens onder meer voor:
 
--   Verifying you are in the Discord server
--   Assigning roles based on ownership status in the Discord server
--   Keeping track of leaderboard positions and statistics, and for moderation of these leaderboards.
+-   Verifiëren dat je in de Discord server zit
+-   Rollen toewijzen op basis van eigendomsstatus in de Discord server
+-   Het bijhouden van leaderboard posities en statistieken, en voor moderatie van deze leaderboards.
 
-## Request deletion of your data
+## Verzoek om verwijdering van uw gegevens
 
-Please contact a project admin on Discord, or email me [at symbol] rdil [dot] rocks.
+Neem contact op met een projectbeheerder op Discord, of email me [at symbol] rdil [dot] rocks.
 
-## Opting out where possible
+## Afmelden waar mogelijk
 
-The Peacock server has the built-in capability as of recently released versions to opt out of certain features that may collect personal information.
+In recente versies van de Peacock-server is de mogelijkheid ingebouwd om bepaalde functies die persoonlijke informatie kunnen verzamelen, uit te schakelen.
 
-To opt out of leaderboard data being submitted to our servers, run the server once, then edit the generated `options.ini` file, setting the `leaderboardsOptOut` value to `true`. To opt out of update checking, run the server once, then edit the generated `options.ini` file, setting the `disableUpdateChecking` value to `true`.
+Als je je wilt afmelden voor leaderboard-gegevens die naar onze servers worden verzonden, voer je de server één keer uit, bewerk je vervolgens het gegenereerde bestand `options.ini` en stel je de waarde voor `leaderboardsOptOut` in op `true`. Als je je wilt afmelden voor updatecontrole, voer je de server één keer uit en bewerk je vervolgens het gegenereerde bestand `options.ini` en stel je de waarde `disableUpdateChecking` in op `true`.
 
-## Responsible disclosure of data breaches
+## Verantwoorde openbaarmaking van inbreuken op de beveiliging van gegevens
 
-In the case that any data collected is ever leaked, we will try our best to notify the affected users. Please note that we may not be able to contact you if you leave the Discord server, disable Discord direct messages, or fail to check Discord when we inform you.
+Mochten er ooit verzamelde gegevens uitlekken, dan zullen wij ons best doen om de getroffen gebruikers hiervan op de hoogte te brengen. Houd er rekening mee dat we mogelijk niet in staat zijn om contact met je op te nemen als je de Discord-server verlaat, Discord-directe berichten uitschakelt, of Discord niet controleert wanneer we je informeren.
 
-## Use of data by third parties
+## Gebruik van gegevens door derden
 
-Our infrastructure makes use of third parties which may process or retain your data, the privacy policies of those services can be found at:
+Onze infrastructuur maakt gebruik van derden die uw gegevens kunnen verwerken of bewaren, het privacybeleid van die diensten is te vinden op:
 
 -   https://sentry.io/privacy/
 -   https://www.cloudflare.com/privacypolicy/
 -   https://discord.com/privacy
 
-## Updates to this policy
+## Bewerkingen van dit beleid
 
-This policy was created on May 5th, 2021. This policy may change without notice at any time. We advise regularly checking it for any updates that may affect you.
+Dit beleid is gecreëerd op 5 mei 2021. Dit beleid kan te allen tijde zonder voorafgaande kennisgeving worden gewijzigd. Wij adviseren je deze regelmatig te controleren op eventuele updates die op jou van invloed kunnen zijn.
 
-## Ask a question
+## Stel een vraag
 
-To ask a question about this policy, please follow the instructions outlined under the "Request deletion of your data" section.
+Om een vraag te stellen over dit beleid, gelieve de instructies te volgen die zijn beschreven in de rubriek "Verzoek tot verwijdering van uw gegevens".

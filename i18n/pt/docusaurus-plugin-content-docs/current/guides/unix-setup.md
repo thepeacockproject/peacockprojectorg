@@ -1,6 +1,6 @@
 ---
-title: Linux Setup Guide
-description: Guide for setting up Peacock on Linux or macOS.
+title: Guia de Configuração Linux
+description: Guia para configurar o Peacock no Linux ou macOS.
 ---
 
-This page is still under construction - please check back later!
+Essa página ainda está sendo formulada - por favor verifique novamente mais tarde!
