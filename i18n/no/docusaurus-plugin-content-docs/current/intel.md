@@ -153,7 +153,7 @@ _Guide written originally by [Fusha](https://www.speedrun.com/user/Fusha)_
 
 5. Right click on main Livesplit window, then click on `Edit Splits`. Edit your split names (`Segment Name`) to your liking. Click on `Insert Above / Below` to add new segments. If you like, you can enter your estimated times in `Segment Times`.
 
-6. Click `ok` on the Splits Editor, then right click the main Livesplit window and select `save layout` for future use.
+6. Click `ok` on the Splits Editor, then right click the main Livesplit window and select `save splits` for future use.
 
 7. Right click on main Livesplit window, then click on `Edit Layout`. Double click on `Timer`, then select `Game Time` for timing method.
 

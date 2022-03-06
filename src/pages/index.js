@@ -74,15 +74,22 @@ function Feature({ imageUrl, title, description }) {
 function Home() {
     return (
         <Layout
-            title={`Home`}
-            description="Homepage for The Peacock Project, a replacement for HITMAN&trade; 3's servers that runs on your machine."
+            title={"Home"}
+            description={
+                "Homepage for The Peacock Project, a replacement for HITMAN&trade;'s servers that runs on your machine."
+            }
         >
             <header className={clsx("hero hero--primary", styles.heroBanner)}>
                 <div className="container">
                     <h1 className="hero__title">The Peacock Project</h1>
                     <p className="hero__subtitle">
-                        A replacement for HITMAN&trade; 3's servers that runs on
-                        your machine.
+                        <Translate
+                            id="homepage.subtitle"
+                            description="The homepage's subtitle."
+                        >
+                            A replacement for HITMAN&trade;'s servers that runs
+                            on your machine.
+                        </Translate>
                     </p>
                 </div>
             </header>
@@ -107,7 +114,12 @@ function Home() {
                             )}
                             to="/testimonials"
                         >
-                            Read what our users say
+                            <Translate
+                                id="homepage.testimonialsButton"
+                                description="The homepage's 'read what our users say' button."
+                            >
+                                Read what our users say
+                            </Translate>
                         </Link>
                     </div>
                 </section>
@@ -117,7 +129,12 @@ function Home() {
                     <h3
                         className={clsx("text--center", styles.bottomCardSpace)}
                     >
-                        Ready to give Peacock a shot?
+                        <Translate
+                            id="homepage.joinDiscordLabel"
+                            description="The text on top of the go to Discord button on the home page."
+                        >
+                            Ready to give Peacock a shot?
+                        </Translate>
                     </h3>
                     <div
                         className={clsx(styles.buttons, styles.bottomCardSpace)}
@@ -129,13 +146,23 @@ function Home() {
                                 styles.fixedWidthBtn
                             )}
                         >
-                            Join our Discord!{" "}
+                            <Translate
+                                id="homepage.joinDiscordButton"
+                                description="The text on the join our Discord button on the home page."
+                            >
+                                Join our Discord!
+                            </Translate>
+                            {" "}
                             <OpenIcon className={styles.icon} />
                         </a>
                     </div>
                     <small className="text--center">
-                        (Downloads are available on Discord, requires
-                        verification of game ownership)
+                        <Translate
+                            id="homepage.joinDiscordButtonBelowText"
+                            description="The text below the join our Discord button on the home page."
+                        >
+                            (Downloads are available on Discord)
+                        </Translate>
                     </small>
                 </section>
             </main>

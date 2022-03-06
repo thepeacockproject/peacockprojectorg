@@ -265,5 +265,25 @@
   "homepage.customContentDescription": {
     "message": "We feature exclusive, custom content every month!",
     "description": "The homepage's 'Custom content' feature description"
+  },
+  "homepage.subtitle": {
+    "message": "A replacement for HITMAN™'s servers that runs on your machine.",
+    "description": "The homepage's subtitle."
+  },
+  "homepage.testimonialsButton": {
+    "message": "Read what our users say",
+    "description": "The homepage's 'read what our users say' button."
+  },
+  "homepage.joinDiscordLabel": {
+    "message": "Ready to give Peacock a shot?",
+    "description": "The text on top of the go to Discord button on the home page."
+  },
+  "homepage.joinDiscordButton": {
+    "message": "Join our Discord!",
+    "description": "The text on the join our Discord button on the home page."
+  },
+  "homepage.joinDiscordButtonBelowText": {
+    "message": "(Downloads are available on Discord)",
+    "description": "The text below the join our Discord button on the home page."
   }
 }

@@ -20,6 +20,13 @@ module.exports = {
             },
             fa: {
                 direction: "rtl",
+                htmlLang: "fa-IR",
+            },
+            nl: {
+                htmlLang: "nl-NL",
+            },
+            "pt-BR": {
+                htmlLang: "pt-BR",
             },
         },
     },
@@ -27,8 +34,7 @@ module.exports = {
         metadata: [
             {
                 name: "keywords",
-                content:
-                    "peacock, project, hitman, server, replacement, emulator, offline, hitman 3",
+                content: "peacock,project,hitman,server,replacement,offline",
             },
         ],
         navbar: {
