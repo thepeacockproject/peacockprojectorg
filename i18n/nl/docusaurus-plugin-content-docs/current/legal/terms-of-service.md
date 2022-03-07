@@ -29,7 +29,7 @@ Aangezien het bouwen en draaiende houden van Peacock het team geld kost, heeft i
 
 Pogingen tot reverse-engineering of het anderszins demonteren/reassembleren van Peacock en/of de daarmee verbonden diensten is niet toegestaan.
 
-## Interpretation
+## Interpretatie
 
 All translations are provided purely for informational purposes. In case of discrepancy between the English text and any translations, the English version shall prevail.
 
