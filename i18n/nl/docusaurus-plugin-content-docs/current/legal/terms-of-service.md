@@ -31,8 +31,8 @@ Pogingen tot reverse-engineering of het anderszins demonteren/reassembleren van 
 
 ## Interpretatie
 
-All translations are provided purely for informational purposes. In case of discrepancy between the English text and any translations, the English version shall prevail.
+Deze vertaling wordt puur geleverd ten behoeve van informatieverstrekking. In geval van discrepantie tussen de Engelse tekst en deze vertaling, heeft de Engelse versie voorrang.
 
-## Change
+## Verandering
 
-This policy may change at any time at our discretion. We will attempt to notify you of any changes, but in some cases, we may not be able to. The date this policy was last modified can be found at the bottom of this page.
+Dit beleid kan te allen tijde worden gewijzigd. Wij zullen trachten je op de hoogte te brengen van eventuele wijzigingen, maar in sommige gevallen zal dit niet mogelijk zijn. De datum waarop dit beleid voor het laatst werd gewijzigd, vind je onderaan deze pagina.

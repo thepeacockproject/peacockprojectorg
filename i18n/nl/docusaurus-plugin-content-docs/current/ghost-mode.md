@@ -1,33 +1,33 @@
 ---
 image: /img/ghostmode.jpg
-description: Details about The Peacock Project's Ghost Mode server, allowing players to use the now-scrapped game mode.
+description: Details over de Ghost Mode-server van The Peacock Project, waarmee spelers de geschrapte spelmodus kunnen gebruiken.
 ---
 
 # Ghost Mode
 
-The Peacock Project is happy to announce that we are running our own [LocalGhost](https://gitlab.com/grappigegovert/LocalGhost) server!
+The Peacock Project is blij te kunnen aankondigen dat we onze eigen [LocalGhost](https://gitlab.com/grappigegovert/LocalGhost) server hebben!
 
-Ghost Mode for HITMAN™ 2 (and HITMAN™ 3 on Steam with a mod) has returned as an unofficial game mode! You and a friend can connect and invite each other to a friendly Ghost Mode match using Steam's invite system.
+Ghost Mode voor HITMAN™ 2 (en HITMAN™ 3 op Steam met een mod) is terug als een onofficiële spelmodus! Jij en een vriend kunnen verbinding maken en elkaar uitnodigen voor een vriendschappelijke Ghost Mode-wedstrijd via het invite-systeem van Steam.
 
-(_Matchmaking is not supported_).
+(_Matchmaking wordt niet ondersteund_).
 
-Ghost Mode is available for PC players who own HITMAN™ 2 or HITMAN™ 3 on Steam.
+Ghost Mode is beschikbaar voor PC-spelers die HITMAN™ 2 of HITMAN™ 3 op Steam hebben.
 
-## How to Connect
+## Verbinding maken
 
-1. Download the LocalGhost Patcher from [here](https://gitlab.com/grappigegovert/localghost/-/jobs/artifacts/master/download?job=build_patcher).
-2. Open the patcher, and select `ghostmode.rdil.rocks` on the drop-down menu.
-3. If this is your first time running the patcher, open Advanced Settings, and untick the box labeled `Use http instead of https`. Then click save.
-4. Start the game, press enter when prompted.
-5. You are ready to play Ghost Mode!
+1. Download de LocalGhost Patcher van [hier](https://gitlab.com/grappigegovert/localghost/-/jobs/artifacts/master/download?job=build_patcher).
+2. Open de patcher, en selecteer `ghostmode.rdil.rocks` in het drop-down menu.
+3. Als dit de eerste keer is dat je de patcher gebruikt, open dan Advanced Settings, en vink het vakje `Use http instead of https` uit. Klik dan op opslaan.
+4. Start het spel, druk op enter wanneer daarom wordt gevraagd.
+5. Je bent klaar om Ghost Mode te spelen!
 
-Want to go back to the official servers? Just close the patcher and restart the game.
+Wil je terug naar de officiële servers? Sluit gewoon de patcher en start het spel opnieuw op.
 
-## Use in HITMAN™ 3
+## Gebruik in HITMAN™ 3
 
-To use Ghost Mode in HITMAN™ 3 (Steam version only), you need to install a client-side mod to the game. The mod can be obtained [here](https://www.nexusmods.com/hitman3/mods/260).
+Om de Ghost Mode te gebruiken in HITMAN™ 3 (alleen de Steam-versie), moet je een client-side mod installeren in het spel. De mod kan verkregen worden via [hier](https://www.nexusmods.com/hitman3/mods/260).
 
 ## Side Notes
 
--   Peacock and LocalGhost are not the same thing. LocalGhost supports Ghost Mode, and Peacock does not.
--   This Ghost Mode server is run by The Peacock Project team, but _is not Peacock itself_!
+-   Peacock en LocalGhost zijn niet hetzelfde. LocalGhost ondersteunt Ghost Mode, en Peacock niet.
+-   Deze Ghost Mode server wordt gerund door het The Peacock Project team, maar _is niet Peacock zelf_!

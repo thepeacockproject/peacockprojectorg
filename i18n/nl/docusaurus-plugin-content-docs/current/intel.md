@@ -1,19 +1,19 @@
 ---
-title: Knowledge Base
-description: Details on what Peacock is, how to install it, how to use it, and more.
+title: Kennisbank
+description: Details over wat Peacock is, hoe je het installeert, hoe je het gebruikt, en meer.
 ---
 
 <div class="make_h2_smaller">
 
-## What is Peacock?
+## Wat is Peacock?
 
-<details><summary>Click to Expand</summary>
+<details><summary>Klik om uit te breiden</summary>
 <p>
 
--   Peacock is essentially a Hitman server emulator that runs on your own PC.
--   Benefits of using Peacock include:
-    -   **Obtain all unlocks immediately**
-        -   Note: If it is your first time playing (on either Peacock or official servers), some exits will be locked. You will need to unlock Dubai exits ([need to unlock the elevators](https://youtu.be/IEQgRQyQRf8)), Dartmoor exits ([need to exit via bike at least once](https://youtu.be/AJtJZe9jEi8?t=151)), and Colorado exits ([need to use tornado exit at least once](https://youtu.be/3XKWHrKpXwk?t=140)). These exits are handled client-side.
+- Peacock is een Hitman-serveremulator die op uw eigen PC draait.
+- Voordelen van het gebruik van Peacock zijn:
+    - **Krijg alle unlocks onmiddellijk**
+        - Opmerking: Als het de eerste keer is dat je speelt (op Peacock of officiële servers), zullen sommige uitgangen vergrendeld zijn. You will need to unlock Dubai exits ([need to unlock the elevators](https://youtu.be/IEQgRQyQRf8)), Dartmoor exits ([need to exit via bike at least once](https://youtu.be/AJtJZe9jEi8?t=151)), and Colorado exits ([need to use tornado exit at least once](https://youtu.be/3XKWHrKpXwk?t=140)). These exits are handled client-side.
     -   Play [custom](custom-content.mdx) or otherwise discontinued/ time limited content such as [Ghost Mode](https://thepeacockproject.org/wiki/ghost-mode), legacy escalations, elusive targets.
     -   Display leaderboards for other Peacock users
     -   Access Hitman's rating system without being connected to IOI's servers
@@ -27,7 +27,7 @@ description: Details on what Peacock is, how to install it, how to use it, and m
 
 ## Supported Games / Operating Systems
 
-<details><summary>Click to Expand</summary>
+<details><summary>Klik om uit te breiden</summary>
 <p>
 
 **Supported Games / Platforms**
@@ -54,7 +54,7 @@ Also note: Hitman 2016 / Hitman 2 are not as well supported as Hitman 3, there m
 ## How to Install / Use Peacock
 
 <details>
-<summary>Click to Expand</summary>
+<summary>Klik om uit te breiden</summary>
 
 <p>
 
@@ -75,7 +75,7 @@ Also note: Hitman 2016 / Hitman 2 are not as well supported as Hitman 3, there m
 ## When / How to Update Peacock
 
 <details>
-<summary>Click to Expand</summary>
+<summary>Klik om uit te breiden</summary>
 
 <p>
 
@@ -97,7 +97,7 @@ Also note: Hitman 2016 / Hitman 2 are not as well supported as Hitman 3, there m
 ## General Peacock Use Tips
 
 <details>
-<summary>Click to Expand</summary>
+<summary>Klik om uit te breiden</summary>
 
 <p>
 
@@ -121,7 +121,7 @@ Also note: Hitman 2016 / Hitman 2 are not as well supported as Hitman 3, there m
 ## Autosplitter Setup (For Full Game Speedruns)
 
 <details>
-<summary>Click to Expand</summary>
+<summary>Klik om uit te breiden</summary>
 
 <p>
 
