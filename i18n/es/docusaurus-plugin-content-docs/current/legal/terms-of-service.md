@@ -29,6 +29,10 @@ Since Peacock costs the team to build and keep going, anybody has the option to 
 
 Attempting to reverse engineer or otherwise disassemble/reassemble Peacock and/or its connected services is not permitted.
 
+## Interpretation
+
+All translations are provided purely for informational purposes. In case of discrepancy between the English text and any translations, the English version shall prevail.
+
 ## Change
 
 This policy may change at any time at our discretion. We will attempt to notify you of any changes, but in some cases, we may not be able to. The date this policy was last modified can be found at the bottom of this page.

@@ -36,6 +36,10 @@ If they do it again after being given a warning, their ability to access this co
 
 Attempting to reverse engineer or otherwise disassemble/reassemble Peacock and/or its connected services is not permitted.
 
+## Interpretation
+
+All translations are provided purely for informational purposes. In case of discrepancy between the English text and any translations, the English version shall prevail.
+
 ## Change
 
 This policy may change at any time at our discretion. We will attempt to notify you of any changes, but in some cases, we may not be able to.

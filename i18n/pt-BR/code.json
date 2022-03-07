@@ -267,23 +267,26 @@
     "description": "The homepage's 'Custom content' feature description"
   },
   "homepage.subtitle": {
-    "message": "A replacement for HITMAN™'s servers that runs on your machine.",
+    "message": "Uma substituição para servidores do HITMAN™ que roda na sua máquina.",
     "description": "The homepage's subtitle."
   },
   "homepage.testimonialsButton": {
-    "message": "Read what our users say",
+    "message": "Leia o que nossos usuários dizem",
     "description": "The homepage's 'read what our users say' button."
   },
   "homepage.joinDiscordLabel": {
-    "message": "Ready to give Peacock a shot?",
+    "message": "Pronto para dar uma chance ao Peacock?",
     "description": "The text on top of the go to Discord button on the home page."
   },
   "homepage.joinDiscordButton": {
-    "message": "Join our Discord!",
+    "message": "Junte-se ao nosso Discord!",
     "description": "The text on the join our Discord button on the home page."
   },
   "homepage.joinDiscordButtonBelowText": {
-    "message": "(Downloads are available on Discord)",
+    "message": "(Downloads estão disponíveis no Discord)",
     "description": "The text below the join our Discord button on the home page."
+  },
+  "testimonialsPage.subTitle": {
+    "message": "What our users say about Peacock."
   }
 }

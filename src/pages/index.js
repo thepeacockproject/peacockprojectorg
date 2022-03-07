@@ -151,8 +151,7 @@ function Home() {
                                 description="The text on the join our Discord button on the home page."
                             >
                                 Join our Discord!
-                            </Translate>
-                            {" "}
+                            </Translate>{" "}
                             <OpenIcon className={styles.icon} />
                         </a>
                     </div>

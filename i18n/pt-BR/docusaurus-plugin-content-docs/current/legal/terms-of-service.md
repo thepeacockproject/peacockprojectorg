@@ -29,6 +29,10 @@ Já que o Peacock custou a equipe por construir e manter, qualquer pessoa tem a 
 
 Tentar engenharia reversa ou de outra forma desmontar/remontar o Peacock e/ou seus serviços conectados não é permitido.
 
-## Mudanças
+## Interpretation
 
-Esta política pode ser modificada a qualquer momento à nossa discrição. Nós tentaremos notificar a você de qualquer mudança, mas em alguns casos, nós podemos não ser capazes de fazê-lo. A data em que esta política foi modificada pela última vez pode ser encontrada no fim desta página.
+All translations are provided purely for informational purposes. In case of discrepancy between the English text and any translations, the English version shall prevail.
+
+## Change
+
+This policy may change at any time at our discretion. We will attempt to notify you of any changes, but in some cases, we may not be able to. The date this policy was last modified can be found at the bottom of this page.

@@ -285,5 +285,8 @@
   "homepage.joinDiscordButtonBelowText": {
     "message": "(Downloads are available on Discord)",
     "description": "The text below the join our Discord button on the home page."
+  },
+  "testimonialsPage.subTitle": {
+    "message": "What our users say about Peacock."
   }
 }
