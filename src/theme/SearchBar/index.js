@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-import React, { useRef, useCallback, useState } from "react"
+import React, { useRef, useCallback } from "react"
 import classnames from "classnames"
 import { useHistory } from "@docusaurus/router"
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
@@ -14,9 +14,8 @@ import { usePluginData } from "@docusaurus/useGlobalData"
 const Search = (props) => {
     const initialized = useRef(false)
     const searchBarRef = useRef(null)
-    const [indexReady, setIndexReady] = useState(false)
     const history = useHistory()
-    const { siteConfig = {}, isClient = false } = useDocusaurusContext()
+    const { siteConfig = {} } = useDocusaurusContext()
     const { baseUrl } = siteConfig
     const initAlgolia = (searchDocs, searchIndex, DocSearch) => {
         new DocSearch({
@@ -66,7 +65,6 @@ const Search = (props) => {
                     return
                 }
                 initAlgolia(searchDocs, searchIndex, DocSearch)
-                setIndexReady(true)
             })
             initialized.current = true
         }
@@ -84,10 +82,6 @@ const Search = (props) => {
         [props.isSearchBarExpanded]
     )
 
-    if (isClient) {
-        loadAlgolia()
-    }
-
     return (
         <div className="navbar__search" key="search-box">
             <span
@@ -103,7 +97,7 @@ const Search = (props) => {
             <input
                 id="search_input_react"
                 type="search"
-                placeholder={indexReady ? "Search" : "Loading..."}
+                placeholder="Search"
                 aria-label="Search"
                 className={classnames(
                     "navbar__search-input",
@@ -115,7 +109,6 @@ const Search = (props) => {
                 onFocus={toggleSearchIconClick}
                 onBlur={toggleSearchIconClick}
                 ref={searchBarRef}
-                disabled={!indexReady}
             />
         </div>
     )
