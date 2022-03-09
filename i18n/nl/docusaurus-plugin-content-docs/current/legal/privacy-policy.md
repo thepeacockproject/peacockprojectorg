@@ -5,9 +5,11 @@ description: Hoe The Peacock Project omgaat met gebruikersgegevens en deze opsla
 
 # Peacock Privacybeleid
 
+We respect your privacy regarding any information we may collect while operating our Services, and this page describes how we use data collected, and for what purposes.
+
 ## Toepassingsgebied
 
-Dit beleid is van toepassing op de volgende websites en producten:
+This policy applies to the following websites and products (collectively, the "Services"):
 
 -   Alle routes die beginnen met '/peacock' op backend.rdil.rocks.
 -   Elke inhoud getoond op thepeacockproject.org
@@ -15,9 +17,9 @@ Dit beleid is van toepassing op de volgende websites en producten:
 
 ## Welke gegevens verzamelen wij?
 
-Wanneer je één van de pagina's bekijkt waarop dit beleid betrekking heeft, wordt precies welke pagina, evenals je IP-adres en de tijd door ons gelogd. Deze praktijk is typisch en wordt door de meeste websites toegepast. Deze informatie wordt maximaal 72 uur op onze servers bewaard.
+When you view any of the pages this policy covers, exactly which page, as well as your IP address, and the time gets logged by us. This practice is typical and used by most websites. This information is stored on our servers for a maximum of 72 hours.
 
-Wanneer je inlogt, kan de volgende informatie worden gelogd (in welk geval deze maximaal 1 werkweek wordt bewaard), of worden opgeslagen in onze database voor het op lange termijn opvragen/bewaren van gegevens:
+When you log in, the following information may be logged (in which case it is stored for a maximum of 1 business week), or stored in our database for long term data retrieval/storage:
 
 -   Alle details die worden opgeslagen wanneer je de pagina bekijkt (zoals hierboven beschreven) (gelogd)
 -   Basisgegevens over je Discord-account (zie de documentatie voor Discord-ontwikkelaars voor welke informatie wordt geretourneerd bij gebruik van OAuth 2)
@@ -25,7 +27,7 @@ Wanneer je inlogt, kan de volgende informatie worden gelogd (in welk geval deze 
 
 ## Waar gebruiken we deze gegevens voor?
 
-Wij gebruiken deze gegevens onder meer voor:
+We use this data for purposes including:
 
 -   Verifiëren dat je in de Discord server zit
 -   Rollen toewijzen op basis van eigendomsstatus in de Discord server
@@ -33,30 +35,63 @@ Wij gebruiken deze gegevens onder meer voor:
 
 ## Verzoek om verwijdering van uw gegevens
 
-Neem contact op met een projectbeheerder op Discord, of email me [at symbol] rdil [dot] rocks.
+Please contact a project admin on Discord, or email me [at symbol] rdil [dot] rocks.
 
 ## Afmelden waar mogelijk
 
-In recente versies van de Peacock-server is de mogelijkheid ingebouwd om bepaalde functies die persoonlijke informatie kunnen verzamelen, uit te schakelen.
+The Peacock server has the built-in capability as of recently released versions to opt out of certain features that may collect personal information.
 
-Als je je wilt afmelden voor leaderboard-gegevens die naar onze servers worden verzonden, voer je de server één keer uit, bewerk je vervolgens het gegenereerde bestand `options.ini` en stel je de waarde voor `leaderboardsOptOut` in op `true`. Als je je wilt afmelden voor updatecontrole, voer je de server één keer uit en bewerk je vervolgens het gegenereerde bestand `options.ini` en stel je de waarde `disableUpdateChecking` in op `true`.
+To opt out of leaderboard data being submitted to our servers, run the server once, then edit the generated `options.ini` file, setting the `leaderboardsOptOut` value to `true`. To opt out of update checking, run the server once, then edit the generated `options.ini` file, setting the `updateChecking` value to `false`.
 
-## Verantwoorde openbaarmaking van inbreuken op de beveiliging van gegevens
+## Legal bases for information collection/usage
 
-Mochten er ooit verzamelde gegevens uitlekken, dan zullen wij ons best doen om de getroffen gebruikers hiervan op de hoogte te brengen. Houd er rekening mee dat we mogelijk niet in staat zijn om contact met je op te nemen als je de Discord-server verlaat, Discord-directe berichten uitschakelt, of Discord niet controleert wanneer we je informeren.
+A note here for those in the European Union about legal grounds for processing information about you under EU data protection laws, which is that our use of your information is based on the grounds that:
 
-## Gebruik van gegevens door derden
+1. The use is necessary in order to fulfill our commitments to you under our Terms of Service or other agreements with you or is necessary to administer your account–for example, in order to enable access to our Services on your device; or
+2. The use is necessary for compliance with a legal obligation; or
+3. The use is necessary in order to protect your vital interests or those of another person; or
+4. We have a legitimate interest in using your information–for example, to provide and update our Services, to improve our Services, to safeguard our Services, to communicate with you, to monitor and prevent any problems with our Services, and to personalize your experience; or
+5. You have given us your consent.
 
-Onze infrastructuur maakt gebruik van derden die uw gegevens kunnen verwerken of bewaren, het privacybeleid van die diensten is te vinden op:
+## How we share information
+
+We do not sell our users' private personal information.
+
+We share information about you in the limited circumstances spelled out below and with appropriate safeguards on your privacy:
+
+-   Legal Requests: We may disclose information about you in response to a subpoena, court order, or other governmental request.
+-   To Protect Rights, Property, and Others: We may disclose information about you when we believe in good faith that disclosure is reasonably necessary to protect the property or rights of The Peacock Project, third parties, or the public at large. For example, if we have a good faith belief that there is an imminent danger of death or serious physical injury, we may disclose information related to the emergency without delay.
+-   With Your Consent: We may share and disclose information with your consent or at your direction. For example, we may share your information with third parties with which you authorize us to do so.
+
+## Responsible disclosure of data breaches
+
+In the case that any data collected is ever leaked, we will try our best to notify the affected users. Please note that we may not be able to contact you if you leave the Discord server, disable Discord direct messages, or fail to check Discord when we inform you.
+
+## Your rights
+
+If you are located in certain countries, including those that fall under the scope of the European General Data Protection Regulation (AKA the “GDPR”), data protection laws give you rights with respect to your personal data, subject to any exemptions provided by the law, including the rights to:
+
+-   Request access to your personal data
+-   Request correction or deletion of your personal data
+-   Object to our use and processing of your personal data
+-   Request that we limit our use and processing of your personal data
+-   Request portability of your personal data
+
+EU individuals also have the right to make a complaint to a government supervisory authority.
+
+## Use of data by third parties
+
+Our infrastructure makes use of third parties which may process or retain your data, the privacy policies of those Services can be found at:
 
 -   https://sentry.io/privacy/
 -   https://www.cloudflare.com/privacypolicy/
 -   https://discord.com/privacy
+-   https://www.hitmaps.com/privacy-policy
 
-## Bewerkingen van dit beleid
+## Updates to this policy
 
-Dit beleid is gecreëerd op 5 mei 2021. Dit beleid kan te allen tijde zonder voorafgaande kennisgeving worden gewijzigd. Wij adviseren je deze regelmatig te controleren op eventuele updates die op jou van invloed kunnen zijn.
+This policy was created on May 5th, 2021. This policy may change without notice at any time. We advise regularly checking it for any updates that may affect you.
 
-## Stel een vraag
+## Ask a question
 
-Om een vraag te stellen over dit beleid, gelieve de instructies te volgen die zijn beschreven in de rubriek "Verzoek tot verwijdering van uw gegevens".
+To ask a question about this policy, please follow the instructions outlined under the "Request deletion of your data" section.

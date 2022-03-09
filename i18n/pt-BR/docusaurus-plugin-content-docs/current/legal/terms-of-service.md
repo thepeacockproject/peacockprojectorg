@@ -1,6 +1,6 @@
 ---
 title: Termos de Serviço
-description: Termos de Serviço e Uso do Peacock.
+description: Peacock's Terms of Service.
 ---
 
 Enquanto não somos exatamente advogados, nós temos alguns termos e condições que precisam ser seguidas.
@@ -11,11 +11,11 @@ Enquanto não somos exatamente advogados, nós temos alguns termos e condições
 
 ## Vínculo
 
-Por usar o Peacock e qualquer serviço relacionado, você concorda com esses termos, assim como os termos indicados na [Política de Privacidade](./privacy-policy.md).
+By using Peacock or any related services, you agree to these terms, as well as the terms set in the [Privacy Policy](privacy-policy.md).
 
 ## Acesso
 
-Nós concordamos em providenciar acesso do Peacock a proprietários selecionados do jogo. Nós temos o direito de negar-lhe o acesso se você não tem o jogo, ou que de alguma forma seja cabível, por alguma razão.
+We agree to provide access to Peacock for select owners of the HITMAN series. We have the right to deny you access if you don't own the game, or if we decide to deny access for any reason.
 
 ## Licenciamento
 
@@ -23,11 +23,15 @@ Peacock está sob licenciamento estrito. Exceto que seja de outra forma estatado
 
 ## Doações
 
-Já que o Peacock custou a equipe por construir e manter, qualquer pessoa tem a opção de doar dinheiro para ajudar a financiar o projeto. Todas as doações não são reembolsáveis. Doadores podem receber acesso antecipado para alguns recursos do Peacock que não estão prontas para o consumo público. Todos os materiais providenciados aos nossos doadores, exceto estatado de outra maneira, são confidenciais. Doadores que acidentalmente vazem informações confidenciais receberão um aviso. Se eles fizerem isto novamente depois de receber o aviso, sua habilidade de acessar o conteúdo será removida.
+Já que o Peacock custou a equipe por construir e manter, qualquer pessoa tem a opção de doar dinheiro para ajudar a financiar o projeto. Todas as doações não são reembolsáveis. Doadores podem receber acesso antecipado para alguns recursos do Peacock que não estão prontas para o consumo público. Todos os materiais providenciados aos nossos doadores, exceto estatado de outra maneira, são confidenciais. Doadores que acidentalmente vazem informações confidenciais receberão um aviso. If the donor does it again after being given a warning, their ability to access this content will be removed. Donations are not required, but much appreciated.
 
 ## Manipulação
 
-Tentar engenharia reversa ou de outra forma desmontar/remontar o Peacock e/ou seus serviços conectados não é permitido.
+Engaging in or attempting to reverse engineer, modify (with some exceptions, see [plugins section](#plugins)), or otherwise disassemble/reassemble Peacock and/or its connected services is not permitted.
+
+## Plugins
+
+We encourage authorized users to create plugins to add, change, or remove functionality from Peacock. Plugin developers are allowed to modify Peacock through our internal plugin system, assuming modifications made do not violate any other rules laid out in this document. While the plugin system is an official feature of Peacock, unless otherwise stated, plugins are not provided by nor endorsed by The Peacock Project. We provide no liability, warranty, or support for these plugins. If you wish to become a plugin developer, and gain access to our official plugin development resources, contact an admin on Discord.
 
 ## Interpretation
 
