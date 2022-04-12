@@ -58,7 +58,7 @@ Also note: Hitman 2016 / Hitman 2 are not as well supported as Hitman 3, there m
   
 <p>
 
-1. Join the Peacock Discord server (https://thepeacockproject.org/discord). You must have a 7 day or older Discord account and have proof of buying Hitman 2016/ Hitman 2/ Hitman 3 to join.
+1. Join the Peacock Discord server (https://thepeacockproject.org/discord). You must have a 7 day or older Discord account to join.
 
 2. Go to the `#downloads` channel in the above Discord server and download the latest Peacock build.
 
