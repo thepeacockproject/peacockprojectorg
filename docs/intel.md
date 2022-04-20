@@ -33,6 +33,7 @@ description: Details on what Peacock is, how to install it, how to use it, and m
 **Supported Games / Platforms**
 
 -   Hitman 2016 ([Steam](https://store.steampowered.com/app/236870/HITMAN/) / [Epic](https://www.epicgames.com/store/en-US/p/hitman))
+-   Hitman Sniper Assassin ([Steam Depot](https://steamdb.info/app/783780/))
 -   Hitman 2 ([Steam](https://store.steampowered.com/app/863550/HITMAN_2/))
 -   Hitman 3 ([Steam](https://store.steampowered.com/app/1659040/HITMAN_3/) / [Epic](https://www.epicgames.com/store/en-US/p/hitman-3)).
 
