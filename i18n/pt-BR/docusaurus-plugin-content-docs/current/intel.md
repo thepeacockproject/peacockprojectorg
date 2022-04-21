@@ -154,7 +154,7 @@ https://github.com/LiveSplit/LiveSplit.Server/releases/tag/1.8.17
 
 5. Clique com o botão direito na janela principal do Livesplit, e clique em `Edit Splits`. Edite seus nomes split (`Segment Name`) para o que desejar. Clique em `Insert Above / Below` para adicionar dois novos segmentos. Se desejar, você pode inserir seus tempos estimados em `Segment Times`.
 
-6. Click `ok` on the Splits Editor, then right click the main Livesplit window and select `save splits` for future use.
+6. Clique em `ok` no Splits Editor, depois clique com o botão direito na janela principal do Livesplit e secione `save splits` para uso futuro.
 
 7. Clique com o botão direito na janela principal do Livesplit, e então clique em `Edit Layout`. Clique duas vezes em `Timer`, e então selecione `Game Time` para o método de cronometragem.
 

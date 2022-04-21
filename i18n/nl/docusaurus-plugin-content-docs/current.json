@@ -1,10 +1,10 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "Volgende",
     "description": "The label for version current"
   },
   "sidebar.sidebar.category.Legal": {
-    "message": "Legal",
+    "message": "Wettelijk",
     "description": "The label for category Legal in sidebar sidebar"
   }
 }

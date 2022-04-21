@@ -5,11 +5,11 @@ description: Como O Projeto Peacock cuida e guarda as informações do usuário.
 
 # Política de Privacidade do Peacock
 
-We respect your privacy regarding any information we may collect while operating our Services, and this page describes how we use data collected, and for what purposes.
+Nós respeitamos sua privacidade incluindo qualquer informação que possamos coletar enquanto utiliza nossos serviços, e esta página descreve como usamos os dados coletados, e para quais propósitos.
 
 ## Alcance
 
-This policy applies to the following websites and products (collectively, the "Services"):
+Esta política se aplica aos seguintes websites e produtos (coletivamente, os "Serviços"):
 
 -   Todas as rotas que se iniciam com '/peacock' em backend.rdil.rocks.
 -   Qualquer conteúdo exibido em thepeacockproject.org
@@ -17,9 +17,9 @@ This policy applies to the following websites and products (collectively, the "S
 
 ## Que informações coletamos?
 
-When you view any of the pages this policy covers, exactly which page, as well as your IP address, and the time gets logged by us. This practice is typical and used by most websites. This information is stored on our servers for a maximum of 72 hours.
+Quando você vê qualquer página que esta política de privacidade cobre, exatamente qual página, assim como o seu indereço de IP, e a hora é guardado por nós. Essa prática é típica da maioria dos websites. Essa informação fica guardada em nossos servidores por no máximo 72 horas.
 
-When you log in, the following information may be logged (in which case it is stored for a maximum of 1 business week), or stored in our database for long term data retrieval/storage:
+Quando você realiza o log in, as seguintes informações são logadas em nosso servidor (que nesse caso fica guardado por no máximo uma semana útil), ou guardada em nossa base de dados para recuperação/armazenamento de informação de longo prazo:
 
 -   Todos os detalhes salvos quando você visualiza a página (como destacado acima) (logado)
 -   Informações básicas sobre a sua conta Discord (veja a documentação de desenvolvedor do Discord para saber quais informações são retornadas quando usando OAuth 2)
@@ -27,7 +27,7 @@ When you log in, the following information may be logged (in which case it is st
 
 ## Para que usamos essa informação?
 
-We use this data for purposes including:
+Usamos essa informação para propósitos que incluem:
 
 -   Verificar que você está no Servidor do Discord
 -   Atribuir cargos com base no seu status de proprietário no servidor Discord
@@ -35,63 +35,63 @@ We use this data for purposes including:
 
 ## Requerimento da exclusão dos seus dados
 
-Please contact a project admin on Discord, or email me [at symbol] rdil [dot] rocks.
+Por favor contacte um administrador do projeto no Discord, ou evie um email para mim em [arroba] rdil [ponto] rocks.
 
 ## Excluindo onde possível
 
-The Peacock server has the built-in capability as of recently released versions to opt out of certain features that may collect personal information.
+O Servidor Peacock tem a capacidade embutida em versões recentemente lançadas de ter a exclusão de certos recursos que podem coletar informações pessoais.
 
-To opt out of leaderboard data being submitted to our servers, run the server once, then edit the generated `options.ini` file, setting the `leaderboardsOptOut` value to `true`. To opt out of update checking, run the server once, then edit the generated `options.ini` file, setting the `updateChecking` value to `false`.
+Para ser desativado dos dados de tabela de classificação enviada aos nossos servidores, rode o servidor uma vez, e então edite o arquivo `options.ini` gerado, configurando o valor `leaderboardsOptOut` para `true`. Para ser desativado da checagem de atualização, rode o servidor uma vez, e então edite o arquivo `options.ini` gerado, configurando o valor `updateChecking` para `false`.
 
-## Legal bases for information collection/usage
+## Bases legais para coleta/uso de informações
 
-A note here for those in the European Union about legal grounds for processing information about you under EU data protection laws, which is that our use of your information is based on the grounds that:
+Uma nota para aqueles na União Européia sobre fundamentos legais para o processamento de informações sobre você sob as leis de proteção de dado da UE, que é que nosso uso da sua informação é baseada nos fundamentos que:
 
-1. The use is necessary in order to fulfill our commitments to you under our Terms of Service or other agreements with you or is necessary to administer your account–for example, in order to enable access to our Services on your device; or
-2. The use is necessary for compliance with a legal obligation; or
-3. The use is necessary in order to protect your vital interests or those of another person; or
-4. We have a legitimate interest in using your information–for example, to provide and update our Services, to improve our Services, to safeguard our Services, to communicate with you, to monitor and prevent any problems with our Services, and to personalize your experience; or
-5. You have given us your consent.
+1. O uso é necessário para cumprir nossos comprometimentos para com você em nossos Termos de Serviço ou outros acordos com você ou é necessário para administrar sua conta–por exemplo, para permitir acesso aos nossos serviços no seu dispositivo; ou
+2. O uso é necessário para cumprir com uma obrigação legal; ou
+3. O uso é necessário para proteger seus interesses vitais ou aqueles de outra pessoa; ou
+4. Nós temos um interesse legítimo em usar sua informação–por exemplo, para providenciar e atualizar nossos Serviços, para melhorar nossos Serviços, para proteger nossos Serviços, para nos comunicar com você, para monitorar e prevenir qualquer problemas com nossos Serviços, e para personalizar sua experiência; ou
+5. Você nos deu seu consentimento.
 
-## How we share information
+## Como compartilhamos informação
 
-We do not sell our users' private personal information.
+Nós não vendemos as informações pessoais de nossos usuários.
 
-We share information about you in the limited circumstances spelled out below and with appropriate safeguards on your privacy:
+Nós compartilhamos informações sobre você nas circunstâncias limitadas escritas abaixo e com as seguranças apropriadas para a sua privacidade:
 
--   Legal Requests: We may disclose information about you in response to a subpoena, court order, or other governmental request.
--   To Protect Rights, Property, and Others: We may disclose information about you when we believe in good faith that disclosure is reasonably necessary to protect the property or rights of The Peacock Project, third parties, or the public at large. For example, if we have a good faith belief that there is an imminent danger of death or serious physical injury, we may disclose information related to the emergency without delay.
--   With Your Consent: We may share and disclose information with your consent or at your direction. For example, we may share your information with third parties with which you authorize us to do so.
+-   Pedidos Legais: Podemos compartilhar informação sobre você em resposta a uma intimação, ordem jurídica ou outro pedido governamental.
+-   Para Proteger Direitos, Propriedade e Outros: Podemos compartilhar informações sobre você quando acreditarmos em boa-fé que a divulgação é razoavelmente necessária para proteger a propriedade ou os direitos do Projeto Peacock, terceiros ou o público no geral. Por exemplo, se tivermos uma crença em boa-fé que exista um perigo iminente de morte ou de sério ferimento físico, nós podemos divulgar informação relacionada à emergência sem demora.
+-   Com Seu Consentimento: Nós podemos compartilhar e divulgar informação com seu consentimento ou com sua orientação. Por exemplo, nós podemos compartilhar sua informação com terceiros com os quais você nos autoriza a fazer o mesmo.
 
-## Responsible disclosure of data breaches
+## Divulgação Responsável de Violação de Dados
 
-In the case that any data collected is ever leaked, we will try our best to notify the affected users. Please note that we may not be able to contact you if you leave the Discord server, disable Discord direct messages, or fail to check Discord when we inform you.
+No caso de qualquer dado coletado seja vazado, tentaremos o nosso melhor para notificar os usuários afetados. Por favor note que podemos não ser capazes de contatá-lo se você deixar o Servidor Discord, desativar mensagens diretas do Discord, ou falhar em checar o Discord quando nós o informarmos.
 
-## Your rights
+## Seus Direitos
 
-If you are located in certain countries, including those that fall under the scope of the European General Data Protection Regulation (AKA the “GDPR”), data protection laws give you rights with respect to your personal data, subject to any exemptions provided by the law, including the rights to:
+Se você está localizado em certos países, incluindo aqueles no alcance da Regulação Geral de Proteção de Dados europeu (GDPR), as leis de proteção de dados te dá direitos em respeito aos seus dados pessoais, sujeitos a isenção pela lei, incluindo os direitos a:
 
--   Request access to your personal data
--   Request correction or deletion of your personal data
--   Object to our use and processing of your personal data
--   Request that we limit our use and processing of your personal data
--   Request portability of your personal data
+-   Pedir acesso aos seus dados pessoais
+-   Pedir correção ou exclusão dos seus dados pessoais
+-   Recusar o nosso uso e processamento dos seus dados pessoais
+-   Pedir que limitemos nosso uso e processamento dos seus dados pessoais
+-   Pedir portabilidade dos seus dados pessoais
 
-EU individuals also have the right to make a complaint to a government supervisory authority.
+Indivíduos da UE também têm o direito de fazer reclamações a uma autoridade de supervisão governamental.
 
-## Use of data by third parties
+## Uso de dados por terceiros
 
-Our infrastructure makes use of third parties which may process or retain your data, the privacy policies of those Services can be found at:
+Nossa infraestrutura faz o uso de terceiros que podem processar ou reter seus dados, as políticas de privacidade desses serviços podem ser encontrados em:
 
 -   https://sentry.io/privacy/
 -   https://www.cloudflare.com/privacypolicy/
 -   https://discord.com/privacy
 -   https://www.hitmaps.com/privacy-policy
 
-## Updates to this policy
+## Atualizações a esta política
 
-This policy was created on May 5th, 2021. This policy may change without notice at any time. We advise regularly checking it for any updates that may affect you.
+Esta política foi criada em 5 de Maio de 2021. Esta política pode mudar sem aviso prévio a qualquer momento. Nós sugerimos que verifique regularmente por quaisquer atualizações que podem afetá-lo.
 
-## Ask a question
+## Perguntas
 
-To ask a question about this policy, please follow the instructions outlined under the "Request deletion of your data" section.
+Para perguntar sobre esta política, por favor siga as instruções destacadas na seção "Requerimento da exclusão dos seus dados".

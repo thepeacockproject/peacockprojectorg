@@ -271,7 +271,7 @@
     "description": "The homepage's subtitle."
   },
   "homepage.testimonialsButton": {
-    "message": "Leia o que nossos usuários dizem",
+    "message": "O que os usuários dizem",
     "description": "The homepage's 'read what our users say' button."
   },
   "homepage.joinDiscordLabel": {
@@ -287,6 +287,6 @@
     "description": "The text below the join our Discord button on the home page."
   },
   "testimonialsPage.subTitle": {
-    "message": "What our users say about Peacock."
+    "message": "O que nossos usuários dizem sobre o Peacock."
   }
 }

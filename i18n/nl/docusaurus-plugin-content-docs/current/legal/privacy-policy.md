@@ -5,11 +5,11 @@ description: Hoe The Peacock Project omgaat met gebruikersgegevens en deze opsla
 
 # Peacock Privacybeleid
 
-We respect your privacy regarding any information we may collect while operating our Services, and this page describes how we use data collected, and for what purposes.
+Wij respecteren je privacy met betrekking tot alle informatie die wij mogelijk verzamelen tijdens de exploitatie van onze Diensten, en deze pagina beschrijft hoe wij de verzamelde gegevens gebruiken, en voor welke doeleinden.
 
 ## Toepassingsgebied
 
-This policy applies to the following websites and products (collectively, the "Services"):
+Dit beleid is van toepassing op de volgende websites en producten (gezamenlijk de "Diensten"):
 
 -   Alle routes die beginnen met '/peacock' op backend.rdil.rocks.
 -   Elke inhoud getoond op thepeacockproject.org
@@ -17,9 +17,9 @@ This policy applies to the following websites and products (collectively, the "S
 
 ## Welke gegevens verzamelen wij?
 
-When you view any of the pages this policy covers, exactly which page, as well as your IP address, and the time gets logged by us. This practice is typical and used by most websites. This information is stored on our servers for a maximum of 72 hours.
+Wanneer je één van de pagina's bekijkt waarop dit beleid betrekking heeft, wordt precies gelogd welke pagina, evenals je IP-adres en de tijd door ons. Deze praktijk is typisch en wordt door de meeste websites toegepast. Deze informatie wordt maximaal 72 uur op onze servers bewaard.
 
-When you log in, the following information may be logged (in which case it is stored for a maximum of 1 business week), or stored in our database for long term data retrieval/storage:
+Wanneer u inlogt, kan de volgende informatie worden gelogd (in welk geval deze maximaal 1 werkweek wordt bewaard), of worden opgeslagen in onze database voor het op lange termijn opvragen/bewaren van gegevens:
 
 -   Alle details die worden opgeslagen wanneer je de pagina bekijkt (zoals hierboven beschreven) (gelogd)
 -   Basisgegevens over je Discord-account (zie de documentatie voor Discord-ontwikkelaars voor welke informatie wordt geretourneerd bij gebruik van OAuth 2)
@@ -27,7 +27,7 @@ When you log in, the following information may be logged (in which case it is st
 
 ## Waar gebruiken we deze gegevens voor?
 
-We use this data for purposes including:
+Wij gebruiken deze gegevens onder meer voor:
 
 -   Verifiëren dat je in de Discord server zit
 -   Rollen toewijzen op basis van eigendomsstatus in de Discord server
@@ -35,22 +35,22 @@ We use this data for purposes including:
 
 ## Verzoek om verwijdering van uw gegevens
 
-Please contact a project admin on Discord, or email me [at symbol] rdil [dot] rocks.
+Neem contact op met een projectbeheerder op Discord, of email me [at symbol] rdil [dot] rocks.
 
 ## Afmelden waar mogelijk
 
-The Peacock server has the built-in capability as of recently released versions to opt out of certain features that may collect personal information.
+In recente versies van de Peacock-server is de mogelijkheid ingebouwd om bepaalde functies die persoonlijke informatie kunnen verzamelen, uit te schakelen.
 
-To opt out of leaderboard data being submitted to our servers, run the server once, then edit the generated `options.ini` file, setting the `leaderboardsOptOut` value to `true`. To opt out of update checking, run the server once, then edit the generated `options.ini` file, setting the `updateChecking` value to `false`.
+Als je je wilt afmelden voor leaderboard-gegevens die naar onze servers worden verzonden, voer je de server één keer uit, bewerk je vervolgens het gegenereerde bestand `options.ini` en stel je de waarde voor `leaderboardsOptOut` in op `true`. Als je je wilt afmelden voor updatecontrole, voer je de server één keer uit en bewerk je vervolgens het gegenereerde bestand `options.ini` en stel je de waarde voor `updateChecking` in op `false`.
 
-## Legal bases for information collection/usage
+## Rechtsgrondslagen voor het verzamelen/gebruik van informatie
 
-A note here for those in the European Union about legal grounds for processing information about you under EU data protection laws, which is that our use of your information is based on the grounds that:
+Een opmerking hier voor degenen in de Europese Unie over de wettelijke gronden voor de verwerking van informatie over jouw onder de EU-wetgeving inzake gegevensbescherming, namelijk dat ons gebruik van jouw informatie is gebaseerd op de gronden dat:
 
-1. The use is necessary in order to fulfill our commitments to you under our Terms of Service or other agreements with you or is necessary to administer your account–for example, in order to enable access to our Services on your device; or
-2. The use is necessary for compliance with a legal obligation; or
-3. The use is necessary in order to protect your vital interests or those of another person; or
-4. We have a legitimate interest in using your information–for example, to provide and update our Services, to improve our Services, to safeguard our Services, to communicate with you, to monitor and prevent any problems with our Services, and to personalize your experience; or
+1. Het gebruik is noodzakelijk om te voldoen aan onze verplichtingen jegens je onder onze Servicevoorwaarden of andere overeenkomsten met jou of is noodzakelijk voor het beheer van uw account - bijvoorbeeld om toegang tot onze Diensten op je apparaat mogelijk te maken; of
+2. Het gebruik is noodzakelijk om te voldoen aan een wettelijke verplichting; of
+3. Het gebruik is noodzakelijk om jouw vitale belangen of die van een andere persoon te beschermen; of
+4. Wij hebben een legitiem belang bij het gebruik van jouw informatie - bijvoorbeeld om onze Diensten te leveren en bij te werken, om onze Diensten te verbeteren, om onze Diensten te beveiligen, om met jou te communiceren, om problemen met onze Diensten te monitoren en te voorkomen, en om jouw ervaring te personaliseren; of
 5. You have given us your consent.
 
 ## How we share information
