@@ -238,10 +238,6 @@
     "message": "Languages",
     "description": "The label for the mobile language switcher dropdown"
   },
-  "theme.tags.tagsPageTitle": {
-    "message": "Tags",
-    "description": "The title of the tag list page"
-  },
   "Fast": {
     "message": "Fast",
     "description": "Homepage 'fast' feature header"

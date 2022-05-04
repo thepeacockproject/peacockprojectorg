@@ -33,6 +33,7 @@ description: Detalhes em o que o Peacock é, como instalar, como usar, e mais.
 **Jogos Suportados / Plataformas**
 
 -   Hitman 2016 ([Steam](https://store.steampowered.com/app/236870/HITMAN/) / [Epic](https://www.epicgames.com/store/en-US/p/hitman))
+-   Hitman Sniper Assassin ([Steam Depot](https://steamdb.info/app/783780/))
 -   Hitman 2 ([Steam](https://store.steampowered.com/app/863550/HITMAN_2/))
 -   Hitman 3 ([Steam](https://store.steampowered.com/app/1659040/HITMAN_3/) / [Epic](https://www.epicgames.com/store/en-US/p/hitman-3)).
 
@@ -58,7 +59,7 @@ Também note: Hitman 2016 / Hitman 2 não são tão suportados quanto Hitman 3, 
 
 <p>
 
-1. Junte-se ao servidor Discord do Peacock (https://thepeacockproject.org/discord). Você precisa ter uma conta de pelo menos 7 dias e ter provas de ter comprado Hitman 2016/ Hitman 2/ Hitman 3 para poder entrar.
+1. Junte-se ao servidor Discord do Peacock (https://thepeacockproject.org/discord). Você precisa ter uma conta do Discord de pelo menos 7 dias para entrar.
 
 2. Vá para o canal `#downloads` no servidor Discord acima e faça o download da mais recente versão do Peacock.
 
