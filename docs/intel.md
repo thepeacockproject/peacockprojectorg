@@ -28,7 +28,7 @@ description: Details on what Peacock is, how to install it, how to use it, and m
 </details>
 </p>
 
-## What do I need to run Peacock?
+## What do I Need to Run Peacock?
 
 <p>
 <details>
@@ -248,7 +248,7 @@ _Guide written originally by [Fusha](https://www.speedrun.com/user/Fusha)_
 **Feature Request FAQ**
 
 -   To be very clear: Completing challenges and normal progression are currently not supported, although planned for the future. Peacock will give you all unlocks right away (that you are eligible for based on DLC you have purchased).
--   Before asking any questions about Ghost Mode, escalations, user contracts, elusive targets, please check the [Custom Content Page](https://thepeacockproject.org/wiki/custom-content).
+-   Before asking any questions about Ghost Mode, escalations, user contracts, elusive targets, please check the [Custom Content Page](https://thepeacockproject.org/wiki/custom-content) as well as the [Ghost Mode Page](https://thepeacockproject.org/wiki/ghost-mode/).
 -   Peacock is not responsible for any compatibility issues between any third party game modifications and Peacock.
     -   You can consider asking mod creators to add a plugin functionality to their mod to make it work with Peacock, as was done with Sarajevo Six mod, for instance.
 
