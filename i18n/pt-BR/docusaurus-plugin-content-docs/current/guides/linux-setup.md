@@ -3,14 +3,14 @@ title: Guia de Configuração Linux
 description: Guia para configurar o Peacock no Linux ou macOS.
 ---
 
-Peacock is primarily built to work on Windows, but fear not, using it on Linux is possible!
+O Peacock foi feito para funcionar no Windows, mas não tema, usá-lo no Linux é possível!
 
-## Server
+## Servidor
 
-To get the server working on Linux, you will need to first prepare Node.js. In order to do so, run the following command the first time:
+Para fazer o servidor funcionar no Linux, você precisará preparar o Node.js primeiro. Para fazê-lo, execute o seguinte comando pela primeira vez:
 
 ```shell
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ```
 
-This will download and install [nvm](https://nvm.sh), which allows quickly swapping between multiple Node.js versions. This will allow Peacock to always use the version of Node.js it needs to.
+Isso vai realizar o download e a instalação do [nvm](https://nvm.sh), que permite alternar rapidamente entre diferentes versões do Node.js. Isso irá permitir o Peacock sempre utilizar a versão do Node.js que é necessária.

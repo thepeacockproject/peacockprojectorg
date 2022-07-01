@@ -21,7 +21,8 @@ Peacock has lots of goodies packed in for our users. Here's a peek at our custom
 <summary>Click to Expand</summary>
 
 Within Peacock, you can replay Elusive Targets without any time limit on restarts (unlike Elusive Target Arcade), and without a time limit.
-  * **How to Play**: After starting up Hitman 3 in Peacock, go to `Career` -> `Elusive Targets` in-game.
+* **How to Play**: 
+    * After starting up Hitman 3 in Peacock, go to `Career` -> `Elusive Targets` in-game.
 
 </details>
 
@@ -31,14 +32,31 @@ Within Peacock, you can replay Elusive Targets without any time limit on restart
 <summary>Click to Expand</summary>
 
 * **Custom Peacock Escalations**
-  * Peacock supports custom (made with user input) escalations. These escalations are available in-game by default. You can see some custom escalations listed in the [Roadmaps](https://thepeacockproject.org/wiki/roadmaps) as well.
+  * Peacock supports custom (Peacock original) escalations. These escalations are available in-game by default. You can see some custom escalations listed in the [Roadmaps](https://thepeacockproject.org/wiki/roadmaps) as well.
 
 * **Official Server Escalations**
-  * Peacock also supports some official server escalations, although not all are ported. These escalations are available in-game by default.
+    * Peacock also supports some official server escalations, although not all are ported. These escalations are available in-game by default.
 * **Legacy Escalations**
-  * Peacock supports Hitman 2016 escalations that have not been ported to Hitman 2 or 3 (legacy escalations).
-  * To install legacy escalations, search `legacy in: plugin-releases` in the Peacock Discord. Download `LegacyEscalationsPlugin.js`, install it to your main Peacock install folder (`...Peacock-vx.x.x/Peacock-vx.x.x`).
-* **How to Play Escalations**: Go to `Destinations` menu, then to a specific map in-game to access escalations.
+    * Peacock supports Hitman 2016 escalations that have not been ported to Hitman 2 or 3 (legacy escalations).
+    * To install legacy escalations, search `legacy in: plugin-releases` in the Peacock Discord. Download `LegacyEscalationsPlugin.js`, and move this file to the same folder that `Start Server.cmd` and `peacockpatcher.exe` are in.
+    * Go to `Destinations` menu, then to a specific map in-game to access escalations.
+
+* Note: You can select specific escalation levels to start on using the Escalation Level Picker tool, as explained [here](https://thepeacockproject.org/wiki/intel/#loadout-profiles--escalation-level-picker)
+
+</details>
+
+## Peacock Standalone Custom Missions
+
+<details>
+<summary>Click to Expand</summary>
+
+**Standalone Custom Missions**
+
+Peacock has two custom missions that are standalone (these missions are neither escalations nor contracts, but are more fleshed out "bonus missions"):
+* **Traditions of the Trade**
+  * Can be accessed in `Destinations` > `Bangkok` in-game
+* **The Lee Hong Assassination**
+  * Can be accessed in `Destinations` > `Chongqing` in-game
 
 </details>
 
@@ -50,15 +68,24 @@ Within Peacock, you can replay Elusive Targets without any time limit on restart
 Peacock supports both official server and custom Peacock contracts.
 
 * **Featured contracts**
-  * This includes all official servers featured contracts, as well as some custom contracts created by Peacock dev team. You can see some of these custom featured contracts [here](https://thepeacockproject.org/wiki/roadmaps).
-  * How to Play: Go to ```Game Modes``` -> ```Contracts``` -> ```Featured``` menu in-game
+  * This includes all official servers featured contracts, as well as some custom (Peacock original) contracts created by Peacock dev team and even regular Peacock users. You can see some of these custom featured contracts [here](https://thepeacockproject.org/wiki/roadmaps).
+  * How to Play: 
+    * Go to `Game Modes` -> `Contracts` -> `Featured` menu in-game
 * **User Created, Official Server Contracts**
-  * How to Install: Go to ```Game Modes``` -> ```Contracts``` -> ```Contract Lookup``` menu in-game. Enter the official server contract ID (note: only Steam and Epic Hitman 3 contracts are supported). The contract will now be downloaded in ```...Peacock-vx.x.x/Peacock-vx.x.x/Contracts/```.
-  * How to Play: Go to ```Game Modes``` -> ```Contracts``` -> ```My Contracts``` in-game to play.
+  * How to Install: 
+      * Note: This only works while the bot is authenticated for the platform in question. [More info here](https://bot.hitmaps.com/).
+      * Go to `Game Modes` -> `Contracts` -> `Contract Lookup` menu in-game. 
+      * Enter the official server contract ID (**Contracts from every platform except Nintendo Switch are supported for this**). 
+      * The contract will now be downloaded in your `Contracts` folder. 
+  * How to Play: Go to `Game Modes` -> `Contracts` -> `My Contracts` in-game to play.
 * **User Created, Peacock Contracts**
-  * How to Install: Download the contracts ```.ocre``` file from the ```share-contracts``` channel in Peacock Discord. Install this ```.ocre``` file to your ```...Peacock-vx.x.x/Peacock-vx.x.x/Contracts``` folder.
-  * How to Create Your Own: If you create a contract in-game while in Peacock server, your contract will be saved as an ```.ocre``` file in ```...Peacock-vx.x.x/Peacock-vx.x.x/Contracts``` folder. Be sure to share your ```.ocre``` file in Peacock Discord's ```share-contracts``` channel if you want others to play your custom Peacock contract.
-  * How to Play: Go to ```Game Modes``` -> ```Contracts``` -> ```My Contracts``` in-game to play.
+  * How to Install: 
+    * Download the contracts `.ocre` file from the `share-contracts` channel in Peacock Discord. Install this `.ocre` file to your `Contracts` folder, [as shown in this image](https://media.discordapp.net/attachments/833505136290299935/991101789426421760/unknown.png).
+    * How to Create Your Own: 
+    * If you create a contract in-game while in Peacock server, your contract will be saved as an `.ocre` file in `Contracts` folder, [as shown in this image](https://media.discordapp.net/attachments/833505136290299935/991101789426421760/unknown.png). 
+    * Be sure to share your `.ocre` file in Peacock Discord's `share-contracts` channel if you want others to play your custom Peacock contract.
+  * How to Play: 
+    * Go to `Game Modes` -> `Contracts` -> `My Contracts` in-game to play.
 
 </details>
 
@@ -68,17 +95,22 @@ Peacock supports both official server and custom Peacock contracts.
 <summary>Click to Expand</summary>
 
 Besides Legacy Escalations Plugin, which was described earlier in the Escalations section, Peacock supports a broad variety of  server side mods (plugins). These include, but are not limited to:
-* Kill Everyone Mode
+* **Kill Everyone Mode**
   * All real NPC's marked as targets, can get Silent Assassin rating back after killing everyone.
   * Note: Very buggy for maps with 200+ targets, guns may jam randomly. You may need to start by melee killing people.
-* Sarajevo Six
+* **Sarajevo Six**
   * Bonus Missions otherwise only available in Hitman 2016 Playstation version.
   * Installation Instructions: https://rentry.org/H3_TS6
-* Plugins to add otherwise unused weapons to the game
-* Plugins to modify existing weapons and disguises.
-* **How to Install Plugins**: Broadly speaking, to install plugins, go to ```#plugin-releases``` in the Peacock Discord and download a plugin you are interested in. Then, install it to your main Peacock install folder (```...Peacock-vx.x.x/Peacock-vx.x.x```). Be sure to check for any further instructions in the ```#plugin-releases``` channel for a given plugin, as certain plugins may require further installation steps or are incompatible with newer versions of Peacock.
+* **Plugins to add otherwise unused weapons to the game**
+* **Plugins to modify existing weapons and disguises**
+* **How to Install Plugins**: 
+    * Broadly speaking, to install plugins, go to `#plugin-releases` in the Peacock Discord and download a plugin you are interested in. 
+    * Then, install it to the same folder that `Start Server.cmd` and `peacockpatcher.exe` are in.
+  * Be sure to check for any further instructions in the `#plugin-releases` channel for a given plugin, as certain plugins may require further installation steps or are incompatible with newer versions of Peacock.
 
-**Note: Plugins are only a small portion of the Hitman modding scene. Many Hitman mods are done client-side and out of scope of Peacock.** Client-side mods are aggregated here: https://www.nexusmods.com/hitman3
+**Note: Plugins are only a small portion of the Hitman modding scene. Many Hitman mods are done client-side and out of scope of Peacock.** More general-use client-side mods, outside the scope of Peacock, are aggregated here: 
+  * [Nexusmods](https://www.nexusmods.com/hitman3)
+  * [Glacier Modding Discord](https://discord.com/invite/6UDtuYhZP6)
 
 </details>
 
