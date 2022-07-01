@@ -243,7 +243,9 @@ _Guide written originally by [Fusha](https://www.speedrun.com/user/Fusha)_
         4. Disable both if present
         5. Try again, if it doesn't work, restart your computer, then try once more
 
-    -   If for some reason you can't stand the idea of stopping whatever process you already have going on Port 80, edit your `Start Server.cmd` file to to start the port on another line, [like shown in this image](https://media.discordapp.net/attachments/839264571990343681/985885230634242048/unknown.png). Make sure to enter `127.0.0.1:PORTNUMBER` into your Peacock Patcher "Server Address" input as well, with `PORTNUMBER` standing in for whatever port you typed into `Start Server.cmd`.
+    -   If for some reason you can't stand the idea of stopping whatever process you already have going on Port 80, edit your `Start Server.cmd` file to to start the port on another line. Make sure to enter `127.0.0.1:PORTNUMBER` into your Peacock Patcher "Server Address" input as well, with `PORTNUMBER` standing in for whatever port you typed into `Start Server.cmd`.
+        -   Refer to [this example image](https://media.discordapp.net/attachments/839264571990343681/985885230634242048/unknown.png) for what to write in the `Start Server.cmd`.
+        -   Refer to [this example image](https://media.discordapp.net/attachments/839264571990343681/992523717869568050/unknown.png) for what to type into the Peacock Patcher.
 
 **Feature Request FAQ**
 
