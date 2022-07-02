@@ -6889,7 +6889,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lunr@npm:^2.3.8":
+"lunr@npm:^2.3.9":
   version: 2.3.9
   resolution: "lunr@npm:2.3.9"
   checksum: 176719e24fcce7d3cf1baccce9dd5633cd8bdc1f41ebe6a180112e5ee99d80373fe2454f5d4624d437e5a8319698ca6837b9950566e15d2cae5f2a543a3db4b8
@@ -7889,7 +7889,7 @@ __metadata:
     hast-util-select: ^4.0.0
     hast-util-to-text: ^2.0.0
     hogan.js: ^3.0.2
-    lunr: ^2.3.8
+    lunr: ^2.3.9
     lunr-languages: ^1.9.0
     minimatch: ^3.0.4
     object-assign: ^4.1.1
