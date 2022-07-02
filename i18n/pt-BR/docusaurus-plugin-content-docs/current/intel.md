@@ -3,11 +3,8 @@ title: Base de Conhecimento
 description: Detalhes em o que o Peacock é, como instalar, como usar, e mais.
 ---
 
-<div class="make_h2_smaller">
+## What is Peacock?
 
-## O que é Peacock?
-
-<p>
 <details>
 <summary>Click to Expand</summary>
 
@@ -26,11 +23,9 @@ description: Detalhes em o que o Peacock é, como instalar, como usar, e mais.
 -   Trivia: Peacock is the name that the game uses in its source code for the mission "The Showstopper", which ushered in a new era of Hitman. Hence, the reason for the name "Peacock".
 
 </details>
-</p>
 
 ## What do I Need to Run Peacock?
 
-<p>
 <details>
 <summary>Click to Expand</summary>
 
@@ -62,11 +57,9 @@ description: Detalhes em o que o Peacock é, como instalar, como usar, e mais.
 **OS Summary: Windows 10 is probably the best supported operating system, but Windows 7 and Linux should work as well, with additional troubleshooting. Ask in the [Discord](https://thepeacockproject.org/discord) if in doubt.**
 
 </details>
-</p>
 
-## Como instalar / Usar o Peacock
+## How to Install / Use Peacock
 
-<p>
 <details>
 <summary>Click to Expand</summary>
 
@@ -85,11 +78,9 @@ description: Detalhes em o que o Peacock é, como instalar, como usar, e mais.
 5. Now open the game as normal.
 
 </details>
-</p>
 
-## Quando / Como Atualizar o Peacock
+## When / How to Update Peacock
 
-<p>
 <details>
 <summary>Click to Expand</summary>
 
@@ -104,11 +95,9 @@ description: Detalhes em o que o Peacock é, como instalar, como usar, e mais.
     - Check [this example image](https://media.discordapp.net/attachments/833505136290299935/991070487654334464/unknown.png) if you have trouble finding the `userdata` and `contractSessions` folders.
 
 </details>
-</p>
 
 ## Loadout Profiles / Escalation Level Picker
 
-<p>
 <details>
 <summary>Click to Expand</summary>
 
@@ -118,11 +107,9 @@ description: Detalhes em o que o Peacock é, como instalar, como usar, e mais.
     -   If you have installed the LegacyEscalations plugin in the past, you may have to reinstall it to make the escalation level picker work.
 
 </details>
-</p>
 
 ## General Peacock Use Tips
 
-<p>
 <details>
 <summary>Click to Expand</summary>
 
@@ -142,11 +129,9 @@ description: Detalhes em o que o Peacock é, como instalar, como usar, e mais.
 -   Note: If it is your first time playing (on either Peacock or official servers), some exits will be locked. You will need to unlock Dubai exits ([need to unlock the elevators](https://youtu.be/IEQgRQyQRf8)), Dartmoor exits ([need to exit via bike at least once](https://youtu.be/AJtJZe9jEi8?t=151)), and Colorado exits ([need to use tornado exit at least once](https://youtu.be/3XKWHrKpXwk?t=140)). These exits are handled client-side.
 
 </details>
-</p>
 
 ## Autosplitter Setup (For Full Game Speedruns)
 
-<p>
 <details>
 <summary>Click to Expand</summary>
 
@@ -213,13 +198,10 @@ _Guide written originally by [Fusha](https://www.speedrun.com/user/Fusha)_
 -   As of v4.5.0, Peacock Autosplitter now defaults into a mode which will not log a successful mission completion (splitting and allow moving to next map) unless you complete the current mission with Silent Assassin rating. If you want to use the auto splitter for any% runs, change the `autoSplitterForceSilentAssassin` option in `options.ini` to be `false`.
 
 </details>
-</p>
 
 ## For Additional Help / Troubleshooting
 
 ### FAQ
-
-<p>
 
 <details>
 <summary>Click to Expand</summary>
@@ -263,7 +245,3 @@ _Guide written originally by [Fusha](https://www.speedrun.com/user/Fusha)_
         -   Information on your operating system and game version
         -   Information on what is running on Port 80 (check FAQ above)
         -   Any further pertinent information
-
-</p>
-
-</div>

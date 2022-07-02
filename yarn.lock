@@ -1823,7 +1823,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/types@npm:2.0.0-beta.21":
+"@docusaurus/types@npm:2.0.0-beta.21, @docusaurus/types@npm:^2.0.0-beta.21":
   version: 2.0.0-beta.21
   resolution: "@docusaurus/types@npm:2.0.0-beta.21"
   dependencies:
@@ -3062,15 +3062,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autocomplete.js@npm:^0.37.0":
-  version: 0.37.1
-  resolution: "autocomplete.js@npm:0.37.1"
-  dependencies:
-    immediate: ^3.2.3
-  checksum: ef35f365ea1fcc100c0b90be9f8a142877b3175d93464804b2124d24d03c49aa81178dcc75ed0313f6c1c5f881e2812873f06b7c729854f3e3096a270d966e09
-  languageName: node
-  linkType: hard
-
 "autocomplete.js@npm:^0.38.1":
   version: 0.38.1
   resolution: "autocomplete.js@npm:0.38.1"
@@ -3642,7 +3633,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"classnames@npm:^2.2.6, classnames@npm:^2.3.1":
+"classnames@npm:^2.3.1":
   version: 2.3.1
   resolution: "classnames@npm:2.3.1"
   checksum: 14db8889d56c267a591f08b0834989fe542d47fac659af5a539e110cc4266694e8de86e4e3bbd271157dbd831361310a8293e0167141e80b0f03a0f175c80960
@@ -3768,7 +3759,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"color-support@npm:^1.1.2, color-support@npm:^1.1.3":
+"color-support@npm:^1.1.3":
   version: 1.1.3
   resolution: "color-support@npm:1.1.3"
   bin:
@@ -3909,7 +3900,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"console-control-strings@npm:^1.0.0, console-control-strings@npm:^1.1.0":
+"console-control-strings@npm:^1.1.0":
   version: 1.1.0
   resolution: "console-control-strings@npm:1.1.0"
   checksum: 8755d76787f94e6cf79ce4666f0c5519906d7f5b02d4b884cf41e11dcd759ed69c57da0670afd9236d229a46e0f9cf519db0cd829c6dca820bb5a5c3def584ed
@@ -4506,32 +4497,6 @@ __metadata:
   dependencies:
     "@leichtgewicht/ip-codec": ^2.0.1
   checksum: 196ff74a0669126cf5fc901a5849b72f625bd7a4cb163b3f4d41fbe19ed0b017cf7674daef5b0acbd448c094fcd795e501d7066f301be428e4acecfcf3c5f336
-  languageName: node
-  linkType: hard
-
-"docusaurus-lunr-search@npm:^2.1.14":
-  version: 2.1.15
-  resolution: "docusaurus-lunr-search@npm:2.1.15"
-  dependencies:
-    autocomplete.js: ^0.37.0
-    classnames: ^2.2.6
-    gauge: ^3.0.0
-    hast-util-select: ^4.0.0
-    hast-util-to-text: ^2.0.0
-    hogan.js: ^3.0.2
-    lunr: ^2.3.8
-    lunr-languages: ^1.4.0
-    minimatch: ^3.0.4
-    object-assign: ^4.1.1
-    rehype-parse: ^7.0.1
-    to-vfile: ^6.1.0
-    unified: ^9.0.0
-    unist-util-is: ^4.0.2
-  peerDependencies:
-    "@docusaurus/core": ^2.0.0-alpha.60 || ^2.0.0
-    react: ^16.8.4 || ^17
-    react-dom: ^16.8.4 || ^17
-  checksum: 3e1019125f57be8a397ad54e88a8163f846d46d9f2282987f41c9c23c2ae94bef037cd25081266281f36adec3d5807c1caeb04140096a96d6896db6d580bcbf6
   languageName: node
   linkType: hard
 
@@ -5330,23 +5295,6 @@ __metadata:
   version: 1.1.1
   resolution: "function-bind@npm:1.1.1"
   checksum: b32fbaebb3f8ec4969f033073b43f5c8befbb58f1a79e12f1d7490358150359ebd92f49e72ff0144f65f2c48ea2a605bff2d07965f548f6474fd8efd95bf361a
-  languageName: node
-  linkType: hard
-
-"gauge@npm:^3.0.0":
-  version: 3.0.2
-  resolution: "gauge@npm:3.0.2"
-  dependencies:
-    aproba: ^1.0.3 || ^2.0.0
-    color-support: ^1.1.2
-    console-control-strings: ^1.0.0
-    has-unicode: ^2.0.1
-    object-assign: ^4.1.1
-    signal-exit: ^3.0.0
-    string-width: ^4.2.3
-    strip-ansi: ^6.0.1
-    wide-align: ^1.1.2
-  checksum: 81296c00c7410cdd48f997800155fbead4f32e4f82109be0719c63edc8560e6579946cc8abd04205297640691ec26d21b578837fd13a4e96288ab4b40b1dc3e9
   languageName: node
   linkType: hard
 
@@ -6934,14 +6882,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lunr-languages@npm:^1.4.0":
+"lunr-languages@npm:^1.9.0":
   version: 1.9.0
   resolution: "lunr-languages@npm:1.9.0"
   checksum: 19da5df19ba77bc5b91653ed801676f2cb6d4f38dc5fd1d5446d909e4134c54e206f97715814abdeb6792bd4e21915259a8c3e02b3a8727ec8545f2a6d13dd11
   languageName: node
   linkType: hard
 
-"lunr@npm:^2.3.8, lunr@npm:^2.3.9":
+"lunr@npm:^2.3.8":
   version: 2.3.9
   resolution: "lunr@npm:2.3.9"
   checksum: 176719e24fcce7d3cf1baccce9dd5633cd8bdc1f41ebe6a180112e5ee99d80373fe2454f5d4624d437e5a8319698ca6837b9950566e15d2cae5f2a543a3db4b8
@@ -7928,6 +7876,7 @@ __metadata:
     "@docusaurus/plugin-ideal-image": 2.0.0-beta.21
     "@docusaurus/plugin-sitemap": 2.0.0-beta.21
     "@docusaurus/theme-classic": 2.0.0-beta.21
+    "@docusaurus/types": ^2.0.0-beta.21
     "@mdx-js/react": ^1.6.21
     "@svgr/webpack": ^6.2.1
     "@types/node": ^18.0.0
@@ -7936,14 +7885,22 @@ __metadata:
     autocomplete.js: ^0.38.1
     classnames: ^2.3.1
     clsx: ^1.1.1
-    docusaurus-lunr-search: ^2.1.14
     file-loader: ^6.2.0
+    hast-util-select: ^4.0.0
+    hast-util-to-text: ^2.0.0
     hogan.js: ^3.0.2
-    lunr: ^2.3.9
+    lunr: ^2.3.8
+    lunr-languages: ^1.9.0
+    minimatch: ^3.0.4
+    object-assign: ^4.1.1
     prettier: ^2.7.1
     react: ^17.0.2
     react-dom: ^17.0.0
+    rehype-parse: ^7.0.1
+    to-vfile: ^6.1.0
     typescript: ^4.7.4
+    unified: ^9.0.0
+    unist-util-is: ^4.0.2
     url-loader: ^4.1.1
     webpack: ^5.73.0
   languageName: unknown
@@ -9581,7 +9538,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"signal-exit@npm:^3.0.0, signal-exit@npm:^3.0.2, signal-exit@npm:^3.0.3, signal-exit@npm:^3.0.7":
+"signal-exit@npm:^3.0.2, signal-exit@npm:^3.0.3, signal-exit@npm:^3.0.7":
   version: 3.0.7
   resolution: "signal-exit@npm:3.0.7"
   checksum: a2f098f247adc367dffc27845853e9959b9e88b01cb301658cfe4194352d8d2bb32e18467c786a7fe15f1d44b233ea35633d076d5e737870b7139949d1ab6318
@@ -10849,7 +10806,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wide-align@npm:^1.1.2, wide-align@npm:^1.1.5":
+"wide-align@npm:^1.1.5":
   version: 1.1.5
   resolution: "wide-align@npm:1.1.5"
   dependencies:

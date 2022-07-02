@@ -17,8 +17,8 @@ O Modo Fantasma está disponível para jogadores de PC que têm HITMAN™ 2 ou H
 
 1. Faça o download do Inicializador LocalGhost [daqui](https://gitlab.com/grappigegovert/localghost/-/jobs/artifacts/master/download?job=build_patcher).
 2. Abra o inicializador, e selecione `ghostmode.rdil.rocks` no menu suspenso.
-3. If this is your first time running the patcher, open Advanced Settings, and untick the box labeled `Use http instead of https`. Then click save.
-    - Note: Only untick `Use http instead of https` when trying to play Ghost Mode. When trying to use Peacock for other game modes, please tick this box again.
+3. Se essa for sua primeira vez rodando o inicializador, abra Advanced Settings (Configurações Avançadas) e desmarque `Use http instead of https`. Então, clique para salvar.
+    - Nota: Apenas desmarque `Use http instead of https` quando estiver tentando jogar o Modo Fantasma. Quando estiver tentando usar o Peacock em outros modos de jogo, por favor ative esta configuração novamente.
 4. Inicie o jogo, pressione Enter quando pedir.
 5. Você está pronto para jogar o Modo Fantasma!
 

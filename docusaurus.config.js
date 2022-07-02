@@ -145,7 +145,7 @@ module.exports = {
             },
         ],
         "@docusaurus/plugin-content-pages",
-        "docusaurus-lunr-search",
+        require.resolve("./src/search/plugin.js"),
         require.resolve("./testimonialsPlugin.js"),
         [
             "@docusaurus/plugin-sitemap",
