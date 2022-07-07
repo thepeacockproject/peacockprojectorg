@@ -3,6 +3,10 @@
     "message": "Next",
     "description": "The label for version current"
   },
+  "sidebar.sidebar.category.User Guide": {
+    "message": "User Guide",
+    "description": "The label for category User Guide in sidebar sidebar"
+  },
   "sidebar.sidebar.category.Legal": {
     "message": "Legal",
     "description": "The label for category Legal in sidebar sidebar"
