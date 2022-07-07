@@ -7,7 +7,16 @@ module.exports = {
         },
         {
             type: "doc",
-            id: "intel",
+            id: "intel/what-is-peacock",
+        },
+        {
+            type: "category",
+            label: "User Guide",
+            link: {
+                type: "generated-index",
+                slug: "intel"
+            },
+            items: ["intel/requirements", "intel/installation", "intel/updating", "intel/autosplitter-setup", "intel/loadout-profiles-elp", "intel/faq"],
         },
         {
             type: "doc",

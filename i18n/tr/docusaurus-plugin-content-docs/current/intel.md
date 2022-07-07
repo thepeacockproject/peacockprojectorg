@@ -153,7 +153,7 @@ _Guide written originally by [Fusha](https://www.speedrun.com/user/Fusha)_
 
 ### Installation
 
-1. Install [Peacock](https://thepeacockproject.org/wiki/intel/) and [LiveSplit](https://livesplit.org/downloads/) if you don't have either of them installed (just unzip them wherever you want). **If you already have Peacock installed, make sure to you have it updated to the latest version.** After you get these apps installed/updated, close them for now.
+1. Install [Peacock](https://thepeacockproject.org/wiki/intel/installing.md) and [LiveSplit](https://livesplit.org/downloads/) if you don't have either of them installed (just unzip them wherever you want). **If you already have Peacock installed, make sure to you have it updated to the latest version.** After you get these apps installed/updated, close them for now.
 
 2. Download LiveSplit server component from here: https://github.com/LiveSplit/LiveSplit.Server/releases/latest
 
