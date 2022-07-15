@@ -1,58 +1,58 @@
 ---
-title: Frequently Asked Questions / Troubleshooting
+title: Perguntas Frequentes (FAQ) / Solução de Problemas
 ---
 
-## General Peacock Use Tips
+## Dicas Gerais de Uso do Peacock
 
--   It may take a few tries to connect to Peacock. If you can't connect, try going back to the Peacock Patcher application and clicking on "Re-patch" until the Peacock Patcher shows "Successfully patched ID".
--   If your game is already connected to the official servers, you may need to disconnect the game from official servers first to connect to Peacock. To disconnect from official servers, go to "Options" from the Hitman 3 main menu, then "Privacy Policy", then "Opt out". Then when you reconnect you should be on Peacock.
+-   Podem levar algumas tentativas para se conectar ao Peacock. Se não puder se conectar, tente voltar ao aplicativo inicializador do Peacock e clique em "Repatch", ou "Reinicializar", até que o inicializador mostre "Sucessfully patched ID", ou "ID inicializada com sucesso".
+-   Se o jogo já está conectado aos servidores oficiais, você pode precisar desconectar o jogo antes para se conectar ao Peacock. Para se desconectar dos servidores oficiais, vá para "Options" no menu principal do Hitman 3, e depois em "Privacy Policy", e "Opt out". Quando você tentar se desconectar depois disso, você deverá estar no Peacock.
 
--   Similarly, you can go offline while connected to Peacock, then toggle the Peacock Patcher application to patch you to Official Servers, then go "online" again to connect to official servers.
+-   Similarmente, você pode ficar offline quando conectado ao Peacock, ativar a opção no inicializador do Peacock para voltar aos servidores oficiais, e clicar em ficar "online" novamente para se conectar aos servidores oficiais.
 
--   To use 7 deadly sins items, make sure you have actually purchased the 7 deadly sins DLC. Then delete the `userdata` folder, and restart the game.
+-   Para usar itens dos 7 Pecados Capitais, tenha certeza de ter comprado a DLC 7 Pecados Capitais. Então delete a pasta `userdata` e reinicie o jogo.
 
-    -   If you have trouble finding the `userdata` folder, [check this example image](https://media.discordapp.net/attachments/833505136290299935/991071183732613200/unknown.png).
+    -   Se você estiver com problemas em encontrar a pasta `userdata`, [veja esta imagem de exemplo](https://media.discordapp.net/attachments/833505136290299935/991071183732613200/unknown.png).
 
--   In Game Saving is supported, but note that you can only use official server saves on the official servers version of the game, and Peacock saves on the Peacock version of the game.
+-   Salvamentos em jogo são suportados, mas note que você só pode usar salvamentos dos servidores oficiais apenas na versão dos servidores oficiais do jogo, e salvamentos no Peacock apenas na versão Peacock do jogo.
 
--   Using Peacock will affect your official servers profile in very small ways.
-    -   Due to the fact that we have not properly implemented some minor features like content/story spoiler warnings, it will change them all to the 'I have already played' state. Other than that, it shouldn't have any affect.
--   Note: If it is your first time playing (on either Peacock or official servers), some exits will be locked. You will need to unlock Dubai exits ([need to unlock the elevators](https://youtu.be/IEQgRQyQRf8)), Dartmoor exits ([need to exit via bike at least once](https://youtu.be/AJtJZe9jEi8?t=151)), and Colorado exits ([need to use tornado exit at least once](https://youtu.be/3XKWHrKpXwk?t=140)). These exits are handled client-side.
+-   Usar o Peacock afetará seu perfil nos servidores oficiais de maneiras bem imperceptíveis.
+    -   Devido ao fato que não temos implementado propriamente alguns recursos de menor importância como avisos de spoiler em conteúdo/história, vai colocar todos em um estado como se 'eu já tivesse jogado'. Além disso, não deve ter qualquer efeito.
+-   Nota: Se essa é sua primeira vez jogando (tanto no Peacock como nos servidores oficiais), algumas saídas estarão bloquadas. Você terá que desbloquear as saídas de Dubai ([precisa desbloquear os elevadores](https://youtu.be/IEQgRQyQRf8)), saídas de Dartmoor ([precisa sair por meio da motocicleta pelo menos uma vez](https://youtu.be/AJtJZe9jEi8?t=151)), e saídas de Colorado ([precisa ter usado a saída do abrigo de tornados pelo menos uma vez](https://youtu.be/3XKWHrKpXwk?t=140)). Essas saídas estão sob responsabilidade do usuário.
 
-**Troubleshooting FAQ**
+**Perguntas Frequents sobre Resolução de Problemas**
 
--   Check the "What do I need to run Peacock" section of this guide, make sure you have a supported game version and platform, etc.
--   Check "General Peacock Use Tips" section of this guide for instructions on how to disconnect and reconnect to the server. Sometimes it can take a few tries to connect.
--   Make sure you have the latest versions of Hitman 3 and Peacock, older versions may not be supported.
--   Try running the `Start Server.cmd` as admin.
--   Keep the option "Use http instead of https" in Peacock patcher ticked unless you are playing Ghost Mode.
+-   Veja a seção "Do que eu Preciso para Rodar o Peacock" deste guia, tenha a certeza de que você tem uma versão e plataforma compatíveis, etc.
+-   Veja a seção "Dicas gerais de Uso do Peacock" para instruções em como se desconectar e reconectar ao servidor. Algumas vezes podem levar algumas tentativas para se conectar.
+-   Tenha a certeza de que você tem as últimas versões do Hitman 3 e do Peacock, versões mais antigas podem não ser suportadas.
+-   Tente rodar o `Start Server.cmd` como administrador.
+-   Mantenha a opção "Use http instead of https" no Peacock ativada a não ser que esteja jogando o Modo Fantasma.
 
--   Peacock by default uses Port 80 on your PC for the Peacock server.
+-   O Peacock utiliza por padrão a Porta de Rede 80 no seu computador para o servidor do Peacock.
 
-    -   If possible, check whatever process is currently using Peacock by typing `netstat -ano | find ":80" | find "LISTEN"` into your terminal, and then checking "Details" tab of Task Manager to find the process based on PID of whatever is on Port 80.
-    -   If you use Visual Studio, you may have installed some services that interfere with Peacock by also running on Port 80. To fix:
+    -   Se possível, veja quaisquer processos estão atualmente utilizando o Peacock escrevendo `netstat -ano | find ":80" | find "LISTEN"` no seu terminal, e então checando a categoria "Details" do Gerenciador de Tarefas para encontrar o processo baseado em PID de qualquer coisa que esteja ocupando a Porta 80.
+    -   Se você utiliza o Visual Studio, você pode ter instalado alguns serviços que interferem com o Peacock por também utilizar a Porta de Rede 80. Para resolver:
 
-        1. Press the Windows key and R at the same time
-        2. Type services.msc in the popup box, then hit ok
-        3. Check for W3SVC: World Wide Web Publishing Service and Web Deployment Agent Service in the service manager
-        4. Disable both if present
-        5. Try again, if it doesn't work, restart your computer, then try once more
+        1. Clique no botão Windows e em R ao mesmo tempo
+        2. Escreva services.msc na caixa de texto, e então clique em ok
+        3. Verifique por W3SVC: World Wide Web Publishing Service and Web Deployment Agent Service (Serviço de Publicação de World Wide Web e Serviço de Agente Remoto de Implantação da Web)
+        4. Desligue ambos se presentes
+        5. Tente novamente, se não funcionar, reinicie seu computador, e depois tente mais uma vez
 
-    -   If for some reason you can't stand the idea of stopping whatever process you already have going on Port 80, edit your `Start Server.cmd` file to start the port on another line. Make sure to enter `127.0.0.1:PORTNUMBER` into your Peacock Patcher "Server Address" input as well, with `PORTNUMBER` standing in for whatever port you typed into `Start Server.cmd`.
-        -   Refer to [this example image](https://media.discordapp.net/attachments/839264571990343681/985885230634242048/unknown.png) for what to write in the `Start Server.cmd`.
-        -   Refer to [this example image](https://media.discordapp.net/attachments/839264571990343681/992523717869568050/unknown.png) for what to type into the Peacock Patcher.
+    -   Se por alguma razão você não suporta a ideia de parar quaiquer processos que você tenha rodando na Porta 80, edite seu arquivo `Start Server.cmd` para iniciar a Porta em outra linha. Tenha a certeza de entrar com `127.0.0.1:PORTNUMBER` na sua entrada "Server Address" do Patcher do Peacock também, com `PORTNUMBER` estando ativo em qualquer porta que você tenha configurado em `Start Server.cmd`.
+        -   Tenha [esta imagem de exemplo](https://media.discordapp.net/attachments/839264571990343681/985885230634242048/unknown.png) como referência para saber o que escrever no `Start Server.cmd`.
+        -   Tenha [esta imagem de exemplo](https://media.discordapp.net/attachments/839264571990343681/992523717869568050/unknown.png) como referência para saber o que escrever no Patcher do Peacock.
 
-**Feature Request FAQ**
+**Perguntas Frequentes sobre Solicitação de Recursos**
 
--   To be very clear: Completing challenges and normal progression are currently not supported, although planned for the future. Peacock will give you all unlocks right away (that you are eligible for based on DLC you have purchased).
--   Before asking any questions about Ghost Mode, escalations, user contracts, elusive targets, please check the [Custom Content Page](https://thepeacockproject.org/wiki/custom-content) as well as the [Ghost Mode Page](https://thepeacockproject.org/wiki/ghost-mode/).
--   Peacock is not responsible for any compatibility issues between any third party game modifications and Peacock.
-    -   You can consider asking mod creators to add a plugin functionality to their mod to make it work with Peacock, as was done with Sarajevo Six mod, for instance.
+-   Para ser bem claro: Completar desafios e progressão normal não estão atualmente disponíveis, mas em processo de implantação no futuro. O Peacock irá te fornecer todos os itens desbloqueáveis logo de início (baseando-se no conteúdo que você tenha adquirido).
+-   Antes de perguntar qualquer pergunta sobre o Modo Fantasma, Escalações, Contratos do Usuário e Alvos Elusivos, por favor verifique a [Página de Conteúdo Customizado](https://thepeacockproject.org/wiki/custom-content) assim como a [Página do Modo Fantasma](https://thepeacockproject.org/wiki/ghost-mode/).
+-   O Peacock não é responsabilizado por quaisquer erros de compatibilidade entre modificações de partes terceiras e o Peacock.
+    -   Você pode considerar perguntar a desenvolvedores de mods para criar uma funcionalidade de plugin para seus mods para que estes funcionem com o Peacock, como foi feito com o mod Os Seis de Sarajevo, por exemplo.
 
--   Question not answered in FAQ above? Ask in the Peacock Discord `#help` channel (https://thepeacockproject.org/discord)
-    -   Be prepared to provide:
-        -   Screenshots of Peacock Server running in the terminal
-        -   Screenshots of Peacock Patcher running
-        -   Information on your operating system and game version
-        -   Information on what is running on Port 80 (check FAQ above)
-        -   Any further pertinent information
+-   Questão não respondida no FAQ acima? Pergunte no canal do servidor Discord do Peacock `#help` (https://thepeacockproject.org/discord)
+    -   Esteja preparado para providenciar:
+        -   Fotos do seu Servidor Peacock rodando no terminal
+        -   Fotos do seu Patcher Peacock rodando
+        -   Informações sobre o seu sistema operacional e versão do jogo
+        -   Informações sobre o que está rodando na Porta 80 (Veja mais no FAQ acima)
+        -   Quaisquer outras informações pertinentes

@@ -1,48 +1,48 @@
 ---
-title: Requirements
-description: Requirements for running and using Peacock.
+title: Requisitos
+description: Requisitos para rodar e usar o Peacock.
 ---
 
-## Supported Games / Platforms
+## Plataformas / Jogos Suportados
 
 -   Hitman 2016 ([Steam](https://store.steampowered.com/app/236870/HITMAN/) / [Epic](https://www.epicgames.com/store/en-US/p/hitman))
 -   Hitman Sniper Assassin ([Steam Depot](https://steamdb.info/app/783780/))
 -   Hitman 2 ([Steam](https://store.steampowered.com/app/863550/HITMAN_2/))
 -   Hitman 3 ([Steam](https://store.steampowered.com/app/1659040/HITMAN_3/) / [Epic](https://www.epicgames.com/store/en-US/p/hitman-3))
 
-### Unsupported games and platforms
+### Plataformas / Jogos Não Suportados
 
--   Any other platform not listed in "Supported" section, such as console platforms, are not supported.
--   Demo versions of Hitman 3 are not supported.
--   Game Pass or Microsoft PC edition of Hitman 3 is not supported.
--   **Any cracked or pirated version of Hitman 1-3 is not supported, and you will be banned from the Peacock Discord upon asking about how to use any pirated or cracked version.**
+-   Qualquer outra plataforma não listada na seção "Suportados", como plataformas de console, não são suportadas.
+-   Versões de demonstração do Hitman 3 não são suportadas.
+-   As edições Game Pass ou Microsoft PC do Hitman 3 não são suportadas.
+-   **Qualquer versão craqueada ou pirateada dos Hitman 1-3 não são suportadas, e você será banido do Discord do Peacock ao perguntar sobre como usar qualquer versão pirateada ou craqueada.**
 
-## Supported Operating Systems
+## Sistemas Operacionais Compatíveis
 
 ### Servidor
 
-The server is the part responsible for handling the game's requests. It is portable, and doesn't even need to run on the same machine as the game.
+O servidor é a parte responsável por processar os requisitos do jogo. É portátil, e não precisa rodar na mesma máquina que o jogo.
 
-- A platform supported by Node.js, meaning Windows 8.1 or up, or a recent Linux/macOS/FreeBSD installation.
-- We have alternatives available if you are unable to meet these requirements, please ask in the Discord.
-- Check the Linux NodeJS install guide: https://thepeacockproject.org/wiki/guides/linux-setup/
+- O Peacock é uma plataforma compatível com Node.js, o que significa que um Windows 8.1 ou acima, ou uma instalação recente de Linux/macOS/FreeBSD são necessários.
+- Temos alternativas disponíveis se você não se encontra incluído nesses requisitos, por favor pergunte no Discord.
+- Verifique o guia de instalação do NodeJS para Linux: https://thepeacockproject.org/wiki/guides/linux-setup/
 
 ### Patcher
 
-The patcher tells the game to actually connect to Peacock, and must be on the same machine as the game.
+O Patcher informa ao jogo para se conectar ao Peacock em vez dos servidores oficiais, e precisa estar na mesma máquina que o jogo.
 
-- Windows 7 or up
+- Windows 7 ou acima
 
-### Summary
+### Sumário
 
-Windows 10 and 11 are the best supported operating systems, but Windows 7 or 8 and Linux should work as well, with additional troubleshooting. **Ask in the [Discord](https://thepeacockproject.org/discord) if in doubt.**
+Windows 10 e 11 são os sistemas operacionais mais suportados, mas o Windows 7 e o Linux também devem funcionar, com solução de problemas (troubleshooting) adicional. **Pergunte no [Discord](https://thepeacockproject.org/discord) em dúvida.**
 
-:::warning Windows 7 Support
+:::aviso Suporte para Windows 7
 
-Windows 7 is no longer supported by Microsoft or Node.js, and as such, we provide no guarantees that it will be a bug-free experience.
+O Windows 7 não é mais suportado pela Microsoft ou compatível com o Node.js, dessa forma, não providenciamos nenhuma garantia de que será uma experiência sem problemas.
 
-Please upgrade to a newer version of Windows to get security updates and a more stable experience.
+Por favor, realize uma atualização para uma nova versão do Windows para ter atualizações de segurança e uma experiência mais estável.
 
-Some previous Hitman games (2016 and 2) support Windows 7, but you will need to host the server on another machine or virtual machine in order to make things work.
+Algumas versões anteriores de jogos Hitman (2016 e 2) são compatíveis com o Windows 7, mas você precisará de hostear o servidor em outra máquina ou máquina virtual para conseguir que o Peacock funcione.
 
 :::

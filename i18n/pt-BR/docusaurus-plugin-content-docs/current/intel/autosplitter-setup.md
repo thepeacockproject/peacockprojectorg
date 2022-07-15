@@ -1,66 +1,66 @@
 ---
-title: Auto-Splitter Setup
-description: How to set up the Peacock auto-splitter for full-game speedruns.
+title: Guia de Configuração do Auto-Splitter
+description: Como configurar o auto-splitter do Peacock para speedruns do jogo.
 ---
 
-_Guide written originally by [Fusha](https://www.speedrun.com/user/Fusha)_
+_Guia escrito originalmente por [Fusha](https://www.speedrun.com/user/Fusha)_
 
-## Specifications
+## Especificações
 
-(see "How to Use" and "Other Usage Notes" below as well)
+(veja "Homo Usa" e "Outras Notas de Uso" abaixo também)
 
--   100% accurate to how runs are timed for verification purposes, unlike the [Official Servers Autosplitter](https://www.speedrun.com/hitman_3/guide/kbydm).
+-   100% preciso em como as jogadas são cronometradas para proósitos de verificação, ao contrário do [Autosplitter dos Servidores Oficiais](https://www.speedrun.com/hitman_3/guide/kbydm).
 
--   Several miscellaneous glitches like the splitter not working correctly from "Outside" Romania starting location are fixed.
+-   Vários glitches como o splitter não estar funcionando corretamente do local inicial "Outside" em Romania estão resolvidos.
 
--   Splits fully automatically, based on which level you start on and which full game category you are playing. Starting and stopping the splitter (by pressing numpad keys etc) is not needed.
+-   Funciona de forma totalmente automática, baseado em que nível você começa e em qual categoria de jogo completo você está jogando. Iniciar e parar o plitter (por pressionar teclas do teclado numérico etc) não é necessário.
 
--   Works on both Steam and Epic versions of Hitman 3 unlike the Official Servers Autosplitter (which is Epic only).
+-   Funciona nas ambas versões Steam e Epic do Hitman 3 ao contrário do Autosplitter dos Servidores Oficiais (sendo exclusivo da Epic).
 
--   Obviously this only works on [Peacock](https://thepeacockproject.org/wiki/intel/), if you are playing on official servers for some reason you should use one of the [other two Livesplit Guides](https://www.speedrun.com/hitman_3/guides).
+-   Obviamente isso apenas funciona no [Peacock](https://thepeacockproject.org/wiki/intel/), se você está jogando nos servidores oficiais por alguma razão você deverá usar um dos [outros dois Guias Livesplit](https://www.speedrun.com/hitman_3/guides).
 
-## Installation
+## Instalação
 
-1. Install [Peacock](https://thepeacockproject.org/wiki/intel/) and [LiveSplit](https://livesplit.org/downloads/) if you don't have either of them installed (just unzip them wherever you want). **If you already have Peacock installed, make sure to you have it updated to the latest version.** After you get these apps installed/updated, close them for now.
+1. Instale o [Peacock](https://thepeacockproject.org/wiki/intel/) e o [LiveSplit](https://livesplit.org/downloads/) se você já não os tiver instalados (extraia-os em qualquer lugar que desejar). **Se você já tem o Peacock instalado, tenha a certeza de ter atualizado para a última versão.** Após ter esses aplicativos instalados/atualizados, feche-os no momento.
 
-2. Download LiveSplit server component from here: https://github.com/LiveSplit/LiveSplit.Server/releases/latest
+2. Faça o download do componente do servidor LiveSplit daqui: https://github.com/LiveSplit/LiveSplit.Server/releases/latest
 
-3. Unzip and place the two files that you just downloaded in the LiveSplit Server component zip into the Components folder inside the `LiveSplit` installation folder.
+3. Extraia e coloque os dois arquivo que você acabou de baixar no arquivo zip do componente do servidor LiveSplit na pasta Components dentro da pasta de instalação `LiveSplit`.
 
-4. Start LiveSplit.
+4. Inicie o LiveSplit.
 
-5. Right click on main LiveSplit window, then click on `Edit Splits`. Edit your split names (`Segment Name`) to your liking. Click on `Insert Above / Below` to add new segments. If you like, you can enter your estimated times in `Segment Times`.
+5. Clique com o botão direito na janela principal do Livesplit, e clique em `Edit Splits`. Edite seus nomes split (`Segment Name`) para o que desejar. Clique em `Insert Above / Below` para adicionar dois novos segmentos. Se desejar, você pode inserir seus tempos estimados em `Segment Times`.
 
-6. Click `ok` on the Splits Editor, then right-click the main LiveSplit window and select `Save Splits` for future use.
+6. Clique em `ok` no Splits Editor, depois clique com o botão direito na janela principal do Livesplit e secione `Save Splits` para uso futuro.
 
-7. Right click on main LiveSplit window, then click on `Edit Layout`. Double-click on `Timer`, then select `Game Time` for timing method.
+7. Clique com o botão direito na janela principal do Livesplit, e clique em `Edit Layout`. Clique duas vezes em `Timer`, então selecione `Game Time` para método de cronometragem.
 
-8. While still on the `Edit Layout` page: Click `+` button, then `Control`, then `Livesplit Server`.
+8. Enquanto ainda estiver na página `Edit Layout`: Clique no botão `+`, então em `Control`, e depois em `Livesplit Server`.
 
-9. Click `ok` on the Layout Editor, then right-click the main LiveSplit window and select `save layout` for future use.
+9. Clique em `ok` no Splits Editor, depois clique com o botão direito na janela principal do Livesplit e secione `Save Layout` para uso futuro.
 
-## How to Use
+## Como Usar
 
-(Do each time you open the game, order is important! Make sure to start LiveSplit and start the server before you start Peacock).
+(Faça toda vez que abrir o jogo, a ordem é importante! Tenha a certeza de iniciar o LiveSplit e iniciar o servidor antes de iniciar o Peacock).
 
-1. Open LiveSplit
+1. Abra o LiveSplit
 
-2. Right-click on the main LiveSplit window, then select `Control`, then `Start Server`.
+2. Clique com o botão direito na janela principal do LiveSplit, selecione `Control`, e depois em `Start Server`.
 
-3. If you would like to change what full game category you are running, edit `options.ini` file inside the Peacock folder and change the `autoSplitterCampaign` option to either `trilogy`, `1`, `2`, or `3` depending on which campaign you want to run (The autosplitter is set to `trilogy` by default). The autosplitter will only work so long as you play the selected campaign, in order.
+3. Se você quiser mudar qual categoria de jogo completo você está jogando, edite o arquivo `options.ini` dentro da pasta do Peacock e mude a opção `autoSplitterCampaign` para `trilogy` (trilogia), `1`, `2`, ou `3` dependendo em qual campanha você quer jogar (O autosplitter está configurado para `trilogy`, por predefinição). O autosplitter só irá funcionar enquanto você jogar a campanha, em ordem.
 
-4. Open the folder where you have installed Peacock, and run `Start Server.cmd` and `PeacockPatcher.exe`.
+4. Abra a pasta onde você instalou o Peacock, e inicie `Start Server.cmd` e `PeacockPatcher.exe`.
 
-5. Start game as normal.
+5. Inicie o jogo normalmente.
 
-## Other Usage Notes
+## Outras Notas de Uso
 
--   The splitter will always fully reset and start a new run as soon as you start the first mission in the selected campaign, no matter what other state it is in. You do not need to start or reset the run in LiveSplit manually (by pressing numpad keys etc).
+-   O splitter sempre irá reiniciar e começar uma nova run assim que você começar a primeira missão na campanha selecionada, sem ser afetada por qualquer outro estado em que esta pode estar. Você não precisar iniciar ou reiniciar a run no LiveSplit manualmente (pressionando teclas no teclado numérico etc).
 
--   If you start a mission that is not the first mission, the one you just played, or the next mission after completing the mission you just played, it will stop the timer and stop tracking times until you reset back to the first mission in the campaign.
+-   Se você começar uma missão que não é a primeira, a que você acabou de jogar, ou a próxima missão depois de completar a missão que você acabou de jogar, o cronômetro irá parar de contar até você reiniciar a primeira missão na campanha.
 
--   The splitter will automatically split (record time and move to next mission) as soon as you successfully complete a mission. However, if you replay the same mission multiple times (other than the first one in the selected campaign), it will automatically add reset times together for you, even if you "complete" the mission and it splits (for example if you failed to get SA at the last second, just replay the mission and it will auto-unsplit and add the reset time).
+-   O splitter vai automaticamente pausar (gravar o tempo e carregar para a próxima missão) assim que você terminar uma missão com sucesso. Porém, se você jogar novamente a mesma missão várias vezes (além da primeira na campanha selecionada), vai automaticamente adicionar o tempo de reset para você, mesmo se você completar a missão e o cronômetro pausar (por exemplo se você falhar SA no último segundo, apenas reinicie a missão e vai auto-despausar e adicionar o tempo de reset).
 
--   After you complete or fail a mission, it will print detailed timing info about the attempt you just made into the Peacock server window, with timing information down to tenths/hundredths of seconds for the attempt you just made as well as detailing the total amount of time with resets on the current mission.
+-   Depois de você completar ou falhar uma missão, o splitter vai detalhar informação do tempo sobre a tentativa que você acabou de realizar na janela do servidor do Peacock, com a informação do cronômetro nas dezenas/centenas de segundos para a tentativa que você acabou de realizar assim como detalhando a quantidade total de tempo com os resets da missão atual.
 
--   As of v4.5.0, Peacock Autosplitter now defaults into a mode which will not log a successful mission completion (splitting and allow moving to next map) unless you complete the current mission with Silent Assassin rating. If you want to use the auto splitter for any% runs, change the `autoSplitterForceSilentAssassin` option in `options.ini` to be `false`.
+-   Na versão v4.50, o Autosplitter do Peacock agora se padroniza em um modo que não vai logar uma conclusão bem sucedida de uma missão (parando e permitindo ir para o próximo mapa) exceto se você completar a missão atual com avaliação Assassino Silencioso. Se você quiser usar o autosplitter para jogadas any% (qualquer avaliação), mude a opção `autoSplitterForceSilentAssassin` em `options.ini` para `false`.

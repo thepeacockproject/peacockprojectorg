@@ -1,14 +1,14 @@
 ---
-title: Updating to New Versions
-description: When should I update? How do I update? A guide on everything you need to know about updating.
+title: Atualizando para Novas Versões
+description: Quando eu deveria atualizar? Como eu atualizo? Um guia em tudo o que você precisa saber sobre atualizar.
 ---
 
-1. When you run `Start Server.cmd`, you may get an alert that Peacock is out of date, as [shown in this example image](https://i.ibb.co/NtGMJjN/peacock-out-of-date.png).
-2. Usually you will need to update Peacock only when there is a new game update, but stay tuned in the Peacock Discord's `#updates` and `#downloads` channels to be safe.
-    - Note: Peacock may be temporarily unavailable after a game update, as it takes a few hours for the Peacock Patcher to be updated as well.
-3. If there is a new Peacock update, go to the `#downloads` channel in the Peacock Discord to download the latest build.
-4. Extract (unzip) files. Running the files from within the zipped folder will not work.
-5. **Assuming you have used Peacock during the previous game update**, follow the instructions below to keep your loadouts and in-game savefiles (Otherwise, your loadouts will all default back to ICA19/coins/fiberwire, and your in-game save files will be lost).
+1. Quando você iniciar `Start Server.cmd`, você pode receber um alerta que o Peacock está desatualizado, como [mostrado nessa imagem de exemplo](https://i.ibb.co/NtGMJjN/peacock-out-of-date.png).
+2. Normalmente você precisará atualizar o Peacock apenas quando tiver uma nova atualização do jogo, mas fique atento aos canais `#updates` e `#downloads` do servidor Discord do Peacock para se assegurar.
+    - Nota: O Peacock pode ficar temporariamente indisponível depois de uma atualização do jogo, já que levam algumas horas para o inicializador do Peacock ser atualizado também.
+3. Se uma nova atualização do Peacock estiver disponível, vá ao canal `#downloads` no servidor Discord do Peacock para fazer o download da última versão.
+4. Extraia (descompacte) os arquivos. Rodar os arquivos de dentro do arquivo compactado não irá funcionar.
+5. **Assumindo que você usou Peacock durante a última atualização do jogo**, siga as instruções abaixo para manter seu equipamento inicial nas missões e arquivos salvos (De outra forma, seu equipamento irá voltar à pistola ICA19/moedas/fio de fibra, e seus arquivos salvos serão perdidos).
 
-    - Copy your old `userdata` and `contractSessions` folders from your previous Peacock Install folder, and paste it into your new Peacock Install folder. Replace any existing files in the new Peacock build's folder, if necessary.
-    - Check [this example image](https://media.discordapp.net/attachments/833505136290299935/991070487654334464/unknown.png) if you have trouble finding the `userdata` and `contractSessions` folders.
+    - Copie suas antigas pastas `userdata` and `contractSessions` da pasta de instalação anterior do Peacock, e cole na sua nova pasta de instalação do Peacock. Substitua qualquer arquivo existente na pasta da nova versão do Peacock, se necessário.
+    - Veja [esta imagem de exemplo](https://media.discordapp.net/attachments/833505136290299935/991070487654334464/unknown.png) se você tiver problemas em encontrar as pastas `userdata` e `contractSessions`.

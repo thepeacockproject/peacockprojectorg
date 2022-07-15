@@ -1,5 +1,5 @@
 ---
-title: Terms of Service
+title: Käyttöehdot (Terms of service)
 description: Peacock's Terms of Service.
 ---
 

@@ -4,23 +4,23 @@
     "description": "The title of the footer links column with title=Wiki in the footer"
   },
   "link.title.Community": {
-    "message": "Community",
+    "message": "Käyttäjäyhteisö",
     "description": "The title of the footer links column with title=Community in the footer"
   },
   "link.title.Other": {
-    "message": "Other",
+    "message": "Muut",
     "description": "The title of the footer links column with title=Other in the footer"
   },
   "link.item.label.Knowledge Base": {
-    "message": "Knowledge Base",
+    "message": "Ohjekeskus",
     "description": "The label of footer link with label=Knowledge Base linking to /wiki/intel"
   },
   "link.item.label.Help/Bugs/Feature Requests (in our Discord)": {
-    "message": "Help/Bugs/Feature Requests (in our Discord)",
+    "message": "Apu/Bugien Ilmoittaminen/Toimintopyyntöjen teko (Discord-palvelimellamme)",
     "description": "The label of footer link with label=Help/Bugs/Feature Requests (in our Discord) linking to https://discord.gg/F8qQTfnajw"
   },
   "link.item.label.Testimonials": {
-    "message": "Testimonials",
+    "message": "Asiakaskokemuksia",
     "description": "The label of footer link with label=Testimonials linking to /testimonials"
   },
   "link.item.label.Ghost Mode": {
@@ -28,23 +28,23 @@
     "description": "The label of footer link with label=Ghost Mode linking to /wiki/ghost-mode"
   },
   "link.item.label.Branding": {
-    "message": "Branding",
+    "message": "Brändäys",
     "description": "The label of footer link with label=Branding linking to /branding"
   },
   "link.item.label.Credits": {
-    "message": "Credits",
+    "message": "Tekijät",
     "description": "The label of footer link with label=Credits linking to /wiki/credits"
   },
   "link.item.label.Privacy Policy": {
-    "message": "Privacy Policy",
+    "message": "Tietosuojakäytäntö",
     "description": "The label of footer link with label=Privacy Policy linking to /wiki/legal/privacy-policy"
   },
   "link.item.label.Terms of Service": {
-    "message": "Terms of Service",
+    "message": "Käyttöehdot (Terms of service)",
     "description": "The label of footer link with label=Terms of Service linking to /wiki/legal/terms-of-service"
   },
   "copyright": {
-    "message": "Copyright © 2022 The Peacock Project. Not owned by, affiliated with, or endorsed by IO Interactive.<br /><br /><small class=\"ioi-copyright\">HITMAN 3 © 2020 IO Interactive A/S. HITMAN™ 2 © 2018 IO Interactive A/S. HITMAN™ © 2019 IO Interactive A/S. IO Interactive, IOI logos, HITMAN, HITMAN logos, and WORLD OF ASSASSINATION are trademarks or registered trademarks owned by or exclusively licensed to IO Interactive A/S. All other trademarks are the property of their respective owners.</small>",
+    "message": "Tekijänoikeus © 2022 The Peacock Project. Ei IO Interactiven omistuksessa, yhteistyössä, tai kannattamana.<br /><br /><small class=\"ioi-copyright\">HITMAN 3 © 2020 IO Interactive A/S. HITMAN™ 2 © 2018 IO Interactive A/S. HITMAN™ © 2019 IO Interactive A/S. IO Interactive, IOI logot, HITMAN, HITMAN logot, ja WORLD OF ASSASSINATION ovat tavaramerkkejä tai rekisteröityjä tavaramerkkejä jotka omistaa tai yksinoikeudella lisesnsöi IO Interactive A/S. Kaikki muut tavaramerkit ovat kullekkin kuuluvan omistajansa omaisuutta.</small>",
     "description": "The footer copyright"
   }
 }

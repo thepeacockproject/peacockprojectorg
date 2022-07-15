@@ -2,7 +2,7 @@
 description: Details about The Peacock Project's Initiatives
 ---
 
-# Initiatives
+# Aloitteet
 
 List of additional projects from the Peacock developers intended to help the Hitman community.
 
