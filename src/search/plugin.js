@@ -19,9 +19,6 @@ module.exports = (context, options) => {
 
     return {
         name: "docusaurus-lunr-search",
-        getThemePath() {
-            return path.resolve(__dirname, "./theme")
-        },
         configureWebpack(config) {
             // Multilingual issue fix
             const generatedFilesDir = config.resolve.alias["@generated"]
@@ -76,22 +73,12 @@ module.exports = (context, options) => {
             const lunrIndex = lunrBuilder.build()
 
             const searchDocFileContents = JSON.stringify(searchDocuments)
-            // This file is written for backwards-compatibility with components swizzled from v2.1.12 or earlier.
-            fs.writeFileSync(
-                path.join(outDir, "search-doc.json"),
-                searchDocFileContents
-            )
             fs.writeFileSync(
                 path.join(outDir, fileNames.searchDoc),
                 searchDocFileContents
             )
 
             const lunrIndexFileContents = JSON.stringify(lunrIndex)
-            // This file is written for backwards-compatibility with components swizzled from v2.1.12 or earlier.
-            fs.writeFileSync(
-                path.join(outDir, "lunr-index.json"),
-                lunrIndexFileContents
-            )
             fs.writeFileSync(
                 path.join(outDir, fileNames.lunrIndex),
                 lunrIndexFileContents
