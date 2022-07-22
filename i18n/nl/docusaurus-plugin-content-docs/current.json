@@ -8,7 +8,7 @@
     "description": "The label for category Legal in sidebar sidebar"
   },
   "sidebar.sidebar.category.User Guide": {
-    "message": "User Guide",
+    "message": "Gebruikershandleiding",
     "description": "The label for category User Guide in sidebar sidebar"
   }
 }

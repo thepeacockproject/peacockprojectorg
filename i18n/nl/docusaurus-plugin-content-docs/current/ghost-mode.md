@@ -17,8 +17,8 @@ Ghost Mode is beschikbaar voor PC-spelers die HITMAN™ 2 of HITMAN™ 3 op Stea
 
 1. Download de LocalGhost Patcher van [hier](https://gitlab.com/grappigegovert/localghost/-/jobs/artifacts/master/download?job=build_patcher).
 2. Open de patcher, en selecteer `ghostmode.rdil.rocks` in het drop-down menu.
-3. If this is your first time running the patcher, open Advanced Settings, and untick the box labeled `Use http instead of https`. Then click save.
-    - Note: Only untick `Use http instead of https` when trying to play Ghost Mode. When trying to use Peacock for other game modes, please tick this box again.
+3. Als dit de eerste keer is dat je de patcher hebt geopend, klik je op Advanced Settings, en vink dan het hokje genaamd `Use http instead of https`. Klik dan op save.
+    - Opmerking: Vink alleen het hokje `Use http instead of https` uit als je Ghost Mode wilt spelen. Als je Peacock wilt gebruiken voor andere spelmodussen, vink dan dit hokje weer aan.
 4. Start het spel, druk op enter wanneer daarom wordt gevraagd.
 5. Je bent klaar om Ghost Mode te spelen!
 

@@ -1,6 +1,6 @@
 ---
 title: Servicevoorwaarden
-description: Peacock's Terms of Service.
+description: Peacock's Servicevoorwaarden en Gebruik.
 ---
 
 We zijn niet echt advocaten, maar we hebben wel een aantal voorwaarden die moeten worden nageleefd.
@@ -11,11 +11,11 @@ We zijn niet echt advocaten, maar we hebben wel een aantal voorwaarden die moete
 
 ## Binding
 
-By using Peacock or any related services, you agree to these terms, as well as the terms set in the [Privacy Policy](privacy-policy.md).
+Door het gebruik van Peacock of gerelateerde diensten, ga je akkoord met deze voorwaarden, evenals de voorwaarden in het [Privacybeleid](privacy-policy.md).
 
 ## Toegang
 
-We agree to provide access to Peacock for select owners of the HITMAN series. We have the right to deny you access if you don't own the game, or if we decide to deny access for any reason.
+We stemmen ermee in om toegang te verlenen tot Peacock voor geselecteerde eigenaren van de HITMAN-serie. We hebben het recht om je de toegang te ontzeggen als je het spel niet bezit, of als we besluiten om de toegang om welke reden dan ook te weigeren.
 
 ## Licentie
 
@@ -23,20 +23,20 @@ Peacock heeft een strikte licentie. Tenzij anders vermeld (zie de bestanden `LIC
 
 ## Donaties
 
-Aangezien het bouwen en draaiende houden van Peacock het team geld kost, heeft iedereen de mogelijkheid geld te doneren om het project te helpen financieren. Alle donaties worden niet terugbetaald. Donateurs kunnen vroegtijdig toegang krijgen tot sommige Peacock-functies die nog niet klaar zijn voor openbaar gebruik. Al het materiaal dat aan donoren wordt verstrekt, is vertrouwelijk, tenzij anders vermeld. Donateurs die toch per ongeluk vertrouwelijke informatie lekken, krijgen een waarschuwing. If the donor does it again after being given a warning, their ability to access this content will be removed. Donations are not required, but much appreciated.
+Aangezien het bouwen en draaiende houden van Peacock het team geld kost, heeft iedereen de mogelijkheid geld te doneren om het project te helpen financieren. Alle donaties worden niet terugbetaald. Donateurs kunnen vroegtijdig toegang krijgen tot sommige Peacock-functies die nog niet klaar zijn voor openbaar gebruik. Al het materiaal dat aan donoren wordt verstrekt, is vertrouwelijk, tenzij anders vermeld. Donateurs die toch per ongeluk vertrouwelijke informatie lekken, krijgen een waarschuwing. Als de donateur het opnieuw doet nadat hij een waarschuwing heeft gekregen, wordt de mogelijkheid om toegang te krijgen tot deze inhoud verwijderd. Donaties zijn niet verplicht, maar worden zeer op prijs gesteld.
 
 ## Manipulatie
 
-Engaging in or attempting to reverse engineer, modify (with some exceptions, see [plugins section](#plugins)), or otherwise disassemble/reassemble Peacock and/or its connected services is not permitted.
+Het is niet toegestaan om Peacock en/of zijn services te reverse-engineeren, aan te passen (met enkele uitzonderingen, zie [pluginssectie](#plugins)), of anderszins te demonteren/hermonteren.
 
 ## Plugins
 
-We encourage authorized users to create plugins to add, change, or remove functionality from Peacock. Plugin developers are allowed to modify Peacock through our internal plugin system, assuming modifications made do not violate any other rules laid out in this document. While the plugin system is an official feature of Peacock, unless otherwise stated, plugins are not provided by nor endorsed by The Peacock Project. We provide no liability, warranty, or support for these plugins. If you wish to become a plugin developer, and gain access to our official plugin development resources, contact an admin on Discord.
+We moedigen geautoriseerde gebruikers aan om plugins te maken om functionaliteit van Peacock toe te voegen, te wijzigen of te verwijderen. Ontwikkelaars van plugins mogen Peacock aanpassen via ons interne pluginsysteem, ervan uitgaande dat de aangebrachte wijzigingen geen andere regels schenden die in dit document zijn benoemd. Hoewel het pluginsysteem een officieel kenmerk van Peacock is, worden plugins niet geleverd door of goedgekeurd door The Peacock Project, tenzij anders vermeld. We bieden geen aansprakelijkheid, garantie of ondersteuning voor deze plugins. Als je plugin-ontwikkelaar wilt worden en toegang wilt hebben tot onze officiële bronnen voor het ontwikkelen van plugins, neem dan contact op met een beheerder op Discord.
 
-## Interpretation
+## Interpretatie
 
-All translations are provided purely for informational purposes. In case of discrepancy between the English text and any translations, the English version shall prevail.
+Alle vertalingen worden puur ter informatie verstrekt. In geval van discrepantie tussen de Engelse tekst en eventuele vertalingen, klopt de Engelse versie altijd.
 
-## Change
+## Verandering
 
-This policy may change at any time at our discretion. We will attempt to notify you of any changes, but in some cases, we may not be able to. The date this policy was last modified can be found at the bottom of this page.
+Dit beleid kan altijd worden gewijzigd. Wij zullen proberen u op de hoogte te stellen van eventuele wijzigingen, maar in sommige gevallen kunnen wij dat niet. De datum waarop dit beleid voor het laatst is gewijzigd, vindt u onderaan deze pagina.
