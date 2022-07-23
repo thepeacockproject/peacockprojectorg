@@ -51,47 +51,47 @@ Een opmerking hier voor degenen in de Europese Unie over de wettelijke gronden v
 2. Het gebruik is noodzakelijk om te voldoen aan een wettelijke verplichting; of
 3. Het gebruik is noodzakelijk om jouw vitale belangen of die van een andere persoon te beschermen; of
 4. Wij hebben een legitiem belang bij het gebruik van jouw informatie - bijvoorbeeld om onze Diensten te leveren en bij te werken, om onze Diensten te verbeteren, om onze Diensten te beveiligen, om met jou te communiceren, om problemen met onze Diensten te monitoren en te voorkomen, en om jouw ervaring te personaliseren; of
-5. You have given us your consent.
+5. U heeft ons uw toestemming gegeven.
 
-## How we share information
+## Hoe wij informatie delen
 
-We do not sell our users' private personal information.
+Wij verkopen de persoonlijke persoonlijke informatie van onze gebruikers niet.
 
-We share information about you in the limited circumstances spelled out below and with appropriate safeguards on your privacy:
+Wij delen informatie over u in de beperkte omstandigheden die hieronder worden beschreven en met passende waarborgen voor uw privacy:
 
--   Legal Requests: We may disclose information about you in response to a subpoena, court order, or other governmental request.
--   To Protect Rights, Property, and Others: We may disclose information about you when we believe in good faith that disclosure is reasonably necessary to protect the property or rights of The Peacock Project, third parties, or the public at large. For example, if we have a good faith belief that there is an imminent danger of death or serious physical injury, we may disclose information related to the emergency without delay.
--   With Your Consent: We may share and disclose information with your consent or at your direction. For example, we may share your information with third parties with which you authorize us to do so.
+-   Juridische verzoeken: wij kunnen informatie over u vrijgeven als reactie op een dagvaarding, gerechtelijk bevel of ander overheidsverzoek.
+-   Om rechten, eigendommen en anderen te beschermen: we kunnen informatie over u vrijgeven wanneer we te goeder trouw geloven dat openbaarmaking redelijkerwijs noodzakelijk is om de eigendommen of rechten van The Peacock Project, derde partijen of het grote publiek te beschermen. Als wij bijvoorbeeld te goeder trouw geloven dat er een dreigend gevaar voor overlijden of ernstig lichamelijk letsel is, kunnen wij informatie met betrekking tot de noodsituatie zonder vertraging bekendmaken.
+-   Met uw toestemming: wij kunnen informatie delen en openbaar maken met uw toestemming of op uw aanwijzing. Wij kunnen uw informatie bijvoorbeeld delen met derde partijen waarmee u ons machtigt om dit te doen.
 
-## Responsible disclosure of data breaches
+## Verantwoord openbaar maken van datalekken
 
-In the case that any data collected is ever leaked, we will try our best to notify the affected users. Please note that we may not be able to contact you if you leave the Discord server, disable Discord direct messages, or fail to check Discord when we inform you.
+In het geval dat verzamelde gegevens ooit worden gelekt, zullen wij ons best doen om de betrokken gebruikers in te lichten. Houd er rekening mee dat wij mogelijk geen contact met u kunnen opnemen als u de Discord server verlaat, directe berichten van Discord uitschakelt of Discord niet controleert wanneer wij u informeren.
 
-## Your rights
+## Uw rechten
 
-If you are located in certain countries, including those that fall under the scope of the European General Data Protection Regulation (AKA the “GDPR”), data protection laws give you rights with respect to your personal data, subject to any exemptions provided by the law, including the rights to:
+Als u zich in bepaalde landen bevindt, inclusief landen die vallen onder het toepassingsgebied van de Europese Algemene Verordening Gegevensbescherming (ook bekend als de "GDPR"), geven de gegevensbeschermingswetten u rechten met betrekking tot uw persoonlijke gegevens, behoudens eventuele uitzonderingen die door de recht, met inbegrip van de rechten om:
 
--   Request access to your personal data
--   Request correction or deletion of your personal data
--   Object to our use and processing of your personal data
--   Request that we limit our use and processing of your personal data
--   Request portability of your personal data
+-   Toegang verzoeken tot uw persoonlijke gegevens
+-   Correctie of verwijdering van uw persoonsgegevens verzoeken
+-   Bezwaar maken tegen ons gebruik en verwerking van uw persoonsgegevens
+-   Verzoek dat we ons gebruik en onze verwerking van uw persoonlijke gegevens beperken
+-   Overdraagbaarheid van uw persoonlijke gegevens aanvragen
 
-EU individuals also have the right to make a complaint to a government supervisory authority.
+Burgers van de EU hebben ook het recht om een klacht in te dienen bij een toezichthoudende autoriteit van de overheid.
 
-## Use of data by third parties
+## Gebruik van gegevens door derde partijen
 
-Our infrastructure makes use of third parties which may process or retain your data, the privacy policies of those Services can be found at:
+Onze infrastructuur maakt gebruik van derde partijen die uw gegevens kunnen verwerken of bewaren. Het privacybeleid van die Diensten is te vinden op:
 
 -   https://sentry.io/privacy/
 -   https://www.cloudflare.com/privacypolicy/
 -   https://discord.com/privacy
 -   https://www.hitmaps.com/privacy-policy
 
-## Updates to this policy
+## Updates van dit beleid
 
-This policy was created on May 5th, 2021. This policy may change without notice at any time. We advise regularly checking it for any updates that may affect you.
+Dit beleid is gemaakt op 5 mei 2021. Dit beleid kan op elk moment zonder kennisgeving worden gewijzigd. We raden u aan om dit beleid regelmatig te controleren op updates die u kunnen beïnvloeden.
 
-## Ask a question
+## Stel een vraag
 
-To ask a question about this policy, please follow the instructions outlined under the "Request deletion of your data" section.
+Om een vraag te stellen over dit beleid, volgt u de instructies die worden beschreven in het gedeelte 'Verzoek om verwijdering van uw gegevens'.

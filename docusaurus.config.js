@@ -119,6 +119,11 @@ module.exports = {
             },
             copyright: `Copyright © ${new Date().getFullYear()} The Peacock Project. Not owned by, affiliated with, or endorsed by IO Interactive.<br /><br /><small class="ioi-copyright">HITMAN 3 © 2020 IO Interactive A/S. HITMAN™ 2 © 2018 IO Interactive A/S. HITMAN™ © 2019 IO Interactive A/S. IO Interactive, IOI logos, HITMAN, HITMAN logos, and WORLD OF ASSASSINATION are trademarks or registered trademarks owned by or exclusively licensed to IO Interactive A/S. All other trademarks are the property of their respective owners.</small>`,
         },
+        docs: {
+            sidebar: {
+                hideable: true,
+            },
+        },
     },
     themes: [
         [
@@ -145,7 +150,7 @@ module.exports = {
             },
         ],
         "@docusaurus/plugin-content-pages",
-        "docusaurus-lunr-search",
+        require.resolve("./src/search/plugin.js"),
         require.resolve("./testimonialsPlugin.js"),
         [
             "@docusaurus/plugin-sitemap",

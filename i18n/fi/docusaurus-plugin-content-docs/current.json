@@ -1,10 +1,14 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "Seuraava",
     "description": "The label for version current"
   },
   "sidebar.sidebar.category.Legal": {
-    "message": "Legal",
+    "message": "Lakiasiat",
     "description": "The label for category Legal in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.User Guide": {
+    "message": "Käyttöopas",
+    "description": "The label for category User Guide in sidebar sidebar"
   }
 }

@@ -286,15 +286,15 @@
     "message": "Wat onze gebruikers zeggen over Peacock."
   },
   "theme.docs.breadcrumbs.home": {
-    "message": "Home page",
+    "message": "Homepagina",
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "Breadcrumbs",
+    "message": "Broodkruimels",
     "description": "The ARIA label for the breadcrumbs"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "Toggle word wrap",
+    "message": "Tekstterugloop in/uitschakelen",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   }
 }

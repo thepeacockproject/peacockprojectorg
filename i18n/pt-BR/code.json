@@ -286,15 +286,15 @@
     "message": "O que nossos usuários dizem sobre o Peacock."
   },
   "theme.docs.breadcrumbs.home": {
-    "message": "Home page",
+    "message": "Página Inicial",
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "Breadcrumbs",
+    "message": "Sistema de navegação por categorias",
     "description": "The ARIA label for the breadcrumbs"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "Toggle word wrap",
+    "message": "Ativar quebra de linha",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   }
 }

@@ -1,4 +1,51 @@
 {
+  "testimonialsPage.subTitle": {
+    "message": "What our users say about Peacock."
+  },
+  "Fast": {
+    "message": "Fast",
+    "description": "Homepage 'fast' feature header"
+  },
+  "homepage.fastDescription": {
+    "message": "Peacock is built to be fast. Latency, lag, and delays are not fun, which is why we put a focus on eliminating these factors wherever possible.",
+    "description": "The homepage's 'Fast' feature description"
+  },
+  "Easy to set up": {
+    "message": "Easy to set up",
+    "description": "Homepage 'Easy to set up' feature header"
+  },
+  "homepage.easyToSetUpDescription": {
+    "message": "It's really easy to give Peacock a go. Assuming you own the game, you can join our Discord, and perform the less than 3 minute set-up process.",
+    "description": "The homepage's 'Easy to set up' feature description"
+  },
+  "Custom content": {
+    "message": "Custom content",
+    "description": "Homepage 'Custom content' feature header"
+  },
+  "homepage.customContentDescription": {
+    "message": "We feature exclusive, custom content every month!",
+    "description": "The homepage's 'Custom content' feature description"
+  },
+  "homepage.subtitle": {
+    "message": "A replacement for HITMAN™'s servers that runs on your machine.",
+    "description": "The homepage's subtitle."
+  },
+  "homepage.testimonialsButton": {
+    "message": "Read what our users say",
+    "description": "The homepage's 'read what our users say' button."
+  },
+  "homepage.joinDiscordLabel": {
+    "message": "Ready to give Peacock a shot?",
+    "description": "The text on top of the go to Discord button on the home page."
+  },
+  "homepage.joinDiscordButton": {
+    "message": "Join our Discord!",
+    "description": "The text on the join our Discord button on the home page."
+  },
+  "homepage.joinDiscordButtonBelowText": {
+    "message": "(Downloads are available on Discord)",
+    "description": "The text below the join our Discord button on the home page."
+  },
   "theme.IdealImageMessage.loading": {
     "message": "Loading...",
     "description": "When the full-scale image is loading"
@@ -47,6 +94,58 @@
     "message": "Scroll back to top",
     "description": "The ARIA label for the back to top button"
   },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "One min read|{readingTime} min read",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Read more about {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Read More",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Switch between dark and light mode (currently {mode})",
+    "description": "The ARIA label for the navbar color mode toggle"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "dark mode",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "light mode",
+    "description": "The name for the light color mode"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Home page",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Breadcrumbs",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} items",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Direct link to heading",
+    "description": "Title for link to heading"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Versions",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Skip to main content",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Tags:",
+    "description": "The label alongside a tag list"
+  },
   "theme.blog.archive.title": {
     "message": "Archive",
     "description": "The page & hero title of the blog archive page"
@@ -67,18 +166,6 @@
     "message": "Older Entries",
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
-  "theme.blog.post.readingTime.plurals": {
-    "message": "One min read|{readingTime} min read",
-    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "theme.blog.post.readMoreLabel": {
-    "message": "Read more about {title}",
-    "description": "The ARIA label for the link to full blog posts from excerpts"
-  },
-  "theme.blog.post.readMore": {
-    "message": "Read More",
-    "description": "The label used in blog post item excerpts to link to full blog posts"
-  },
   "theme.blog.post.paginator.navAriaLabel": {
     "message": "Blog post page navigation",
     "description": "The ARIA label for the blog posts pagination"
@@ -90,10 +177,6 @@
   "theme.blog.post.paginator.olderPost": {
     "message": "Older Post",
     "description": "The blog post button label to navigate to the older/next post"
-  },
-  "theme.blog.sidebar.navAriaLabel": {
-    "message": "Blog recent posts navigation",
-    "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.blog.post.plurals": {
     "message": "One post|{count} posts",
@@ -107,30 +190,6 @@
     "message": "View All Tags",
     "description": "The label of the link targeting the tag list page"
   },
-  "theme.CodeBlock.copyButtonAriaLabel": {
-    "message": "Copy code to clipboard",
-    "description": "The ARIA label for copy code blocks button"
-  },
-  "theme.CodeBlock.copied": {
-    "message": "Copied",
-    "description": "The copied button label on code blocks"
-  },
-  "theme.CodeBlock.copy": {
-    "message": "Copy",
-    "description": "The copy button label on code blocks"
-  },
-  "theme.docs.DocCard.categoryDescription": {
-    "message": "{count} items",
-    "description": "The default description for a category card in the generated index about how many items this category includes"
-  },
-  "theme.docs.sidebar.expandButtonTitle": {
-    "message": "Expand sidebar",
-    "description": "The ARIA label and title attribute for expand button of doc sidebar"
-  },
-  "theme.docs.sidebar.expandButtonAriaLabel": {
-    "message": "Expand sidebar",
-    "description": "The ARIA label and title attribute for expand button of doc sidebar"
-  },
   "theme.docs.paginator.navAriaLabel": {
     "message": "Docs pages navigation",
     "description": "The ARIA label for the docs pagination"
@@ -142,30 +201,6 @@
   "theme.docs.paginator.next": {
     "message": "Next",
     "description": "The label used to navigate to the next doc"
-  },
-  "theme.colorToggle.ariaLabel": {
-    "message": "Switch between dark and light mode (currently {mode})",
-    "description": "The ARIA label for the navbar color mode toggle"
-  },
-  "theme.colorToggle.ariaLabel.mode.dark": {
-    "message": "dark mode",
-    "description": "The name for the dark color mode"
-  },
-  "theme.colorToggle.ariaLabel.mode.light": {
-    "message": "light mode",
-    "description": "The name for the light color mode"
-  },
-  "theme.docs.sidebar.collapseButtonTitle": {
-    "message": "Collapse sidebar",
-    "description": "The title attribute for collapse button of doc sidebar"
-  },
-  "theme.docs.sidebar.collapseButtonAriaLabel": {
-    "message": "Collapse sidebar",
-    "description": "The title attribute for collapse button of doc sidebar"
-  },
-  "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
-    "message": "Toggle the collapsible sidebar category '{label}'",
-    "description": "The ARIA label to toggle the collapsible sidebar category"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
     "message": "One doc tagged|{count} docs tagged",
@@ -198,10 +233,6 @@
     "message": "Edit this page",
     "description": "The link label to edit the current page"
   },
-  "theme.common.headingLinkTitle": {
-    "message": "Direct link to heading",
-    "description": "Title for link to heading"
-  },
   "theme.lastUpdated.atDate": {
     "message": " on {date}",
     "description": "The words used to describe on which date a page has been last updated"
@@ -214,87 +245,56 @@
     "message": "Last updated{atDate}{byUser}",
     "description": "The sentence used to display when a page has been last updated, and by who"
   },
-  "theme.navbar.mobileVersionsDropdown.label": {
-    "message": "Versions",
-    "description": "The label for the navbar versions dropdown on mobile view"
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Blog recent posts navigation",
+    "description": "The ARIA label for recent posts in the blog sidebar"
   },
-  "theme.common.skipToMainContent": {
-    "message": "Skip to main content",
-    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  "theme.CodeBlock.copied": {
+    "message": "Copied",
+    "description": "The copied button label on code blocks"
   },
-  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
-    "message": "← Back to main menu",
-    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Copy code to clipboard",
+    "description": "The ARIA label for copy code blocks button"
   },
-  "theme.TOCCollapsible.toggleButtonLabel": {
-    "message": "On this page",
-    "description": "The label used by the button on the collapsible TOC component"
+  "theme.CodeBlock.copy": {
+    "message": "Copy",
+    "description": "The copy button label on code blocks"
   },
-  "theme.tags.tagsListLabel": {
-    "message": "Tags:",
-    "description": "The label alongside a tag list"
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Toggle word wrap",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
+    "message": "Toggle the collapsible sidebar category '{label}'",
+    "description": "The ARIA label to toggle the collapsible sidebar category"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
     "message": "Languages",
     "description": "The label for the mobile language switcher dropdown"
   },
-  "Fast": {
-    "message": "Fast",
-    "description": "Homepage 'fast' feature header"
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "On this page",
+    "description": "The label used by the button on the collapsible TOC component"
   },
-  "homepage.fastDescription": {
-    "message": "Peacock is built to be fast. Latency, lag, and delays are not fun, which is why we put a focus on eliminating these factors wherever possible.",
-    "description": "The homepage's 'Fast' feature description"
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Collapse sidebar",
+    "description": "The title attribute for collapse button of doc sidebar"
   },
-  "Easy to set up": {
-    "message": "Easy to set up",
-    "description": "Homepage 'Easy to set up' feature header"
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Collapse sidebar",
+    "description": "The title attribute for collapse button of doc sidebar"
   },
-  "homepage.easyToSetUpDescription": {
-    "message": "It's really easy to give Peacock a go. Assuming you own the game, you can join our Discord, and perform the less than 3 minute set-up process.",
-    "description": "The homepage's 'Easy to set up' feature description"
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Back to main menu",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
-  "Custom content": {
-    "message": "Custom content",
-    "description": "Homepage 'Custom content' feature header"
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
-  "homepage.customContentDescription": {
-    "message": "We feature exclusive, custom content every month!",
-    "description": "The homepage's 'Custom content' feature description"
-  },
-  "homepage.subtitle": {
-    "message": "A replacement for HITMAN™'s servers that runs on your machine.",
-    "description": "The homepage's subtitle."
-  },
-  "homepage.testimonialsButton": {
-    "message": "Read what our users say",
-    "description": "The homepage's 'read what our users say' button."
-  },
-  "homepage.joinDiscordLabel": {
-    "message": "Ready to give Peacock a shot?",
-    "description": "The text on top of the go to Discord button on the home page."
-  },
-  "homepage.joinDiscordButton": {
-    "message": "Join our Discord!",
-    "description": "The text on the join our Discord button on the home page."
-  },
-  "homepage.joinDiscordButtonBelowText": {
-    "message": "(Downloads are available on Discord)",
-    "description": "The text below the join our Discord button on the home page."
-  },
-  "testimonialsPage.subTitle": {
-    "message": "What our users say about Peacock."
-  },
-  "theme.docs.breadcrumbs.home": {
-    "message": "Home page",
-    "description": "The ARIA label for the home page in the breadcrumbs"
-  },
-  "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "Breadcrumbs",
-    "description": "The ARIA label for the breadcrumbs"
-  },
-  "theme.CodeBlock.wordWrapToggle": {
-    "message": "Toggle word wrap",
-    "description": "The title attribute for toggle word wrapping button of code block lines"
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
   }
 }
