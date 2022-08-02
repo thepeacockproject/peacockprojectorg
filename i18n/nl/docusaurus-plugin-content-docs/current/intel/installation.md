@@ -1,20 +1,20 @@
 ---
-title: Installation and Usage
-description: How to get started with Peacock.
+title: Installatie en gebruik
+description: Hoe te beginnen met Peacock.
 ---
 
-Here's how to get up and running with Peacock.
+Hier lees je hoe je aan de slag kunt met Peacock.
 
-1. Join the Peacock Discord server (https://thepeacockproject.org/discord). You must have a 7 day or older Discord account to join.
+1. Word lid van de Peacock Discord-server (https://thepeacockproject.org/discord). Je moet een account hebben dat 7 dagen of ouder is om lid te worden.
 
-2. Go to the `#downloads` channel in the above Discord server and download the latest Peacock build.
+2. Ga naar het `#downloads` kanaal in de Peacock Discord server en download de laaste Peacock versie.
 
-3. Extract (unzip) files. Running the files from within the zipped folder will not work.
+3. Extract (unzip) de bestanden. De bestanden vanuit de gezipte folder uitvoeren zal niet werken.
 
-4. Navigate to where you installed Peacock, and run the files `Start Server.cmd` and `PeacockPatcher.exe`.
+4. Ga naar de folder waar je Peacock hebt geïnstalleerd, en start dan het `Start Server.cmd` bestand en het `PeacockPatcher.exe` bestand.
 
-    - Depending on how you installed Peacock, you may need to open two folders to find these files, [as shown in this example image](https://media.discordapp.net/attachments/833505136290299935/991068578579107870/unknown.png).
+    - Afhankelijk van hoe je Peacock hebt geïnstalleerd, moet je mogelijk twee mappen openen om deze bestanden te vinden, [zoals zichtbaar in deze voorbeeld afbeelding](https://media.discordapp.net/attachments/833505136290299935/991068578579107870/unknown.png).
 
-    - Note: If you are playing on Hitman 3, you will have to repeat steps 2-3 each time Hitman 3 receives a new update (more info below, in the "When/ How to Update Peacock" section). And for any of the three supported Hitman games, you will need to repeat step 4 every time you launch the game. The game defaults back to the official servers otherwise.
+    - Opmerking: Als je Hitman 3 speelt, moet je stappen 2-3 elke keer herhalen als Hitman 3 een nieuwe update krijgt (meer info hieronder, in de sectie "Wanneer/Hoe Peacock updaten"). En voor elke van de drie understeunde Hitman spellen zal je stap 4 elke keer moeten herhalen als je het spel opstart. Het spel zal anders terug gaan naar de officiële servers.
 
-5. Now open the game as normal.
+5. Open nu het spel net zoals je normaal doet.

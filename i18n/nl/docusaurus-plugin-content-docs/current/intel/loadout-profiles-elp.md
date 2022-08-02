@@ -1,14 +1,14 @@
 ---
-title: Peacock Unique Features
-description: How to use features such as Loadout Profiles and the Escalation Level Picker.
+title: Unieke Peacock Functies
+description: Hoe je de functies kunt gebruiken zoals de Loadout Profiles en de Escalation Level Picker.
 ---
 
 ## Loadout Profiles
 
-- To save multiple loadouts per map (loadout profiles): [Follow this tutorial](https://www.youtube.com/watch?v=ouD9QBSVHI0)
-    -   Note: You should open Hitman with Peacock before following the steps in this tutorial. In addition, Peacock has received a new update, so now just go to `localhost` or `127.0.0.1` in your browser instead of `localhost/loadouts`. When you are on the `localhost` page, click on `Loadout Profiles` in the upper left navbar. Then proceed with the rest of the video tutorial.
+- Om meerdere loadouts per map op te slaan (loadout profiles): [Volg deze gids](https://www.youtube.com/watch?v=ouD9QBSVHI0)
+    -   Opmerking: Je moet Hitman met Peacock eerst open hebben voordat je de stappen in deze gids volgt. In aanvulling op de Loadout Profiles, je kan nu gewoon `localhost` of `127.0.0.1` in jouw browser intypen in plaats van `localhost/loadouts`. Wanneer je op de `localhost` pagina bent, klik dan op `Loadout Profiles` in de linker bovenkant van de navigatiebalk. Ga dan verder met de rest van de gids.
 
 ## Escalation Level Picker
 
-- To pick specific escalation levels, run `Start Server.cmd` from your Peacock Install folder, then open up a web browser and go to `localhost` or `127.0.0.1`. Go to `Escalation Level Picker` and proceed from there following instructions on screen.
-    -   If you have installed the LegacyEscalations plugin in the past, you may have to reinstall it to make the escalation level picker work.
+- Om specifieke levels te kiezen, start `Start Server.cmd` vanuit Peacock's instalatiefolder, open een browser en ga dan naar `localhost` of `127.0.0.1`. Ga naar de `Escalation Level Picker` en volg dan de instructies die zichtbaar zijn.
+    -   Als je LegacyEscalations al in het verleden hebt geïnstalleerd, kan het mogelijk zijn dat je de plugin opniew moet installeren om de Escalation Level Picker te kunnen laten werken.

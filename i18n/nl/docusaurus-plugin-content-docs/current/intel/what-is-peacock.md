@@ -1,28 +1,28 @@
 ---
-title: What is Peacock?
-description: A rundown on what Peacock is, and why you may want to give it a try.
+title: Wat is Peacock?
+description: Een overzicht van wat Peacock is en waarom je het misschien eens een keer wilt uitproberen.
 ---
 
-Peacock is essentially a Hitman server emulator that runs on your own PC.
+Peacock is een Hitman-serveremulator die op uw eigen PC draait.
 
-When you start the game, it doesn't connect to IOI's servers, only Peacock.
+Wanneer je het spel start, verbind het zich niet met de servers van IOI, maar met die van Peacock.
 
-## Benefits
+## Voordelen
 
-The benefits of using Peacock include:
-- **Obtain unlocks without grinding mastery levels**
-  - You will only have access to DLC items if you have purchased said DLC. Piracy is not condoned.
-  -   **Unlocking items as you go, as well as completing in-game challenges is not supported at the moment**, although it is planned to be added in the future.
-  -   If it is your first time playing (on either Peacock or official servers), some exits will be locked. You will need to unlock Dubai exits ([need to unlock the elevators](https://youtu.be/IEQgRQyQRf8)), Dartmoor exits ([need to exit via bike at least once](https://youtu.be/AJtJZe9jEi8?t=151)), and Colorado exits ([need to use tornado exit at least once](https://youtu.be/3XKWHrKpXwk?t=140)). These exits are handled client-side.
-- Play [custom](../custom-content.mdx) or otherwise discontinued/time limited content such as [Ghost Mode](https://thepeacockproject.org/wiki/ghost-mode), legacy escalations, elusive targets.
-  - Display leaderboards for other Peacock users
-- Access Hitman's rating system without being connected to IOI's servers
-  - **Note: Peacock is not a fully offline experience.**
-  - Each time you start the game, you will initially need to be connected to the internet still, to pass Steam or Epic verification.
-  - After you have passed Steam/ Epic verification and have connected to Peacock, you are free to disconnect your internet if you like and you will stay connected to Peacock for the duration of your game session.
+De voordelen van het gebruiken van Peacock bevatten:
+- **Verkrijg alle items zonder de nodigheid van mastery**
+  - Je hebt alleen toegang tot de DLC spullen als je diezelfde DLC gekocht hebt. Plagiaat wordt niet gedoogd.
+  -   **Spullen ontgrendelen door simpelweg het spel te spelen en uitdagingen voltooien is tot nu toe nog niet ondersteund**, al de implementatie wel gepland is voor een toekomstige versie van Peacock.
+  -   Als je het spel voor de eerste keer speelt (op Peacock of op de officiële servers), zullen sommige uitgangen afgesloten zijn. Je moet eerst de uitgangen in Dubai ontgrendelen ([de liften ontgrendelen)](https://youtu.be/IEQgRQyQRf8), de Dartmoor uitgangen ([je moet minimaal een keer met de motor vertrekken](https://youtu.be/AJtJZe9jEi8?t=151)), en de Colorado uitgangen ([je moet minimaal een keer met de tornado uitgang de map verlaten](https://youtu.be/3XKWHrKpXwk?t=140)). Deze uitgangen worden client-side afgehandeld.
+- Speel [bijgewerkte](../custom-content.mdx) of anders stopgezette/tijd beperkte inhoud zoals [Ghost Mode](https://thepeacockproject.org/wiki/ghost-mode), legacy escalations en eslusive targets.
+  - Geeft het leaderboard weer voor andere Peacock gebruikers
+- Heb toegang tot Hitman's beoordeling zonder verbonden te moeten zijn met de IOI servers
+  - **Opmerking: Peacock is niet een volledige offline ervaring.**
+  - Elke keer dat je het spel start, moet je een internetverbinding hebben, om zo de Steam of Epic verificatie te doorstaan.
+  - Nadat je de Steam of Epic verificatie hebt doorstaan en als je met Peacock verbonden bent, kan je gerust jouw internet verbreken als dat wenselijk is, en je zal verbonden blijven met Peacock zolang het spel niet afgesloten wordt.
 
-:::info Trivia: Why name it Peacock?
+:::info Trivia: Waarom heet het Peacock?
 
-Peacock is the name that the game uses in its source code for the mission "The Showstopper", which ushered in a new era of Hitman. Hence, the reason for the name "Peacock".
+Peacock is de naam dat het spel gebruikt in de broncode voor de missie "The Showstopper", wat een nieuw tijdperk van Hitman luidde. Vandaar de naam "Peacock".
 
 :::

@@ -3,14 +3,14 @@ title: Linux Installatiegids
 description: Gids voor het opzetten van Peacock op Linux of macOS.
 ---
 
-Peacock is primarily built to work on Windows, but fear not, using it on Linux is possible!
+Peacock is primair gemaakt om te werken op Windows, maar ben niet bang, het is namelijk mogelijk om het ook op Linux gebruiken!
 
 ## Server
 
-To get the server working on Linux, you will need to first prepare Node.js. In order to do so, run the following command the first time:
+Om de server aan de praat te krijgen op Linux, moet je eerst Node.js voorbereiden. Om dit te doen moet je het volgende commando uitvoeren:
 
 ```shell
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ```
 
-This will download and install [nvm](https://nvm.sh), which allows quickly swapping between multiple Node.js versions. This will allow Peacock to always use the version of Node.js it needs to.
+Dit zal [nvm](https://nvm.sh) downloaden en installeren, wat het mogelijk maakt om snel tussen Node.js versies te wisselen. Dit maakt het mogelijk om Peacock altijd de juiste Node.js versie te geven die nodig is.

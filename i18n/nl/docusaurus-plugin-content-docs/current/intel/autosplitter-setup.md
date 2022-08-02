@@ -1,66 +1,66 @@
 ---
 title: Auto-Splitter Setup
-description: How to set up the Peacock auto-splitter for full-game speedruns.
+description: Hoe je de Peacock auto-splitter in moet stellen voor full-game speedruns.
 ---
 
-_Guide written originally by [Fusha](https://www.speedrun.com/user/Fusha)_
+_Gids origineel geschreven door [Fusha](https://www.speedrun.com/user/Fusha)_
 
-## Specifications
+## Specificaties
 
-(see "How to Use" and "Other Usage Notes" below as well)
+(zie "Hoe te gebruiken" en "Andere gebruiksopmerkingen" ook hieronder)
 
--   100% accurate to how runs are timed for verification purposes, unlike the [Official Servers Autosplitter](https://www.speedrun.com/hitman_3/guide/kbydm).
+-   Het is 100% nauwkeurig om runs te timen voor verificatie-doelen, in tegenstelling tot de [Officiële Servers Autosplitter](https://www.speedrun.com/hitman_3/guide/kbydm).
 
--   Several miscellaneous glitches like the splitter not working correctly from "Outside" Romania starting location are fixed.
+-   Verschillende fouten zoals dat de splitter niet correct werkt vanuit de startlocatie "Outside" Romania zijn gefixt.
 
--   Splits fully automatically, based on which level you start on and which full game category you are playing. Starting and stopping the splitter (by pressing numpad keys etc) is not needed.
+-   Het maakt automatisch splits, gebaseerd op welk level je start en welke spelcategorie je speelt. Het starten en stoppen van de splitter (door op knoppen te drukken) is niet meer nodig.
 
--   Works on both Steam and Epic versions of Hitman 3 unlike the Official Servers Autosplitter (which is Epic only).
+-   Het werkt op beide de Steam en Epic versie van Hitman 3 in tegenstelling tot de Officiële Servers Autosplitter (wat alleen Epic ondersteund).
 
--   Obviously this only works on [Peacock](https://thepeacockproject.org/wiki/intel/), if you are playing on official servers for some reason you should use one of the [other two Livesplit Guides](https://www.speedrun.com/hitman_3/guides).
+-   Dit werkt vanzelfsprekend ook op [Peacock](https://thepeacockproject.org/wiki/intel/), als je toch op de officiële server speelt moet je een van de [andere twee Livesplit Gidsen gebruiken](https://www.speedrun.com/hitman_3/guides).
 
-## Installation
+## Installatie
 
-1. Install [Peacock](https://thepeacockproject.org/wiki/intel/) and [LiveSplit](https://livesplit.org/downloads/) if you don't have either of them installed (just unzip them wherever you want). **If you already have Peacock installed, make sure to you have it updated to the latest version.** After you get these apps installed/updated, close them for now.
+1. Installeer [Peacock](https://thepeacockproject.org/wiki/intel/) en [LiveSplit](https://livesplit.org/downloads/) als je die nog niet hebt geïnstalleerd (unzip ze waar je ook wilt). **Als je al Peacock hebt geïnstalleerd, ben er dan zeker van dat je Peacock naar de laatste versie hebt geupdate.** Nadat je deze applicaties hebt geïnstalleerd/geupdate, kan je ze voor nu sluiten.
 
-2. Download LiveSplit server component from here: https://github.com/LiveSplit/LiveSplit.Server/releases/latest
+2. Download hier de LiveSplit server component: https://github.com/LiveSplit/LiveSplit.Server/releases/latest
 
-3. Unzip and place the two files that you just downloaded in the LiveSplit Server component zip into the Components folder inside the `LiveSplit` installation folder.
+3. Unzip en plaats de twee bestanden die je zojuist hebt gedownload (vanuit de LiveSplit Server component zip folder), en plaats die bestanden in de `LiveSplit` Components folder.
 
 4. Start LiveSplit.
 
-5. Right click on main LiveSplit window, then click on `Edit Splits`. Edit your split names (`Segment Name`) to your liking. Click on `Insert Above / Below` to add new segments. If you like, you can enter your estimated times in `Segment Times`.
+5. Klik met de rechtermuisknop op het hoofd-LiveSplit venster, en klik dan op `Edit Splits`. Bewerk de namen van jouw splits (`Segment Name`) naar jouw preferentie. Klik op `Insert Above / Below` om nieuwe segmenten toe te voegen. Als je wilt, kan je jouw geschatte tijden invullen in `Segment Times`.
 
-6. Click `ok` on the Splits Editor, then right-click the main LiveSplit window and select `Save Splits` for future use.
+6. Klik op `ok` in de Splits Editor, klik dan met de rechtermuisknop op het hoofd-LiveSplit venster en selecteer dan `Save Splits` voor toekomstig gebruik.
 
-7. Right click on main LiveSplit window, then click on `Edit Layout`. Double-click on `Timer`, then select `Game Time` for timing method.
+7. Klik dan met de rechtermuisknop op het hoofd-LiveSplit venster, en klik dan op `Edit Layout`. Dubbelklik dan op `Timer`, en selecteer dan `Game Time` voor de timingmethode.
 
-8. While still on the `Edit Layout` page: Click `+` button, then `Control`, then `Livesplit Server`.
+8. Terwijl je nog op de `Edit Layout` pagina bent: klik op de `+` knop, dan op `Control`, en dan op `LiveSplit Server`.
 
-9. Click `ok` on the Layout Editor, then right-click the main LiveSplit window and select `save layout` for future use.
+9. Klik op `ok` in de Layout Editor, klik dan met de rechtermuisknop op het hoofd-LiveSplit venster en selecteer dan `Save Layout` voor toekomstig gebruik.
 
-## How to Use
+## Hoe te gebruiken
 
-(Do each time you open the game, order is important! Make sure to start LiveSplit and start the server before you start Peacock).
+(Doe dit elke keer als je het spel opstart, de volgorde is belangrijk! Start altijd LiveSplit (en dan Control > Start Server) voordat je Peacock opstart).
 
 1. Open LiveSplit
 
-2. Right-click on the main LiveSplit window, then select `Control`, then `Start Server`.
+2. Klik dan met de rechtermuisknop op het hoofd-LiveSplit venster, selecteer dan `Control`, en dan `Start Server`.
 
-3. If you would like to change what full game category you are running, edit `options.ini` file inside the Peacock folder and change the `autoSplitterCampaign` option to either `trilogy`, `1`, `2`, or `3` depending on which campaign you want to run (The autosplitter is set to `trilogy` by default). The autosplitter will only work so long as you play the selected campaign, in order.
+3. Als je wilt veranderen welk spelcategorie je speelt, bewerk dan het `options.ini` bestand in de Peacock folder en verander dan de `autoSplitterCampaign` optie naar `trilogy`, `1`, `2` of `3` afhankelijk van welke campaign je wilt runnen (Dit is autmatisch op `trilogy` ingesteld). De autosplitter zal alleen werken zolang je de geselecteerde campaign speelt, in volgorde.
 
-4. Open the folder where you have installed Peacock, and run `Start Server.cmd` and `PeacockPatcher.exe`.
+4. Open de folder waar je Peacock hebt geïnstalleerd, en start dan het `Start Server.cmd` bestand en het `PeacockPatcher.exe` bestand.
 
-5. Start game as normal.
+5. Start het spel zoals je normaal doet.
 
-## Other Usage Notes
+## Andere gebruiksopmerkingen
 
--   The splitter will always fully reset and start a new run as soon as you start the first mission in the selected campaign, no matter what other state it is in. You do not need to start or reset the run in LiveSplit manually (by pressing numpad keys etc).
+-   De splitter zal altijd volledig herstarten als je het eerste level van de geselecteerde campaign speelt, ongeacht in welke andere staat de splitter zich bevindt. Je hoeft niet handmatig de timer te starten of te herstarten (door op knoppen te drukken).
 
--   If you start a mission that is not the first mission, the one you just played, or the next mission after completing the mission you just played, it will stop the timer and stop tracking times until you reset back to the first mission in the campaign.
+-   Als je een level start dat niet het eerste level is, het level dat je net hebt gespeelt of het volgende level nadat je een level hebt beëindigd, zal de timer stoppen en geen tijd meer tellen zolang je niet herstart op het eerste level van de campaign.
 
--   The splitter will automatically split (record time and move to next mission) as soon as you successfully complete a mission. However, if you replay the same mission multiple times (other than the first one in the selected campaign), it will automatically add reset times together for you, even if you "complete" the mission and it splits (for example if you failed to get SA at the last second, just replay the mission and it will auto-unsplit and add the reset time).
+-   De splitter zal automatisch splitten (recordtijd en naar het volgende level gaan) zo snel mogelijk als je een level beëindigd. Als je echter hetzelfde level meerdere keren achter elkaar speelt (een level anders dan de eerste in de campaign), zal het automatisch tijd voor je toevoegen, zelfs als je het level beëindigd en als het dan dus split (bijvoorbeeld als je op de laatste seconde net niet SA hebt gehaalt en als je dan het level opnieuw speelt, voegt het de tijd toe).
 
--   After you complete or fail a mission, it will print detailed timing info about the attempt you just made into the Peacock server window, with timing information down to tenths/hundredths of seconds for the attempt you just made as well as detailing the total amount of time with resets on the current mission.
+-   Nadat een level mislukt of beëindigd is, zal Peacock een gedetailleerde tijd (in de Start Server.cmd) weergeven, met een nauwkeurigheid op tienden/honderdsten seconden voor de poging die je gemaakt hebt en het zal ook de tijd van resets (van het huidige level) erbij optellen.
 
--   As of v4.5.0, Peacock Autosplitter now defaults into a mode which will not log a successful mission completion (splitting and allow moving to next map) unless you complete the current mission with Silent Assassin rating. If you want to use the auto splitter for any% runs, change the `autoSplitterForceSilentAssassin` option in `options.ini` to be `false`.
+-   Vanaf v4.5.0 zal de Peacock Autosplitter niet meer een poging weergeven (de tijd van de split en de tijd van het volgende level) zolang je het level niet hebt beëindigd met de rating van Silent Assassin. Als je de autosplitter wilt gebruiken voor any% runs, zal je de `autoSplitterForceSilentAssassin` optie in het `options.ini` bestand naar `false` moeten zetten.
