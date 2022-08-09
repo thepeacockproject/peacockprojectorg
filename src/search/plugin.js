@@ -66,10 +66,7 @@ module.exports = (context, options) => {
                 searchDocuments.push(d)
             }
 
-            await buildSearchData(
-                files,
-                addToSearchData
-            )
+            await buildSearchData(files, addToSearchData)
             const lunrIndex = lunrBuilder.build()
 
             const searchDocFileContents = JSON.stringify(searchDocuments)

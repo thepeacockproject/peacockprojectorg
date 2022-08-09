@@ -13,13 +13,13 @@ title: Frequently Asked Questions / Troubleshooting
 
     -   If you have trouble finding the `userdata` folder, [check this example image](https://media.discordapp.net/attachments/833505136290299935/991071183732613200/unknown.png).
 
--   In Game Saving is supported, but note that you can only use official server saves on the official servers version of the game, and Peacock saves on the Peacock version of the game.
+-   In Game Saving is supported, and as of Peacock v5.0.1 you can load official server saves in Peacock.
 
 -   Using Peacock will affect your official servers profile in very small ways.
     -   Due to the fact that we have not properly implemented some minor features like content/story spoiler warnings, it will change them all to the 'I have already played' state. Other than that, it shouldn't have any affect.
 -   Note: If it is your first time playing (on either Peacock or official servers), some exits will be locked. You will need to unlock Dubai exits ([need to unlock the elevators](https://youtu.be/IEQgRQyQRf8)), Dartmoor exits ([need to exit via bike at least once](https://youtu.be/AJtJZe9jEi8?t=151)), and Colorado exits ([need to use tornado exit at least once](https://youtu.be/3XKWHrKpXwk?t=140)). These exits are handled client-side.
 
-**Troubleshooting FAQ**
+### Troubleshooting FAQ
 
 -   Check the "What do I need to run Peacock" section of this guide, make sure you have a supported game version and platform, etc.
 -   Check "General Peacock Use Tips" section of this guide for instructions on how to disconnect and reconnect to the server. Sometimes it can take a few tries to connect.
@@ -42,13 +42,6 @@ title: Frequently Asked Questions / Troubleshooting
         -   Refer to [this example image](https://media.discordapp.net/attachments/839264571990343681/985885230634242048/unknown.png) for what to write in the `Start Server.cmd`.
         -   Refer to [this example image](https://media.discordapp.net/attachments/839264571990343681/992523717869568050/unknown.png) for what to type into the Peacock Patcher.
 
-**Feature Request FAQ**
-
--   To be very clear: Completing challenges and normal progression are currently not supported, although planned for the future. Peacock will give you all unlocks right away (that you are eligible for based on DLC you have purchased).
--   Before asking any questions about Ghost Mode, escalations, user contracts, elusive targets, please check the [Custom Content Page](https://thepeacockproject.org/wiki/custom-content) as well as the [Ghost Mode Page](https://thepeacockproject.org/wiki/ghost-mode/).
--   Peacock is not responsible for any compatibility issues between any third party game modifications and Peacock.
-    -   You can consider asking mod creators to add a plugin functionality to their mod to make it work with Peacock, as was done with Sarajevo Six mod, for instance.
-
 -   Question not answered in FAQ above? Ask in the Peacock Discord `#help` channel (https://thepeacockproject.org/discord)
     -   Be prepared to provide:
         -   Screenshots of Peacock Server running in the terminal
@@ -56,3 +49,12 @@ title: Frequently Asked Questions / Troubleshooting
         -   Information on your operating system and game version
         -   Information on what is running on Port 80 (check FAQ above)
         -   Any further pertinent information
+
+### Feature Request FAQ
+
+-   To be very clear: Progression (unlocking items as you go) is currently not supported, although planned for the future. Peacock will give you all unlocks right away (that you are eligible for based on DLC you have purchased).
+-   In-game challenges are actively being implemented as of Peacock v5.0.1.
+-   Before asking any questions about Ghost Mode, escalations, user contracts, elusive targets, please check the [Custom Content Page](https://thepeacockproject.org/wiki/custom-content) as well as the [Ghost Mode Page](https://thepeacockproject.org/wiki/ghost-mode/).
+-   Peacock is not responsible for any compatibility issues between any third party game modifications and Peacock.
+    -   You can consider asking mod creators to add a plugin functionality to their mod to make it work with Peacock, as was done with Sarajevo Six mod, for instance.
+    -   As of Peacock v.5.0.1, mod compatibility is greatly increased as Repo mods (typically mods that alter inventory item properties) are now supported.
