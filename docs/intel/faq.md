@@ -1,29 +1,26 @@
 ---
-title: Frequently Asked Questions / Troubleshooting
+title: Frequently Asked Questions
 ---
 
-## General Peacock Use Tips
+## Troubleshooting FAQ
+
+### Wrong Game Version / Platform
+
+-   Check the [Requirements](../intel/requirements) section of this guide, make sure you have a supported game version and platform, etc.
+    -   **Xbox Game Pass / Microsoft PC version of Hitman 3 is not supported (commonly asked)**.
+-   Make sure you have the latest versions of Hitman and Peacock, older versions may not be supported.
+
+### Try to Reconnect
 
 -   It may take a few tries to connect to Peacock. If you can't connect, try going back to the Peacock Patcher application and clicking on "Re-patch" until the Peacock Patcher shows "Successfully patched ID".
 -   If your game is already connected to the official servers, you may need to disconnect the game from official servers first to connect to Peacock. To disconnect from official servers, go to "Options" from the Hitman 3 main menu, then "Privacy Policy", then "Opt out". Then when you reconnect you should be on Peacock.
+-   To return to Official servers, you can go offline while connected to Peacock, then toggle the Peacock Patcher application to patch you to Official Servers, then go "online" again to connect to official servers.
+-   **If you still have trouble connecting, then continue to the next section below.**
 
--   Similarly, you can go offline while connected to Peacock, then toggle the Peacock Patcher application to patch you to Official Servers, then go "online" again to connect to official servers.
+### Connection Troubleshooting
 
--   To use 7 deadly sins items, make sure you have actually purchased the 7 deadly sins DLC. Then delete the `userdata` folder, and restart the game.
-
-    -   If you have trouble finding the `userdata` folder, [check this example image](https://media.discordapp.net/attachments/833505136290299935/991071183732613200/unknown.png).
-
--   In Game Saving is supported, but note that you can only use official server saves on the official servers version of the game, and Peacock saves on the Peacock version of the game.
-
--   Using Peacock will affect your official servers profile in very small ways.
-    -   Due to the fact that we have not properly implemented some minor features like content/story spoiler warnings, it will change them all to the 'I have already played' state. Other than that, it shouldn't have any affect.
--   Note: If it is your first time playing (on either Peacock or official servers), some exits will be locked. You will need to unlock Dubai exits ([need to unlock the elevators](https://youtu.be/IEQgRQyQRf8)), Dartmoor exits ([need to exit via bike at least once](https://youtu.be/AJtJZe9jEi8?t=151)), and Colorado exits ([need to use tornado exit at least once](https://youtu.be/3XKWHrKpXwk?t=140)). These exits are handled client-side.
-
-**Troubleshooting FAQ**
-
--   Check the "What do I need to run Peacock" section of this guide, make sure you have a supported game version and platform, etc.
--   Check "General Peacock Use Tips" section of this guide for instructions on how to disconnect and reconnect to the server. Sometimes it can take a few tries to connect.
--   Make sure you have the latest versions of Hitman 3 and Peacock, older versions may not be supported.
+-   As explained in the [What is Peacock](../intel/what-is-peacock) page, **you need to be connected to the Internet, at least initially, to use Peacock**. This is to get past Steam / Epic verification. After connecting to Peacock the first time, you may disconnect from the Internet and stay connected to Peacock for the duration of your game session.
+    -   If you have a phone with cellular data plan, you can use the phone as hotspot for your computer to connect to Internet.
 -   Try running the `Start Server.cmd` as admin.
 -   Keep the option "Use http instead of https" in Peacock patcher ticked unless you are playing Ghost Mode.
 
@@ -42,17 +39,36 @@ title: Frequently Asked Questions / Troubleshooting
         -   Refer to [this example image](https://media.discordapp.net/attachments/839264571990343681/985885230634242048/unknown.png) for what to write in the `Start Server.cmd`.
         -   Refer to [this example image](https://media.discordapp.net/attachments/839264571990343681/992523717869568050/unknown.png) for what to type into the Peacock Patcher.
 
-**Feature Request FAQ**
+### Missing Items / Maps
 
--   To be very clear: Completing challenges and normal progression are currently not supported, although planned for the future. Peacock will give you all unlocks right away (that you are eligible for based on DLC you have purchased).
--   Before asking any questions about Ghost Mode, escalations, user contracts, elusive targets, please check the [Custom Content Page](https://thepeacockproject.org/wiki/custom-content) as well as the [Ghost Mode Page](https://thepeacockproject.org/wiki/ghost-mode/).
--   Peacock is not responsible for any compatibility issues between any third party game modifications and Peacock.
-    -   You can consider asking mod creators to add a plugin functionality to their mod to make it work with Peacock, as was done with Sarajevo Six mod, for instance.
+-   If you have recently purchased a DLC and you aren't seeing it in Peacock, make sure you have actually purchased said DLC. Then delete the `userdata` folder, and restart the game.
+
+    -   If you have trouble finding the `userdata` folder, [check this example image](https://media.discordapp.net/attachments/833505136290299935/991071183732613200/unknown.png).
+
+### Other
+
+-   In Game Saving is supported, and as of Peacock v5.0.1 you can load official server saves in Peacock.
+-   Challenges (currently implemented in Paris) are still in development and may be buggy. Report issues in the `#help` channel in Peacock discord.
+-   Using Peacock will affect your official servers profile in very small ways.
+    -   Due to the fact that we have not properly implemented some minor features like content/story spoiler warnings, it will change them all to the 'I have already played' state. Other than that, it shouldn't have any affect.
+-   Note: If it is your first time playing (on either Peacock or official servers), some exits will be locked. You will need to unlock Dubai exits ([need to unlock the elevators](https://youtu.be/IEQgRQyQRf8)), Dartmoor exits ([need to exit via bike at least once](https://youtu.be/AJtJZe9jEi8?t=151)), and Colorado exits ([need to use tornado exit at least once](https://youtu.be/3XKWHrKpXwk?t=140)). These exits are handled client-side.
+-   Check [Peacock Unique Features](../intel/loadout-profiles-elp) page for info on how to set multiple loadouts per map or choose specific escalation levels with Peacock.
+
+### Request Tech Support
 
 -   Question not answered in FAQ above? Ask in the Peacock Discord `#help` channel (https://thepeacockproject.org/discord)
     -   Be prepared to provide:
         -   Screenshots of Peacock Server running in the terminal
         -   Screenshots of Peacock Patcher running
         -   Information on your operating system and game version
-        -   Information on what is running on Port 80 (check FAQ above)
+        -   Information on what is running on Port 80 (check [Connection Troubleshooting](../intel/faq#connection-troubleshooting) above)
         -   Any further pertinent information
+
+## Feature Request FAQ
+
+-   To be very clear: Progression (unlocking items as you go) is currently not supported, although planned for the future. Peacock will give you all unlocks right away (that you are eligible for based on DLC you have purchased).
+-   In-game challenges are actively being implemented as of Peacock v5.0.1.
+-   Before asking any questions about Ghost Mode, escalations, user contracts, elusive targets, please check the [Custom Content Page](../custom-content) as well as the [Ghost Mode Page](../ghost-mode/).
+-   Peacock is not responsible for any compatibility issues between any third party game modifications and Peacock.
+    -   You can consider asking mod creators to add a plugin functionality to their mod to make it work with Peacock, as was done with Sarajevo Six mod, for instance.
+    -   As of Peacock v.5.0.1, mod compatibility is greatly increased as Repo mods (typically mods that alter inventory item properties) are now supported.

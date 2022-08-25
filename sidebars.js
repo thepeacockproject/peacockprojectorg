@@ -14,9 +14,16 @@ module.exports = {
             label: "User Guide",
             link: {
                 type: "generated-index",
-                slug: "intel"
+                slug: "intel",
             },
-            items: ["intel/requirements", "intel/installation", "intel/updating", "intel/autosplitter-setup", "intel/loadout-profiles-elp", "intel/faq"],
+            items: [
+                "intel/requirements",
+                "intel/installation",
+                "intel/updating",
+                "intel/autosplitter-setup",
+                "intel/loadout-profiles-elp",
+                "intel/faq",
+            ],
         },
         {
             type: "doc",
