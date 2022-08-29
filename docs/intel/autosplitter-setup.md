@@ -11,7 +11,7 @@ This tool is meant for use in full game Hitman speedruns.
 
 (see "How to Use" and "Other Usage Notes" below as well)
 
--   100% accurate to how runs are timed for verification purposes, unlike the [Official Servers Autosplitter](https://www.speedrun.com/hitman_3/guide/kbydm).
+-   100% accurate to how runs are timed for verification purposes, unlike the [Official Servers Autosplitter](https://hitruns-wiki.vercel.app/docs/livesplit_auto_official).
 
 -   Several miscellaneous glitches like the splitter not working correctly from "Outside" Romania starting location are fixed.
 
@@ -19,15 +19,15 @@ This tool is meant for use in full game Hitman speedruns.
 
 -   Works on both Steam and Epic versions of Hitman 3 unlike the Official Servers Autosplitter (which is Epic only).
 
--   Obviously this only works on [Peacock](https://thepeacockproject.org/wiki/intel/), if you are playing on official servers for some reason you should use one of the [other two Livesplit Guides](https://www.speedrun.com/hitman_3/guides).
+-   Obviously this only works on [Peacock](https://thepeacockproject.org/wiki/intel/), if you are playing on official servers for some reason you should use one of the [other two Livesplit Guides](https://hitruns-wiki.vercel.app/docs/livesplit).
 
 ## Installation
 
 1. Install [Peacock](https://thepeacockproject.org/wiki/intel/) and [LiveSplit](https://livesplit.org/downloads/) if you don't have either of them installed (just unzip them wherever you want). **If you already have Peacock installed, make sure to you have it updated to the latest version.** After you get these apps installed/updated, close them for now.
 
-2. Download LiveSplit server component from here: https://github.com/LiveSplit/LiveSplit.Server/releases/latest
+2. Download `Livesplit.Server.zip` from here: https://github.com/LiveSplit/LiveSplit.Server/releases/latest
 
-3. Unzip and place the two files that you just downloaded in the LiveSplit Server component zip into the Components folder inside the `LiveSplit` installation folder.
+3. Unzip `Livesplit.Server.zip`. Move the `Livesplit.Server.dll` and `Noes.Javascript.dll` files found within the unzipped folder to `Livesplit/Components` folder (refer to step 1 if you forgot where you installed the main Livesplit application). Here is an [example image](https://media.discordapp.net/attachments/839264571990343681/1013559084814958694/unknown.png) of how your `Livesplit/Components`folder should look afterwards.
 
 4. Start LiveSplit.
 
