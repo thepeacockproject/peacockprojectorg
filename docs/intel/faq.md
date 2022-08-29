@@ -6,7 +6,7 @@ title: Frequently Asked Questions
 
 ### Wrong Game Version / Platform
 
--   Check the [Requirements](requirements) section of this guide, make sure you have a supported game version and platform, etc.
+-   Check the [Requirements](https://thepeacockproject.org/wiki/intel/requirements) section of this guide, make sure you have a supported game version and platform, etc.
     -   **Xbox Game Pass / Microsoft PC version of Hitman 3 is not supported (commonly asked)**.
 -   Make sure you have the latest versions of Hitman and Peacock, older versions may not be supported.
 
@@ -19,7 +19,7 @@ title: Frequently Asked Questions
 
 ### Connection Troubleshooting
 
--   As explained in the [What is Peacock](what-is-peacock) page, **you need to be connected to the Internet, at least initially, to use Peacock**. This is to get past Steam / Epic verification. After connecting to Peacock the first time, you may disconnect from the Internet and stay connected to Peacock for the duration of your game session.
+-   As explained in the [What is Peacock](https://thepeacockproject.org/wiki/intel/what-is-peacock) page, **you need to be connected to the Internet, at least initially, to use Peacock**. This is to get past Steam / Epic verification. After connecting to Peacock the first time, you may disconnect from the Internet and stay connected to Peacock for the duration of your game session.
     -   If you have a phone with cellular data plan, you can use the phone as hotspot for your computer to connect to Internet.
 -   Don't try to use Peacock if it's literally your first time playing the game. You need to connect to the official servers at least once before you can connect to Peacock. After you've connected to official servers at least once you no longer have to do so in the future in order to use Peacock.
 -   Try running the `Start Server.cmd` as admin.
@@ -62,14 +62,14 @@ title: Frequently Asked Questions
         -   Screenshots of Peacock Server running in the terminal
         -   Screenshots of Peacock Patcher running
         -   Information on your operating system and game version
-        -   Information on what is running on Port 80 (check [Connection Troubleshooting](faq/#connection-troubleshooting) above)
+        -   Information on what is running on Port 80 (check [Connection Troubleshooting](https://thepeacockproject.org/wiki/intel/faq/#connection-troubleshooting) above)
         -   Any further pertinent information
 
 ## Feature Request FAQ
 
 -   To be very clear: Progression (unlocking items as you go) is currently not supported, although planned for the future. Peacock will give you all unlocks right away (that you are eligible for based on DLC you have purchased).
 -   In-game challenges are actively being implemented as of Peacock v5.0.1.
--   Before asking any questions about Ghost Mode, escalations, user contracts, elusive targets, please check the [Custom Content Page](/wiki/custom-content) as well as the [Ghost Mode Page](/wiki/ghost-mode).
+-   Before asking any questions about Ghost Mode, escalations, user contracts, elusive targets, please check the [Custom Content Page](https://thepeacockproject.org/wiki/custom-content) as well as the [Ghost Mode Page](https://thepeacockproject.org/wiki/ghost-mode).
 -   Peacock is not responsible for any compatibility issues between any third party game modifications and Peacock.
     -   You can consider asking mod creators to add a plugin functionality to their mod to make it work with Peacock, as was done with Sarajevo Six mod, for instance.
     -   As of Peacock v.5.0.1, mod compatibility is greatly increased as Repo mods (typically mods that alter inventory item properties) are now supported.
