@@ -5,7 +5,7 @@ description: How to get started with Peacock.
 
 Here's how to get up and running with Peacock.
 
-1. Join the Peacock Discord server (https://thepeacockproject.org/discord). You must have a 7 day or older Discord account to join.
+1. Join the Peacock Discord server (https://thepeacockproject.org/discord).
 
 2. Go to the `#downloads` channel in the above Discord server and download the latest Peacock build.
 

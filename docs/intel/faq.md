@@ -42,7 +42,7 @@ title: Frequently Asked Questions
 
 ### Missing Items / Maps
 
--   If you have recently purchased a DLC and you aren't seeing it in Peacock, make sure you have actually purchased said DLC. Then delete the `userdata` folder, and restart the game.
+-   If you have recently purchased a DLC and you aren't seeing it in Peacock, make sure you have actually purchased said DLC. Then delete the `userdata` folder, and restart the server.
 
     -   If you have trouble finding the `userdata` folder, [check this example image](https://media.discordapp.net/attachments/833505136290299935/991071183732613200/unknown.png).
 
