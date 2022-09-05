@@ -1465,7 +1465,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/core@npm:2.1.0, @docusaurus/core@npm:^2.1.0":
+"@docusaurus/core@npm:2.1.0, @docusaurus/core@npm:^2.0.1":
   version: 2.1.0
   resolution: "@docusaurus/core@npm:2.1.0"
   dependencies:
@@ -1612,7 +1612,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/module-type-aliases@npm:2.1.0, @docusaurus/module-type-aliases@npm:^2.1.0":
+"@docusaurus/module-type-aliases@npm:2.1.0, @docusaurus/module-type-aliases@npm:^2.0.1":
   version: 2.1.0
   resolution: "@docusaurus/module-type-aliases@npm:2.1.0"
   dependencies:
@@ -1658,7 +1658,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/plugin-content-docs@npm:2.1.0, @docusaurus/plugin-content-docs@npm:^2.1.0":
+"@docusaurus/plugin-content-docs@npm:2.1.0, @docusaurus/plugin-content-docs@npm:^2.0.1":
   version: 2.1.0
   resolution: "@docusaurus/plugin-content-docs@npm:2.1.0"
   dependencies:
@@ -1685,7 +1685,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/plugin-content-pages@npm:2.1.0, @docusaurus/plugin-content-pages@npm:^2.1.0":
+"@docusaurus/plugin-content-pages@npm:2.1.0, @docusaurus/plugin-content-pages@npm:^2.0.1":
   version: 2.1.0
   resolution: "@docusaurus/plugin-content-pages@npm:2.1.0"
   dependencies:
@@ -1704,7 +1704,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/plugin-ideal-image@npm:^2.1.0":
+"@docusaurus/plugin-ideal-image@npm:^2.0.1":
   version: 2.1.0
   resolution: "@docusaurus/plugin-ideal-image@npm:2.1.0"
   dependencies:
@@ -1730,7 +1730,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/plugin-sitemap@npm:^2.1.0":
+"@docusaurus/plugin-sitemap@npm:^2.0.1":
   version: 2.1.0
   resolution: "@docusaurus/plugin-sitemap@npm:2.1.0"
   dependencies:
@@ -1779,7 +1779,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/theme-classic@npm:^2.1.0":
+"@docusaurus/theme-classic@npm:^2.0.1":
   version: 2.1.0
   resolution: "@docusaurus/theme-classic@npm:2.1.0"
   dependencies:
@@ -1850,7 +1850,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/types@npm:2.1.0, @docusaurus/types@npm:^2.1.0":
+"@docusaurus/types@npm:2.1.0, @docusaurus/types@npm:^2.0.1":
   version: 2.1.0
   resolution: "@docusaurus/types@npm:2.1.0"
   dependencies:
@@ -7687,14 +7687,14 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "peacock@workspace:."
   dependencies:
-    "@docusaurus/core": "npm:^2.1.0"
-    "@docusaurus/module-type-aliases": "npm:^2.1.0"
-    "@docusaurus/plugin-content-docs": "npm:^2.1.0"
-    "@docusaurus/plugin-content-pages": "npm:^2.1.0"
-    "@docusaurus/plugin-ideal-image": "npm:^2.1.0"
-    "@docusaurus/plugin-sitemap": "npm:^2.1.0"
-    "@docusaurus/theme-classic": "npm:^2.1.0"
-    "@docusaurus/types": "npm:^2.1.0"
+    "@docusaurus/core": "npm:^2.0.1"
+    "@docusaurus/module-type-aliases": "npm:^2.0.1"
+    "@docusaurus/plugin-content-docs": "npm:^2.0.1"
+    "@docusaurus/plugin-content-pages": "npm:^2.0.1"
+    "@docusaurus/plugin-ideal-image": "npm:^2.0.1"
+    "@docusaurus/plugin-sitemap": "npm:^2.0.1"
+    "@docusaurus/theme-classic": "npm:^2.0.1"
+    "@docusaurus/types": "npm:^2.0.1"
     "@mdx-js/react": "npm:^1.6.21"
     "@svgr/webpack": "npm:^6.2.1"
     "@types/node": "npm:^18.7.13"
