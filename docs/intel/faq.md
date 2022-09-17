@@ -70,6 +70,8 @@ title: Frequently Asked Questions
 -   To be very clear: Progression (unlocking items as you go) is currently not supported, although planned for the future. Peacock will give you all unlocks right away (that you are eligible for based on DLC you have purchased).
 -   In-game challenges are actively being implemented as of Peacock v5.0.1.
 -   Before asking any questions about Ghost Mode, escalations, user contracts, elusive targets, please check the [Custom Content Page](https://thepeacockproject.org/wiki/custom-content) as well as the [Ghost Mode Page](https://thepeacockproject.org/wiki/ghost-mode).
--   Peacock is not responsible for any compatibility issues between any third party game modifications and Peacock.
-    -   You can consider asking mod creators to add a plugin functionality to their mod to make it work with Peacock, as was done with Sarajevo Six mod, for instance.
-    -   As of Peacock v.5.0.1, mod compatibility is greatly increased as Repo mods (typically mods that alter inventory item properties) are now supported.
+-   Mod Compatability:
+    -   Most mods are compatible with Peacock; there are only three kinds that aren't.
+        -   If a mod edits contracts (missions, special assignments, etc.), it'll need a Peacock plugin to be compatible.
+        -   If a mod edits the planning inventory (that is, changes the properties of starting locations, changes which items you can bring into missions, or edits the suits available to you), it will also need a plugin.
+        -   Menu changes may also sometimes be incompatible, but should otherwise be fine. Other than those, mods should be compatible with Peacock without any effort on the part of the mod creator.
