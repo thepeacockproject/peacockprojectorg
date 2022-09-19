@@ -19,6 +19,7 @@ module.exports = {
             items: [
                 "intel/requirements",
                 "intel/installation",
+				"guides/linux-setup",
                 "intel/updating",
                 "intel/autosplitter-setup",
                 "intel/loadout-profiles-elp",

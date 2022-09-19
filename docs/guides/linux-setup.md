@@ -43,11 +43,10 @@ node --enable-source-maps --harmony chunk0.js --hmr
 -   Note: If you are using a port other than port 80, you should specify the port in your launcher script.
     Substitute `PORTNUMBER` in the script below with your port number of choice.
 
--   ```shell
-    PORT=PORTNUMBER node --enable-source-maps --harmony chunk0.js --hmr
-    ```
+	-   ```shell
+    PORT=PORTNUMBER node --enable-source-maps --harmony chunk0.js --hmr```
 
-````
+
 
 And then make the script executable:
 
