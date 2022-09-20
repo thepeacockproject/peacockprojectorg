@@ -10,9 +10,7 @@
         "clear": "docusaurus clear",
         "serve": "docusaurus serve",
         "write-translations": "docusaurus write-translations",
-        "write-heading-ids": "docusaurus write-heading-ids",
-        "prettier": "prettier --write \"**/*.{js,md,html,json,css}\"",
-        "crowdin": "npx @crowdin/cli"
+        "prettier": "prettier --write \"**/*.{js,md,html,json,css}\""
     },
     "resolutions": {
         "react": "^17.0.2"
@@ -31,13 +29,11 @@
         "autocomplete.js": "^0.38.1",
         "classnames": "^2.3.1",
         "clsx": "^1.2.1",
-        "file-loader": "^6.2.0",
         "hogan.js": "^3.0.2",
         "lunr": "^2.3.9",
         "prettier": "^2.7.1",
         "react": "^17.0.2",
         "react-dom": "^17.0.0",
-        "url-loader": "^4.1.1",
         "webpack": "^5.74.0"
     },
     "browserslist": {
@@ -57,19 +53,17 @@
         "semi": false
     },
     "devDependencies": {
-        "@types/node": "^18.7.13",
-        "@types/react": "^18.0.14",
+        "@types/node": "^18.7.18",
+        "@types/react": "^18.0.20",
         "@types/react-dom": "^18.0.5",
         "hast-util-select": "^4.0.0",
         "hast-util-to-text": "^2.0.0",
         "lunr-languages": "^1.9.0",
         "minimatch": "^3.0.4",
-        "object-assign": "^4.1.1",
         "rehype-parse": "^7.0.1",
         "to-vfile": "^6.1.0",
-        "typescript": "^4.8.1-rc",
         "unified": "^9.0.0",
         "unist-util-is": "^4.0.2"
     },
-    "packageManager": "yarn@4.0.0-rc.15"
+    "packageManager": "yarn@4.0.0-rc.20"
 }
