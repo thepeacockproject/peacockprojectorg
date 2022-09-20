@@ -8,6 +8,7 @@ title: Frequently Asked Questions
 
 -   Check the [Requirements](https://thepeacockproject.org/wiki/intel/requirements) section of this guide, make sure you have a supported game version and platform, etc.
     -   **Xbox Game Pass / Microsoft PC version of Hitman 3 is not supported (commonly asked)**.
+    -   Check [Linux Setup Guide](https://thepeacockproject.org/wiki/guides/linux-setup) if on Linux.
 -   Make sure you have the latest versions of Hitman and Peacock, older versions may not be supported.
 
 ### Try to Reconnect
@@ -62,7 +63,7 @@ title: Frequently Asked Questions
         -   Screenshots of Peacock Server running in the terminal
         -   Screenshots of Peacock Patcher running
         -   Information on your operating system and game version
-        -   Information on what is running on Port 80 (check [Connection Troubleshooting](https://thepeacockproject.org/wiki/intel/faq/#connection-troubleshooting) above)
+        -   Information on what is running on Port 80 (check [Connection Troubleshooting](faq/#connection-troubleshooting) above)
         -   Any further pertinent information
 
 ## Feature Request FAQ
