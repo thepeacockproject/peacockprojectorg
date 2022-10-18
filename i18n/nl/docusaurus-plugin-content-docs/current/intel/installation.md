@@ -5,7 +5,7 @@ description: Hoe te beginnen met Peacock.
 
 Hier lees je hoe je aan de slag kunt met Peacock.
 
-1. Word lid van de Peacock Discord-server (https://thepeacockproject.org/discord). Je moet een account hebben dat 7 dagen of ouder is om lid te worden.
+1. Word lid van de Peacock Discord-server (https://thepeacockproject.org/discord).
 
 2. Ga naar het `#downloads` kanaal in de Peacock Discord server en download de laaste Peacock versie.
 
@@ -17,4 +17,4 @@ Hier lees je hoe je aan de slag kunt met Peacock.
 
     - Opmerking: Als je Hitman 3 speelt, moet je stappen 2-3 elke keer herhalen als Hitman 3 een nieuwe update krijgt (meer info hieronder, in de sectie "Wanneer/Hoe Peacock updaten"). En voor elke van de drie understeunde Hitman spellen zal je stap 4 elke keer moeten herhalen als je het spel opstart. Het spel zal anders terug gaan naar de officiële servers.
 
-5. Open nu het spel net zoals je normaal doet.
+5. Now start the game. Check the [FAQ](https://thepeacockproject.org/wiki/intel/faq) or ask in the `#help` channel on [Peacock Discord](https://thepeacockproject.org/discord) if you have trouble getting it to work.

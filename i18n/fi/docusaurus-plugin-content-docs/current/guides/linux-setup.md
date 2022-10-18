@@ -1,23 +1,23 @@
 ---
-title: Linux Installatiegids
-description: Gids voor het opzetten van Peacock op Linux of macOS.
+title: Linux Setup Guide
+description: Guide for setting up Peacock on Linux or macOS.
 ---
 
-Peacock is primair gemaakt om te werken op Windows, maar ben niet bang, het is namelijk mogelijk om het ook op Linux gebruiken!
+Peacock is primarily built to work on Windows, but fear not, using it on Linux is possible!
 
 ## Server
 
-Om de server aan de praat te krijgen op Linux, moet je eerst Node.js voorbereiden.
+To get the server working on Linux, you will need to first prepare Node.js.
 
 ### Install nvm
 
-Om dit te doen moet je het volgende commando uitvoeren:
+In order to do so, run the following command the first time:
 
 ```shell
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ```
 
-Dit zal [nvm](https://nvm.sh) downloaden en installeren, wat het mogelijk maakt om snel tussen Node.js versies te wisselen. Dit maakt het mogelijk om Peacock altijd de juiste Node.js versie te geven die nodig is.
+This will download and install [nvm](https://nvm.sh), which allows quickly swapping between multiple Node.js versions. This will allow Peacock to always use the version of Node.js it needs to.
 
 ### Install Node.js
 
@@ -42,6 +42,9 @@ node --enable-source-maps --harmony chunk0.js --hmr
     -   ```shell PORT=PORTNUMBER node --enable-source-maps --harmony chunk0.js --hmr
         ```
 
+And then make the script executable:
+
+```shell
 chmod +x ./theScriptsName.sh
 ```
 
@@ -49,7 +52,7 @@ You can now launch the server by running the script you just created.
 
 ## Patcher
 
-This part is a lot more tricky. You need to run the patcher in *the same Wine prefix as the game*.
+This part is a lot more tricky. You need to run the patcher in _the same Wine prefix as the game_.
 
 Some users have gotten it to work, but others haven't. Feel free to document your experience in the Discord's `#help` channel for anybody that has problems in the future to reference.
 

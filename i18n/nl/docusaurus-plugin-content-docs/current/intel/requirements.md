@@ -23,15 +23,15 @@ description: Vereisten voor het uitvoeren en het gebruiken van Peacock.
 
 De server is het deel dat verantwoordelijk is voor het hanteren van de opdrachten van het spel. Het is mobiel, en het hoeft geeneens op dezelfde machine te draaien als het spel.
 
-- Een platform ondersteund door Node.js, dus Windows 8.1 of hoger, of een recente Linux/macOS/FreeBSD installatie.
-- Wij hebben alternatieven beschikbaar als je niet in staat bent om deze vereisten te halen, vraag dit in de Discord.
-- Controleer de Linux NodeJS installatiegids: https://thepeacockproject.org/wiki/guides/linux-setup/
+-   Een platform ondersteund door Node.js, dus Windows 8.1 of hoger, of een recente Linux/macOS/FreeBSD installatie.
+-   Wij hebben alternatieven beschikbaar als je niet in staat bent om deze vereisten te halen, vraag dit in de Discord.
+-   Controleer de Linux NodeJS installatiegids: https://thepeacockproject.org/wiki/guides/linux-setup/
 
 ### Patcher
 
 De patcher vertelt het spel om ook echt te verbinden met Peacock, en moet op dezelfde machine uitgevoerd worden waarvan het spel ook op draait.
 
-- Windows 7 of hoger
+-   Windows 7 of hoger
 
 ### Samenvatting
 

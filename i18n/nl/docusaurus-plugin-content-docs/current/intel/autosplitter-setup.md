@@ -3,7 +3,9 @@ title: Auto-Splitter Setup
 description: Hoe je de Peacock auto-splitter in moet stellen voor full-game speedruns.
 ---
 
-_Gids origineel geschreven door [Fusha](https://www.speedrun.com/user/Fusha)_
+Gids origineel geschreven door [Fusha](https://www.speedrun.com/user/Fusha)
+
+This tool is meant for use in full game Hitman speedruns.
 
 ## Specificaties
 
@@ -25,7 +27,7 @@ _Gids origineel geschreven door [Fusha](https://www.speedrun.com/user/Fusha)_
 
 2. Download hier de LiveSplit server component: https://github.com/LiveSplit/LiveSplit.Server/releases/latest
 
-3. Unzip en plaats de twee bestanden die je zojuist hebt gedownload (vanuit de LiveSplit Server component zip folder), en plaats die bestanden in de `LiveSplit` Components folder.
+3. Unzip `Livesplit.Server.zip`. Unzip en plaats de twee bestanden die je zojuist hebt gedownload (vanuit de LiveSplit Server component zip folder), en plaats die bestanden in de `LiveSplit` Components folder. Here is an [example image](https://media.discordapp.net/attachments/839264571990343681/1013559084814958694/unknown.png) of how your `Livesplit/Components`folder should look afterwards.
 
 4. Start LiveSplit.
 
@@ -64,3 +66,5 @@ _Gids origineel geschreven door [Fusha](https://www.speedrun.com/user/Fusha)_
 -   Nadat een level mislukt of beëindigd is, zal Peacock een gedetailleerde tijd (in de Start Server.cmd) weergeven, met een nauwkeurigheid op tienden/honderdsten seconden voor de poging die je gemaakt hebt en het zal ook de tijd van resets (van het huidige level) erbij optellen.
 
 -   Vanaf v4.5.0 zal de Peacock Autosplitter niet meer een poging weergeven (de tijd van de split en de tijd van het volgende level) zolang je het level niet hebt beëindigd met de rating van Silent Assassin. Als je de autosplitter wilt gebruiken voor any% runs, zal je de `autoSplitterForceSilentAssassin` optie in het `options.ini` bestand naar `false` moeten zetten.
+
+-   For those that would like to participate in the weekly RTA SASO full game races, you can sign up at [racetime.gg](https://racetime.gg/hitman-3), and then set `autoSplitterRacetimegg = true` in `options.ini` in order to get access to RTA livesplit that integrates with racetime.gg

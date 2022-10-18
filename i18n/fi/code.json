@@ -1,89 +1,89 @@
 {
   "testimonialsPage.subTitle": {
-    "message": "Wat onze gebruikers zeggen over Peacock."
+    "message": "Mitä käyttäjämme sanovat Peacockista."
   },
   "Fast": {
-    "message": "Snel",
+    "message": "Nopea",
     "description": "Homepage 'fast' feature header"
   },
   "homepage.fastDescription": {
-    "message": "Peacock is gebouwd om snel te zijn. Latency, lag, en vertragingen zijn niet leuk, dat is waarom wij een focus leggen op het elimineren van deze factoren waar mogelijk.",
+    "message": "Peacock on rakennettu olemaan nopea. Viiveet ja lagi eivät ole mukavia, miksi olemme keskittyneet eliminoimaan nämä tekijät milloin vain se on mahdollista.",
     "description": "The homepage's 'Fast' feature description"
   },
   "Easy to set up": {
-    "message": "Gemakkelijk op te zetten",
+    "message": "Helppo ottaa käyttöön",
     "description": "Homepage 'Easy to set up' feature header"
   },
   "homepage.easyToSetUpDescription": {
-    "message": "Het is echt gemakkelijk om Peacock te proberen. Ervan uitgaande dat je het spel bezit, kun je lid worden van onze Discord, en het minder dan 3 minuten durende set-up proces uitvoeren.",
+    "message": "Peacockin kokeileminen on todella helppoa. Olettaen että omistat pelit, voit liittyä meidän Discord-palvelimelle ja suorittaa alle 3 minuuttia kestävän asennusprosessin.",
     "description": "The homepage's 'Easy to set up' feature description"
   },
   "Custom content": {
-    "message": "Aangepaste inhoud",
+    "message": "Mukautettua sisältö",
     "description": "Homepage 'Custom content' feature header"
   },
   "homepage.customContentDescription": {
-    "message": "Wij bieden exclusieve, aangepaste inhoud elke maand!",
+    "message": "Meillä on yksinoikeudellista, kustomoitua sisältöä joka kuukausi!",
     "description": "The homepage's 'Custom content' feature description"
   },
   "homepage.subtitle": {
-    "message": "Een vervanger voor de servers van HITMAN™ die op uw machine draait.",
+    "message": "Korvaaja HITMAN™: in palvelimille joka on käynnissä omalla tietokoneelllasi.",
     "description": "The homepage's subtitle."
   },
   "homepage.testimonialsButton": {
-    "message": "Lees wat onze gebruikers zeggen",
+    "message": "Käyttäjiemme kertomaa",
     "description": "The homepage's 'read what our users say' button."
   },
   "homepage.joinDiscordLabel": {
-    "message": "Klaar om Peacock een kans te geven?",
+    "message": "Oletko valmis kokeilemaan Peacockia?",
     "description": "The text on top of the go to Discord button on the home page."
   },
   "homepage.joinDiscordButton": {
-    "message": "Word lid van onze Discord!",
+    "message": "Liity meidän Discordiin!",
     "description": "The text on the join our Discord button on the home page."
   },
   "homepage.joinDiscordButtonBelowText": {
-    "message": "(Downloads zijn beschikbaar op Discord)",
+    "message": "(Lataukset ovat saatavilla Discord-palvelimellamme)",
     "description": "The text below the join our Discord button on the home page."
   },
   "theme.IdealImageMessage.loading": {
-    "message": "Laden...",
+    "message": "Lataa...",
     "description": "When the full-scale image is loading"
   },
   "theme.IdealImageMessage.load": {
-    "message": "Klik om te laden{sizeMessage}",
+    "message": "Klikkaa ladataksesi {sizeMessage}",
     "description": "To prompt users to load the full image. sizeMessage is a parenthesized size figure."
   },
   "theme.IdealImageMessage.offline": {
-    "message": "Je browser is offline. Afbeelding niet geladen",
+    "message": "Selaimesi on offline tilassa. Kuvaa ei ladattu",
     "description": "When the user is viewing an offline document"
   },
   "theme.IdealImageMessage.404error": {
-    "message": "404. Afbeelding niet gevonden",
+    "message": "404 - Kuvaa ei löydetty",
     "description": "When the image is not found"
   },
   "theme.IdealImageMessage.error": {
-    "message": "Fout. Klik om opnieuw te laden",
+    "message": "Virhe. Klikkaa päivittääksesi",
     "description": "When the image fails to load for unknown error"
   },
   "theme.ErrorPageContent.title": {
-    "message": "Deze pagina is gecrasht.",
+    "message": "This page crashed.",
     "description": "The title of the fallback page when the page crashed"
   },
   "theme.ErrorPageContent.tryAgain": {
-    "message": "Probeer het nog eens",
+    "message": "Yritä uudelleen",
     "description": "The label of the button to try again when the page crashed"
   },
   "theme.NotFound.title": {
-    "message": "Pagina Niet Gevonden",
+    "message": "Sivua ei löydy",
     "description": "The title of the 404 page"
   },
   "theme.NotFound.p1": {
-    "message": "We konden niet vinden wat je zocht.",
+    "message": "Emme löytäneet mitä hait.",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "Neem contact op met de eigenaar van de site die je naar de oorspronkelijke URL heeft gelinkt en laat hem weten dat hun link verbroken is.",
+    "message": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.admonition.note": {
@@ -107,214 +107,214 @@
     "description": "The default label used for the Caution admonition (:::caution)"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Sluit",
+    "message": "Sulje",
     "description": "The ARIA label for close button of announcement bar"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Terug naar boven scrollen",
+    "message": "Scroll back to top",
     "description": "The ARIA label for the back to top button"
   },
   "theme.colorToggle.ariaLabel": {
-    "message": "Schakel tussen donkere en lichte modus (momenteel {mode})",
+    "message": "Switch between dark and light mode (currently {mode})",
     "description": "The ARIA label for the navbar color mode toggle"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
-    "message": "donkere modus",
+    "message": "Tumma teema",
     "description": "The name for the dark color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
-    "message": "lichte modus",
+    "message": "Vaalea teema",
     "description": "The name for the light color mode"
   },
   "theme.docs.breadcrumbs.home": {
-    "message": "Homepagina",
+    "message": "Etusivu",
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "Broodkruimels",
+    "message": "Breadcrumbs",
     "description": "The ARIA label for the breadcrumbs"
   },
   "theme.docs.DocCard.categoryDescription": {
-    "message": "{count} items",
+    "message": "{count} kohdetta",
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.common.headingLinkTitle": {
-    "message": "Directe link naar rubriek",
+    "message": "Direct link to heading",
     "description": "Title for link to heading"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
-    "message": "Versies",
+    "message": "Versiot",
     "description": "The label for the navbar versions dropdown on mobile view"
   },
   "theme.common.skipToMainContent": {
-    "message": "Overslaan naar hoofdinhoud",
+    "message": "Siirry pääsisältöön",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.tags.tagsListLabel": {
-    "message": "Tags:",
+    "message": "Avainsanat:",
     "description": "The label alongside a tag list"
   },
   "theme.blog.archive.title": {
-    "message": "Archief",
+    "message": "Arkisto",
     "description": "The page & hero title of the blog archive page"
   },
   "theme.blog.archive.description": {
-    "message": "Archief",
+    "message": "Arkisto",
     "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.paginator.navAriaLabel": {
-    "message": "Blog lijst pagina navigatie",
+    "message": "Blog list page navigation",
     "description": "The ARIA label for the blog pagination"
   },
   "theme.blog.paginator.newerEntries": {
-    "message": "Nieuwere Inzendingen",
+    "message": "Uudemmat Julkaisut",
     "description": "The label used to navigate to the newer blog posts page (previous page)"
   },
   "theme.blog.paginator.olderEntries": {
-    "message": "Oudere Inzendingen",
+    "message": "Vanhemmat Julkaisut",
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.paginator.navAriaLabel": {
-    "message": "Blog post pagina navigatie",
+    "message": "Blog post page navigation",
     "description": "The ARIA label for the blog posts pagination"
   },
   "theme.blog.post.paginator.newerPost": {
-    "message": "Nieuwer Bericht",
+    "message": "Uudempi Julkaisu",
     "description": "The blog post button label to navigate to the newer/previous post"
   },
   "theme.blog.post.paginator.olderPost": {
-    "message": "Ouder Bericht",
+    "message": "Vanhempi julkaisu",
     "description": "The blog post button label to navigate to the older/next post"
   },
   "theme.blog.post.plurals": {
-    "message": "Één bericht|{count} berichten",
+    "message": "One post|{count} posts",
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.tagTitle": {
-    "message": "{nPosts} getagd met \"{tagName}\"",
+    "message": "{nPosts} tagged with \"{tagName}\"",
     "description": "The title of the page for a blog tag"
   },
   "theme.tags.tagsPageLink": {
-    "message": "Alle Tags Bekijken",
+    "message": "Katso kaikki asiasanat",
     "description": "The label of the link targeting the tag list page"
   },
   "theme.docs.paginator.navAriaLabel": {
-    "message": "Docs navigatie pagina's",
+    "message": "Docs pages navigation",
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
-    "message": "Vorige",
+    "message": "Edellinen",
     "description": "The label used to navigate to the previous doc"
   },
   "theme.docs.paginator.next": {
-    "message": "Volgende",
+    "message": "Seuraava",
     "description": "The label used to navigate to the next doc"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "Één getagde doc|{count} getagde docs",
+    "message": "One doc tagged|{count} docs tagged",
     "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle": {
-    "message": "{nDocsTagged} met \"{tagName}\"",
+    "message": "{nDocsTagged} with \"{tagName}\"",
     "description": "The title of the page for a docs tag"
   },
   "theme.docs.versionBadge.label": {
-    "message": "Versie: {versionLabel}"
+    "message": "Versio: {versionLabel}"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
-    "message": "Dit is een nog niet uitgebrachte documentatie voor {siteTitle} {versionLabel} versie.",
+    "message": "This is unreleased documentation for {siteTitle} {versionLabel} version.",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
-    "message": "Dit is documentatie voor {siteTitle} {versionLabel}, die niet langer actief wordt onderhouden.",
+    "message": "This is documentation for {siteTitle} {versionLabel}, which is no longer actively maintained.",
     "description": "The label used to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
-    "message": "Voor up-to-date documentatie, zie de {latestVersionLink} ({versionLabel}).",
+    "message": "For up-to-date documentation, see the {latestVersionLink} ({versionLabel}).",
     "description": "The label used to tell the user to check the latest version"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
-    "message": "laatste versie",
+    "message": "uusin versio",
     "description": "The label used for the latest version suggestion link label"
   },
   "theme.common.editThisPage": {
-    "message": "Deze pagina bewerken",
+    "message": "Muokkaa tätä sivua",
     "description": "The link label to edit the current page"
   },
   "theme.lastUpdated.atDate": {
-    "message": " op {date}",
+    "message": " lähetetty {date}",
     "description": "The words used to describe on which date a page has been last updated"
   },
   "theme.lastUpdated.byUser": {
-    "message": " door {user}",
+    "message": " käyttäjältä {user}",
     "description": "The words used to describe by who the page has been last updated"
   },
   "theme.lastUpdated.lastUpdatedAtBy": {
-    "message": "Laatst bijgewerkt{atDate}{byUser}",
+    "message": "Viimeksi päivitetty {atDate}{byUser}",
     "description": "The sentence used to display when a page has been last updated, and by who"
   },
   "theme.blog.sidebar.navAriaLabel": {
-    "message": "Blog recente berichten navigatie",
+    "message": "Blog recent posts navigation",
     "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.CodeBlock.copied": {
-    "message": "Gekopieerd",
+    "message": "Kopioitu",
     "description": "The copied button label on code blocks"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
-    "message": "Kopieer code naar klembord",
+    "message": "Kopioi koodi leikepöydälle",
     "description": "The ARIA label for copy code blocks button"
   },
   "theme.CodeBlock.copy": {
-    "message": "Kopieer",
+    "message": "Kopioi",
     "description": "The copy button label on code blocks"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "Tekstterugloop in/uitschakelen",
+    "message": "Toggle word wrap",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
-    "message": "Schakel de uitvouwbare zijbalk categorie '{label}' in",
+    "message": "Toggle the collapsible sidebar category '{label}'",
     "description": "The ARIA label to toggle the collapsible sidebar category"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Talen",
+    "message": "Kielet",
     "description": "The label for the mobile language switcher dropdown"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
-    "message": "Op deze pagina",
+    "message": "Tällä sivulla",
     "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.blog.post.readMore": {
-    "message": "Meer Lezen",
+    "message": "Lue lisää",
     "description": "The label used in blog post item excerpts to link to full blog posts"
   },
   "theme.blog.post.readMoreLabel": {
-    "message": "Lees meer over {title}",
+    "message": "Lue lisää asiasta {title}",
     "description": "The ARIA label for the link to full blog posts from excerpts"
   },
   "theme.blog.post.readingTime.plurals": {
-    "message": "Een min gelezen|{readingTime} min gelezen",
+    "message": "Yhden minuutin lukukesto |{readingTime} minuutin lukukesto",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
-    "message": "Zijbalk invouwen",
+    "message": "Pienennä sivupalkki",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.collapseButtonAriaLabel": {
-    "message": "Zijbalk invouwen",
+    "message": "Pienennä sivupalkki",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
-    "message": "← Terug naar hoofdmenu",
+    "message": "Takaisin päävalikkoon",
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.docs.sidebar.expandButtonTitle": {
-    "message": "Zijbalk uitvouwen",
+    "message": "Laajenna sivupalkki",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.docs.sidebar.expandButtonAriaLabel": {
-    "message": "Zijbalk uitvouwen",
+    "message": "Laajenna sivupalkki",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   }
 }
