@@ -23,15 +23,15 @@ description: Requisitos para rodar e usar o Peacock.
 
 O servidor é a parte responsável por processar os requisitos do jogo. É portátil, e não precisa rodar na mesma máquina que o jogo.
 
-- O Peacock é uma plataforma compatível com Node.js, o que significa que um Windows 8.1 ou acima, ou uma instalação recente de Linux/macOS/FreeBSD são necessários.
-- Temos alternativas disponíveis se você não se encontra incluído nesses requisitos, por favor pergunte no Discord.
-- Verifique o guia de instalação do NodeJS para Linux: https://thepeacockproject.org/wiki/guides/linux-setup/
+-   O Peacock é uma plataforma compatível com Node.js, o que significa que um Windows 8.1 ou acima, ou uma instalação recente de Linux/macOS/FreeBSD são necessários.
+-   Temos alternativas disponíveis se você não se encontra incluído nesses requisitos, por favor pergunte no Discord.
+-   Verifique o guia de instalação do NodeJS para Linux: https://thepeacockproject.org/wiki/guides/linux-setup/
 
 ### Patcher
 
 O Patcher informa ao jogo para se conectar ao Peacock em vez dos servidores oficiais, e precisa estar na mesma máquina que o jogo.
 
-- Windows 7 ou acima
+-   Windows 7 ou acima
 
 ### Sumário
 
