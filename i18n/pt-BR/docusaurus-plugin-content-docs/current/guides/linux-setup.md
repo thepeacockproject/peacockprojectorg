@@ -51,7 +51,7 @@ You can now launch the server by running the script you just created.
 
 This part is a lot more tricky. You need to run the patcher in *the same Wine prefix as the game*.
 
-Some users have gotten it to work, but others haven't. Some users have gotten it to work, but others haven't. Feel free to document your experience in the Discord's `#help` channel for anybody that has problems in the future to reference.
+Some users have gotten it to work, but others haven't. Some users have gotten it to work, but others haven't. Feel free to document your experience in the Discord's `#help` channel for anybody that has problems in the future to reference. Some users have gotten it to work, but others haven't. Feel free to document your experience in the Discord's `#help` channel for anybody that has problems in the future to reference.
 
 Some people have gotten it to work using the following command:
 
