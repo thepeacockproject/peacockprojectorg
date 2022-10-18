@@ -18,10 +18,6 @@ module.exports = {
             en: {
                 htmlLang: "en-US",
             },
-            fa: {
-                direction: "rtl",
-                htmlLang: "fa-IR",
-            },
             nl: {
                 htmlLang: "nl-NL",
             },
@@ -139,14 +135,13 @@ module.exports = {
             {
                 sidebarPath: require.resolve("./sidebars.js"),
                 routeBasePath: "/wiki/",
-                showLastUpdateTime: true,
-                editUrl: ({ locale }) => {
-                    if (locale !== "en") {
+                editUrl: ({ locale, docPath }) => {
+                    if (locale !== `en`) {
                         return `https://crowdin.com/project/peacock/${locale}`
                     }
-
-                    return undefined
+                    return `https://github.com/thepeacockproject/peacockprojectorg/edit/main/docs/${docPath}`;
                 },
+                showLastUpdateTime: true,
             },
         ],
         "@docusaurus/plugin-content-pages",
@@ -158,6 +153,14 @@ module.exports = {
                 changefreq: "weekly",
             },
         ],
-        "@docusaurus/plugin-ideal-image",
+        [
+            "@docusaurus/plugin-ideal-image",
+            {
+                quality: 70,
+                max: 1030,
+                min: 640,
+                steps: 2,
+            }
+        ],
     ],
 }
