@@ -92,6 +92,10 @@ module.exports = {
                             label: "Credits",
                             to: "/wiki/credits",
                         },
+                        {
+                            label: "GitHub",
+                            href: "https://github.com/thepeacockproject",
+                        },
                     ],
                 },
                 {
