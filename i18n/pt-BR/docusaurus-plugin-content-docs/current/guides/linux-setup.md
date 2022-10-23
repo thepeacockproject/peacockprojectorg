@@ -9,7 +9,7 @@ O Peacock foi feito para funcionar no Windows, mas não tema, usá-lo no Linux �
 
 Para fazer o servidor funcionar no Linux, você precisará preparar o Node.js primeiro.
 
-### Install nvm
+### Instale o nvm
 
 Para fazê-lo, execute o seguinte comando pela primeira vez:
 
@@ -19,25 +19,25 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
 Isso vai realizar o download e a instalação do [nvm](https://nvm.sh), que permite alternar rapidamente entre diferentes versões do Node.js. Isso irá permitir o Peacock sempre utilizar a versão do Node.js que é necessária.
 
-### Install Node.js
+### Instale o Node.js
 
-Next, `cd` to the directory you have Peacock unzipped to, and run the following command:
+Depois disso, use o comando `cd` para o diretório em que você extraiu o Peacock e execute o seguinte comando:
 
 ```shell
 nvm install
 ```
 
-This will install the version of Node.js required by Peacock. You will need to re-run this when Peacock updates.
+Isso vai realizar a instalação da última versão do Node.js necessário para o funcionamento do Peacock. Você precisará de refazer esse procedimento após atualizações do Peacock.
 
-### Create a launcher script
+### Crie um Script de inicialização
 
-Finally, create a script that lets you easily start the server, with the suggested contents being as follows:
+Por último, crie um script que permita a você facilmente inicializar o servidor, com os conteúdos sugeridos abaixo:
 
 ```shell
 node --enable-source-maps --harmony chunk0.js --hmr
 ```
 
--   Note: If you are using a port other than port 80, you should specify the port in your launcher script. Substitute `PORTNUMBER` in the script below with your port number of choice.
+-   Aviso: se você estiver utilizando uma porta diferente da porta 80, você deve especificar a porta no seu script de inicialização. Substitua `PORTNUMBER` no script abaixo com o número da porta de sua escolha.
 
     -   ```shell PORT=PORTNUMBER node --enable-source-maps --harmony chunk0.js --hmr
         ```
@@ -45,15 +45,15 @@ node --enable-source-maps --harmony chunk0.js --hmr
 chmod +x ./theScriptsName.sh
 ```
 
-You can now launch the server by running the script you just created.
+Você pode agora inicializar o servidor rodando o script que acabou de criar.
 
 ## Patcher
 
-This part is a lot more tricky. You need to run the patcher in *the same Wine prefix as the game*.
+Essa parte é mais complicada. Você precisará rodar o patcher no _mesmo Wine Prefix que o jogo_.
 
-Some users have gotten it to work, but others haven't. Some users have gotten it to work, but others haven't. Feel free to document your experience in the Discord's `#help` channel for anybody that has problems in the future to reference.
+Alguns usuários conseguiram fazer isso funcionar, mas outros não. Sinta-se à vontade para documentar sua experiência no canal `#help` no Discord para auxiliar alguém que venha a ter problemas no futuro.
 
-Some people have gotten it to work using the following command:
+Algumas pessoas conseguiram esse processo usando o seguinte comando:
 
 ```shell
 STEAM_COMPAT_DATA_PATH="$HOME/.steam/root/steamapps/compatdata/1659040" \
@@ -62,4 +62,4 @@ STEAM_COMPAT_DATA_PATH="$HOME/.steam/root/steamapps/compatdata/1659040" \
   "$HOME/.steam/root/steamapps/common/Proton\ -\ Experimental/proton" run /path/to/PeacockPatcher.exe
 ```
 
-Obviously, you will need to change the paths to match your install of Steam, Proton, and the patcher.
+Obviamente, você precisará mudar os caminhos para aqueles da sua instalação do Steam, Proton e do patcher.

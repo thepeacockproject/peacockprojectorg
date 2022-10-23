@@ -46,5 +46,9 @@
   "copyright": {
     "message": "Tekijänoikeus © 2022 The Peacock Project. Ei IO Interactiven omistuksessa, yhteistyössä, tai kannattamana.<br /><br /><small class=\"ioi-copyright\">HITMAN 3 © 2020 IO Interactive A/S. HITMAN™ 2 © 2018 IO Interactive A/S. HITMAN™ © 2019 IO Interactive A/S. IO Interactive, IOI logot, HITMAN, HITMAN logot, ja WORLD OF ASSASSINATION ovat tavaramerkkejä tai rekisteröityjä tavaramerkkejä jotka omistaa tai yksinoikeudella lisesnsöi IO Interactive A/S. Kaikki muut tavaramerkit ovat kullekkin kuuluvan omistajansa omaisuutta.</small>",
     "description": "The footer copyright"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/thepeacockproject"
   }
 }
