@@ -5,13 +5,13 @@ description: Como configurar o auto-splitter do Peacock para speedruns do jogo.
 
 Guia escrito originalmente por [Fusha](https://www.speedrun.com/user/Fusha)
 
-This tool is meant for use in full game Hitman speedruns.
+Essa ferramenta tem o propósito de ser usada em speedruns completas de Hitman.
 
 ## Especificações
 
 (veja "Como Usar" e "Outras Notas de Uso" abaixo também)
 
--   100% accurate to how runs are timed for verification purposes, unlike the [Official Servers Autosplitter](https://hitruns-wiki.vercel.app/docs/livesplit_auto_official).
+-   100% preciso em como as missões são cronometradas para propósitos de verificação, ao contrário do [Autosplitter dos Servidores Oficiais](https://hitruns-wiki.vercel.app/docs/livesplit_auto_official).
 
 -   Vários glitches como o splitter não estar funcionando corretamente do local inicial "Outside" em Romania estão resolvidos.
 
@@ -27,7 +27,7 @@ This tool is meant for use in full game Hitman speedruns.
 
 2. Extraia e coloque os dois arquivo que você acabou de baixar no arquivo zip do componente do servidor LiveSplit na pasta Components dentro da pasta de instalação `LiveSplit`.
 
-3. Unzip `Livesplit.Server.zip`. Move the `Livesplit.Server.dll` and `Noes.Javascript.dll` files found within the unzipped folder to `Livesplit/Components` folder (refer to step 1 if you forgot where you installed the main Livesplit application). Here is an [example image](https://media.discordapp.net/attachments/839264571990343681/1013559084814958694/unknown.png) of how your `Livesplit/Components`folder should look afterwards.
+3. Unzip `Livesplit. Server.zip`. Move the `Livesplit. Server.dll` and `Noes. Javascript.dll` files found within the unzipped folder to `Livesplit/Components` folder (refer to step 1 if you forgot where you installed the main Livesplit application). Aqui está uma [imagem de exemplo](https://media.discordapp.net/attachments/839264571990343681/1013559084814958694/unknown.png) de como a sua pasta `Livesplit/Components` deve parecer depois.
 
 4. Inicie o LiveSplit.
 
@@ -67,4 +67,4 @@ This tool is meant for use in full game Hitman speedruns.
 
 -   Na versão v4.50, o Autosplitter do Peacock agora se padroniza em um modo que não vai logar uma conclusão bem sucedida de uma missão (parando e permitindo ir para o próximo mapa) exceto se você completar a missão atual com avaliação Assassino Silencioso. Se você quiser usar o autosplitter para jogadas any% (qualquer avaliação), mude a opção `autoSplitterForceSilentAssassin` em `options.ini` para `false`.
 
--   For those that would like to participate in the weekly RTA SASO full game races, you can sign up at [racetime.gg](https://racetime.gg/hitman-3), and then set `autoSplitterRacetimegg = true` in `options.ini` in order to get access to RTA livesplit that integrates with racetime.gg
+-   Para aqueles que gostariam de participar nas competições semanais SASO RTA de jogo completo, você pode se candidatar em [racetime.gg](https://racetime.gg/hitman-3) e ativar `autoSplitterRacetimegg = true` nao seu arquivo `options.ini` para ter acesso ao livesplit RTA integrado ao racetime.gg
