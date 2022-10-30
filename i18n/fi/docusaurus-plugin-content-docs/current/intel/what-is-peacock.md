@@ -20,7 +20,7 @@ The benefits of using Peacock include:
     -   **Unlocking items as you go is not supported at the moment**, although it is planned to be added in the future.
     -   Challenges are currently being implemented. As of Peacock v5.0.1, Paris map has support for in-game challenges.
     -   If it is your first time playing (on either Peacock or official servers), some exits will be locked. You will need to unlock Dubai exits ([need to unlock the elevators](https://youtu.be/IEQgRQyQRf8)), Dartmoor exits ([need to exit via bike at least once](https://youtu.be/AJtJZe9jEi8?t=151)), and Colorado exits ([need to use tornado exit at least once](https://youtu.be/3XKWHrKpXwk?t=140)). These exits are handled client-side.
--   Play [custom](../custom-content.md) or otherwise discontinued / time limited content such as [Ghost Mode](../ghost-mode), legacy escalations, elusive targets.
+-   Play [custom](../custom-content.mdx) or otherwise discontinued / time limited content such as [Ghost Mode](../ghost-mode), legacy escalations, elusive targets.
     -   Display leaderboards for other Peacock users
 
 :::info Trivia: Why name it Peacock?
