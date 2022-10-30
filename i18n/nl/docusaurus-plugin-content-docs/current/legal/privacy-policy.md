@@ -19,17 +19,12 @@ Dit beleid is van toepassing op de volgende websites en producten (gezamenlijk d
 
 Wanneer je één van de pagina's bekijkt waarop dit beleid betrekking heeft, wordt precies gelogd welke pagina, evenals je IP-adres en de tijd door ons. Deze praktijk is typisch en wordt door de meeste websites toegepast. Deze informatie wordt maximaal 72 uur op onze servers bewaard.
 
-Wanneer u inlogt, kan de volgende informatie worden gelogd (in welk geval deze maximaal 1 werkweek wordt bewaard), of worden opgeslagen in onze database voor het op lange termijn opvragen/bewaren van gegevens:
-
--   Alle details die worden opgeslagen wanneer je de pagina bekijkt (zoals hierboven beschreven) (gelogd)
--   Basisgegevens over je Discord-account (zie de documentatie voor Discord-ontwikkelaars voor welke informatie wordt geretourneerd bij gebruik van OAuth 2)
--   Tenzij je je expliciet afmeldt voor de leaderboards, worden de details van de gebeurtenissen die tijdens de levels plaatsvinden, evenals de scoringsdetails, in onze database opgeslagen.
+Tenzij je je expliciet afmeldt voor de leaderboards, worden de details van de gebeurtenissen die tijdens de levels plaatsvinden, evenals de scoringsdetails, in onze database opgeslagen.
 
 ## Waar gebruiken we deze gegevens voor?
 
 Wij gebruiken deze gegevens onder meer voor:
 
--   Verifiëren dat je in de Discord server zit
 -   Rollen toewijzen op basis van eigendomsstatus in de Discord server
 -   Het bijhouden van leaderboard posities en statistieken, en voor moderatie van deze leaderboards.
 
@@ -83,14 +78,13 @@ Burgers van de EU hebben ook het recht om een klacht in te dienen bij een toezic
 
 Onze infrastructuur maakt gebruik van derde partijen die uw gegevens kunnen verwerken of bewaren. Het privacybeleid van die Diensten is te vinden op:
 
--   https://sentry.io/privacy/
 -   https://www.cloudflare.com/privacypolicy/
 -   https://discord.com/privacy
 -   https://www.hitmaps.com/privacy-policy
 
 ## Updates van dit beleid
 
-Dit beleid is gemaakt op 5 mei 2021. Dit beleid kan op elk moment zonder kennisgeving worden gewijzigd. We raden u aan om dit beleid regelmatig te controleren op updates die u kunnen beïnvloeden.
+Dit beleid is gemaakt op 5 mei 2021. Dit beleid kan op elk moment zonder kennisgeving worden gewijzigd. We raden u aan om dit beleid regelmatig te controleren op updates die u kunnen beïnvloeden. You can view the history of this policy [here](https://github.com/thepeacockproject/peacockprojectorg/commits/main/docs/legal/privacy-policy.md).
 
 ## Stel een vraag
 
