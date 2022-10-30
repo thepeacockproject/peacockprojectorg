@@ -22,24 +22,18 @@ exactly which page, as well as your IP address, and the time gets logged by us.
 This practice is typical and used by most websites.
 This information is stored on our servers for a maximum of 72 hours.
 
-When you log in, the following information may be logged (in which case it is stored for a maximum of 1 business week),
-or stored in our database for long term data retrieval/storage:
-
--   All details saved when you view the page (as outlined above) (logged)
--   Basic data about your Discord account (see Discord developer documentation for what information is returned when using OAuth 2)
--   Unless explicitly opted out of leaderboards, details of the events that are triggered during levels, as well as scoring details, are stored in our database.
+When complete a level in-game when leaderboards are enabled, your score and other details about your session will be sent to us and stored indefinitely.
 
 ## What do we use this data for?
 
 We use this data for purposes including:
 
--   Verifying you are in the Discord server
 -   Assigning roles based on ownership status in the Discord server
 -   Keeping track of leaderboard positions and statistics, and for moderation of these leaderboards.
 
 ## Request deletion of your data
 
-Please contact a project admin on Discord, or email me [at symbol] rdil [dot] rocks.
+Please contact a project admin on Discord, or email admin [at symbol] thepeacockproject [dot] org.
 
 ## Opting out where possible
 
@@ -64,9 +58,9 @@ We do not sell our users' private personal information.
 
 We share information about you in the limited circumstances spelled out below and with appropriate safeguards on your privacy:
 
--   Legal Requests: We may disclose information about you in response to a subpoena, court order, or other governmental request.
--   To Protect Rights, Property, and Others: We may disclose information about you when we believe in good faith that disclosure is reasonably necessary to protect the property or rights of The Peacock Project, third parties, or the public at large. For example, if we have a good faith belief that there is an imminent danger of death or serious physical injury, we may disclose information related to the emergency without delay.
--   With Your Consent: We may share and disclose information with your consent or at your direction. For example, we may share your information with third parties with which you authorize us to do so.
+-   Legal requests: We may disclose information about you in response to a subpoena, court order, or other governmental request.
+-   To protect rights, property, and others: We may disclose information about you when we believe in good faith that disclosure is reasonably necessary to protect the property or rights of The Peacock Project, third parties, or the public at large. For example, if we have a good faith belief that there is an imminent danger of death or serious physical injury, we may disclose information related to the emergency without delay.
+-   With your consent: We may share and disclose information with your consent or at your direction. For example, we may share your information with third parties with which you authorize us to do so.
 
 ## Responsible disclosure of data breaches
 
@@ -89,7 +83,6 @@ EU individuals also have the right to make a complaint to a government superviso
 
 Our infrastructure makes use of third parties which may process or retain your data, the privacy policies of those Services can be found at:
 
--   https://sentry.io/privacy/
 -   https://www.cloudflare.com/privacypolicy/
 -   https://discord.com/privacy
 -   https://www.hitmaps.com/privacy-policy
@@ -98,6 +91,7 @@ Our infrastructure makes use of third parties which may process or retain your d
 
 This policy was created on May 5th, 2021.
 This policy may change without notice at any time. We advise regularly checking it for any updates that may affect you.
+You can view the history of this policy [here](https://github.com/thepeacockproject/peacockprojectorg/commits/main/docs/legal/privacy-policy.md).
 
 ## Ask a question
 

@@ -1,5 +1,5 @@
 {
-    "name": "peacock",
+    "name": "peacock-website",
     "version": "0.0.0",
     "private": true,
     "scripts": {
@@ -16,14 +16,13 @@
         "react": "^17.0.2"
     },
     "dependencies": {
-        "@docusaurus/core": "^2.1.0",
-        "@docusaurus/module-type-aliases": "^2.1.0",
-        "@docusaurus/plugin-content-docs": "^2.1.0",
-        "@docusaurus/plugin-content-pages": "^2.1.0",
-        "@docusaurus/plugin-ideal-image": "^2.1.0",
-        "@docusaurus/plugin-sitemap": "^2.1.0",
-        "@docusaurus/theme-classic": "^2.1.0",
-        "@docusaurus/types": "^2.1.0",
+        "@docusaurus/core": "^2.2.0",
+        "@docusaurus/module-type-aliases": "^2.2.0",
+        "@docusaurus/plugin-content-docs": "^2.2.0",
+        "@docusaurus/plugin-content-pages": "^2.2.0",
+        "@docusaurus/plugin-ideal-image": "^2.2.0",
+        "@docusaurus/plugin-sitemap": "^2.2.0",
+        "@docusaurus/theme-classic": "^2.2.0",
         "@mdx-js/react": "^1.6.21",
         "@svgr/webpack": "^6.2.1",
         "autocomplete.js": "^0.38.1",
@@ -53,6 +52,7 @@
         "semi": false
     },
     "devDependencies": {
+        "@docusaurus/types": "^2.2.0",
         "@types/node": "^18.7.18",
         "@types/react": "^18.0.20",
         "@types/react-dom": "^18.0.5",
