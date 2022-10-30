@@ -4,25 +4,25 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
 
 ## Perguntas Frequents sobre Resolução de Problemas
 
-### Wrong Game Version / Platform
+### Versão Errada do Jogo / Plataforma
 
 -   Veja a seção "Do que eu Preciso para Rodar o Peacock" deste guia, tenha a certeza de que você tem uma versão e plataforma compatíveis, etc.
-    -   **Xbox Game Pass / Microsoft PC version of Hitman 3 is not supported (commonly asked)**.
-    -   Check [Linux Setup Guide](https://thepeacockproject.org/wiki/guides/linux-setup) if on Linux.
+    -   **Xbox Game Pass / Versão da Microsoft PC de Hitman 3 não são suportadas (comumente perguntado)**.
+    -   Veja o [Guia de Instalação de Linux](https://thepeacockproject.org/wiki/guides/linux-setup) se estiver usando Linux.
 -   Tenha a certeza de que você tem as últimas versões do Hitman 3 e do Peacock, versões mais antigas podem não ser suportadas.
 
-### Try to Reconnect
+### Tente se Reconectar
 
 -   Podem levar algumas tentativas para se conectar ao Peacock. Se não puder se conectar, tente voltar ao aplicativo inicializador do Peacock e clique em "Repatch", ou "Reinicializar", até que o inicializador mostre "Sucessfully patched ID", ou "ID inicializada com sucesso".
 -   Se o jogo já está conectado aos servidores oficiais, você pode precisar desconectar o jogo antes para se conectar ao Peacock. Para se desconectar dos servidores oficiais, vá para "Options" no menu principal do Hitman 3, e depois em "Privacy Policy", e "Opt out". Quando você tentar se desconectar depois disso, você deverá estar no Peacock.
 -   Similarmente, você pode ficar offline quando conectado ao Peacock, ativar a opção no inicializador do Peacock para voltar aos servidores oficiais, e clicar em ficar "online" novamente para se conectar aos servidores oficiais.
--   **If you still have trouble connecting, then continue to the next section below.**
+-   **Se você ainda estiver tendo problemas ao se conectar, continue na seção abaixo.**
 
-### Connection Troubleshooting
+### Solução de Problemas de Conexão
 
--   As explained in the [What is Peacock](https://thepeacockproject.org/wiki/intel/what-is-peacock) page, **you need to be connected to the Internet, at least initially, to use Peacock**. This is to get past Steam / Epic verification. After connecting to Peacock the first time, you may disconnect from the Internet and stay connected to Peacock for the duration of your game session.
-    -   If you have a phone with cellular data plan, you can use the phone as hotspot for your computer to connect to Internet.
--   Don't try to use Peacock if it's literally your first time playing the game. You need to connect to the official servers at least once before you can connect to Peacock. After you've connected to official servers at least once you no longer have to do so in the future in order to use Peacock.
+-   Como explicado na página [O Que é o Peacock](https://thepeacockproject.org/wiki/intel/what-is-peacock), **você precisa estar conectado à Internet, pelo menos inicialmente, para usar o Peacock**. Isso tem o único propósito de passar pela verificação Steam / Epic. Após conectar ao Peacock na primeira vez, você poderá desconectar da Internet e permanecer conectado ao Peacock pela duração da sua sessão de jogo.
+    -   Se você tiver um celular com plano de Internet, você pode usá-lo como ponto de acesso de Internet para o seu computador se conectar.
+-   Não tente usar o Peacock se esta for a sua primeira vez jogando o jogo. Você precisa se conectar aos servidores oficiais pelo menos uma vez antes de se conectar ao Peacock. Depois de ter conectado aos servidores oficiais pelo menos uma vez, você não precisa de fazê-lo novamente no futuro para usar o Peacock.
 -   Tente rodar o `Start Server.cmd` como administrador.
 -   Mantenha a opção "Use http instead of https" no Peacock ativada a não ser que esteja jogando o Modo Fantasma.
 
@@ -41,7 +41,7 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
         -   Tenha [esta imagem de exemplo](https://media.discordapp.net/attachments/839264571990343681/985885230634242048/unknown.png) como referência para saber o que escrever no `Start Server.cmd`.
         -   Tenha [esta imagem de exemplo](https://media.discordapp.net/attachments/839264571990343681/992523717869568050/unknown.png) como referência para saber o que escrever no Patcher do Peacock.
 
-### Missing Items / Maps
+### Itens Faltantes / Mapas
 
 -   Para usar itens dos 7 Pecados Capitais, tenha certeza de ter comprado a DLC 7 Pecados Capitais. Então delete a pasta `userdata` e reinicie o jogo.
 
@@ -50,29 +50,29 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
 ### Outro
 
 -   Salvamentos em jogo são suportados, mas note que você só pode usar salvamentos dos servidores oficiais apenas na versão dos servidores oficiais do jogo, e salvamentos no Peacock apenas na versão Peacock do jogo.
--   Challenges (currently implemented in Paris) are still in development and may be buggy. Report issues in the `#help` channel in Peacock discord.
+-   Desafios (atualmente implementados em Paris) ainda estão em fase de desenvolvimento e podem ter bugs. Relate erros no canal `#help` no Discord do Peacock.
 -   Usar o Peacock afetará seu perfil nos servidores oficiais de maneiras bem imperceptíveis.
     -   Devido ao fato que não temos implementado propriamente alguns recursos de menor importância como avisos de spoiler em conteúdo/história, vai colocar todos em um estado como se 'eu já tivesse jogado'. Além disso, não deve ter qualquer efeito.
 -   Nota: Se essa é sua primeira vez jogando (tanto no Peacock como nos servidores oficiais), algumas saídas estarão bloquadas. Você terá que desbloquear as saídas de Dubai ([precisa desbloquear os elevadores](https://youtu.be/IEQgRQyQRf8)), saídas de Dartmoor ([precisa sair por meio da motocicleta pelo menos uma vez](https://youtu.be/AJtJZe9jEi8?t=151)), e saídas de Colorado ([precisa ter usado a saída do abrigo de tornados pelo menos uma vez](https://youtu.be/3XKWHrKpXwk?t=140)). Essas saídas estão sob responsabilidade do usuário.
--   Check [Peacock Unique Features](../intel/loadout-profiles-elp) page for info on how to set multiple loadouts per map or choose specific escalation levels with Peacock.
+-   Veja a página de [Recursos Únicos do Peacock](../intel/loadout-profiles-elp) para mais informações em como ter múltiplos equipamentos por mapa ou escolher níveis de escalações específicos.
 
-### Request Tech Support
+### Solicitando Suporte Técnico
 
 -   Questão não respondida no FAQ acima? Pergunte no canal do servidor Discord do Peacock `#help` (https://thepeacockproject.org/discord)
     -   Esteja preparado para providenciar:
         -   Fotos do seu Servidor Peacock rodando no terminal
         -   Fotos do seu Patcher Peacock rodando
         -   Informações sobre o seu sistema operacional e versão do jogo
-        -   Information on what is running on Port 80 (check [Connection Troubleshooting](faq/#connection-troubleshooting) above)
+        -   Informações sobre o que está rodando na Porta 80 (veja [Solução de Problemas de Conexão](faq/#connection-troubleshooting) acima)
         -   Quaisquer outras informações pertinentes
 
 ## Perguntas Frequentes sobre Solicitação de Recursos
 
--   To be very clear: Progression (unlocking items as you go) is currently not supported, although planned for the future. O Peacock irá te fornecer todos os itens desbloqueáveis logo de início (baseando-se no conteúdo que você tenha adquirido).
--   In-game challenges are actively being implemented as of Peacock v5.0.1.
+-   Para ser claro: Progressão (desbloqueando itens lentamente) não é atualmente suportado, mas é planejado para o futuro. O Peacock irá te fornecer todos os itens desbloqueáveis logo de início (baseando-se no conteúdo que você tenha adquirido).
+-   Desafios em jogo estão sendo atualmente implementados na v5.0.1 do Peacock.
 -   Antes de perguntar qualquer pergunta sobre o Modo Fantasma, Escalações, Contratos do Usuário e Alvos Elusivos, por favor verifique a [Página de Conteúdo Customizado](https://thepeacockproject.org/wiki/custom-content) assim como a [Página do Modo Fantasma](https://thepeacockproject.org/wiki/ghost-mode/).
--   Mod Compatability:
-    -   Most mods are compatible with Peacock; there are only three kinds that aren't.
-        -   If a mod edits contracts (missions, special assignments, etc.), it'll need a Peacock plugin to be compatible.
-        -   If a mod edits the planning inventory (that is, changes the properties of starting locations, changes which items you can bring into missions, or edits the suits available to you), it will also need a plugin.
-        -   Menu changes may also sometimes be incompatible, but should otherwise be fine. Other than those, mods should be compatible with Peacock without any effort on the part of the mod creator.
+-   Compatibilidade de Mods:
+    -   A maioria dos Mods são compatíveis com o Peacock; existem apenas três que não são.
+        -   Se um mod edita contratos (missões, Missões Especiais, etc), ele necessitará de um plugin Peacock para ser compatível.
+        -   Se um mod edita o inventário de planejamento (isto é, muda as propriedades de locais de início, muda quais itens você pode trazer em missões, ou edita as roupas disponíveis para você), você também precisará de um plugin.
+        -   Mudanças no menu podem também ser incompatíveis, mas devem funcionar bem. Além desses, mods devem ser compatíveis com o Peacock sem nenhum esforço extra da parte do criador do mod.

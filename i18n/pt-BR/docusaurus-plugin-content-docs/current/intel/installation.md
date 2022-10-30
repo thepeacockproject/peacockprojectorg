@@ -17,4 +17,4 @@ Aqui estão as instruções para se começar a usar o Peacock.
 
     - Nota: Se você joga Hitman 3, você deverá repetir os passos 2-3 a cada vez que o jogo receba uma nova atualização (mais informações abaixo, na seção "Quando/ Como Atualizar o Peacock"). E para qualquer um dos três jogos Hitman suportados, você deverá repetir o passo 4 toda vez que for iniciar o jogo. O jogo retorna aos servidores oficiais se não o fizer.
 
-5. Now start the game. Check the [FAQ](https://thepeacockproject.org/wiki/intel/faq) or ask in the `#help` channel on [Peacock Discord](https://thepeacockproject.org/discord) if you have trouble getting it to work.
+5. Agora inicialize o jogo. Verifique o [FAQ](https://thepeacockproject.org/wiki/intel/faq) ou pergunte no canal `#help` no [Discord do Peacock](https://thepeacockproject.org/discord) se você estiver tendo problemas nesses procedimentos.
