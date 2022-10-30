@@ -19,15 +19,11 @@ Nós concordamos em providenciar acesso do Peacock a proprietários selecionados
 
 ## Licenciamento
 
-Peacock está sob licenciamento estrito. Exceto que seja de outra forma estatado (veja os arquivos `LICENSE` e `THIRDPARTYNOTICES.txt`), todo o conteúdo é propriedade exclusiva do Projeto Peacock, e são proprietários. Todos os direitos a esse material são reservados.
+As of October 20th, 2022, Peacock is an open-source project under the [GNU Affero General Public License, version 3.0](https://www.gnu.org/licenses/agpl-3.0.en.html).
 
 ## Doações
 
-Já que o Peacock custou a equipe por construir e manter, qualquer pessoa tem a opção de doar dinheiro para ajudar a financiar o projeto. Todas as doações não são reembolsáveis. Doadores podem receber acesso antecipado para alguns recursos do Peacock que não estão prontas para o consumo público. Todos os materiais providenciados aos nossos doadores, exceto estatado de outra maneira, são confidenciais. Doadores que acidentalmente vazem informações confidenciais receberão um aviso. Se eles fizerem isto novamente depois de receber o aviso, sua habilidade de acessar o conteúdo será removida. Doações não são necessárias, porém são muito estimadas.
-
-## Manipulação
-
-Utilizar ou tentar utilizar engenharia reversa, manipular (com algumas exceções, veja a [seção de plugins](#plugins)), ou de alguma forma desmontar/remontar o Peacock e/ou seus serviços relacionados não é permitido.
+Já que o Peacock custou a equipe por construir e manter, qualquer pessoa tem a opção de doar dinheiro para ajudar a financiar o projeto. Todas as doações não são reembolsáveis. Doações não são necessárias, porém são muito estimadas.
 
 ## Plugins
 
@@ -39,4 +35,4 @@ Todas as traduções são providenciadas apenas por propósitos informacionais. 
 
 ## Mudanças
 
-Esta política pode ser modificada a qualquer momento à nossa discrição. Nós tentaremos notificar a você de qualquer mudança, mas em alguns casos, nós podemos não ser capazes de fazê-lo. A data em que esta política foi modificada pela última vez pode ser encontrada no fim desta página.
+Esta política pode ser modificada a qualquer momento à nossa discrição. Nós tentaremos notificar a você de qualquer mudança, mas em alguns casos, nós podemos não ser capazes de fazê-lo. A data em que esta política foi modificada pela última vez pode ser encontrada no fim desta página. Additionally, you can view the revision history of this page [here](https://github.com/thepeacockproject/peacockprojectorg/commits/main/docs/legal/terms-of-service.md).

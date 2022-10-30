@@ -19,15 +19,11 @@ We stemmen ermee in om toegang te verlenen tot Peacock voor geselecteerde eigena
 
 ## Licentie
 
-Peacock heeft een strikte licentie. Tenzij anders vermeld (zie de bestanden `LICENSE` en `THIRDPARTYNOTICES.txt`), is alle inhoud het exclusieve eigendom van The Peacock Project, en is beschermd door eigendomsrecht. Alle rechten op deze materialen zijn voorbehouden.
+As of October 20th, 2022, Peacock is an open-source project under the [GNU Affero General Public License, version 3.0](https://www.gnu.org/licenses/agpl-3.0.en.html).
 
 ## Donaties
 
-Aangezien het bouwen en draaiende houden van Peacock het team geld kost, heeft iedereen de mogelijkheid geld te doneren om het project te helpen financieren. Alle donaties worden niet terugbetaald. Donateurs kunnen vroegtijdig toegang krijgen tot sommige Peacock-functies die nog niet klaar zijn voor openbaar gebruik. Al het materiaal dat aan donoren wordt verstrekt, is vertrouwelijk, tenzij anders vermeld. Donateurs die toch per ongeluk vertrouwelijke informatie lekken, krijgen een waarschuwing. Als de donateur het opnieuw doet nadat hij een waarschuwing heeft gekregen, wordt de mogelijkheid om toegang te krijgen tot deze inhoud verwijderd. Donaties zijn niet verplicht, maar worden zeer op prijs gesteld.
-
-## Manipulatie
-
-Het is niet toegestaan om Peacock en/of zijn services te reverse-engineeren, aan te passen (met enkele uitzonderingen, zie [pluginssectie](#plugins)), of anderszins te demonteren/hermonteren.
+Aangezien het bouwen en draaiende houden van Peacock het team geld kost, heeft iedereen de mogelijkheid geld te doneren om het project te helpen financieren. Alle donaties worden niet terugbetaald. Donaties zijn niet verplicht, maar worden zeer op prijs gesteld.
 
 ## Plugins
 
@@ -39,4 +35,4 @@ Alle vertalingen worden puur ter informatie verstrekt. In geval van discrepantie
 
 ## Verandering
 
-Dit beleid kan altijd worden gewijzigd. Wij zullen proberen u op de hoogte te stellen van eventuele wijzigingen, maar in sommige gevallen kunnen wij dat niet. De datum waarop dit beleid voor het laatst is gewijzigd, vindt u onderaan deze pagina.
+Dit beleid kan altijd worden gewijzigd. Wij zullen proberen u op de hoogte te stellen van eventuele wijzigingen, maar in sommige gevallen kunnen wij dat niet. De datum waarop dit beleid voor het laatst is gewijzigd, vindt u onderaan deze pagina. Additionally, you can view the revision history of this page [here](https://github.com/thepeacockproject/peacockprojectorg/commits/main/docs/legal/terms-of-service.md).

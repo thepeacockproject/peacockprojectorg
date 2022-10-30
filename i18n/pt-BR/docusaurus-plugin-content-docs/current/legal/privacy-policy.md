@@ -19,17 +19,12 @@ Esta política se aplica aos seguintes websites e produtos (coletivamente, os "S
 
 Quando você vê qualquer página que esta política de privacidade cobre, exatamente qual página, assim como o seu indereço de IP, e a hora é guardado por nós. Essa prática é típica da maioria dos websites. Essa informação fica guardada em nossos servidores por no máximo 72 horas.
 
-Quando você realiza o log in, as seguintes informações são logadas em nosso servidor (que nesse caso fica guardado por no máximo uma semana útil), ou guardada em nossa base de dados para recuperação/armazenamento de informação de longo prazo:
-
--   Todos os detalhes salvos quando você visualiza a página (como destacado acima) (logado)
--   Informações básicas sobre a sua conta Discord (veja a documentação de desenvolvedor do Discord para saber quais informações são retornadas quando usando OAuth 2)
--   Exceto quando explicitamente foi desativado de tabelas de classificação, detalhes dos eventos ativados durante as missões, assim como detalhes de pontuação, são guardados em nossa base de dados.
+When complete a level in-game when leaderboards are enabled, your score and other details about your session will be sent to us and stored indefinitely.
 
 ## Para que usamos essa informação?
 
 Usamos essa informação para propósitos que incluem:
 
--   Verificar que você está no Servidor do Discord
 -   Atribuir cargos com base no seu status de proprietário no servidor Discord
 -   Manter um acompanhamento das posições de tabelas de classificação e estatísticas, e para a moderação dessas tabelas de classificação.
 
@@ -83,14 +78,13 @@ Indivíduos da UE também têm o direito de fazer reclamações a uma autoridade
 
 Nossa infraestrutura faz o uso de terceiros que podem processar ou reter seus dados, as políticas de privacidade desses serviços podem ser encontrados em:
 
--   https://sentry.io/privacy/
 -   https://www.cloudflare.com/privacypolicy/
 -   https://discord.com/privacy
 -   https://www.hitmaps.com/privacy-policy
 
 ## Atualizações a esta política
 
-Esta política foi criada em 5 de Maio de 2021. Esta política pode mudar sem aviso prévio a qualquer momento. Nós sugerimos que verifique regularmente por quaisquer atualizações que podem afetá-lo.
+Esta política foi criada em 5 de Maio de 2021. Esta política pode mudar sem aviso prévio a qualquer momento. Nós sugerimos que verifique regularmente por quaisquer atualizações que podem afetá-lo. You can view the history of this policy [here](https://github.com/thepeacockproject/peacockprojectorg/commits/main/docs/legal/privacy-policy.md).
 
 ## Perguntas
 
