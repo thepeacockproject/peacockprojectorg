@@ -47,6 +47,11 @@ module.exports = {
                     label: "Wiki",
                 },
                 {
+                    href: "https://github.com/thepeacockproject",
+                    label: "Github",
+                    position: "left",
+                },
+                {
                     href: "https://discord.gg/F8qQTfnajw",
                     label: "Discord",
                     position: "left",
@@ -143,7 +148,7 @@ module.exports = {
                     if (locale !== `en`) {
                         return `https://crowdin.com/project/peacock/${locale}`
                     }
-                    return `https://github.com/thepeacockproject/peacockprojectorg/edit/main/docs/${docPath}`;
+                    return `https://github.com/thepeacockproject/peacockprojectorg/edit/main/docs/${docPath}`
                 },
                 showLastUpdateTime: true,
             },
@@ -164,7 +169,7 @@ module.exports = {
                 max: 1030,
                 min: 640,
                 steps: 2,
-            }
+            },
         ],
     ],
 }
