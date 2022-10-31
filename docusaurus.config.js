@@ -48,7 +48,7 @@ module.exports = {
                 },
                 {
                     href: "https://github.com/thepeacockproject",
-                    label: "Github",
+                    label: "GitHub",
                     position: "left",
                 },
                 {
