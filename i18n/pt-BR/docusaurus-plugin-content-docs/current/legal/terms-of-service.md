@@ -19,7 +19,7 @@ Nós concordamos em providenciar acesso do Peacock a proprietários selecionados
 
 ## Licenciamento
 
-As of October 20th, 2022, Peacock is an open-source project under the [GNU Affero General Public License, version 3.0](https://www.gnu.org/licenses/agpl-3.0.en.html).
+Em 20 de Outubro de 2022, o Peacock se tornou um projeto open-source (código aberto) sob a [Licença Pública Geral Affero GNU, versão 3.0](https://www.gnu.org/licenses/agpl-3.0.en.html).
 
 ## Doações
 
@@ -35,4 +35,4 @@ Todas as traduções são providenciadas apenas por propósitos informacionais. 
 
 ## Mudanças
 
-Esta política pode ser modificada a qualquer momento à nossa discrição. Nós tentaremos notificar a você de qualquer mudança, mas em alguns casos, nós podemos não ser capazes de fazê-lo. A data em que esta política foi modificada pela última vez pode ser encontrada no fim desta página. Additionally, you can view the revision history of this page [here](https://github.com/thepeacockproject/peacockprojectorg/commits/main/docs/legal/terms-of-service.md).
+Esta política pode ser modificada a qualquer momento à nossa discrição. Nós tentaremos notificar a você de qualquer mudança, mas em alguns casos, nós podemos não ser capazes de fazê-lo. A data em que esta política foi modificada pela última vez pode ser encontrada no fim desta página. Em adição, você pode ver o histórico de revisões desta página [aqui](https://github.com/thepeacockproject/peacockprojectorg/commits/main/docs/legal/terms-of-service.md).

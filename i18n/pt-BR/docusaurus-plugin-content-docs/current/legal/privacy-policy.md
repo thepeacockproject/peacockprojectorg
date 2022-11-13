@@ -19,7 +19,7 @@ Esta política se aplica aos seguintes websites e produtos (coletivamente, os "S
 
 Quando você vê qualquer página que esta política de privacidade cobre, exatamente qual página, assim como o seu indereço de IP, e a hora é guardado por nós. Essa prática é típica da maioria dos websites. Essa informação fica guardada em nossos servidores por no máximo 72 horas.
 
-When complete a level in-game when leaderboards are enabled, your score and other details about your session will be sent to us and stored indefinitely.
+Quando completar uma missão em jogo enquanto as tabelas de classificação estiverem ativas, sua pontuação e outros detalhes sobre sua sessão serão enviadas a nós e guardadas indefinidamente.
 
 ## Para que usamos essa informação?
 
@@ -84,7 +84,7 @@ Nossa infraestrutura faz o uso de terceiros que podem processar ou reter seus da
 
 ## Atualizações a esta política
 
-Esta política foi criada em 5 de Maio de 2021. Esta política pode mudar sem aviso prévio a qualquer momento. Nós sugerimos que verifique regularmente por quaisquer atualizações que podem afetá-lo. You can view the history of this policy [here](https://github.com/thepeacockproject/peacockprojectorg/commits/main/docs/legal/privacy-policy.md).
+Esta política foi criada em 5 de Maio de 2021. Esta política pode mudar sem aviso prévio a qualquer momento. Nós sugerimos que verifique regularmente por quaisquer atualizações que podem afetá-lo. Você pode ver o histórico desta política de provacidade [aqui](https://github.com/thepeacockproject/peacockprojectorg/commits/main/docs/legal/privacy-policy.md).
 
 ## Perguntas
 
