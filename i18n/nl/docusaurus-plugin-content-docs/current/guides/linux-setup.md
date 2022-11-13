@@ -42,6 +42,7 @@ node --enable-source-maps --harmony chunk0.js --hmr
     -   ```shell PORT=PORTNUMBER node --enable-source-maps --harmony chunk0.js --hmr
         ```
 
+```shell
 chmod +x ./theScriptsName.sh
 ```
 
