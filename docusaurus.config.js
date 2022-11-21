@@ -26,7 +26,7 @@ module.exports = {
             },
             zh: {
                 htmlLang: "zh-CN",
-            }
+            },
         },
     },
     themeConfig: {
