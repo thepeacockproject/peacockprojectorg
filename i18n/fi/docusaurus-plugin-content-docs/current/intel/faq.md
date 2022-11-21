@@ -50,7 +50,7 @@ title: Frequently Asked Questions
 ### Muut
 
 -   In Game Saving is supported, and as of Peacock v5.0.1 you can load official server saves in Peacock.
--   Challenges (currently implemented in Paris) are still in development and may be buggy. Report issues in the `#help` channel in Peacock discord.
+-   Challenges (currently implemented in Paris) are still in development and may be buggy. Report issues in the `#help` forum in Peacock discord.
 -   Using Peacock will affect your official servers profile in very small ways.
     -   Due to the fact that we have not properly implemented some minor features like content/story spoiler warnings, it will change them all to the 'I have already played' state. Other than that, it shouldn't have any affect.
 -   Note: If it is your first time playing (on either Peacock or official servers), some exits will be locked. You will need to unlock Dubai exits ([need to unlock the elevators](https://youtu.be/IEQgRQyQRf8)), Dartmoor exits ([need to exit via bike at least once](https://youtu.be/AJtJZe9jEi8?t=151)), and Colorado exits ([need to use tornado exit at least once](https://youtu.be/3XKWHrKpXwk?t=140)). These exits are handled client-side.

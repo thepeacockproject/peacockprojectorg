@@ -41,6 +41,8 @@ This tool is meant for use in full game Hitman speedruns.
 
 9. Click `ok` on the Layout Editor, then right-click the main LiveSplit window and select `save layout` for future use.
 
+10. Open `options.ini` in the Peacock folder and set `liveSplit = false` to be `liveSplit = true` instead, or else the livesplit integration will not work (it is turned off by default).
+
 ## How to Use
 
 (Do each time you open the game, order is important! Make sure to start LiveSplit and start the server before you start Peacock).

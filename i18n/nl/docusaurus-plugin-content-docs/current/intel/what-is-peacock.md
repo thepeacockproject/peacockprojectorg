@@ -20,7 +20,7 @@ De voordelen van het gebruiken van Peacock bevatten:
     -   **Spullen ontgrendelen door simpelweg het spel te spelen en uitdagingen voltooien is tot nu toe nog niet ondersteund**, al de implementatie wel gepland is voor een toekomstige versie van Peacock.
     -   Challenges are currently being implemented. As of Peacock v5.0.1, Paris map has support for in-game challenges.
     -   Als je het spel voor de eerste keer speelt (op Peacock of op de officiële servers), zullen sommige uitgangen afgesloten zijn. Je moet eerst de uitgangen in Dubai ontgrendelen ([de liften ontgrendelen)](https://youtu.be/IEQgRQyQRf8), de Dartmoor uitgangen ([je moet minimaal een keer met de motor vertrekken](https://youtu.be/AJtJZe9jEi8?t=151)), en de Colorado uitgangen ([je moet minimaal een keer met de tornado uitgang de map verlaten](https://youtu.be/3XKWHrKpXwk?t=140)). Deze uitgangen worden client-side afgehandeld.
--   Speel [bijgewerkte](../custom-content.mdx) of anders stopgezette/tijd beperkte inhoud zoals [Ghost Mode](https://thepeacockproject.org/wiki/ghost-mode), legacy escalations en eslusive targets.
+-   Speel [bijgewerkte](../custom-content.md) of anders stopgezette/tijd beperkte inhoud zoals [Ghost Mode](https://thepeacockproject.org/wiki/ghost-mode), legacy escalations en eslusive targets.
     -   Geeft het leaderboard weer voor andere Peacock gebruikers
 
 :::info Trivia: Waarom heet het Peacock?

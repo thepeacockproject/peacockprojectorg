@@ -23,11 +23,11 @@ _教程由[Fusha](https://www.speedrun.com/user/Fusha)初步编写_。
 
 ## 安装
 
-1. 如果你还未下载，下载[Peacock](https://thepeacockproject.org/wiki/intel/)和[LiveSplit](https://livesplit.org/downloads/)（只需解压到你想要的地方）。 **如果你已经安装过了Peacock，请确保它处于最新版本。**在你完成软件的安装/更新后，暂时关闭它们。
+1. 如果你还未下载，下载[Peacock](https://thepeacockproject.org/wiki/intel/)和[LiveSplit](https://livesplit.org/downloads/)（只需解压到你想要的地方）。 **如果你已经安装过了Peacock，请确保它处于最新版本。 **在你完成软件的安装/更新后，暂时关闭它们。
 
 2. 在这里下载`Livesplit.Server.zip`：https://github.com/LiveSplit/LiveSplit.Server/releases/latest
 
-3. 解压`Livesplit.Server.zip`。 将你从压缩包中解压出来的`Livesplit.Server.dll`和`Noes.Javascript.dll`文件移动到`Livesplit/Components`文件夹（如果你忘记了Livesplit的主程序在哪，查阅第一步）。 完成本步骤后`Livesplit/Components`文件夹应该[如图所示](https://media.discordapp.net/attachments/839264571990343681/1013559084814958694/unknown.png)。（如果你在中国大陆且无法访问网页，请查看[镜像](https://i.postimg.cc/nrvGm0Pd/livesplit.png)）
+3. 解压`Livesplit.Server.zip`。 将你从压缩包中解压出来的`Livesplit.Server.dll`和`Noes.Javascript.dll`文件移动到`Livesplit/Components`文件夹（如果你忘记了Livesplit的主程序在哪，查阅第一步）。 完成本步骤后`Livesplit/Components`文件夹应该[如图所示](https://media.discordapp.net/attachments/839264571990343681/1013559084814958694/unknown.png)。
 
 4. 启动LiveSplit。
 
@@ -40,6 +40,8 @@ _教程由[Fusha](https://www.speedrun.com/user/Fusha)初步编写_。
 8. 在`Edit Layout`页面上：点击`+`按钮，然后点击`Control`，再点击`Livesplit Server`。
 
 9. 在Layout Editor页面点击`ok`，然后在LiveSplit主窗口点击右键，并选择`save layout`以备后续使用。
+
+10. Open `options.ini` in the Peacock folder and set `liveSplit = false` to be `liveSplit = true` instead, or else the livesplit integration will not work (it is turned off by default).
 
 ## 如何使用
 

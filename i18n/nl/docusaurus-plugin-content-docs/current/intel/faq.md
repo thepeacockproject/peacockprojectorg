@@ -23,7 +23,7 @@ title: Veelgestelde vragen / Probleemoplossing
 -   As explained in the [What is Peacock](https://thepeacockproject.org/wiki/intel/what-is-peacock) page, **you need to be connected to the Internet, at least initially, to use Peacock**. This is to get past Steam / Epic verification. After connecting to Peacock the first time, you may disconnect from the Internet and stay connected to Peacock for the duration of your game session.
     -   If you have a phone with cellular data plan, you can use the phone as hotspot for your computer to connect to Internet.
 -   Don't try to use Peacock if it's literally your first time playing the game. You need to connect to the official servers at least once before you can connect to Peacock. After you've connected to official servers at least once you no longer have to do so in the future in order to use Peacock.
--   Probeer de `Start Server.cmd` uit te voeren als administrator.
+-   Try running the `PeacockPatcher.exe` as admin.
 -   Laat de optie "Use http instead of https" in de Peacock Patcher aangevinkt behalve als je Ghost Mode speelt.
 
 -   Peacock gebruikt standaard Poort 80 vanuit jouw PC voor de Peacock server.

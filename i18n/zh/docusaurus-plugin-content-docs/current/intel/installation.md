@@ -13,7 +13,7 @@ description: 如何上手Peacock。
 
 4. 转到你解压Peacock文件的地方，运行`Start Server.cmd`文件和`PeacockPatcher.exe`文件。
 
-    - 基于你如何安装Peacock，你可能需要打开两个文件夹来找到这些文件，[如示例图片所示](https://media.discordapp.net/attachments/833505136290299935/991068578579107870/unknown.png)。（若你在中国大陆且无法访问网页，请使用此[镜像](https://i.postimg.cc/3JQLgxcB/findfile.png)）
+    - 基于你如何安装Peacock，你可能需要打开两个文件夹来找到这些文件，[如示例图片所示](https://media.discordapp.net/attachments/833505136290299935/991068578579107870/unknown.png)。
 
     - 注意：如果你在游玩杀手3，你需要在每次杀手3更新时重复第2-3步（更多信息请参阅[更新](https://thepeacockproject.org/wiki/intel/updating)页面）。 同时对于三部受支持的杀手游戏任一，你都需要在每次启动游戏时重复第4步。 否则游戏将默认地回到官方服务器。
 
