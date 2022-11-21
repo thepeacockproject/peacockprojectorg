@@ -1,43 +1,43 @@
 ---
-title: Linux Setup Guide
-description: Guide for setting up Peacock on Linux or macOS.
+title: Linux初始化指南
+description: 在Linux系统或macOS系统上初始化Peacock的教程。
 ---
 
-Peacock is primarily built to work on Windows, but fear not, using it on Linux is possible!
+Peacock主要在Windows系统上使用，但别担心，在Linux系统上使用也是可能的！
 
-## Server
+## 服务器
 
-To get the server working on Linux, you will need to first prepare Node.js.
+为了在Linux系统上启用服务器，首先你需要准备好Node.js。
 
-### Install nvm
+### 安装nvm
 
-In order to do so, run the following command the first time:
+首先运行如下的命令行指令：
 
 ```shell
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ```
 
-This will download and install [nvm](https://nvm.sh), which allows quickly swapping between multiple Node.js versions. This will allow Peacock to always use the version of Node.js it needs to.
+该命令会下载和安装[nvm](https://nvm.sh)，一个允许快速切换Node.js版本的工具。 这将允许Peacock总是使用它所需要的Node.js版本。
 
-### Install Node.js
+### 安装Node.js
 
-Next, `cd` to the directory you have Peacock unzipped to, and run the following command:
+接下来，使用`cd`命令来到你解压Peacock文件的目录，随后运行如下的命令：
 
 ```shell
 nvm install
 ```
 
-This will install the version of Node.js required by Peacock. You will need to re-run this when Peacock updates.
+这会安装Peacock所需的Node.js版本。 当Peacock更新时，你需要重新使用该命令来更新Node.js。
 
-### Create a launcher script
+### 创建一个启动器脚本
 
-Finally, create a script that lets you easily start the server, with the suggested contents being as follows:
+最后，使用如下推荐的命令内容，创建一个能让你轻松启动服务器的脚本：
 
 ```shell
 node --enable-source-maps --harmony chunk0.js --hmr
 ```
 
--   Note: If you are using a port other than port 80, you should specify the port in your launcher script. Substitute `PORTNUMBER` in the script below with your port number of choice.
+-   备注：如果你的80端口已被使用，你需要在你的启动器脚本中指定一个其他端口。 将下面脚本中的`端口号`替换为你的你选择的端口号码。
 
     -   `PORT=PORTNUMBER node --enable-source-maps --harmony chunk0.js --hmr`
 
@@ -49,7 +49,7 @@ chmod +x ./theScriptsName.sh
 
 You can now launch the server by running the script you just created.
 
-## Patcher
+## 补丁安装器
 
 This part is a lot more tricky. You need to run the patcher in _the same Wine prefix as the game_.
 

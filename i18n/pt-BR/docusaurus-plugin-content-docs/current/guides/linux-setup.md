@@ -39,9 +39,11 @@ node --enable-source-maps --harmony chunk0.js --hmr
 
 -   Aviso: se você estiver utilizando uma porta diferente da porta 80, você deve especificar a porta no seu script de inicialização. Substitua `PORTNUMBER` no script abaixo com o número da porta de sua escolha.
 
-    -   ```shell PORT=PORTNUMBER node --enable-source-maps --harmony chunk0.js --hmr
-        ```
+    -   ` ```shell PORT=PORTNUMBER node --enable-source-maps --harmony chunk0.js --hmr `
 
+And then make the script executable:
+
+```shell
 chmod +x ./theScriptsName.sh
 ```
 
