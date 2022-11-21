@@ -58,9 +58,9 @@ Peacock同时支持官方服务器和Peacock自定义契约。
     -   如何游玩：在游戏中前往`游戏模式` -> `契约` -> `我的契约`。
 -   **用户创建的，Peacock的契约**
     -   如何安装：
-        -   在Peacock Discord群组中的`share-contracts`频道下载契约的`.json`文件。 将此`.json`文件安装到你的`Contracts`文件夹，[如图所示](https://media.discordapp.net/attachments/833505136290299935/991101789426421760/unknown.png)。（如你在中国大陆且无法访问网页，请使用此[镜像](https://i.postimg.cc/vm3rGRwt/contracts.png)）
+        -   在Peacock Discord群组中的`share-contracts`频道下载契约的`.json`文件。 将此`.json`文件安装到你的`Contracts`文件夹，[如图所示](https://media.discordapp.net/attachments/833505136290299935/991101789426421760/unknown.png)。
     -   如何创建自己的契约：
-        -   如果你在Peacock服务器运行时在游戏内创建了契约，你的契约会已`.json`形式保存在你的`Contracts`文件夹，[如图所示](https://media.discordapp.net/attachments/833505136290299935/991101789426421760/unknown.png)。（如果你在中国大陆且无法访问网页，请使用此[镜像](https://i.postimg.cc/vm3rGRwt/contracts.png)）
+        -   如果你在Peacock服务器运行时在游戏内创建了契约，你的契约会已`.json`形式保存在你的`Contracts`文件夹，[如图所示](https://media.discordapp.net/attachments/833505136290299935/991101789426421760/unknown.png)。
         -   如果你想让其他人游玩你的自定义Peacock契约，请确保在Peacock Discord群组的`share-contracts`频道分享你的`.json`文件。
     -   如何游玩：
         -   在游戏中前往`游戏模式` -> `契约` -> `我的契约`。
@@ -87,7 +87,7 @@ Peacock同时支持官方服务器和Peacock自定义契约。
 -   然后，将插件安装到你放置`Start Server.cmd`和`peacockpatcher.exe`的文件夹中。
 -   一些插件可能需要进阶设定或与新版本的Peacock不兼容，所以请确保在`#plugin-releases`频道中查找对应插件的进阶教程。
 
-**注意：插件只是杀手模组化场景中的一小部分。** **许多杀手模组是客户端侧的，不在Peacock范围内。**更多除了Peacock范围以外的客户端侧的通用模组，可以在这里查阅：
+**注意：插件只是杀手模组化场景中的一小部分。 **更多除了Peacock范围以外的客户端侧的通用模组，可以在这里查阅：
 
 -   [Nexusmods](https://www.nexusmods.com/hitman3)
 -   [Glacier Modding Discord](https://discord.com/invite/6UDtuYhZP6)
