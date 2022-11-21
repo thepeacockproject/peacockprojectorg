@@ -13,7 +13,7 @@ module.exports = {
     baseUrlIssueBanner: false,
     i18n: {
         defaultLocale: "en",
-        locales: ["en", "nl", "pt-BR"],
+        locales: ["en", "nl", "pt-BR", "zh"],
         localeConfigs: {
             en: {
                 htmlLang: "en-US",
@@ -24,6 +24,9 @@ module.exports = {
             "pt-BR": {
                 htmlLang: "pt-BR",
             },
+            zh: {
+                htmlLang: "zh-CN",
+            }
         },
     },
     themeConfig: {
