@@ -140,6 +140,33 @@ function Home() {
                         className={clsx(styles.buttons, styles.bottomCardSpace)}
                     >
                         <a
+                            href="/wiki/intel/installation"
+                            className={clsx(
+                                "button button--success button--lg",
+                                styles.fixedWidthBtn
+                            )}
+                        >
+                            <Translate
+                                id="homepage.installationButton"
+                                description="The text on the Installation button on the home page."
+                            >
+                                Check Installation Guide!
+                            </Translate>{" "}
+                            <OpenIcon className={styles.icon} />
+                        </a>
+                    </div>
+                    <small className="text--center">
+                        <Translate
+                            id="homepage.installationButtonBelowText"
+                            description="The text below the Installation button on the home page."
+                        >
+                            (Read Instructions before Installing)
+                        </Translate>
+                    </small>
+                    <div
+                        className={clsx(styles.buttons, styles.bottomCardSpace)}
+                    >
+                        <a
                             href="/discord"
                             className={clsx(
                                 "button button--success button--lg",
@@ -157,10 +184,10 @@ function Home() {
                     </div>
                     <small className="text--center">
                         <Translate
-                            id="homepage.joinDiscordButtonBelowText"
+                            id="homepage.joinDiscordButtonBelowText2"
                             description="The text below the join our Discord button on the home page."
                         >
-                            (Downloads are available on Discord)
+                            (Join Discord for Tech Support)
                         </Translate>
                     </small>
                 </section>

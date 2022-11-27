@@ -50,6 +50,11 @@ module.exports = {
                     label: "Wiki",
                 },
                 {
+                    href: "/wiki/intel/installation",
+                    label: "Installation Guide",
+                    position: "left",
+                },
+                {
                     href: "https://github.com/thepeacockproject",
                     label: "GitHub",
                     position: "left",

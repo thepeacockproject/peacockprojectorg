@@ -7,7 +7,7 @@ Here's how to get up and running with Peacock.
 
 1. Join the Peacock Discord server (https://thepeacockproject.org/discord).
 
-2. Go to the `#downloads` channel in the above Discord server and download the latest Peacock build.
+2. [Download the latest Peacock release here](https://github.com/thepeacockproject/Peacock/releases/latest). Select `Peacock-v<VERSIONNUMBER>.zip` or `Peacock-v<VERSIONNUMBER>-lite.zip`. The `lite` download does not have node modules included, otherwise they are the same.
 
 3. Extract (unzip) files. Running the files from within the zipped folder will not work.
 
