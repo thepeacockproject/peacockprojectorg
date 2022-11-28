@@ -9,7 +9,7 @@ Here's how to get up and running with Peacock.
 
 2. [Download the latest Peacock release here](https://github.com/thepeacockproject/Peacock/releases/latest). Select `Peacock-v<VERSIONNUMBER>.zip` to download.
 
-    - Note: There is also a `Peacock-v<VERSIONNUMBER>-lite.zip` option, but this is mainly for Linux users. The lite version does not include Node, which Linux users have to download separate binaries for anyways. If in doubt / not on Linux, download the non-lite version.
+    - Note: There is also a `Peacock-vX.Y.Z-lite.zip` option, but this is mainly for Linux users. The lite version does not include Node, which Linux users have to download separate binaries for anyway. If in doubt, download the non-lite version.
     - [More info for Linux Users](/wiki/guides/linux-setup)
 
 3. Extract (unzip) files. Running the files from within the zipped folder will not work.

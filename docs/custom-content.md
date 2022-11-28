@@ -90,5 +90,5 @@ Besides Legacy Escalations Plugin, which was described earlier in the Escalation
 
 **Note: Plugins are only a small portion of the Hitman modding scene. Many Hitman mods are done client-side and out of scope of Peacock.** More general-use client-side mods, outside the scope of Peacock, are aggregated here:
 
--   [Nexusmods](https://www.nexusmods.com/hitman3)
+-   [NexusMods](https://www.nexusmods.com/hitman3)
 -   [Glacier Modding Discord](https://discord.com/invite/6UDtuYhZP6)
