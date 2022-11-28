@@ -5,6 +5,13 @@ description: 在Linux系统或macOS系统上初始化Peacock的教程。
 
 Peacock主要在Windows系统上使用，但别担心，在Linux系统上使用也是可能的！
 
+## Update November 2022
+
+Update as of November 2022:
+
+-   Go to [this Github repo](https://github.com/thepeacockproject/linux-steam-setup) for updated instructions on how to get Peacock running on Linux with Steam.
+-   **Original Instructions below may also work.**
+
 ## 服务器
 
 为了在Linux系统上启用服务器，首先你需要准备好Node.js。
@@ -51,9 +58,9 @@ You can now launch the server by running the script you just created.
 
 ## 补丁安装器
 
-This part is a lot more tricky. This part is a lot more tricky. You need to run the patcher in _the same Wine prefix as the game_.
+This part is a lot more tricky. You need to run the patcher in _the same Wine prefix as the game_.
 
-Some users have gotten it to work, but others haven't. Some users have gotten it to work, but others haven't. Feel free to document your experience in the Discord's `#help` channel for anybody that has problems in the future to reference.
+Some users have gotten it to work, but others haven't. Feel free to document your experience in the Discord's `#help` channel for anybody that has problems in the future to reference.
 
 Some people have gotten it to work using the following command:
 
