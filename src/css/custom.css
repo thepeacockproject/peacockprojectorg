@@ -17,3 +17,7 @@
 small.text--center {
     margin-bottom: 10px;
 }
+
+.footer__logo {
+    max-width: 240px;
+}
