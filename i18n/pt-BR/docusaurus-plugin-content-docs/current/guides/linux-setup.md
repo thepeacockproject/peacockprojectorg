@@ -5,6 +5,13 @@ description: Guia para configurar o Peacock no Linux ou macOS.
 
 O Peacock foi feito para funcionar no Windows, mas não tema, usá-lo no Linux é possível!
 
+## Update November 2022
+
+Update as of November 2022:
+
+-   Go to [this Github repo](https://github.com/thepeacockproject/linux-steam-setup) for updated instructions on how to get Peacock running on Linux with Steam.
+-   **Original Instructions below may also work.**
+
 ## Servidor
 
 Para fazer o servidor funcionar no Linux, você precisará preparar o Node.js primeiro.
@@ -44,7 +51,7 @@ node --enable-source-maps --harmony chunk0.js --hmr
 And then make the script executable:
 
 ```shell
-chmod +x ./theScriptsName.sh
+chmod +x ./NomeDoScript.sh
 ```
 
 Você pode agora inicializar o servidor rodando o script que acabou de criar.

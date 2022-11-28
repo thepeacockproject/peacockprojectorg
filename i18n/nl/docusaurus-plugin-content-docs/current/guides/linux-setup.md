@@ -5,6 +5,13 @@ description: Gids voor het opzetten van Peacock op Linux of macOS.
 
 Peacock is primair gemaakt om te werken op Windows, maar ben niet bang, het is namelijk mogelijk om het ook op Linux gebruiken!
 
+## Update November 2022
+
+Update as of November 2022:
+
+-   Go to [this Github repo](https://github.com/thepeacockproject/linux-steam-setup) for updated instructions on how to get Peacock running on Linux with Steam.
+-   **Original Instructions below may also work.**
+
 ## Server
 
 Om de server aan de praat te krijgen op Linux, moet je eerst Node.js voorbereiden.

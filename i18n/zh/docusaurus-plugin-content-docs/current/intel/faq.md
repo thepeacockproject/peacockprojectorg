@@ -23,7 +23,7 @@ title: 常见问题解答
 -   正如[Peacock是什么](https://thepeacockproject.org/wiki/intel/what-is-peacock)页面中所说， **你需要连接到互联网，最起码在启动时，来使用Peacock**。 这是为了通过Steam/Epic平台的验证。 在首次连接到Peacock后，你可以从互联网中断开，并在游戏进程的阶段中保持连接到Peacock。
     -   如果你的手机有移动数据流量，你可以使用手机为电脑提供热点来连接到互联网。
 -   如果这是你第一次游玩游戏，请不要尝试使用Peacock。 在你连接Peacock之前，你必须至少连接到官方服务器一次。 在你连接到官方服务器一次以后，在后续使用Peacock时不再需要连接到官方服务器。
--   Try running the `PeacockPatcher.exe` as admin.
+-   尝试以管理员身份运行`PeacockPatcher.exe`。
 -   在Peacock Patcher中，保持选中"Use http instead of https"（使用http协议），除非你在游玩幽灵模式。
 
 -   Peacock默认在你的电脑上使用80端口来启动Peacock服务器。

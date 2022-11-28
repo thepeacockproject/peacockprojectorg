@@ -42,10 +42,6 @@
     "message": "Junte-se ao nosso Discord!",
     "description": "The text on the join our Discord button on the home page."
   },
-  "homepage.joinDiscordButtonBelowText": {
-    "message": "(Downloads estão disponíveis no Discord)",
-    "description": "The text below the join our Discord button on the home page."
-  },
   "theme.IdealImageMessage.loading": {
     "message": "Carregando...",
     "description": "When the full-scale image is loading"
@@ -320,5 +316,17 @@
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
     "message": "Ativar barra de navegação",
     "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "homepage.installationButton": {
+    "message": "Check Installation Guide!",
+    "description": "The text on the Installation button on the home page."
+  },
+  "homepage.installationButtonBelowText": {
+    "message": "(Read instructions before installing)",
+    "description": "The text below the Installation button on the home page."
+  },
+  "homepage.joinDiscordButtonBelowText2": {
+    "message": "(Join our Discord for support, update notifications, plugins to extend Peacock (new features, game modes), and more!)",
+    "description": "The text below the join our Discord button on the home page."
   }
 }
