@@ -7,7 +7,10 @@ description: 如何上手Peacock。
 
 1. 加入Peacock Discord群组（https://thepeacockproject.org/discord）。
 
-2. 在上述Discord群组中转到`#downloads`频道并下载最新的Peacock构建版本。
+2. [Download the latest Peacock release here](https://github.com/thepeacockproject/Peacock/releases/latest). Select `Peacock-vX.Y.Z.zip` to download.
+
+    - Note: There is also a `Peacock-vX.Y.Z-lite.zip` option, but this is mainly for Linux users. The lite version does not include Node, which Linux users have to download separate binaries for anyway. If in doubt, download the non-lite version.
+    - [More info for Linux Users](/wiki/guides/linux-setup)
 
 3. 解压文件。 在压缩包内运行程序是无效的。
 

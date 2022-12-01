@@ -41,7 +41,7 @@ _教程由[Fusha](https://www.speedrun.com/user/Fusha)初步编写_。
 
 9. 在Layout Editor页面点击`ok`，然后在LiveSplit主窗口点击右键，并选择`save layout`以备后续使用。
 
-10. Open `options.ini` in the Peacock folder and set `liveSplit = false` to be `liveSplit = true` instead, or else the livesplit integration will not work (it is turned off by default).
+10. 打开Peacock文件夹中的`options.ini`，将`liveSplit`修改为`liveSplit = true`，否则livesplit整合将不会生效（此选项默认是关闭的）。
 
 ## 如何使用
 

@@ -7,7 +7,10 @@ Aqui estão as instruções para se começar a usar o Peacock.
 
 1. Junte-se ao servidor Discord do Peacock (https://thepeacockproject.org/discord).
 
-2. Vá para o canal `#downloads` no servidor Discord acima e faça o download da mais recente versão do Peacock.
+2. [Download the latest Peacock release here](https://github.com/thepeacockproject/Peacock/releases/latest). Select `Peacock-vX.Y.Z.zip` to download.
+
+    - Note: There is also a `Peacock-vX.Y.Z-lite.zip` option, but this is mainly for Linux users. The lite version does not include Node, which Linux users have to download separate binaries for anyway. If in doubt, download the non-lite version.
+    - [More info for Linux Users](/wiki/guides/linux-setup)
 
 3. Extraia (descompacte) os arquivos. Rodar os arquivos de dentro do arquivo compactado não irá funcionar.
 

@@ -23,7 +23,7 @@ title: 常见问题解答
 -   正如[Peacock是什么](https://thepeacockproject.org/wiki/intel/what-is-peacock)页面中所说， **你需要连接到互联网，最起码在启动时，来使用Peacock**。 这是为了通过Steam/Epic平台的验证。 在首次连接到Peacock后，你可以从互联网中断开，并在游戏进程的阶段中保持连接到Peacock。
     -   如果你的手机有移动数据流量，你可以使用手机为电脑提供热点来连接到互联网。
 -   如果这是你第一次游玩游戏，请不要尝试使用Peacock。 在你连接Peacock之前，你必须至少连接到官方服务器一次。 在你连接到官方服务器一次以后，在后续使用Peacock时不再需要连接到官方服务器。
--   Try running the `PeacockPatcher.exe` as admin.
+-   尝试以管理员身份运行`PeacockPatcher.exe`。
 -   在Peacock Patcher中，保持选中"Use http instead of https"（使用http协议），除非你在游玩幽灵模式。
 
 -   Peacock默认在你的电脑上使用80端口来启动Peacock服务器。
@@ -39,7 +39,7 @@ title: 常见问题解答
 
     -   如果因某些原因你无法或不想关闭占用了80端口的程序，你可以在你的`Start Server.cmd`文件中加一行内容来设定一个端口。 同时，确保在Peacock Patcher中的”Server Address（服务器地址）“输入框内输入`127.0.0.1:端口号`，其中，`端口号`表示你在`Start Server.cmd`中指定的端口号。
         -   参阅[此示例图片](https://media.discordapp.net/attachments/839264571990343681/985885230634242048/unknown.png)来查看需要在`Start Server.cmd`中编写的内容。 （若你在中国大陆且无法访问网页，请使用此[镜像](https://i.postimg.cc/76L1NVQy/startserver.png)）
-        -   参阅[此示例图片](https://media.discordapp.net/attachments/839264571990343681/992523717869568050/unknown.png)来查看需要在Start Server.cmd中编写的内容。（若你在中国大陆且无法访问网页，请使用此[镜像](https://i.postimg.cc/nr0xBn5k/peacockpatcher.png)）
+        -   参阅[此示例图片](https://media.discordapp.net/attachments/839264571990343681/992523717869568050/unknown.png)来查看需要在Peacock Patcher中编写的内容。（若你在中国大陆且无法访问网页，请使用此[镜像](https://i.postimg.cc/nr0xBn5k/peacockpatcher.png)）
 
 ### 物品/地图缺失
 

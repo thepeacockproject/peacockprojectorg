@@ -7,7 +7,10 @@ Hier lees je hoe je aan de slag kunt met Peacock.
 
 1. Word lid van de Peacock Discord-server (https://thepeacockproject.org/discord).
 
-2. Ga naar het `#downloads` kanaal in de Peacock Discord server en download de laaste Peacock versie.
+2. [Download the latest Peacock release here](https://github.com/thepeacockproject/Peacock/releases/latest). Select `Peacock-vX.Y.Z.zip` to download.
+
+    - Note: There is also a `Peacock-vX.Y.Z-lite.zip` option, but this is mainly for Linux users. The lite version does not include Node, which Linux users have to download separate binaries for anyway. If in doubt, download the non-lite version.
+    - [More info for Linux Users](/wiki/guides/linux-setup)
 
 3. Extract (unzip) de bestanden. De bestanden vanuit de gezipte folder uitvoeren zal niet werken.
 
