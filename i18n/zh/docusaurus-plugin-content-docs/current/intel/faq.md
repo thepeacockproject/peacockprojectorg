@@ -39,7 +39,7 @@ title: 常见问题解答
 
     -   如果因某些原因你无法或不想关闭占用了80端口的程序，你可以在你的`Start Server.cmd`文件中加一行内容来设定一个端口。 同时，确保在Peacock Patcher中的”Server Address（服务器地址）“输入框内输入`127.0.0.1:端口号`，其中，`端口号`表示你在`Start Server.cmd`中指定的端口号。
         -   参阅[此示例图片](https://media.discordapp.net/attachments/839264571990343681/985885230634242048/unknown.png)来查看需要在`Start Server.cmd`中编写的内容。 （若你在中国大陆且无法访问网页，请使用此[镜像](https://i.postimg.cc/76L1NVQy/startserver.png)）
-        -   参阅[此示例图片](https://media.discordapp.net/attachments/839264571990343681/992523717869568050/unknown.png)来查看需要在Start Server.cmd中编写的内容。（若你在中国大陆且无法访问网页，请使用此[镜像](https://i.postimg.cc/nr0xBn5k/peacockpatcher.png)）
+        -   参阅[此示例图片](https://media.discordapp.net/attachments/839264571990343681/992523717869568050/unknown.png)来查看需要在Peacock Patcher中编写的内容。（若你在中国大陆且无法访问网页，请使用此[镜像](https://i.postimg.cc/nr0xBn5k/peacockpatcher.png)）
 
 ### 物品/地图缺失
 

@@ -124,7 +124,11 @@ function Home() {
                     </div>
                 </section>
                 <section
-                    className={clsx(styles.bottomCardSpace, styles.bigCardSpace, styles.enableGrid)}
+                    className={clsx(
+                        styles.bottomCardSpace,
+                        styles.bigCardSpace,
+                        styles.enableGrid
+                    )}
                 >
                     <h3
                         className={clsx("text--center", styles.bottomCardSpace)}
@@ -187,7 +191,9 @@ function Home() {
                             id="homepage.joinDiscordButtonBelowText2"
                             description="The text below the join our Discord button on the home page."
                         >
-                            (Join our Discord for support, update notifications, plugins to extend Peacock (new features, game modes), and more!)
+                            (Join our Discord for support, update notifications,
+                            plugins to extend Peacock (new features, game
+                            modes), and more!)
                         </Translate>
                     </small>
                 </section>
