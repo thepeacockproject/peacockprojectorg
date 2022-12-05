@@ -5,12 +5,15 @@ description: 如何上手Peacock。
 
 以下是如何获取和运行Peacock的教程。
 
-1. 加入Peacock Discord群组（https://thepeacockproject.org/discord）。
+-   Steps 2-3 may need to be repeated whenever Peacock receives an update (more info on the [Updating](https://thepeacockproject.org/wiki/intel/updating) page).
+-   Steps 4-5 need to be repeated every time you launch the game. 否则游戏将默认地回到官方服务器。
 
-2. [Download the latest Peacock release here](https://github.com/thepeacockproject/Peacock/releases/latest). Select `Peacock-vX.Y.Z.zip` to download.
+1. Be sure to check the [requirements](https://thepeacockproject.org/wiki/intel/requirements) before reading further to ensure you have the required games / operating systems. **Xbox Game Pass / Microsoft PC version of Hitman 3 is not supported**, and [Linux users should check this page](/wiki/guides/linux-setup).
 
-    - Note: There is also a `Peacock-vX.Y.Z-lite.zip` option, but this is mainly for Linux users. The lite version does not include Node, which Linux users have to download separate binaries for anyway. If in doubt, download the non-lite version.
-    - [More info for Linux Users](/wiki/guides/linux-setup)
+2. [在此处下载最新版本的Peacock](https://github.com/thepeacockproject/Peacock/releases/latest)。 选择`Peacock-v主版本号.副版本号.小版本号.zip`来下载。
+
+    - 注意：这里也有一个`Peacock-v主版本号.副版本号.小版本号-lite.zip`的选项，但这主要是提供给Linux用户的。 The lite version does not include Node, which Linux users have to download separate binaries for anyways. If in doubt / not on Linux, download the non-lite version.
+    - Refer to Step 1 for general Linux instructions.
 
 3. 解压文件。 在压缩包内运行程序是无效的。
 
@@ -18,6 +21,4 @@ description: 如何上手Peacock。
 
     - 基于你如何安装Peacock，你可能需要打开两个文件夹来找到这些文件，[如示例图片所示](https://media.discordapp.net/attachments/833505136290299935/991068578579107870/unknown.png)。
 
-    - 注意：如果你在游玩杀手3，你需要在每次杀手3更新时重复第2-3步（更多信息请参阅[更新](https://thepeacockproject.org/wiki/intel/updating)页面）。 同时对于三部受支持的杀手游戏任一，你都需要在每次启动游戏时重复第4步。 否则游戏将默认地回到官方服务器。
-
-5. 现在启动游戏。 如果遇到问题，请参阅[常见问题解答](https://thepeacockproject.org/wiki/intel/faq)或在[Peacock Discord群组](https://thepeacockproject.org/discord)的`#help`频道上提问。
+5. Now start up the game while `Start Server` and `PeacockPatcher.exe` are still running. The game should launch with Peacock server. 如果遇到问题，请参阅[常见问题解答](https://thepeacockproject.org/wiki/intel/faq)或在[Peacock Discord群组](https://thepeacockproject.org/discord)的`#help`频道上提问。
