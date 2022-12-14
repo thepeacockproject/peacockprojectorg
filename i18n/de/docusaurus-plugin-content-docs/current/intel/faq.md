@@ -1,10 +1,10 @@
 ---
-title: Frequently Asked Questions
+title: Häufig gestellte Fragen
 ---
 
-## Troubleshooting FAQ
+## Problembehandlung
 
-### Wrong Game Version / Platform
+### Falsche Spielversion / Plattform
 
 -   Check the [Requirements](https://thepeacockproject.org/wiki/intel/requirements) section of this guide, make sure you have a supported game version and platform, etc.
     -   **Xbox Game Pass / Microsoft PC version of Hitman 3 is not supported (commonly asked)**.
@@ -24,7 +24,7 @@ title: Frequently Asked Questions
 -   As explained in the [What is Peacock](https://thepeacockproject.org/wiki/intel/what-is-peacock) page, **you need to be connected to the Internet, at least initially, to use Peacock**. This is to get past Steam / Epic verification. After connecting to Peacock the first time, you may disconnect from the Internet and stay connected to Peacock for the duration of your game session.
     -   If you have a phone with cellular data plan, you can use the phone as hotspot for your computer to connect to Internet.
 -   Don't try to use Peacock if it's literally your first time playing the game. You need to connect to the official servers at least once before you can connect to Peacock. After you've connected to official servers at least once you no longer have to do so in the future in order to use Peacock.
--   Try running the `Start Server.cmd` as admin.
+-   Try running the `PeacockPatcher.exe` as admin.
 -   Keep the option "Use http instead of https" in Peacock patcher ticked unless you are playing Ghost Mode.
 
 -   Peacock by default uses Port 80 on your PC for the Peacock server.
@@ -48,7 +48,7 @@ title: Frequently Asked Questions
 
     -   If you have trouble finding the `userdata` folder, [check this example image](https://media.discordapp.net/attachments/833505136290299935/991071183732613200/unknown.png).
 
-### Muut
+### Other
 
 -   In Game Saving is supported, and as of Peacock v5.0.1 you can load official server saves in Peacock.
 -   Challenges (currently implemented in Paris) are still in development and may be buggy. Report issues in the `#help` forum in Peacock discord.

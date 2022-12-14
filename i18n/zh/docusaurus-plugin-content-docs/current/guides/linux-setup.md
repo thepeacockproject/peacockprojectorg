@@ -5,12 +5,12 @@ description: 在Linux系统或macOS系统上初始化Peacock的教程。
 
 Peacock主要在Windows系统上使用，但别担心，在Linux系统上使用也是可能的！
 
-## Update November 2022
+## 2022年11月的更新
 
-Update as of November 2022:
+截至在2022年11月的更新：
 
--   Go to [this Github repo](https://github.com/thepeacockproject/linux-steam-setup) for updated instructions on how to get Peacock running on Linux with Steam.
--   **Original Instructions below may also work.**
+-   前往[这个Github仓库](https://github.com/thepeacockproject/linux-steam-setup)来查看在Linux系统上的Steam运行Peacock的教程。
+-   **以下的旧版教程也许仍然有效。**
 
 ## 服务器
 
@@ -46,23 +46,23 @@ node --enable-source-maps --harmony chunk0.js --hmr
 
 -   备注：如果你的80端口已被使用，你需要在你的启动器脚本中指定一个其他端口。 将下面脚本中的`端口号`替换为你的你选择的端口号码。
 
-    -   `PORT=PORTNUMBER node --enable-source-maps --harmony chunk0.js --hmr`
+    -   `PORT=端口号 node --enable-source-maps --harmony chunk0.js --hmr`
 
-And then make the script executable:
+然后将脚本设为可执行：
 
 ```shell
 chmod +x ./theScriptsName.sh
 ```
 
-You can now launch the server by running the script you just created.
+现在，你可以通过运行你刚刚创建的脚本启动服务器。
 
 ## 补丁安装器
 
-This part is a lot more tricky. You need to run the patcher in _the same Wine prefix as the game_.
+这一部分将比较困难。 你需要在_和游戏相同的Wine前缀（Wine Prefix）_上运行补丁。
 
-Some users have gotten it to work, but others haven't. Feel free to document your experience in the Discord's `#help` channel for anybody that has problems in the future to reference.
+一些用户可以正常使用，但其他人不行。 请在Discord的`#help`频道留下你的经验供将来其他遇到此问题的人做参考。
 
-Some people have gotten it to work using the following command:
+一些人通过以下的命令即可让补丁有效：
 
 ```shell
 STEAM_COMPAT_DATA_PATH="$HOME/.steam/root/steamapps/compatdata/1659040" \
@@ -71,4 +71,4 @@ STEAM_COMPAT_DATA_PATH="$HOME/.steam/root/steamapps/compatdata/1659040" \
   "$HOME/.steam/root/steamapps/common/Proton\ -\ Experimental/proton" run /path/to/PeacockPatcher.exe
 ```
 
-Obviously, you will need to change the paths to match your install of Steam, Proton, and the patcher.
+当然，你需要修改命令中的文件路径，来匹配你的Steam、Proton以及补丁位置。

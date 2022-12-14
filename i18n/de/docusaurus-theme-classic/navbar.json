@@ -1,10 +1,10 @@
 {
   "title": {
-    "message": "Peacock计划",
+    "message": "The Peacock Project",
     "description": "The title in the navbar"
   },
   "item.label.Wiki": {
-    "message": "百科",
+    "message": "Wiki",
     "description": "Navbar item with label Wiki"
   },
   "item.label.Discord": {
@@ -16,7 +16,7 @@
     "description": "Navbar item with label GitHub"
   },
   "item.label.Installation Guide": {
-    "message": "安装指南",
+    "message": "Installation Guide",
     "description": "Navbar item with label Installation Guide"
   }
 }

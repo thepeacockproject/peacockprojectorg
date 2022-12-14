@@ -318,15 +318,15 @@
     "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "homepage.installationButton": {
-    "message": "Check Installation Guide!",
+    "message": "Veja Guia de Instalação!",
     "description": "The text on the Installation button on the home page."
   },
   "homepage.installationButtonBelowText": {
-    "message": "(Read instructions before installing)",
+    "message": "(Leia as instruções antes de instalar)",
     "description": "The text below the Installation button on the home page."
   },
   "homepage.joinDiscordButtonBelowText2": {
-    "message": "(Join our Discord for support, update notifications, plugins to extend Peacock (new features, game modes), and more!)",
+    "message": "(Junte-se ao nosso Discord para suporte, notificações de atualização, plugins de extensão (novos recursos, modos), e mais!)",
     "description": "The text below the join our Discord button on the home page."
   }
 }

@@ -30,7 +30,7 @@ description: Peacock项目如何处理和储存用户数据
 
 ## 请求删除你的数据
 
-请在Discord上联系一名项目管理员，或电邮admin[at symbol]thepeacockproject[dot]org。
+请在Discord上联系一名项目管理员，或电邮admin [at symbol] thepeacockproject [dot] org。
 
 ## 在何处退出
 
