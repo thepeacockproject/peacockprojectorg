@@ -8,7 +8,7 @@ List of additional projects from the Peacock developers intended to help the Hit
 
 ## Contracts Repository
 
--   [Contracts Database Github Repository](https://github.com/thepeacockproject/Contracts)
+-   [Contracts Database GitHub Repository](https://github.com/thepeacockproject/Contracts)
 
 This repository stores information about Hitman contracts, so that they are not lost to time.
 

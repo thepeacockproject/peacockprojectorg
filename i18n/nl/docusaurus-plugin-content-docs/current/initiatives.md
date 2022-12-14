@@ -8,7 +8,7 @@ Lijst van aanvullende projecten van de Peacock ontwikkelaars om de Hitman gemeen
 
 ## Bewaarplaats voor contracten
 
--   [Contract Database Github Bewaarplaats](https://github.com/thepeacockproject/Contracts)
+-   [Contracts Database GitHub Repository](https://github.com/thepeacockproject/Contracts)
 
 Deze bewaarplaats slaat informatie op over Hitman contracten, zodat deze niet verloren gaan met tijd.
 
