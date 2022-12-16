@@ -8,7 +8,7 @@ Lista de projetos adicionais dos desenvolvedores do Peacock com a inteção de a
 
 ## Repositório de Contratos
 
--   [Contracts Database GitHub Repository](https://github.com/thepeacockproject/Contracts)
+-   [Repositório da Base de Dados de Contratos no GitHub](https://github.com/thepeacockproject/Contracts)
 
 Esse repositório guarda informações sobre os contratos de Hitman, para que eles não sejam perdidos com o tempo.
 

@@ -71,7 +71,7 @@ title: 常见问题解答
 
 -   首先声明：进度（物品解锁等）当前不受支持，尽管在将来有相关计划。 Peacock将直接给你提供所有的物品（根据你所购买的DLC判定你有资格拥有的物品）。
 -   游戏内挑战已在Peacock v5.0.1开始启用。
--   在询问任何有关幽灵模式、升级、用户契约、难寻目标之前，请参阅[自定义内容页面](https://thepeacockproject.org/wiki/custom-content)以及[幽灵模式页面](https://thepeacockproject.org/wiki/ghost-mode)。
+-   在询问任何有关幽灵模式、升级、用户契约、行踪不定的目标之前，请参阅[自定义内容页面](https://thepeacockproject.org/wiki/custom-content)以及[幽灵模式页面](https://thepeacockproject.org/wiki/ghost-mode)。
 -   Mod（模组）兼容性：
     -   大部分模组都与Peacock兼容；除了三种以外。
         -   如果一个模组修改了契约（任务，特殊要求等），它需要一个Peacock插件来兼容。
