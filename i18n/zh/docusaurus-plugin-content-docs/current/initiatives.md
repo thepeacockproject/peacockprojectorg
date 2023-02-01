@@ -8,7 +8,7 @@ Peacock开发者的其他帮助杀手社区的项目列表。
 
 ## 契约库
 
--   [Contracts Database GitHub Repository](https://github.com/thepeacockproject/Contracts)
+-   [Github契约数据库](https://github.com/thepeacockproject/Contracts)
 
 该仓库储存了杀手的契约信息，所以它们不会随时间消逝。
 
