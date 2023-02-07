@@ -85,6 +85,8 @@ Peacock同时支持官方服务器和Peacock自定义契约。
 
 -   简单来说，前往Peacock Discord群组的`#plugin-releases`频道来下载一个你感兴趣的插件。
 -   然后，将插件安装到你放置`Start Server.cmd`和`peacockpatcher.exe`的文件夹中。
+-   Alternatively, create a folder named `plugins`, and then put your plugins there, to organize your files better.
+    -   Example: ![PluginsFolder](https://media.discordapp.net/attachments/1018323831468851202/1072614932790648922/image.png)
 -   一些插件可能需要进阶设定或与新版本的Peacock不兼容，所以请确保在`#plugin-releases`频道中查找对应插件的进阶教程。
 
 **注意：插件只是杀手模组化场景中的一小部分。 **更多除了Peacock范围以外的客户端侧的通用模组，可以在这里查阅：
