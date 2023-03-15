@@ -38,9 +38,16 @@ title: Veelgestelde vragen / Probleemoplossing
         4. Zet deze beide uit als ze zichtbaar zijn
         5. Probeer het nog een keer, als dat niet werkt, herstart jouw computer, en probeer het dan nog een keer
 
-    -   Als je voor welke reden dan ook het idee van het stoppen van het proces op Poort 80, kan je het `Start Server.cmd` bestand bewerken om het op een andere poort te starten. Zorg er ook voor dat je `127.0.0.1:POORTNUMMER` bij "Server Address" van de Peacock Patcher invoert, `POORTNUMMER` staat voor welke poort je in `Start Server.cmd` hebt ingevuld.
-        -   Verwijs naar [deze voorbeeldafbeelding](https://media.discordapp.net/attachments/839264571990343681/985885230634242048/unknown.png) voor wat je in `Start Server.cmd` moet typen.
-        -   Verwijs naar [deze voorbeeldafbeelding](https://media.discordapp.net/attachments/839264571990343681/992523717869568050/unknown.png) voor wat je in de Peacock Patcher moet typen.
+    -   Here's how to change the port Peacock uses, if you don't want to stop the process on Port 80:
+        -   In the instructions below, please substitute `PORTNUMBER` with a port that is not currently running on your PC, e.g. `8080`, `6969`, `3000`, etc.
+        -   Change `Start Server.cmd` to be as follows:
+        ```
+        @echo off
+        SET PORT=PORTNUMBER
+        .\nodedist\node.exe chunk0.js
+        PAUSE
+        ```
+        -   Type `localhost:PORTNUMBER` into the server window, [as shown here](https://media.discordapp.net/attachments/839264571990343681/992523717869568050/unknown.png)
 
 ### Missing Items / Maps
 
