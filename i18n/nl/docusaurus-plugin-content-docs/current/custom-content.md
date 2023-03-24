@@ -85,6 +85,8 @@ Naast de Legacy Escalations Plugin, die eerder omschreven is in de Escalations s
 
 -   In grote lijnen, om plugins te installeren, ga je naar `#plugin-releases` in de Discord server van Peacock, en dan download je de plugin waarin je interesse hebt.
 -   Installeer dan de plugin in dezelfde folder waar `Start Server.cmd` en `peacockpatcher.exe` in zitten.
+-   Alternatively, create a folder named `plugins`, and then put your plugins there, to organize your files better.
+    -   Example: ![PluginsFolder](https://media.discordapp.net/attachments/1018323831468851202/1072614932790648922/image.png)
 -   Kijk voor verdere instructies in het `#plugin-releases` kanaal voor een specifieke plugin; sommige plugins kunnen meerdere installatiestappen hebben en/of kunnen mogelijk niet werken met nieuwere versies van Peacock.
 
 **Opmerking: Plugins zijn maar een klein deel van het modding-gedeelte van Hitman. Veel Hitman mods worden client-side uitgevoerd en zijn buiten het bereik van Peacock.** Meer normaal-gebruikte mods, buiten bereik van Peacock, zijn hier geaggregeerd:

@@ -7,11 +7,11 @@ Peacock为我们的用户提供了许多有趣的内容。 这里是我们的一
 
 ## 难寻目标
 
-在Peacock中，你可以随意重新游玩难寻目标，重新开始时无时间冷却（不像难寻目标街机模式），也无时间限制。
+在Peacock中，你可以随意重新游玩行踪不定的目标，重新开始时无时间冷却（不像行踪不定的目标街机模式），也无时间限制。
 
 -   **如何游玩：**
-    -   在Peacock中启动杀手3后，在游戏中前往`生涯` -> `难寻目标`
--   参阅[Plugins](#plugins)板块查看在杀手3中安装难寻目标“The Brothers”（删减内容）的信息。
+    -   在Peacock中启动杀手3后，在游戏中前往`生涯` -> `行踪不定的目标`
+-   参阅[Plugins](#plugins)板块查看在杀手3中安装行踪不定的目标“The Brothers”（删减内容）的信息。
 
 ## 升级
 
@@ -75,7 +75,7 @@ Peacock同时支持官方服务器和Peacock自定义契约。
 -   萨拉热窝六号
     -   仅在Playstation上的杀手2016可用的奖励任务。
     -   安装指南：https://rentry.org/H3_TS6
--   兄弟 难寻目标（删减内容）
+-   兄弟 行踪不定的目标（删减内容）
     -   下载文件：https://www.nexusmods.com/hitman3/mods/375?tab=files
     -   安装模组的主要部分（在Simple Mod Framework中未标记为”Peacock Plugin”的文件）。 将模组中的“Peacock Plugin”部分放入你的Peacock安装文件夹。 如果对这些步骤有任何问题，阅读上面的萨拉热窝六号安装指南。
 -   在游戏中添加未启用的武器的插件
@@ -85,6 +85,8 @@ Peacock同时支持官方服务器和Peacock自定义契约。
 
 -   简单来说，前往Peacock Discord群组的`#plugin-releases`频道来下载一个你感兴趣的插件。
 -   然后，将插件安装到你放置`Start Server.cmd`和`peacockpatcher.exe`的文件夹中。
+-   Alternatively, create a folder named `plugins`, and then put your plugins there, to organize your files better.
+    -   Example: ![PluginsFolder](https://media.discordapp.net/attachments/1018323831468851202/1072614932790648922/image.png)
 -   一些插件可能需要进阶设定或与新版本的Peacock不兼容，所以请确保在`#plugin-releases`频道中查找对应插件的进阶教程。
 
 **注意：插件只是杀手模组化场景中的一小部分。 **更多除了Peacock范围以外的客户端侧的通用模组，可以在这里查阅：

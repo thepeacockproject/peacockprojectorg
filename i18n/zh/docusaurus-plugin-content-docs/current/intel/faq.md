@@ -38,9 +38,16 @@ title: 常见问题解答
         4. 如果它们存在，禁用它们
         5. 重试一次，如果仍然连接失败，重启你的电脑后再试一次
 
-    -   如果因某些原因你无法或不想关闭占用了80端口的程序，你可以在你的`Start Server.cmd`文件中加一行内容来设定一个端口。 同时，确保在Peacock Patcher中的”Server Address（服务器地址）“输入框内输入`127.0.0.1:端口号`，其中，`端口号`表示你在`Start Server.cmd`中指定的端口号。
-        -   参阅[此示例图片](https://media.discordapp.net/attachments/839264571990343681/985885230634242048/unknown.png)来查看需要在`Start Server.cmd`中编写的内容。 （若你在中国大陆且无法访问网页，请使用此[镜像](https://i.postimg.cc/76L1NVQy/startserver.png)）
-        -   参阅[此示例图片](https://media.discordapp.net/attachments/839264571990343681/992523717869568050/unknown.png)来查看需要在Peacock Patcher中编写的内容。（若你在中国大陆且无法访问网页，请使用此[镜像](https://i.postimg.cc/nr0xBn5k/peacockpatcher.png)）
+    -   Here's how to change the port Peacock uses, if you don't want to stop the process on Port 80:
+        -   In the instructions below, please substitute `PORTNUMBER` with a port that is not currently running on your PC, e.g. `8080`, `6969`, `3000`, etc.
+        -   Change `Start Server.cmd` to be as follows:
+        ```
+        @echo off
+        SET PORT=PORTNUMBER
+        .\nodedist\node.exe chunk0.js
+        PAUSE
+        ```
+        -   Type `localhost:PORTNUMBER` into the server window, [as shown here](https://media.discordapp.net/attachments/839264571990343681/992523717869568050/unknown.png)
 
 ### 物品/地图缺失
 
@@ -71,7 +78,7 @@ title: 常见问题解答
 
 -   首先声明：进度（物品解锁等）当前不受支持，尽管在将来有相关计划。 Peacock将直接给你提供所有的物品（根据你所购买的DLC判定你有资格拥有的物品）。
 -   游戏内挑战已在Peacock v5.0.1开始启用。
--   在询问任何有关幽灵模式、升级、用户契约、难寻目标之前，请参阅[自定义内容页面](https://thepeacockproject.org/wiki/custom-content)以及[幽灵模式页面](https://thepeacockproject.org/wiki/ghost-mode)。
+-   在询问任何有关幽灵模式、升级、用户契约、行踪不定的目标之前，请参阅[自定义内容页面](https://thepeacockproject.org/wiki/custom-content)以及[幽灵模式页面](https://thepeacockproject.org/wiki/ghost-mode)。
 -   Mod（模组）兼容性：
     -   大部分模组都与Peacock兼容；除了三种以外。
         -   如果一个模组修改了契约（任务，特殊要求等），它需要一个Peacock插件来兼容。
