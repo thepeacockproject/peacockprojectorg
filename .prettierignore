@@ -2,3 +2,5 @@
 build
 package-lock.json
 i18n
+.pnp.*
+yarn-*.cjs
