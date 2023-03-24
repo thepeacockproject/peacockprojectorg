@@ -38,16 +38,16 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
         4. Desligue ambos se presentes
         5. Tente novamente, se não funcionar, reinicie seu computador, e depois tente mais uma vez
 
-    -   Here's how to change the port Peacock uses, if you don't want to stop the process on Port 80:
-        -   In the instructions below, please substitute `PORTNUMBER` with a port that is not currently running on your PC, e.g. `8080`, `6969`, `3000`, etc.
-        -   Change `Start Server.cmd` to be as follows:
+    -   Abaixo você encontra informações sobre como mudar o uso da Port Peacock, se você desejar parar a utilização na Port 80:
+        -   Nas instruções abaixo, substitua `NumeroDaPort` por uma port que não esteja sendo atualmente executada em seu PC, e.g. `8080`, `6969`, `3000`, etc.
+        -   Mude `Start Server.cmd` como descrito abaixo:
         ```
         @echo off
-        SET PORT=PORTNUMBER
+        SET PORT=NumeroDaPort
         .\nodedist\node.exe chunk0.js
         PAUSE
         ```
-        -   Type `localhost:PORTNUMBER` into the server window, [as shown here](https://media.discordapp.net/attachments/839264571990343681/992523717869568050/unknown.png)
+        -   Digite `localhost:NumeroDaPort` na janela do servidor, [como mostrado aqui](https://media.discordapp.net/attachments/839264571990343681/992523717869568050/unknown.png)
 
 ### Itens Faltantes / Mapas
 
