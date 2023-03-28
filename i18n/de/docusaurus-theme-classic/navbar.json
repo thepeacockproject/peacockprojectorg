@@ -18,5 +18,9 @@
   "item.label.Installation Guide": {
     "message": "Installation Guide",
     "description": "Navbar item with label Installation Guide"
+  },
+  "logo.alt": {
+    "message": "Peacock Logo",
+    "description": "The alt text of navbar logo"
   }
 }

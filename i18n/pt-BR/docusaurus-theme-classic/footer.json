@@ -50,5 +50,9 @@
   "link.item.label.GitHub": {
     "message": "GitHub",
     "description": "The label of footer link with label=GitHub linking to https://github.com/thepeacockproject"
+  },
+  "logo.alt": {
+    "message": "Peacock Feather Logo",
+    "description": "The alt text of footer logo"
   }
 }
