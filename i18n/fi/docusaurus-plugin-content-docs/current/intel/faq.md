@@ -54,11 +54,12 @@ title: Frequently Asked Questions
 -   If you have recently purchased a DLC and you aren't seeing it in Peacock, make sure you have actually purchased said DLC. Then delete the `userdata` folder, and restart the server.
 
     -   If you have trouble finding the `userdata` folder, [check this example image](https://media.discordapp.net/attachments/833505136290299935/991071183732613200/unknown.png).
+-   Starting from v6, Peacock should be able to automatically get your latest DLCs. So no need to delete the userdata folder anymore.
 
 ### Muut
 
 -   In Game Saving is supported, and as of Peacock v5.0.1 you can load official server saves in Peacock.
--   Challenges (currently implemented in Paris) are still in development and may be buggy. Report issues in the `#help` forum in Peacock discord.
+-   Challenges are still in development and may be buggy. Report issues in the `#help` forum in Peacock discord.
 -   Using Peacock will affect your official servers profile in very small ways.
     -   Due to the fact that we have not properly implemented some minor features like content/story spoiler warnings, it will change them all to the 'I have already played' state. Other than that, it shouldn't have any affect.
 -   Note: If it is your first time playing (on either Peacock or official servers), some exits will be locked. You will need to unlock Dubai exits ([need to unlock the elevators](https://youtu.be/IEQgRQyQRf8)), Dartmoor exits ([need to exit via bike at least once](https://youtu.be/AJtJZe9jEi8?t=151)), and Colorado exits ([need to use tornado exit at least once](https://youtu.be/3XKWHrKpXwk?t=140)). These exits are handled client-side.
@@ -77,7 +78,7 @@ title: Frequently Asked Questions
 ## Feature Request FAQ
 
 -   To be very clear: Progression (unlocking items as you go) is currently not supported, although planned for the future. Peacock will give you all unlocks right away (that you are eligible for based on DLC you have purchased).
--   In-game challenges are actively being implemented as of Peacock v5.0.1.
+-   In-game challenges are mostly done as of Peacock v6.0.0 but some might not be working. Please report it if you come across one.
 -   Before asking any questions about Ghost Mode, escalations, user contracts, elusive targets, please check the [Custom Content Page](https://thepeacockproject.org/wiki/custom-content) as well as the [Ghost Mode Page](https://thepeacockproject.org/wiki/ghost-mode).
 -   Mod Compatability:
     -   Most mods are compatible with Peacock; there are only three kinds that aren't.

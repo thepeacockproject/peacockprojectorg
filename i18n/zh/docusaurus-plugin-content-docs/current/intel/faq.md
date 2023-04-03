@@ -51,14 +51,15 @@ title: 常见问题解答
 
 ### 物品/地图缺失
 
--   如果你近期购买了DLC但在Peacock中找不到对应内容，首先请确保你确实购买了所说的DLC。 随后，删除`userdata`文件夹，再重新启动服务器。
+-   If you have recently purchased a DLC and you aren't seeing it in Peacock, make sure you have actually purchased said DLC. Then delete the `userdata` folder, and restart the server.
 
-    -   如果你找不到`userdata`文件夹，[参阅此示例图片](https://media.discordapp.net/attachments/833505136290299935/991071183732613200/unknown.png)。
+    -   If you have trouble finding the `userdata` folder, [check this example image](https://media.discordapp.net/attachments/833505136290299935/991071183732613200/unknown.png).
+-   Starting from v6, Peacock should be able to automatically get your latest DLCs. So no need to delete the userdata folder anymore.
 
 ### 其他
 
 -   游戏内存档是受支持的，且在Peacock v5.0.1起，你可以在Peacock中载入官方服务器存档。
--   挑战（目前仅在巴黎实装）仍处在开发阶段，可能出现错误。 请在Peacock Discord的`#help`频道反馈任何错误。
+-   Challenges are still in development and may be buggy. 请在Peacock Discord的`#help`频道反馈任何错误。
 -   使用Peacock会小程度地影响你的官方服务器档案。
     -   由于我们还未正式实装一些小的功能，例如内容/故事的剧透警告，它仍然会被全部标记为“我已经游玩过”的状态。 除此之外，应该不会有任何的影响。
 -   注意：如果这是你的首次游玩（无论是在Peacock或是官方服务器），一些撤离点可能会被锁定。 你需要解锁迪拜的撤离点（[需要解锁电梯](https://youtu.be/IEQgRQyQRf8)），达特缪尔的撤离点（[需要至少通过摩托车撤离一次](https://youtu.be/AJtJZe9jEi8?t=151)），以及科罗拉多撤离点（[需要至少通过地下室撤离一次](https://youtu.be/3XKWHrKpXwk?t=140)）。 这些撤离点是由客户端侧处理的。
@@ -77,7 +78,7 @@ title: 常见问题解答
 ## 常见功能请求解答
 
 -   首先声明：进度（物品解锁等）当前不受支持，尽管在将来有相关计划。 Peacock将直接给你提供所有的物品（根据你所购买的DLC判定你有资格拥有的物品）。
--   游戏内挑战已在Peacock v5.0.1开始启用。
+-   In-game challenges are mostly done as of Peacock v6.0.0 but some might not be working. Please report it if you come across one.
 -   在询问任何有关幽灵模式、升级、用户契约、行踪不定的目标之前，请参阅[自定义内容页面](https://thepeacockproject.org/wiki/custom-content)以及[幽灵模式页面](https://thepeacockproject.org/wiki/ghost-mode)。
 -   Mod（模组）兼容性：
     -   大部分模组都与Peacock兼容；除了三种以外。

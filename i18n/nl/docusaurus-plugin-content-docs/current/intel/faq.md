@@ -51,14 +51,15 @@ title: Veelgestelde vragen / Probleemoplossing
 
 ### Missing Items / Maps
 
--   Om de 7 deadly sins dingen te gebruiken, moet je er zeker van zijn dat je de 7 deadly sins DLC gekocht hebt. Verwijder dan de `userdata` folder, er herstart het spel.
+-   If you have recently purchased a DLC and you aren't seeing it in Peacock, make sure you have actually purchased said DLC. Then delete the `userdata` folder, and restart the server.
 
-    -   Als je moeilijkheden hebt met het vinden van de `userdata` folder, [zie deze afbeelding](https://media.discordapp.net/attachments/833505136290299935/991071183732613200/unknown.png).
+    -   If you have trouble finding the `userdata` folder, [check this example image](https://media.discordapp.net/attachments/833505136290299935/991071183732613200/unknown.png).
+-   Starting from v6, Peacock should be able to automatically get your latest DLCs. So no need to delete the userdata folder anymore.
 
 ### Andere
 
 -   Het is ondersteund om in het spel op te slaan, maar bedenk wel dat je alleen de officiële server saves op de officiële server kan gebruiken, en de Peacock saves op de Peacock server.
--   Challenges (currently implemented in Paris) are still in development and may be buggy. Report issues in the `#help` channel in Peacock discord.
+-   Challenges are still in development and may be buggy. Report issues in the `#help` channel in Peacock discord.
 -   Als je Peacock gebruikt heeft het heel kleine effecten op jouw officiële serverprofiel.
     -   Dit komt omdat wij een aantal kleine functies, zoals spoilerwaarschuwingen voor inhoud/verhaal, niet correct hebben geïmplementeerd, en dat alles naar 'Ik heb het al gespeeld' zet. Verder zou het geen invloed moeten hebben.
 -   Opmerking: Als je het spel voor de eerste keer speelt (op Peacock of op de officiële servers), zullen sommige uitgangen afgesloten zijn. Je moet eerst de uitgangen in Dubai ontgrendelen ([de liften ontgrendelen)](https://youtu.be/IEQgRQyQRf8), de Dartmoor uitgangen ([je moet minimaal een keer met de motor vertrekken](https://youtu.be/AJtJZe9jEi8?t=151)), en de Colorado uitgangen ([je moet minimaal een keer met de tornado uitgang de map verlaten](https://youtu.be/3XKWHrKpXwk?t=140)). Deze uitgangen worden client-side afgehandeld.
@@ -77,7 +78,7 @@ title: Veelgestelde vragen / Probleemoplossing
 ## Feature aanvraag FAQ
 
 -   To be very clear: Progression (unlocking items as you go) is currently not supported, although planned for the future. Peacock zal je alle unlocks meteen vrijstellen (waar jij mee in aanmerking komt qua DLC die jij hebt gekocht).
--   In-game challenges are actively being implemented as of Peacock v5.0.1.
+-   In-game challenges are mostly done as of Peacock v6.0.0 but some might not be working. Please report it if you come across one.
 -   Voordat je vragen stelt over Ghost Mode, escalations, user contracts of elusive targets, controleer eerst de [Aangepaste Inhoud Pagina](https://thepeacockproject.org/wiki/custom-content) net als de [Ghost Mode Pagina](https://thepeacockproject.org/wiki/ghost-mode/).
 -   Mod Compatability:
     -   Most mods are compatible with Peacock; there are only three kinds that aren't.
