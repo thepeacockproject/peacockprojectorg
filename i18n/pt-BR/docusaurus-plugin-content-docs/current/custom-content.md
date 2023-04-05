@@ -74,7 +74,7 @@ Além do plugin de Escalações Legacy (Legado), que foi descrito anteriormente 
     -   Nota: Bem bugado em mapas com mais de 200 alvos, armas podem falhar em momentos aleatórios. Você pode precisar matar usando métodos corpo a corpo.
 -   Os Seis de Sarajevo
     -   Missões Bônus de outra forma disponíveis apenas na versão PlayStation de Hitman 2016.
-    -   Instruções de Instalação: https://rentry.org/H3_TS6
+    -   Installation Instructions: https://github.com/solderq35/hitman-tech-tips/blob/main/modding/sarajevo_six.md
 -   Alvo Elusivo Os Irmãos (Conteúdo Cortado)
     -   Download de Arquivo: https://www.nexusmods.com/hitman3/mods/375?tab=files
     -   Instale a porção principal do mod (o arquivo não marcado como "Plugin Peacock") através do Simple Mod Framework. Instale a porção do mod "Plugin Peacock" colocando-o na sua pasta de instalação do Peacock. Leia as instruções de instalação dos Seis de Sarajevo acima para guia, caso haja confusão sobe qualquer desses passos.

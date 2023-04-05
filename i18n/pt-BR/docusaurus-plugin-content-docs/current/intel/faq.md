@@ -51,15 +51,15 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
 
 ### Itens Faltantes / Mapas
 
--   If you have recently purchased a DLC and you aren't seeing it in Peacock, make sure you have actually purchased said DLC. Then delete the `userdata` folder, and restart the server.
+-   Se você adquiriu recentemente uma DLC e não está conseguindo acessar o conteúdo no Peacock, verifique se você realmente ativou a DLC. Depois delete a pasta `userdata` e reinicie o servidor.
 
-    -   If you have trouble finding the `userdata` folder, [check this example image](https://media.discordapp.net/attachments/833505136290299935/991071183732613200/unknown.png).
--   Starting from v6, Peacock should be able to automatically get your latest DLCs. So no need to delete the userdata folder anymore.
+    -   Se você estiver com problemas em encontrar a pasta `userdata`, [veja esta imagem de exemplo](https://media.discordapp.net/attachments/833505136290299935/991071183732613200/unknown.png).
+-   A partir da versão v6, o Peacock deve automaticamente localizar suas DLCs mais recentes. Então não há mais a necessidade de deletar a pasta userdata.
 
 ### Outro
 
 -   Salvamentos em jogo são suportados, mas note que você só pode usar salvamentos dos servidores oficiais apenas na versão dos servidores oficiais do jogo, e salvamentos no Peacock apenas na versão Peacock do jogo.
--   Challenges are still in development and may be buggy. Relate erros no canal `#help` no Discord do Peacock.
+-   Os desafios ainda estão na fase de desenvolvimento e podem ter falhas. Relate erros no canal `#help` no Discord do Peacock.
 -   Usar o Peacock afetará seu perfil nos servidores oficiais de maneiras bem imperceptíveis.
     -   Devido ao fato que não temos implementado propriamente alguns recursos de menor importância como avisos de spoiler em conteúdo/história, vai colocar todos em um estado como se 'eu já tivesse jogado'. Além disso, não deve ter qualquer efeito.
 -   Nota: Se essa é sua primeira vez jogando (tanto no Peacock como nos servidores oficiais), algumas saídas estarão bloquadas. Você terá que desbloquear as saídas de Dubai ([precisa desbloquear os elevadores](https://youtu.be/IEQgRQyQRf8)), saídas de Dartmoor ([precisa sair por meio da motocicleta pelo menos uma vez](https://youtu.be/AJtJZe9jEi8?t=151)), e saídas de Colorado ([precisa ter usado a saída do abrigo de tornados pelo menos uma vez](https://youtu.be/3XKWHrKpXwk?t=140)). Essas saídas estão sob responsabilidade do usuário.
@@ -78,7 +78,7 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
 ## Perguntas Frequentes sobre Solicitação de Recursos
 
 -   Para ser claro: Progressão (desbloqueando itens lentamente) não é atualmente suportado, mas é planejado para o futuro. O Peacock irá te fornecer todos os itens desbloqueáveis logo de início (baseando-se no conteúdo que você tenha adquirido).
--   In-game challenges are mostly done as of Peacock v6.0.0 but some might not be working. Please report it if you come across one.
+-   Desafios em jogo estão quase prontos na versão Peacock v6.0.0, mas algo pode não estar funcionando. Relate qualquer problema se você encontrar algum.
 -   Antes de perguntar qualquer pergunta sobre o Modo Fantasma, Escalações, Contratos do Usuário e Alvos Elusivos, por favor verifique a [Página de Conteúdo Customizado](https://thepeacockproject.org/wiki/custom-content) assim como a [Página do Modo Fantasma](https://thepeacockproject.org/wiki/ghost-mode/).
 -   Compatibilidade de Mods:
     -   A maioria dos Mods são compatíveis com o Peacock; existem apenas três que não são.

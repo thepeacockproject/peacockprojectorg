@@ -74,7 +74,7 @@ Peacock同时支持官方服务器和Peacock自定义契约。
     -   注意：在有200+目标的地图中会出现卡顿，枪械可能会随机卡住。 你可能需要开始使用近战武器击杀目标。
 -   萨拉热窝六号
     -   仅在Playstation上的杀手2016可用的奖励任务。
-    -   安装指南：https://rentry.org/H3_TS6
+    -   Installation Instructions: https://github.com/solderq35/hitman-tech-tips/blob/main/modding/sarajevo_six.md
 -   兄弟 行踪不定的目标（删减内容）
     -   下载文件：https://www.nexusmods.com/hitman3/mods/375?tab=files
     -   安装模组的主要部分（在Simple Mod Framework中未标记为”Peacock Plugin”的文件）。 将模组中的“Peacock Plugin”部分放入你的Peacock安装文件夹。 如果对这些步骤有任何问题，阅读上面的萨拉热窝六号安装指南。

@@ -74,7 +74,7 @@ Naast de Legacy Escalations Plugin, die eerder omschreven is in de Escalations s
     -   Opmerking: Werkt mogelijk minder goed met maps die meer dan 200+ doelwitten bevatten. Geweren kunnen willekeurig vastlopen. Mogelijk moet je beginnen met doden via melee.
 -   Sarajevo Six
     -   Bonus missies anders alleen beschikbaar op de Playstation versie van Hitman 2016.
-    -   Installatie instructies: https://rentry.org/H3_TS6
+    -   Installation Instructions: https://github.com/solderq35/hitman-tech-tips/blob/main/modding/sarajevo_six.md
 -   Brothers Elusive Target (Cut Content)
     -   File Download: https://www.nexusmods.com/hitman3/mods/375?tab=files
     -   Install the main portion of the mod (the file not marked "Peacock Plugin" through Simple Mod Framework. Install the "Peacock Plugin" portion of the mod by putting it into your Peacock Install folder. Read the Sarajevo Six instructions above for guidance if confused about either of those steps.
