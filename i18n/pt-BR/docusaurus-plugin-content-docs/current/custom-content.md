@@ -19,13 +19,8 @@ Dentro do Peacock, você pode jogar Alvos Elusivos sem nenhum tempo limite ao re
 
     -   O Peacock suporta escalações (Originais Peacock) personalizadas. Essas escalações estão disponíveis em jogo por predefinição. Você pode ver algumas das escalações customizadas listadas nos [Roadmaps](https://thepeacockproject.org/wiki/roadmaps) também.
 
--   **Escalações dos Servidores Oficiais**
-    -   Peacock também suporta algumas escalações dos servidores oficiais, embora não todas foram portadas. Essas escalações estão disponíveis em jogo por predefinição.
--   **Escalações Legado**
-
-    -   Peacock suporta escalações do Hitman 2016 que não foram portadas para o Hitman 2 ou 3 (escalações 'legado').
-    -   Para instalar escalações legacy, pesquise `legacy in: plugin-releases` no servidor Discord do Peacock. Faça o download de `LegacyEscalationsPlugin.js` e mova o arquivo para a mesma pasta onde o `Start Server.cmd` e o `peacockpatcher.exe` estão.
-    -   Vá para o menu `Destinations`, e escolha um mapa em jogo para acessar as escalações.
+-   **Official Server Escalations and Legacy Escalations**
+    -   Peacock also supports all official server escalations, including Hitman 2016 escalations that have not been ported to Hitman 2 or 3 (legacy escalations). Essas escalações estão disponíveis em jogo por predefinição.
 
 -   Nota: Você pode selecionar níveis específicos de escalações ao usar a ferramenta Escalation Level Picker, como explicado [aqui](https://thepeacockproject.org/wiki/intel/#loadout-profiles--escalation-level-picker)
 

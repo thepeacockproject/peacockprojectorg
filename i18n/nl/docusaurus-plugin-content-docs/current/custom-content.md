@@ -19,13 +19,8 @@ Binnen Peacock kan je Elusive Targets opnieuw spelen zonder een tijdlimiet gezet
 
     -   Peacock ondersteund aangepaste (door Peacock gemaakte) escalations. Deze escalations zijn standaard beschikbaar. Je kan ook wat door Peacock gemaakte escalations zien in de [Roadmaps](https://thepeacockproject.org/wiki/roadmaps).
 
--   **Officiële Server Escalations**
-    -   Peacock ondersteund ook een paar officiële server escalations, maar nog niet alle escalations zijn overgezet. Deze escalations zijn standaard beschikbaar.
--   **Legacy Escalations**
-
-    -   Peacock understeund de Hitman 2016 escalations die niet naar Hitman 2 of 3 overgezet zijn. (legacy escalations).
-    -   Om legacy escalations te installeren, zoek je voor `legacy in: plugin-releases` in de Discord van Peacock. Download het bestand `LegacyEscalationsPlugin.js`, en zet dit bestand in dezelfe folder waar `Start Server.cmd` en `peacockpatcher.exe` in zitten.
-    -   Ga dan naar het `Destinations` menu, en dan naar een specifieke map om de escalations te spelen.
+-   **Official Server Escalations and Legacy Escalations**
+    -   Peacock also supports all official server escalations, including Hitman 2016 escalations that have not been ported to Hitman 2 or 3 (legacy escalations). Deze escalations zijn standaard beschikbaar.
 
 -   Opmerking: Je kan een specifiek escalation level selecteren waarop je wilt spelen met de Escalation Level Picker tool, zoals [hier](https://thepeacockproject.org/wiki/intel/#loadout-profiles--escalation-level-picker) uitgelegd is
 

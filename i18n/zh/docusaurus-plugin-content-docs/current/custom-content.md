@@ -19,13 +19,8 @@ Peacock为我们的用户提供了许多有趣的内容。 这里是我们的一
 
     -   Peacock支持自定义（Peacock原版）升级。 这些升级在游戏中默认可用。 你也可以在[路线图](./roadmaps.mdx)中看到一些列举的自定义升级。
 
--   **官方服务器升级**
-    -   Peacock也支持一些官方服务器升级，尽管不是全部升级都已被引入。 这些升级在游戏中默认可用。
--   **旧版升级**
-
-    -   Peacock支持在杀手2016中，但不在杀手2或3中的升级（即旧版升级）。
-    -   在Peacock Discord中搜索`legacy in: plugin-releases`即可安装旧版升级。 下载`LegacyEscalationsPlugin.js`，并移动到你放置`Start Server.cmd`和`peacockpatcher.exe`的那个文件夹中。
-    -   前往`目的地`菜单，然后选择一个地图，即可游玩升级。
+-   **Official Server Escalations and Legacy Escalations**
+    -   Peacock also supports all official server escalations, including Hitman 2016 escalations that have not been ported to Hitman 2 or 3 (legacy escalations). 这些升级在游戏中默认可用。
 
 -   注意：如[这里](https://thepeacockproject.org/wiki/intel/#loadout-profiles--escalation-level-picker)所述，你可以使用升级关卡选择器工具来选择一个特定的升级关卡。
 
