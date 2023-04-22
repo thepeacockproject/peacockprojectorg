@@ -20,7 +20,7 @@
     "description": "Navbar item with label Installation Guide"
   },
   "logo.alt": {
-    "message": "Peacock Logo",
+    "message": "Peacock图标",
     "description": "The alt text of navbar logo"
   }
 }

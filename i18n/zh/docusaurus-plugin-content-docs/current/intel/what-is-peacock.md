@@ -17,8 +17,8 @@ Peacock本质上是一个在你自己的电脑上运行的杀手服务器模拟�
     -   在你通过Steam或Epic平台的验证并连接到Peacock后，你可以随意断开互联网连接，并且在接下来的游戏进程中都将保持连接在Peacock服务器。
 -   在不提升精通等级的情况下获取需解锁的物品
     -   仅当你购买的相应的DLC后才能获取该DLC的物品。 破解版是不被容忍的。
-    -   **根据进度解锁物品暂时不受支持**，尽管它被计划在未来的版本中添加。
-    -   挑战目前正在实装中。 Peacock v5.0.1起，巴黎地图的游戏内挑战已受支持。
+    -   **Unlocking items as you go is supported**. Nevertheless it is configurable and you can opt-out of it by editing `options.ini`.
+    -   Challenges is mostly implemented, but some challenges might not be working. If you find one, please create an issue to report this bug.
     -   如果这是你首次游玩（不论是Peacock还是官方服务器上），一些撤离点仍会被锁定。 你需要解锁迪拜的撤离点（[需要解锁电梯](https://youtu.be/IEQgRQyQRf8)），达特缪尔的撤离点（[需要至少通过摩托车撤离一次](https://youtu.be/AJtJZe9jEi8?t=151)），以及科罗拉多撤离点（[需要至少通过地下室撤离一次](https://youtu.be/3XKWHrKpXwk?t=140)）。 这些撤离点是由客户端侧处理的。
 -   游玩[自定义](../custom-content.md)以及非持久/有时限的内容，例如[幽灵模式](../ghost-mode)，旧版升级，行踪不定的目标。
     -   展示其他Peacock用户的排行榜。
