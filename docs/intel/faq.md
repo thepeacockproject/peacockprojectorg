@@ -60,6 +60,15 @@ title: Frequently Asked Questions
 ### Other
 
 -   Check [Peacock Unique Features](../intel/loadout-profiles-elp) page for info on how to set multiple loadouts per map or choose specific escalation levels with Peacock.
+-   Default Suits - If you tick `getDefaultSuits = true` in your `options.ini` file in your Peacock Install folder, please note the following behavior:
+    -   Any discussion for "default suits" below refers to the version of the default suit **without gloves** - whichever version of the suit you normally would use for that level when starting it up for the first time ever.
+    -   Some Hitman 2 and Hitman 3 default suits are not usable in all maps in the vanilla game. This can be fixed using https://www.nexusmods.com/hitman3/mods/401/
+    -   If you choose not to use the above mod, then note the following:
+        -   Season 1 default suits (e.g. Summer Suit from Marrakesh): Works on all maps
+        -   Season 2 default suits (e.g. Casual Tourist from Santa Fortuna): Works on Season 2 and 3 Maps
+            -   New York and Maldives (Haven) are included in Season 2
+        -   Season 1 default suits (e.g. Neon City Suit from Chongqing): Works on Season 3 Maps Only
+        -   Ambrose Island is outside of the Season system so to speak, Ambrose Default suit (Guerilla Wetsuit) is usable on all maps, and all maps' Default Suits can be used in Ambrose
 
 ### Request Tech Support
 
