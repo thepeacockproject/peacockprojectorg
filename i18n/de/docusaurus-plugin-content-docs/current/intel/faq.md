@@ -54,16 +54,21 @@ title: Häufig gestellte Fragen
 -   If you have recently purchased a DLC and you aren't seeing it in Peacock, make sure you have actually purchased said DLC. Then delete the `userdata` folder, and restart the server.
 
     -   If you have trouble finding the `userdata` folder, [check this example image](https://media.discordapp.net/attachments/833505136290299935/991071183732613200/unknown.png).
+
 -   Starting from v6, Peacock should be able to automatically get your latest DLCs. So no need to delete the userdata folder anymore.
 
 ### Other
 
--   In Game Saving is supported, and as of Peacock v5.0.1 you can load official server saves in Peacock.
--   Challenges are still in development and may be buggy. Report issues in the `#help` forum in Peacock discord.
--   Using Peacock will affect your official servers profile in very small ways.
-    -   Due to the fact that we have not properly implemented some minor features like content/story spoiler warnings, it will change them all to the 'I have already played' state. Other than that, it shouldn't have any affect.
--   Note: If it is your first time playing (on either Peacock or official servers), some exits will be locked. You will need to unlock Dubai exits ([need to unlock the elevators](https://youtu.be/IEQgRQyQRf8)), Dartmoor exits ([need to exit via bike at least once](https://youtu.be/AJtJZe9jEi8?t=151)), and Colorado exits ([need to use tornado exit at least once](https://youtu.be/3XKWHrKpXwk?t=140)). These exits are handled client-side.
 -   Check [Peacock Unique Features](../intel/loadout-profiles-elp) page for info on how to set multiple loadouts per map or choose specific escalation levels with Peacock.
+-   Default Suits - If you tick `getDefaultSuits = true` in your `options.ini` file in your Peacock Install folder, please note the following behavior:
+    -   Any discussion for "default suits" below refers to the version of the default suit **without gloves** - whichever version of the suit you normally would use for that level when starting it up for the first time ever.
+    -   Some Hitman 2 and Hitman 3 default suits are not usable in all maps in the vanilla game. This can be fixed using https://www.nexusmods.com/hitman3/mods/401/
+    -   If you choose not to use the above mod, then note the following:
+        -   Season 1 default suits (e.g. Summer Suit from Marrakesh): Works on all maps
+        -   Season 2 default suits (e.g. Casual Tourist from Santa Fortuna): Works on Season 2 and 3 Maps
+            -   New York and Maldives (Haven) are included in Season 2
+        -   Season 1 default suits (e.g. Neon City Suit from Chongqing): Works on Season 3 Maps Only
+        -   Ambrose Island is outside of the Season system so to speak, Ambrose Default suit (Guerilla Wetsuit) is usable on all maps, and all maps' Default Suits can be used in Ambrose
 
 ### Request Tech Support
 
@@ -75,10 +80,12 @@ title: Häufig gestellte Fragen
         -   Information on what is running on Port 80 (check [Connection Troubleshooting](faq/#connection-troubleshooting) above)
         -   Any further pertinent information
 
+## How Peacock Works FAQ
+
+-   See [What is Peacock](what-is-peacock)
+
 ## Feature Request FAQ
 
--   To be very clear: Progression (unlocking items as you go) is currently not supported, although planned for the future. Peacock will give you all unlocks right away (that you are eligible for based on DLC you have purchased).
--   In-game challenges are mostly done as of Peacock v6.0.0 but some might not be working. Please report it if you come across one.
 -   Before asking any questions about Ghost Mode, escalations, user contracts, elusive targets, please check the [Custom Content Page](https://thepeacockproject.org/wiki/custom-content) as well as the [Ghost Mode Page](https://thepeacockproject.org/wiki/ghost-mode).
 -   Mod Compatability:
     -   Most mods are compatible with Peacock; there are only three kinds that aren't.

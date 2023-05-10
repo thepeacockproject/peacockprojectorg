@@ -5,7 +5,7 @@ description: 由Peacock提供的自定义内容概览
 
 Peacock为我们的用户提供了许多有趣的内容。 这里是我们的一些自定义内容的预览！
 
-## 难寻目标
+## 行踪不定的目标
 
 在Peacock中，你可以随意重新游玩行踪不定的目标，重新开始时无时间冷却（不像行踪不定的目标街机模式），也无时间限制。
 
@@ -19,8 +19,9 @@ Peacock为我们的用户提供了许多有趣的内容。 这里是我们的一
 
     -   Peacock支持自定义（Peacock原版）升级。 这些升级在游戏中默认可用。 你也可以在[路线图](./roadmaps.mdx)中看到一些列举的自定义升级。
 
--   **Official Server Escalations and Legacy Escalations**
-    -   Peacock also supports all official server escalations, including Hitman 2016 escalations that have not been ported to Hitman 2 or 3 (legacy escalations). 这些升级在游戏中默认可用。
+-   **官方服务器的升级契约与传承升级契约**
+
+    -   Peacock也支持所有官方服务器升级契约，包括未被移植到《杀手2》或《杀手3》的《杀手2016》升级契约（传承升级契约）。 这些升级在游戏中默认可用。
 
 -   注意：如[这里](https://thepeacockproject.org/wiki/intel/#loadout-profiles--escalation-level-picker)所述，你可以使用升级关卡选择器工具来选择一个特定的升级关卡。
 
@@ -46,7 +47,7 @@ Peacock同时支持官方服务器和Peacock自定义契约。
     -   如何安装：
         -   注意：这仅能在HITMAPS机器人可以验证通过的平台上使用。 [在这里查看有关验证HITMAPS机器人的信息](https://bot.hitmaps.com/)。
             -   如果你想查看HITMAPS机器人是否在线，在Peacock Discord群组的`#bot-spam`频道输入`/botstatus`。 注意，`/botstatus`命令在使用后会进入10分钟的冷却时间。
-            -   注意：只要游戏引擎包含了相应的地图，下载来的官方服务器契约会与所有游戏引擎兼容。 例如，假设你下载了在杀手3引擎中的一个萨比恩萨（第一季地图）契约，你可以通过Peacock在杀手2016和杀手2引擎中游玩这个契约。 但是，如果你下载了一个萨加尔岛（第二季地图）契约，则你无法在杀手2016引擎中游玩这个契约，因为杀手2016引擎并没有包含任何第二季的地图。
+            -   注意：只要游戏引擎包含了相应的地图，下载来的官方服务器契约会与所有游戏引擎兼容。 例如，假设你下载了在《杀手3》引擎中的一个萨比恩撒（第一季地图）契约，你可以通过Peacock在《杀手2016》和《杀手2》引擎中游玩这个契约。 但是，如果你下载了一个萨加尔岛（第二季地图）契约，则你无法在杀手2016引擎中游玩这个契约，因为杀手2016引擎并没有包含任何第二季的地图。
         -   在游戏中前往`游戏模式` -> `契约` -> `搜索契约`。
         -   输入官方服务器契约编号（**支持除了任天堂Switch以外的所有平台**）。
         -   契约将会被下载到你的`Contracts`文件夹。
@@ -81,7 +82,7 @@ Peacock同时支持官方服务器和Peacock自定义契约。
 -   简单来说，前往Peacock Discord群组的`#plugin-releases`频道来下载一个你感兴趣的插件。
 -   然后，将插件安装到你放置`Start Server.cmd`和`peacockpatcher.exe`的文件夹中。
 -   或者，新建一个名为`plugins`的文件夹，然后将你的插件放入此处，来更好的整理你的文件。
-    -   Example: ![PluginsFolder](https://media.discordapp.net/attachments/1018323831468851202/1072614932790648922/image.png)
+    -   示例： ![插件文件夹](https://media.discordapp.net/attachments/1018323831468851202/1072614932790648922/image.png)
 -   一些插件可能需要进阶设定或与新版本的Peacock不兼容，所以请确保在`#plugin-releases`频道中查找对应插件的进阶教程。
 
 **注意：插件只是杀手模组化场景中的一小部分。 **更多除了Peacock范围以外的客户端侧的通用模组，可以在这里查阅：

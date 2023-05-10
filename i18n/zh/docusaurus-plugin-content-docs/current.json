@@ -4,7 +4,7 @@
     "description": "The label for version current"
   },
   "sidebar.sidebar.category.User Guide": {
-    "message": "用户指南",
+    "message": "用户手册",
     "description": "The label for category User Guide in sidebar sidebar"
   },
   "sidebar.sidebar.category.Legal": {
@@ -12,7 +12,7 @@
     "description": "The label for category Legal in sidebar sidebar"
   },
   "sidebar.sidebar.doc.Home": {
-    "message": "Home",
+    "message": "首页",
     "description": "The label for the doc item Home in sidebar sidebar, linking to the doc home"
   }
 }

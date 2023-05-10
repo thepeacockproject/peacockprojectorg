@@ -1,13 +1,13 @@
 {
   "testimonialsPage.subTitle": {
-    "message": "我们的用户如何评价Peacock。"
+    "message": "我们的用户对Peacock的评价。"
   },
   "Fast": {
     "message": "敏捷",
     "description": "Homepage 'fast' feature header"
   },
   "homepage.fastDescription": {
-    "message": "Peacock试图变得敏捷。延迟，卡顿是无趣的，这就是为什么我们着力尽可能消除这些因素。",
+    "message": "Peacock是为快速而生的。延迟、滞后和延误无趣至极，这就是我们把重点放在尽可能消除这些因素上的原因。",
     "description": "The homepage's 'Fast' feature description"
   },
   "Easy to set up": {
@@ -15,7 +15,7 @@
     "description": "Homepage 'Easy to set up' feature header"
   },
   "homepage.easyToSetUpDescription": {
-    "message": "启动Peacock是非常简单的。如果你拥有游戏，你可以加入我们的Discord群组，并在3分钟内完成初始化过程的操作。",
+    "message": "启动Peacock非常简单。如果你拥有这款游戏，你可以加入我们的Discord群组，并用不到3分钟的时间完成设置过程。",
     "description": "The homepage's 'Easy to set up' feature description"
   },
   "Custom content": {
@@ -27,11 +27,11 @@
     "description": "The homepage's 'Custom content' feature description"
   },
   "homepage.subtitle": {
-    "message": "一个运行在你自己机器上的HITMAN™服务器替代品。",
+    "message": "HITMAN™服务器的替代品——但运行在你自己的机器上。",
     "description": "The homepage's subtitle."
   },
   "homepage.testimonialsButton": {
-    "message": "阅读我们的用户怎么说",
+    "message": "听听我们的用户怎么说",
     "description": "The homepage's 'read what our users say' button."
   },
   "homepage.joinDiscordLabel": {

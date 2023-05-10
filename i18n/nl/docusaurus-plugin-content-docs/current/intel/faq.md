@@ -54,16 +54,21 @@ title: Veelgestelde vragen / Probleemoplossing
 -   If you have recently purchased a DLC and you aren't seeing it in Peacock, make sure you have actually purchased said DLC. Then delete the `userdata` folder, and restart the server.
 
     -   If you have trouble finding the `userdata` folder, [check this example image](https://media.discordapp.net/attachments/833505136290299935/991071183732613200/unknown.png).
+
 -   Starting from v6, Peacock should be able to automatically get your latest DLCs. So no need to delete the userdata folder anymore.
 
 ### Andere
 
--   Het is ondersteund om in het spel op te slaan, maar bedenk wel dat je alleen de officiële server saves op de officiële server kan gebruiken, en de Peacock saves op de Peacock server.
--   Challenges are still in development and may be buggy. Report issues in the `#help` channel in Peacock discord.
--   Als je Peacock gebruikt heeft het heel kleine effecten op jouw officiële serverprofiel.
-    -   Dit komt omdat wij een aantal kleine functies, zoals spoilerwaarschuwingen voor inhoud/verhaal, niet correct hebben geïmplementeerd, en dat alles naar 'Ik heb het al gespeeld' zet. Verder zou het geen invloed moeten hebben.
--   Opmerking: Als je het spel voor de eerste keer speelt (op Peacock of op de officiële servers), zullen sommige uitgangen afgesloten zijn. Je moet eerst de uitgangen in Dubai ontgrendelen ([de liften ontgrendelen)](https://youtu.be/IEQgRQyQRf8), de Dartmoor uitgangen ([je moet minimaal een keer met de motor vertrekken](https://youtu.be/AJtJZe9jEi8?t=151)), en de Colorado uitgangen ([je moet minimaal een keer met de tornado uitgang de map verlaten](https://youtu.be/3XKWHrKpXwk?t=140)). Deze uitgangen worden client-side afgehandeld.
 -   Check [Peacock Unique Features](../intel/loadout-profiles-elp) page for info on how to set multiple loadouts per map or choose specific escalation levels with Peacock.
+-   Default Suits - If you tick `getDefaultSuits = true` in your `options.ini` file in your Peacock Install folder, please note the following behavior:
+    -   Any discussion for "default suits" below refers to the version of the default suit **without gloves** - whichever version of the suit you normally would use for that level when starting it up for the first time ever.
+    -   Some Hitman 2 and Hitman 3 default suits are not usable in all maps in the vanilla game. This can be fixed using https://www.nexusmods.com/hitman3/mods/401/
+    -   If you choose not to use the above mod, then note the following:
+        -   Season 1 default suits (e.g. Summer Suit from Marrakesh): Works on all maps
+        -   Season 2 default suits (e.g. Casual Tourist from Santa Fortuna): Works on Season 2 and 3 Maps
+            -   New York and Maldives (Haven) are included in Season 2
+        -   Season 1 default suits (e.g. Neon City Suit from Chongqing): Works on Season 3 Maps Only
+        -   Ambrose Island is outside of the Season system so to speak, Ambrose Default suit (Guerilla Wetsuit) is usable on all maps, and all maps' Default Suits can be used in Ambrose
 
 ### Request Tech Support
 
@@ -75,10 +80,12 @@ title: Veelgestelde vragen / Probleemoplossing
         -   Information on what is running on Port 80 (check [Connection Troubleshooting](faq/#connection-troubleshooting) above)
         -   Alle informatie verder relevant
 
+## How Peacock Works FAQ
+
+-   See [What is Peacock](what-is-peacock)
+
 ## Feature aanvraag FAQ
 
--   To be very clear: Progression (unlocking items as you go) is currently not supported, although planned for the future. Peacock zal je alle unlocks meteen vrijstellen (waar jij mee in aanmerking komt qua DLC die jij hebt gekocht).
--   In-game challenges are mostly done as of Peacock v6.0.0 but some might not be working. Please report it if you come across one.
 -   Voordat je vragen stelt over Ghost Mode, escalations, user contracts of elusive targets, controleer eerst de [Aangepaste Inhoud Pagina](https://thepeacockproject.org/wiki/custom-content) net als de [Ghost Mode Pagina](https://thepeacockproject.org/wiki/ghost-mode/).
 -   Mod Compatability:
     -   Most mods are compatible with Peacock; there are only three kinds that aren't.

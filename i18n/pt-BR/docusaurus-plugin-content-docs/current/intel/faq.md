@@ -54,16 +54,21 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
 -   Se você adquiriu recentemente uma DLC e não está conseguindo acessar o conteúdo no Peacock, verifique se você realmente ativou a DLC. Depois delete a pasta `userdata` e reinicie o servidor.
 
     -   Se você estiver com problemas em encontrar a pasta `userdata`, [veja esta imagem de exemplo](https://media.discordapp.net/attachments/833505136290299935/991071183732613200/unknown.png).
--   A partir da versão v6, o Peacock deve automaticamente localizar suas DLCs mais recentes. Então não há mais a necessidade de deletar a pasta userdata.
+
+-   Starting from v6, Peacock should be able to automatically get your latest DLCs. So no need to delete the userdata folder anymore.
 
 ### Outro
 
--   Salvamentos em jogo são suportados, mas note que você só pode usar salvamentos dos servidores oficiais apenas na versão dos servidores oficiais do jogo, e salvamentos no Peacock apenas na versão Peacock do jogo.
--   Os desafios ainda estão na fase de desenvolvimento e podem ter falhas. Relate erros no canal `#help` no Discord do Peacock.
--   Usar o Peacock afetará seu perfil nos servidores oficiais de maneiras bem imperceptíveis.
-    -   Devido ao fato que não temos implementado propriamente alguns recursos de menor importância como avisos de spoiler em conteúdo/história, vai colocar todos em um estado como se 'eu já tivesse jogado'. Além disso, não deve ter qualquer efeito.
--   Nota: Se essa é sua primeira vez jogando (tanto no Peacock como nos servidores oficiais), algumas saídas estarão bloquadas. Você terá que desbloquear as saídas de Dubai ([precisa desbloquear os elevadores](https://youtu.be/IEQgRQyQRf8)), saídas de Dartmoor ([precisa sair por meio da motocicleta pelo menos uma vez](https://youtu.be/AJtJZe9jEi8?t=151)), e saídas de Colorado ([precisa ter usado a saída do abrigo de tornados pelo menos uma vez](https://youtu.be/3XKWHrKpXwk?t=140)). Essas saídas estão sob responsabilidade do usuário.
 -   Veja a página de [Recursos Únicos do Peacock](../intel/loadout-profiles-elp) para mais informações em como ter múltiplos equipamentos por mapa ou escolher níveis de escalações específicos.
+-   Default Suits - If you tick `getDefaultSuits = true` in your `options.ini` file in your Peacock Install folder, please note the following behavior:
+    -   Any discussion for "default suits" below refers to the version of the default suit **without gloves** - whichever version of the suit you normally would use for that level when starting it up for the first time ever.
+    -   Some Hitman 2 and Hitman 3 default suits are not usable in all maps in the vanilla game. This can be fixed using https://www.nexusmods.com/hitman3/mods/401/
+    -   If you choose not to use the above mod, then note the following:
+        -   Season 1 default suits (e.g. Summer Suit from Marrakesh): Works on all maps
+        -   Season 2 default suits (e.g. Casual Tourist from Santa Fortuna): Works on Season 2 and 3 Maps
+            -   New York and Maldives (Haven) are included in Season 2
+        -   Season 1 default suits (e.g. Neon City Suit from Chongqing): Works on Season 3 Maps Only
+        -   Ambrose Island is outside of the Season system so to speak, Ambrose Default suit (Guerilla Wetsuit) is usable on all maps, and all maps' Default Suits can be used in Ambrose
 
 ### Solicitando Suporte Técnico
 
@@ -75,10 +80,12 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
         -   Informações sobre o que está rodando na Porta 80 (veja [Solução de Problemas de Conexão](faq/#connection-troubleshooting) acima)
         -   Quaisquer outras informações pertinentes
 
+## How Peacock Works FAQ
+
+-   See [What is Peacock](what-is-peacock)
+
 ## Perguntas Frequentes sobre Solicitação de Recursos
 
--   Para ser claro: Progressão (desbloqueando itens lentamente) não é atualmente suportado, mas é planejado para o futuro. O Peacock irá te fornecer todos os itens desbloqueáveis logo de início (baseando-se no conteúdo que você tenha adquirido).
--   Desafios em jogo estão quase prontos na versão Peacock v6.0.0, mas algo pode não estar funcionando. Relate qualquer problema se você encontrar algum.
 -   Antes de perguntar qualquer pergunta sobre o Modo Fantasma, Escalações, Contratos do Usuário e Alvos Elusivos, por favor verifique a [Página de Conteúdo Customizado](https://thepeacockproject.org/wiki/custom-content) assim como a [Página do Modo Fantasma](https://thepeacockproject.org/wiki/ghost-mode/).
 -   Compatibilidade de Mods:
     -   A maioria dos Mods são compatíveis com o Peacock; existem apenas três que não são.

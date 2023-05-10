@@ -54,16 +54,21 @@ title: 常见问题解答
 -   如果你最近购买了一个DLC且在Peacock中没有看到，请确保你确实购买了此DLC。 随后删除`userdata`文件夹，并重启服务器。
 
     -   如果你找不到`userdata`文件夹，[参阅此示例图片](https://media.discordapp.net/attachments/833505136290299935/991071183732613200/unknown.png)。
--   从v6起，Peacock应能自动识别你最新安装的DLC。 所以你不再需要删除userdata文件夹。
+
+-   Starting from v6, Peacock should be able to automatically get your latest DLCs. So no need to delete the userdata folder anymore.
 
 ### 其他
 
--   游戏内存档是受支持的，且在Peacock v5.0.1起，你可以在Peacock中载入官方服务器存档。
--   挑战功能仍在开发阶段，可能会出现漏洞。 请在Peacock Discord的`#help`频道反馈任何错误。
--   使用Peacock会小程度地影响你的官方服务器档案。
-    -   由于我们还未正式实装一些小的功能，例如内容/故事的剧透警告，它仍然会被全部标记为“我已经游玩过”的状态。 除此之外，应该不会有任何的影响。
--   注意：如果这是你的首次游玩（无论是在Peacock或是官方服务器），一些撤离点可能会被锁定。 你需要解锁迪拜的撤离点（[需要解锁电梯](https://youtu.be/IEQgRQyQRf8)），达特缪尔的撤离点（[需要至少通过摩托车撤离一次](https://youtu.be/AJtJZe9jEi8?t=151)），以及科罗拉多撤离点（[需要至少通过地下室撤离一次](https://youtu.be/3XKWHrKpXwk?t=140)）。 这些撤离点是由客户端侧处理的。
 -   参阅[Peacock独特功能](../intel/loadout-profiles-elp)页面来查找如何在Peacock上为每张地图设定多重装备组合以及选择特定的升级关卡。
+-   Default Suits - If you tick `getDefaultSuits = true` in your `options.ini` file in your Peacock Install folder, please note the following behavior:
+    -   Any discussion for "default suits" below refers to the version of the default suit **without gloves** - whichever version of the suit you normally would use for that level when starting it up for the first time ever.
+    -   Some Hitman 2 and Hitman 3 default suits are not usable in all maps in the vanilla game. This can be fixed using https://www.nexusmods.com/hitman3/mods/401/
+    -   If you choose not to use the above mod, then note the following:
+        -   Season 1 default suits (e.g. Summer Suit from Marrakesh): Works on all maps
+        -   Season 2 default suits (e.g. Casual Tourist from Santa Fortuna): Works on Season 2 and 3 Maps
+            -   New York and Maldives (Haven) are included in Season 2
+        -   Season 1 default suits (e.g. Neon City Suit from Chongqing): Works on Season 3 Maps Only
+        -   Ambrose Island is outside of the Season system so to speak, Ambrose Default suit (Guerilla Wetsuit) is usable on all maps, and all maps' Default Suits can be used in Ambrose
 
 ### 请求技术支持
 
@@ -75,10 +80,12 @@ title: 常见问题解答
         -   80端口的运行信息（参阅上述的[常见问题解答](faq/#connection-troubleshooting)）
         -   其它深入的相关信息
 
+## How Peacock Works FAQ
+
+-   See [What is Peacock](what-is-peacock)
+
 ## 常见功能请求解答
 
--   首先声明：进度（物品解锁等）当前不受支持，尽管在将来有相关计划。 Peacock将直接给你提供所有的物品（根据你所购买的DLC判定你有资格拥有的物品）。
--   游戏内挑战在孔雀v6.0.0中已基本完成，但有些可能无法正常工作。 如果你需要此情况，请进行反馈。
 -   在询问任何有关幽灵模式、升级、用户契约、行踪不定的目标之前，请参阅[自定义内容页面](https://thepeacockproject.org/wiki/custom-content)以及[幽灵模式页面](https://thepeacockproject.org/wiki/ghost-mode)。
 -   Mod（模组）兼容性：
     -   大部分模组都与Peacock兼容；除了三种以外。

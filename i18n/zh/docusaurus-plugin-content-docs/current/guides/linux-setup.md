@@ -1,20 +1,20 @@
 ---
 title: Linux初始化指南
-description: 在Linux系统或macOS系统上初始化Peacock的教程。
+description: 在Linux或macOS上初始化Peacock的教程。
 ---
 
-Peacock主要在Windows系统上使用，但别担心，在Linux系统上使用也是可能的！
+Peacock主要是为在Windows上工作而构建的，但不要担心，在Linux上使用它也是可能的！
 
-## 2022年11月的更新
+## 2022年11月更新
 
-截至在2022年11月的更新：
+截至2022年11月的更新信息：
 
--   前往[这个Github仓库](https://github.com/thepeacockproject/linux-steam-setup)来查看在Linux系统上的Steam运行Peacock的教程。
--   **以下的旧版教程也许仍然有效。**
+-   转到[这个Github仓库](https://github.com/thepeacockproject/linux-steam-setup)，以获得关于如何在Linux上使用Steam运行Peacock的最新说明。
+-   **下面的原始指南可能仍然有效。**
 
 ## 服务器
 
-为了在Linux系统上启用服务器，首先你需要准备好Node.js。
+为了在Linux上启用服务器，你需要首先准备Node.js。
 
 ### 安装nvm
 
