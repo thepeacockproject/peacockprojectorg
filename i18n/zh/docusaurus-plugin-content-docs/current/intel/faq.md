@@ -82,7 +82,7 @@ title: 常见问题解答
 
 ## How Peacock Works FAQ
 
--   See [What is Peacock](what-is-peacock)
+-   See [What is Peacock](https://thepeacockproject.org/wiki/intel/what-is-peacock)
 
 ## 常见功能请求解答
 

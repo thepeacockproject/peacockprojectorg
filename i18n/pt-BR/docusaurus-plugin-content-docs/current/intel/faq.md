@@ -82,7 +82,7 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
 
 ## How Peacock Works FAQ
 
--   See [What is Peacock](what-is-peacock)
+-   See [What is Peacock](https://thepeacockproject.org/wiki/intel/what-is-peacock)
 
 ## Perguntas Frequentes sobre Solicitação de Recursos
 

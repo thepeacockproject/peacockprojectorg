@@ -82,7 +82,7 @@ title: Veelgestelde vragen / Probleemoplossing
 
 ## How Peacock Works FAQ
 
--   See [What is Peacock](what-is-peacock)
+-   See [What is Peacock](https://thepeacockproject.org/wiki/intel/what-is-peacock)
 
 ## Feature aanvraag FAQ
 
