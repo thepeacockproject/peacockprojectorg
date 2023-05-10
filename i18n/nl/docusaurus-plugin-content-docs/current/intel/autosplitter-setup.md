@@ -3,7 +3,7 @@ title: Auto-Splitter Setup
 description: Hoe je de Peacock auto-splitter in moet stellen voor full-game speedruns.
 ---
 
-Gids origineel geschreven door [Fusha](https://www.speedrun.com/user/Fusha)
+_Guide written originally by [Fusha](https://github.com/fu5ha)_.
 
 This tool is meant for use in full game Hitman speedruns.
 
@@ -19,11 +19,11 @@ This tool is meant for use in full game Hitman speedruns.
 
 -   Het werkt op beide de Steam en Epic versie van Hitman 3 in tegenstelling tot de Officiële Servers Autosplitter (wat alleen Epic ondersteund).
 
--   Dit werkt vanzelfsprekend ook op [Peacock](https://thepeacockproject.org/wiki/intel/), als je toch op de officiële server speelt moet je een van de [andere twee Livesplit Gidsen gebruiken](https://www.speedrun.com/hitman_3/guides).
+-   Obviously this only works on [Peacock](./what-is-peacock.md), if you are playing on official servers for some reason you should use one of the [other two Livesplit Guides](https://hitruns-wiki.vercel.app/docs/livesplit).
 
 ## Installatie
 
-1. Installeer [Peacock](https://thepeacockproject.org/wiki/intel/) en [LiveSplit](https://livesplit.org/downloads/) als je die nog niet hebt geïnstalleerd (unzip ze waar je ook wilt). **Als je al Peacock hebt geïnstalleerd, ben er dan zeker van dat je Peacock naar de laatste versie hebt geupdate.** Nadat je deze applicaties hebt geïnstalleerd/geupdate, kan je ze voor nu sluiten.
+1. Install [Peacock](./installation.md) and [LiveSplit](https://livesplit.org/downloads/) if you don't have either of them installed (just unzip them wherever you want). **Als je al Peacock hebt geïnstalleerd, ben er dan zeker van dat je Peacock naar de laatste versie hebt geupdate.** Nadat je deze applicaties hebt geïnstalleerd/geupdate, kan je ze voor nu sluiten.
 
 2. Download hier de LiveSplit server component: https://github.com/LiveSplit/LiveSplit.Server/releases/latest
 

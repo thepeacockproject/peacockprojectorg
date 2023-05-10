@@ -23,7 +23,7 @@ Dentro do Peacock, você pode jogar Alvos Elusivos sem nenhum tempo limite ao re
 
     -   O Peacock também suporta todas as escalações dos servidores oficiais, incluindo escalações de Hitman 2016 que não foram portadas para o Hitman 2 e 3 (escalações legado). Essas escalações estão disponíveis em jogo por predefinição.
 
--   Nota: Você pode selecionar níveis específicos de escalações ao usar a ferramenta Escalation Level Picker, como explicado [aqui](https://thepeacockproject.org/wiki/intel/#loadout-profiles--escalation-level-picker)
+-   Note: You can select specific escalation levels to start on using the Escalation Level Picker tool, as explained [here](./intel/loadout-profiles-elp#escalation-level-picker.md)
 
 ## Missões Customizadas Peacock Individuais
 
@@ -39,7 +39,7 @@ O Peacock tem duas missões personalizadas que são excepcionais (essas missões
 O Peacock suporta ambos contratos de servidores oficiais e contratos personalizados Peacock.
 
 -   **Contratos em Destaque**
-    -   Aqui estão incluídos todos os contratos em destaque dos servidores oficiais, assim como alguns contratos (Originais Peacock) customizados criados pela equipe de desenvolvimento do Peacock e até mesmo de usuários regulares. Você pode ver alguns desses contratos customizados \[aqui]\](https://thepeacockproject.org/wiki/roadmaps).
+    -   Aqui estão incluídos todos os contratos em destaque dos servidores oficiais, assim como alguns contratos (Originais Peacock) customizados criados pela equipe de desenvolvimento do Peacock e até mesmo de usuários regulares. You can see some of these custom featured contracts [here](./roadmaps.mdx).
         -   **Aviso: Contratos em Destaque dos Servidores Oficiais não estão incluídos.**
     -   Como Jogar:
         -   Vá para o menu `Game Modes` -> `Contracts` -> `Featured` em jogo
@@ -73,7 +73,7 @@ Além do plugin de Escalações Legacy (Legado), que foi descrito anteriormente 
     -   Instruções de Instalação: https://github.com/solderq35/hitman-tech-tips/blob/main/modding/sarajevo_six.md
 -   Alvo Elusivo Os Irmãos (Conteúdo Cortado)
     -   Download de Arquivo: https://www.nexusmods.com/hitman3/mods/375?tab=files
-    -   Instale a porção principal do mod (o arquivo não marcado como "Plugin Peacock") através do Simple Mod Framework. Instale a porção do mod "Plugin Peacock" colocando-o na sua pasta de instalação do Peacock. Leia as instruções de instalação dos Seis de Sarajevo acima para guia, caso haja confusão sobe qualquer desses passos.
+    -   Install the main portion of the mod (the file not marked "Peacock Plugin") through Simple Mod Framework. Instale a porção do mod "Plugin Peacock" colocando-o na sua pasta de instalação do Peacock. Leia as instruções de instalação dos Seis de Sarajevo acima para guia, caso haja confusão sobe qualquer desses passos.
 -   Plugins para adicionar armas não usadas no jogo
 -   Plugins para modificar armas e disfarces existentes
 

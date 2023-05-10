@@ -6,9 +6,9 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
 
 ### Versão Errada do Jogo / Plataforma
 
--   Veja a seção "Do que eu Preciso para Rodar o Peacock" deste guia, tenha a certeza de que você tem uma versão e plataforma compatíveis, etc.
+-   Check the [Requirements](./requirements.md) section of this guide, make sure you have a supported game version and platform, etc.
     -   **Xbox Game Pass / Versão da Microsoft PC de Hitman 3 não são suportadas (comumente perguntado)**.
-    -   Veja o [Guia de Instalação de Linux](https://thepeacockproject.org/wiki/guides/linux-setup) se estiver usando Linux.
+    -   Check [Linux Setup Guide](../guides/./linux-setup.md) if on Linux.
 -   Tenha a certeza de que você tem as últimas versões do Hitman 3 e do Peacock, versões mais antigas podem não ser suportadas.
 
 ### Tente se Reconectar
@@ -21,7 +21,7 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
 
 ### Solução de Problemas de Conexão
 
--   Como explicado na página [O Que é o Peacock](https://thepeacockproject.org/wiki/intel/what-is-peacock), **você precisa estar conectado à Internet, pelo menos inicialmente, para usar o Peacock**. Isso tem o único propósito de passar pela verificação Steam / Epic. Após conectar ao Peacock na primeira vez, você poderá desconectar da Internet e permanecer conectado ao Peacock pela duração da sua sessão de jogo.
+-   As explained in the [What is Peacock](./what-is-peacock.md) page, **you need to be connected to the Internet, at least initially, to use Peacock**. Isso tem o único propósito de passar pela verificação Steam / Epic. Após conectar ao Peacock na primeira vez, você poderá desconectar da Internet e permanecer conectado ao Peacock pela duração da sua sessão de jogo.
     -   Se você tiver um celular com plano de Internet, você pode usá-lo como ponto de acesso de Internet para o seu computador se conectar.
 -   Não tente usar o Peacock se esta for a sua primeira vez jogando o jogo. Você precisa se conectar aos servidores oficiais pelo menos uma vez antes de se conectar ao Peacock. Depois de ter conectado aos servidores oficiais pelo menos uma vez, você não precisa de fazê-lo novamente no futuro para usar o Peacock.
 -   Tente rodar o `Start Server.cmd` como administrador.
@@ -59,7 +59,7 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
 
 ### Outro
 
--   Veja a página de [Recursos Únicos do Peacock](../intel/loadout-profiles-elp) para mais informações em como ter múltiplos equipamentos por mapa ou escolher níveis de escalações específicos.
+-   Check [Peacock Unique Features](../intel/loadout-profiles-elp.md) page for info on how to set multiple loadouts per map or choose specific escalation levels with Peacock.
 -   Default Suits - If you tick `getDefaultSuits = true` in your `options.ini` file in your Peacock Install folder, please note the following behavior:
     -   Any discussion for "default suits" below refers to the version of the default suit **without gloves** - whichever version of the suit you normally would use for that level when starting it up for the first time ever.
     -   Some Hitman 2 and Hitman 3 default suits are not usable in all maps in the vanilla game. This can be fixed using https://www.nexusmods.com/hitman3/mods/401/
@@ -77,16 +77,16 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
         -   Fotos do seu Servidor Peacock rodando no terminal
         -   Fotos do seu Patcher Peacock rodando
         -   Informações sobre o seu sistema operacional e versão do jogo
-        -   Informações sobre o que está rodando na Porta 80 (veja [Solução de Problemas de Conexão](faq/#connection-troubleshooting) acima)
+        -   Information on what is running on Port 80 (check [Connection Troubleshooting](#connection-troubleshooting) above)
         -   Quaisquer outras informações pertinentes
 
 ## How Peacock Works FAQ
 
--   See [What is Peacock](https://thepeacockproject.org/wiki/intel/what-is-peacock)
+-   See [What is Peacock](./what-is-peacock.md)
 
 ## Perguntas Frequentes sobre Solicitação de Recursos
 
--   Antes de perguntar qualquer pergunta sobre o Modo Fantasma, Escalações, Contratos do Usuário e Alvos Elusivos, por favor verifique a [Página de Conteúdo Customizado](https://thepeacockproject.org/wiki/custom-content) assim como a [Página do Modo Fantasma](https://thepeacockproject.org/wiki/ghost-mode/).
+-   Before asking any questions about Ghost Mode, escalations, user contracts, elusive targets, please check the [Custom Content Page](.././custom-content.md) as well as the [Ghost Mode Page](.././ghost-mode.md).
 -   Compatibilidade de Mods:
     -   A maioria dos Mods são compatíveis com o Peacock; existem apenas três que não são.
         -   Se um mod edita contratos (missões, Missões Especiais, etc), ele necessitará de um plugin Peacock para ser compatível.

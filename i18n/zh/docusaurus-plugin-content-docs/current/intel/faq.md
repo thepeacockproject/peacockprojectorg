@@ -6,9 +6,9 @@ title: 常见问题解答
 
 ### 错误的游戏版本/平台
 
--   请参阅本教程的[需求](https://thepeacockproject.org/wiki/intel/requirements)板块，确保你拥有受支持的游戏版本和平台以及其他内容。
+-   Check the [Requirements](./requirements.md) section of this guide, make sure you have a supported game version and platform, etc.
     -   **Xbox Game Pass及Microsoft PC的杀手3版本是不受支持的（常见问题）**。
-    -   Linux用户请参阅 [Linux初始化指南](https://thepeacockproject.org/wiki/guides/linux-setup)
+    -   Check [Linux Setup Guide](../guides/./linux-setup.md) if on Linux.
 -   确保你在使用最新版本的杀手和Peacock，旧版本是不受支持的。
 
 ### 尝试重新连接
@@ -21,7 +21,7 @@ title: 常见问题解答
 
 ### 连接问题解答
 
--   正如[Peacock是什么](https://thepeacockproject.org/wiki/intel/what-is-peacock)页面中所说， **你需要连接到互联网，最起码在启动时，来使用Peacock**。 这是为了通过Steam/Epic平台的验证。 在首次连接到Peacock后，你可以从互联网中断开，并在游戏进程的阶段中保持连接到Peacock。
+-   As explained in the [What is Peacock](./what-is-peacock.md) page, **you need to be connected to the Internet, at least initially, to use Peacock**. 这是为了通过Steam/Epic平台的验证。 在首次连接到Peacock后，你可以从互联网中断开，并在游戏进程的阶段中保持连接到Peacock。
     -   如果你的手机有移动数据流量，你可以使用手机为电脑提供热点来连接到互联网。
 -   如果这是你第一次游玩游戏，请不要尝试使用Peacock。 在你连接Peacock之前，你必须至少连接到官方服务器一次。 在你连接到官方服务器一次以后，在后续使用Peacock时不再需要连接到官方服务器。
 -   尝试以管理员身份运行`PeacockPatcher.exe`。
@@ -59,7 +59,7 @@ title: 常见问题解答
 
 ### 其他
 
--   参阅[Peacock独特功能](../intel/loadout-profiles-elp)页面来查找如何在Peacock上为每张地图设定多重装备组合以及选择特定的升级关卡。
+-   Check [Peacock Unique Features](../intel/loadout-profiles-elp.md) page for info on how to set multiple loadouts per map or choose specific escalation levels with Peacock.
 -   Default Suits - If you tick `getDefaultSuits = true` in your `options.ini` file in your Peacock Install folder, please note the following behavior:
     -   Any discussion for "default suits" below refers to the version of the default suit **without gloves** - whichever version of the suit you normally would use for that level when starting it up for the first time ever.
     -   Some Hitman 2 and Hitman 3 default suits are not usable in all maps in the vanilla game. This can be fixed using https://www.nexusmods.com/hitman3/mods/401/
@@ -77,16 +77,16 @@ title: 常见问题解答
         -   当前Peacock服务器在终端中运行的截图
         -   当前Peacock Patcher运行的截图
         -   你的操作系统和游戏版本信息
-        -   80端口的运行信息（参阅上述的[常见问题解答](faq/#connection-troubleshooting)）
+        -   Information on what is running on Port 80 (check [Connection Troubleshooting](#connection-troubleshooting) above)
         -   其它深入的相关信息
 
 ## How Peacock Works FAQ
 
--   See [What is Peacock](https://thepeacockproject.org/wiki/intel/what-is-peacock)
+-   See [What is Peacock](./what-is-peacock.md)
 
 ## 常见功能请求解答
 
--   在询问任何有关幽灵模式、升级、用户契约、行踪不定的目标之前，请参阅[自定义内容页面](https://thepeacockproject.org/wiki/custom-content)以及[幽灵模式页面](https://thepeacockproject.org/wiki/ghost-mode)。
+-   Before asking any questions about Ghost Mode, escalations, user contracts, elusive targets, please check the [Custom Content Page](.././custom-content.md) as well as the [Ghost Mode Page](.././ghost-mode.md).
 -   Mod（模组）兼容性：
     -   大部分模组都与Peacock兼容；除了三种以外。
         -   如果一个模组修改了契约（任务，特殊要求等），它需要一个Peacock插件来兼容。

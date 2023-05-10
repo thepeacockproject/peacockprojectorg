@@ -23,7 +23,7 @@ Peacock为我们的用户提供了许多有趣的内容。 这里是我们的一
 
     -   Peacock也支持所有官方服务器升级契约，包括未被移植到《杀手2》或《杀手3》的《杀手2016》升级契约（传承升级契约）。 这些升级在游戏中默认可用。
 
--   注意：如[这里](https://thepeacockproject.org/wiki/intel/#loadout-profiles--escalation-level-picker)所述，你可以使用升级关卡选择器工具来选择一个特定的升级关卡。
+-   Note: You can select specific escalation levels to start on using the Escalation Level Picker tool, as explained [here](./intel/loadout-profiles-elp#escalation-level-picker.md)
 
 ## Peacock独立自定义任务
 
@@ -39,7 +39,7 @@ Peacock中有两个独立的自定义任务（这些任务不算升级或契约�
 Peacock同时支持官方服务器和Peacock自定义契约。
 
 -   **支持的契约**
-    -   这包含自定义（Peacock原版）契约，由Peacock开发团队创建。 你可以在[这里](https://thepeacockproject.org/wiki/roadmaps)查看一些自定义契约。
+    -   这包含自定义（Peacock原版）契约，由Peacock开发团队创建。 You can see some of these custom featured contracts [here](./roadmaps.mdx).
         -   **注意：这里不包含官方服务器契约。**
     -   如何游玩：
         -   在游戏中前往`游戏模式`-> `契约` -> `特色`
@@ -73,7 +73,7 @@ Peacock同时支持官方服务器和Peacock自定义契约。
     -   安装指南：https://github.com/solderq35/hitman-tech-tips/blob/main/modding/sarajevo_six.md
 -   兄弟 行踪不定的目标（删减内容）
     -   下载文件：https://www.nexusmods.com/hitman3/mods/375?tab=files
-    -   安装模组的主要部分（在Simple Mod Framework中未标记为”Peacock Plugin”的文件）。 将模组中的“Peacock Plugin”部分放入你的Peacock安装文件夹。 如果对这些步骤有任何问题，阅读上面的萨拉热窝六号安装指南。
+    -   Install the main portion of the mod (the file not marked "Peacock Plugin") through Simple Mod Framework. 将模组中的“Peacock Plugin”部分放入你的Peacock安装文件夹。 如果对这些步骤有任何问题，阅读上面的萨拉热窝六号安装指南。
 -   在游戏中添加未启用的武器的插件
 -   修改现有武器和伪装的插件
 

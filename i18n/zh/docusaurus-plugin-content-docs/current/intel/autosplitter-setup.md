@@ -3,7 +3,7 @@ title: Auto-Splitter初始化指南
 description: 如何安装为整局游戏速通安装Peacock计时器。
 ---
 
-_教程由[Fusha](https://www.speedrun.com/user/Fusha)初步编写_。
+_Guide written originally by [Fusha](https://github.com/fu5ha)_.
 
 此工具用于杀手整局游戏速通。
 
@@ -19,11 +19,11 @@ _教程由[Fusha](https://www.speedrun.com/user/Fusha)初步编写_。
 
 -   Steam和Epic平台上的杀手3均可用，不像官方服务器计时器（仅能在Epic使用）。
 
--   显然，这只能在[Peacock](https://thepeacockproject.org/wiki/intel/)上使用，如果你在官方服务器上游玩，出于一些原因你应该使用[其他两种实时计时器](https://hitruns-wiki.vercel.app/docs/livesplit)之一。
+-   Obviously this only works on [Peacock](./what-is-peacock.md), if you are playing on official servers for some reason you should use one of the [other two Livesplit Guides](https://hitruns-wiki.vercel.app/docs/livesplit).
 
 ## 安装
 
-1. 如果你还未下载，下载[Peacock](https://thepeacockproject.org/wiki/intel/)和[LiveSplit](https://livesplit.org/downloads/)（只需解压到你想要的地方）。 **如果你已经安装过了Peacock，请确保它处于最新版本。 **在你完成软件的安装/更新后，暂时关闭它们。
+1. Install [Peacock](./installation.md) and [LiveSplit](https://livesplit.org/downloads/) if you don't have either of them installed (just unzip them wherever you want). **如果你已经安装过了Peacock，请确保它处于最新版本。 **在你完成软件的安装/更新后，暂时关闭它们。
 
 2. 在这里下载`Livesplit.Server.zip`：https://github.com/LiveSplit/LiveSplit.Server/releases/latest
 

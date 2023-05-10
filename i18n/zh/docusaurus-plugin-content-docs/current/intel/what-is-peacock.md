@@ -20,8 +20,8 @@ Here's a brief breakdown of what Peacock does:
     -   Please check the `options.ini` file in your Peacock install folder for any additional configuration tweaks, such as **turning progression / challenge completion on and off** (e.g. if you want to get all unlocks right away on purpose).
     -   **By default, progression / challenge completion is turned on to simulate an official servers experience.**
     -   如果这是你首次游玩（不论是Peacock还是官方服务器上），一些撤离点仍会被锁定。 你需要解锁迪拜的撤离点（[需要解锁电梯](https://youtu.be/IEQgRQyQRf8)），达特缪尔的撤离点（[需要至少通过摩托车撤离一次](https://youtu.be/AJtJZe9jEi8?t=151)），以及科罗拉多撤离点（[需要至少通过地下室撤离一次](https://youtu.be/3XKWHrKpXwk?t=140)）。 这些撤离点是由客户端侧处理的。
--   Peacock lets you play [custom](../custom-content.md) or otherwise discontinued / time limited content such as [Ghost Mode](../ghost-mode), Sniper co-op, escalations, elusive targets, and contracts.
-    -   Both official server escalation / elusive targets / contracts and custom / modded ones are supported, see [here](../custom-content.md) for more info.
+-   Peacock lets you play [custom](.././custom-content.md) or otherwise discontinued / time limited content such as [Ghost Mode](.././ghost-mode.md), Sniper co-op, escalations, elusive targets, and contracts.
+    -   Both official server escalation / elusive targets / contracts and custom / modded ones are supported, see [here](.././custom-content.md) for more info.
 -   Display leaderboards for other Peacock users (Cross Platform, Epic and Steam)
 -   In Game Saving is supported, and as of Peacock v5.0.1 you can load official server saves in Peacock.
 

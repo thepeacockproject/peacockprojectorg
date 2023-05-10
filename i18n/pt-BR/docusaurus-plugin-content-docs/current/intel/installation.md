@@ -5,10 +5,10 @@ description: Como começar a usar o Peacock.
 
 Aqui estão as instruções para se começar a usar o Peacock.
 
--   Os passos 2-3 podem precisar ser repetidos quando o Peacock receber uma atualização (mais informações na página [Atualizando para Novas Versões](https://thepeacockproject.org/wiki/intel/updating)).
+-   Steps 2-3 may need to be repeated whenever Peacock receives an update (more info on the [Updating](./updating.md) page).
 -   Os passos 4-5 precisam ser repetidos todas as vezes que for iniciar o jogo. O jogo retorna aos servidores oficiais se não o fizer.
 
-1. Verifique os [Requisitos](https://thepeacockproject.org/wiki/intel/requirements) antes de ler adiante para ter a certeza de que você tem os jogos / sistemas operacionais necessários. **A versão Game Pass do Xbox / Microsoft PC do Hitman 3 não é suportada**, e [usuários de Linux deveriam ver essa página](/wiki/guides/linux-setup).
+1. Be sure to check the [requirements](./requirements.md) before reading further to ensure you have the required games / operating systems. **Xbox Game Pass / Microsoft PC version of Hitman 3 is not supported**, and [Linux users should check this page](../guides/./linux-setup.md).
 
 2. [Faça o download da última versão do Peacock aqui](https://github.com/thepeacockproject/Peacock/releases/latest). Selecione `Peacock-vX.Y.Z.zip` para baixar.
 
@@ -21,4 +21,4 @@ Aqui estão as instruções para se começar a usar o Peacock.
 
     - Dependendo de como você instalou o Peacock, você pode precisar de abrir duas pastas para encontrar esses arquivos, [como mostrado nessa imagem de exemplo](https://media.discordapp.net/attachments/833505136290299935/991068578579107870/unknown.png).
 
-5. Agora inicie o jogo enquanto `Start Server` e `PeacockPatcher.exe` ainda estejam rodando. O jogo deve ser iniciado juntamente com o servidor Peacock. Verifique o [FAQ](https://thepeacockproject.org/wiki/intel/faq) ou pergunte no canal `#help` no [Discord do Peacock](https://thepeacockproject.org/discord) se você estiver tendo problemas nesses procedimentos.
+5. Agora inicie o jogo enquanto `Start Server` e `PeacockPatcher.exe` ainda estejam rodando. O jogo deve ser iniciado juntamente com o servidor Peacock. Check the [FAQ](./faq.md) or ask in the `#help` channel on [Peacock Discord](https://thepeacockproject.org/discord) if you have trouble getting it to work.

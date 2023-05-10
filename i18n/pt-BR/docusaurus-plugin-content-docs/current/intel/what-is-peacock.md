@@ -20,8 +20,8 @@ Here's a brief breakdown of what Peacock does:
     -   Please check the `options.ini` file in your Peacock install folder for any additional configuration tweaks, such as **turning progression / challenge completion on and off** (e.g. if you want to get all unlocks right away on purpose).
     -   **By default, progression / challenge completion is turned on to simulate an official servers experience.**
     -   Se essa é sua primeira vez jogando (tanto no Peacock como nos servidores oficiais), algumas saídas estarão bloquadas. Você terá que desbloquear as saídas de Dubai ([precisa desbloquear os elevadores](https://youtu.be/IEQgRQyQRf8)), saídas de Dartmoor ([precisa sair por meio da motocicleta pelo menos uma vez](https://youtu.be/AJtJZe9jEi8?t=151)), e saídas de Colorado ([precisa ter usado a saída do abrigo de tornados pelo menos uma vez](https://youtu.be/3XKWHrKpXwk?t=140)). Essas saídas estão sob responsabilidade do usuário.
--   Peacock lets you play [custom](../custom-content.md) or otherwise discontinued / time limited content such as [Ghost Mode](../ghost-mode), Sniper co-op, escalations, elusive targets, and contracts.
-    -   Both official server escalation / elusive targets / contracts and custom / modded ones are supported, see [here](../custom-content.md) for more info.
+-   Peacock lets you play [custom](.././custom-content.md) or otherwise discontinued / time limited content such as [Ghost Mode](.././ghost-mode.md), Sniper co-op, escalations, elusive targets, and contracts.
+    -   Both official server escalation / elusive targets / contracts and custom / modded ones are supported, see [here](.././custom-content.md) for more info.
 -   Display leaderboards for other Peacock users (Cross Platform, Epic and Steam)
 -   In Game Saving is supported, and as of Peacock v5.0.1 you can load official server saves in Peacock.
 
