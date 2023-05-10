@@ -21,6 +21,7 @@ Within Peacock, you can replay Elusive Targets without any time limit on restart
     -   Peacock supports custom (Peacock original) escalations. These escalations are available in-game by default. You can see some custom escalations listed in the [Roadmaps](./roadmaps.mdx) as well.
 
 -   **Official Server Escalations and Legacy Escalations**
+
     -   Peacock also supports all official server escalations, including Hitman 2016 escalations that have not been ported to Hitman 2 or 3 (legacy escalations). These escalations are available in-game by default.
 
 -   Note: You can select specific escalation levels to start on using the Escalation Level Picker tool, as explained [here](https://thepeacockproject.org/wiki/intel/#loadout-profiles--escalation-level-picker)
