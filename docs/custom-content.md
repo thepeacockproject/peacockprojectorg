@@ -24,7 +24,7 @@ Within Peacock, you can replay Elusive Targets without any time limit on restart
 
     -   Peacock also supports all official server escalations, including Hitman 2016 escalations that have not been ported to Hitman 2 or 3 (legacy escalations). These escalations are available in-game by default.
 
--   Note: You can select specific escalation levels to start on using the Escalation Level Picker tool, as explained [here](https://thepeacockproject.org/wiki/intel/#loadout-profiles--escalation-level-picker)
+-   Note: You can select specific escalation levels to start on using the Escalation Level Picker tool, as explained [here](./intel/loadout-profiles-elp#escalation-level-picker.md)
 
 ## Peacock Standalone Custom Missions
 
@@ -40,7 +40,7 @@ Peacock has two custom missions that are standalone (these missions are neither 
 Peacock supports both official server and custom Peacock contracts.
 
 -   **Featured contracts**
-    -   This includes custom (Peacock original) contracts created by Peacock dev team. You can see some of these custom featured contracts [here](https://thepeacockproject.org/wiki/roadmaps).
+    -   This includes custom (Peacock original) contracts created by Peacock dev team. You can see some of these custom featured contracts [here](./roadmaps.mdx).
         -   **Note: Official Servers Featured Contracts are not included.**
     -   How to Play:
         -   Go to `Game Modes` -> `Contracts` -> `Featured` menu in-game
@@ -74,7 +74,7 @@ Besides Legacy Escalations Plugin, which was described earlier in the Escalation
     -   Installation Instructions: https://github.com/solderq35/hitman-tech-tips/blob/main/modding/sarajevo_six.md
 -   Brothers Elusive Target (Cut Content)
     -   File Download: https://www.nexusmods.com/hitman3/mods/375?tab=files
-    -   Install the main portion of the mod (the file not marked "Peacock Plugin" through Simple Mod Framework. Install the "Peacock Plugin" portion of the mod by putting it into your Peacock Install folder. Read the Sarajevo Six instructions above for guidance if confused about either of those steps.
+    -   Install the main portion of the mod (the file not marked "Peacock Plugin") through Simple Mod Framework. Install the "Peacock Plugin" portion of the mod by putting it into your Peacock Install folder. Read the Sarajevo Six instructions above for guidance if confused about either of those steps.
 -   Plugins to add otherwise unused weapons to the game
 -   Plugins to modify existing weapons and disguises
 
