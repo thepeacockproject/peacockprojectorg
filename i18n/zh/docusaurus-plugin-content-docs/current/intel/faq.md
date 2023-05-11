@@ -51,11 +51,7 @@ title: 常见问题解答
 
 ### 物品/地图缺失
 
--   如果你最近购买了一个DLC且在Peacock中没有看到，请确保你确实购买了此DLC。 随后删除`userdata`文件夹，并重启服务器。
-
-    -   如果你找不到`userdata`文件夹，[参阅此示例图片](https://media.discordapp.net/attachments/833505136290299935/991071183732613200/unknown.png)。
-
--   Starting from v6, Peacock should be able to automatically get your latest DLCs. So no need to delete the userdata folder anymore.
+-   Starting from v6, Peacock should be able to automatically detect when you obtain a new DLC, and give you access to those new items / maps
 
 ### 其他
 

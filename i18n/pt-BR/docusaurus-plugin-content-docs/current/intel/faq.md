@@ -51,11 +51,7 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
 
 ### Itens Faltantes / Mapas
 
--   Se você adquiriu recentemente uma DLC e não está conseguindo acessar o conteúdo no Peacock, verifique se você realmente ativou a DLC. Depois delete a pasta `userdata` e reinicie o servidor.
-
-    -   Se você estiver com problemas em encontrar a pasta `userdata`, [veja esta imagem de exemplo](https://media.discordapp.net/attachments/833505136290299935/991071183732613200/unknown.png).
-
--   Starting from v6, Peacock should be able to automatically get your latest DLCs. So no need to delete the userdata folder anymore.
+-   Starting from v6, Peacock should be able to automatically detect when you obtain a new DLC, and give you access to those new items / maps
 
 ### Outro
 

@@ -19,6 +19,7 @@ Here's a brief breakdown of what Peacock does:
     -   Minor Exception: Some challenges, especially for Freelancer, may have some minor bugs. Please report any issues to the Peacock Discord `#help` channel (https://thepeacockproject.org/discord).
     -   Please check the `options.ini` file in your Peacock install folder for any additional configuration tweaks, such as **turning progression / challenge completion on and off** (e.g. if you want to get all unlocks right away on purpose).
     -   **By default, progression / challenge completion is turned on to simulate an official servers experience.**
+    -   **You can reset progress (challenges, XP, mastery, etc) at any time** by deleting your `userdata` folder within your Peacock Install directory.
     -   If it is your first time playing (on either Peacock or official servers), some exits will be locked. You will need to unlock Dubai exits ([need to unlock the elevators](https://youtu.be/IEQgRQyQRf8)), Dartmoor exits ([need to exit via bike at least once](https://youtu.be/AJtJZe9jEi8?t=151)), and Colorado exits ([need to use tornado exit at least once](https://youtu.be/3XKWHrKpXwk?t=140)). These exits are handled client-side.
 -   Peacock lets you play [custom](.././custom-content.md) or otherwise discontinued / time limited content such as [Ghost Mode](.././ghost-mode.md), Sniper co-op, escalations, elusive targets, and contracts.
     -   Both official server escalation / elusive targets / contracts and custom / modded ones are supported, see [here](.././custom-content.md) for more info.
