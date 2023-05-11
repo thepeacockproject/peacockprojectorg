@@ -63,7 +63,7 @@ O Peacock suporta ambos contratos de servidores oficiais e contratos personaliza
 
 ## Plugins
 
-Além do plugin de Escalações Legacy (Legado), que foi descrito anteriormente na seção de Escalações, o Peacock suporta uma vasta gama de mods do servidor (plugins). Esses incluem, mas não estão limitados a:
+Peacock supports a broad variety of server side mods (plugins). Esses incluem, mas não estão limitados a:
 
 -   Modo Massacre
     -   Todos os NPCs reais são marcados como alvos, podendo receber avaliação Assassino Silencioso depois de ter matado a todos.

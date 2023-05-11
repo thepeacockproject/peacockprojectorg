@@ -10,5 +10,4 @@ description: Hoe je de functies kunt gebruiken zoals de Loadout Profiles en de E
 
 ## Escalation Level Picker
 
--   Om specifieke levels te kiezen, start `Start Server.cmd` vanuit Peacock's instalatiefolder, open een browser en ga dan naar `localhost` of `127.0.0.1`. Ga naar de `Escalation Level Picker` en volg dan de instructies die zichtbaar zijn.
-    -   Als je LegacyEscalations al in het verleden hebt geïnstalleerd, kan het mogelijk zijn dat je de plugin opniew moet installeren om de Escalation Level Picker te kunnen laten werken.
+-   To pick specific escalation levels, run `Start Server.cmd` from your Peacock Install folder, then open up a web browser and go to `localhost` or `127.0.0.1`. Go to `Escalation Level Picker` and proceed from there following instructions on screen.

@@ -10,5 +10,4 @@ description: Como usar recursos como os Perfis de Equipamento e o Seletor de Ní
 
 ## Seletor de Nível de Escalação
 
--   Para selecionar um nível específico de alguma escalação, rode `Start Server.cmd` da sua pasta de instalação do Peacock, e então abra um navegador da web e vá para `localhost` ou `127.0.0.1`. Vá para `Escalation Level Picker` e prossiga de lá seguindo as instruções na tela.
-    -   Se você instalou o plugin LegacyEscalations (Escalações Legado) no passado, você pode precisar reinstalá-lo para fazer o seletor de nível de escalações funcionar.
+-   To pick specific escalation levels, run `Start Server.cmd` from your Peacock Install folder, then open up a web browser and go to `localhost` or `127.0.0.1`. Go to `Escalation Level Picker` and proceed from there following instructions on screen.

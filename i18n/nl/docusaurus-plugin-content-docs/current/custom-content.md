@@ -63,7 +63,7 @@ Peacock understeund zowel officiële server- én aangepaste Peacock-contracten.
 
 ## Plugins
 
-Naast de Legacy Escalations Plugin, die eerder omschreven is in de Escalations sectie, ondersteund Peacock ook een breed aantal server side mods (plugins). Deze mods bevatten, maar zijn niet beperkt tot:
+Peacock supports a broad variety of server side mods (plugins). Deze mods bevatten, maar zijn niet beperkt tot:
 
 -   Kill Everyone Mode
     -   Alle echte NPC's zijn als doelwit gemarkeerd. Je kan Silent Assassin terugkrijgen nadat je iedereen hebt vermoord.

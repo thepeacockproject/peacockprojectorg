@@ -63,7 +63,7 @@ Peacock同时支持官方服务器和Peacock自定义契约。
 
 ## 插件
 
-除了在升级板块提到的Legacy Escalations Plugin（旧版升级插件）外，Peacock也支持许多服务端侧模组（插件）。 这包含，但不限于：
+Peacock supports a broad variety of server side mods (plugins). 这包含，但不限于：
 
 -   屠城模式
     -   所有真实NPC都被标记为目标，在杀死所有人后可以获得沉默刺客评分。

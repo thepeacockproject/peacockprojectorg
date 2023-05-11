@@ -10,5 +10,4 @@ description: 如何使用例如装备档案和升级关卡选择器之类的功�
 
 ## 升级关卡选择器
 
--   为了选择特定的升级关卡，在你的Peacock安装文件夹中运行`Start Server.cmd`，然后打开一个网络浏览器并访问`localhost`或`127.0.0.1`。 前往`Escalation Level Picker`并按照屏幕上的指引继续操作。
-    -   如果你在过去安装了LegacyEscalations插件，你可能需要重新安装一遍来让升级关卡选择器工作。
+-   To pick specific escalation levels, run `Start Server.cmd` from your Peacock Install folder, then open up a web browser and go to `localhost` or `127.0.0.1`. Go to `Escalation Level Picker` and proceed from there following instructions on screen.
