@@ -27,7 +27,7 @@ This tool is meant for use in full game Hitman speedruns.
 
 2. Download hier de LiveSplit server component: https://github.com/LiveSplit/LiveSplit.Server/releases/latest
 
-3. Unzip `Livesplit.Server.zip`. Unzip en plaats de twee bestanden die je zojuist hebt gedownload (vanuit de LiveSplit Server component zip folder), en plaats die bestanden in de `LiveSplit` Components folder. Here is an [example image](https://media.discordapp.net/attachments/839264571990343681/1013559084814958694/unknown.png) of how your `Livesplit/Components`folder should look afterwards.
+3. Unzip `Livesplit.Server.zip`. Unzip en plaats de twee bestanden die je zojuist hebt gedownload (vanuit de LiveSplit Server component zip folder), en plaats die bestanden in de `LiveSplit` Components folder. Here is an example of how your `Livesplit/Components`folder should look afterwards: ![example image](../../static/img/./livesplit_component.png)
 
 4. Start LiveSplit.
 

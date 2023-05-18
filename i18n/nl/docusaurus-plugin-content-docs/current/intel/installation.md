@@ -19,6 +19,6 @@ Hier lees je hoe je aan de slag kunt met Peacock.
 
 4. Ga naar de folder waar je Peacock hebt geïnstalleerd, en start dan het `Start Server.cmd` bestand en het `PeacockPatcher.exe` bestand.
 
-    - Afhankelijk van hoe je Peacock hebt geïnstalleerd, moet je mogelijk twee mappen openen om deze bestanden te vinden, [zoals zichtbaar in deze voorbeeld afbeelding](https://media.discordapp.net/attachments/833505136290299935/991068578579107870/unknown.png).
+    - Depending on how you installed Peacock, you may need to open two folders to find these files, as shown in this example image: ![](../../static/img/./patcher_and_server.png).
 
 5. Now start up the game while `Start Server` and `PeacockPatcher.exe` are still running. The game should launch with Peacock server. Check the [FAQ](./faq.md) or ask in the `#help` channel on [Peacock Discord](https://thepeacockproject.org/discord) if you have trouble getting it to work.

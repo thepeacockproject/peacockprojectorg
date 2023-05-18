@@ -23,7 +23,7 @@ Binnen Peacock kan je Elusive Targets opnieuw spelen zonder een tijdlimiet gezet
 
     -   Peacock also supports all official server escalations, including Hitman 2016 escalations that have not been ported to Hitman 2 or 3 (legacy escalations). Deze escalations zijn standaard beschikbaar.
 
--   Note: You can select specific escalation levels to start on using the Escalation Level Picker tool, as explained [here](./intel/loadout-profiles-elp#escalation-level-picker.md)
+-   Note: You can select specific escalation levels to start on using the Escalation Level Picker tool, as explained [here](./intel/loadout-profiles-elp.md#escalation-level-picker)
 
 ## Alleenstaande Peacock missies
 
@@ -54,9 +54,9 @@ Peacock understeund zowel officiële server- én aangepaste Peacock-contracten.
     -   Hoe te spelen: Ga naar het `Game Modes` -> `Contracts` -> `My Contracts` in het spel om het contract te spelen.
 -   **Door gebruiker-gemaakte, en Peacock contracten**
     -   Hoe te installeren:
-        -   Download het `.ocre` bestand van het contract van het `share-contracts` kanaal in de Discord van Peacock. Installeer dit `.ocre` bestand naar jouw `Contracts` folder, [zoals in deze afbeelding is weergegeven](https://media.discordapp.net/attachments/833505136290299935/991101789426421760/unknown.png).
+        -   Download het `.ocre` bestand van het contract van het `share-contracts` kanaal in de Discord van Peacock. Install this `.json` file to your `Contracts` folder, as shown here: ![](../static/img/./contracts_folder.png).
     -   Hoe je jouw eigen contract kunt maken:
-        -   Als je een contract maakt en als je op de server van Peacock zit, wordt jouw contract opgeslagen als een `.ocre` bestand in `Contracts` folder, [zoals in deze afbeelding is weergegeven](https://media.discordapp.net/attachments/833505136290299935/991101789426421760/unknown.png).
+        -   If you create a contract in-game while in Peacock server, your contract will be saved as an `.json` file in `Contracts` folder, as shown in the image above.
         -   Deel jouw `.ocre` bestand in het kanaal `share-contracts` van de Peacock Discord server als je wilt dat anderen jouw contract kunnen spelen.
     -   Hoe te spelen:
         -   Ga naar `Game Modes` -> `Contracts` -> `My Contracts` in het spel om te spelen.
@@ -82,7 +82,7 @@ Peacock supports a broad variety of server side mods (plugins). Deze mods bevatt
 -   In grote lijnen, om plugins te installeren, ga je naar `#plugin-releases` in de Discord server van Peacock, en dan download je de plugin waarin je interesse hebt.
 -   Installeer dan de plugin in dezelfde folder waar `Start Server.cmd` en `peacockpatcher.exe` in zitten.
 -   Alternatively, create a folder named `plugins`, and then put your plugins there, to organize your files better.
-    -   Example: ![PluginsFolder](https://media.discordapp.net/attachments/1018323831468851202/1072614932790648922/image.png)
+    -   Example: ![PluginsFolder](../static/img/./plugins_folder.png)
 -   Kijk voor verdere instructies in het `#plugin-releases` kanaal voor een specifieke plugin; sommige plugins kunnen meerdere installatiestappen hebben en/of kunnen mogelijk niet werken met nieuwere versies van Peacock.
 
 **Opmerking: Plugins zijn maar een klein deel van het modding-gedeelte van Hitman. Veel Hitman mods worden client-side uitgevoerd en zijn buiten het bereik van Peacock.** Meer normaal-gebruikte mods, buiten bereik van Peacock, zijn hier geaggregeerd:

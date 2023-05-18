@@ -23,7 +23,7 @@ Dentro do Peacock, você pode jogar Alvos Elusivos sem nenhum tempo limite ao re
 
     -   O Peacock também suporta todas as escalações dos servidores oficiais, incluindo escalações de Hitman 2016 que não foram portadas para o Hitman 2 e 3 (escalações legado). Essas escalações estão disponíveis em jogo por predefinição.
 
--   Note: You can select specific escalation levels to start on using the Escalation Level Picker tool, as explained [here](./intel/loadout-profiles-elp#escalation-level-picker.md)
+-   Note: You can select specific escalation levels to start on using the Escalation Level Picker tool, as explained [here](./intel/loadout-profiles-elp.md#escalation-level-picker)
 
 ## Missões Customizadas Peacock Individuais
 
@@ -39,7 +39,7 @@ O Peacock tem duas missões personalizadas que são excepcionais (essas missões
 O Peacock suporta ambos contratos de servidores oficiais e contratos personalizados Peacock.
 
 -   **Contratos em Destaque**
-    -   Aqui estão incluídos todos os contratos em destaque dos servidores oficiais, assim como alguns contratos (Originais Peacock) customizados criados pela equipe de desenvolvimento do Peacock e até mesmo de usuários regulares. You can see some of these custom featured contracts [here](./roadmaps.mdx).
+    -   Aqui estão incluídos todos os contratos em destaque dos servidores oficiais, assim como alguns contratos (Originais Peacock) customizados criados pela equipe de desenvolvimento do Peacock e até mesmo de usuários regulares. Você pode ver alguns desses contratos em destaque customizados [aqui](./roadmaps.mdx).
         -   **Aviso: Contratos em Destaque dos Servidores Oficiais não estão incluídos.**
     -   Como Jogar:
         -   Vá para o menu `Game Modes` -> `Contracts` -> `Featured` em jogo
@@ -54,16 +54,16 @@ O Peacock suporta ambos contratos de servidores oficiais e contratos personaliza
     -   Como Jogar: Vá para o menu `Game Modes` -> `Contracts` -> `My Contracts` em jogo.
 -   **Criados por Usuários, Contratos Personalizados Peacock**
     -   Como Instalar:
-        -   Faça o Download dos arquivos `.ocre` de contratos do canal `share-contracts` no Discord do Peacock. Instale esse arquivo `.ocre` para a sua pasta `Contracts`, [como mostrado nessa imagem](https://media.discordapp.net/attachments/833505136290299935/991101789426421760/unknown.png).
+        -   Faça o Download dos arquivos `.ocre` de contratos do canal `share-contracts` no Discord do Peacock. Install this `.json` file to your `Contracts` folder, as shown here: ![](../static/img/./contracts_folder.png).
     -   Como Criar o Seu Próprio:
-        -   Se você criar um contrato em jogo enquanto estiver conectado ao servidor Peacock, seu contrato será salvo como um arquivo `.ocre` na pasta `Contracts`, [como mostrado nessa imagem](https://media.discordapp.net/attachments/833505136290299935/991101789426421760/unknown.png).
+        -   If you create a contract in-game while in Peacock server, your contract will be saved as an `.json` file in `Contracts` folder, as shown in the image above.
         -   Tenha a certeza de compartilhar seu arquivo `.ocre` no canal `share-contracts` do servidor Discord do Peacock se quiser que outros joguem seu contrato customizado Peacock.
     -   Como Jogar:
         -   Vá para o menu `Game Modes` -> `Contracts` -> `My Contracts` em jogo.
 
 ## Plugins
 
-Peacock supports a broad variety of server side mods (plugins). Esses incluem, mas não estão limitados a:
+O Peacock suporta uma grande variedade de mods de servidor (plugins). Esses incluem, mas não estão limitados a:
 
 -   Modo Massacre
     -   Todos os NPCs reais são marcados como alvos, podendo receber avaliação Assassino Silencioso depois de ter matado a todos.
@@ -73,7 +73,7 @@ Peacock supports a broad variety of server side mods (plugins). Esses incluem, m
     -   Instruções de Instalação: https://github.com/solderq35/hitman-tech-tips/blob/main/modding/sarajevo_six.md
 -   Alvo Elusivo Os Irmãos (Conteúdo Cortado)
     -   Download de Arquivo: https://www.nexusmods.com/hitman3/mods/375?tab=files
-    -   Install the main portion of the mod (the file not marked "Peacock Plugin") through Simple Mod Framework. Instale a porção do mod "Plugin Peacock" colocando-o na sua pasta de instalação do Peacock. Leia as instruções de instalação dos Seis de Sarajevo acima para guia, caso haja confusão sobe qualquer desses passos.
+    -   Instale a porção principal do mod (o arquivo não marcado como "Peacock Plugin") através do Simple Mod Framework. Instale a porção do mod "Plugin Peacock" colocando-o na sua pasta de instalação do Peacock. Leia as instruções de instalação dos Seis de Sarajevo acima para guia, caso haja confusão sobe qualquer desses passos.
 -   Plugins para adicionar armas não usadas no jogo
 -   Plugins para modificar armas e disfarces existentes
 
@@ -82,7 +82,7 @@ Peacock supports a broad variety of server side mods (plugins). Esses incluem, m
 -   Amplamente falando, para baixar plugins, vá para `#plugin-releases` no servidor Discord do Peacock e faça o download de um plugin em que tenha interesse.
 -   Então, coloque na mesma pasta onde o `Start Server.cmd` e o `peacockpatcher.exe` estão.
 -   Alternativamente, crie uma pasta chamada `plugins` e coloque seus plugins nela, para organizar melhor os seus arquivos.
-    -   Exemplo: ![PluginsFolder](https://media.discordapp.net/attachments/1018323831468851202/1072614932790648922/image.png)
+    -   Exemplo: ![PluginsFolder](../static/img/./plugins_folder.png)
 -   Tenha certeza de verificar por quaisquer outras instruções no canal `#plugin-releases` por um certo plugin, já que certos plugins poder necessitar de mais passos de instalação ou são incompatíveis com versões mais recentes do Peacock.
 
 **Nota: Plugins são apenas uma pequena porção da comunidade Hitman de mods. Vários mods de Hitman são manipulados pelo lado do cliente e estão fora da alçada do Peacock.** Mais mods gerais de uso pelo usuário, fora da responsabilidade do Peacock, estão agregados aqui:

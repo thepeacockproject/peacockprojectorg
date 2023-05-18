@@ -3,7 +3,7 @@ title: Auto-Splitter初始化指南
 description: 如何安装为整局游戏速通安装Peacock计时器。
 ---
 
-_Guide written originally by [Fusha](https://github.com/fu5ha)_.
+_教程由[Fusha](https://github.com/fu5ha)编写_。
 
 此工具用于杀手整局游戏速通。
 
@@ -19,15 +19,15 @@ _Guide written originally by [Fusha](https://github.com/fu5ha)_.
 
 -   Steam和Epic平台上的杀手3均可用，不像官方服务器计时器（仅能在Epic使用）。
 
--   Obviously this only works on [Peacock](./what-is-peacock.md), if you are playing on official servers for some reason you should use one of the [other two Livesplit Guides](https://hitruns-wiki.vercel.app/docs/livesplit).
+-   显然，这些功能只能在[Peacock](./what-is-peacock.md)上使用，如果你在官方服务器上游玩，出于一些原因你应该使用[其他两种Livesplit指南](https://hitruns-wiki.vercel.app/docs/livesplit)之一。
 
 ## 安装
 
-1. Install [Peacock](./installation.md) and [LiveSplit](https://livesplit.org/downloads/) if you don't have either of them installed (just unzip them wherever you want). **如果你已经安装过了Peacock，请确保它处于最新版本。 **在你完成软件的安装/更新后，暂时关闭它们。
+1. 如果你还未安装，安装[Peacock](./installation.md)和[LiveSplit](https://livesplit.org/downloads/)（只需解压到你想要的地方）。 **如果你已经安装过了Peacock，请确保它处于最新版本。 **在你完成软件的安装/更新后，暂时关闭它们。
 
 2. 在这里下载`Livesplit.Server.zip`：https://github.com/LiveSplit/LiveSplit.Server/releases/latest
 
-3. 解压`Livesplit.Server.zip`。 将你从压缩包中解压出来的`Livesplit.Server.dll`和`Noes.Javascript.dll`文件移动到`Livesplit/Components`文件夹（如果你忘记了Livesplit的主程序在哪，查阅第一步）。 完成本步骤后`Livesplit/Components`文件夹应该[如图所示](https://media.discordapp.net/attachments/839264571990343681/1013559084814958694/unknown.png)。
+3. 解压`Livesplit.Server.zip`。 将你从压缩包中解压出来的`Livesplit.Server.dll`和`Noes.Javascript.dll`文件移动到`Livesplit/Components`文件夹（如果你忘记了Livesplit的主程序在哪，查阅第一步）。 Here is an example of how your `Livesplit/Components`folder should look afterwards: ![example image](../../static/img/./livesplit_component.png)
 
 4. 启动LiveSplit。
 

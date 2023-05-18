@@ -6,9 +6,9 @@ title: 常见问题解答
 
 ### 错误的游戏版本/平台
 
--   Check the [Requirements](./requirements.md) section of this guide, make sure you have a supported game version and platform, etc.
-    -   **Xbox Game Pass及Microsoft PC的杀手3版本是不受支持的（常见问题）**。
-    -   Check [Linux Setup Guide](../guides/./linux-setup.md) if on Linux.
+-   请参阅本教程的[要求](./requirements.md)板块，确保你拥有受支持的游戏版本和平台等内容。
+    -   **Xbox Game Pass及Microsoft PC版本的杀手3是不受支持的（常见问题）**。
+    -   Linux用户请参阅 [Linux初始化指南](../guides/./linux-setup.md)。
 -   确保你在使用最新版本的杀手和Peacock，旧版本是不受支持的。
 
 ### 尝试重新连接
@@ -21,7 +21,7 @@ title: 常见问题解答
 
 ### 连接问题解答
 
--   As explained in the [What is Peacock](./what-is-peacock.md) page, **you need to be connected to the Internet, at least initially, to use Peacock**. 这是为了通过Steam/Epic平台的验证。 在首次连接到Peacock后，你可以从互联网中断开，并在游戏进程的阶段中保持连接到Peacock。
+-   正如[什么是Peacock](./what-is-peacock.md)页面中所说，**你需要最起码在启动时连接到网络来使用Peacock**。 这是为了通过Steam/Epic平台的验证。 在首次连接到Peacock后，你可以从互联网中断开，并在游戏进程的阶段中保持连接到Peacock。
     -   如果你的手机有移动数据流量，你可以使用手机为电脑提供热点来连接到互联网。
 -   如果这是你第一次游玩游戏，请不要尝试使用Peacock。 在你连接Peacock之前，你必须至少连接到官方服务器一次。 在你连接到官方服务器一次以后，在后续使用Peacock时不再需要连接到官方服务器。
 -   尝试以管理员身份运行`PeacockPatcher.exe`。
@@ -47,24 +47,24 @@ title: 常见问题解答
         .\nodedist\node.exe chunk0.js
         PAUSE
         ```
-        -   [如这里所示](https://media.discordapp.net/attachments/839264571990343681/992523717869568050/unknown.png)，在服务器窗口输入`localhost:端口号`。
+        -   Type `localhost:PORTNUMBER` or `127.0.0.1:PORTNUMBER` into the server window, as shown here: ![](../../static/img/./patcher_port.png)
 
 ### 物品/地图缺失
 
--   Starting from v6, Peacock should be able to automatically detect when you obtain a new DLC, and give you access to those new items / maps
+-   从v6开始，Peacock应该能够自动检测到你获得的新DLC，并让你获得这些新的物品/地图。
 
 ### 其他
 
--   Check [Peacock Unique Features](../intel/loadout-profiles-elp.md) page for info on how to set multiple loadouts per map or choose specific escalation levels with Peacock.
--   Default Suits - If you tick `getDefaultSuits = true` in your `options.ini` file in your Peacock Install folder, please note the following behavior:
-    -   Any discussion for "default suits" below refers to the version of the default suit **without gloves** - whichever version of the suit you normally would use for that level when starting it up for the first time ever.
-    -   Some Hitman 2 and Hitman 3 default suits are not usable in all maps in the vanilla game. This can be fixed using https://www.nexusmods.com/hitman3/mods/401/
-    -   If you choose not to use the above mod, then note the following:
-        -   Season 1 default suits (e.g. Summer Suit from Marrakesh): Works on all maps
-        -   Season 2 default suits (e.g. Casual Tourist from Santa Fortuna): Works on Season 2 and 3 Maps
-            -   New York and Maldives (Haven) are included in Season 2
-        -   Season 1 default suits (e.g. Neon City Suit from Chongqing): Works on Season 3 Maps Only
-        -   Ambrose Island is outside of the Season system so to speak, Ambrose Default suit (Guerilla Wetsuit) is usable on all maps, and all maps' Default Suits can be used in Ambrose
+-   参阅[Peacock独特功能](../intel/loadout-profiles-elp.md)页面来查找如何在Peacock上为每张地图设定多重装备组合以及选择特定的升级契约。
+-   默认套装 - 如果你在你的Peacock安装文件夹中的`options.ini`文件中开启了`getDefaultSuits = true`，请注意以下行为：
+    -   下面任何关于“默认套装”的讨论都是指默认套装**无手套版本**——当你第一次启动该关卡时通常会使用的套装的任何版本。
+    -   一些杀手2和杀手3的默认套装不能在原版游戏的所有地图中使用。 可通过https://www.nexusmods.com/hitman3/mods/401/ 修复。
+    -   如果你不使用上述mod，那么请注意以下几点：
+        -   第一季的默认套装（例如马拉喀什的夏天西装）： 适用于所有地图
+        -   第二季的默认套装（例如，来自圣福耳图那的休闲游客）： 适用于第二季和第三季地图
+            -   纽约和马尔代夫（海文岛）属于第二季。
+        -   第三季的默认套装（例如：重庆的霓虹之城套装）：适用于第三季地图
+        -   安布罗斯岛可以说是在季节系统之外，安布罗斯岛的默认套装（游击队潜水衣）可以在所有地图上使用，而且所有地图的默认套装都可以在安布罗斯岛使用。
 
 ### 请求技术支持
 
@@ -73,16 +73,17 @@ title: 常见问题解答
         -   当前Peacock服务器在终端中运行的截图
         -   当前Peacock Patcher运行的截图
         -   你的操作系统和游戏版本信息
-        -   Information on what is running on Port 80 (check [Connection Troubleshooting](#connection-troubleshooting) above)
+        -   80端口的运行信息（参阅上述的[常见问题解答](#connection-troubleshooting)）
         -   其它深入的相关信息
 
-## How Peacock Works FAQ
+## Peacock运作的常见问题
 
--   See [What is Peacock](./what-is-peacock.md)
+-   见[什么是Peacock](./what-is-peacock.md)。
+    -   See above link for questions on progression (challenges and mastery etc), Freelancer integration with Peacock, whether or not you need Internet to use Peacock, or any other general questions on how Peacock works
 
 ## 常见功能请求解答
 
--   Before asking any questions about Ghost Mode, escalations, user contracts, elusive targets, please check the [Custom Content Page](.././custom-content.md) as well as the [Ghost Mode Page](.././ghost-mode.md).
+-   在询问任何有关幽灵模式、升级、用户契约、行踪不定的目标之前，请参阅[自定义内容页面](.././custom-content.md)以及[幽灵模式页面](.././ghost-mode.md)。
 -   Mod（模组）兼容性：
     -   大部分模组都与Peacock兼容；除了三种以外。
         -   如果一个模组修改了契约（任务，特殊要求等），它需要一个Peacock插件来兼容。

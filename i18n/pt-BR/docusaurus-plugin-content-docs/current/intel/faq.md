@@ -6,9 +6,9 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
 
 ### Versão Errada do Jogo / Plataforma
 
--   Check the [Requirements](./requirements.md) section of this guide, make sure you have a supported game version and platform, etc.
+-   Veja a seção [Requerimentos](./requirements.md) deste guia, tenha a certeza de que você tem uma versão e plataforma compatíveis, etc.
     -   **Xbox Game Pass / Versão da Microsoft PC de Hitman 3 não são suportadas (comumente perguntado)**.
-    -   Check [Linux Setup Guide](../guides/./linux-setup.md) if on Linux.
+    -   Veja o [Guia de Instalação de Linux](../guides/./linux-setup.md) se estiver usando Linux.
 -   Tenha a certeza de que você tem as últimas versões do Hitman 3 e do Peacock, versões mais antigas podem não ser suportadas.
 
 ### Tente se Reconectar
@@ -21,7 +21,7 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
 
 ### Solução de Problemas de Conexão
 
--   As explained in the [What is Peacock](./what-is-peacock.md) page, **you need to be connected to the Internet, at least initially, to use Peacock**. Isso tem o único propósito de passar pela verificação Steam / Epic. Após conectar ao Peacock na primeira vez, você poderá desconectar da Internet e permanecer conectado ao Peacock pela duração da sua sessão de jogo.
+-   Como explicado na página [O Que é o Peacock](./what-is-peacock.md), **você precisa estar conectado à Internet, pelo menos inicialmente, para usar o Peacock**. Isso tem o único propósito de passar pela verificação Steam / Epic. Após conectar ao Peacock na primeira vez, você poderá desconectar da Internet e permanecer conectado ao Peacock pela duração da sua sessão de jogo.
     -   Se você tiver um celular com plano de Internet, você pode usá-lo como ponto de acesso de Internet para o seu computador se conectar.
 -   Não tente usar o Peacock se esta for a sua primeira vez jogando o jogo. Você precisa se conectar aos servidores oficiais pelo menos uma vez antes de se conectar ao Peacock. Depois de ter conectado aos servidores oficiais pelo menos uma vez, você não precisa de fazê-lo novamente no futuro para usar o Peacock.
 -   Tente rodar o `Start Server.cmd` como administrador.
@@ -47,24 +47,24 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
         .\nodedist\node.exe chunk0.js
         PAUSE
         ```
-        -   Digite `localhost:NumeroDaPort` na janela do servidor, [como mostrado aqui](https://media.discordapp.net/attachments/839264571990343681/992523717869568050/unknown.png)
+        -   Type `localhost:PORTNUMBER` or `127.0.0.1:PORTNUMBER` into the server window, as shown here: ![](../../static/img/./patcher_port.png)
 
 ### Itens Faltantes / Mapas
 
--   Starting from v6, Peacock should be able to automatically detect when you obtain a new DLC, and give you access to those new items / maps
+-   A partir de v6, o Peacock deve detectar automaticamente quando você comprar uma DLC, e te dar acesso a novos itens / mapas
 
 ### Outro
 
--   Check [Peacock Unique Features](../intel/loadout-profiles-elp.md) page for info on how to set multiple loadouts per map or choose specific escalation levels with Peacock.
--   Default Suits - If you tick `getDefaultSuits = true` in your `options.ini` file in your Peacock Install folder, please note the following behavior:
-    -   Any discussion for "default suits" below refers to the version of the default suit **without gloves** - whichever version of the suit you normally would use for that level when starting it up for the first time ever.
-    -   Some Hitman 2 and Hitman 3 default suits are not usable in all maps in the vanilla game. This can be fixed using https://www.nexusmods.com/hitman3/mods/401/
-    -   If you choose not to use the above mod, then note the following:
-        -   Season 1 default suits (e.g. Summer Suit from Marrakesh): Works on all maps
-        -   Season 2 default suits (e.g. Casual Tourist from Santa Fortuna): Works on Season 2 and 3 Maps
-            -   New York and Maldives (Haven) are included in Season 2
-        -   Season 1 default suits (e.g. Neon City Suit from Chongqing): Works on Season 3 Maps Only
-        -   Ambrose Island is outside of the Season system so to speak, Ambrose Default suit (Guerilla Wetsuit) is usable on all maps, and all maps' Default Suits can be used in Ambrose
+-   Veja a página de [Recursos Únicos do Peacock](../intel/loadout-profiles-elp.md) para mais informações em como ter múltiplos equipamentos por mapa ou escolher níveis de escalações específicos.
+-   Trajes Padrão - Se você ativar `getDefaultSuits = true` no seu arquivo `options.ini` na sua pasta de instalação do Peacock, por favor leia o seguinte comportamento:
+    -   Qualquer discussão sobre "trajes padrão" abaixo se refere à versão do traje padrão **sem luvas** - qualquer versão do traje de 47 quando você inicia a missão pela primeira vez.
+    -   Alguns trajes padrão de Hitman 2 e Hitman 3 não são usáveis em todos os mapas no jogo normalmente. Isso pode ser corrigido usando https://www.nexusmods.com/hitman3/mods/401
+    -   Se você escolher não usar o mod acima, note o seguinte:
+        -   Trajes padrão da Temporada 1 (e.g. Traje de Verão de Marrakesh): Funciona em todos os mapas
+        -   Trajes padrão da Temporada 2 (e.g. Turista Casual de Santa Fortuna): Funciona em mapas da Temporada 2 e 3
+            -   Nova Iorque e Maldivas (Haven) estão incluídas na Temporada 2
+        -   Trajes padrão da Temporada 3 (e.g. Traje Urbano Neon de Chongqing): Funciona apenas em mapas da Temporada 3
+        -   A Ilha Ambrose se encontra fora do sistema de temporadas, então seu traje padrão (Roupa de Mergulho de Guerrilha) é usável em todos os mapas, e os trajes padrão de qualquer mapa pode ser usado na Ilha Ambrose
 
 ### Solicitando Suporte Técnico
 
@@ -73,16 +73,17 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
         -   Fotos do seu Servidor Peacock rodando no terminal
         -   Fotos do seu Patcher Peacock rodando
         -   Informações sobre o seu sistema operacional e versão do jogo
-        -   Information on what is running on Port 80 (check [Connection Troubleshooting](#connection-troubleshooting) above)
+        -   Informações sobre o que está rodando na Porta 80 (veja [Solução de Problemas de Conexão](#connection-troubleshooting) acima)
         -   Quaisquer outras informações pertinentes
 
-## How Peacock Works FAQ
+## Como o Peacock Funciona FAQ
 
--   See [What is Peacock](./what-is-peacock.md)
+-   Veja [O que é o Peacock](./what-is-peacock.md)
+    -   See above link for questions on progression (challenges and mastery etc), Freelancer integration with Peacock, whether or not you need Internet to use Peacock, or any other general questions on how Peacock works
 
 ## Perguntas Frequentes sobre Solicitação de Recursos
 
--   Before asking any questions about Ghost Mode, escalations, user contracts, elusive targets, please check the [Custom Content Page](.././custom-content.md) as well as the [Ghost Mode Page](.././ghost-mode.md).
+-   Antes de perguntar qualquer coisa sobre o Modo Fantasma, Escalações, Contratos do Usuário e Alvos Elusivos, por favor verifique a [Página de Conteúdo Customizado](.././custom-content.md) assim como a [Página do Modo Fantasma](.././ghost-mode.md).
 -   Compatibilidade de Mods:
     -   A maioria dos Mods são compatíveis com o Peacock; existem apenas três que não são.
         -   Se um mod edita contratos (missões, Missões Especiais, etc), ele necessitará de um plugin Peacock para ser compatível.
