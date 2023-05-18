@@ -47,7 +47,7 @@ title: Frequently Asked Questions
         .\nodedist\node.exe chunk0.js
         PAUSE
         ```
-        -   Type `localhost:PORTNUMBER` into the server window, [as shown here](https://media.discordapp.net/attachments/839264571990343681/992523717869568050/unknown.png)
+        -   Type `localhost:PORTNUMBER` or `127.0.0.1:PORTNUMBER` into the server window, [as shown here](../../static/img/./patcher_port.png)
 
 ### Missing Items / Maps
 

@@ -24,7 +24,7 @@ Within Peacock, you can replay Elusive Targets without any time limit on restart
 
     -   Peacock also supports all official server escalations, including Hitman 2016 escalations that have not been ported to Hitman 2 or 3 (legacy escalations). These escalations are available in-game by default.
 
--   Note: You can select specific escalation levels to start on using the Escalation Level Picker tool, as explained [here](./intel/loadout-profiles-elp#escalation-level-picker.md)
+-   Note: You can select specific escalation levels to start on using the Escalation Level Picker tool, as explained [here](./intel/loadout-profiles-elp.md#escalation-level-picker)
 
 ## Peacock Standalone Custom Missions
 
@@ -55,9 +55,9 @@ Peacock supports both official server and custom Peacock contracts.
     -   How to Play: Go to `Game Modes` -> `Contracts` -> `My Contracts` in-game to play.
 -   **User Created, Peacock Contracts**
     -   How to Install:
-        -   Download the contracts `.json` file from the `share-contracts` channel in Peacock Discord. Install this `.json` file to your `Contracts` folder, [as shown in this image](https://media.discordapp.net/attachments/833505136290299935/991101789426421760/unknown.png).
+        -   Download the contracts `.json` file from the `share-contracts` channel in Peacock Discord. Install this `.json` file to your `Contracts` folder, [as shown in this image](../static/img/./contracts_folder.png).
     -   How to Create Your Own:
-        -   If you create a contract in-game while in Peacock server, your contract will be saved as an `.json` file in `Contracts` folder, [as shown in this image](https://media.discordapp.net/attachments/833505136290299935/991101789426421760/unknown.png).
+        -   If you create a contract in-game while in Peacock server, your contract will be saved as an `.json` file in `Contracts` folder, [as shown in this image](../static/img/./contracts_folder.png).
         -   Be sure to share your `.json` file in Peacock Discord's `share-contracts` channel if you want others to play your custom Peacock contract.
     -   How to Play:
         -   Go to `Game Modes` -> `Contracts` -> `My Contracts` in-game to play.
@@ -83,7 +83,7 @@ Peacock supports a broad variety of server side mods (plugins). These include, b
 -   Broadly speaking, to install plugins, go to `#plugin-releases` in the Peacock Discord and download a plugin you are interested in.
 -   Then, install it to the same folder that `Start Server.cmd` and `peacockpatcher.exe` are in.
 -   Alternatively, create a folder named `plugins`, and then put your plugins there, to organize your files better.
-    -   Example: ![PluginsFolder](https://media.discordapp.net/attachments/1018323831468851202/1072614932790648922/image.png)
+    -   Example: ![PluginsFolder](../static/img/./plugins_folder.png)
 -   Be sure to check for any further instructions in the `#plugin-releases` channel for a given plugin, as certain plugins may require further installation steps or are incompatible with newer versions of Peacock.
 
 **Note: Plugins are only a small portion of the Hitman modding scene. Many Hitman mods are done client-side and out of scope of Peacock.** More general-use client-side mods, outside the scope of Peacock, are aggregated here:

@@ -27,7 +27,7 @@ This tool is meant for use in full game Hitman speedruns.
 
 2. Download `Livesplit.Server.zip` from here: https://github.com/LiveSplit/LiveSplit.Server/releases/latest
 
-3. Unzip `Livesplit.Server.zip`. Move the `Livesplit.Server.dll` and `Noes.Javascript.dll` files found within the unzipped folder to `Livesplit/Components` folder (refer to step 1 if you forgot where you installed the main Livesplit application). Here is an [example image](https://media.discordapp.net/attachments/839264571990343681/1013559084814958694/unknown.png) of how your `Livesplit/Components`folder should look afterwards.
+3. Unzip `Livesplit.Server.zip`. Move the `Livesplit.Server.dll` and `Noes.Javascript.dll` files found within the unzipped folder to `Livesplit/Components` folder (refer to step 1 if you forgot where you installed the main Livesplit application). Here is an [example image](../../static/img/./livesplit_component.png) of how your `Livesplit/Components`folder should look afterwards.
 
 4. Start LiveSplit.
 
