@@ -55,9 +55,9 @@ Peacock supports both official server and custom Peacock contracts.
     -   How to Play: Go to `Game Modes` -> `Contracts` -> `My Contracts` in-game to play.
 -   **User Created, Peacock Contracts**
     -   How to Install:
-        -   Download the contracts `.json` file from the `share-contracts` channel in Peacock Discord. Install this `.json` file to your `Contracts` folder, [as shown in this image](../static/img/./contracts_folder.png).
+        -   Download the contracts `.json` file from the `share-contracts` channel in Peacock Discord. Install this `.json` file to your `Contracts` folder, as shown here: ![](../static/img/./contracts_folder.png).
     -   How to Create Your Own:
-        -   If you create a contract in-game while in Peacock server, your contract will be saved as an `.json` file in `Contracts` folder, [as shown in this image](../static/img/./contracts_folder.png).
+        -   If you create a contract in-game while in Peacock server, your contract will be saved as an `.json` file in `Contracts` folder, as shown in the image above.
         -   Be sure to share your `.json` file in Peacock Discord's `share-contracts` channel if you want others to play your custom Peacock contract.
     -   How to Play:
         -   Go to `Game Modes` -> `Contracts` -> `My Contracts` in-game to play.

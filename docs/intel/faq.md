@@ -47,7 +47,7 @@ title: Frequently Asked Questions
         .\nodedist\node.exe chunk0.js
         PAUSE
         ```
-        -   Type `localhost:PORTNUMBER` or `127.0.0.1:PORTNUMBER` into the server window, [as shown here](../../static/img/./patcher_port.png)
+        -   Type `localhost:PORTNUMBER` or `127.0.0.1:PORTNUMBER` into the server window, as shown here: ![](../../static/img/./patcher_port.png)
 
 ### Missing Items / Maps
 
@@ -79,6 +79,7 @@ title: Frequently Asked Questions
 ## How Peacock Works FAQ
 
 -   See [What is Peacock](./what-is-peacock.md)
+    -   See above link for questions on progression (challenges and mastery etc), Freelancer integration with Peacock, whether or not you need Internet to use Peacock, or any other general questions on how Peacock works
 
 ## Feature Request FAQ
 
