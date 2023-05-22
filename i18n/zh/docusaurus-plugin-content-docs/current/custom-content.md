@@ -23,7 +23,7 @@ Peacock为我们的用户提供了许多有趣的内容。 这里是我们的一
 
     -   Peacock也支持所有官方服务器升级契约，包括未被移植到《杀手2》或《杀手3》的《杀手2016》升级契约（传承升级契约）。 这些升级在游戏中默认可用。
 
--   Note: You can select specific escalation levels to start on using the Escalation Level Picker tool, as explained [here](./intel/loadout-profiles-elp.md#escalation-level-picker)
+-   注意：您可以使用升级契约关卡选择工具选择要启动的特定级别的升级契约关卡，如[此处](./intel/loadout-profiles-elp.md#escalation-level-picker)所述
 
 ## 契约模式
 
@@ -45,7 +45,7 @@ Peacock同时支持官方服务器和Peacock自定义契约。
     -   如何游玩：在游戏中前往`游戏模式` -> `契约` -> `我的契约`。
 -   **用户创建的，Peacock的契约**
     -   如何安装：
-        -   在Peacock Discord群组中的`share-contracts`频道下载契约的`.json`文件。 Install this `.json` file to your `Contracts` folder, as shown here: ![](/img/contracts_folder.png).
+        -   在Peacock Discord群组中的`share-contracts`频道下载契约的`.json`文件。 将此`.json`文件安装到你的`Contracts`文件夹，如图所示：![](/img/contracts_folder.png)。
     -   如何创建自己的契约：
         -   If you create a contract in-game while in Peacock server, your contract will be saved as an `.json` file in `Contracts` folder, as shown in the image above.
         -   如果你想让其他人游玩你的自定义Peacock契约，请确保在Peacock Discord群组的`share-contracts`频道分享你的`.json`文件。

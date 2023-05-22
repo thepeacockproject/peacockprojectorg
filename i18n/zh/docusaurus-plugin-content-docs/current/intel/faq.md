@@ -47,7 +47,7 @@ title: 常见问题解答
         .\nodedist\node.exe chunk0.js
         PAUSE
         ```
-        -   Type `localhost:PORTNUMBER` or `127.0.0.1:PORTNUMBER` into the server window, as shown here: ![](/img/patcher_port.png)
+        -   输入`localhost:PORTNUMBER`或`127.0.0.1:PORTNUMBER`进入服务器窗口，如下所示： ![](/img/patcher_port.png)
 
 ### 物品/地图缺失
 
@@ -79,7 +79,7 @@ title: 常见问题解答
 ## Peacock运作的常见问题
 
 -   见[什么是Peacock](./what-is-peacock.md)。
-    -   See above link for questions on progression (challenges and mastery etc), Freelancer integration with Peacock, whether or not you need Internet to use Peacock, or any other general questions on how Peacock works
+    -   请参阅上面的链接，了解有关进度（挑战和精通等）、自由职业者与Peacock的集成、是否需要网络才能使用Peacock，或有关Peacock如何工作的任何其他一般问题
 
 ## 常见功能请求解答
 

@@ -19,6 +19,6 @@ description: 如何上手Peacock。
 
 4. 转到你解压Peacock文件的地方，运行`Start Server.cmd`文件和`PeacockPatcher.exe`文件。
 
-    - Depending on how you installed Peacock, you may need to open two folders to find these files, as shown in this example image: ![](/img/patcher_and_server.png).
+    - 根据您安装Peacock的方式，您可能需要打开两个文件夹才能找到这些文件，如下图所示：![](/img/patcher_and_server.png)。
 
 5. 现在保持`Start Server`和`PeacockPatcher.exe`运行，然后启动游戏。 随后游戏应在Peacock服务器上被启动。 如果遇到问题，请参阅[常见问题解答](./faq.md)或在[Peacock Discord群组](https://thepeacockproject.org/discord)的`#help`频道上提问。
