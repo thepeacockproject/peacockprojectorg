@@ -25,15 +25,6 @@ Binnen Peacock kan je Elusive Targets opnieuw spelen zonder een tijdlimiet gezet
 
 -   Note: You can select specific escalation levels to start on using the Escalation Level Picker tool, as explained [here](./intel/loadout-profiles-elp.md#escalation-level-picker)
 
-## Alleenstaande Peacock missies
-
-Peacock heeft twee aangepaste missies dat alleenstaand zijn (deze missies zijn niet escalations óf contracten, maar ze zijn meer uitgewerkte "bonus missies"):
-
--   **Traditions of the Trade**
-    -   Toeganglijk via `Destinations` > `Bangkok` in het spel
--   **The Lee Hong Assassination**
-    -   Toeganglijk via `Destinations` > `Chongqing` in het spel
-
 ## Contractmodus
 
 Peacock understeund zowel officiële server- én aangepaste Peacock-contracten.
@@ -54,7 +45,7 @@ Peacock understeund zowel officiële server- én aangepaste Peacock-contracten.
     -   Hoe te spelen: Ga naar het `Game Modes` -> `Contracts` -> `My Contracts` in het spel om het contract te spelen.
 -   **Door gebruiker-gemaakte, en Peacock contracten**
     -   Hoe te installeren:
-        -   Download het `.ocre` bestand van het contract van het `share-contracts` kanaal in de Discord van Peacock. Install this `.json` file to your `Contracts` folder, as shown here: ![](../static/img/./contracts_folder.png).
+        -   Download het `.ocre` bestand van het contract van het `share-contracts` kanaal in de Discord van Peacock. Install this `.json` file to your `Contracts` folder, as shown here: ![](/img/contracts_folder.png).
     -   Hoe je jouw eigen contract kunt maken:
         -   If you create a contract in-game while in Peacock server, your contract will be saved as an `.json` file in `Contracts` folder, as shown in the image above.
         -   Deel jouw `.ocre` bestand in het kanaal `share-contracts` van de Peacock Discord server als je wilt dat anderen jouw contract kunnen spelen.
@@ -82,7 +73,7 @@ Peacock supports a broad variety of server side mods (plugins). Deze mods bevatt
 -   Broadly speaking, to install plugins, go to either the `plugins` or `#plugin-releases` channel in the Peacock Discord and download a plugin you are interested in.
 -   Installeer dan de plugin in dezelfde folder waar `Start Server.cmd` en `peacockpatcher.exe` in zitten.
 -   Alternatively, create a folder named `plugins`, and then put your plugins there, to organize your files better.
-    -   Example: ![PluginsFolder](../static/img/./plugins_folder.png)
+    -   Example: ![PluginsFolder](/img/plugins_folder.png)
 -   Kijk voor verdere instructies in het `#plugin-releases` kanaal voor een specifieke plugin; sommige plugins kunnen meerdere installatiestappen hebben en/of kunnen mogelijk niet werken met nieuwere versies van Peacock.
 
 **Opmerking: Plugins zijn maar een klein deel van het modding-gedeelte van Hitman. Veel Hitman mods worden client-side uitgevoerd en zijn buiten het bereik van Peacock.** Meer normaal-gebruikte mods, buiten bereik van Peacock, zijn hier geaggregeerd:

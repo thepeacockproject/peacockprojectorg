@@ -25,15 +25,6 @@ Dentro do Peacock, você pode jogar Alvos Elusivos sem nenhum tempo limite ao re
 
 -   Nota: Você pode selecionar níves específico de escalações para iniciar usando a ferramenta Escalation Level Picker, como explicado [aqui](./intel/loadout-profiles-elp.md#escalation-level-picker)
 
-## Missões Customizadas Peacock Individuais
-
-O Peacock tem duas missões personalizadas que são excepcionais (essas missões não são escalações nem contratos, mas são melhor descritas como "Missões Bônus"):
-
--   **Tradições do Negócio (Traditions of the Trade)**
-    -   Pode ser acessada em `Destinations` > `Bangkok` no jogo
--   **O Assassínio de Lee Hong (The Lee Hong Assassination)**
-    -   Pode ser acessada em `Destinations` > `Chongqing` no jogo
-
 ## Modo Contratos
 
 O Peacock suporta ambos contratos de servidores oficiais e contratos personalizados Peacock.
@@ -54,7 +45,7 @@ O Peacock suporta ambos contratos de servidores oficiais e contratos personaliza
     -   Como Jogar: Vá para o menu `Game Modes` -> `Contracts` -> `My Contracts` em jogo.
 -   **Criados por Usuários, Contratos Personalizados Peacock**
     -   Como Instalar:
-        -   Faça o Download dos arquivos `.ocre` de contratos do canal `share-contracts` no Discord do Peacock. Instale esse arquivo `.json` na sua pasta `Contracts`, como mostrado aqui: ![](../static/img/./contracts_folder.png).
+        -   Faça o Download dos arquivos `.ocre` de contratos do canal `share-contracts` no Discord do Peacock. Install this `.json` file to your `Contracts` folder, as shown here: ![](/img/contracts_folder.png).
     -   Como Criar o Seu Próprio:
         -   Se você criar um contrato em jogo enquanto estiver conectado ao servidor Peacock, seu contrato será salvo como um arquivo `.json` na pasta `Contracts`, como mostrado na imagem acima.
         -   Tenha a certeza de compartilhar seu arquivo `.ocre` no canal `share-contracts` do servidor Discord do Peacock se quiser que outros joguem seu contrato customizado Peacock.
@@ -82,7 +73,7 @@ O Peacock suporta uma grande variedade de mods de servidor (plugins). Esses incl
 -   Broadly speaking, to install plugins, go to either the `plugins` or `#plugin-releases` channel in the Peacock Discord and download a plugin you are interested in.
 -   Então, coloque na mesma pasta onde o `Start Server.cmd` e o `peacockpatcher.exe` estão.
 -   Alternativamente, crie uma pasta chamada `plugins` e coloque seus plugins nela, para organizar melhor os seus arquivos.
-    -   Exemplo: ![PluginsFolder](../static/img/./plugins_folder.png)
+    -   Exemplo: ![PluginsFolder](/img/plugins_folder.png)
 -   Tenha certeza de verificar por quaisquer outras instruções no canal `#plugin-releases` por um certo plugin, já que certos plugins poder necessitar de mais passos de instalação ou são incompatíveis com versões mais recentes do Peacock.
 
 **Nota: Plugins são apenas uma pequena porção da comunidade Hitman de mods. Vários mods de Hitman são manipulados pelo lado do cliente e estão fora da alçada do Peacock.** Mais mods gerais de uso pelo usuário, fora da responsabilidade do Peacock, estão agregados aqui:

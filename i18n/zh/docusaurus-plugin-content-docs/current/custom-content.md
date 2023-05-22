@@ -25,15 +25,6 @@ Peacock为我们的用户提供了许多有趣的内容。 这里是我们的一
 
 -   Note: You can select specific escalation levels to start on using the Escalation Level Picker tool, as explained [here](./intel/loadout-profiles-elp.md#escalation-level-picker)
 
-## Peacock独立自定义任务
-
-Peacock中有两个独立的自定义任务（这些任务不算升级或契约，但比“奖励任务”的内容更加丰富）：
-
--   **贸易传统**
-    -   可以在游戏中的`目的地` > `曼谷`游玩
--   **刺杀李洪**
-    -   可以在游戏中的`目的地` > `重庆`游玩
-
 ## 契约模式
 
 Peacock同时支持官方服务器和Peacock自定义契约。
@@ -54,7 +45,7 @@ Peacock同时支持官方服务器和Peacock自定义契约。
     -   如何游玩：在游戏中前往`游戏模式` -> `契约` -> `我的契约`。
 -   **用户创建的，Peacock的契约**
     -   如何安装：
-        -   在Peacock Discord群组中的`share-contracts`频道下载契约的`.json`文件。 Install this `.json` file to your `Contracts` folder, as shown here: ![](../static/img/./contracts_folder.png).
+        -   在Peacock Discord群组中的`share-contracts`频道下载契约的`.json`文件。 Install this `.json` file to your `Contracts` folder, as shown here: ![](/img/contracts_folder.png).
     -   如何创建自己的契约：
         -   If you create a contract in-game while in Peacock server, your contract will be saved as an `.json` file in `Contracts` folder, as shown in the image above.
         -   如果你想让其他人游玩你的自定义Peacock契约，请确保在Peacock Discord群组的`share-contracts`频道分享你的`.json`文件。
@@ -82,7 +73,7 @@ Peacock支持各种各样的服务器端mods（插件）。 这包含，但不�
 -   Broadly speaking, to install plugins, go to either the `plugins` or `#plugin-releases` channel in the Peacock Discord and download a plugin you are interested in.
 -   然后，将插件安装到你放置`Start Server.cmd`和`peacockpatcher.exe`的文件夹中。
 -   或者，新建一个名为`plugins`的文件夹，然后将你的插件放入此处，来更好的整理你的文件。
-    -   示例： ![插件文件夹](../static/img/./plugins_folder.png)
+    -   示例： ![插件文件夹](/img/plugins_folder.png)
 -   一些插件可能需要进阶设定或与新版本的Peacock不兼容，所以请确保在`#plugin-releases`频道中查找对应插件的进阶教程。
 
 **注意：插件只是杀手模组化场景中的一小部分。 **更多除了Peacock范围以外的客户端侧的通用模组，可以在这里查阅：
