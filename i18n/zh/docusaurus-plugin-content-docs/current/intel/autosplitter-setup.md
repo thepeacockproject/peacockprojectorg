@@ -27,7 +27,7 @@ _教程由[Fusha](https://github.com/fu5ha)编写_。
 
 2. 在这里下载`Livesplit.Server.zip`：https://github.com/LiveSplit/LiveSplit.Server/releases/latest
 
-3. 解压`Livesplit.Server.zip`。 将你从压缩包中解压出来的`Livesplit.Server.dll`和`Noes.Javascript.dll`文件移动到`Livesplit/Components`文件夹（如果你忘记了Livesplit的主程序在哪，查阅第一步）。 Here is an example of how your `Livesplit/Components`folder should look afterwards: ![example image](../../static/img/./livesplit_component.png)
+3. 解压`Livesplit.Server.zip`。 将你从压缩包中解压出来的`Livesplit.Server.dll`和`Noes.Javascript.dll`文件移动到`Livesplit/Components`文件夹（如果你忘记了Livesplit的主程序在哪，查阅第一步）。 Here is an example of how your `Livesplit/Components`folder should look afterwards: ![example image](/img/livesplit_component.png)
 
 4. 启动LiveSplit。
 
