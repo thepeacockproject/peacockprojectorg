@@ -47,7 +47,7 @@ Peacock同时支持官方服务器和Peacock自定义契约。
     -   如何安装：
         -   在Peacock Discord群组中的`share-contracts`频道下载契约的`.json`文件。 将此`.json`文件安装到你的`Contracts`文件夹，如图所示：![](/img/contracts_folder.png)。
     -   如何创建自己的契约：
-        -   If you create a contract in-game while in Peacock server, your contract will be saved as an `.json` file in `Contracts` folder, as shown in the image above.
+        -   如果你在Peacock服务器运行时在游戏内创建了契约，你的契约会以`.json`形式保存在你的`Contracts`文件夹，如上图所示。
         -   如果你想让其他人游玩你的自定义Peacock契约，请确保在Peacock Discord群组的`share-contracts`频道分享你的`.json`文件。
     -   如何游玩：
         -   在游戏中前往`游戏模式` -> `契约` -> `我的契约`。
@@ -70,7 +70,7 @@ Peacock支持各种各样的服务器端mods（插件）。 这包含，但不�
 
 ### 如何安装插件
 
--   Broadly speaking, to install plugins, go to either the `plugins` or `#plugin-releases` channel in the Peacock Discord and download a plugin you are interested in.
+-   简单来说，前往Peacock Discord群组的 `plugins`或`#plugin-releases`频道来下载一个你感兴趣的插件。
 -   然后，将插件安装到你放置`Start Server.cmd`和`peacockpatcher.exe`的文件夹中。
 -   或者，新建一个名为`plugins`的文件夹，然后将你的插件放入此处，来更好的整理你的文件。
     -   示例： ![插件文件夹](/img/plugins_folder.png)
