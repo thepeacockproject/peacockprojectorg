@@ -27,7 +27,7 @@ Essa ferramenta tem o propósito de ser usada em speedruns completas de Hitman.
 
 2. Extraia e coloque os dois arquivo que você acabou de baixar no arquivo zip do componente do servidor LiveSplit na pasta Components dentro da pasta de instalação `LiveSplit`.
 
-3. Unzip `Livesplit. Server.zip`. Move the `Livesplit. Server.dll` and `Noes. Javascript.dll` files found within the unzipped folder to `Livesplit/Components` folder (refer to step 1 if you forgot where you installed the main Livesplit application). Here is an example of how your `Livesplit/Components`folder should look afterwards: ![example image](../../static/img/./livesplit_component.png)
+3. Unzip `Livesplit. Server.zip`. Move the `Livesplit. Server.dll` and `Noes. Javascript.dll` files found within the unzipped folder to `Livesplit/Components` folder (refer to step 1 if you forgot where you installed the main Livesplit application). Aqui está um exemplo de como sua pasta `Livesplit/Components` deve estar depois: ![imagem de exemplo](../../static/img/./livesplit_component.png)
 
 4. Inicie o LiveSplit.
 

@@ -23,7 +23,7 @@ Dentro do Peacock, você pode jogar Alvos Elusivos sem nenhum tempo limite ao re
 
     -   O Peacock também suporta todas as escalações dos servidores oficiais, incluindo escalações de Hitman 2016 que não foram portadas para o Hitman 2 e 3 (escalações legado). Essas escalações estão disponíveis em jogo por predefinição.
 
--   Note: You can select specific escalation levels to start on using the Escalation Level Picker tool, as explained [here](./intel/loadout-profiles-elp.md#escalation-level-picker)
+-   Nota: Você pode selecionar níves específico de escalações para iniciar usando a ferramenta Escalation Level Picker, como explicado [aqui](./intel/loadout-profiles-elp.md#escalation-level-picker)
 
 ## Missões Customizadas Peacock Individuais
 
@@ -54,9 +54,9 @@ O Peacock suporta ambos contratos de servidores oficiais e contratos personaliza
     -   Como Jogar: Vá para o menu `Game Modes` -> `Contracts` -> `My Contracts` em jogo.
 -   **Criados por Usuários, Contratos Personalizados Peacock**
     -   Como Instalar:
-        -   Faça o Download dos arquivos `.ocre` de contratos do canal `share-contracts` no Discord do Peacock. Install this `.json` file to your `Contracts` folder, as shown here: ![](../static/img/./contracts_folder.png).
+        -   Faça o Download dos arquivos `.ocre` de contratos do canal `share-contracts` no Discord do Peacock. Instale esse arquivo `.json` na sua pasta `Contracts`, como mostrado aqui: ![](../static/img/./contracts_folder.png).
     -   Como Criar o Seu Próprio:
-        -   If you create a contract in-game while in Peacock server, your contract will be saved as an `.json` file in `Contracts` folder, as shown in the image above.
+        -   Se você criar um contrato em jogo enquanto estiver conectado ao servidor Peacock, seu contrato será salvo como um arquivo `.json` na pasta `Contracts`, como mostrado na imagem acima.
         -   Tenha a certeza de compartilhar seu arquivo `.ocre` no canal `share-contracts` do servidor Discord do Peacock se quiser que outros joguem seu contrato customizado Peacock.
     -   Como Jogar:
         -   Vá para o menu `Game Modes` -> `Contracts` -> `My Contracts` em jogo.
@@ -79,7 +79,7 @@ O Peacock suporta uma grande variedade de mods de servidor (plugins). Esses incl
 
 ### Como Instalar Plugins
 
--   Amplamente falando, para baixar plugins, vá para `#plugin-releases` no servidor Discord do Peacock e faça o download de um plugin em que tenha interesse.
+-   Broadly speaking, to install plugins, go to either the `plugins` or `#plugin-releases` channel in the Peacock Discord and download a plugin you are interested in.
 -   Então, coloque na mesma pasta onde o `Start Server.cmd` e o `peacockpatcher.exe` estão.
 -   Alternativamente, crie uma pasta chamada `plugins` e coloque seus plugins nela, para organizar melhor os seus arquivos.
     -   Exemplo: ![PluginsFolder](../static/img/./plugins_folder.png)

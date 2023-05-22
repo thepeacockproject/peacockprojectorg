@@ -43,11 +43,11 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
         -   Mude `Start Server.cmd` como descrito abaixo:
         ```
         @echo off
-        SET PORT=NumeroDaPort
+        SET PORT=NumeroDaPorta
         .\nodedist\node.exe chunk0.js
         PAUSE
         ```
-        -   Type `localhost:PORTNUMBER` or `127.0.0.1:PORTNUMBER` into the server window, as shown here: ![](../../static/img/./patcher_port.png)
+        -   Escreva `localhost:NumeroDaPorta` ou `127.0.0.1:NumeroDaPorta` na janela do servidor, como mostrado aqui: ![](../../static/img/./patcher_port.png)
 
 ### Itens Faltantes / Mapas
 
@@ -79,7 +79,7 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
 ## Como o Peacock Funciona FAQ
 
 -   Veja [O que é o Peacock](./what-is-peacock.md)
-    -   See above link for questions on progression (challenges and mastery etc), Freelancer integration with Peacock, whether or not you need Internet to use Peacock, or any other general questions on how Peacock works
+    -   Veja o link acima por questões sobre progressão (desafios e maestria, etc), integração do Freelancer com o Peacock, se você precisa ou não de internet para usar o Peacock ou qualquer outra questão geral sobre como o Peacock funciona
 
 ## Perguntas Frequentes sobre Solicitação de Recursos
 

@@ -79,7 +79,7 @@ Peacock支持各种各样的服务器端mods（插件）。 这包含，但不�
 
 ### 如何安装插件
 
--   简单来说，前往Peacock Discord群组的`#plugin-releases`频道来下载一个你感兴趣的插件。
+-   Broadly speaking, to install plugins, go to either the `plugins` or `#plugin-releases` channel in the Peacock Discord and download a plugin you are interested in.
 -   然后，将插件安装到你放置`Start Server.cmd`和`peacockpatcher.exe`的文件夹中。
 -   或者，新建一个名为`plugins`的文件夹，然后将你的插件放入此处，来更好的整理你的文件。
     -   示例： ![插件文件夹](../static/img/./plugins_folder.png)
