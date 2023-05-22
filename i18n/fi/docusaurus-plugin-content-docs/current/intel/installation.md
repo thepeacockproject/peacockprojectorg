@@ -19,6 +19,6 @@ Here's how to get up and running with Peacock.
 
 4. Navigate to where you installed Peacock, and run the files `Start Server.cmd` and `PeacockPatcher.exe`.
 
-    - Depending on how you installed Peacock, you may need to open two folders to find these files, as shown in this example image: ![](../../static/img/./patcher_and_server.png).
+    - Depending on how you installed Peacock, you may need to open two folders to find these files, as shown in this example image: ![](/img/patcher_and_server.png).
 
 5. Now start up the game while `Start Server` and `PeacockPatcher.exe` are still running. The game should launch with Peacock server. Check the [FAQ](./faq.md) or ask in the `#help` channel on [Peacock Discord](https://thepeacockproject.org/discord) if you have trouble getting it to work.

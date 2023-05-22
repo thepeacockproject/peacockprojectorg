@@ -47,7 +47,7 @@ title: Veelgestelde vragen / Probleemoplossing
         .\nodedist\node.exe chunk0.js
         PAUSE
         ```
-        -   Type `localhost:PORTNUMBER` or `127.0.0.1:PORTNUMBER` into the server window, as shown here: ![](../../static/img/./patcher_port.png)
+        -   Type `localhost:PORTNUMBER` or `127.0.0.1:PORTNUMBER` into the server window, as shown here: ![](/img/patcher_port.png)
 
 ### Missing Items / Maps
 

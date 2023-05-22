@@ -47,7 +47,7 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
         .\nodedist\node.exe chunk0.js
         PAUSE
         ```
-        -   Escreva `localhost:NumeroDaPorta` ou `127.0.0.1:NumeroDaPorta` na janela do servidor, como mostrado aqui: ![](../../static/img/./patcher_port.png)
+        -   Escreva `localhost:NumeroDaPorta` ou `127.0.0.1:NumeroDaPorta` na janela do servidor, como mostrado aqui: ![](/img/patcher_port.png)
 
 ### Itens Faltantes / Mapas
 
