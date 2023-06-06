@@ -52,7 +52,7 @@ title: Frequently Asked Questions
 ### Missing Items / Maps
 
 -   Starting from v6, Peacock should be able to automatically detect when you obtain a new DLC, and give you access to those new items / maps
--   Version 6.1.0 introduced progression to peacock, meaning you now can unlock items as you play. This is enabled by default, to emulate the experience of the official servers. To disable this set `enableMasteryProgression` in `options.ini` to `false`.
+-   v6.1.0 introduced progression to peacock, meaning you now can unlock items as you play. This is enabled by default, to emulate the experience of the official servers. To disable this set `enableMasteryProgression` in `options.ini` to `false`.
 
 ### Other
 
