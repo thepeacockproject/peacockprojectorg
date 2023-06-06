@@ -19,6 +19,6 @@ Aqui estão as instruções para se começar a usar o Peacock.
 
 4. Navegue para o local onde você instalou o Peacock, e rode os arquivos `Start Server.cmd` e `PeacockPatcher.exe`.
 
-    - Depending on how you installed Peacock, you may need to open two folders to find these files, as shown in this example image: ![](/img/patcher_and_server.png).
+    - Dependendo de como você instalou o Peacock, você pode precisar abrir duas pastas para encontrar esses arquivos, como mostrado nessa imagem de exemplo: ![](/img/patcher_and_server.png).
 
 5. Agora inicie o jogo enquanto `Start Server` e `PeacockPatcher.exe` ainda estejam rodando. O jogo deve ser iniciado juntamente com o servidor Peacock. Verifique o [FAQ](./faq.md) ou pergunte no canal `#help` no [Discord do Peacock](https://thepeacockproject.org/discord) se você estiver tendo problemas nesses procedimentos.

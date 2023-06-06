@@ -45,7 +45,7 @@ O Peacock suporta ambos contratos de servidores oficiais e contratos personaliza
     -   Como Jogar: Vá para o menu `Game Modes` -> `Contracts` -> `My Contracts` em jogo.
 -   **Criados por Usuários, Contratos Personalizados Peacock**
     -   Como Instalar:
-        -   Faça o Download dos arquivos `.ocre` de contratos do canal `share-contracts` no Discord do Peacock. Install this `.json` file to your `Contracts` folder, as shown here: ![](/img/contracts_folder.png).
+        -   Faça o Download dos arquivos `.ocre` de contratos do canal `share-contracts` no Discord do Peacock. Instale esse arquivo `.json` na sua pasta `Contracts`, como mostrado aqui: ![](/img/contracts_folder.png).
     -   Como Criar o Seu Próprio:
         -   Se você criar um contrato em jogo enquanto estiver conectado ao servidor Peacock, seu contrato será salvo como um arquivo `.json` na pasta `Contracts`, como mostrado na imagem acima.
         -   Tenha a certeza de compartilhar seu arquivo `.ocre` no canal `share-contracts` do servidor Discord do Peacock se quiser que outros joguem seu contrato customizado Peacock.
@@ -70,7 +70,7 @@ O Peacock suporta uma grande variedade de mods de servidor (plugins). Esses incl
 
 ### Como Instalar Plugins
 
--   Broadly speaking, to install plugins, go to either the `plugins` or `#plugin-releases` channel in the Peacock Discord and download a plugin you are interested in.
+-   Amplamente falando, para baixar plugins, vá para os canais `plugins` ou `#plugin-releases` no servidor Discord do Peacock e faça o download de um plugin em que tenha interesse.
 -   Então, coloque na mesma pasta onde o `Start Server.cmd` e o `peacockpatcher.exe` estão.
 -   Alternativamente, crie uma pasta chamada `plugins` e coloque seus plugins nela, para organizar melhor os seus arquivos.
     -   Exemplo: ![PluginsFolder](/img/plugins_folder.png)

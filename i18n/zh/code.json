@@ -79,7 +79,7 @@
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "请联系为你提供连接的人，让他们知道这个链接不可用。",
+    "message": "请联系链接到原始URL站点的所有者，并让他们知道这个链接已失效。",
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.admonition.note": {

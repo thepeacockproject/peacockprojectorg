@@ -12,13 +12,13 @@ description: 如何上手Peacock。
 
 2. [在此处下载最新版本的Peacock](https://github.com/thepeacockproject/Peacock/releases/latest)。 选择`Peacock-v主版本号.副版本号.小版本号.zip`来下载。
 
-    - 注意：这里也有一个`Peacock-v主版本号.副版本号.小版本号-lite.zip`的选项，但这主要是提供给Linux用户的。 轻度版不包含Node，所以Linux用户需要额外单独下载Node。 如果你对此存疑，下载普通版即可。
+    - 注意：这里也有一个`Peacock-v主版本号.副版本号.小版本号-lite.zip`的选项，但这主要是提供给Linux用户的。 轻度版不包含Node，所以Linux用户需要额外单独下载Node。 如果你对此存疑或你不使用Linux操作系统，下载无lite标识的普通版即可。
     - 参阅步骤1来获取Linux基本指南。
 
-3. 解压文件。 在压缩包内运行程序是无效的。
+3. 提取（解压）文件。 在压缩包内运行程序是无效的。
 
-4. 转到你解压Peacock文件的地方，运行`Start Server.cmd`文件和`PeacockPatcher.exe`文件。
+4. 转到你安装Peacock的地方，然后运行`Start Server.cmd`文件和`PeacockPatcher.exe`文件。
 
     - 根据您安装Peacock的方式，您可能需要打开两个文件夹才能找到这些文件，如下图所示：![](/img/patcher_and_server.png)。
 
-5. 现在保持`Start Server`和`PeacockPatcher.exe`运行，然后启动游戏。 随后游戏应在Peacock服务器上被启动。 如果遇到问题，请参阅[常见问题解答](./faq.md)或在[Peacock Discord群组](https://thepeacockproject.org/discord)的`#help`频道上提问。
+5. 现在保持`Start Server`和`PeacockPatcher.exe`运行，然后启动游戏。 随后游戏应该启动并连接到Peacock服务器。 如果遇到问题，请参阅[常见问题解答](./faq.md)或在[Peacock Discord群组](https://thepeacockproject.org/discord)的`#help`频道上提问。

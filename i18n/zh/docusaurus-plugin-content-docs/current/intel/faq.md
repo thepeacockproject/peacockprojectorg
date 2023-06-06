@@ -25,7 +25,7 @@ title: 常见问题解答
     -   如果你的手机有移动数据流量，你可以使用手机为电脑提供热点来连接到互联网。
 -   如果这是你第一次游玩游戏，请不要尝试使用Peacock。 在你连接Peacock之前，你必须至少连接到官方服务器一次。 在你连接到官方服务器一次以后，在后续使用Peacock时不再需要连接到官方服务器。
 -   尝试以管理员身份运行`PeacockPatcher.exe`。
--   在Peacock Patcher中，保持选中"Use http instead of https"（使用http协议），除非你在游玩幽灵模式。
+-   在Peacock Patcher中，保持选中"Use http instead of https"（使用http协议替代https协议），除非你在游玩幽灵模式。
 
 -   Peacock默认在你的电脑上使用80端口来启动Peacock服务器。
 
@@ -47,11 +47,12 @@ title: 常见问题解答
         .\nodedist\node.exe chunk0.js
         PAUSE
         ```
-        -   输入`localhost:PORTNUMBER`或`127.0.0.1:PORTNUMBER`进入服务器窗口，如下所示： ![](/img/patcher_port.png)
+        -   输入`localhost:端口号`或`127.0.0.1:端口号`进入服务器窗口，如下所示： ![](/img/patcher_port.png)
 
 ### 物品/地图缺失
 
--   从v6开始，Peacock应该能够自动检测到你获得的新DLC，并让你获得这些新的物品/地图。
+-   Starting from v6, Peacock should be able to automatically detect when you obtain a new DLC, and give you access to those new items / maps
+-   v6.1.0 introduced progression to peacock, meaning you now can unlock items as you play. This is enabled by default, to emulate the experience of the official servers. To disable this set `enableMasteryProgression` in `options.ini` to `false`.
 
 ### 其他
 
@@ -78,8 +79,8 @@ title: 常见问题解答
 
 ## Peacock运作的常见问题
 
--   见[什么是Peacock](./what-is-peacock.md)。
-    -   请参阅上面的链接，了解有关进度（挑战和精通等）、自由职业者与Peacock的集成、是否需要网络才能使用Peacock，或有关Peacock如何工作的任何其他一般问题
+-   参阅[Peacock是什么](./what-is-peacock.md)。
+    -   See above link for questions on Freelancer integration with Peacock, whether or not you need Internet to use Peacock, or any other general questions on how Peacock works
 
 ## 常见功能请求解答
 
@@ -87,5 +88,5 @@ title: 常见问题解答
 -   Mod（模组）兼容性：
     -   大部分模组都与Peacock兼容；除了三种以外。
         -   如果一个模组修改了契约（任务，特殊要求等），它需要一个Peacock插件来兼容。
-        -   如果一个模组修改了准备物品栏（即，修改了开始地点、你能够带进任务中的物品、你能使用的西装），则也需要一个插件。
+        -   如果一个模组修改了计划物品栏（即，修改了开始地点的属性、修改了你能够带进任务中的物品、或修改了你能使用的西装），则也需要一个插件。
         -   菜单修改有时可能也会不兼容，但除此之外是没有问题的。 除以上提到的情况以外，模组不需要模组创作者的任何特殊处理就应与Peacock兼容。
