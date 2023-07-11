@@ -51,8 +51,8 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
 
 ### Itens Faltantes / Mapas
 
--   Starting from v6, Peacock should be able to automatically detect when you obtain a new DLC, and give you access to those new items / maps
--   v6.1.0 introduced progression to peacock, meaning you now can unlock items as you play. This is enabled by default, to emulate the experience of the official servers. To disable this set `enableMasteryProgression` in `options.ini` to `false`.
+-   A partir da versão v6, o Peacock deve detectar automaticamente quando você adquirir uma nova DLC, e dar acesso a novos itens / mapas
+-   v6.1.0 introduziu progressão ao Peacock, o que significa que você pode desbloquear novos itens ao longo do jogo. Isso é ativado por padrão, para emular a experiência oficial dos servidores. Para desativar isso, mude `enableMasteryProgression` no arquivo `options.ini` para `false`.
 
 ### Outro
 
@@ -80,7 +80,7 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
 ## Como o Peacock Funciona FAQ
 
 -   Veja [O que é o Peacock](./what-is-peacock.md)
-    -   See above link for questions on Freelancer integration with Peacock, whether or not you need Internet to use Peacock, or any other general questions on how Peacock works
+    -   Veja o link acima por questões sobre integração do Freelancer com o Peacock, se você precisa ou não de internet para usar o Peacock ou qualquer outra questão geral sobre como o Peacock funciona
 
 ## Perguntas Frequentes sobre Solicitação de Recursos
 
