@@ -59,12 +59,10 @@ Peacock supports a broad variety of server side mods (plugins). These include, b
 -   Kill Everyone Mode
     -   All real NPC's marked as targets, can get Silent Assassin rating back after killing everyone.
     -   Note: Very buggy for maps with 200+ targets, guns may jam randomly. You may need to start by melee killing people.
--   Sarajevo Six
-    -   Bonus Missions otherwise only available in Hitman 2016 Playstation version.
-    -   Installation Instructions: https://github.com/solderq35/hitman-tech-tips/blob/main/modding/sarajevo_six.md
--   Brothers Elusive Target (Cut Content)
+-   Brothers Elusive Target (Cut Content / Fan Mod)
+    -   NOTE: Although the Brothers ET mod is compatible with Peacock, it is a **fan interpretation** of how the mission would have played out, and not necessarily canon
     -   File Download: https://www.nexusmods.com/hitman3/mods/375?tab=files
-    -   Install the main portion of the mod (the file not marked "Peacock Plugin") through Simple Mod Framework. Install the "Peacock Plugin" portion of the mod by putting it into your Peacock Install folder. Read the Sarajevo Six instructions above for guidance if confused about either of those steps.
+    -   Install the main portion of the mod (the file not marked "Peacock Plugin") through Simple Mod Framework. Install the "Peacock Plugin" portion of the mod by putting it into your Peacock Install folder
 -   Plugins to add otherwise unused weapons to the game
 -   Plugins to modify existing weapons and disguises
 

@@ -59,12 +59,10 @@ O Peacock suporta uma grande variedade de mods de servidor (plugins). Esses incl
 -   Modo Massacre
     -   Todos os NPCs reais são marcados como alvos, podendo receber avaliação Assassino Silencioso depois de ter matado a todos.
     -   Nota: Bem bugado em mapas com mais de 200 alvos, armas podem falhar em momentos aleatórios. Você pode precisar matar usando métodos corpo a corpo.
--   Os Seis de Sarajevo
-    -   Missões Bônus de outra forma disponíveis apenas na versão PlayStation de Hitman 2016.
-    -   Instruções de Instalação: https://github.com/solderq35/hitman-tech-tips/blob/main/modding/sarajevo_six.md
--   Alvo Elusivo Os Irmãos (Conteúdo Cortado)
+-   Brothers Elusive Target (Cut Content / Fan Mod)
+    -   NOTE: Although the Brothers ET mod is compatible with Peacock, it is a **fan interpretation** of how the mission would have played out, and not necessarily canon
     -   Download de Arquivo: https://www.nexusmods.com/hitman3/mods/375?tab=files
-    -   Instale a porção principal do mod (o arquivo não marcado como "Peacock Plugin") através do Simple Mod Framework. Instale a porção do mod "Plugin Peacock" colocando-o na sua pasta de instalação do Peacock. Leia as instruções de instalação dos Seis de Sarajevo acima para guia, caso haja confusão sobe qualquer desses passos.
+    -   Instale a porção principal do mod (o arquivo não marcado como "Peacock Plugin") através do Simple Mod Framework. Install the "Peacock Plugin" portion of the mod by putting it into your Peacock Install folder
 -   Plugins para adicionar armas não usadas no jogo
 -   Plugins para modificar armas e disfarces existentes
 

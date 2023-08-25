@@ -59,12 +59,10 @@ Peacock支持各种各样的服务器端mods（插件）。 这包含，但不�
 -   屠城模式
     -   所有真实NPC都被标记为目标，在杀死所有人后可以获得沉默刺客评分。
     -   注意：在有200+目标的地图中会出现卡顿，枪械可能会随机卡住。 你可能需要开始使用近战武器击杀目标。
--   萨拉热窝六号
-    -   仅在Playstation上的杀手2016可用的奖励任务。
-    -   安装指南：https://github.com/solderq35/hitman-tech-tips/blob/main/modding/sarajevo_six.md
--   兄弟 行踪不定的目标（删减内容）
+-   Brothers Elusive Target (Cut Content / Fan Mod)
+    -   NOTE: Although the Brothers ET mod is compatible with Peacock, it is a **fan interpretation** of how the mission would have played out, and not necessarily canon
     -   下载文件：https://www.nexusmods.com/hitman3/mods/375?tab=files
-    -   安装模组的主要部分（在Simple Mod Framework中未标记为”Peacock Plugin”的文件）。 将模组中的“Peacock Plugin”部分放入你的Peacock安装文件夹。 如果对这些步骤有任何问题，阅读上面的萨拉热窝六号安装指南。
+    -   安装模组的主要部分（在Simple Mod Framework中未标记为”Peacock Plugin”的文件）。 Install the "Peacock Plugin" portion of the mod by putting it into your Peacock Install folder
 -   在游戏中添加未启用的武器的插件
 -   修改现有武器和伪装的插件
 
