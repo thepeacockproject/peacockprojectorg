@@ -70,12 +70,8 @@ title: 常见问题解答
 ### 请求技术支持
 
 -   你的问题未包含在上述常见问题中？ 请前往Peacock Discord `#help`频道中提问(https://thepeacockproject.org/discord)
-    -   提问前请准备好提供以下信息：
-        -   当前Peacock服务器在终端中运行的截图
-        -   当前Peacock Patcher运行的截图
-        -   你的操作系统和游戏版本信息
-        -   80端口的运行信息（参阅上述的[常见问题解答](#connection-troubleshooting)）
-        -   其它深入的相关信息
+    -   Close the Peacock Server. Then run `Tools.cmd`, and press enter.
+    -   Be prepared to provide the `DEBUG_PROFILE.zip` you'll find in the Peacock directory after that.
 
 ## Peacock运作的常见问题
 

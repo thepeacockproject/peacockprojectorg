@@ -70,12 +70,8 @@ title: Veelgestelde vragen / Probleemoplossing
 ### Request Tech Support
 
 -   Is jouw vraag niet in de FAQ hierboven beantwoord? Vraag het in het `#help` kanaal van de Peacock Discord server (https://thepeacockproject.org/discord)
-    -   Ben voorbereid om het volgende klaar te hebben:
-        -   Schermafbeeldingen van de Peacock Server werkend in de terminal
-        -   Schermafbeeldingen van de Peacock Patcher werkend
-        -   Informatie over jouw besturingssysteem en spelversie
-        -   Information on what is running on Port 80 (check [Connection Troubleshooting](#connection-troubleshooting) above)
-        -   Alle informatie verder relevant
+    -   Close the Peacock Server. Then run `Tools.cmd`, and press enter.
+    -   Be prepared to provide the `DEBUG_PROFILE.zip` you'll find in the Peacock directory after that.
 
 ## How Peacock Works FAQ
 

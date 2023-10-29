@@ -70,12 +70,8 @@ title: Häufig gestellte Fragen
 ### Request Tech Support
 
 -   Question not answered in FAQ above? Ask in the Peacock Discord `#help` channel (https://thepeacockproject.org/discord)
-    -   Be prepared to provide:
-        -   Screenshots of Peacock Server running in the terminal
-        -   Screenshots of Peacock Patcher running
-        -   Information on your operating system and game version
-        -   Information on what is running on Port 80 (check [Connection Troubleshooting](#connection-troubleshooting) above)
-        -   Any further pertinent information
+    -   Close the Peacock Server. Then run `Tools.cmd`, and press enter.
+    -   Be prepared to provide the `DEBUG_PROFILE.zip` you'll find in the Peacock directory after that.
 
 ## How Peacock Works FAQ
 

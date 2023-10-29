@@ -70,12 +70,8 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
 ### Solicitando Suporte Técnico
 
 -   Questão não respondida no FAQ acima? Pergunte no canal do servidor Discord do Peacock `#help` (https://thepeacockproject.org/discord)
-    -   Esteja preparado para providenciar:
-        -   Fotos do seu Servidor Peacock rodando no terminal
-        -   Fotos do seu Patcher Peacock rodando
-        -   Informações sobre o seu sistema operacional e versão do jogo
-        -   Informações sobre o que está rodando na Porta 80 (veja [Solução de Problemas de Conexão](#connection-troubleshooting) acima)
-        -   Quaisquer outras informações pertinentes
+    -   Close the Peacock Server. Then run `Tools.cmd`, and press enter.
+    -   Be prepared to provide the `DEBUG_PROFILE.zip` you'll find in the Peacock directory after that.
 
 ## Como o Peacock Funciona FAQ
 
