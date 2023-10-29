@@ -71,7 +71,7 @@ title: Frequently Asked Questions
 
 -   Question not answered in FAQ above? Ask in the Peacock Discord `#help` channel (https://thepeacockproject.org/discord)
     -   Close the Peacock Server. Then run `Tools.cmd`, and press enter.
-    -   Be prepared to provide the `DEBUG_PROFILE.zip` you'll find in the peacock directory after that.
+    -   Be prepared to provide the `DEBUG_PROFILE.zip` you'll find in the Peacock directory after that.
 
 ## How Peacock Works FAQ
 
