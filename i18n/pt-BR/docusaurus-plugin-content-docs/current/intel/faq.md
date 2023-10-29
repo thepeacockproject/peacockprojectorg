@@ -56,7 +56,7 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
 
 ### Outro
 
--   Veja a página de [Recursos Únicos do Peacock](../intel/loadout-profiles-elp.md) para mais informações em como ter múltiplos equipamentos por mapa ou escolher níveis de escalações específicos.
+-   Veja a página de [Recursos Únicos do Peacock](../intel/loadout-profiles-elp.md) para mais informações em como ter múltiplos equipamentos por mapa ou escolher níveis de agravamento específicos.
 -   Trajes Padrão - Se você ativar `getDefaultSuits = true` no seu arquivo `options.ini` na sua pasta de instalação do Peacock, por favor leia o seguinte comportamento:
     -   Qualquer discussão sobre "trajes padrão" abaixo se refere à versão do traje padrão **sem luvas** - qualquer versão do traje de 47 quando você inicia a missão pela primeira vez.
     -   Alguns trajes padrão de Hitman 2 e Hitman 3 não são usáveis em todos os mapas no jogo normalmente. Isso pode ser corrigido usando https://www.nexusmods.com/hitman3/mods/401
@@ -84,9 +84,5 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
 
 ## Perguntas Frequentes sobre Solicitação de Recursos
 
--   Antes de perguntar qualquer coisa sobre o Modo Fantasma, Escalações, Contratos do Usuário e Alvos Elusivos, por favor verifique a [Página de Conteúdo Customizado](.././custom-content.md) assim como a [Página do Modo Fantasma](.././ghost-mode.md).
--   Compatibilidade de Mods:
-    -   A maioria dos Mods são compatíveis com o Peacock; existem apenas três que não são.
-        -   Se um mod edita contratos (missões, Missões Especiais, etc), ele necessitará de um plugin Peacock para ser compatível.
-        -   Se um mod edita o inventário de planejamento (isto é, muda as propriedades de locais de início, muda quais itens você pode trazer em missões, ou edita as roupas disponíveis para você), você também precisará de um plugin.
-        -   Mudanças no menu podem também ser incompatíveis, mas devem funcionar bem. Além desses, mods devem ser compatíveis com o Peacock sem nenhum esforço extra da parte do criador do mod.
+-   Antes de perguntar qualquer coisa sobre o Modo Fantasma, Agravamentos, Contratos do Usuário e Alvos Elusivos, por favor verifique a [Página de Conteúdo Customizado](.././custom-content.md) assim como a [Página do Modo Fantasma](.././ghost-mode.md).
+-   Mod compatibility: almost all mods are compatible with Peacock without extra work, including contract and unlockable mods. Menu changes may sometimes be incompatible, but should usually be fine.

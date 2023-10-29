@@ -85,8 +85,4 @@ title: Häufig gestellte Fragen
 ## Feature Request FAQ
 
 -   Before asking any questions about Ghost Mode, escalations, user contracts, elusive targets, please check the [Custom Content Page](.././custom-content.md) as well as the [Ghost Mode Page](.././ghost-mode.md).
--   Mod Compatability:
-    -   Most mods are compatible with Peacock; there are only three kinds that aren't.
-        -   If a mod edits contracts (missions, special assignments, etc.), it'll need a Peacock plugin to be compatible.
-        -   If a mod edits the planning inventory (that is, changes the properties of starting locations, changes which items you can bring into missions, or edits the suits available to you), it will also need a plugin.
-        -   Menu changes may also sometimes be incompatible, but should otherwise be fine. Other than those, mods should be compatible with Peacock without any effort on the part of the mod creator.
+-   Mod compatibility: almost all mods are compatible with Peacock without extra work, including contract and unlockable mods. Menu changes may sometimes be incompatible, but should usually be fine.

@@ -21,8 +21,8 @@ Aqui está um breve resumo do que o Peacock faz:
     -   **Por padrão, progressão / conclusão de desafios está ativado para simular a experiência dos servidores oficiais.**
     -   **Você pode resetar seu progresso (desafios, pontos de experiência, níveis de maestria, etc.) a qualquer momento** deletando a pasta `userdata` na sua pasta de instalação do Peacock.
     -   Se essa é sua primeira vez jogando (tanto no Peacock como nos servidores oficiais), algumas saídas estarão bloquadas. Você terá que desbloquear as saídas de Dubai ([precisa desbloquear os elevadores](https://youtu.be/IEQgRQyQRf8)), saídas de Dartmoor ([precisa sair por meio da motocicleta pelo menos uma vez](https://youtu.be/AJtJZe9jEi8?t=151)), e saídas de Colorado ([precisa ter usado a saída do abrigo de tornados pelo menos uma vez](https://youtu.be/3XKWHrKpXwk?t=140)). Essas saídas estão sob responsabilidade do usuário.
--   O Peacock permite você jogar [conteúdo customizado](.././custom-content.md) ou conteúdos descontinuados/de tempo limitado como o [Modo Fantasma](.././ghost-mode.md), o modo sniper cooperativo, escalações, alvos elusivos e contratos.
-    -   Escalações, alvos elusivos e contratos dos servidores oficiais, assim como conteúdo customizado ou com mods são suportados, veja mais informações [aqui](.././custom-content.md).
+-   O Peacock permite você jogar [conteúdo customizado](.././custom-content.md) ou conteúdos descontinuados/de tempo limitado como o [Modo Fantasma](.././ghost-mode.md), o modo sniper cooperativo, agravamentos, alvos elusivos e contratos.
+    -   Agravamentos, alvos elusivos e contratos dos servidores oficiais, assim como conteúdo customizado ou com mods são suportados, veja mais informações [aqui](.././custom-content.md).
 -   Veja as leaderboards de outros usuários Peacock (Cross-Platform, Epic Games e Steam)
 -   Salvamentos em jogo são suportados, e a partir da versão v5.0.1 você pode acessar salvamentos dos servidores oficiais no Peacock.
 

@@ -59,10 +59,10 @@ Peacock支持各种各样的服务器端mods（插件）。 这包含，但不�
 -   屠城模式
     -   所有真实NPC都被标记为目标，在杀死所有人后可以获得沉默刺客评分。
     -   注意：在有200+目标的地图中会出现卡顿，枪械可能会随机卡住。 你可能需要开始使用近战武器击杀目标。
--   Brothers Elusive Target (Cut Content / Fan Mod)
-    -   NOTE: Although the Brothers ET mod is compatible with Peacock, it is a **fan interpretation** of how the mission would have played out, and not necessarily canon
+-   行踪不定的目标：兄弟（删除内容/饭制模组）
+    -   请注意：尽管兄弟ET模组适用于Peacock，但其本质是对于该任务本应游玩内容的一种**粉丝自制诠释**，并非必要的规则。
     -   下载文件：https://www.nexusmods.com/hitman3/mods/375?tab=files
-    -   安装模组的主要部分（在Simple Mod Framework中未标记为”Peacock Plugin”的文件）。 Install the "Peacock Plugin" portion of the mod by putting it into your Peacock Install folder
+    -   安装模组的主要部分（在Simple Mod Framework中未标记为”Peacock Plugin”的文件）。 通过将模组的“Peacock插件”部分放入你的Peacock安装文件夹以进行安装
 -   在游戏中添加未启用的武器的插件
 -   修改现有武器和伪装的插件
 

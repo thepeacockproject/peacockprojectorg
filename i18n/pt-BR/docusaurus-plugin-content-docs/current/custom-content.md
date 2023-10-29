@@ -13,17 +13,17 @@ Dentro do Peacock, você pode jogar Alvos Elusivos sem nenhum tempo limite ao re
     -   Depois de iniciar o Hitman 3 usando o Peacock, vá para `Career` -> `Elusive Targets` no jogo.
 -   Veja a seção [Plugins](#plugins) por informações sobre a instalação do alvo elusivo "Os Irmãos" (conteúdo cortado) em Hitman 3.
 
-## Escalações
+## Agravamentos
 
--   **Escalações Peacock Personalizadas**
+-   **Agravamentos Peacock Personalizados**
 
-    -   O Peacock suporta escalações (Originais Peacock) personalizadas. Essas escalações estão disponíveis em jogo por predefinição. Você pode ver algumas das escalações customizadas listadas nos [Roadmaps](https://thepeacockproject.org/wiki/roadmaps) também.
+    -   O Peacock suporta agravamentos (Originais Peacock) personalizados. Essas escalações estão disponíveis em jogo por predefinição. Você pode ver alguns dos agravamentos customizados listados nos [Roadmaps](https://thepeacockproject.org/wiki/roadmaps) também.
 
--   **Escalações dos Servidores Oficiais e Escalações Legado**
+-   **Agravamentos dos Servidores Oficiais e Agravamentos Legado**
 
-    -   O Peacock também suporta todas as escalações dos servidores oficiais, incluindo escalações de Hitman 2016 que não foram portadas para o Hitman 2 e 3 (escalações legado). Essas escalações estão disponíveis em jogo por predefinição.
+    -   O Peacock também suporta todos os agravamentos dos servidores oficiais, incluindo agravamentos de Hitman 2016 que não foram portados para o Hitman 2 e 3 (agravamentos legado). Essas escalações estão disponíveis em jogo por predefinição.
 
--   Nota: Você pode selecionar níves específico de escalações para iniciar usando a ferramenta Escalation Level Picker, como explicado [aqui](./intel/loadout-profiles-elp.md#escalation-level-picker)
+-   Nota: Você pode selecionar níves específicos de agravamentos para iniciar usando a ferramenta Escalation Level Picker, como explicado [aqui](./intel/loadout-profiles-elp.md#escalation-level-picker)
 
 ## Modo Contratos
 
@@ -59,10 +59,10 @@ O Peacock suporta uma grande variedade de mods de servidor (plugins). Esses incl
 -   Modo Massacre
     -   Todos os NPCs reais são marcados como alvos, podendo receber avaliação Assassino Silencioso depois de ter matado a todos.
     -   Nota: Bem bugado em mapas com mais de 200 alvos, armas podem falhar em momentos aleatórios. Você pode precisar matar usando métodos corpo a corpo.
--   Brothers Elusive Target (Cut Content / Fan Mod)
-    -   NOTE: Although the Brothers ET mod is compatible with Peacock, it is a **fan interpretation** of how the mission would have played out, and not necessarily canon
+-   Alvo Elusivo Os Irmãos (Conteúdo Cortado / Mod de Fã)
+    -   NOTA: Apesar de o Alvo Elusivo Os Irmãos ser compatível com o Peacock, é uma **interpretação de fãs** de como a missão iria se desenrolar, e não é necessariamente canônico
     -   Download de Arquivo: https://www.nexusmods.com/hitman3/mods/375?tab=files
-    -   Instale a porção principal do mod (o arquivo não marcado como "Peacock Plugin") através do Simple Mod Framework. Install the "Peacock Plugin" portion of the mod by putting it into your Peacock Install folder
+    -   Instale a porção principal do mod (o arquivo não marcado como "Peacock Plugin") através do Simple Mod Framework. Instale a seção do mod "Peacock Plugin" colocando-o na sua pasta de instalação do Peacock
 -   Plugins para adicionar armas não usadas no jogo
 -   Plugins para modificar armas e disfarces existentes
 
