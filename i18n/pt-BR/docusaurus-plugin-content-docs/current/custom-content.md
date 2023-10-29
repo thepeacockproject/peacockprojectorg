@@ -69,8 +69,7 @@ O Peacock suporta uma grande variedade de mods de servidor (plugins). Esses incl
 ### Como Instalar Plugins
 
 -   Amplamente falando, para baixar plugins, vá para os canais `plugins` ou `#plugin-releases` no servidor Discord do Peacock e faça o download de um plugin em que tenha interesse.
--   Então, coloque na mesma pasta onde o `Start Server.cmd` e o `peacockpatcher.exe` estão.
--   Alternativamente, crie uma pasta chamada `plugins` e coloque seus plugins nela, para organizar melhor os seus arquivos.
+-   -   Put your plugins into the `plugins` folder in the Peacock folder.
     -   Exemplo: ![PluginsFolder](/img/plugins_folder.png)
 -   Tenha certeza de verificar por quaisquer outras instruções no canal `#plugin-releases` por um certo plugin, já que certos plugins poder necessitar de mais passos de instalação ou são incompatíveis com versões mais recentes do Peacock.
 
