@@ -70,7 +70,7 @@ Peacock支持各种各样的服务器端mods（插件）。 这包含，但不�
 
 -   简单来说，前往Peacock Discord群组的 `plugins`或`#plugin-releases`频道来下载一个你感兴趣的插件。
 -   -   Put your plugins into the `plugins` folder in the Peacock folder.
-    -   Your plugin should end with .plugin.js - if its distributed as a .zip extract it first.
+    -   Your plugin should end with `.plugin.js` or `Plugin.js` - if it's distributed as a `.zip`, extract it first.
     -   示例： ![插件文件夹](/img/plugins_folder.png)
 -   一些插件可能需要进阶设定或与新版本的Peacock不兼容，所以请确保在`#plugin-releases`频道中查找对应插件的进阶教程。
 
