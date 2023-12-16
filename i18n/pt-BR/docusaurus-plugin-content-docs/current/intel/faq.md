@@ -70,8 +70,8 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
 ### Solicitando Suporte Técnico
 
 -   Questão não respondida no FAQ acima? Pergunte no canal do servidor Discord do Peacock `#help` (https://thepeacockproject.org/discord)
-    -   Close the Peacock Server. Then run `Tools.cmd`, and press enter.
-    -   Be prepared to provide the `DEBUG_PROFILE.zip` you'll find in the Peacock directory after that.
+    -   Feche o Servidor Peacock. Então, execute `Tools.cmd` e pressione enter.
+    -   Esteja pronto para providenciar o `DEBUG_PROFILE.zip` que encontrará no diretório Peacock depois disso.
 
 ## Como o Peacock Funciona FAQ
 
@@ -81,4 +81,4 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
 ## Perguntas Frequentes sobre Solicitação de Recursos
 
 -   Antes de perguntar qualquer coisa sobre o Modo Fantasma, Agravamentos, Contratos do Usuário e Alvos Elusivos, por favor verifique a [Página de Conteúdo Customizado](.././custom-content.md) assim como a [Página do Modo Fantasma](.././ghost-mode.md).
--   Mod compatibility: almost all mods are compatible with Peacock without extra work, including contract and unlockable mods. Menu changes may sometimes be incompatible, but should usually be fine.
+-   Compatibilidade com Mods: Quase todos os mods são compatíveis com o Peacock sem esforço adicional, incluindo mods de contratos e de itens desbloqueáveis. Alterações no menu do jogo podem às vezes ser incompatíveis, mas devem funcionar em sua maioria.

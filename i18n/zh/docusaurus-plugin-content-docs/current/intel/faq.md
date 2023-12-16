@@ -70,8 +70,8 @@ title: 常见问题解答
 ### 请求技术支持
 
 -   你的问题未包含在上述常见问题中？ 请前往Peacock Discord `#help`频道中提问(https://thepeacockproject.org/discord)
-    -   Close the Peacock Server. Then run `Tools.cmd`, and press enter.
-    -   Be prepared to provide the `DEBUG_PROFILE.zip` you'll find in the Peacock directory after that.
+    -   关闭孔雀服。 接着运行`Tools.cmd`，并点击回车键。
+    -   准备好提供`DEBUG_PROFILE.zip`，此文件将出现在孔雀目录下。
 
 ## Peacock运作的常见问题
 
@@ -81,4 +81,4 @@ title: 常见问题解答
 ## 常见功能请求解答
 
 -   在询问任何有关幽灵模式、升级、用户契约、行踪不定的目标之前，请参阅[自定义内容页面](.././custom-content.md)以及[幽灵模式页面](.././ghost-mode.md)。
--   Mod compatibility: almost all mods are compatible with Peacock without extra work, including contract and unlockable mods. Menu changes may sometimes be incompatible, but should usually be fine.
+-   模组适配：绝大多数模组无需额外设置即可适配于孔雀，包括契约与解锁道具模组。 菜单修改有时可能会不兼容，但大部分情况下是没有问题的。
