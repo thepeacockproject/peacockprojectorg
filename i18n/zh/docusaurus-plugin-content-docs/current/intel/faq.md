@@ -51,8 +51,8 @@ title: 常见问题解答
 
 ### 物品/地图缺失
 
--   Starting from v6, Peacock should be able to automatically detect when you obtain a new DLC, and give you access to those new items / maps
--   v6.1.0 introduced progression to peacock, meaning you now can unlock items as you play. This is enabled by default, to emulate the experience of the official servers. To disable this set `enableMasteryProgression` in `options.ini` to `false`.
+-   从v6开始，Peacock应该能够自动检测到你获得的新DLC，并让你获得这些新的物品/地图。
+-   v6.1.0为Peacock引入了进度系统，这意味着您现在可以随着游玩解锁物品。 此功能默认开启，以模拟官方服务器的体验。 要想禁用，将`options.ini`里的`enableMasteryProgression`设置为`false`。
 
 ### 其他
 
@@ -70,23 +70,15 @@ title: 常见问题解答
 ### 请求技术支持
 
 -   你的问题未包含在上述常见问题中？ 请前往Peacock Discord `#help`频道中提问(https://thepeacockproject.org/discord)
-    -   提问前请准备好提供以下信息：
-        -   当前Peacock服务器在终端中运行的截图
-        -   当前Peacock Patcher运行的截图
-        -   你的操作系统和游戏版本信息
-        -   80端口的运行信息（参阅上述的[常见问题解答](#connection-troubleshooting)）
-        -   其它深入的相关信息
+    -   关闭孔雀服。 接着运行`Tools.cmd`，并点击回车键。
+    -   准备好提供`DEBUG_PROFILE.zip`，此文件将出现在孔雀目录下。
 
 ## Peacock运作的常见问题
 
 -   参阅[Peacock是什么](./what-is-peacock.md)。
-    -   See above link for questions on Freelancer integration with Peacock, whether or not you need Internet to use Peacock, or any other general questions on how Peacock works
+    -   请参阅上面的链接，了解有关进度（挑战和精通等）、自由职业者与Peacock的集成、是否需要网络才能使用Peacock，或有关Peacock如何工作的任何其他一般问题。
 
 ## 常见功能请求解答
 
 -   在询问任何有关幽灵模式、升级、用户契约、行踪不定的目标之前，请参阅[自定义内容页面](.././custom-content.md)以及[幽灵模式页面](.././ghost-mode.md)。
--   Mod（模组）兼容性：
-    -   大部分模组都与Peacock兼容；除了三种以外。
-        -   如果一个模组修改了契约（任务，特殊要求等），它需要一个Peacock插件来兼容。
-        -   如果一个模组修改了计划物品栏（即，修改了开始地点的属性、修改了你能够带进任务中的物品、或修改了你能使用的西装），则也需要一个插件。
-        -   菜单修改有时可能也会不兼容，但除此之外是没有问题的。 除以上提到的情况以外，模组不需要模组创作者的任何特殊处理就应与Peacock兼容。
+-   模组适配：绝大多数模组无需额外设置即可适配于孔雀，包括契约与解锁道具模组。 菜单修改有时可能会不兼容，但大部分情况下是没有问题的。

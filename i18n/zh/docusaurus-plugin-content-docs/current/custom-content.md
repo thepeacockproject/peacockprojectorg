@@ -59,20 +59,18 @@ Peacock支持各种各样的服务器端mods（插件）。 这包含，但不�
 -   屠城模式
     -   所有真实NPC都被标记为目标，在杀死所有人后可以获得沉默刺客评分。
     -   注意：在有200+目标的地图中会出现卡顿，枪械可能会随机卡住。 你可能需要开始使用近战武器击杀目标。
--   萨拉热窝六号
-    -   仅在Playstation上的杀手2016可用的奖励任务。
-    -   安装指南：https://github.com/solderq35/hitman-tech-tips/blob/main/modding/sarajevo_six.md
--   兄弟 行踪不定的目标（删减内容）
+-   行踪不定的目标：兄弟（删除内容/饭制模组）
+    -   请注意：尽管兄弟ET模组适用于Peacock，但其本质是对于该任务本应游玩内容的一种**粉丝自制诠释**，并非必要的规则。
     -   下载文件：https://www.nexusmods.com/hitman3/mods/375?tab=files
-    -   安装模组的主要部分（在Simple Mod Framework中未标记为”Peacock Plugin”的文件）。 将模组中的“Peacock Plugin”部分放入你的Peacock安装文件夹。 如果对这些步骤有任何问题，阅读上面的萨拉热窝六号安装指南。
+    -   安装模组的主要部分（在Simple Mod Framework中未标记为”Peacock Plugin”的文件）。 通过将模组的“Peacock插件”部分放入你的Peacock安装文件夹以进行安装
 -   在游戏中添加未启用的武器的插件
 -   修改现有武器和伪装的插件
 
 ### 如何安装插件
 
 -   简单来说，前往Peacock Discord群组的 `plugins`或`#plugin-releases`频道来下载一个你感兴趣的插件。
--   然后，将插件安装到你放置`Start Server.cmd`和`peacockpatcher.exe`的文件夹中。
--   或者，新建一个名为`plugins`的文件夹，然后将你的插件放入此处，来更好的整理你的文件。
+-   把你的插件放到孔雀文件夹下的`plugins`文件夹。
+    -   你的插件应以`.plugin.js`或`Plugin.js`结尾。如你获取的是`.zip`格式，请先将其解压。
     -   示例： ![插件文件夹](/img/plugins_folder.png)
 -   一些插件可能需要进阶设定或与新版本的Peacock不兼容，所以请确保在`#plugin-releases`频道中查找对应插件的进阶教程。
 

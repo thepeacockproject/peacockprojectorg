@@ -13,17 +13,17 @@ Dentro do Peacock, você pode jogar Alvos Elusivos sem nenhum tempo limite ao re
     -   Depois de iniciar o Hitman 3 usando o Peacock, vá para `Career` -> `Elusive Targets` no jogo.
 -   Veja a seção [Plugins](#plugins) por informações sobre a instalação do alvo elusivo "Os Irmãos" (conteúdo cortado) em Hitman 3.
 
-## Escalações
+## Agravamentos
 
--   **Escalações Peacock Personalizadas**
+-   **Agravamentos Peacock Personalizados**
 
-    -   O Peacock suporta escalações (Originais Peacock) personalizadas. Essas escalações estão disponíveis em jogo por predefinição. Você pode ver algumas das escalações customizadas listadas nos [Roadmaps](https://thepeacockproject.org/wiki/roadmaps) também.
+    -   O Peacock suporta agravamentos (Originais Peacock) personalizados. Essas escalações estão disponíveis em jogo por predefinição. Você pode ver alguns dos agravamentos customizados listados nos [Roadmaps](https://thepeacockproject.org/wiki/roadmaps) também.
 
--   **Escalações dos Servidores Oficiais e Escalações Legado**
+-   **Agravamentos dos Servidores Oficiais e Agravamentos Legado**
 
-    -   O Peacock também suporta todas as escalações dos servidores oficiais, incluindo escalações de Hitman 2016 que não foram portadas para o Hitman 2 e 3 (escalações legado). Essas escalações estão disponíveis em jogo por predefinição.
+    -   O Peacock também suporta todos os agravamentos dos servidores oficiais, incluindo agravamentos de Hitman 2016 que não foram portados para o Hitman 2 e 3 (agravamentos legado). Essas escalações estão disponíveis em jogo por predefinição.
 
--   Nota: Você pode selecionar níves específico de escalações para iniciar usando a ferramenta Escalation Level Picker, como explicado [aqui](./intel/loadout-profiles-elp.md#escalation-level-picker)
+-   Nota: Você pode selecionar níves específicos de agravamentos para iniciar usando a ferramenta Escalation Level Picker, como explicado [aqui](./intel/loadout-profiles-elp.md#escalation-level-picker)
 
 ## Modo Contratos
 
@@ -59,20 +59,18 @@ O Peacock suporta uma grande variedade de mods de servidor (plugins). Esses incl
 -   Modo Massacre
     -   Todos os NPCs reais são marcados como alvos, podendo receber avaliação Assassino Silencioso depois de ter matado a todos.
     -   Nota: Bem bugado em mapas com mais de 200 alvos, armas podem falhar em momentos aleatórios. Você pode precisar matar usando métodos corpo a corpo.
--   Os Seis de Sarajevo
-    -   Missões Bônus de outra forma disponíveis apenas na versão PlayStation de Hitman 2016.
-    -   Instruções de Instalação: https://github.com/solderq35/hitman-tech-tips/blob/main/modding/sarajevo_six.md
--   Alvo Elusivo Os Irmãos (Conteúdo Cortado)
+-   Alvo Elusivo Os Irmãos (Conteúdo Cortado / Mod de Fã)
+    -   NOTA: Apesar de o Alvo Elusivo Os Irmãos ser compatível com o Peacock, é uma **interpretação de fãs** de como a missão iria se desenrolar, e não é necessariamente canônico
     -   Download de Arquivo: https://www.nexusmods.com/hitman3/mods/375?tab=files
-    -   Instale a porção principal do mod (o arquivo não marcado como "Peacock Plugin") através do Simple Mod Framework. Instale a porção do mod "Plugin Peacock" colocando-o na sua pasta de instalação do Peacock. Leia as instruções de instalação dos Seis de Sarajevo acima para guia, caso haja confusão sobe qualquer desses passos.
+    -   Instale a porção principal do mod (o arquivo não marcado como "Peacock Plugin") através do Simple Mod Framework. Instale a seção do mod "Peacock Plugin" colocando-o na sua pasta de instalação do Peacock
 -   Plugins para adicionar armas não usadas no jogo
 -   Plugins para modificar armas e disfarces existentes
 
 ### Como Instalar Plugins
 
 -   Amplamente falando, para baixar plugins, vá para os canais `plugins` ou `#plugin-releases` no servidor Discord do Peacock e faça o download de um plugin em que tenha interesse.
--   Então, coloque na mesma pasta onde o `Start Server.cmd` e o `peacockpatcher.exe` estão.
--   Alternativamente, crie uma pasta chamada `plugins` e coloque seus plugins nela, para organizar melhor os seus arquivos.
+-   -  Coloque seus plugins na pasta `plugins` dentro do diretório Peacock.
+    -   Seu plugin deve terminar com `.plugin.js` ou `Plugin.js` - se foi obtido como um arquivo `.zip`, extraia seus conteúdos primeiro.
     -   Exemplo: ![PluginsFolder](/img/plugins_folder.png)
 -   Tenha certeza de verificar por quaisquer outras instruções no canal `#plugin-releases` por um certo plugin, já que certos plugins poder necessitar de mais passos de instalação ou são incompatíveis com versões mais recentes do Peacock.
 

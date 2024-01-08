@@ -51,12 +51,12 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
 
 ### Itens Faltantes / Mapas
 
--   Starting from v6, Peacock should be able to automatically detect when you obtain a new DLC, and give you access to those new items / maps
--   v6.1.0 introduced progression to peacock, meaning you now can unlock items as you play. This is enabled by default, to emulate the experience of the official servers. To disable this set `enableMasteryProgression` in `options.ini` to `false`.
+-   A partir da versão v6, o Peacock deve detectar automaticamente quando você adquirir uma nova DLC, e dar acesso a novos itens / mapas
+-   v6.1.0 introduziu progressão ao Peacock, o que significa que você pode desbloquear novos itens ao longo do jogo. Isso é ativado por padrão, para emular a experiência oficial dos servidores. Para desativar isso, mude `enableMasteryProgression` no arquivo `options.ini` para `false`.
 
 ### Outro
 
--   Veja a página de [Recursos Únicos do Peacock](../intel/loadout-profiles-elp.md) para mais informações em como ter múltiplos equipamentos por mapa ou escolher níveis de escalações específicos.
+-   Veja a página de [Recursos Únicos do Peacock](../intel/loadout-profiles-elp.md) para mais informações em como ter múltiplos equipamentos por mapa ou escolher níveis de agravamento específicos.
 -   Trajes Padrão - Se você ativar `getDefaultSuits = true` no seu arquivo `options.ini` na sua pasta de instalação do Peacock, por favor leia o seguinte comportamento:
     -   Qualquer discussão sobre "trajes padrão" abaixo se refere à versão do traje padrão **sem luvas** - qualquer versão do traje de 47 quando você inicia a missão pela primeira vez.
     -   Alguns trajes padrão de Hitman 2 e Hitman 3 não são usáveis em todos os mapas no jogo normalmente. Isso pode ser corrigido usando https://www.nexusmods.com/hitman3/mods/401
@@ -70,23 +70,15 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
 ### Solicitando Suporte Técnico
 
 -   Questão não respondida no FAQ acima? Pergunte no canal do servidor Discord do Peacock `#help` (https://thepeacockproject.org/discord)
-    -   Esteja preparado para providenciar:
-        -   Fotos do seu Servidor Peacock rodando no terminal
-        -   Fotos do seu Patcher Peacock rodando
-        -   Informações sobre o seu sistema operacional e versão do jogo
-        -   Informações sobre o que está rodando na Porta 80 (veja [Solução de Problemas de Conexão](#connection-troubleshooting) acima)
-        -   Quaisquer outras informações pertinentes
+    -   Feche o Servidor Peacock. Então, execute `Tools.cmd` e pressione enter.
+    -   Esteja pronto para providenciar o `DEBUG_PROFILE.zip` que encontrará no diretório Peacock depois disso.
 
 ## Como o Peacock Funciona FAQ
 
 -   Veja [O que é o Peacock](./what-is-peacock.md)
-    -   See above link for questions on Freelancer integration with Peacock, whether or not you need Internet to use Peacock, or any other general questions on how Peacock works
+    -   Veja o link acima por questões sobre integração do Freelancer com o Peacock, se você precisa ou não de internet para usar o Peacock ou qualquer outra questão geral sobre como o Peacock funciona
 
 ## Perguntas Frequentes sobre Solicitação de Recursos
 
--   Antes de perguntar qualquer coisa sobre o Modo Fantasma, Escalações, Contratos do Usuário e Alvos Elusivos, por favor verifique a [Página de Conteúdo Customizado](.././custom-content.md) assim como a [Página do Modo Fantasma](.././ghost-mode.md).
--   Compatibilidade de Mods:
-    -   A maioria dos Mods são compatíveis com o Peacock; existem apenas três que não são.
-        -   Se um mod edita contratos (missões, Missões Especiais, etc), ele necessitará de um plugin Peacock para ser compatível.
-        -   Se um mod edita o inventário de planejamento (isto é, muda as propriedades de locais de início, muda quais itens você pode trazer em missões, ou edita as roupas disponíveis para você), você também precisará de um plugin.
-        -   Mudanças no menu podem também ser incompatíveis, mas devem funcionar bem. Além desses, mods devem ser compatíveis com o Peacock sem nenhum esforço extra da parte do criador do mod.
+-   Antes de perguntar qualquer coisa sobre o Modo Fantasma, Agravamentos, Contratos do Usuário e Alvos Elusivos, por favor verifique a [Página de Conteúdo Customizado](.././custom-content.md) assim como a [Página do Modo Fantasma](.././ghost-mode.md).
+-   Compatibilidade com Mods: Quase todos os mods são compatíveis com o Peacock sem esforço adicional, incluindo mods de contratos e de itens desbloqueáveis. Alterações no menu do jogo podem às vezes ser incompatíveis, mas devem funcionar em sua maioria.

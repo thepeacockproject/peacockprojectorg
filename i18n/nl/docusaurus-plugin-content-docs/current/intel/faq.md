@@ -70,12 +70,8 @@ title: Veelgestelde vragen / Probleemoplossing
 ### Request Tech Support
 
 -   Is jouw vraag niet in de FAQ hierboven beantwoord? Vraag het in het `#help` kanaal van de Peacock Discord server (https://thepeacockproject.org/discord)
-    -   Ben voorbereid om het volgende klaar te hebben:
-        -   Schermafbeeldingen van de Peacock Server werkend in de terminal
-        -   Schermafbeeldingen van de Peacock Patcher werkend
-        -   Informatie over jouw besturingssysteem en spelversie
-        -   Information on what is running on Port 80 (check [Connection Troubleshooting](#connection-troubleshooting) above)
-        -   Alle informatie verder relevant
+    -   Close the Peacock Server. Then run `Tools.cmd`, and press enter.
+    -   Be prepared to provide the `DEBUG_PROFILE.zip` you'll find in the Peacock directory after that.
 
 ## How Peacock Works FAQ
 
@@ -85,8 +81,4 @@ title: Veelgestelde vragen / Probleemoplossing
 ## Feature aanvraag FAQ
 
 -   Before asking any questions about Ghost Mode, escalations, user contracts, elusive targets, please check the [Custom Content Page](.././custom-content.md) as well as the [Ghost Mode Page](.././ghost-mode.md).
--   Mod Compatability:
-    -   Most mods are compatible with Peacock; there are only three kinds that aren't.
-        -   If a mod edits contracts (missions, special assignments, etc.), it'll need a Peacock plugin to be compatible.
-        -   If a mod edits the planning inventory (that is, changes the properties of starting locations, changes which items you can bring into missions, or edits the suits available to you), it will also need a plugin.
-        -   Menu changes may also sometimes be incompatible, but should otherwise be fine. Other than those, mods should be compatible with Peacock without any effort on the part of the mod creator.
+-   Mod compatibility: almost all mods are compatible with Peacock without extra work, including contract and unlockable mods. Menu changes may sometimes be incompatible, but should usually be fine.
