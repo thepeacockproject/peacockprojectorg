@@ -1,7 +1,4 @@
 {
-  "testimonialsPage.subTitle": {
-    "message": "O que nossos usuários dizem sobre o Peacock."
-  },
   "Fast": {
     "message": "Rápido",
     "description": "Homepage 'fast' feature header"
@@ -29,10 +26,6 @@
   "homepage.subtitle": {
     "message": "Uma substituição para servidores do HITMAN™ que roda na sua máquina.",
     "description": "The homepage's subtitle."
-  },
-  "homepage.testimonialsButton": {
-    "message": "O que os usuários dizem",
-    "description": "The homepage's 'read what our users say' button."
   },
   "homepage.joinDiscordLabel": {
     "message": "Pronto para dar uma chance ao Peacock?",
@@ -65,10 +58,6 @@
   "theme.ErrorPageContent.title": {
     "message": "Esta página está corrompida.",
     "description": "The title of the fallback page when the page crashed"
-  },
-  "theme.ErrorPageContent.tryAgain": {
-    "message": "Tente novamente",
-    "description": "The label of the button to try again when the page crashed"
   },
   "theme.NotFound.title": {
     "message": "Página Não Encontrada",
@@ -336,5 +325,17 @@
   "theme.docs.sidebar.navAriaLabel": {
     "message": "Barra Lateral Docs",
     "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.admonition.warning": {
+    "message": "warning",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Expand sidebar category '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Collapse sidebar category '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
   }
 }

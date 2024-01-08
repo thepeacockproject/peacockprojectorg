@@ -1,7 +1,4 @@
 {
-  "testimonialsPage.subTitle": {
-    "message": "我们的用户对Peacock的评价。"
-  },
   "Fast": {
     "message": "敏捷",
     "description": "Homepage 'fast' feature header"
@@ -29,10 +26,6 @@
   "homepage.subtitle": {
     "message": "HITMAN™服务器的替代品——但运行在你自己的机器上。",
     "description": "The homepage's subtitle."
-  },
-  "homepage.testimonialsButton": {
-    "message": "听听我们的用户怎么说",
-    "description": "The homepage's 'read what our users say' button."
   },
   "homepage.joinDiscordLabel": {
     "message": "准备好入手Peacock了吗？",
@@ -65,10 +58,6 @@
   "theme.ErrorPageContent.title": {
     "message": "该页面已崩溃。",
     "description": "The title of the fallback page when the page crashed"
-  },
-  "theme.ErrorPageContent.tryAgain": {
-    "message": "再试一次",
-    "description": "The label of the button to try again when the page crashed"
   },
   "theme.NotFound.title": {
     "message": "找不到页面",
@@ -336,5 +325,17 @@
   "theme.docs.sidebar.navAriaLabel": {
     "message": "文档侧边栏",
     "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.admonition.warning": {
+    "message": "warning",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Expand sidebar category '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Collapse sidebar category '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
   }
 }
