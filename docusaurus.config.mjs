@@ -88,6 +88,10 @@ export default {
                             label: "Help/Bugs/Feature Requests (in our Discord)",
                             href: "https://discord.gg/F8qQTfnajw",
                         },
+                        {
+                            label: "Plugin Development",
+                            to: "/plugins",
+                        }
                     ],
                 },
                 {
@@ -157,6 +161,22 @@ export default {
                         return `https://crowdin.com/project/peacock/${locale}`
                     }
                     return `https://github.com/thepeacockproject/peacockprojectorg/edit/main/docs/${docPath}`
+                },
+                showLastUpdateTime: true,
+            },
+        ],
+        [
+            "@docusaurus/plugin-content-docs",
+            {
+                id: "plugin-dev",
+                sidebarPath: require.resolve("./sidebarsPluginDev.mjs"),
+                routeBasePath: "/plugins/",
+                path: "plugin-dev",
+                editUrl: ({ locale, docPath }) => {
+                    if (locale !== `en`) {
+                        return `https://crowdin.com/project/peacock/${locale}`
+                    }
+                    return `https://github.com/thepeacockproject/peacockprojectorg/edit/main/plugin-dev/${docPath}`
                 },
                 showLastUpdateTime: true,
             },
