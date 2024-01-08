@@ -70,7 +70,7 @@ Peacock supports a broad variety of server side mods (plugins). Deze mods bevatt
 
 -   Broadly speaking, to install plugins, go to either the `plugins` or `#plugin-releases` channel in the Peacock Discord and download a plugin you are interested in.
 -   -   Put your plugins into the `plugins` folder in the Peacock folder.
-    -   Your plugin should end with `.plugin.js` or `Plugin.js` - if it's distributed as a `.zip`, extract it first.
+    -   Your plugin should end with `.plugin.mjs` or `Plugin.js` - if it's distributed as a `.zip`, extract it first.
     -   Example: ![PluginsFolder](/img/plugins_folder.png)
 -   Kijk voor verdere instructies in het `#plugin-releases` kanaal voor een specifieke plugin; sommige plugins kunnen meerdere installatiestappen hebben en/of kunnen mogelijk niet werken met nieuwere versies van Peacock.
 
