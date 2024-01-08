@@ -1,13 +1,13 @@
-const { parentPort } = require("worker_threads")
+import { parentPort } from "worker_threads"
 
 // unified imports
-const unified = require("unified")
-const parse = require("rehype-parse")
-const select = require("hast-util-select").select
-const selectAll = require("hast-util-select").selectAll
-const toText = require("hast-util-to-text")
-const is = require("unist-util-is")
-const toVfile = require("to-vfile")
+import {unified} from "unified"
+import parse from "rehype-parse"
+import {select} from "hast-util-select"
+import {selectAll} from "hast-util-select"
+import {toText} from "hast-util-to-text"
+import {is} from "unist-util-is"
+import {readSync as toVFile_readSync} from "to-vfile"
 
 const sectionHeaderTest = ({ tagName }) => ["h2", "h3"].includes(tagName)
 
@@ -15,7 +15,7 @@ const sectionHeaderTest = ({ tagName }) => ["h2", "h3"].includes(tagName)
 function* scanDocuments({ path, url }) {
     let vfile
     try {
-        vfile = toVfile.readSync(path)
+        vfile = toVFile_readSync(path)
     } catch (e) {
         if (e.code !== "ENOENT") {
             console.error(

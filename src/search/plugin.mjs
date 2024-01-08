@@ -1,13 +1,13 @@
-const fs = require("fs")
-const os = require("os")
-const path = require("path")
-const lunr = require("lunr")
-const { Worker } = require("worker_threads")
+import fs from "fs"
+import os from "os"
+import path from "path"
+import lunr from "lunr"
+import { Worker } from "worker_threads"
 
 // local imports
-const utils = require("./utils")
+const utils = require("./utils.mjs")
 
-module.exports = (context, options) => {
+export default (context, options) => {
     options = options || {}
     let languages
 
@@ -114,7 +114,7 @@ function buildSearchData(files, addToSearchData) {
             if (nextIndex >= files.length) {
                 break
             }
-            const worker = new Worker(path.join(__dirname, "html-to-doc.js"))
+            const worker = new Worker(path.join(__dirname, "html-to-doc.mjs"))
             worker.on("error", reject)
             worker.on("message", (message) => {
                 handleMessage(message, worker)

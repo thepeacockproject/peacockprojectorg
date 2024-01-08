@@ -1,5 +1,9 @@
+import { createRequire } from "module"
+
+const require = createRequire(import.meta.url)
+
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
-module.exports = {
+export default {
     title: "The Peacock Project",
     tagline:
         "A replacement for the HITMAN&trade; World of Assassination (1, 2, and 3)'s servers that runs on your machine.",
@@ -90,10 +94,6 @@ module.exports = {
                     title: "Community",
                     items: [
                         {
-                            label: "Testimonials",
-                            to: "/testimonials",
-                        },
-                        {
                             label: "Ghost Mode",
                             to: "/wiki/ghost-mode",
                         },
@@ -150,7 +150,7 @@ module.exports = {
         [
             "@docusaurus/plugin-content-docs",
             {
-                sidebarPath: require.resolve("./sidebars.js"),
+                sidebarPath: require.resolve("./sidebars.mjs"),
                 routeBasePath: "/wiki/",
                 editUrl: ({ locale, docPath }) => {
                     if (locale !== `en`) {
@@ -162,7 +162,7 @@ module.exports = {
             },
         ],
         "@docusaurus/plugin-content-pages",
-        require.resolve("./src/search/plugin.js"),
+        require.resolve("./src/search/plugin.mjs"),
         [
             "@docusaurus/plugin-sitemap",
             {
