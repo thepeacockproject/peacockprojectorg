@@ -58,12 +58,12 @@
         calc(var(--ifm-footer-padding-horizontal) * 2);
 }
 
-.enableGrid {
+.grid {
     display: grid;
 }
 
 .fixedWidthBtn {
-    width: 300px;
+    /*width: 300px;*/
 }
 
 .linkSpace {

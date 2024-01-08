@@ -1,7 +1,6 @@
 import React from "react"
 import clsx from "clsx"
 import Layout from "@theme/Layout"
-import Link from "@docusaurus/Link"
 import styles from "./styles.module.css"
 import OpenIcon from "../components/open-icon.svg"
 import CustomLight from "../../static/img/home/CustomLight.svg"
@@ -105,29 +104,11 @@ function Home() {
                         </div>
                     </section>
                 )}
-                <section className={styles.bottomCardSpace}>
-                    <div className={styles.buttons}>
-                        <Link
-                            className={clsx(
-                                "button button--primary button--lg",
-                                styles.fixedWidthBtn
-                            )}
-                            to="/testimonials"
-                        >
-                            <Translate
-                                id="homepage.testimonialsButton"
-                                description="The homepage's 'read what our users say' button."
-                            >
-                                Read what our users say
-                            </Translate>
-                        </Link>
-                    </div>
-                </section>
                 <section
                     className={clsx(
                         styles.bottomCardSpace,
                         styles.bigCardSpace,
-                        styles.enableGrid
+                        styles.grid
                     )}
                 >
                     <h3
@@ -154,7 +135,7 @@ function Home() {
                                 id="homepage.installationButton"
                                 description="The text on the Installation button on the home page."
                             >
-                                Check Installation Guide!
+                                Read Installation Guide
                             </Translate>{" "}
                             <OpenIcon className={styles.icon} />
                         </a>
@@ -164,7 +145,7 @@ function Home() {
                             id="homepage.installationButtonBelowText"
                             description="The text below the Installation button on the home page."
                         >
-                            (Read instructions before installing)
+                            (Please read the instructions before installing)
                         </Translate>
                     </small>
                     <div
@@ -192,8 +173,8 @@ function Home() {
                             description="The text below the join our Discord button on the home page."
                         >
                             (Join our Discord for support, update notifications,
-                            plugins to extend Peacock (new features, game
-                            modes), and more!)
+                            plugins to extend Peacock with new features and game
+                            modes, and more!)
                         </Translate>
                     </small>
                 </section>

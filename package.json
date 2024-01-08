@@ -12,29 +12,25 @@
         "write-translations": "docusaurus write-translations",
         "prettier": "prettier --write \"**/*.{js,md,html,json,css,cjs,mjs}\""
     },
-    "resolutions": {
-        "react": "^17.0.2"
-    },
     "dependencies": {
-        "@docusaurus/core": "^2.4.1",
-        "@docusaurus/module-type-aliases": "^2.4.1",
-        "@docusaurus/plugin-content-blog": "^2.4.1",
-        "@docusaurus/plugin-content-docs": "^2.4.1",
-        "@docusaurus/plugin-content-pages": "^2.4.1",
-        "@docusaurus/plugin-ideal-image": "^2.4.1",
-        "@docusaurus/plugin-sitemap": "^2.4.1",
-        "@docusaurus/theme-classic": "^2.4.1",
-        "@mdx-js/react": "^1.6.21",
-        "@svgr/webpack": "^8.0.1",
+        "@docusaurus/core": "^3.1.0",
+        "@docusaurus/module-type-aliases": "^3.1.0",
+        "@docusaurus/plugin-content-blog": "^3.1.0",
+        "@docusaurus/plugin-content-docs": "^3.1.0",
+        "@docusaurus/plugin-content-pages": "^3.1.0",
+        "@docusaurus/plugin-ideal-image": "^3.1.0",
+        "@docusaurus/plugin-sitemap": "^3.1.0",
+        "@docusaurus/theme-classic": "^3.1.0",
+        "@mdx-js/react": "^3.0.0",
         "autocomplete.js": "^0.38.1",
         "classnames": "^2.3.2",
-        "clsx": "^1.2.1",
+        "clsx": "^2.1.0",
         "hogan.js": "^3.0.2",
         "lunr": "^2.3.9",
         "prettier": "^2.8.8",
-        "react": "^17.0.2",
-        "react-dom": "^17.0.0",
-        "webpack": "^5.83.1"
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "webpack": "^5.89.0"
     },
     "browserslist": {
         "production": [
@@ -53,21 +49,21 @@
         "semi": false
     },
     "devDependencies": {
-        "@docusaurus/types": "^2.4.1",
-        "@tsconfig/docusaurus": "^1.0.6",
-        "@types/node": "^20.2.3",
-        "@types/react": "^18.2.6",
-        "@types/react-dom": "^18.2.4",
-        "hast-util-select": "^4.0.0",
-        "hast-util-to-text": "^2.0.0",
-        "lunr-languages": "^1.12.0",
-        "minimatch": "^9.0.1",
-        "rehype-parse": "^7.0.1",
-        "to-vfile": "^6.1.0",
-        "typescript": "^5.0.4",
-        "unified": "^9.0.0",
-        "unist-util-is": "^4.0.2",
-        "unist-util-visit": "2.x"
+        "@docusaurus/types": "^3.1.0",
+        "@tsconfig/docusaurus": "^2.0.2",
+        "@types/node": "^20.10.7",
+        "@types/react": "^18.2.47",
+        "@types/react-dom": "^18.2.18",
+        "hast-util-select": "^6.0.2",
+        "hast-util-to-text": "^4.0.0",
+        "lunr-languages": "^1.14.0",
+        "minimatch": "^9.0.3",
+        "rehype-parse": "^9.0.0",
+        "to-vfile": "^8.0.0",
+        "typescript": "^5.3.3",
+        "unified": "^11.0.4",
+        "unist-util-is": "^6.0.0",
+        "unist-util-visit": "^5.0.0"
     },
-    "packageManager": "yarn@4.0.0-rc.44"
+    "packageManager": "yarn@4.0.2"
 }

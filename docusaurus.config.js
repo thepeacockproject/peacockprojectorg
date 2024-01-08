@@ -8,7 +8,7 @@ module.exports = {
     onBrokenLinks: "warn",
     onBrokenMarkdownLinks: "warn",
     favicon: "/favicon.ico",
-    organizationName: "RDIL",
+    organizationName: "thepeacockproject",
     projectName: "peacockprojectorg",
     baseUrlIssueBanner: false,
     i18n: {
@@ -163,7 +163,6 @@ module.exports = {
         ],
         "@docusaurus/plugin-content-pages",
         require.resolve("./src/search/plugin.js"),
-        require.resolve("./testimonialsPlugin.js"),
         [
             "@docusaurus/plugin-sitemap",
             {
