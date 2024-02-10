@@ -5,40 +5,40 @@ description: Guia para configurar o Peacock no Linux ou macOS.
 
 O Peacock foi feito para funcionar no Windows, mas não tema, usá-lo no Linux é possível!
 
-:::info Update as of November 2022
+:::informação Atualização em Novembro de 2022
 
--   Go to [this GitHub repo](https://github.com/thepeacockproject/linux-steam-setup) for updated instructions on how to get Peacock running on Linux with Steam.
+-   Vá para [esse repositório do GitHub](https://github.com/thepeacockproject/linux-steam-setup) para instruções atualizadas sobre como fazer o Peacock rodar no Linux com Steam.
 -   **As Instruções Originais abaixo podem também funcionar.**
 
 :::
 
 ## Servidor
 
-To get the server working on Linux, you will need to first prepare Node.js.
+Para fazer o servidor funcionar no Linux, você precisará preparar o Node.js primeiro.
 
 ### Instale o nvm
 
-In order to do so, run the following command the first time:
+Para fazê-lo, execute o seguinte comando pela primeira vez:
 
 ```shell
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ```
 
-This will download and install [nvm](https://nvm.sh), which allows quickly swapping between multiple Node.js versions. This will allow Peacock to always use the version of Node.js it needs to.
+Isso vai realizar o download e a instalação do [nvm](https://nvm.sh), que permite alternar rapidamente entre diferentes versões do Node.js. Isso irá permitir o Peacock sempre utilizar a versão do Node.js que é necessária.
 
 ### Instale o Node.js
 
-Next, `cd` to the directory you have Peacock unzipped to, and run the following command:
+Depois disso, use o comando `cd` para o diretório em que você extraiu o Peacock e execute o seguinte comando:
 
 ```shell
 nvm install
 ```
 
-This will install the version of Node.js required by Peacock. You will need to re-run this when Peacock updates.
+Isso vai realizar a instalação da última versão do Node.js necessário para o funcionamento do Peacock. Você precisará de refazer esse procedimento após atualizações do Peacock.
 
 ### Crie um Script de inicialização
 
-Finally, create a script that lets you easily start the server, with the suggested contents being as follows:
+Por último, crie um script que permita a você facilmente inicializar o servidor, com os conteúdos sugeridos abaixo:
 
 ```shell
 node --enable-source-maps --harmony chunk0.js --hmr
@@ -48,21 +48,21 @@ node --enable-source-maps --harmony chunk0.js --hmr
 
     -   ` ```shell PORT=PORTNUMBER node --enable-source-maps --harmony chunk0.js --hmr `
 
-And then make the script executable:
+E torne o script um arquivo executável:
 
 ```shell
 chmod +x ./NomeDoScript.sh
 ```
 
-You can now launch the server by running the script you just created.
+Você pode agora inicializar o servidor rodando o script que acabou de criar.
 
 ## Patcher
 
-This part is a lot more tricky. You need to run the patcher in _the same Wine prefix as the game_.
+Essa parte é mais complicada. Você precisará rodar o patcher no _mesmo Wine Prefix que o jogo_.
 
-Some users have gotten it to work, but others haven't. Feel free to document your experience in the Discord's `#help` channel for anybody that has problems in the future to reference.
+Alguns usuários conseguiram fazer isso funcionar, mas outros não. Sinta-se à vontade para documentar sua experiência no canal `#help` no Discord para auxiliar alguém que venha a ter problemas no futuro.
 
-Some people have gotten it to work using the following command:
+Algumas pessoas conseguiram esse processo usando o seguinte comando:
 
 ```shell
 STEAM_COMPAT_DATA_PATH="$HOME/.steam/root/steamapps/compatdata/1659040" \
@@ -71,4 +71,4 @@ STEAM_COMPAT_DATA_PATH="$HOME/.steam/root/steamapps/compatdata/1659040" \
   "$HOME/.steam/root/steamapps/common/Proton\ -\ Experimental/proton" run /path/to/PeacockPatcher.exe
 ```
 
-Obviously, you will need to change the paths to match your install of Steam, Proton, and the patcher.
+Obviamente, você precisará mudar os caminhos para aqueles da sua instalação do Steam, Proton e do patcher.

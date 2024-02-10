@@ -70,7 +70,7 @@ O Peacock suporta uma grande variedade de mods de servidor (plugins). Esses incl
 
 -   Amplamente falando, para baixar plugins, vá para os canais `plugins` ou `#plugin-releases` no servidor Discord do Peacock e faça o download de um plugin em que tenha interesse.
 -   -  Coloque seus plugins na pasta `plugins` dentro do diretório Peacock.
-    -   Your plugin should end with `.plugin.js` or `Plugin.js` - if it's distributed as a `.zip`, extract it first.
+    -   Seu plugin deve terminar com `.plugin.js` ou `Plugin.js` - se foi obtido como um arquivo `.zip`, extraia seus conteúdos primeiro.
     -   Exemplo: ![PluginsFolder](/img/plugins_folder.png)
 -   Tenha certeza de verificar por quaisquer outras instruções no canal `#plugin-releases` por um certo plugin, já que certos plugins poder necessitar de mais passos de instalação ou são incompatíveis com versões mais recentes do Peacock.
 

@@ -56,7 +56,7 @@
     "description": "The alt text of footer logo"
   },
   "link.item.label.Plugin Development": {
-    "message": "Plugin Development",
+    "message": "插件开发",
     "description": "The label of footer link with label=Plugin Development linking to /plugins"
   }
 }

@@ -5,40 +5,40 @@ description: 在Linux或macOS上初始化Peacock的教程。
 
 Peacock主要是为在Windows上工作而构建的，但不要担心，在Linux上使用它也是可能的！
 
-:::info Update as of November 2022
+:::2022年11月更新信息
 
--   Go to [this GitHub repo](https://github.com/thepeacockproject/linux-steam-setup) for updated instructions on how to get Peacock running on Linux with Steam.
+-   请访问[该GitHub资源库](https://github.com/thepeacockproject/linux-steam-setup)获取有关如何在Linux上通过Steam运行Peacock的最新说明。
 -   **下面的原始指南可能仍然有效。**
 
 :::
 
 ## 服务器
 
-To get the server working on Linux, you will need to first prepare Node.js.
+要让服务器在Linux上运行，首先需要准备Node.js。
 
 ### 安装nvm
 
-In order to do so, run the following command the first time:
+为此，首次运行以下命令：
 
 ```shell
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ```
 
-This will download and install [nvm](https://nvm.sh), which allows quickly swapping between multiple Node.js versions. This will allow Peacock to always use the version of Node.js it needs to.
+这将下载并安装[nvm](https://nvm.sh)，它允许在多个Node.js版本之间快速切换。 这将允许Peacock始终使用它所需的Node.js版本。
 
 ### 安装Node.js
 
-Next, `cd` to the directory you have Peacock unzipped to, and run the following command:
+接下来，对解压Peacock文件的目录使用`cd`命令，并运行以下命令：
 
 ```shell
 nvm install
 ```
 
-This will install the version of Node.js required by Peacock. You will need to re-run this when Peacock updates.
+这会安装Peacock所需的Node.js版本。 每当Peacock更新时，你需要重新使用该命令。
 
 ### 创建一个启动器脚本
 
-Finally, create a script that lets you easily start the server, with the suggested contents being as follows:
+最后，使用下面推荐的内容，创建一个能让你轻松启动服务器的脚本：
 
 ```shell
 node --enable-source-maps --harmony chunk0.js --hmr
@@ -48,21 +48,21 @@ node --enable-source-maps --harmony chunk0.js --hmr
 
     -   `PORT=端口号 node --enable-source-maps --harmony chunk0.js --hmr`
 
-And then make the script executable:
+然后将脚本设为可执行：
 
 ```shell
 chmod +x ./theScriptsName.sh
 ```
 
-You can now launch the server by running the script you just created.
+现在，你可以通过运行你刚刚创建的脚本启动服务器。
 
 ## 补丁安装器
 
-This part is a lot more tricky. You need to run the patcher in _the same Wine prefix as the game_.
+这一部分将比较困难。 你需要在_和游戏相同的Wine Prefix_上运行补丁。
 
-Some users have gotten it to work, but others haven't. Feel free to document your experience in the Discord's `#help` channel for anybody that has problems in the future to reference.
+一些用户可以正常使用，但某些用户未必。 请在Discord的`#help`频道留下你的经历以供将来其他遇到此问题的人作参考。
 
-Some people have gotten it to work using the following command:
+一些用户通过以下的命令即可让补丁有效：
 
 ```shell
 STEAM_COMPAT_DATA_PATH="$HOME/.steam/root/steamapps/compatdata/1659040" \
@@ -71,4 +71,4 @@ STEAM_COMPAT_DATA_PATH="$HOME/.steam/root/steamapps/compatdata/1659040" \
   "$HOME/.steam/root/steamapps/common/Proton\ -\ Experimental/proton" run /path/to/PeacockPatcher.exe
 ```
 
-Obviously, you will need to change the paths to match your install of Steam, Proton, and the patcher.
+当然，你需要修改命令中的文件路径，来匹配你的Steam、Proton以及补丁位置。
