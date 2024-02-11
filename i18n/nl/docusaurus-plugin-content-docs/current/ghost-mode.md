@@ -30,5 +30,5 @@ Om de Ghost Mode te gebruiken in HITMAN™ 3 (alleen de Steam-versie), moet je e
 
 ## Side Notes
 
--   Peacock en LocalGhost zijn niet hetzelfde. LocalGhost ondersteunt Ghost Mode, en Peacock niet.
+-   You can also play Ghost Mode with two people connected to the same Peacock instance, however exposing Peacock outside your home network may not be safe and isn't recommended.
 -   Deze Ghost Mode server wordt gerund door het The Peacock Project team, maar _is niet Peacock zelf_!

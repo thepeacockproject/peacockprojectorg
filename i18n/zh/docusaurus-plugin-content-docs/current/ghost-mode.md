@@ -30,5 +30,5 @@ Peacock项目很高兴宣布我们已经运行了我们自己的[LocalGhost](htt
 
 ## 旁注
 
--   Peacock和LocalGhost不是同一个内容。 LocalGhost支持幽灵模式，而Peacock不支持。
+-   You can also play Ghost Mode with two people connected to the same Peacock instance, however exposing Peacock outside your home network may not be safe and isn't recommended.
 -   该幽灵模式服务器由Peacock项目团队运行，但_不是Peacock本身_！
