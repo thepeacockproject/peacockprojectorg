@@ -32,5 +32,5 @@ The mod can be obtained [here](https://www.nexusmods.com/hitman3/mods/260).
 
 ## Side Notes
 
--   Peacock and LocalGhost are not the same thing. LocalGhost supports Ghost Mode, and Peacock does not.
+-   You can also play Ghost Mode with two people connected to the same Peacock instance, however exposing Peacock outside your home network may not be safe and isn't recommended.
 -   This Ghost Mode server is run by The Peacock Project team, but _is not Peacock itself_!
