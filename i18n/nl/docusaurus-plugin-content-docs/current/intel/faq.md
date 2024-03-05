@@ -2,6 +2,12 @@
 title: Veelgestelde vragen / Probleemoplossing
 ---
 
+## How to Get All Items
+
+Peacock v6.1.0 introduced progression support, meaning you now can unlock items as you play. This is **enabled by default**, to emulate the experience of the official servers.
+
+To disable progression and **immediately get all items**, set `enableMasteryProgression` in `options.ini` to `false`.
+
 ## Probleemoplossing FAQ
 
 ### Before Troubleshooting
@@ -36,12 +42,6 @@ If you're getting an error that looks like this:
 The error message for this issue will be something along the lines of "failed to bind the server to port X".
 
 Check [this guide](../troubleshooting/fix-port-in-use.md) for an explanation and instructions on how to fix it.
-
-## How to Get All Items
-
-Peacock v6.1.0 introduced progression support, meaning you now can unlock items as you play. This is **enabled by default**, to emulate the experience of the official servers.
-
-To disable progression and **immediately get all items**, set `enableMasteryProgression` in `options.ini` to `false`.
 
 ## Andere
 
