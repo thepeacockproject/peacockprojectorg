@@ -30,5 +30,5 @@ Para usar o Modo Fantasma no HITMAN™ 3 (Versão Steam apenas), você precisar�
 
 ## Notas Extras
 
--   You can also play Ghost Mode with two people connected to the same Peacock instance, however exposing Peacock outside your home network may not be safe and isn't recommended.
+-   Você também pode jogar o Modo Fantasma com duas pessoas logadas na mesma instância Peacock, no entanto expor o Peacock fora da sua rede local pode não ser segura e não é recomendada.
 -   Esse servidor de Modo Fantasma é rodade pela equipe do Projeto Peacock, mas _não é o Peacock em si_!

@@ -14,5 +14,9 @@
   "sidebar.sidebar.doc.Home": {
     "message": "Home",
     "description": "The label for the doc item Home in sidebar sidebar, linking to the doc home"
+  },
+  "sidebar.sidebar.category.Troubleshooting Guides": {
+    "message": "Troubleshooting Guides",
+    "description": "The label for category Troubleshooting Guides in sidebar sidebar"
   }
 }

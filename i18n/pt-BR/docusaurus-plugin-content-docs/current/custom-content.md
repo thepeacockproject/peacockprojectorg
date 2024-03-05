@@ -7,74 +7,98 @@ O Peacock tem vários benefícios incluídos para nossos usuários. Aqui vai uma
 
 ## Alvos Elusivos
 
-Dentro do Peacock, você pode jogar Alvos Elusivos sem nenhum tempo limite ao reiniciar (ao contrário do Arcade de Alvos Elusivos), e sem nenhum tempo limite.
+Within Peacock, you can replay Elusive Targets without any time limit on restarts (unlike Elusive Target Arcade), and without a time limit.
 
--   **Como Jogar:**
-    -   Depois de iniciar o Hitman 3 usando o Peacock, vá para `Career` -> `Elusive Targets` no jogo.
--   Veja a seção [Plugins](#plugins) por informações sobre a instalação do alvo elusivo "Os Irmãos" (conteúdo cortado) em Hitman 3.
+- **Como Jogar:**
+    - Depois de iniciar o Hitman 3 usando o Peacock, vá para `Career` -> `Elusive Targets` no jogo.
+- See the [Plugins](#plugins) section for information on installing "The Brothers" Elusive Target (cut content) in Hitman 3.
 
 ## Agravamentos
 
--   **Agravamentos Peacock Personalizados**
+### Custom Peacock Escalations
 
-    -   O Peacock suporta agravamentos (Originais Peacock) personalizados. Essas escalações estão disponíveis em jogo por predefinição. Você pode ver alguns dos agravamentos customizados listados nos [Roadmaps](https://thepeacockproject.org/wiki/roadmaps) também.
+Peacock supports custom (Peacock original) escalations. These escalations are available in-game by default. You can see some custom escalations listed in the [Roadmaps](./roadmaps.mdx) as well.
 
--   **Agravamentos dos Servidores Oficiais e Agravamentos Legado**
+### Official Server Escalations and Legacy Escalations
 
-    -   O Peacock também suporta todos os agravamentos dos servidores oficiais, incluindo agravamentos de Hitman 2016 que não foram portados para o Hitman 2 e 3 (agravamentos legado). Essas escalações estão disponíveis em jogo por predefinição.
+Peacock also supports all official server escalations, including Hitman 2016 escalations that have not been ported to Hitman 2 or 3 (legacy escalations). These escalations are available in-game by default.
 
--   Nota: Você pode selecionar níves específicos de agravamentos para iniciar usando a ferramenta Escalation Level Picker, como explicado [aqui](./intel/loadout-profiles-elp.md#escalation-level-picker)
+- Note: You can select specific escalation levels to start on using the Escalation Level Picker tool, as explained [here](./intel/loadout-profiles-elp.md#escalation-level-picker)
 
 ## Modo Contratos
 
-O Peacock suporta ambos contratos de servidores oficiais e contratos personalizados Peacock.
+Peacock supports both official server and custom Peacock contracts.
 
--   **Contratos em Destaque**
-    -   Aqui estão incluídos todos os contratos em destaque dos servidores oficiais, assim como alguns contratos (Originais Peacock) customizados criados pela equipe de desenvolvimento do Peacock e até mesmo de usuários regulares. Você pode ver alguns desses contratos em destaque customizados [aqui](./roadmaps.mdx).
-        -   **Aviso: Contratos em Destaque dos Servidores Oficiais não estão incluídos.**
-    -   Como Jogar:
-        -   Vá para o menu `Game Modes` -> `Contracts` -> `Featured` em jogo
--   **Criados por Usuários, Contratos de Servidores Oficiais**
-    -   Como Instalar:
-        -   Nota: Isso funciona apenas enquanto o bot está autenticado para a plataforma em questão. [Mais informações aqui](https://bot.hitmaps.com/).
-            -   Se você quiser checar se o bot do HITMAPS está online, execute o comando `botstatus` no canal `#bot-spam` no Discord do Peacock. Note que o comando `/botstatus` apenas atualiza a cada 10 minutos.
-            -   Aviso: Contratos baixados dos Servidores Oficiais são compatíveis com qualquer engine de jogo, assumindo que a mesma contenha os mapas relevantes. Por exemplo, se você baixar um contrato de Sapienza (mapa da primeira Season) na engine de Hitman 3, você pode jogar esse contrato nas engines de Hitman 2016 e do Hitman 2, assim como no Peacock. No entanto, se você baixar um contrato da Ilha de Sgàil (mapa da segunda Season), você não poderá jogar esse contrato na engine do Hitman 2016, já que esse engine não contém nenhum mapa da segunda Season.
-        -   Vá para o menu `Game Modes` -> `Contracts` -> `Contract Lookup` em jogo.
-        -   Entre com o ID do contrato do servidor oficial (**Contratos de qualquer plataforma exceto Nintendo Switch são suportados para isso**).
-        -   O contrato será agor baixado na sua pasta `Contracts`.
-    -   Como Jogar: Vá para o menu `Game Modes` -> `Contracts` -> `My Contracts` em jogo.
--   **Criados por Usuários, Contratos Personalizados Peacock**
-    -   Como Instalar:
-        -   Faça o Download dos arquivos `.ocre` de contratos do canal `share-contracts` no Discord do Peacock. Instale esse arquivo `.json` na sua pasta `Contracts`, como mostrado aqui: ![](/img/contracts_folder.png).
-    -   Como Criar o Seu Próprio:
-        -   Se você criar um contrato em jogo enquanto estiver conectado ao servidor Peacock, seu contrato será salvo como um arquivo `.json` na pasta `Contracts`, como mostrado na imagem acima.
-        -   Tenha a certeza de compartilhar seu arquivo `.ocre` no canal `share-contracts` do servidor Discord do Peacock se quiser que outros joguem seu contrato customizado Peacock.
-    -   Como Jogar:
-        -   Vá para o menu `Game Modes` -> `Contracts` -> `My Contracts` em jogo.
+### Featured contracts
+
+This includes custom (Peacock original) contracts created by Peacock dev team. You can see some of these custom featured contracts [here](./roadmaps.mdx).
+
+- **Note: Official Servers Featured Contracts are not included.**
+
+#### How to Play
+
+Go to `Game Modes` -> `Contracts` -> `Featured` menu in-game.
+
+### User-Created Official Server Contracts
+
+#### How to Install
+
+- Note: This only works while the HITMAPS bot is authenticated for the platform in question.
+  - [More info on how to authenticate it](https://bot.hitmaps.com/).
+  - To check if it's online, run the command `/botstatus` in the `#bot-spam` channel in the Peacock Discord. The status is updated every 10 minutes.
+- Vá para o menu `Game Modes` -> `Contracts` -> `Contract Lookup` em jogo.
+- Entre com o ID do contrato do servidor oficial (**Contratos de qualquer plataforma exceto Nintendo Switch são suportados para isso**).
+- The contract will now be downloaded in your `contracts` folder.
+
+#### How to Play
+
+Vá para o menu `Game Modes` -> `Contracts` -> `My Contracts` em jogo.
+
+### User-Created Peacock Contracts
+
+#### How to Install
+
+Download the contract's `.json` file from the `share-contracts` channel in Peacock Discord. Place the `.json` file in your `Contracts` folder, as shown here: ![](/img/wiki/contracts_folder.png).
+
+#### How to create your own
+
+- If you create a contract in-game while in Peacock server, your contract will be saved as an `.json` file in `Contracts` folder, as shown in the image above.
+- Be sure to share your `.json` file in Peacock Discord's `share-contracts` channel if you want others to play your custom Peacock contract.
+
+#### How to Play
+
+- Vá para o menu `Game Modes` -> `Contracts` -> `My Contracts` em jogo.
 
 ## Plugins
 
 O Peacock suporta uma grande variedade de mods de servidor (plugins). Esses incluem, mas não estão limitados a:
 
--   Modo Massacre
-    -   Todos os NPCs reais são marcados como alvos, podendo receber avaliação Assassino Silencioso depois de ter matado a todos.
-    -   Nota: Bem bugado em mapas com mais de 200 alvos, armas podem falhar em momentos aleatórios. Você pode precisar matar usando métodos corpo a corpo.
--   Alvo Elusivo Os Irmãos (Conteúdo Cortado / Mod de Fã)
-    -   NOTA: Apesar de o Alvo Elusivo Os Irmãos ser compatível com o Peacock, é uma **interpretação de fãs** de como a missão iria se desenrolar, e não é necessariamente canônico
-    -   Download de Arquivo: https://www.nexusmods.com/hitman3/mods/375?tab=files
-    -   Instale a porção principal do mod (o arquivo não marcado como "Peacock Plugin") através do Simple Mod Framework. Instale a seção do mod "Peacock Plugin" colocando-o na sua pasta de instalação do Peacock
--   Plugins para adicionar armas não usadas no jogo
--   Plugins para modificar armas e disfarces existentes
+- Modo Massacre
+    - Todos os NPCs reais são marcados como alvos, podendo receber avaliação Assassino Silencioso depois de ter matado a todos.
+    - Nota: Bem bugado em mapas com mais de 200 alvos, armas podem falhar em momentos aleatórios. Você pode precisar matar usando métodos corpo a corpo.
+- Alvo Elusivo Os Irmãos (Conteúdo Cortado / Mod de Fã)
+    - NOTE: Although the Brothers ET mod is compatible with Peacock, it is a **fan interpretation** of how the mission would have played out, and not necessarily canon
+    - Download de Arquivo: https://www.nexusmods.com/hitman3/mods/375?tab=files
+    - Instale a porção principal do mod (o arquivo não marcado como "Peacock Plugin") através do Simple Mod Framework. Install the "Peacock Plugin" portion of the mod by putting it into your Peacock Install folder
+- Plugins para adicionar armas não usadas no jogo
+- Plugins para modificar armas e disfarces existentes
 
 ### Como Instalar Plugins
 
--   Amplamente falando, para baixar plugins, vá para os canais `plugins` ou `#plugin-releases` no servidor Discord do Peacock e faça o download de um plugin em que tenha interesse.
--   -  Coloque seus plugins na pasta `plugins` dentro do diretório Peacock.
-    -   Seu plugin deve terminar com `.plugin.js` ou `Plugin.js` - se foi obtido como um arquivo `.zip`, extraia seus conteúdos primeiro.
-    -   Exemplo: ![PluginsFolder](/img/plugins_folder.png)
--   Tenha certeza de verificar por quaisquer outras instruções no canal `#plugin-releases` por um certo plugin, já que certos plugins poder necessitar de mais passos de instalação ou são incompatíveis com versões mais recentes do Peacock.
+Broadly speaking, to install plugins, go to either the `plugins` or `#plugin-releases` channel in the Peacock Discord and download a plugin you are interested in.
 
-**Nota: Plugins são apenas uma pequena porção da comunidade Hitman de mods. Vários mods de Hitman são manipulados pelo lado do cliente e estão fora da alçada do Peacock.** Mais mods gerais de uso pelo usuário, fora da responsabilidade do Peacock, estão agregados aqui:
+- Put your plugins into the `plugins` folder, located in the Peacock folder (created automatically by the server the first time you launch it).
+- The plugin should end with `.plugin.js` or `Plugin.js` - if it's distributed as a `.zip`, extract it first.
 
--   [Nexusmods](https://www.nexusmods.com/hitman3)
--   [Discord de Mods Glacier](https://discord.com/invite/6UDtuYhZP6)
+Exemplo: ![Plugins folder](/img/wiki/plugins_folder.png)
+
+- Be sure to check for any further instructions in the plugin's description, as some plugins may require further setup steps or won't work with newer versions of Peacock.
+
+:::note
+
+Plugins are only a small portion of the Hitman modding scene. **Many Hitman mods are done client-side and out of scope of Peacock.** More general-use client-side mods, outside the scope of Peacock, are aggregated here:
+
+- [Nexusmods](https://www.nexusmods.com/hitman3)
+- [Discord de Mods Glacier](https://discord.com/invite/6UDtuYhZP6)
+
+:::

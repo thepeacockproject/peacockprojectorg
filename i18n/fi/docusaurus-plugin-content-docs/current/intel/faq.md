@@ -4,10 +4,10 @@ title: Frequently Asked Questions
 
 ## Troubleshooting FAQ
 
-### Wrong Game Version / Platform
+### Before Troubleshooting
 
 -   Check the [Requirements](./requirements.md) section of this guide, make sure you have a supported game version and platform, etc.
-    -   **Xbox Game Pass / Microsoft PC version of Hitman 3 is not supported (commonly asked)**.
+    -   **Microsoft Store version of Hitman 3 is not supported (commonly asked)**.
     -   Check [Linux Setup Guide](../guides/./linux-setup.md) if on Linux.
 -   Make sure you have the latest versions of Hitman and Peacock, older versions may not be supported.
 
@@ -19,7 +19,7 @@ title: Frequently Asked Questions
 -   To return to Official servers, you can go offline while connected to Peacock, then toggle the Peacock Patcher application to patch you to Official Servers, then go "online" again to connect to official servers.
 -   **If you still have trouble connecting, then continue to the next section below.**
 
-### Connection Troubleshooting
+### Connection Issues
 
 -   As explained in the [What is Peacock](./what-is-peacock.md) page, **you need to be connected to the Internet, at least initially, to use Peacock**. This is to get past Steam / Epic verification. After connecting to Peacock the first time, you may disconnect from the Internet and stay connected to Peacock for the duration of your game session.
     -   If you have a phone with cellular data plan, you can use the phone as hotspot for your computer to connect to Internet.
@@ -27,34 +27,23 @@ title: Frequently Asked Questions
 -   Try running the `Start Server.cmd` as admin.
 -   Keep the option "Use http instead of https" in Peacock patcher ticked unless you are playing Ghost Mode.
 
--   Peacock by default uses Port 80 on your PC for the Peacock server.
+#### Port In Use
 
-    -   If possible, check whatever process is currently using Peacock by typing `netstat -ano | find ":80" | find "LISTEN"` into your terminal, and then checking "Details" tab of Task Manager to find the process based on PID of whatever is on Port 80.
-    -   If you use Visual Studio, you may have installed some services that interfere with Peacock by also running on Port 80. To fix:
+If you're getting an error that looks like this:
 
-        1. Press the Windows key and R at the same time
-        2. Type services.msc in the popup box, then hit ok
-        3. Check for W3SVC: World Wide Web Publishing Service and Web Deployment Agent Service in the service manager
-        4. Disable both if present
-        5. Try again, if it doesn't work, restart your computer, then try once more
+![The error message shown when Peacock tries to use a port that's in use](/img/wiki/port_in_use.png)
 
-    -   Here's how to change the port Peacock uses, if you don't want to stop the process on Port 80:
-        -   In the instructions below, please substitute `PORTNUMBER` with a port that is not currently running on your PC, e.g. `8080`, `6969`, `3000`, etc.
-        -   Change `Start Server.cmd` to be as follows:
-        ```
-        @echo off
-        SET PORT=PORTNUMBER
-        .\nodedist\node.exe chunk0.js
-        PAUSE
-        ```
-        -   Type `localhost:PORTNUMBER` or `127.0.0.1:PORTNUMBER` into the server window, as shown here: ![](/img/patcher_port.png)
+The error message for this issue will be something along the lines of "failed to bind the server to port X".
 
-### Missing Items / Maps
+Check [this guide](../troubleshooting/fix-port-in-use.md) for an explanation and instructions on how to fix it.
 
--   Starting from v6, Peacock should be able to automatically detect when you obtain a new DLC, and give you access to those new items / maps
--   v6.1.0 introduced progression to peacock, meaning you now can unlock items as you play. This is enabled by default, to emulate the experience of the official servers. To disable this set `enableMasteryProgression` in `options.ini` to `false`.
+## How to Get All Items
 
-### Muut
+Peacock v6.1.0 introduced progression support, meaning you now can unlock items as you play. This is **enabled by default**, to emulate the experience of the official servers.
+
+To disable progression and **immediately get all items**, set `enableMasteryProgression` in `options.ini` to `false`.
+
+## Muut
 
 -   Check [Peacock Unique Features](../intel/loadout-profiles-elp.md) page for info on how to set multiple loadouts per map or choose specific escalation levels with Peacock.
 -   Default Suits - If you tick `getDefaultSuits = true` in your `options.ini` file in your Peacock Install folder, please note the following behavior:

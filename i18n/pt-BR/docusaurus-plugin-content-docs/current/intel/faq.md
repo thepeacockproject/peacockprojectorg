@@ -4,10 +4,10 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
 
 ## Perguntas Frequents sobre Resolução de Problemas
 
-### Versão Errada do Jogo / Plataforma
+### Before Troubleshooting
 
 -   Veja a seção [Requerimentos](./requirements.md) deste guia, tenha a certeza de que você tem uma versão e plataforma compatíveis, etc.
-    -   **Xbox Game Pass / Versão da Microsoft PC de Hitman 3 não são suportadas (comumente perguntado)**.
+    -   **Microsoft Store version of Hitman 3 is not supported (commonly asked)**.
     -   Veja o [Guia de Instalação de Linux](../guides/./linux-setup.md) se estiver usando Linux.
 -   Tenha a certeza de que você tem as últimas versões do Hitman 3 e do Peacock, versões mais antigas podem não ser suportadas.
 
@@ -19,42 +19,31 @@ title: Perguntas Frequentes (FAQ) / Solução de Problemas
 -   Similarmente, você pode ficar offline quando conectado ao Peacock, ativar a opção no inicializador do Peacock para voltar aos servidores oficiais, e clicar em ficar "online" novamente para se conectar aos servidores oficiais.
 -   **Se você ainda estiver tendo problemas ao se conectar, continue na seção abaixo.**
 
-### Solução de Problemas de Conexão
+### Connection Issues
 
 -   Como explicado na página [O Que é o Peacock](./what-is-peacock.md), **você precisa estar conectado à Internet, pelo menos inicialmente, para usar o Peacock**. Isso tem o único propósito de passar pela verificação Steam / Epic. Após conectar ao Peacock na primeira vez, você poderá desconectar da Internet e permanecer conectado ao Peacock pela duração da sua sessão de jogo.
     -   Se você tiver um celular com plano de Internet, você pode usá-lo como ponto de acesso de Internet para o seu computador se conectar.
 -   Não tente usar o Peacock se esta for a sua primeira vez jogando o jogo. Você precisa se conectar aos servidores oficiais pelo menos uma vez antes de se conectar ao Peacock. Depois de ter conectado aos servidores oficiais pelo menos uma vez, você não precisa de fazê-lo novamente no futuro para usar o Peacock.
 -   Tente rodar o `Start Server.cmd` como administrador.
--   Mantenha a opção "Use http instead of https" no Peacock ativada a não ser que esteja jogando o Modo Fantasma.
+-   Keep the option "Use http instead of https" in Peacock patcher ticked unless you are playing Ghost Mode.
 
--   O Peacock utiliza por padrão a Porta de Rede 80 no seu computador para o servidor do Peacock.
+#### Port In Use
 
-    -   Se possível, veja quaisquer processos estão atualmente utilizando o Peacock escrevendo `netstat -ano | find ":80" | find "LISTEN"` no seu terminal, e então checando a categoria "Details" do Gerenciador de Tarefas para encontrar o processo baseado em PID de qualquer coisa que esteja ocupando a Porta 80.
-    -   Se você utiliza o Visual Studio, você pode ter instalado alguns serviços que interferem com o Peacock por também utilizar a Porta de Rede 80. Para resolver:
+If you're getting an error that looks like this:
 
-        1. Clique no botão Windows e em R ao mesmo tempo
-        2. Escreva services.msc na caixa de texto, e então clique em ok
-        3. Verifique por W3SVC: World Wide Web Publishing Service and Web Deployment Agent Service (Serviço de Publicação de World Wide Web e Serviço de Agente Remoto de Implantação da Web)
-        4. Desligue ambos se presentes
-        5. Tente novamente, se não funcionar, reinicie seu computador, e depois tente mais uma vez
+![The error message shown when Peacock tries to use a port that's in use](/img/wiki/port_in_use.png)
 
-    -   Abaixo você encontra informações sobre como mudar o uso da Port Peacock, se você desejar parar a utilização na Port 80:
-        -   Nas instruções abaixo, substitua `NumeroDaPort` por uma port que não esteja sendo atualmente executada em seu PC, e.g. `8080`, `6969`, `3000`, etc.
-        -   Mude `Start Server.cmd` como descrito abaixo:
-        ```
-        @echo off
-        SET PORT=NumeroDaPorta
-        .\nodedist\node.exe chunk0.js
-        PAUSE
-        ```
-        -   Escreva `localhost:NumeroDaPorta` ou `127.0.0.1:NumeroDaPorta` na janela do servidor, como mostrado aqui: ![](/img/patcher_port.png)
+The error message for this issue will be something along the lines of "failed to bind the server to port X".
 
-### Itens Faltantes / Mapas
+Check [this guide](../troubleshooting/fix-port-in-use.md) for an explanation and instructions on how to fix it.
 
--   A partir da versão v6, o Peacock deve detectar automaticamente quando você adquirir uma nova DLC, e dar acesso a novos itens / mapas
--   v6.1.0 introduziu progressão ao Peacock, o que significa que você pode desbloquear novos itens ao longo do jogo. Isso é ativado por padrão, para emular a experiência oficial dos servidores. Para desativar isso, mude `enableMasteryProgression` no arquivo `options.ini` para `false`.
+## How to Get All Items
 
-### Outro
+Peacock v6.1.0 introduced progression support, meaning you now can unlock items as you play. This is **enabled by default**, to emulate the experience of the official servers.
+
+To disable progression and **immediately get all items**, set `enableMasteryProgression` in `options.ini` to `false`.
+
+## Outro
 
 -   Veja a página de [Recursos Únicos do Peacock](../intel/loadout-profiles-elp.md) para mais informações em como ter múltiplos equipamentos por mapa ou escolher níveis de agravamento específicos.
 -   Trajes Padrão - Se você ativar `getDefaultSuits = true` no seu arquivo `options.ini` na sua pasta de instalação do Peacock, por favor leia o seguinte comportamento:

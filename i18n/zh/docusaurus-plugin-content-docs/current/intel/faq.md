@@ -4,10 +4,10 @@ title: 常见问题解答
 
 ## 常见问题解答
 
-### 错误的游戏版本/平台
+### Before Troubleshooting
 
 -   请参阅本教程的[要求](./requirements.md)板块，确保你拥有受支持的游戏版本和平台等内容。
-    -   **Xbox Game Pass及Microsoft PC版本的杀手3是不受支持的（常见问题）**。
+    -   **Microsoft Store version of Hitman 3 is not supported (commonly asked)**.
     -   Linux用户请参阅 [Linux初始化指南](../guides/./linux-setup.md)。
 -   确保你在使用最新版本的杀手和Peacock，旧版本是不受支持的。
 
@@ -19,42 +19,31 @@ title: 常见问题解答
 -   若想要回到官方服务器，你可以在连接到Peacock时选择离线，然后在Peacock Patcher上切换到官方服务器，随后在游戏中按下”上线“即可连接到官方服务器。
 -   **如果你仍然无法连接，请继续阅读下一节内容。**
 
-### 连接问题解答
+### Connection Issues
 
 -   正如[什么是Peacock](./what-is-peacock.md)页面中所说，**你需要最起码在启动时连接到网络来使用Peacock**。 这是为了通过Steam/Epic平台的验证。 在首次连接到Peacock后，你可以从互联网中断开，并在游戏进程的阶段中保持连接到Peacock。
     -   如果你的手机有移动数据流量，你可以使用手机为电脑提供热点来连接到互联网。
 -   如果这是你第一次游玩游戏，请不要尝试使用Peacock。 在你连接Peacock之前，你必须至少连接到官方服务器一次。 在你连接到官方服务器一次以后，在后续使用Peacock时不再需要连接到官方服务器。
 -   尝试以管理员身份运行`PeacockPatcher.exe`。
--   在Peacock Patcher中，保持选中"Use http instead of https"（使用http协议替代https协议），除非你在游玩幽灵模式。
+-   Keep the option "Use http instead of https" in Peacock patcher ticked unless you are playing Ghost Mode.
 
--   Peacock默认在你的电脑上使用80端口来启动Peacock服务器。
+#### Port In Use
 
-    -   如果可能的话，在终端中使用`netstat -ano | find ":80" | find "LISTEN"`来检查是否有程序进程正在使用Peacock，然后在任务管理器中点击”详细信息“来通过80端口上的PID找到对应的程序。
-    -   如果你使用Visual Studio，你可能安装了一些也运行在80端口上，会影响Peacock的服务。 如何解决：
+If you're getting an error that looks like this:
 
-        1. 通识按下Windows徽标键和R键
-        2. 在弹出窗口中输入services.msc，然后点击确定
-        3. 在服务管理中搜索W3SVC: World Wide Web Publishing Service和Web Deployment Agent Service
-        4. 如果它们存在，禁用它们
-        5. 重试一次，如果仍然连接失败，重启你的电脑后再试一次
+![The error message shown when Peacock tries to use a port that's in use](/img/wiki/port_in_use.png)
 
-    -   如果你不想停用80端口的进程，这里是修改Peacock使用端口的方式：
-        -   在下面的指引中，请将`端口号`替换为当前在你设备上一个未被占用的端口，例如。`8080`，`6969`，`3000`，等等。
-        -   如下修改`Start Server.cmd`文件：
-        ```
-        @echo off
-        SET PORT=端口号
-        .\nodedist\node.exe chunk0.js
-        PAUSE
-        ```
-        -   输入`localhost:端口号`或`127.0.0.1:端口号`进入服务器窗口，如下所示： ![](/img/patcher_port.png)
+The error message for this issue will be something along the lines of "failed to bind the server to port X".
 
-### 物品/地图缺失
+Check [this guide](../troubleshooting/fix-port-in-use.md) for an explanation and instructions on how to fix it.
 
--   从v6开始，Peacock应该能够自动检测到你获得的新DLC，并让你获得这些新的物品/地图。
--   v6.1.0为Peacock引入了进度系统，这意味着您现在可以随着游玩解锁物品。 此功能默认开启，以模拟官方服务器的体验。 要想禁用，将`options.ini`里的`enableMasteryProgression`设置为`false`。
+## How to Get All Items
 
-### 其他
+Peacock v6.1.0 introduced progression support, meaning you now can unlock items as you play. This is **enabled by default**, to emulate the experience of the official servers.
+
+To disable progression and **immediately get all items**, set `enableMasteryProgression` in `options.ini` to `false`.
+
+## 其他
 
 -   参阅[Peacock独特功能](../intel/loadout-profiles-elp.md)页面来查找如何在Peacock上为每张地图设定多重装备组合以及选择特定的升级契约。
 -   默认套装 - 如果你在你的Peacock安装文件夹中的`options.ini`文件中开启了`getDefaultSuits = true`，请注意以下行为：

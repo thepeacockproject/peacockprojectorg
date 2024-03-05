@@ -4,10 +4,10 @@ title: Veelgestelde vragen / Probleemoplossing
 
 ## Probleemoplossing FAQ
 
-### Wrong Game Version / Platform
+### Before Troubleshooting
 
 -   Check the [Requirements](./requirements.md) section of this guide, make sure you have a supported game version and platform, etc.
-    -   **Xbox Game Pass / Microsoft PC version of Hitman 3 is not supported (commonly asked)**.
+    -   **Microsoft Store version of Hitman 3 is not supported (commonly asked)**.
     -   Check [Linux Setup Guide](../guides/./linux-setup.md) if on Linux.
 -   Controleer dat je de laatste versie van Hitman 3 en Peacock hebt, oudere versies kunnen mogelijk niet ondersteund zijn.
 
@@ -19,42 +19,31 @@ title: Veelgestelde vragen / Probleemoplossing
 -   Je kunt dus ook op dezelfde manier de verbinding verbreken als je met Peacock verbonden bent, via de patcher de server naar "IOI Official" zetten, en dan weer verbinding maken om zo te verbinden met de officiële servers.
 -   **If you still have trouble connecting, then continue to the next section below.**
 
-### Connection Troubleshooting
+### Connection Issues
 
 -   As explained in the [What is Peacock](./what-is-peacock.md) page, **you need to be connected to the Internet, at least initially, to use Peacock**. This is to get past Steam / Epic verification. After connecting to Peacock the first time, you may disconnect from the Internet and stay connected to Peacock for the duration of your game session.
     -   If you have a phone with cellular data plan, you can use the phone as hotspot for your computer to connect to Internet.
 -   Don't try to use Peacock if it's literally your first time playing the game. You need to connect to the official servers at least once before you can connect to Peacock. After you've connected to official servers at least once you no longer have to do so in the future in order to use Peacock.
 -   Try running the `PeacockPatcher.exe` as admin.
--   Laat de optie "Use http instead of https" in de Peacock Patcher aangevinkt behalve als je Ghost Mode speelt.
+-   Keep the option "Use http instead of https" in Peacock patcher ticked unless you are playing Ghost Mode.
 
--   Peacock gebruikt standaard Poort 80 vanuit jouw PC voor de Peacock server.
+#### Port In Use
 
-    -   Als het mogelijk is, controleer door welk proces Peacock gebruikt wordt door `netstat -ano | find ":80" | find "LISTEN"` in de terminal te typen, en dan het "Details" venster van Taakbeheer te controleren om het PID proces te vinden wat Poort 80 gebruikt.
-    -   Als je Visual Studio gebruikt, kan je wat services hebben geïnstalleerd dat met Peacock stoort wat ook Poort 80 gebruikt. Om dit op te lossen:
+If you're getting an error that looks like this:
 
-        1. Druk de Windows- en R knop tegelijkertijd in
-        2. Typ `services.msc` in het venster, en klik dan ok "ok"
-        3. Controleer voor "W3SVC: World Wide Web Publishing Service" en "Web Deployment Agent Service" in de service manager
-        4. Zet deze beide uit als ze zichtbaar zijn
-        5. Probeer het nog een keer, als dat niet werkt, herstart jouw computer, en probeer het dan nog een keer
+![The error message shown when Peacock tries to use a port that's in use](/img/wiki/port_in_use.png)
 
-    -   Here's how to change the port Peacock uses, if you don't want to stop the process on Port 80:
-        -   In the instructions below, please substitute `PORTNUMBER` with a port that is not currently running on your PC, e.g. `8080`, `6969`, `3000`, etc.
-        -   Change `Start Server.cmd` to be as follows:
-        ```
-        @echo off
-        SET PORT=PORTNUMBER
-        .\nodedist\node.exe chunk0.js
-        PAUSE
-        ```
-        -   Type `localhost:PORTNUMBER` or `127.0.0.1:PORTNUMBER` into the server window, as shown here: ![](/img/patcher_port.png)
+The error message for this issue will be something along the lines of "failed to bind the server to port X".
 
-### Missing Items / Maps
+Check [this guide](../troubleshooting/fix-port-in-use.md) for an explanation and instructions on how to fix it.
 
--   Starting from v6, Peacock should be able to automatically detect when you obtain a new DLC, and give you access to those new items / maps
--   v6.1.0 introduced progression to peacock, meaning you now can unlock items as you play. This is enabled by default, to emulate the experience of the official servers. To disable this set `enableMasteryProgression` in `options.ini` to `false`.
+## How to Get All Items
 
-### Andere
+Peacock v6.1.0 introduced progression support, meaning you now can unlock items as you play. This is **enabled by default**, to emulate the experience of the official servers.
+
+To disable progression and **immediately get all items**, set `enableMasteryProgression` in `options.ini` to `false`.
+
+## Andere
 
 -   Check [Peacock Unique Features](../intel/loadout-profiles-elp.md) page for info on how to set multiple loadouts per map or choose specific escalation levels with Peacock.
 -   Default Suits - If you tick `getDefaultSuits = true` in your `options.ini` file in your Peacock Install folder, please note the following behavior:
