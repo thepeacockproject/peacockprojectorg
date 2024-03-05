@@ -24,6 +24,17 @@ export default {
                 "intel/autosplitter-setup",
                 "intel/loadout-profiles-elp",
                 "intel/faq",
+                {
+                    type: "category",
+                    label: "Troubleshooting Guides",
+                    link: {
+                        type: "generated-index",
+                        slug: "troubleshooting",
+                    },
+                    items: [
+                        "troubleshooting/fix-port-in-use"
+                    ],
+                },
             ],
         },
         {
