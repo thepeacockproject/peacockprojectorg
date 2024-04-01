@@ -7,65 +7,65 @@ O Peacock tem vários benefícios incluídos para nossos usuários. Aqui vai uma
 
 ## Alvos Elusivos
 
-Within Peacock, you can replay Elusive Targets without any time limit on restarts (unlike Elusive Target Arcade), and without a time limit.
+Dentro do Peacock, você pode jogar Alvos Elusivos sem nenhum tempo limite ao reiniciar (ao contrário do Arcade de Alvos Elusivos), e sem nenhum tempo limite.
 
 - **Como Jogar:**
     - Depois de iniciar o Hitman 3 usando o Peacock, vá para `Career` -> `Elusive Targets` no jogo.
-- See the [Plugins](#plugins) section for information on installing "The Brothers" Elusive Target (cut content) in Hitman 3.
+- Veja a seção [Plugins](#plugins) por informações sobre a instalação do alvo elusivo "Os Irmãos" (conteúdo cortado) em Hitman 3.
 
 ## Agravamentos
 
-### Custom Peacock Escalations
+### Agravamentos Peacock Customizados
 
-Peacock supports custom (Peacock original) escalations. These escalations are available in-game by default. You can see some custom escalations listed in the [Roadmaps](./roadmaps.mdx) as well.
+O Peacock suporta agravamentos (Originais Peacock) customizados. Esses agravamentos estão disponíveis em jogo por predefinição. Você pode ver alguns dos agravamentos customizados listados nos [Roadmaps](./roadmaps.mdx) também.
 
-### Official Server Escalations and Legacy Escalations
+### Agravamentos dos Servidores Oficiais e Agravamentos Legado
 
-Peacock also supports all official server escalations, including Hitman 2016 escalations that have not been ported to Hitman 2 or 3 (legacy escalations). These escalations are available in-game by default.
+O Peacock também suporta todos os agravamentos dos servidores oficiais, incluindo agravamentos de Hitman 2016 que não foram portados para o Hitman 2 e 3 (agravamentos legado). Esses agravamentos estão disponíveis em jogo por predefinição.
 
-- Note: You can select specific escalation levels to start on using the Escalation Level Picker tool, as explained [here](./intel/loadout-profiles-elp.md#escalation-level-picker)
+- Nota: Você pode selecionar níves específicos de agravamentos para iniciar usando a ferramenta Escalation Level Picker, como explicado [aqui](./intel/loadout-profiles-elp.md#escalation-level-picker)
 
 ## Modo Contratos
 
-Peacock supports both official server and custom Peacock contracts.
+O Peacock suporta ambos contratos de servidores oficiais e contratos personalizados Peacock.
 
-### Featured contracts
+### Contratos em Destaque
 
-This includes custom (Peacock original) contracts created by Peacock dev team. You can see some of these custom featured contracts [here](./roadmaps.mdx).
+Aqui estão incluídos contratos customizados (Originais Peacock) criados pela equipe de desenvolvimento do Peacock. Você pode ver alguns desses contratos em destaque customizados [aqui](./roadmaps.mdx).
 
-- **Note: Official Servers Featured Contracts are not included.**
+- **Aviso: Contratos em Destaque dos Servidores Oficiais não estão incluídos.**
 
-#### How to Play
+#### Como Jogar
 
-Go to `Game Modes` -> `Contracts` -> `Featured` menu in-game.
+Vá para o menu `Game Modes` -> `Contracts` -> `Featured` em jogo.
 
-### User-Created Official Server Contracts
+### Contratos de Servidores Oficiais Criados por Usuários
 
-#### How to Install
+#### Como Instalar
 
-- Note: This only works while the HITMAPS bot is authenticated for the platform in question.
-  - [More info on how to authenticate it](https://bot.hitmaps.com/).
-  - To check if it's online, run the command `/botstatus` in the `#bot-spam` channel in the Peacock Discord. The status is updated every 10 minutes.
+- Nota: Isso funciona apenas se o bot do HITMAPS está autenticado para a plataforma em questão.
+  - [Mais informações sobre como autenticar](https://bot.hitmaps.com/).
+  - Para checar se o bot está online, execute o comando `botstatus` no canal `#bot-spam` no Discord do Peacock. O status é atualizado a cada 10 minutos.
 - Vá para o menu `Game Modes` -> `Contracts` -> `Contract Lookup` em jogo.
 - Entre com o ID do contrato do servidor oficial (**Contratos de qualquer plataforma exceto Nintendo Switch são suportados para isso**).
-- The contract will now be downloaded in your `contracts` folder.
+- O contrato será baixado na sua pasta `contracts`.
 
-#### How to Play
+#### Como Jogar
 
 Vá para o menu `Game Modes` -> `Contracts` -> `My Contracts` em jogo.
 
-### User-Created Peacock Contracts
+### Contratos Personalizados Peacock Criados por Usuários
 
-#### How to Install
+#### Como Instalar
 
-Download the contract's `.json` file from the `share-contracts` channel in Peacock Discord. Place the `.json` file in your `Contracts` folder, as shown here: ![](/img/wiki/contracts_folder.png).
+Faça o Download dos arquivos `.json` de contratos do canal `share-contracts` no Discord do Peacock. Coloque o arquivo `.json` na sua pasta `Contracts`, como mostrado aqui: ![](/img/wiki/contracts_folder.png).
 
-#### How to create your own
+#### Como criar o seu
 
-- If you create a contract in-game while in Peacock server, your contract will be saved as an `.json` file in `Contracts` folder, as shown in the image above.
-- Be sure to share your `.json` file in Peacock Discord's `share-contracts` channel if you want others to play your custom Peacock contract.
+- Se você criar um contrato em jogo enquanto estiver conectado ao servidor Peacock, seu contrato será salvo como um arquivo `.json` na pasta `Contracts`, como mostrado na imagem acima.
+- Certifique-se de compartilhar seu arquivo `.json` no canal `share-contracts` do servidor Discord do Peacock se quiser que outros joguem seu contrato customizado Peacock.
 
-#### How to Play
+#### Como Jogar
 
 - Vá para o menu `Game Modes` -> `Contracts` -> `My Contracts` em jogo.
 
@@ -77,26 +77,26 @@ O Peacock suporta uma grande variedade de mods de servidor (plugins). Esses incl
     - Todos os NPCs reais são marcados como alvos, podendo receber avaliação Assassino Silencioso depois de ter matado a todos.
     - Nota: Bem bugado em mapas com mais de 200 alvos, armas podem falhar em momentos aleatórios. Você pode precisar matar usando métodos corpo a corpo.
 - Alvo Elusivo Os Irmãos (Conteúdo Cortado / Mod de Fã)
-    - NOTE: Although the Brothers ET mod is compatible with Peacock, it is a **fan interpretation** of how the mission would have played out, and not necessarily canon
+    - NOTA: Apesar de o Alvo Elusivo Os Irmãos ser compatível com o Peacock, é uma **interpretação de fãs** de como a missão iria se desenrolar, e não é necessariamente canônico
     - Download de Arquivo: https://www.nexusmods.com/hitman3/mods/375?tab=files
-    - Instale a porção principal do mod (o arquivo não marcado como "Peacock Plugin") através do Simple Mod Framework. Install the "Peacock Plugin" portion of the mod by putting it into your Peacock Install folder
+    - Instale a porção principal do mod (o arquivo não marcado como "Peacock Plugin") através do Simple Mod Framework. Instale a seção do mod "Peacock Plugin" colocando-o na sua pasta de instalação do Peacock
 - Plugins para adicionar armas não usadas no jogo
 - Plugins para modificar armas e disfarces existentes
 
 ### Como Instalar Plugins
 
-Broadly speaking, to install plugins, go to either the `plugins` or `#plugin-releases` channel in the Peacock Discord and download a plugin you are interested in.
+Amplamente falando, para baixar plugins, vá para os canais `plugins` ou `#plugin-releases` no servidor Discord do Peacock e faça o download de um plugin em que tenha interesse.
 
-- Put your plugins into the `plugins` folder, located in the Peacock folder (created automatically by the server the first time you launch it).
-- The plugin should end with `.plugin.js` or `Plugin.js` - if it's distributed as a `.zip`, extract it first.
+- Coloque os plugins na pasta `plugins`, localizada na pasta Peacock (criada automaticamente pelo servidor na primeira vez em que foi executado).
+- O plugin deve terminar com `.plugin.js` ou `Plugin.js` - se foi obtido como um arquivo `.zip`, extraia seus conteúdos primeiro.
 
-Exemplo: ![Plugins folder](/img/wiki/plugins_folder.png)
+Exemplo: ![Pasta de plugins](/img/wiki/plugins_folder.png)
 
-- Be sure to check for any further instructions in the plugin's description, as some plugins may require further setup steps or won't work with newer versions of Peacock.
+- Verifique por quaisquer outras instruções na descrição do plugin, já que alguns deles podem necessitar de configurações adicionais ou não irão funcionar com versões mais recentes do Peacock.
 
-:::note
+:::nota
 
-Plugins are only a small portion of the Hitman modding scene. **Many Hitman mods are done client-side and out of scope of Peacock.** More general-use client-side mods, outside the scope of Peacock, are aggregated here:
+Plugins são apenas uma pequena parte da comunidade Hitman de mods. **Vários mods de Hitman são manipulados pelo lado do cliente e estão fora da alçada do Peacock.** Mais mods gerais de uso pelo usuário, fora da responsabilidade do Peacock, estão agregados aqui:
 
 - [Nexusmods](https://www.nexusmods.com/hitman3)
 - [Discord de Mods Glacier](https://discord.com/invite/6UDtuYhZP6)

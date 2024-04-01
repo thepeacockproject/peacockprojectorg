@@ -1,45 +1,45 @@
 ---
-title: Port in Use Error
+title: Erro de Porta em Uso
 ---
 
-The "Port in Use" error happens when Peacock is trying to start, but the port it's set to use is already in use.
+O erro de "Porta em uso" acontece quando o Peacock está tentando inicializar, mas a porta configurada já está em uso.
 
-Here's what it looks like:
+Veja como se parece:
 
-![The error message shown when Peacock tries to use a port that's in use](/img/wiki/port_in_use.png)
+![Mensagem de erro emitida quando o Peacock tenta usar uma porta em uso](/img/wiki/port_in_use.png)
 
-## What is a Port?
+## O que é uma Porta?
 
-In simple terms, a port is a thing programs and other computers can connect to and get data from.
-In order for the game to talk to Peacock's server, the server has to occupy a port.
-Ports must have an assigned number. The default port used by Peacock is 80, but port numbers can be any whole number between 1 and 65535.
+Em termos simples, uma porta é uma conexão realizada entre programas ou computadores para trocar informações.
+Para que o jogo se comunique com o servidor Peacoc, o servidor deve ocupar uma porta.
+Portas devem ter um número atribuído. A porta padrão usada pelo Peacock é 80, mas números de portas podem ser qualquer número inteiro entre 1 e 65535.
 
 ## Visual Studio
 
-If you use Visual Studio, you may have installed some services that interfere with Peacock by also running on Port 80. To fix:
+Se você utiliza o Visual Studio, você pode ter instalado alguns serviços que interferem com o Peacock por também acessar a Porta 80. Para resolver:
 
-1. Press the Windows key and R at the same time.
-2. Type services.msc in the popup box, then hit Okay.
-3. Check for `W3SVC: World Wide Web Publishing Service` and `Web Deployment Agent Service` in the service manager.
-4. Disable both if present.
-5. Try again, if it doesn't work, restart your computer, then try once more.
+1. Clique no botão Windows e em R ao mesmo tempo.
+2. Escreva services.msc na caixa de texto, e então clique em OK.
+3. Procure por `W3SVC: Serviço de Publicação da World Wide Web` e `Serviço de Agente de Implantação da Web` no gerenciador de serviços.
+4. Desligue ambos se presentes.
+5. Tente novamente, se não funcionar, reinicie seu computador, e depois tente mais uma vez.
 
-## Changing the Port
+## Alterando a Porta
 
-Here's how to change the port Peacock uses, if you don't want to stop the process on Port 80:
+Abaixo você encontra informações sobre como mudar a Porta usada pelo Peacock, se você desejar parar a utilização na Porta 80:
 
-In the instructions below, please substitute `PORTNUMBER` with a port that is not currently running on your PC, e.g. `8080`, `6969`, `3000`, etc.
+Nas instruções abaixo, substitua `NumeroDaPort` por uma port que não esteja sendo atualmente executada em seu PC, e.g. `8080`, `6969`, `3000`, etc.
 
-- Change `Start Server.cmd` to be as follows:
+- Mude `Start Server.cmd` como descrito abaixo:
   ```bash
   @echo off
-  SET PORT=PORTNUMBER
+  SET PORT=NumeroDaPorta
   .\nodedist\node.exe chunk0.js
   PAUSE
   ```
-- Type `127.0.0.1:PORTNUMBER` into the Patcher's URL field, as shown here: ![](/img/wiki/patcher_port.png)
+- Digite `127.0.0.1:NumeroDaPort` no campo de URL do Patcher, como demonstrado aqui: ![](/img/wiki/patcher_port.png)
 
-## On Linux
+## No Linux
 
-Peacock's default port is 80, but on Linux, the normal user account does not have permission to use port 80.
-Check out the Changing the Port section above.
+A porta padrão do Peacock é 80, mas no Linux, o acesso normal do usuário não garante a permissão de utilizar a porta 80.
+Verifique a seção Alterando a Porta acima.

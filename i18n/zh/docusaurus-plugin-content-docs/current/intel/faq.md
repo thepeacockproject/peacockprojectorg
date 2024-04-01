@@ -2,18 +2,18 @@
 title: 常见问题解答
 ---
 
-## How to Get All Items
+## 如何获取全物品
 
-Peacock v6.1.0 introduced progression support, meaning you now can unlock items as you play. This is **enabled by default**, to emulate the experience of the official servers.
+6.1.0版本起Peacock引入了进度系统，这意味着您现在可以随着游玩解锁物品。 此功能**默认开启**，以模拟官方服务器的体验。
 
-To disable progression and **immediately get all items**, set `enableMasteryProgression` in `options.ini` to `false`.
+如欲关闭进度系统并**立即获取全物品**，请将`options.ini`文件中的`enableMasteryProgression`选项设置为`false`。
 
 ## 常见问题解答
 
-### Before Troubleshooting
+### 排障前须知
 
 -   请参阅本教程的[要求](./requirements.md)板块，确保你拥有受支持的游戏版本和平台等内容。
-    -   **Microsoft Store version of Hitman 3 is not supported (commonly asked)**.
+    -   **Microsoft Store版本的《杀手3》不受支持（常见问题）**。
     -   Linux用户请参阅 [Linux初始化指南](../guides/./linux-setup.md)。
 -   确保你在使用最新版本的杀手和Peacock，旧版本是不受支持的。
 
@@ -25,23 +25,23 @@ To disable progression and **immediately get all items**, set `enableMasteryProg
 -   若想要回到官方服务器，你可以在连接到Peacock时选择离线，然后在Peacock Patcher上切换到官方服务器，随后在游戏中按下”上线“即可连接到官方服务器。
 -   **如果你仍然无法连接，请继续阅读下一节内容。**
 
-### Connection Issues
+### 连接问题
 
 -   正如[什么是Peacock](./what-is-peacock.md)页面中所说，**你需要最起码在启动时连接到网络来使用Peacock**。 这是为了通过Steam/Epic平台的验证。 在首次连接到Peacock后，你可以从互联网中断开，并在游戏进程的阶段中保持连接到Peacock。
     -   如果你的手机有移动数据流量，你可以使用手机为电脑提供热点来连接到互联网。
 -   如果这是你第一次游玩游戏，请不要尝试使用Peacock。 在你连接Peacock之前，你必须至少连接到官方服务器一次。 在你连接到官方服务器一次以后，在后续使用Peacock时不再需要连接到官方服务器。
 -   尝试以管理员身份运行`PeacockPatcher.exe`。
--   Keep the option "Use http instead of https" in Peacock patcher ticked unless you are playing Ghost Mode.
+-   在Peacock Patcher中，保持选中“Use http instead of https”（使用http协议替代https协议），除非你在游玩幽灵模式。
 
-#### Port In Use
+#### 使用端口
 
-If you're getting an error that looks like this:
+如果你遇到的错误看起来像这样：
 
-![The error message shown when Peacock tries to use a port that's in use](/img/wiki/port_in_use.png)
+![Peacock尝试使用正在使用的端口时显示的错误信息](/img/wiki/port_in_use.png)
 
-The error message for this issue will be something along the lines of "failed to bind the server to port X".
+该问题的错误信息大致为“未能将服务器绑定到 X 端口”。
 
-Check [this guide](../troubleshooting/fix-port-in-use.md) for an explanation and instructions on how to fix it.
+查阅[此指南](../troubleshooting/fix-port-in-use.md)以获取解释和修复说明。
 
 ## 其他
 
