@@ -2,7 +2,7 @@ import { createRequire } from "module"
 
 const require = createRequire(import.meta.url)
 
-/** @type {import('@docusaurus/types').DocusaurusConfig} */
+/** @type {import("@docusaurus/types").DocusaurusConfig} */
 export default {
     title: "The Peacock Project",
     tagline:
@@ -20,30 +20,30 @@ export default {
         locales: ["en", "nl", "pt-BR", "zh"],
         localeConfigs: {
             en: {
-                htmlLang: "en-US",
+                htmlLang: "en-US"
             },
             nl: {
-                htmlLang: "nl-NL",
+                htmlLang: "nl-NL"
             },
             "pt-BR": {
-                htmlLang: "pt-BR",
+                htmlLang: "pt-BR"
             },
             zh: {
-                htmlLang: "zh-CN",
-            },
-        },
+                htmlLang: "zh-CN"
+            }
+        }
     },
     themeConfig: {
         metadata: [
             {
                 name: "keywords",
-                content: "peacock,project,hitman,server,replacement,offline",
-            },
+                content: "peacock,project,hitman,server,replacement,offline"
+            }
         ],
         navbar: {
             logo: {
                 src: "/img/feather.png",
-                alt: "Peacock Logo",
+                alt: "Peacock Logo"
             },
             title: "The Peacock Project",
             items: [
@@ -51,28 +51,28 @@ export default {
                     type: "doc",
                     position: "left",
                     docId: "home",
-                    label: "Wiki",
+                    label: "Wiki"
                 },
                 {
                     href: "/wiki/intel/installation",
                     label: "Installation Guide",
-                    position: "left",
+                    position: "left"
                 },
                 {
                     href: "https://github.com/thepeacockproject",
                     label: "GitHub",
-                    position: "left",
+                    position: "left"
                 },
                 {
                     href: "https://discord.gg/F8qQTfnajw",
                     label: "Discord",
-                    position: "left",
+                    position: "left"
                 },
                 {
                     type: "localeDropdown",
-                    position: "right",
-                },
-            ],
+                    position: "right"
+                }
+            ]
         },
         footer: {
             style: "dark",
@@ -82,73 +82,82 @@ export default {
                     items: [
                         {
                             label: "Knowledge Base",
-                            to: "/wiki/intel",
+                            to: "/wiki/intel"
                         },
                         {
                             label: "Help/Bugs/Feature Requests (in our Discord)",
-                            href: "https://discord.gg/F8qQTfnajw",
+                            href: "https://discord.gg/F8qQTfnajw"
                         },
                         {
                             label: "Plugin Development",
-                            to: "/plugins",
+                            to: "/plugins"
                         }
-                    ],
+                    ]
                 },
                 {
                     title: "Community",
                     items: [
                         {
                             label: "Ghost Mode",
-                            to: "/wiki/ghost-mode",
+                            to: "/wiki/ghost-mode"
                         },
                         {
                             label: "Branding",
-                            to: "/branding",
+                            to: "/branding"
                         },
                         {
                             label: "Credits",
-                            to: "/wiki/credits",
+                            to: "/wiki/credits"
                         },
                         {
                             label: "GitHub",
-                            href: "https://github.com/thepeacockproject",
-                        },
-                    ],
+                            href: "https://github.com/thepeacockproject"
+                        }
+                    ]
                 },
                 {
                     title: "Other",
                     items: [
                         {
                             label: "Privacy Policy",
-                            to: "/wiki/legal/privacy-policy",
+                            to: "/wiki/legal/privacy-policy"
                         },
                         {
                             label: "Terms of Service",
-                            to: "/wiki/legal/terms-of-service",
-                        },
-                    ],
-                },
+                            to: "/wiki/legal/terms-of-service"
+                        }
+                    ]
+                }
             ],
             logo: {
                 alt: "Peacock Feather Logo",
                 src: "/img/feather.png",
-                href: "https://thepeacockproject.org/branding",
+                href: "https://thepeacockproject.org/branding"
             },
-            copyright: `Copyright © ${new Date().getFullYear()} The Peacock Project. Not owned by, affiliated with, or endorsed by IO Interactive.<br /><br /><small class="ioi-copyright">HITMAN 3 © 2020 IO Interactive A/S. HITMAN™ 2 © 2018 IO Interactive A/S. HITMAN™ © 2019 IO Interactive A/S. IO Interactive, IOI logos, HITMAN, HITMAN logos, and WORLD OF ASSASSINATION are trademarks or registered trademarks owned by or exclusively licensed to IO Interactive A/S. All other trademarks are the property of their respective owners.</small>`,
+            copyright: `Copyright © ${new Date().getFullYear()} The Peacock Project. Not owned by, affiliated with, or endorsed by IO Interactive.<br /><br /><small class="ioi-copyright">HITMAN 3 © 2020 IO Interactive A/S. HITMAN™ 2 © 2018 IO Interactive A/S. HITMAN™ © 2019 IO Interactive A/S. IO Interactive, IOI logos, HITMAN, HITMAN logos, and WORLD OF ASSASSINATION are trademarks or registered trademarks owned by or exclusively licensed to IO Interactive A/S. All other trademarks are the property of their respective owners.</small>`
         },
         docs: {
             sidebar: {
-                hideable: true,
-            },
+                hideable: true
+            }
         },
+        algolia: {
+            appId: "6G48SB1UKC",
+            apiKey: "ce01e2bfd0860bfa392b4ad2720b9f8a",
+            indexName: "thepeacockproject",
+            contextualSearch: true,
+            searchPagePath: "search",
+            insights: false
+        }
     },
     themes: [
         [
             "@docusaurus/theme-classic",
             {
-                customCss: require.resolve("./src/css/custom.css"),
-            },
+                customCss: require.resolve("./src/css/custom.css")
+            }
         ],
+        "@docusaurus/theme-search-algolia"
     ],
     plugins: [
         [
@@ -162,8 +171,8 @@ export default {
                     }
                     return `https://github.com/thepeacockproject/peacockprojectorg/edit/main/docs/${docPath}`
                 },
-                showLastUpdateTime: true,
-            },
+                showLastUpdateTime: true
+            }
         ],
         [
             "@docusaurus/plugin-content-docs",
@@ -178,16 +187,16 @@ export default {
                     }
                     return `https://github.com/thepeacockproject/peacockprojectorg/edit/main/plugin-dev/${docPath}`
                 },
-                showLastUpdateTime: true,
-            },
+                showLastUpdateTime: true
+            }
         ],
         "@docusaurus/plugin-content-pages",
-        require.resolve("./src/search/plugin.mjs"),
+        // require.resolve("./src/search/plugin.mjs"),
         [
             "@docusaurus/plugin-sitemap",
             {
-                changefreq: "weekly",
-            },
+                changefreq: "weekly"
+            }
         ],
         [
             "@docusaurus/plugin-ideal-image",
@@ -195,8 +204,8 @@ export default {
                 quality: 70,
                 max: 1030,
                 min: 640,
-                steps: 2,
-            },
-        ],
-    ],
+                steps: 2
+            }
+        ]
+    ]
 }
