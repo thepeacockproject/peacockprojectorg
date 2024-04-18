@@ -94,7 +94,7 @@ Exemplo: ![Pasta de plugins](/img/wiki/plugins_folder.png)
 
 - Verifique por quaisquer outras instruções na descrição do plugin, já que alguns deles podem necessitar de configurações adicionais ou não irão funcionar com versões mais recentes do Peacock.
 
-:::nota
+:::note
 
 Plugins são apenas uma pequena parte da comunidade Hitman de mods. **Vários mods de Hitman são manipulados pelo lado do cliente e estão fora da alçada do Peacock.** Mais mods gerais de uso pelo usuário, fora da responsabilidade do Peacock, estão agregados aqui:
 
