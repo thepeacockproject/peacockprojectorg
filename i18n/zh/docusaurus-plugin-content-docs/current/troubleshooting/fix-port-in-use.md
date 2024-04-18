@@ -1,45 +1,45 @@
 ---
-title: Port in Use Error
+title: 端口正在使用的错误
 ---
 
-The "Port in Use" error happens when Peacock is trying to start, but the port it's set to use is already in use.
+当 Peacock 试图启动，但设置使用的端口已在使用中时，就会出现“端口正在使用中”的错误。
 
-Here's what it looks like:
+下面是它的演示：
 
-![The error message shown when Peacock tries to use a port that's in use](/img/wiki/port_in_use.png)
+![Peacock尝试使用正在使用的端口时显示的错误信息](/img/wiki/port_in_use.png)
 
-## What is a Port?
+## 什么是端口？
 
-In simple terms, a port is a thing programs and other computers can connect to and get data from.
-In order for the game to talk to Peacock's server, the server has to occupy a port.
-Ports must have an assigned number. The default port used by Peacock is 80, but port numbers can be any whole number between 1 and 65535.
+简单地说，端口就是程序和其他计算机可以连接并获取数据的地方。
+为了让游戏与Peacock的服务器通信，服务器必须占用一个端口。
+端口必须分配指定的编号。 Peacock 使用的默认端口是 80，但端口号可以是 1 到 65535 之间的任何整数。
 
 ## Visual Studio
 
-If you use Visual Studio, you may have installed some services that interfere with Peacock by also running on Port 80. To fix:
+如果你使用Visual Studio，你可能安装了一些也运行在80端口上的服务，这会影响Peacock的服务。 解决方法：
 
-1. Press the Windows key and R at the same time.
-2. Type services.msc in the popup box, then hit Okay.
-3. Check for `W3SVC: World Wide Web Publishing Service` and `Web Deployment Agent Service` in the service manager.
-4. Disable both if present.
-5. Try again, if it doesn't work, restart your computer, then try once more.
+1. 同时按下Windows徽标键和R键.
+2. 在弹出窗口中输入services.msc，然后点击确定。
+3. 在服务管理中搜索`W3SVC: World Wide Web Publishing Service`和`Web Deployment Agent Service`.
+4. 如果它们存在，禁用它们。
+5. 重试一次。如果仍然连接失败，重启你的电脑后再试一次。
 
-## Changing the Port
+## 改变端口
 
-Here's how to change the port Peacock uses, if you don't want to stop the process on Port 80:
+如果你不想停用80端口的进程，这里是修改Peacock使用端口的方式：
 
-In the instructions below, please substitute `PORTNUMBER` with a port that is not currently running on your PC, e.g. `8080`, `6969`, `3000`, etc.
+在下面的指引中，请将端口号替换为当前在你设备上一个未被占用的端口，例如`8080`、`6969`、`3000`等等。
 
-- Change `Start Server.cmd` to be as follows:
+- 如下修改`Start Server.cmd`文件：
   ```bash
   @echo off
   SET PORT=PORTNUMBER
   .\nodedist\node.exe chunk0.js
   PAUSE
   ```
-- Type `127.0.0.1:PORTNUMBER` into the Patcher's URL field, as shown here: ![](/img/wiki/patcher_port.png)
+- 在 Patcher 的 URL 字段中输入`127.0.0.1:PORTNUMBER` ，如下所示： ![](/img/wiki/patcher_port.png)
 
-## On Linux
+## 在 Linux 上
 
-Peacock's default port is 80, but on Linux, the normal user account does not have permission to use port 80.
-Check out the Changing the Port section above.
+Peacock 的默认端口是 80，但在 Linux 上，普通用户账户没有使用 80 端口的权限。
+请参阅上文的更改端口部分。

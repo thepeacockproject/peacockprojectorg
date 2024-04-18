@@ -1,10 +1,10 @@
 {
   "version.label": {
-    "message": "Próximo",
+    "message": "Next",
     "description": "The label for version current"
   },
   "sidebar.sidebar.category.User Guide": {
-    "message": "Guia do Usuário",
+    "message": "User Guide",
     "description": "The label for category User Guide in sidebar sidebar"
   },
   "sidebar.sidebar.category.Legal": {
@@ -16,7 +16,7 @@
     "description": "The label for the doc item Home in sidebar sidebar, linking to the doc home"
   },
   "sidebar.sidebar.category.Troubleshooting Guides": {
-    "message": "Guias para Solução de Problemas",
+    "message": "Troubleshooting Guides",
     "description": "The label for category Troubleshooting Guides in sidebar sidebar"
   }
 }

@@ -2,18 +2,18 @@
 title: Perguntas Frequentes (FAQ) / Solução de Problemas
 ---
 
-## How to Get All Items
+## Como Adquirir Todos os Itens
 
-Peacock v6.1.0 introduced progression support, meaning you now can unlock items as you play. This is **enabled by default**, to emulate the experience of the official servers.
+A versão v6.1.0 introduziu suporte à progressão, o que significa que você pode agora desbloquear itens ao longo do jogo. Isso está **ativado por padrão**, para emular a experiência dos servidores oficiais.
 
-To disable progression and **immediately get all items**, set `enableMasteryProgression` in `options.ini` to `false`.
+Para desativar progressão e **adquirir imediatamente todos os itens**, modifique `enableMasteryProgression` no arquivo `options.ini` para `false`.
 
 ## Perguntas Frequents sobre Resolução de Problemas
 
-### Before Troubleshooting
+### Antes da Resolução de Problemas
 
 -   Veja a seção [Requerimentos](./requirements.md) deste guia, tenha a certeza de que você tem uma versão e plataforma compatíveis, etc.
-    -   **Microsoft Store version of Hitman 3 is not supported (commonly asked)**.
+    -   **A versão da Microsoft Store de Hitman 3 não é suportada (comumente perguntado)**.
     -   Veja o [Guia de Instalação de Linux](../guides/./linux-setup.md) se estiver usando Linux.
 -   Tenha a certeza de que você tem as últimas versões do Hitman 3 e do Peacock, versões mais antigas podem não ser suportadas.
 
@@ -25,23 +25,23 @@ To disable progression and **immediately get all items**, set `enableMasteryProg
 -   Similarmente, você pode ficar offline quando conectado ao Peacock, ativar a opção no inicializador do Peacock para voltar aos servidores oficiais, e clicar em ficar "online" novamente para se conectar aos servidores oficiais.
 -   **Se você ainda estiver tendo problemas ao se conectar, continue na seção abaixo.**
 
-### Connection Issues
+### Problemas de Conexão
 
 -   Como explicado na página [O Que é o Peacock](./what-is-peacock.md), **você precisa estar conectado à Internet, pelo menos inicialmente, para usar o Peacock**. Isso tem o único propósito de passar pela verificação Steam / Epic. Após conectar ao Peacock na primeira vez, você poderá desconectar da Internet e permanecer conectado ao Peacock pela duração da sua sessão de jogo.
     -   Se você tiver um celular com plano de Internet, você pode usá-lo como ponto de acesso de Internet para o seu computador se conectar.
 -   Não tente usar o Peacock se esta for a sua primeira vez jogando o jogo. Você precisa se conectar aos servidores oficiais pelo menos uma vez antes de se conectar ao Peacock. Depois de ter conectado aos servidores oficiais pelo menos uma vez, você não precisa de fazê-lo novamente no futuro para usar o Peacock.
 -   Tente rodar o `Start Server.cmd` como administrador.
--   Keep the option "Use http instead of https" in Peacock patcher ticked unless you are playing Ghost Mode.
+-   Mantenha a opção "Use http instead of https" no Peacock ativada a não ser que esteja jogando o Modo Fantasma.
 
-#### Port In Use
+#### Porta em Uso
 
-If you're getting an error that looks like this:
+Se você estiver vendo um erro que se pareça com isso:
 
-![The error message shown when Peacock tries to use a port that's in use](/img/wiki/port_in_use.png)
+![Mensagem de erro emitida quando o Peacock tenta usar uma porta em uso](/img/wiki/port_in_use.png)
 
-The error message for this issue will be something along the lines of "failed to bind the server to port X".
+A mensagem de erro para esse problema vai ser algo parecido com "falha ao vincular o servidor à porta X".
 
-Check [this guide](../troubleshooting/fix-port-in-use.md) for an explanation and instructions on how to fix it.
+Veja [este guia](../troubleshooting/fix-port-in-use.md) para uma explicação e instruções em como consertar.
 
 ## Outro
 

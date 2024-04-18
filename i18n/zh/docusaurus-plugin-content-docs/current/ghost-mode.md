@@ -30,5 +30,5 @@ Peacock项目很高兴宣布我们已经运行了我们自己的[LocalGhost](htt
 
 ## 旁注
 
--   You can also play Ghost Mode with two people connected to the same Peacock instance, however exposing Peacock outside your home network may not be safe and isn't recommended.
+-   您也可以与连接到同一 Peacock 的两个人一起玩幽灵模式，但将 Peacock 暴露在家庭网络之外可能并不安全，因此不建议这样做。
 -   该幽灵模式服务器由Peacock项目团队运行，但_不是Peacock本身_！
