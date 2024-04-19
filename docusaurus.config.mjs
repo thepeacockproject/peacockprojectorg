@@ -191,7 +191,6 @@ export default {
             }
         ],
         "@docusaurus/plugin-content-pages",
-        // require.resolve("./src/search/plugin.mjs"),
         [
             "@docusaurus/plugin-sitemap",
             {
