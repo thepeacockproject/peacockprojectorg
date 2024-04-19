@@ -3,7 +3,7 @@ title: Käyttöehdot (Terms of service)
 description: Peacock's Terms of Service.
 ---
 
-While we aren't exactly lawyers, we do have some terms and conditions that must be followed.
+While we aren't lawyers, we do have some terms and conditions that must be followed.
 
 ## Terms
 

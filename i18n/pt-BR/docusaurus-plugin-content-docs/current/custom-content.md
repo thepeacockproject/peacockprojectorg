@@ -5,14 +5,6 @@ description: Uma visão geral do conteúdo customizado que existe no Peacock.
 
 O Peacock tem vários benefícios incluídos para nossos usuários. Aqui vai uma espiada no nosso conteúdo customizado!
 
-## Alvos Elusivos
-
-Dentro do Peacock, você pode jogar Alvos Elusivos sem nenhum tempo limite ao reiniciar (ao contrário do Arcade de Alvos Elusivos), e sem nenhum tempo limite.
-
-- **Como Jogar:**
-    - Depois de iniciar o Hitman 3 usando o Peacock, vá para `Career` -> `Elusive Targets` no jogo.
-- Veja a seção [Plugins](#plugins) por informações sobre a instalação do alvo elusivo "Os Irmãos" (conteúdo cortado) em Hitman 3.
-
 ## Agravamentos
 
 ### Agravamentos Peacock Customizados
@@ -68,37 +60,3 @@ Faça o Download dos arquivos `.json` de contratos do canal `share-contracts` no
 #### Como Jogar
 
 - Vá para o menu `Game Modes` -> `Contracts` -> `My Contracts` em jogo.
-
-## Plugins
-
-O Peacock suporta uma grande variedade de mods de servidor (plugins). Esses incluem, mas não estão limitados a:
-
-- Modo Massacre
-    - Todos os NPCs reais são marcados como alvos, podendo receber avaliação Assassino Silencioso depois de ter matado a todos.
-    - Nota: Bem bugado em mapas com mais de 200 alvos, armas podem falhar em momentos aleatórios. Você pode precisar matar usando métodos corpo a corpo.
-- Alvo Elusivo Os Irmãos (Conteúdo Cortado / Mod de Fã)
-    - NOTA: Apesar de o Alvo Elusivo Os Irmãos ser compatível com o Peacock, é uma **interpretação de fãs** de como a missão iria se desenrolar, e não é necessariamente canônico
-    - Download de Arquivo: https://www.nexusmods.com/hitman3/mods/375?tab=files
-    - Instale a porção principal do mod (o arquivo não marcado como "Peacock Plugin") através do Simple Mod Framework. Instale a seção do mod "Peacock Plugin" colocando-o na sua pasta de instalação do Peacock
-- Plugins para adicionar armas não usadas no jogo
-- Plugins para modificar armas e disfarces existentes
-
-### Como Instalar Plugins
-
-Amplamente falando, para baixar plugins, vá para os canais `plugins` ou `#plugin-releases` no servidor Discord do Peacock e faça o download de um plugin em que tenha interesse.
-
-- Coloque os plugins na pasta `plugins`, localizada na pasta Peacock (criada automaticamente pelo servidor na primeira vez em que foi executado).
-- O plugin deve terminar com `.plugin.js` ou `Plugin.js` - se foi obtido como um arquivo `.zip`, extraia seus conteúdos primeiro.
-
-Exemplo: ![Pasta de plugins](/img/wiki/plugins_folder.png)
-
-- Verifique por quaisquer outras instruções na descrição do plugin, já que alguns deles podem necessitar de configurações adicionais ou não irão funcionar com versões mais recentes do Peacock.
-
-:::note
-
-Plugins são apenas uma pequena parte da comunidade Hitman de mods. **Vários mods de Hitman são manipulados pelo lado do cliente e estão fora da alçada do Peacock.** Mais mods gerais de uso pelo usuário, fora da responsabilidade do Peacock, estão agregados aqui:
-
-- [Nexusmods](https://www.nexusmods.com/hitman3)
-- [Discord de Mods Glacier](https://discord.com/invite/6UDtuYhZP6)
-
-:::

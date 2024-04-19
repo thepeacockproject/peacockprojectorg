@@ -3,7 +3,7 @@ title: Servicevoorwaarden
 description: Peacock's Servicevoorwaarden en Gebruik.
 ---
 
-We zijn niet echt advocaten, maar we hebben wel een aantal voorwaarden die moeten worden nageleefd.
+While we aren't lawyers, we do have some terms and conditions that must be followed.
 
 ## Voorwaarden
 

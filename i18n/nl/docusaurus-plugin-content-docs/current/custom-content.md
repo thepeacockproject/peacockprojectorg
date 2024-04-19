@@ -5,14 +5,6 @@ description: Een overzicht van de aangepaste inhoud die Peacock levert.
 
 Peacock heeft heel veel leuke dingen voor haar gebruikers. Hier is een kijkje in onze zelfgemaakte inhoud!
 
-## Elusive Targets
-
-Within Peacock, you can replay Elusive Targets without any time limit on restarts (unlike Elusive Target Arcade), and without a time limit.
-
-- **Hoe te spelen:**
-    - Na Hitman 3 opgestart te hebben met Peacock, kun je naar `Career` -> `Elusive Targets` in het spel.
-- See the [Plugins](#plugins) section for information on installing "The Brothers" Elusive Target (cut content) in Hitman 3.
-
 ## Escalations
 
 ### Custom Peacock Escalations
@@ -68,37 +60,3 @@ Download the contract's `.json` file from the `share-contracts` channel in Peaco
 #### How to Play
 
 - Ga naar `Game Modes` -> `Contracts` -> `My Contracts` in het spel om te spelen.
-
-## Plugins
-
-Peacock supports a broad variety of server side mods (plugins). Deze mods bevatten, maar zijn niet beperkt tot:
-
-- Kill Everyone Mode
-    - Alle echte NPC's zijn als doelwit gemarkeerd. Je kan Silent Assassin terugkrijgen nadat je iedereen hebt vermoord.
-    - Opmerking: Werkt mogelijk minder goed met maps die meer dan 200+ doelwitten bevatten. Geweren kunnen willekeurig vastlopen. Mogelijk moet je beginnen met doden via melee.
-- Brothers Elusive Target (Cut Content / Fan Mod)
-    - NOTE: Although the Brothers ET mod is compatible with Peacock, it is a **fan interpretation** of how the mission would have played out, and not necessarily canon
-    - File Download: https://www.nexusmods.com/hitman3/mods/375?tab=files
-    - Install the main portion of the mod (the file not marked "Peacock Plugin") through Simple Mod Framework. Install the "Peacock Plugin" portion of the mod by putting it into your Peacock Install folder
-- Plugins om anders ongebruikte wapens toe te voegen aan het spel
-- Plugins om bestaande wapens en vermommingen te bewerken
-
-### How to Install Plugins
-
-Broadly speaking, to install plugins, go to either the `plugins` or `#plugin-releases` channel in the Peacock Discord and download a plugin you are interested in.
-
-- Put your plugins into the `plugins` folder, located in the Peacock folder (created automatically by the server the first time you launch it).
-- The plugin should end with `.plugin.js` or `Plugin.js` - if it's distributed as a `.zip`, extract it first.
-
-Example: ![Plugins folder](/img/wiki/plugins_folder.png)
-
-- Be sure to check for any further instructions in the plugin's description, as some plugins may require further setup steps or won't work with newer versions of Peacock.
-
-:::note
-
-Plugins are only a small portion of the Hitman modding scene. **Many Hitman mods are done client-side and out of scope of Peacock.** More general-use client-side mods, outside the scope of Peacock, are aggregated here:
-
-- [Nexusmods](https://www.nexusmods.com/hitman3)
-- [Glacier Modding Discord](https://discord.com/invite/6UDtuYhZP6)
-
-:::
