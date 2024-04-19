@@ -3,18 +3,18 @@ export default {
         {
             type: "doc",
             label: "Home",
-            id: "home",
+            id: "home"
         },
         {
             type: "doc",
-            id: "intel/what-is-peacock",
+            id: "intel/what-is-peacock"
         },
         {
             type: "category",
             label: "User Guide",
             link: {
                 type: "generated-index",
-                slug: "intel",
+                slug: "intel"
             },
             items: [
                 "intel/requirements",
@@ -29,38 +29,50 @@ export default {
                     label: "Troubleshooting Guides",
                     link: {
                         type: "generated-index",
-                        slug: "troubleshooting",
+                        slug: "troubleshooting"
                     },
                     items: [
                         "troubleshooting/fix-port-in-use"
-                    ],
-                },
-            ],
+                    ]
+                }
+            ]
+        },
+        {
+            type: "category",
+            label: "Features",
+            link: {
+                type: "generated-index",
+                slug: "features"
+            },
+            items: [
+                "features/elusive-targets",
+                "features/plugins"
+            ]
         },
         {
             type: "doc",
-            id: "custom-content",
+            id: "custom-content"
         },
         {
             type: "doc",
-            id: "ghost-mode",
+            id: "ghost-mode"
         },
         {
             type: "doc",
-            id: "initiatives",
+            id: "initiatives"
         },
         {
             type: "doc",
-            id: "roadmaps",
+            id: "roadmaps"
         },
         {
             type: "doc",
-            id: "credits",
+            id: "credits"
         },
         {
             type: "category",
             label: "Legal",
-            items: ["legal/privacy-policy", "legal/terms-of-service"],
-        },
-    ],
+            items: ["legal/privacy-policy", "legal/terms-of-service"]
+        }
+    ]
 }
