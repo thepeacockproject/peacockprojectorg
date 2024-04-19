@@ -15,7 +15,7 @@ plugins that go along with them to make certain features work in Peacock's onlin
 
 :::note
 
-Plugins são apenas uma pequena parte da comunidade Hitman de mods. \*\*Vários mods de Hitman são manipulados pelo lado do cliente e estão fora da alçada do Peacock. Mais mods gerais de uso pelo usuário, fora da responsabilidade do Peacock, estão agregados aqui:
+Plugins são apenas uma pequena parte da comunidade Hitman de mods. **Vários mods de Hitman são manipulados pelo lado do cliente e estão fora da alçada do Peacock.** Mais mods gerais de uso pelo usuário, fora da responsabilidade do Peacock, estão agregados aqui:
 
 - [NexusMods](https://www.nexusmods.com/hitman3)
 - [Glacier Modding Discord](https://discord.com/invite/6UDtuYhZP6)
