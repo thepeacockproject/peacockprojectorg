@@ -23,6 +23,7 @@ export default {
                 "intel/updating",
                 "intel/autosplitter-setup",
                 "intel/loadout-profiles-elp",
+                "features/progression-transfer",
                 "intel/faq",
                 {
                     type: "category",
@@ -46,7 +47,8 @@ export default {
             },
             items: [
                 "features/elusive-targets",
-                "features/plugins"
+                "features/plugins",
+                "features/progression-transfer"
             ]
         },
         {
