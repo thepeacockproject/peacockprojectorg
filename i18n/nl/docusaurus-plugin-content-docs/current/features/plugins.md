@@ -2,51 +2,51 @@
 title: Plugins
 ---
 
-Peacock supports a broad variety of server side mods (plugins). Plugins can add new content to the game, or change
-existing mechanics.
+Peacock ondersteunt een breed scala aan mods (plugins) voor de server. Plugins kunnen nieuwe inhoud aan het spel toevoegen of bestaande
+mechanieken veranderen.
 
-## What can plugins do?
+## Wat kunnen plugins doen?
 
-Plugins are able to make changes to the parts of the game that Peacock handles.
-This includes menus, missions, contracts mode, leaderboards, and unlockables, among other things.
+Plugins kunnen wijzigingen aanbrengen in de onderdelen van het spel die Peacock afhandelt.
+Dit omvat onder andere menu's, missies, de contractmodus, klassementen en vrij te spelen items.
 
-One limitation of plugins is that they can't modify the game's files on their own, but some mods for the game have
-plugins that go along with them to make certain features work in Peacock's online mode, instead of only offline mode.
+Een beperking van plugins is dat ze de bestanden van het spel niet zelf kunnen aanpassen, maar sommige mods voor het spel hebben
+plugins die erbij horen om bepaalde functies te laten werken in de online modus van Peacock, in plaats van alleen in de offline modus.
 
 :::note
 
-Plugins are only a small portion of the Hitman modding scene. **Many Hitman mods are done client-side and out of
-scope of Peacock.** More general-use client-side mods, outside the scope of Peacock, are aggregated here:
+Plugins vormen maar een klein deel van het modding-gedeelte van Hitman. **Veel Hitman mods worden client-side gemaakt en
+vallen buiten het bereik van Peacock.** Client-side mods voor algemeen gebruik, buiten het bereik van Peacock, worden hier samengevoegd:
 
 - [NexusMods](https://www.nexusmods.com/hitman3)
 - [Glacier Modding Discord](https://discord.com/invite/6UDtuYhZP6)
 
 :::
 
-## Examples
+## Voorbeelden
 
-Here are some of the plugins that have been made by our community:
+Hier zijn enkele plugins die door onze community zijn gemaakt:
 
-- Kill Everyone Campaign by Anthony Fuller
-  - All real NPC's marked as targets, can get Silent Assassin rating back after killing everyone.
-  - Note: Very buggy for maps with 200+ targets, guns may jam randomly. You may need to start by melee killing people.
-- Plugins that add unused weapons to the game (such as the [Beanbag Shotgun](/img/wiki/beanbag_shotgun.png))
-- Plugins to modify existing weapons and disguises
+- Kill Everyone Campaign door Anthony Fuller
+  - Alle echte NPC's die als doelwit zijn gemarkeerd, kunnen de Silent Assassin-rating terugbrengen nadat iedereen is gedood.
+  - Opmerking: Zeer foutgevoelig voor maps met 200+ doelwitten, geweren kunnen willekeurig vastlopen. Misschien moet je beginnen met het doden van mensen in gevechten van dichtbij.
+- Plugins die ongebruikte wapens aan het spel toevoegen (zoals de [Beanbag Shotgun](/img/wiki/beanbag_shotgun.png))
+- Plugins om bestaande wapens en vermommingen aan te passen
 
-## How to Install Plugins
+## Hoe plugins installeren
 
-To install plugins, go to either the `plugins` or `#plugin-releases` (being phased out) channel in the Peacock Discord
-and download a plugin you are interested in.
+Om plugins te installeren, ga je naar het `plugins` of `#plugin-releases` (wordt uitgefaseerd) kanaal in de Peacock Discord
+en download je een plugin waarin je geïnteresseerd bent.
 
-- Put the downloaded files into the `plugins` folder, located in the Peacock folder (created automatically by the server
-  the first time you launch it).
-- The plugin should end with `.plugin.js` or `Plugin.js` - if it's distributed as a `.zip`, extract it first.
+- Plaats de gedownloade bestanden in de map `plugins` in de Peacock-map (automatisch aangemaakt door de server
+  wanneer je deze voor het eerst start).
+- De plugin moet eindigen met `.plugin.js` of `Plugin.js` - als het gedistribueerd is als een `.zip`, pak deze dan eerst uit.
 
-Example of the `plugins` folder: ![Plugins folder](/img/wiki/plugins_folder.png)
+Voorbeeld van de `plugins` map: ![Plugins folder](/img/wiki/plugins_folder.png)
 
-:::info Instructions
+:::info Instructies
 
-Be sure to check for any further instructions in the plugin's description. Some plugins may require further setup steps
-or haven't been updated yet for newer versions of Peacock.
+Zorg ervoor dat je kijkt voor verdere instructies in de beschrijving van de plugin. Sommige plugins vereisen mogelijk verdere installatiestappen
+of zijn nog niet bijgewerkt voor nieuwere versies van Peacock.
 
 :::

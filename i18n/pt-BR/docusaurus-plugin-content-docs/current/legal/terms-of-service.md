@@ -3,7 +3,7 @@ title: Termos de Serviço
 description: Termos de Serviço e Uso do Peacock.
 ---
 
-While we aren't lawyers, we do have some terms and conditions that must be followed.
+Mesmo que não sejamos advogados, temos alguns termos e condições que precisam ser seguidos.
 
 ## Termos
 

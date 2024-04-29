@@ -3,7 +3,7 @@ title: 服务条款
 description: Peacock团队的服务条款
 ---
 
-While we aren't lawyers, we do have some terms and conditions that must be followed.
+虽然我们不是律师，但我们这里有些您必须遵守的条款。
 
 ## 措辞
 

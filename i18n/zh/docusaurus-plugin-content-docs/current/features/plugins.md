@@ -2,51 +2,45 @@
 title: 插件
 ---
 
-Peacock supports a broad variety of server side mods (plugins). Plugins can add new content to the game, or change
-existing mechanics.
+Peacock支持各种各样的服务器端模组（插件）。 插件可以为游戏添加新内容，或改变现有机制。
 
-## What can plugins do?
+## 插件能干什么？
 
-Plugins are able to make changes to the parts of the game that Peacock handles.
-This includes menus, missions, contracts mode, leaderboards, and unlockables, among other things.
+插件可以更改Peacock所处理的游戏部分。
+其中包括菜单、任务、契约模式、排行榜和解锁等。
 
-One limitation of plugins is that they can't modify the game's files on their own, but some mods for the game have
-plugins that go along with them to make certain features work in Peacock's online mode, instead of only offline mode.
+插件的一个限制是它们不能单独修改游戏文件，但游戏的一些模组也有插件，可以让某些功能在Peacock的在线模式下运行，而不是只在离线模式下运行。
 
 :::note
 
-Plugins are only a small portion of the Hitman modding scene. **Many Hitman mods are done client-side and out of
-scope of Peacock.** More general-use client-side mods, outside the scope of Peacock, are aggregated here:
+插件只是杀手模组化场景中的一小部分。 \*\*许多杀手模组都是在客户端完成的，不在Peacock范围。\*\*更多Peacock范围外的客户端的通用模组，可以在这里查阅：
 
 - [NexusMods](https://www.nexusmods.com/hitman3)
 - [Glacier Modding Discord](https://discord.com/invite/6UDtuYhZP6)
 
 :::
 
-## Examples
+## 示例
 
-Here are some of the plugins that have been made by our community:
+以下是我们社区制作的一些插件：
 
-- Kill Everyone Campaign by Anthony Fuller
-  - All real NPC's marked as targets, can get Silent Assassin rating back after killing everyone.
-  - Note: Very buggy for maps with 200+ targets, guns may jam randomly. You may need to start by melee killing people.
-- Plugins that add unused weapons to the game (such as the [Beanbag Shotgun](/img/wiki/beanbag_shotgun.png))
-- Plugins to modify existing weapons and disguises
+- 杀光所有人，由Anthony Fuller制作
+  - 所有真实NPC都被标记为目标，在杀死所有人后可以获得沉默刺客评价。
+  - 注意：在有200+目标的地图中会出现卡顿，枪械可能会随机卡住。 你可能需要开始使用近战武器击杀目标。
+- 将未使用的武器添加到游戏中的插件(比如[豆袋霰弹枪](/img/wiki/beanbag_shotgun.png)）
+- 修改现有武器和伪装的插件
 
-## How to Install Plugins
+## 如何安装插件
 
-To install plugins, go to either the `plugins` or `#plugin-releases` (being phased out) channel in the Peacock Discord
-and download a plugin you are interested in.
+要想安装插件，前往Peacock Discord群组的`plugins`或`#plugin-releases`频道来下载一个你感兴趣的插件。
 
-- Put the downloaded files into the `plugins` folder, located in the Peacock folder (created automatically by the server
-  the first time you launch it).
-- The plugin should end with `.plugin.js` or `Plugin.js` - if it's distributed as a `.zip`, extract it first.
+- 将插件放入Peacock文件夹下的`plugins`文件夹（首次启动时服务器自动创建）。
+- 你的插件应以`.plugin.js`或`Plugin.js`结尾。如你获取的是`.zip`格式，请先将其解压。
 
-Example of the `plugins` folder: ![Plugins folder](/img/wiki/plugins_folder.png)
+`plugins`文件夹示例：[插件文件夹](/img/wiki/plugins_folder.png)
 
-:::info Instructions
+:::info 说明
 
-Be sure to check for any further instructions in the plugin's description. Some plugins may require further setup steps
-or haven't been updated yet for newer versions of Peacock.
+请务必查看插件说明中的进一步说明。 有些插件可能需要进一步的设置步骤，或者尚未针对新版本的 Peacock 进行更新。
 
 :::

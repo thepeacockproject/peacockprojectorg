@@ -2,50 +2,45 @@
 title: Plugins
 ---
 
-O Peacock suporta uma grande variedade de mods de servidor (plugins). Plugins can add new content to the game, or change
-existing mechanics.
+O Peacock suporta uma grande variedade de mods de servidor (plugins). Plugins podem adicionar novo conteúdo ao jogo, ou mudar mecânicas existentes.
 
-## What can plugins do?
+## O que plugins podem fazer?
 
-Plugins are able to make changes to the parts of the game that Peacock handles.
-This includes menus, missions, contracts mode, leaderboards, and unlockables, among other things.
+Plugins são capazes de fazer mudanças a partes do jogo que o Peacock gerencia.
+Isso inclui menus, missões, o modo contratos, placares e itens desbloqueáveis, entre outras coisas.
 
-One limitation of plugins is that they can't modify the game's files on their own, but some mods for the game have
-plugins that go along with them to make certain features work in Peacock's online mode, instead of only offline mode.
+Uma limitação de plugins é que eles não podem modificar os arquivos de jogo por conta própria, mas alguns mods para o jogo têm plugins imbutidos que fazem certos recursos funcionem no modo online do Peacock, em vez de apenas no modo offline.
 
 :::note
 
 Plugins são apenas uma pequena parte da comunidade Hitman de mods. **Vários mods de Hitman são manipulados pelo lado do cliente e estão fora da alçada do Peacock.** Mais mods gerais de uso pelo usuário, fora da responsabilidade do Peacock, estão agregados aqui:
 
 - [NexusMods](https://www.nexusmods.com/hitman3)
-- [Glacier Modding Discord](https://discord.com/invite/6UDtuYhZP6)
+- [Discord de Modding Glacier](https://discord.com/invite/6UDtuYhZP6)
 
 :::
 
 ## Exemplos
 
-Here are some of the plugins that have been made by our community:
+Aqui estão alguns dos plugins que têm sido feito pela nossa comunidade:
 
-- Kill Everyone Campaign by Anthony Fuller
+- Campanha Massacre Todos por Anthony Fuller
   - Todos os NPCs reais são marcados como alvos, podendo receber avaliação Assassino Silencioso depois de ter matado a todos.
   - Nota: Bem bugado em mapas com mais de 200 alvos, armas podem falhar em momentos aleatórios. Você pode precisar matar usando métodos corpo a corpo.
-- Plugins that add unused weapons to the game (such as the [Beanbag Shotgun](/img/wiki/beanbag_shotgun.png))
+- Plugins que adicionam armas não usadas ao jogo (como a [Escopeta Pufe](/img/wiki/beanbag_shotgun.png))
 - Plugins para modificar armas e disfarces existentes
 
 ## Como Instalar Plugins
 
-To install plugins, go to either the `plugins` or `#plugin-releases` (being phased out) channel in the Peacock Discord
-and download a plugin you are interested in.
+Para baixar plugins, vá para os canais `plugins` ou `#plugin-releases` (Está sendo desativado) no servidor Discord do Peacock e faça o download de um plugin em que tenha interesse.
 
-- Put the downloaded files into the `plugins` folder, located in the Peacock folder (created automatically by the server
-  the first time you launch it).
-- The plugin should end with `.plugin.js` or `Plugin.js` - if it's distributed as a `.zip`, extract it first.
+- Coloque os plugins na pasta `plugins`, localizada na pasta Peacock (criada automaticamente pelo servidor na primeira vez em que foi executado).
+- O plugin deve terminar com `.plugin.js` ou `Plugin.js` - se foi obtido como um arquivo `.zip`, extraia seus conteúdos primeiro.
 
-Example of the `plugins` folder: ![Plugins folder](/img/wiki/plugins_folder.png)
+Exemplo da pasta `plugins`: ![pasta Plugins](/img/wiki/plugins_folder.png)
 
 :::info Instruções
 
-Be sure to check for any further instructions in the plugin's description. Some plugins may require further setup steps
-or haven't been updated yet for newer versions of Peacock.
+Certifique-se de procurar por quaisquer outras instruções na descrição do plugin. Alguns plugins podem necessitar de passos de instalação adicionais ou não foram atualizados para novas versões do Peacock.
 
 :::
