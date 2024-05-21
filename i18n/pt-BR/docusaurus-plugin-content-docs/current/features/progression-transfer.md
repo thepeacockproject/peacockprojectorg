@@ -1,41 +1,41 @@
 ---
-title: Progression Transfer
+title: Transferência de Progressão
 ---
 
-Peacock supports transferring your progress from official World of Assassination game servers. This will override all of your current progress on Peacock.
+O Peacock suporta transferência de progressão dos servidores oficiais do jogo World of Assassination. Isso vai sobrescrever todo o seu progresso atual no Peacock.
 
-We currently only support same game and platform, for example, you can only go from Hitman 3 Steam → Hitman 3 Steam.
-Support for cross-game progression transfer is planned.
+Nós atualmente apenas suportamos o mesmo jogo e plataforma, por exemplo, você pode apenas ir de Hitman 3 Steam → Hitman 3 Steam.
+Suporte para progressão de jogos diferentes está no planejamento.
 
-## How do I do it?
+## Como eu faço isso?
 
-1. First, Start Peacock. Then connect to Peacock with the game. It is recommended that you now close the game.
+1. Primeiro, inicie o Peacock. Depois conecte-se ao Peacock com o jogo. É recomendado que você feche o jogo nesse momento.
 
-2. Navigate to Peacock's Web UI, most users can [click here](http://localhost/) to access it.
-   If Peacock is running on a different port, you can navigate to `http://localhost:PORT/` in a web browser.
+2. Navegue a UI do Peacock na web, a maioria dos usuários pode [clicar aqui](http://localhost/) para acessar.
+   Se o Peacock estiver rodando em uma porta diferente, acesse `http://localhost:PORTA/` por um navegador.
 
-3. Then, go to the **Progress Transfer** button on the nav bar at the top of the page.
-   Choose the account you wish to transfer progress to.
+3. Depois, vá para o botão **Progress Transfer** na barra de navegação no topo da página.
+   Escolha a conta para a qual você deseja transferir o progresso.
 
-4. Here you can see when you last transferred the progression of this account (if applicable).
-   Now press the green **Sync Now** button.
+4. Aqui você pode ver quando você transferiu a progressão dessa conta pela última vez (se for o caso).
+   Agora pressione o botão verde **Sync Now**.
 
-5. A pop-up will display, **READ IT CAREFULLY** - this is your last chance to opt-out.
+5. Uma janela aparecerá. **Leia atentamente** - essa será sua última chance de cancelar o procedimento.
 
-You will now see a pop-up box. If it is **green** then it was completed successfully!
-If it was **red**, it failed, read below for some common issues and their fixes.
+Você verá agora um retângulo aparecer. Se for **verde** então foi completado com sucesso!
+Se for **vermelho**, o procedimento falhou, e leia abaixo para saber sobre problemas comuns e suas correções.
 
-## Common Issues
+## Problemas Comuns
 
 ### Failed to get official authentication data
 
-**IF YOU DID NOT CONNECT TO PEACOCK FIRST**: Go back to step 1 with your reading glasses on.
+Falha na obtenção de dados de autenticação oficiais. **Se você não conectou ao Peacock primeiro**: Volte ao passo 1 com seus óculos de leitura.
 
-If you did: are you sure? Did you see the Peacock dashboard? Go back to step 1 and ensure you follow them.
+Se você conectou: tem certeza? Você viu a janela do Peacock? Volte ao passo 1 e certifique-se de tê-lo seguido.
 
-**DO YOU OWN THE GAME?** If you don't, it won't work.
+**VOCÊ TEM O JOGO?** Se não, não irá funcionar.
 
 ### Failed to sync official data
 
-Ensure you followed all steps outlined above. **ENSURE YOU OWN THE GAME.**
-If you still experience this, [make an issue](https://github.com/thepeacockproject/Peacock/issues/new/choose) or [join our Discord](https://discord.gg/F8qQTfnajw).
+Falha na sincronização de dados oficiais. Certifique-se de ter seguido todos os passos descritos acima. **CERTIFIQUE-SE DE TER O JOGO**
+Se você ainda está passando por isso, [abra um pedido](https://github.com/thepeacockproject/Peacock/issues/new/choose) ou [junte-se ao nosso Discord](https://discord.gg/F8qQTfnajw).
