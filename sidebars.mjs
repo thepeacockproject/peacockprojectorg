@@ -70,6 +70,11 @@ export default {
             id: "credits"
         },
         {
+            type: "link",
+            href: "/plugins",
+            label: "Plugin Development",
+        },
+        {
             type: "category",
             label: "Legal",
             items: ["legal/privacy-policy", "legal/terms-of-service"]
