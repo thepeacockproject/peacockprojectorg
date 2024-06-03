@@ -2,25 +2,25 @@
 title: Elusive Targets
 ---
 
-On Peacock, you can play all Elusive Targets in the game.
-Our implementation of Elusive Targets is simple: you can play them whenever you want, and finish or fail the missions as
-many times as you want, with no time penalties.
+Met Peacock kun je alle Elusive Targets in het spel spelen.
+Onze implementatie van Elusive Targets is eenvoudig: je kunt ze spelen wanneer je maar wilt en de missies zo vaak voltooien of niet voltooien als
+je wilt, zonder tijdstraffen.
 
-## How to Play
+## Speluitleg
 
-On HITMAN&trade; 2016, you will see an Elusive Targets tile on the main menu.
+In HITMAN&trade; 2016 zie je een Elusive Targets-tegel in het hoofdmenu.
 
-For other game versions, after starting up the game with Peacock, scroll right on the top bar of the main menu.
-Click the `Career` tab, then select the `Elusive Targets` tile.
+Voor andere spelversies scrol je na het opstarten van het spel met Peacock naar rechts op de bovenste balk van het hoofdmenu.
+Klik op het tabblad `Career` en selecteer dan de tegel `Elusive Targets`.
 
 :::info The Brothers
 
-You may see an Elusive Target on the menu titled "The Brothers", which the game will say you are missing the required
-content for.
-This Elusive Target is cut/unfinished content, and while the files are in the game, it needs to be activated by using
-mods.
+Het kan zijn dat je een Elusive Target ziet in het menu getiteld "The Brothers", waarvan het spel zegt dat je de vereiste
+content mist.
+Deze Elusive Target bevat onvoltooide content en hoewel de bestanden in het spel zitten, moet het worden geactiveerd door mods te
+gebruiken.
 
-Check out [this mod](https://www.nexusmods.com/hitman3/mods/375) by community member Kevin Rudd which adds back and
-polishes the mission.
+Bekijk [deze mod](https://www.nexusmods.com/hitman3/mods/375) van community-lid Kevin Rudd die de missie
+terugbrengt en repareert.
 
 :::

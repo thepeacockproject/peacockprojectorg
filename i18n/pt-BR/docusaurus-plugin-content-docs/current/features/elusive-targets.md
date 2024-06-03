@@ -1,26 +1,22 @@
 ---
-title: Elusive Targets
+title: Alvos Elusivos
 ---
 
-On Peacock, you can play all Elusive Targets in the game.
-Our implementation of Elusive Targets is simple: you can play them whenever you want, and finish or fail the missions as
-many times as you want, with no time penalties.
+No Peacock, você pode jogar todos os Alvos Elusivos no jogo.
+Nossa implementação de Alvos Elusivos é simples: você pode jogá-los quando quiser, e terminar ou falhar nas missões quantas vezes quiser, sem nenhuma penalidade de tempo.
 
 ## Como Jogar
 
-On HITMAN&trade; 2016, you will see an Elusive Targets tile on the main menu.
+No HITMAN&trade; 2016, você verá um botão de Alvo Elusivo no menu principal.
 
-For other game versions, after starting up the game with Peacock, scroll right on the top bar of the main menu.
-Click the `Career` tab, then select the `Elusive Targets` tile.
+Para outras versões do jogo, depois de inicializar o jogo com o Peacock, role para a direita na barra superior do menu principal.
+Clique na guia `Carreira`, e selecione a seção `Elusive Targets`.
 
-:::info The Brothers
+:::info Os Irmãos
 
-You may see an Elusive Target on the menu titled "The Brothers", which the game will say you are missing the required
-content for.
-This Elusive Target is cut/unfinished content, and while the files are in the game, it needs to be activated by using
-mods.
+Você pode ver um Alvo Elusivo no menu nomeado "Os Irmãos," e o jogo avisará que o conteúdo necessário está faltando.
+Esse Alvo Elusivo é um conteúdo cortado/não finalizado, e mesmo que os arquivos estejam no jogo, é necessário usar mods para ativá-los.
 
-Check out [this mod](https://www.nexusmods.com/hitman3/mods/375) by community member Kevin Rudd which adds back and
-polishes the mission.
+Veja [esse mod](https://www.nexusmods.com/hitman3/mods/375) pelo membro da comunidade Kevin Rudd, que adiciona e dá acabamento à missão.
 
 :::
