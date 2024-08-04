@@ -40,6 +40,9 @@ export default {
                 content: "peacock,project,hitman,server,replacement,offline"
             }
         ],
+        announcementBar: {
+            content: "<b>Check out our new <a href=\"https://www.youtube.com/watch?v=nF5ngiuDe5M\">official video tutorial on YouTube</a>!</b>",
+        },
         navbar: {
             logo: {
                 src: "/img/feather.png",

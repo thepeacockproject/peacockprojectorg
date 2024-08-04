@@ -3,6 +3,12 @@ title: Requirements
 description: Requirements for running and using Peacock.
 ---
 
+:::tip Video Tutorial
+
+Want this guide in video/spoken form? Check out our [video tutorial](https://www.youtube.com/watch?v=nF5ngiuDe5M).
+
+:::
+
 ## Supported Games / Platforms
 
 -   Hitman 2016 ([Steam](https://store.steampowered.com/app/236870/HITMAN/) / [Epic](https://www.epicgames.com/store/en-US/p/hitman))
