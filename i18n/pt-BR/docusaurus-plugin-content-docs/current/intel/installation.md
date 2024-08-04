@@ -3,6 +3,16 @@ title: Instalação e Uso
 description: Como começar a usar o Peacock.
 ---
 
+## Instalação
+
+### Video Tutorial
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nF5ngiuDe5M?start=92" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="true"></iframe>
+
+Check out the video tutorial above for a walkthrough of the installation process. It may help to enable full-screen mode!
+
+### Instruções
+
 Aqui estão as instruções para se começar a usar o Peacock.
 
 -   Os passos 4-5 precisam ser repetidos todas as vezes que for iniciar o jogo. O jogo retorna aos servidores oficiais se não o fizer.

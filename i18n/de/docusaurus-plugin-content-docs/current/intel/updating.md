@@ -3,10 +3,18 @@ title: Updating to New Versions
 description: When should I update? How do I update? A guide on everything you need to know about updating.
 ---
 
-1. When you run `Start Server.cmd`, you may get an alert that Peacock is out of date, as shown in this example image: ![](/img/peacock_out_of_date.png).
+## Video Tutorial
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nF5ngiuDe5M?start=484" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media;picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="true"></iframe>
+
+Check out the video tutorial above for a walkthrough of the updating process. It may help to enable full-screen mode!
+
+## Instructions
+
+1. When you run `Start Server.cmd`, you may get an alert that Peacock is out of date, as shown in this example image: ![Out of date Peacock warning](/img/peacock_out_of_date.png).
 2. Usually you will need to update Peacock only when there is a new game update, but stay tuned in the Peacock Discord's `#updates` and `#downloads` channels to be safe.
     - Note: Peacock may be temporarily unavailable after a game update, as it takes a few hours for the Peacock Patcher to be updated as well.
-3. If there is a new Peacock update, go to the [latest Peacock release on Github](https://github.com/thepeacockproject/Peacock/releases/latest) to download the latest build.
+3. If there is a new Peacock update, go to the [latest Peacock release on GitHub](https://github.com/thepeacockproject/Peacock/releases/latest) to download the latest build.
 4. Extract (unzip) files. Running the files from within the zipped folder will not work.
 5. **Assuming you have used Peacock during the previous game update**, follow the instructions below to keep your loadouts and in-game save files (Otherwise, your loadouts will all default back to ICA19/coins/fiberwire, and your in-game save files will be lost).
 

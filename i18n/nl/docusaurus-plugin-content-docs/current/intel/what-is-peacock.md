@@ -21,8 +21,8 @@ Here's a brief breakdown of what Peacock does:
     -   **By default, progression / challenge completion is turned on to simulate an official servers experience.**
     -   **You can reset progress (challenges, XP, mastery, etc) at any time** by deleting your `userdata` folder within your Peacock Install directory.
     -   Als je het spel voor de eerste keer speelt (op Peacock of op de officiële servers), zullen sommige uitgangen afgesloten zijn. Je moet eerst de uitgangen in Dubai ontgrendelen ([de liften ontgrendelen)](https://youtu.be/IEQgRQyQRf8), de Dartmoor uitgangen ([je moet minimaal een keer met de motor vertrekken](https://youtu.be/AJtJZe9jEi8?t=151)), en de Colorado uitgangen ([je moet minimaal een keer met de tornado uitgang de map verlaten](https://youtu.be/3XKWHrKpXwk?t=140)). Deze uitgangen worden client-side afgehandeld.
--   Peacock lets you play [custom](.././custom-content.md) or otherwise discontinued / time limited content such as [Ghost Mode](.././ghost-mode.md), Sniper co-op, escalations, elusive targets, and contracts.
-    -   Both official server escalation / elusive targets / contracts and custom / modded ones are supported, see [here](.././custom-content.md) for more info.
+-   Peacock lets you play [custom](../custom-content.md) or otherwise discontinued / time limited content such as [Ghost Mode](../ghost-mode.md), Sniper co-op, escalations, elusive targets, and contracts.
+    -   Both official server escalation / elusive targets / contracts and custom / modded ones are supported, see [here](../custom-content.md) for more info.
 -   Display leaderboards for other Peacock users (Cross Platform, Epic and Steam)
 -   In Game Saving is supported, and as of Peacock v5.0.1 you can load official server saves in Peacock.
 

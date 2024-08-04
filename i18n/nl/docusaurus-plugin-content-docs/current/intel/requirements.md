@@ -3,6 +3,12 @@ title: Vereisten
 description: Vereisten voor het uitvoeren en het gebruiken van Peacock.
 ---
 
+:::tip Video Tutorial
+
+Want this guide in video/spoken form? Check out our [video tutorial](https://www.youtube.com/watch?v=nF5ngiuDe5M).
+
+:::
+
 ## Ondersteunde spellen / platforms
 
 -   Hitman 2016 ([Steam](https://store.steampowered.com/app/236870/HITMAN/) / [Epic](https://www.epicgames.com/store/en-US/p/hitman))

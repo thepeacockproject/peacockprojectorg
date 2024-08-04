@@ -7,6 +7,12 @@ Peacock支持从暗杀世界官方服务器将您的进度转移过来。 这将
 我们目前只支持同一版本游戏的同一平台，例如，您只能从《杀手3》Steam端转至 《杀手3》Steam端。
 对跨游戏版本的进度转移支持已在计划中。
 
+## Video Tutorial
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nF5ngiuDe5M?start=201" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="true"></iframe>
+
+Check out the video tutorial above for a walkthrough of the progression transfer process. It may help to enable full-screen mode!
+
 ## 我该怎么做？
 
 1. 首先，启动Peacock。 再将游戏连接至Peacock。 我们建议您接下来关闭游戏。

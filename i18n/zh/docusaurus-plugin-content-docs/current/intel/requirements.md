@@ -3,6 +3,12 @@ title: 需求
 description: 运行和使用Peacock的需求。
 ---
 
+:::tip Video Tutorial
+
+Want this guide in video/spoken form? Check out our [video tutorial](https://www.youtube.com/watch?v=nF5ngiuDe5M).
+
+:::
+
 ## 受支持的游戏/平台
 
 -   《杀手》2016（[Steam](https://store.steampowered.com/app/236870/HITMAN/) / [Epic](https://www.epicgames.com/store/en-US/p/hitman)）

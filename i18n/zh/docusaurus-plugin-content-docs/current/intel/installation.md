@@ -3,6 +3,16 @@ title: 安装和使用
 description: 如何上手Peacock。
 ---
 
+## 安装
+
+### Video Tutorial
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nF5ngiuDe5M?start=92" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="true"></iframe>
+
+Check out the video tutorial above for a walkthrough of the installation process. It may help to enable full-screen mode!
+
+### 说明
+
 以下是获取和运行Peacock的教程。
 
 -   在你每次启动游戏时都需要重复步骤4-5。 否则游戏将默认地回到官方服务器。
