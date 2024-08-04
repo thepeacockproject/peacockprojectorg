@@ -5,7 +5,7 @@ description: 如何安装为整局游戏速通安装Peacock计时器。
 
 _教程由[Fusha](https://github.com/fu5ha)编写_。
 
-此工具用于杀手游戏的整局速通。
+此工具用于《杀手》游戏的全段速通。
 
 ## 说明
 
@@ -17,7 +17,7 @@ _教程由[Fusha](https://github.com/fu5ha)编写_。
 
 -   完全自动分时，基于你开始的关卡和你游玩的整局游戏类别。 不需要手动开始和关闭计时器（例如通过按下数字小键盘按键）。
 
--   Steam和Epic平台上的杀手3均可用，不像官方服务器计时器（仅能在Epic使用）。
+-   Steam和Epic上的《杀手3》均可用，不像官方服务器计时器（其仅能在Epic使用）。
 
 -   显然，这些功能只能在[Peacock](./what-is-peacock.md)上使用，如果你在官方服务器上游玩，出于一些原因你应该使用[其他两种Livesplit指南](https://hitruns-wiki.vercel.app/docs/livesplit)之一。
 

@@ -5,17 +5,17 @@ description: 运行和使用Peacock的需求。
 
 ## 受支持的游戏/平台
 
--   杀手2016（[Steam](https://store.steampowered.com/app/236870/HITMAN/) / [Epic](https://www.epicgames.com/store/en-US/p/hitman)）
--   杀手狙击刺客（[Steam仓库](https://steamdb.info/app/783780/)）
--   杀手2（[Steam](https://store.steampowered.com/app/863550/HITMAN_2/)）
--   杀手3（[Steam](https://store.steampowered.com/app/1659040/HITMAN_3/) / [Epic](https://www.epicgames.com/store/en-US/p/hitman-3)）
+-   《杀手》2016（[Steam](https://store.steampowered.com/app/236870/HITMAN/) / [Epic](https://www.epicgames.com/store/en-US/p/hitman)）
+-   《杀手：狙击手刺客》（[Steam仓库](https://steamdb.info/app/783780/)）
+-   《杀手2》（[Steam](https://store.steampowered.com/app/863550/HITMAN_2/)）
+-   《杀手3》（[Steam](https://store.steampowered.com/app/1659040/HITMAN_3/) / [Epic](https://www.epicgames.com/store/en-US/p/hitman-3)）
 
 ### 不受支持的游戏/平台
 
 -   其他任何未在“受支持”列表中列出的平台，例如主机平台，是不受支持的。
--   预览版本的杀手3是不受支持的。
--   Game Pass或Microsoft PC版本的杀手3的不受支持的。
--   **任何杀手1-3的破解版是不受支持的，并且如果你询问如何使用任何破解版的问题，你将会在Peacock Discord群组中被封禁。**
+-   预览版本的《杀手3》不受支持。
+-   Game Pass或Microsoft PC版本的《杀手3》不受支持。
+-   **任何《杀手》1-3的破解版不受支持，并且如果你询问如何使用任何破解版的问题，你将会在Peacock Discord群组中被封禁。**
 
 ## 受支持的操作系统
 

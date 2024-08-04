@@ -13,7 +13,7 @@ Peacock支持各种各样的服务器端模组（插件）。 插件可以为游
 
 :::note
 
-插件只是杀手模组化场景中的一小部分。 \*\*许多杀手模组都是在客户端完成的，不在Peacock范围。\*\*更多Peacock范围外的客户端的通用模组，可以在这里查阅：
+插件只是《杀手》模组化场景中的一小部分。 \*\*许多《杀手》模组都是在客户端完成的，不在Peacock范围。\*\*更多Peacock范围外的客户端的通用模组，可以在这里查阅：
 
 - [NexusMods](https://www.nexusmods.com/hitman3)
 - [Glacier Modding Discord](https://discord.com/invite/6UDtuYhZP6)

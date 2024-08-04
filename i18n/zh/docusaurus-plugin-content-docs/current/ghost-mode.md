@@ -7,11 +7,11 @@ description: Peacock项目幽灵模式服务器，允许玩家使用已弃用的
 
 Peacock项目很高兴宣布我们已经运行了我们自己的[LocalGhost](https://gitlab.com/grappigegovert/LocalGhost)服务器！
 
-杀手&trade;2（以及Steam上安装了一个模组的杀手&trade;3）的幽灵模式现已以一个非官方的游戏模式回归！ 你可以通过Steam的邀请系统邀请一位好友加入一场好友间的幽灵模式比赛。
+《杀手2》（以及Steam上安装了一个模组的《杀手3》）的幽灵模式现已以一个非官方的游戏模式回归！ 你可以通过Steam的邀请系统邀请一位好友加入一场好友间的幽灵模式比赛。
 
 （_无法修改比赛设定_）。
 
-幽灵模式对在Steam上拥有杀手&trade;2或杀手&trade;3的PC玩家开放。
+幽灵模式对在Steam上拥有《杀手2》或《杀手3》的PC玩家开放。
 
 ## 如何连接
 
@@ -24,9 +24,9 @@ Peacock项目很高兴宣布我们已经运行了我们自己的[LocalGhost](htt
 
 想要回到官方服务器？ 只需要关闭补丁安装器并重新启动游戏。
 
-## 在杀手&trade;3上使用
+## 在《杀手3》中使用
 
-在杀手&trade;3上使用幽灵模式（仅限Steam版本），你需要为游戏安装一个客户端侧的模组。 模组可以在[这里](https://www.nexusmods.com/hitman3/mods/260)获取。
+要在《杀手3》上使用幽灵模式（仅限Steam版本），您需要为游戏安装一个客户端模组。 模组可以在[这里](https://www.nexusmods.com/hitman3/mods/260)获取。
 
 ## 旁注
 
