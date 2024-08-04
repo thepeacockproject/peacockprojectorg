@@ -8,13 +8,15 @@ on:
 jobs:
     synchronize-with-crowdin:
         runs-on: ubuntu-latest
+        permissions:
+            contents: write
 
         steps:
             - name: Checkout
               uses: actions/checkout@v4.1.1
 
             - name: crowdin action
-              uses: crowdin/github-action@v1.20.2
+              uses: crowdin/github-action@v2.1.1
               with:
                   upload_sources: true
                   upload_translations: false
@@ -22,6 +24,6 @@ jobs:
                   localization_branch_name: main
                   create_pull_request: false
               env:
-                  GITHUB_TOKEN: ${{ secrets.BOT_GH_TOKEN }}
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                   CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
                   CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PROJECT_SECRET }}
