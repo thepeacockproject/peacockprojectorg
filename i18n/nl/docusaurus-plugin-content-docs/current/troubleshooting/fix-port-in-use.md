@@ -28,16 +28,19 @@ If you use Visual Studio, you may have installed some services that interfere wi
 
 Here's how to change the port Peacock uses, if you don't want to stop the process on Port 80:
 
-In the instructions below, please substitute `PORTNUMBER` with a port that is not currently running on your PC, e.g. `8080`, `6969`, `3000`, etc.
+In the instructions below, please substitute `PORTNUMBER` with a port that is not currently in use on your PC, e.g. `8080`, `6969`, `3000`, etc.
 
 - Change `Start Server.cmd` to be as follows:
   ```bash
   @echo off
   SET PORT=PORTNUMBER
+  SET LOG_LEVEL_CONSOLE=info
+  SET LOG_CATEGORY_DISABLED=
+  SET LOG_MAX_FILES=14d
   .\nodedist\node.exe chunk0.js
   PAUSE
   ```
-- Type `127.0.0.1:PORTNUMBER` into the Patcher's URL field, as shown here: ![](/img/wiki/patcher_port.png)
+- Type `127.0.0.1:PORTNUMBER` into the Patcher's URL field, as shown here (click on the text and then type, the UI/UX will hopefully be improved soon): ![](/img/wiki/patcher_port.png)
 
 ## On Linux
 

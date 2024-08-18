@@ -28,16 +28,19 @@ Se você utiliza o Visual Studio, você pode ter instalado alguns serviços que 
 
 Abaixo você encontra informações sobre como mudar a Porta usada pelo Peacock, se você desejar parar a utilização na Porta 80:
 
-Nas instruções abaixo, substitua `NumeroDaPort` por uma port que não esteja sendo atualmente executada em seu PC, e.g. `8080`, `6969`, `3000`, etc.
+In the instructions below, please substitute `PORTNUMBER` with a port that is not currently in use on your PC, e.g. `8080`, `6969`, `3000`, etc.
 
 - Mude `Start Server.cmd` como descrito abaixo:
   ```bash
   @echo off
-  SET PORT=NumeroDaPorta
+  SET PORT=PORTNUMBER
+  SET LOG_LEVEL_CONSOLE=info
+  SET LOG_CATEGORY_DISABLED=
+  SET LOG_MAX_FILES=14d
   .\nodedist\node.exe chunk0.js
   PAUSE
   ```
-- Digite `127.0.0.1:NumeroDaPort` no campo de URL do Patcher, como demonstrado aqui: ![](/img/wiki/patcher_port.png)
+- Type `127.0.0.1:PORTNUMBER` into the Patcher's URL field, as shown here (click on the text and then type, the UI/UX will hopefully be improved soon): ![](/img/wiki/patcher_port.png)
 
 ## No Linux
 

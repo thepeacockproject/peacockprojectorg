@@ -3,9 +3,9 @@ title: Requisitos
 description: Requisitos para rodar e usar o Peacock.
 ---
 
-:::tip Video Tutorial
+:::tip Tutorial de Vídeo
 
-Want this guide in video/spoken form? Check out our [video tutorial](https://www.youtube.com/watch?v=nF5ngiuDe5M).
+Quer acessar esse guia em forma de vídeo/fala? Veja o nosso [tutorial em vídeo](https://www.youtube.com/watch?v=nF5ngiuDe5M).
 
 :::
 

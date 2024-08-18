@@ -7,11 +7,11 @@ O Peacock suporta transferência de progressão dos servidores oficiais do jogo 
 Nós atualmente apenas suportamos o mesmo jogo e plataforma, por exemplo, você pode apenas ir de Hitman 3 Steam → Hitman 3 Steam.
 Suporte para progressão de jogos diferentes está no planejamento.
 
-## Video Tutorial
+## Tutorial de Vídeo
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nF5ngiuDe5M?start=201" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="true"></iframe>
 
-Check out the video tutorial above for a walkthrough of the progression transfer process. It may help to enable full-screen mode!
+Veja esse tutorial em vídeo para um passo-a-passo do processo de transferência de progressão. Pode ser útil ativar a tela cheia!
 
 ## Como eu faço isso?
 

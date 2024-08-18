@@ -1,47 +1,47 @@
 ---
-title: Progression Transfer
+title: Progressie-overdracht
 ---
 
-Peacock supports transferring your progress from official World of Assassination game servers. This will override all of your current progress on Peacock.
+Peacock ondersteunt het overzetten van je voortgang van officiële World of Assassination-spelservers. Dit overschrijft al je huidige voortgang op Peacock.
 
-We currently only support same game and platform, for example, you can only go from Hitman 3 Steam → Hitman 3 Steam.
-Support for cross-game progression transfer is planned.
+We ondersteunen momenteel alleen hetzelfde spel en platform, je kunt bijvoorbeeld alleen van Hitman 3 Steam → Hitman 3 Steam gaan.
+Ondersteuning voor game-overschrijdende voortgangsoverdracht is gepland.
 
-## Video Tutorial
+## Video-handleiding
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nF5ngiuDe5M?start=201" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="true"></iframe>
 
-Check out the video tutorial above for a walkthrough of the progression transfer process. It may help to enable full-screen mode!
+Bekijk de bovenstaande video-handleiding voor een uitleg van het progressieoverdrachtproces. Het kan helpen om de modus Volledig scherm in te schakelen!
 
-## How do I do it?
+## Hoe doe ik het?
 
-1. First, Start Peacock. Then connect to Peacock with the game. It is recommended that you now close the game.
+1. Start eerst Peacock. Maak vervolgens verbinding met Peacock met het spel. We raden je aan om het spel nu af te sluiten.
 
-2. Navigate to Peacock's Web UI, most users can [click here](http://localhost/) to access it.
-   If Peacock is running on a different port, you can navigate to `http://localhost:PORT/` in a web browser.
+2. Navigeer naar de Peacock Web UI, de meeste gebruikers kunnen [hier klikken](http://localhost/) om deze te openen.
+   Als Peacock op een andere poort draait, kun je naar `http://localhost:PORT/` navigeren in een webbrowser.
 
-3. Then, go to the **Progress Transfer** button on the nav bar at the top of the page.
-   Choose the account you wish to transfer progress to.
+3. Ga vervolgens naar de knop **Progressie-overdracht** op de navigatiebalk boven aan de pagina.
+   Kies het account waarnaar je de voortgang wilt overboeken.
 
-4. Here you can see when you last transferred the progression of this account (if applicable).
-   Now press the green **Sync Now** button.
+4. Hier kun je zien wanneer je de progressie van dit account voor het laatst hebt overgedragen (indien van toepassing).
+   Druk nu op de groene knop **Synchroniseer nu**.
 
-5. A pop-up will display, **READ IT CAREFULLY** - this is your last chance to opt-out.
+5. Er verschijnt een pop-up **LEES HET GOED** - dit is je laatste kans om je af te melden.
 
-You will now see a pop-up box. If it is **green** then it was completed successfully!
-If it was **red**, it failed, read below for some common issues and their fixes.
+Er verschijnt nu een pop-upvenster. Als het **groen** is, is het succesvol voltooid!
+Als het **rood** was, is het mislukt. Lees hieronder enkele veelvoorkomende problemen en hun oplossingen.
 
-## Common Issues
+## Algemene problemen
 
-### Failed to get official authentication data
+### Er zijn geen officiële verificatiegegevens verkregen
 
-**IF YOU DID NOT CONNECT TO PEACOCK FIRST**: Go back to step 1 with your reading glasses on.
+**ALS JE NIET EERST VERBINDING HEBT GEMAAKT MET PEACOCK**: Ga terug naar stap 1 met je leesbril op.
 
-If you did: are you sure? Did you see the Peacock dashboard? Go back to step 1 and ensure you follow them.
+Als je dat hebt gedaan: weet je het zeker? Heb je het dashboard van Peacock gezien? Ga terug naar stap 1 en zorg ervoor dat je ze volgt.
 
-**DO YOU OWN THE GAME?** If you don't, it won't work.
+\*\*BEZIT JE HET SPEL? \*\* Zo niet, dan werkt het niet.
 
-### Failed to sync official data
+### Synchronisatie van officiële gegevens mislukt
 
-Ensure you followed all steps outlined above. **ENSURE YOU OWN THE GAME.**
-If you still experience this, [make an issue](https://github.com/thepeacockproject/Peacock/issues/new/choose) or [join our Discord](https://discord.gg/F8qQTfnajw).
+Zorg ervoor dat je alle bovenstaande stappen hebt gevolgd. \*\*ZORG ERVOOR DAT JE HET SPEL BEZIT.
+Als je dit nog steeds ervaart, [maak een issue](https://github.com/thepeacockproject/Peacock/issues/new/choose) of [word lid van onze Discord](https://discord.gg/F8qQTfnajw).

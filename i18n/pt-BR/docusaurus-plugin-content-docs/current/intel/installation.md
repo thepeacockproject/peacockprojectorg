@@ -5,11 +5,11 @@ description: Como começar a usar o Peacock.
 
 ## Instalação
 
-### Video Tutorial
+### Tutorial de Vídeo
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nF5ngiuDe5M?start=92" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="true"></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nF5ngiuDe5M?start=92" title="Player de vídeo do YouTube" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="true"></iframe>
 
-Check out the video tutorial above for a walkthrough of the installation process. It may help to enable full-screen mode!
+Veja esse tutorial em vídeo para um passo-a-passo do processo de instalação. Pode ser útil ativar a tela cheia!
 
 ### Instruções
 
