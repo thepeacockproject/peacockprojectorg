@@ -4,7 +4,7 @@ title: Missing Strings (UI_PEACOCK)
 
 This is caused by the dynamic resources package not being downloaded from Peacock.
 
-Mods can disable downloading this to allow their weapon (or other repository edits)changes to show on official via a thumbs command.
+Mods can disable downloading this to allow their weapon (or other repository edits) changes to show on official via a thumbs command.
 But this also stops Peacock's dynamic resources package from being downloaded, this only contains a localisation file for Peacock's custom content.
 
 You can identify it by the text of custom Peacock menu elements showing text starting with `['UI_PEACOCK` as shown in the image.

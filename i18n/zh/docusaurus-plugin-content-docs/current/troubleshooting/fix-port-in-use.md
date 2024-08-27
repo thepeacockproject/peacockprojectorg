@@ -28,7 +28,7 @@ title: 端口正在使用的错误
 
 如果你不想停用80端口的进程，这里是修改Peacock使用端口的方式：
 
-In the instructions below, please substitute `PORTNUMBER` with a port that is not currently in use on your PC, e.g. `8080`, `6969`, `3000`, etc.
+在下面的指引中，请将端口号替换为当前在你设备上一个未在运行的端口，例如`8080`、`6969`、`3000`等等。
 
 - 如下修改`Start Server.cmd`文件：
   ```bash
@@ -40,7 +40,7 @@ In the instructions below, please substitute `PORTNUMBER` with a port that is no
   .\nodedist\node.exe chunk0.js
   PAUSE
   ```
-- Type `127.0.0.1:PORTNUMBER` into the Patcher's URL field, as shown here (click on the text and then type, the UI/UX will hopefully be improved soon): ![](/img/wiki/patcher_port.png)
+- 在补丁器的URL字段中键入`127.0.0.1:PORTNUMBER`，如图所示（请点击文本框输入，用户界面的体验有望很快得到改进）： ![](/img/wiki/patcher_port.png)
 
 ## 在 Linux 上
 

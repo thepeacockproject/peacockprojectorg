@@ -5,11 +5,11 @@ description: 如何上手Peacock。
 
 ## 安装
 
-### Video Tutorial
+### 视频教程
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nF5ngiuDe5M?start=92" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="true"></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nF5ngiuDe5M?start=92" title="YouTube视频播放器" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="true"></iframe>
 
-Check out the video tutorial above for a walkthrough of the installation process. It may help to enable full-screen mode!
+查看上面的视频教程，了解安装过程。 开启全屏模式可能会有所帮助！
 
 ### 说明
 

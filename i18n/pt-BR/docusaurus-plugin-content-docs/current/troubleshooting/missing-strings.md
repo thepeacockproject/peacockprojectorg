@@ -1,36 +1,36 @@
 ---
-title: Missing Strings (UI_PEACOCK)
+title: Sequências de Texto Faltantes (UI_PEACOCK)
 ---
 
-This is caused by the dynamic resources package not being downloaded from Peacock.
+Isso é causado por o pacote de recursos dinâmicos não ter sido baixado pelo Peacock.
 
-Mods can disable downloading this to allow their weapon (or other repository edits)changes to show on official via a thumbs command.
-But this also stops Peacock's dynamic resources package from being downloaded, this only contains a localisation file for Peacock's custom content.
+Mods can disable downloading this to allow their weapon (or other repository edits) changes to show on official via a thumbs command.
+Porém, isso também impede que o pacote de recursos dinâmicos do Peacock seja baixado, isso apenas contém um arquivo de localization (tradução e adaptação de conteúdo) para o conteúdo customizado do Peaock.
 
-You can identify it by the text of custom Peacock menu elements showing text starting with `['UI_PEACOCK` as shown in the image.
+Você pode indentificar esse efeito vendo se o texto de elementos do menu de conteúdos customizados Peacock estiver começando com `['UI_PEACOCK` como mostrado na imagem.
 
-![Screenshot from the featured page of Peacock in HITMAN: World of Assassination. Custom Peacock menu elements show text starting with \['UI\_PEACOCK.](/img/wiki/missing_strings.png)
+![Captura de tela da página em destaque do Peacock em HITMAN: World of Assassination. Texto de elementos do menu de conteúdos customizados Peacock com \['UI\_PEACOCK.](/img/wiki/missing_strings.png)
 
-## How to fix
+## Como resolver
 
-:::note No mods/other game versions
+:::note Sem mods/outras versões do jogo
 
-If you do not use Simple Mod Framework or you are using Hitman 2016 or 2.
-Ensure that your `thumbs.dat` file does not disable the dynamic resources package through a console command.
+Se você não utiliza o Simple Mod Framework ou usa o Hitman 2016 ou Hitman 2.
+Certifique-se de que seu arquivo `thumbs.dat` não desativa o pacote de recursos dinâmico por um comando de console.
 
-If you are unsure how to check this, you can verify your game files to ensure you have the vanilla version.
+Se você não tem certeza de como fazer isso, você pode verificar seus arquivos de jogo e se certificar de ter a versão padrão.
 
 :::
 
-You can fix this by installing a mod using Simple Mod Framework.
+Você pode consertar isso instalando um mod usando o Simple Mod Framework.
 
-- Using [this link](https://hitman-resources.netlify.app/smf-install-link/https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip), or;
-- By [downloading it directly](https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip) and adding it through the mod manager.
+- Usando [esse link](https://hitman-resources.netlify.app/smf-install-link/https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip), ou;
+- [Baixando diretamente](https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip) e adicionando pelo gerenciador de mods.
 
-Don't forget to re-apply your mods.
+Não se esqueça de re-aplicar seus mods.
 
-:::note If you already have the mod installed
+:::note Se você já tem o mod instalado
 
-Ensure it is updated! You can do this through Simple Mod Framework's mod manager.
+Certifique-se de tê-lo atualizado! Você pode fazer isso através do gerenciador de mods do Simple Mod Framework.
 
 :::

@@ -21,8 +21,8 @@ Peacock本质上是一个在你自己的电脑上运行的《杀手》服务器�
     -   **默认情况下，进度/挑战完成被打开，以模拟官方服务器的体验。**
     -   **你可以在任何时候**通过删除你的`userdata`文件夹在你的Peacock安装目录下**重置进度（挑战，XP，精通等）**。
     -   如果这是你首次游玩（不论是Peacock还是官方服务器上），一些撤离点仍会被锁定。 你需要解锁迪拜的撤离点（[需要解锁电梯](https://youtu.be/IEQgRQyQRf8)），达特缪尔的撤离点（[需要至少通过摩托车撤离一次](https://youtu.be/AJtJZe9jEi8?t=151)），以及科罗拉多撤离点（[需要至少通过地下室撤离一次](https://youtu.be/3XKWHrKpXwk?t=140)）。 这些撤离点是由客户端侧处理的。
--   Peacock lets you play [custom](../custom-content.md) or otherwise discontinued / time limited content such as [Ghost Mode](../ghost-mode.md), Sniper co-op, escalations, elusive targets, and contracts.
-    -   Both official server escalation / elusive targets / contracts and custom / modded ones are supported, see [here](../custom-content.md) for more info.
+-   Peacock允许你游玩[自定义](../custom-content.md)以及非持久/有时限的内容，例如[幽灵模式](../ghost-mode.md)、狙击手刺客合作模式、升级契约、契约等。
+    -   支持官方服务器升级、行踪不定的目标、契约和自定义/修改的契约，更多信息请见[此处](../custom-content.md)。
 -   为其他Peacock用户显示排行榜（跨平台，Epic和Steam）。
 -   游戏内存档是受支持的，且从Peacock v5.0.1起，你可以在Peacock中载入官方服务器存档。
 

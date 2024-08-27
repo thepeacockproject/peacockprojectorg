@@ -3,9 +3,9 @@ title: 需求
 description: 运行和使用Peacock的需求。
 ---
 
-:::tip Video Tutorial
+:::提示：视频教程
 
-Want this guide in video/spoken form? Check out our [video tutorial](https://www.youtube.com/watch?v=nF5ngiuDe5M).
+想要视频或音频形式的指南？ 请观看我们的[视频教程](https://www.youtube.com/watch?v=nF5ngiuDe5M)。
 
 :::
 
