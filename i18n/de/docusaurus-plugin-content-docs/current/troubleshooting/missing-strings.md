@@ -13,6 +13,15 @@ You can identify it by the text of custom Peacock menu elements showing text sta
 
 ## How to fix
 
+:::note No mods/other game versions
+
+If you do not use Simple Mod Framework or you are using Hitman 2016 or 2.
+Ensure that your `thumbs.dat` file does not disable the dynamic resources package through a console command.
+
+If you are unsure how to check this, you can verify your game files to ensure you have the vanilla version.
+
+:::
+
 You can fix this by installing a mod using Simple Mod Framework.
 
 - Using [this link](https://hitman-resources.netlify.app/smf-install-link/https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip), or;
@@ -25,6 +34,3 @@ Don't forget to re-apply your mods.
 Ensure it is updated! You can do this through Simple Mod Framework's mod manager.
 
 :::
-
-If you have not installed mods, ensure that your `thumbs.dat` file does not disable the dynamic resources package through a console command.
-If you are unsure how to check this, you can verify your game files to ensure you have the vanilla version.
