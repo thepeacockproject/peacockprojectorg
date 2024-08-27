@@ -33,7 +33,8 @@ export default {
                         slug: "troubleshooting"
                     },
                     items: [
-                        "troubleshooting/fix-port-in-use"
+                        "troubleshooting/fix-port-in-use",
+                        "troubleshooting/missing-strings"
                     ]
                 }
             ]
