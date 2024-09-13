@@ -1,36 +1,36 @@
 ---
-title: Missing Strings (UI_PEACOCK)
+title: 缺少字符串（UI_PEACOCK）
 ---
 
-This is caused by the dynamic resources package not being downloaded from Peacock.
+这是由于未从 Peacock 下载动态资源包导致的。
 
-Mods can disable downloading this to allow their weapon (or other repository edits) changes to show on official via a thumbs command.
-But this also stops Peacock's dynamic resources package from being downloaded, this only contains a localisation file for Peacock's custom content.
+模组可以禁用下载功能以允许他们的武器（或其他存储库编辑）更改通过thumbs命令在官方模式上显示。
+但这也阻止了 Peacock 的动态资源包被下载，它只包含 Peacock 自定义内容的本地化文件。
 
-You can identify it by the text of custom Peacock menu elements showing text starting with `['UI_PEACOCK` as shown in the image.
+您可以通过自定义 Peacock 菜单元素的文本来识别它，该文本显示以 `['UI_PEACOCK` 开头的文本，如图所示。
 
-![Screenshot from the featured page of Peacock in HITMAN: World of Assassination. Custom Peacock menu elements show text starting with \['UI\_PEACOCK.](/img/wiki/missing_strings.png)
+![来自《杀手暗杀世界》中Peacock的特色页面截图。 自定义Peacock菜单元素显示以“['UI PEACOCK\`.](/image/wiki/missing strings.png)”开头的文本
 
-## How to fix
+## 如何修复
 
-:::note No mods/other game versions
+:::note 无模组/其他游戏版本
 
-If you do not use Simple Mod Framework or you are using Hitman 2016 or 2.
-Ensure that your `thumbs.dat` file does not disable the dynamic resources package through a console command.
+如果您不使用Simple Mod Framework或者您正在使用《杀手》2016或《杀手2》。
+确保您的“thumbs.dat”文件不会通过控制台命令禁用动态资源包。
 
-If you are unsure how to check this, you can verify your game files to ensure you have the vanilla version.
+如果您不确定如何检查，您可以验证您的游戏文件以确保您拥有原始版本。
 
 :::
 
-You can fix this by installing a mod using Simple Mod Framework.
+您可以通过安装使用Simple Mod Framework的mod来解决此问题。
 
-- Using [this link](https://hitman-resources.netlify.app/smf-install-link/https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip), or;
-- By [downloading it directly](https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip) and adding it through the mod manager.
+- 使用[此链接](https://hitman-resources.netlify.app/smf-install-link/https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip)，或；
+- 通过[直接下载](https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip)并通过mod管理器添加。
 
-Don't forget to re-apply your mods.
+不要忘记重新应用你的模组。
 
-:::note If you already have the mod installed
+:::note 如果你已经安装了mod
 
-Ensure it is updated! You can do this through Simple Mod Framework's mod manager.
+确保它已更新！ 您可以通过Simple Mod Framework的mod管理器执行此操作。
 
 :::

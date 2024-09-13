@@ -4,7 +4,7 @@ title: Sequências de Texto Faltantes (UI_PEACOCK)
 
 Isso é causado por o pacote de recursos dinâmicos não ter sido baixado pelo Peacock.
 
-Mods can disable downloading this to allow their weapon (or other repository edits) changes to show on official via a thumbs command.
+Mods podem desabilitar a instalação disso para permitir que suas alterações de armas (ou outras edições de repositório) sejam exibidas oficialmente por meio de um comando thumbs.
 Porém, isso também impede que o pacote de recursos dinâmicos do Peacock seja baixado, isso apenas contém um arquivo de localization (tradução e adaptação de conteúdo) para o conteúdo customizado do Peaock.
 
 Você pode indentificar esse efeito vendo se o texto de elementos do menu de conteúdos customizados Peacock estiver começando com `['UI_PEACOCK` como mostrado na imagem.

@@ -71,3 +71,9 @@ title: 常见问题解答
 
 -   在询问任何有关幽灵模式、升级、用户契约、行踪不定的目标之前，请参阅[自定义内容页面](.././custom-content.md)以及[幽灵模式页面](.././ghost-mode.md)。
 -   模组适配：绝大多数模组无需额外设置即可适配于Peacock，包括契约与解锁道具模组。 菜单修改有时可能会不兼容，但大部分情况下是没有问题的。
+
+## Piracy FAQ
+-   We do not support pirated games.
+-   Why though?
+    -   IOI is aware that Peacock exists and is not hostile towards the project, supporting piracy would be the quickest way to change that and get the project taken down, erasing over 3 years of work on the project.
+    -   Peacock exists, because we enjoy the WoA trilogy games, and want to preserve them, we have little reason to support anything that could significantly hurt IOI financially.
