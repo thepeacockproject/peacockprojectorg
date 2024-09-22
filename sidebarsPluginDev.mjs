@@ -20,6 +20,7 @@ export default {
                     items: [
                         "examples/hello-world",
                         "examples/contracts",
+                        "examples/campaigns-playnext",
                     ],
                 }
             ],

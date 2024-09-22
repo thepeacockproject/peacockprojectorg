@@ -53,13 +53,13 @@ This is useful if you want to register a contract in a way that is not compatibl
 const { Controller } = require("@peacockproject/core");
 
 module.exports = function myPlugin(controller) {
-    controller.hooks.getMissionManifest.tap("MyPluginName", (contractId) => {
+    controller.hooks.getMissionManifest.tap("MyPluginName", (contractId, gameVersion) => {
         if (contractId === "my-contract-uuid") {
             return {
                 // the contract data object goes here
             };
         }
-        
+
         // if the contract being requested is not ours, let the system take care of it.
         return undefined;
     });
