@@ -72,8 +72,8 @@ Veja [este guia](../troubleshooting/fix-port-in-use.md) para uma explicação e 
 -   Antes de perguntar qualquer coisa sobre o Modo Fantasma, Agravamentos, Contratos do Usuário e Alvos Elusivos, por favor verifique a [Página de Conteúdo Customizado](.././custom-content.md) assim como a [Página do Modo Fantasma](.././ghost-mode.md).
 -   Compatibilidade com Mods: Quase todos os mods são compatíveis com o Peacock sem esforço adicional, incluindo mods de contratos e de itens desbloqueáveis. Alterações no menu do jogo podem às vezes ser incompatíveis, mas devem funcionar em sua maioria.
 
-## Piracy FAQ
--   We do not support pirated games.
--   Why though?
-    -   IOI is aware that Peacock exists and is not hostile towards the project, supporting piracy would be the quickest way to change that and get the project taken down, erasing over 3 years of work on the project.
-    -   Peacock exists, because we enjoy the WoA trilogy games, and want to preserve them, we have little reason to support anything that could significantly hurt IOI financially.
+## Perguntas Frequentes sobre Pirataria
+-   Não damos suporte a jogos pirateados.
+-   Por quê?
+    -   IOI está consciente que o Peacock existe e não se mostra hostil em relação ao projeto, e dar suporte à pirataria seria a forma mais rápida de mudar a situação e ter o projeto desligado, apagando mais de três anos de trabalho.
+    -   O Peacock existe porque apreciamos a trilogia de jogos WoA, e queremos preservá-los. Não temos razões para apoiar qualquer ação que possa prejudicar a IOI financeiramente de forma significativa.
