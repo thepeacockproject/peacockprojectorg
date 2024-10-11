@@ -17,5 +17,5 @@ files:
       translation: /i18n/%two_letters_code%/docusaurus-plugin-content-docs/current/**/%original_file_name%
       languages_mapping: *languages_mapping
     - source: /misc/roulette.json
-      translation: /misc/roulette/%two_letters_code%/.json
+      translation: /misc/roulette/%two_letters_code%.json
       languages_mapping: *languages_mapping
