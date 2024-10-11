@@ -19,7 +19,7 @@ title: 常见问题解答
 
 ### 尝试重新连接
 
--   当你尝试连接Peacock时，确保Peacock Patcher被设置为”Peacock Local“（本地孔雀）选项，而不是”IOI Official“（IOI官方）。
+-   当你尝试连接Peacock时，确保Peacock Patcher被设置为”Peacock Local“（Peacock本地）选项，而不是”IOI Official“（IOI官方）。
 -   你可能需要多次尝试来连接到Peacock。 如果你无法连接，尝试回到Peacock Patcher，点击“Re-patch（重新安装补丁）”，直到Peacock Patcher上显示"Successfully patched ID（成功为某进程安装补丁）"。
 -   如果你的游戏已经连接到了官方服务器，你可能首先需要从官方服务器中断开连接来连接到Peacock。 在《杀手3》主界面点击“选项”，然后点击“隐私”，最后点击“选择退出”，即可从官方服务器中断开连接。 然后，你应该能够重新连接到Peacock。
 -   若想要回到官方服务器，你可以在连接到Peacock时选择离线，然后在Peacock Patcher上切换到官方服务器，随后在游戏中按下”上线“即可连接到官方服务器。
@@ -60,7 +60,7 @@ title: 常见问题解答
 
 -   你的问题未包含在上述常见问题中？ 请前往Peacock Discord `#help`频道中提问(https://thepeacockproject.org/discord)
     -   关闭Peacock服务器。 接着运行`Tools.cmd`，并点击回车键。
-    -   准备好提供`DEBUG_PROFILE.zip`，此文件将出现在孔雀目录下。
+    -   准备好提供`DEBUG_PROFILE.zip`，此文件将出现在Peacock目录下。
 
 ## Peacock运作的常见问题
 
@@ -72,8 +72,8 @@ title: 常见问题解答
 -   在询问任何有关幽灵模式、升级、用户契约、行踪不定的目标之前，请参阅[自定义内容页面](.././custom-content.md)以及[幽灵模式页面](.././ghost-mode.md)。
 -   模组适配：绝大多数模组无需额外设置即可适配于Peacock，包括契约与解锁道具模组。 菜单修改有时可能会不兼容，但大部分情况下是没有问题的。
 
-## Piracy FAQ
--   We do not support pirated games.
--   Why though?
-    -   IOI is aware that Peacock exists and is not hostile towards the project, supporting piracy would be the quickest way to change that and get the project taken down, erasing over 3 years of work on the project.
-    -   Peacock exists, because we enjoy the WoA trilogy games, and want to preserve them, we have little reason to support anything that could significantly hurt IOI financially.
+## 盗版常见问题
+-   我们不支持盗版游戏。
+-   为什么呢？
+    -   IOI 知道 Peacock 的存在并且对该项目没有敌意，支持盗版是改变这种状况并让该项目下线的最快方式，从而抹去该项目 3 年多的工作成果。
+    -   Peacock 之所以存在，是因为我们喜欢 WoA 三部曲游戏，并且想要保留它们，我们没有理由支持任何可能对 IOI 造成重大财务损害的事情。
