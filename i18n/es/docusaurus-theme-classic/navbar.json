@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "Proyecto Peacock",
+    "description": "The title in the navbar"
+  },
+  "item.label.Wiki": {
+    "message": "Wiki",
+    "description": "Navbar item with label Wiki"
+  },
+  "item.label.Discord": {
+    "message": "Discord",
+    "description": "Navbar item with label Discord"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  },
+  "item.label.Installation Guide": {
+    "message": "Installation Guide",
+    "description": "Navbar item with label Installation Guide"
+  },
+  "logo.alt": {
+    "message": "Peacock Logo",
+    "description": "The alt text of navbar logo"
+  }
+}
