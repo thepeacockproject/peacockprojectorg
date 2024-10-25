@@ -5,8 +5,6 @@
 languages_mapping: &languages_mapping
     two_letters_code:
         pt-BR: pt-BR
-        zh-CN: zh
-        zh-TW: zh-TW
 
 project_id: "475851"
 api_token_env: CROWDIN_PERSONAL_TOKEN
