@@ -1,38 +1,38 @@
 ---
-title: Terms of Service
-description: Peacock's Terms of Service.
+title: 服务条款
+description: Peacock团队的服务条款
 ---
 
-While we aren't lawyers, we do have some terms and conditions that must be followed.
+虽然我们不是律师，但我们这里有些您必须遵守的条款。
 
-## Terms
+## 措辞
 
-"We", "Us", "Our", and "Peacock" shall mean The Peacock Project team. "You" shall mean the consumer.
+“我们”，“我们的”，以及“Peacock”都表示Peacock项目团队。 “你”表示用户。
 
-## Binding
+## 关系绑定
 
-By using Peacock or any related services, you agree to these terms, as well as the terms set in the [Privacy Policy](privacy-policy.md).
+通过使用Peacock及其相关服务，你同意这些条款，也包括[隐私条款](privacy-policy.md)中的条款。
 
-## Access
+## 访问权限
 
-We agree to provide access to Peacock for select owners of the HITMAN&trade; series. We have the right to deny you access if you don't own the game, or if we decide to deny access for any reason.
+我们同意为《杀手&trade;》系列的所有者提供Peacock使用权限。 如果你未拥有游戏或我们决定因其他原因撤销你的使用权限，我们有权拒绝为你提供使用权限。
 
-## Licensing
+## 授权许可
 
-As of October 20th, 2022, Peacock is an open-source project under the [GNU Affero General Public License, version 3.0](https://www.gnu.org/licenses/agpl-3.0.en.html).
+自2022年10月20日起，Peacock依据[GNU Affero 通用公共许可证，版本 3.0](https://www.gnu.org/licenses/agpl-3.0.en.html)成为一个开源项目。
 
-## Donations
+## 捐赠赞助
 
-Since Peacock costs the team to build and keep going, anybody has the option to donate money to help fund the project. All donations are non-refundable. Donations are not required, but much appreciated.
+因为Peacock耗资扶持团队开发和维护项目，任何人都可选择捐赠来为帮助项目储备资金。 所有捐赠都是无法退款的。 捐赠不是必须的，但我们诚挚感谢。
 
-## Plugins
+## 插件
 
-We encourage authorized users to create plugins to add, change, or remove functionality from Peacock. Plugin developers are allowed to modify Peacock through our internal plugin system, assuming modifications made do not violate any other rules laid out in this document. While the plugin system is an official feature of Peacock, unless otherwise stated, plugins are not provided by nor endorsed by The Peacock Project. We provide no liability, warranty, or support for these plugins. If you wish to become a plugin developer, and gain access to our official plugin development resources, contact an admin on Discord.
+我们鼓励授权用户创建插件来增添、修改或移除Peacock的功能。 只要不违反本文档中的任何规定，插件开发者被允许通过我们的内置插件系统来修改Peacock。 虽然插件系统是Peacock的官方功能，但除非单独陈述，否则插件不被Peacock项目团队提供或保障。 我们对这些插件不负任何责任、不进行任何保障、不提供任何协助。 如果你想成为一个插件开发中并获取我们的官方插件开发资源，请在Discord上联系一名管理员。
 
-## Interpretation
+## 解释翻译
 
-All translations are provided purely for informational purposes. In case of discrepancy between the English text and any translations, the English version shall prevail.
+所有的翻译仅为提供信息目的的而提供。 若任何译文与英文原版内容有差异，以英文原版为准。
 
-## Change
+## 条款变更
 
-This policy may change at any time at our discretion. We will attempt to notify you of any changes, but in some cases, we may not be able to. The date this policy was last modified can be found at the bottom of this page. Additionally, you can view the revision history of this page [here](https://github.com/thepeacockproject/peacockprojectorg/commits/main/docs/legal/terms-of-service.md).
+我们有权在任何时间变更此条款。 我们会尝试将任何变更通知到你，但有些时候，我们可能不会或无法这样做。 本条款上次修改的时间可以在本页面底部找到。 此外，你可以在[这里](https://github.com/thepeacockproject/peacockprojectorg/commits/main/docs/legal/terms-of-service.md)查看本页面的修订记录。

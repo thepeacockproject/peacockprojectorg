@@ -1,54 +1,54 @@
 ---
-title: Requirements
-description: Requirements for running and using Peacock.
+title: 需求
+description: 运行和使用Peacock的需求。
 ---
 
-:::tip Video Tutorial
+:::提示：视频教程
 
-Want this guide in video/spoken form? Check out our [video tutorial](https://www.youtube.com/watch?v=nF5ngiuDe5M).
+想要视频或音频形式的指南？ 请观看我们的[视频教程](https://www.youtube.com/watch?v=nF5ngiuDe5M)。
 
 :::
 
-## Supported Games / Platforms
+## 受支持的游戏/平台
 
--   Hitman 2016 ([Steam](https://store.steampowered.com/app/236870/HITMAN/) / [Epic](https://www.epicgames.com/store/en-US/p/hitman))
--   Hitman Sniper Assassin ([Steam Depot](https://steamdb.info/app/783780/))
--   Hitman 2 ([Steam](https://store.steampowered.com/app/863550/HITMAN_2/))
--   Hitman 3 ([Steam](https://store.steampowered.com/app/1659040/HITMAN_3/) / [Epic](https://www.epicgames.com/store/en-US/p/hitman-3))
+-   《杀手》2016（[Steam](https://store.steampowered.com/app/236870/HITMAN/) / [Epic](https://www.epicgames.com/store/en-US/p/hitman)）
+-   《杀手：狙击手刺客》（[Steam仓库](https://steamdb.info/app/783780/)）
+-   《杀手2》（[Steam](https://store.steampowered.com/app/863550/HITMAN_2/)）
+-   《杀手3》（[Steam](https://store.steampowered.com/app/1659040/HITMAN_3/) / [Epic](https://www.epicgames.com/store/en-US/p/hitman-3)）
 
-### Unsupported games and platforms
+### 不受支持的游戏/平台
 
--   Any other platform not listed in "Supported" section, such as console platforms, are not supported.
--   Demo versions of Hitman 3 are not supported.
--   Game Pass or Microsoft PC edition of Hitman 3 is not supported.
--   **Any cracked or pirated version of Hitman 1-3 is not supported, and you will be banned from the Peacock Discord upon asking about how to use any pirated or cracked version.**
+-   其他任何未在“受支持”列表中列出的平台，例如主机平台，是不受支持的。
+-   预览版本的《杀手3》不受支持。
+-   Game Pass或Microsoft PC版本的《杀手3》不受支持。
+-   **任何《杀手》1-3的破解版不受支持，并且如果你询问如何使用任何破解版的问题，你将会在Peacock Discord群组中被封禁。**
 
-## Supported Operating Systems
+## 受支持的操作系统
 
-### Server
+### 服务器
 
-The server is the part responsible for handling the game's requests. It is portable, and doesn't even need to run on the same machine as the game.
+服务器会处理一部分的游戏请求。 它是轻量的，且甚至不需要和游戏运行在同一台机器上。
 
--   A platform supported by Node.js, meaning Windows 8.1 or up, or a recent Linux/macOS/FreeBSD installation.
--   We have alternatives available if you are unable to meet these requirements, please ask in the Discord.
--   Check the Linux NodeJS install guide: https://thepeacockproject.org/wiki/guides/linux-setup/
+-   一个被Node.js支持的平台，即Windows 8.1及以上，或一个较近期的Linux/macOS/FreeBSD版本。
+-   如果你不满足这些需求，请在Discord上向我们询问我们的备选方案。
+-   查阅Linux系统Node.js的安装指南：https://thepeacockproject.org/wiki/guides/linux-setup/
 
-### Patcher
+### 补丁安装器
 
-The patcher tells the game to actually connect to Peacock, and must be on the same machine as the game.
+补丁安装器让游戏连接到Peacock，故必须和游戏运行在同一台机器上。
 
--   Windows 7 or up
+-   Windows 7或以上
 
-### Summary
+### 总结
 
-Windows 10 and 11 are the best supported operating systems, but Windows 7 or 8 and Linux should work as well, with additional troubleshooting. **Ask in the [Discord](https://thepeacockproject.org/discord) if in doubt.**
+Windows 10和11是受最佳支持的操作系统，但Windows 7/8以及Linux也能运行，但会有额外的故障。 **如有问题，请在[Discord](https://thepeacockproject.org/discord)上询问**
 
-:::warning Windows 7 Support
+:::warning Windows 7支持
 
-Windows 7 is no longer supported by Microsoft or Node.js, and as such, we provide no guarantees that it will be a bug-free experience.
+Windows 7 将不被Microsoft或Node.js支持，所以，我们无法保证提供一个无故障的使用体验。
 
-Please upgrade to a newer version of Windows to get security updates and a more stable experience.
+请升级到一个更新版本的Windows来获取安全性更新和一个更加稳定的体验。
 
-Some previous Hitman games (2016 and 2) support Windows 7, but you will need to host the server on another machine or virtual machine in order to make things work.
+一些以前的杀手游戏（2016和2）支持Windows 7，但你需要在另一台机器或一台虚拟机上运行服务器来使其生效。
 
 :::

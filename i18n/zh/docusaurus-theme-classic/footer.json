@@ -1,50 +1,50 @@
 {
   "link.title.Wiki": {
-    "message": "Wiki",
+    "message": "百科",
     "description": "The title of the footer links column with title=Wiki in the footer"
   },
   "link.title.Community": {
-    "message": "Community",
+    "message": "社区",
     "description": "The title of the footer links column with title=Community in the footer"
   },
   "link.title.Other": {
-    "message": "Other",
+    "message": "其他",
     "description": "The title of the footer links column with title=Other in the footer"
   },
   "link.item.label.Knowledge Base": {
-    "message": "Knowledge Base",
+    "message": "知识库",
     "description": "The label of footer link with label=Knowledge Base linking to /wiki/intel"
   },
   "link.item.label.Help/Bugs/Feature Requests (in our Discord)": {
-    "message": "Help/Bugs/Feature Requests (in our Discord)",
+    "message": "帮助/漏洞/功能请求（在我们的Discord群组）",
     "description": "The label of footer link with label=Help/Bugs/Feature Requests (in our Discord) linking to https://discord.gg/F8qQTfnajw"
   },
   "link.item.label.Testimonials": {
-    "message": "Testimonials",
+    "message": "用户评价",
     "description": "The label of footer link with label=Testimonials linking to /testimonials"
   },
   "link.item.label.Ghost Mode": {
-    "message": "Ghost Mode",
+    "message": "幽灵模式",
     "description": "The label of footer link with label=Ghost Mode linking to /wiki/ghost-mode"
   },
   "link.item.label.Branding": {
-    "message": "Branding",
+    "message": "品牌",
     "description": "The label of footer link with label=Branding linking to /branding"
   },
   "link.item.label.Credits": {
-    "message": "Credits",
+    "message": "鸣谢",
     "description": "The label of footer link with label=Credits linking to /wiki/credits"
   },
   "link.item.label.Privacy Policy": {
-    "message": "Privacy Policy",
+    "message": "隐私条款",
     "description": "The label of footer link with label=Privacy Policy linking to /wiki/legal/privacy-policy"
   },
   "link.item.label.Terms of Service": {
-    "message": "Terms of Service",
+    "message": "服务条款",
     "description": "The label of footer link with label=Terms of Service linking to /wiki/legal/terms-of-service"
   },
   "copyright": {
-    "message": "Copyright © 2024 The Peacock Project. Not owned by, affiliated with, or endorsed by IO Interactive.<br /><br /><small class=\"ioi-copyright\">HITMAN 3 © 2020 IO Interactive A/S. HITMAN™ 2 © 2018 IO Interactive A/S. HITMAN™ © 2019 IO Interactive A/S. IO Interactive, IOI logos, HITMAN, HITMAN logos, and WORLD OF ASSASSINATION are trademarks or registered trademarks owned by or exclusively licensed to IO Interactive A/S. All other trademarks are the property of their respective owners.</small>",
+    "message": "版权所有 © 2024 The Peacock Project。不属于 IO Interactive 所有，亦不与其关联，亦未得到其认可。<br /><br /><small class=\"ioi-copyright\">HITMAN 3 © 2020 IO Interactive A/S。HITMAN™ 2 © 2018 IO Interactive A/S。HITMAN™ © 2019 IO Interactive A/S。IO Interactive、IOI 徽标、HITMAN、HITMAN 徽标和 WORLD OF ASSASSINATION 是 IO Interactive A/S 所有或独家授权的商标或注册商标。所有其他商标均为其各自所有者的财产。</small>",
     "description": "The footer copyright"
   },
   "link.item.label.GitHub": {
@@ -52,11 +52,11 @@
     "description": "The label of footer link with label=GitHub linking to https://github.com/thepeacockproject"
   },
   "logo.alt": {
-    "message": "Peacock Feather Logo",
+    "message": "Peacock羽毛图标",
     "description": "The alt text of footer logo"
   },
   "link.item.label.Plugin Development": {
-    "message": "Plugin Development",
+    "message": "插件开发",
     "description": "The label of footer link with label=Plugin Development linking to /plugins"
   }
 }

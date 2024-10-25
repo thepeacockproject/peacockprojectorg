@@ -1,26 +1,22 @@
 ---
-title: Elusive Targets
+title: 行踪不定的目标
 ---
 
-On Peacock, you can play all Elusive Targets in the game.
-Our implementation of Elusive Targets is simple: you can play them whenever you want, and finish or fail the missions as
-many times as you want, with no time penalties.
+在Peacock里，你可以玩到游戏内所有的行踪不定的目标。
+我们对行踪不定的目标的实现方式很简单：您可以随时进行游戏，完成或失败任务的次数不限，也没有时间惩罚。
 
-## How to Play
+## 如何游玩
 
-On HITMAN&trade; 2016, you will see an Elusive Targets tile on the main menu.
+在《杀手&trade;》2016中，您将在主菜单看到“行踪不定的目标”板块。
 
-For other game versions, after starting up the game with Peacock, scroll right on the top bar of the main menu.
-Click the `Career` tab, then select the `Elusive Targets` tile.
+对于其他游戏版本，用Peacock启动游戏后，向右滚动主菜单顶栏。
+点击`生涯`标签页，然后选择`行踪不定的目标`板块。
 
-:::info The Brothers
+:::info 兄弟
 
-You may see an Elusive Target on the menu titled "The Brothers", which the game will say you are missing the required
-content for.
-This Elusive Target is cut/unfinished content, and while the files are in the game, it needs to be activated by using
-mods.
+您可能会在菜单上看到一个名为“兄弟”的行踪不定的目标，游戏会说您缺少所需的内容。
+这个行踪不定的目标是取消的未完成内容，虽然文件在游戏中，但需要使用模组激活。
 
-Check out [this mod](https://www.nexusmods.com/hitman3/mods/375) by community member Kevin Rudd which adds back and
-polishes the mission.
+请查看社区成员 Kevin Rudd 制作的[这个模组](https://www.nexusmods.com/hitman3/mods/375)，它对任务进行了补充和完善。
 
 :::

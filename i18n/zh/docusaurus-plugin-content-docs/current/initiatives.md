@@ -1,15 +1,15 @@
 ---
-description: Details about The Peacock Project's Initiatives
+description: Peacock计划的方案细节
 ---
 
-# Initiatives
+# 方案
 
-List of additional projects from the Peacock developers intended to help the Hitman community.
+Peacock开发者的其他帮助《杀手》社区的项目列表。
 
-## Contracts Repository
+## 契约库
 
--   [Contracts Database GitHub Repository](https://github.com/thepeacockproject/Contracts)
+-   [Github契约数据库](https://github.com/thepeacockproject/Contracts)
 
-This repository stores information about Hitman contracts, so that they are not lost to time.
+该仓库储存了《杀手》的契约信息，所以它们不会随时间消逝。
 
-The contract information is pulled from HITMAPS' [contract bot](https://bot.hitmaps.com/).
+契约信息从HITMAPS[契约机器人](https://bot.hitmaps.com/)拉取。

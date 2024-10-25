@@ -1,62 +1,62 @@
 ---
-title: Custom Content
-description: An overview of the custom content that Peacock provides.
+title: 自定义内容
+description: 由Peacock提供的自定义内容概览
 ---
 
-Peacock has lots of goodies packed in for our users. Here's a peek at our custom content!
+Peacock为我们的用户提供了许多有趣的内容。 这里是我们的一些自定义内容的预览！
 
-## Escalations
+## 升级契约
 
-### Custom Peacock Escalations
+### 自定义Peacock升级契约
 
-Peacock supports custom (Peacock original) escalations. These escalations are available in-game by default. You can see some custom escalations listed in the [Roadmaps](./roadmaps.mdx) as well.
+Peacock支持自定义（Peacock原版）升级。 这些升级在游戏中默认可用。 你也可以在[路线图](./roadmaps.mdx)中看到一些列举的自定义升级。
 
-### Official Server Escalations and Legacy Escalations
+### 官方服务器升级契约与传承升级契约
 
-Peacock also supports all official server escalations, including Hitman 2016 escalations that have not been ported to Hitman 2 or 3 (legacy escalations). These escalations are available in-game by default.
+Peacock也支持所有官方服务器升级契约，包括未被移植到《杀手2》或《杀手3》的《杀手》（2016）升级契约（传承升级契约）。 这些升级在游戏中默认可用。
 
-- Note: You can select specific escalation levels to start on using the Escalation Level Picker tool, as explained [here](./intel/loadout-profiles-elp.md#escalation-level-picker)
+- 注意：您可以使用升级契约关卡选择工具选择要启动的特定级别的升级契约关卡，如[此处](./intel/loadout-profiles-elp.md#escalation-level-picker)所述。
 
-## Contracts Mode
+## 契约模式
 
-Peacock supports both official server and custom Peacock contracts.
+Peacock同时支持官方服务器和Peacock自定义契约。
 
-### Featured contracts
+### 特色契约
 
-This includes custom (Peacock original) contracts created by Peacock dev team. You can see some of these custom featured contracts [here](./roadmaps.mdx).
+这包含自定义（Peacock原版）契约，由Peacock开发团队创建。 你可以在[这里](./roadmaps.mdx)查看一些特色契约。
 
-- **Note: Official Servers Featured Contracts are not included.**
+- **注意：这里不包含官方服务器契约。**
 
-#### How to Play
+#### 如何游玩
 
-Go to `Game Modes` -> `Contracts` -> `Featured` menu in-game.
+在游戏中前往`游戏模式`-> `契约` -> `特色契约`。
 
-### User-Created Official Server Contracts
+### 玩家创建的官方服务器契约
 
-#### How to Install
+#### 如何安装
 
-- Note: This only works while the HITMAPS bot is authenticated for the platform in question.
-  - [More info on how to authenticate it](https://bot.hitmaps.com/).
-  - To check if it's online, run the command `/botstatus` in the `#bot-spam` channel in the Peacock Discord. The status is updated every 10 minutes.
-- Go to `Game Modes` -> `Contracts` -> `Contract Lookup` menu in-game.
-- Enter the official server contract ID (**Contracts from every platform except Nintendo Switch are supported for this**).
-- The contract will now be downloaded in your `contracts` folder.
+- 注意：这仅能在HITMAPS机器人可以验证通过的平台上使用。
+  - [有关如何验证的更多信息](https://bot.hitmaps.com/)。
+  - 如果你想查看HITMAPS机器人是否在线，在Peacock Discord群组的`#bot-spam`频道输入`/botstatus`。 其状态每十分钟更新一次。
+- 在游戏中前往`游戏模式` -> `契约` -> `搜索契约`。
+- 输入官方服务器契约编号（**支持除了任天堂Switch以外的所有平台**）。
+- 契约将会被下载到你的`Contracts`文件夹。
 
-#### How to Play
+#### 如何游玩
 
-Go to `Game Modes` -> `Contracts` -> `My Contracts` in-game to play.
+在游戏中前往`游戏模式` -> `契约` -> `我的契约`。
 
-### User-Created Peacock Contracts
+### 玩家创建的Peacock契约
 
-#### How to Install
+#### 如何安装
 
-Download the contract's `.json` file from the `share-contracts` channel in Peacock Discord. Place the `.json` file in your `Contracts` folder, as shown here: ![](/img/wiki/contracts_folder.png).
+在Peacock Discord群组中的`share-contracts`频道下载契约的`.json`文件。 将此`.json`文件安装到你的`Contracts`文件夹，如图所示：![](/img/wiki/contracts_folder.png)。
 
-#### How to create your own
+#### 如何创建自己的契约
 
-- If you create a contract in-game while in Peacock server, your contract will be saved as an `.json` file in `Contracts` folder, as shown in the image above.
-- Be sure to share your `.json` file in Peacock Discord's `share-contracts` channel if you want others to play your custom Peacock contract.
+- 如果你在Peacock服务器运行时在游戏内创建了契约，你的契约会以`.json`形式保存在你的`Contracts`文件夹，如上图所示。
+- 如果你想让其他人游玩你的自定义Peacock契约，请确保在Peacock Discord群组的`share-contracts`频道分享你的`.json`文件。
 
-#### How to Play
+#### 如何游玩
 
-- Go to `Game Modes` -> `Contracts` -> `My Contracts` in-game to play.
+- 在游戏中前往`游戏模式` -> `契约` -> `我的契约`。

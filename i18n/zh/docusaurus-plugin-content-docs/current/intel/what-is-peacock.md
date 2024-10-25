@@ -1,33 +1,33 @@
 ---
-title: What is Peacock?
-description: A rundown on what Peacock is, and why you may want to give it a try.
+title: Peacock是什么？
+description: 一个Peacock是什么的介绍，以及为什么你可能想要来使用。
 ---
 
-Peacock is essentially a Hitman server emulator that runs on your own PC.
+Peacock本质上是一个在你自己的电脑上运行的《杀手》服务器模拟器。
 
-When you start the game, it doesn't connect to IOI's servers, only Peacock.
+当你启动游戏时，它仅连接Peacock的服务器，不连接IOI的服务器。
 
-## How does Peacock Work?
+## Peacock是怎么工作的？
 
-Here's a brief breakdown of what Peacock does:
+以下是对Peacock所做工作的简要说明：
 
--   Peacock lets you access Hitman's rating system without being connected to IOI's servers.
-    -   **Note: Peacock is not a fully offline experience.**
-    -   Each time you start the game, you will initially need to be connected to the internet still, to pass Steam or Epic verification.
-    -   After you have passed Steam / Epic verification and have connected to Peacock, you are free to disconnect your internet if you like and you will stay connected to Peacock for the duration of your game session.
--   **In general, as of Peacock v6.3.1, challenges, mastery, progression, scoring, earning merces (Freelancer) are all supported, and the experience is 1:1 with the official servers experience**
-    -   Minor Exception: Some challenges, especially for Freelancer, may have some minor bugs. Please report any issues to the Peacock Discord `#help` channel (https://thepeacockproject.org/discord).
-    -   Please check the `options.ini` file in your Peacock install folder for any additional configuration tweaks, such as **turning progression / challenge completion on and off** (e.g. if you want to get all unlocks right away on purpose).
-    -   **By default, progression / challenge completion is turned on to simulate an official servers experience.**
-    -   **You can reset progress (challenges, XP, mastery, etc) at any time** by deleting your `userdata` folder within your Peacock Install directory.
-    -   If it is your first time playing (on either Peacock or official servers), some exits will be locked. You will need to unlock Dubai exits ([need to unlock the elevators](https://youtu.be/IEQgRQyQRf8)), Dartmoor exits ([need to exit via bike at least once](https://youtu.be/AJtJZe9jEi8?t=151)), and Colorado exits ([need to use tornado exit at least once](https://youtu.be/3XKWHrKpXwk?t=140)). These exits are handled client-side.
--   Peacock lets you play [custom](../custom-content.md) or otherwise discontinued / time limited content such as [Ghost Mode](../ghost-mode.md), Sniper co-op, escalations, elusive targets, and contracts.
-    -   Both official server escalation / elusive targets / contracts and custom / modded ones are supported, see [here](../custom-content.md) for more info.
--   Display leaderboards for other Peacock users (Cross Platform, Epic and Steam)
--   In Game Saving is supported, and as of Peacock v5.0.1 you can load official server saves in Peacock.
+-   Peacock允许你在不连接到IOI服务器的情况下使用《杀手》的评分系统。
+    -   **注意：Peacock并不能完全断开网络使用。**
+    -   在你每次启动游戏时，你仍然需要首先连接到互联网以通过Steam或Epic平台验证。
+    -   当通过Steam或Epic平台验证并连接到Peacock后，你可以随意断开互联网连接，接下来的游戏进程将持续与Peacock服务器保持连接。
+-   **总的来说，从Peacock v6.3.1开始，挑战、精通、进展、得分、赚取Merces（自由职业者）都得到了支持，而且体验与官方服务器的体验是1:1还原的。**
+    -   小例外： 一些挑战，特别是自由职业者的挑战，可能有一些小的错误。 请前往Peacock Discord `#help`频道中提问(https://thepeacockproject.org/discord).
+    -   请检查您的Peacock安装文件夹中的`options.ini`文件，以了解任何额外的配置调整，如**打开和关闭进度/挑战系统**（例如，当你有意立即获得所有解锁）。
+    -   **默认情况下，进度/挑战完成被打开，以模拟官方服务器的体验。**
+    -   **你可以在任何时候**通过删除你的`userdata`文件夹在你的Peacock安装目录下**重置进度（挑战，XP，精通等）**。
+    -   如果这是你首次游玩（不论是Peacock还是官方服务器上），一些撤离点仍会被锁定。 你需要解锁迪拜的撤离点（[需要解锁电梯](https://youtu.be/IEQgRQyQRf8)），达特缪尔的撤离点（[需要至少通过摩托车撤离一次](https://youtu.be/AJtJZe9jEi8?t=151)），以及科罗拉多撤离点（[需要至少通过地下室撤离一次](https://youtu.be/3XKWHrKpXwk?t=140)）。 这些撤离点是由客户端侧处理的。
+-   Peacock允许你游玩[自定义](../custom-content.md)以及非持久/有时限的内容，例如[幽灵模式](../ghost-mode.md)、狙击手刺客合作模式、升级契约、契约等。
+    -   支持官方服务器升级、行踪不定的目标、契约和自定义/修改的契约，更多信息请见[此处](../custom-content.md)。
+-   为其他Peacock用户显示排行榜（跨平台，Epic和Steam）。
+-   游戏内存档是受支持的，且从Peacock v5.0.1起，你可以在Peacock中载入官方服务器存档。
 
-:::info Trivia: Why name it Peacock?
+花絮：为什么叫Peacock？
 
-Peacock is the name that the game uses in its source code for the mission "The Showstopper", which ushered in a new era of Hitman. Hence, the reason for the name "Peacock".
+Peacock是“精彩表演”，一个引领了杀手系列新时代的任务，在其源代码中使用的名称。 所以，我们使用了Peacock这一名字。
 
 :::

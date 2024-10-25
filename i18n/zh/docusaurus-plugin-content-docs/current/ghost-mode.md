@@ -1,34 +1,34 @@
 ---
 image: /img/ghostmode.jpg
-description: Details about The Peacock Project's Ghost Mode server, allowing players to use the now-scrapped game mode.
+description: Peacock项目幽灵模式服务器，允许玩家使用已弃用的游戏模式的详细内容，
 ---
 
-# Ghost Mode
+# 幽灵模式
 
-The Peacock Project is happy to announce that we are running our own [LocalGhost](https://gitlab.com/grappigegovert/LocalGhost) server!
+Peacock项目很高兴宣布我们已经运行了我们自己的[LocalGhost](https://gitlab.com/grappigegovert/LocalGhost)服务器！
 
-Ghost Mode for HITMAN™ 2 (and HITMAN™ 3 on Steam with a mod) has returned as an unofficial game mode! You and a friend can connect and invite each other to a friendly Ghost Mode match using Steam's invite system.
+《杀手2》（以及Steam上安装了一个模组的《杀手3》）的幽灵模式现已以一个非官方的游戏模式回归！ 你可以通过Steam的邀请系统邀请一位好友加入一场好友间的幽灵模式比赛。
 
-(_Matchmaking is not supported_).
+（_无法修改比赛设定_）。
 
-Ghost Mode is available for PC players who own HITMAN™ 2 or HITMAN™ 3 on Steam.
+幽灵模式对在Steam上拥有《杀手2》或《杀手3》的PC玩家开放。
 
-## How to Connect
+## 如何连接
 
-1. Download the LocalGhost Patcher from [here](https://gitlab.com/grappigegovert/localghost/-/jobs/artifacts/master/download?job=build_patcher).
-2. Open the patcher, and select `ghostmode.rdil.rocks` on the drop-down menu.
-3. If this is your first time running the patcher, open Advanced Settings, and untick the box labeled `Use http instead of https`. Then click save.
-    - Note: Only untick `Use http instead of https` when trying to play Ghost Mode. When trying to use Peacock for other game modes, please tick this box again.
-4. Start the game, press enter when prompted.
-5. You are ready to play Ghost Mode!
+1. 在[这里](https://gitlab.com/grappigegovert/localghost/-/jobs/artifacts/master/download?job=build_patcher)下载LocalGhost Patcher。
+2. 打开补丁安装器，并在下拉菜单中选择`ghostmode.rdil.rocks`。
+3. 如果这是你首次运行补丁安装器，打开Advanced Settings（进阶设定），并取消选中`Use http instead of https（使用http协议）`。 然后点击保存。
+    - 注意：请仅在尝试游玩幽灵模式时取消选中`Use http instead of https（使用http协议）`。 当尝试游玩Peacock的其他游戏模式时，请重新选中该选项。
+4. 启动游戏，在要求时按下回车键。
+5. 现在幽灵模式已对你准备就绪。
 
-Want to go back to the official servers? Just close the patcher and restart the game.
+想要回到官方服务器？ 只需要关闭补丁安装器并重新启动游戏。
 
-## Use in HITMAN™ 3
+## 在《杀手3》中使用
 
-To use Ghost Mode in HITMAN™ 3 (Steam version only), you need to install a client-side mod to the game. The mod can be obtained [here](https://www.nexusmods.com/hitman3/mods/260).
+要在《杀手3》上使用幽灵模式（仅限Steam版本），您需要为游戏安装一个客户端模组。 模组可以在[这里](https://www.nexusmods.com/hitman3/mods/260)获取。
 
-## Side Notes
+## 旁注
 
--   You can also play Ghost Mode with two people connected to the same Peacock instance, however exposing Peacock outside your home network may not be safe and isn't recommended.
--   This Ghost Mode server is run by The Peacock Project team, but _is not Peacock itself_!
+-   您也可以与连接到同一 Peacock 的两个人一起玩幽灵模式，但将 Peacock 暴露在家庭网络之外可能并不安全，因此不建议这样做。
+-   该幽灵模式服务器由Peacock项目团队运行，但_不是Peacock本身_！

@@ -1,79 +1,79 @@
 ---
-title: Frequently Asked Questions
+title: 常见问题解答
 ---
 
-## How to Get All Items
+## 如何获取全物品
 
-Peacock v6.1.0 introduced progression support, meaning you now can unlock items as you play. This is **enabled by default**, to emulate the experience of the official servers.
+6.1.0版本起Peacock引入了进度系统，这意味着您现在可以随着游玩解锁物品。 此功能**默认开启**，以模拟官方服务器的体验。
 
-To disable progression and **immediately get all items**, set `enableMasteryProgression` in `options.ini` to `false`.
+如欲关闭进度系统并**立即获取全物品**，请将`options.ini`文件中的`enableMasteryProgression`选项设置为`false`。
 
-## Troubleshooting FAQ
+## 常见问题解答
 
-### Before Troubleshooting
+### 排障前须知
 
--   Check the [Requirements](./requirements.md) section of this guide, make sure you have a supported game version and platform, etc.
-    -   **Microsoft Store version of Hitman 3 is not supported (commonly asked)**.
-    -   Check [Linux Setup Guide](../guides/./linux-setup.md) if on Linux.
--   Make sure you have the latest versions of Hitman and Peacock, older versions may not be supported.
+-   请参阅本教程的[要求](./requirements.md)板块，确保你拥有受支持的游戏版本和平台等内容。
+    -   **Microsoft Store版本的《杀手3》不受支持（常见问题）**。
+    -   Linux用户请参阅 [Linux初始化指南](../guides/./linux-setup.md)。
+-   确保你在使用最新版本的杀手和Peacock，旧版本是不受支持的。
 
-### Try to Reconnect
+### 尝试重新连接
 
--   Make sure Peacock Patcher is set to "Peacock Local" option and not "IOI Official" when you are trying to connect to Peacock.
--   It may take a few tries to connect to Peacock. If you can't connect, try going back to the Peacock Patcher application and clicking on "Re-patch" until the Peacock Patcher shows "Successfully patched ID".
--   If your game is already connected to the official servers, you may need to disconnect the game from official servers first to connect to Peacock. To disconnect from official servers, go to "Options" from the Hitman 3 main menu, then "Privacy Policy", then "Opt out". Then when you reconnect you should be on Peacock.
--   To return to Official servers, you can go offline while connected to Peacock, then toggle the Peacock Patcher application to patch you to Official Servers, then go "online" again to connect to official servers.
--   **If you still have trouble connecting, then continue to the next section below.**
+-   当你尝试连接Peacock时，确保Peacock Patcher被设置为”Peacock Local“（Peacock本地）选项，而不是”IOI Official“（IOI官方）。
+-   你可能需要多次尝试来连接到Peacock。 如果你无法连接，尝试回到Peacock Patcher，点击“Re-patch（重新安装补丁）”，直到Peacock Patcher上显示"Successfully patched ID（成功为某进程安装补丁）"。
+-   如果你的游戏已经连接到了官方服务器，你可能首先需要从官方服务器中断开连接来连接到Peacock。 在《杀手3》主界面点击“选项”，然后点击“隐私”，最后点击“选择退出”，即可从官方服务器中断开连接。 然后，你应该能够重新连接到Peacock。
+-   若想要回到官方服务器，你可以在连接到Peacock时选择离线，然后在Peacock Patcher上切换到官方服务器，随后在游戏中按下”上线“即可连接到官方服务器。
+-   **如果你仍然无法连接，请继续阅读下一节内容。**
 
-### Connection Issues
+### 连接问题
 
--   As explained in the [What is Peacock](./what-is-peacock.md) page, **you need to be connected to the Internet, at least initially, to use Peacock**. This is to get past Steam / Epic verification. After connecting to Peacock the first time, you may disconnect from the Internet and stay connected to Peacock for the duration of your game session.
-    -   If you have a phone with cellular data plan, you can use the phone as hotspot for your computer to connect to Internet.
--   Don't try to use Peacock if it's literally your first time playing the game. You need to connect to the official servers at least once before you can connect to Peacock. After you've connected to official servers at least once you no longer have to do so in the future in order to use Peacock.
--   Try running the `PeacockPatcher.exe` as admin.
--   Keep the option "Use http instead of https" in Peacock patcher ticked unless you are playing Ghost Mode.
+-   正如[什么是Peacock](./what-is-peacock.md)页面中所说，**你需要最起码在启动时连接到网络来使用Peacock**。 这是为了通过Steam/Epic平台的验证。 在首次连接到Peacock后，你可以从互联网中断开，并在游戏进程的阶段中保持连接到Peacock。
+    -   如果你的手机有移动数据流量，你可以使用手机为电脑提供热点来连接到互联网。
+-   如果这是你第一次游玩游戏，请不要尝试使用Peacock。 在你连接Peacock之前，你必须至少连接到官方服务器一次。 在你连接到官方服务器一次以后，在后续使用Peacock时不再需要连接到官方服务器。
+-   尝试以管理员身份运行`PeacockPatcher.exe`。
+-   在Peacock Patcher中，保持选中“Use http instead of https”（使用http协议替代https协议），除非你在游玩幽灵模式。
 
-#### Port In Use
+#### 使用端口
 
-If you're getting an error that looks like this:
+如果你遇到的错误看起来像这样：
 
-![The error message shown when Peacock tries to use a port that's in use](/img/wiki/port_in_use.png)
+![Peacock尝试使用正在使用的端口时显示的错误信息](/img/wiki/port_in_use.png)
 
-The error message for this issue will be something along the lines of "failed to bind the server to port X".
+该问题的错误信息大致为“未能将服务器绑定到 X 端口”。
 
-Check [this guide](../troubleshooting/fix-port-in-use.md) for an explanation and instructions on how to fix it.
+查阅[此指南](../troubleshooting/fix-port-in-use.md)以获取解释和修复说明。
 
-## Other
+## 其他
 
--   Check [Peacock Unique Features](../intel/loadout-profiles-elp.md) page for info on how to set multiple loadouts per map or choose specific escalation levels with Peacock.
--   Default Suits - If you tick `getDefaultSuits = true` in your `options.ini` file in your Peacock Install folder, please note the following behavior:
-    -   Any discussion for "default suits" below refers to the version of the default suit **without gloves** - whichever version of the suit you normally would use for that level when starting it up for the first time ever.
-    -   Some Hitman 2 and Hitman 3 default suits are not usable in all maps in the vanilla game. This can be fixed using https://www.nexusmods.com/hitman3/mods/401/
-    -   If you choose not to use the above mod, then note the following:
-        -   Season 1 default suits (e.g. Summer Suit from Marrakesh): Works on all maps
-        -   Season 2 default suits (e.g. Casual Tourist from Santa Fortuna): Works on Season 2 and 3 Maps
-            -   New York and Maldives (Haven) are included in Season 2
-        -   Season 1 default suits (e.g. Neon City Suit from Chongqing): Works on Season 3 Maps Only
-        -   Ambrose Island is outside of the Season system so to speak, Ambrose Default suit (Guerilla Wetsuit) is usable on all maps, and all maps' Default Suits can be used in Ambrose
+-   参阅[Peacock独特功能](../intel/loadout-profiles-elp.md)页面来查找如何在Peacock上为每张地图设定多重装备组合以及选择特定的升级契约。
+-   默认套装 - 如果你在你的Peacock安装文件夹中的`options.ini`文件中开启了`getDefaultSuits = true`，请注意以下行为：
+    -   下面任何关于“默认套装”的讨论都是指默认套装**无手套版本**——当你第一次启动该关卡时通常会使用的套装的任何版本。
+    -   一些《杀手2》和《杀手3》的默认套装不能在原版游戏的所有地图中使用。 可通过https://www.nexusmods.com/hitman3/mods/401/ 修复。
+    -   如果你不使用上述mod，那么请注意以下几点：
+        -   第一季的默认套装（例如马拉喀什的夏天西装）： 适用于所有地图
+        -   第二季的默认套装（例如，来自圣福耳图那的休闲游客）： 适用于第二季和第三季地图
+            -   纽约和马尔代夫（海文岛）属于第二季。
+        -   第三季的默认套装（例如：重庆的霓虹之城套装）：适用于第三季地图
+        -   安布罗斯岛可以说是在季节系统之外，安布罗斯岛的默认套装（游击队潜水衣）可以在所有地图上使用，而且所有地图的默认套装都可以在安布罗斯岛使用。
 
-### Request Tech Support
+### 请求技术支持
 
--   Question not answered in FAQ above? Ask in the Peacock Discord `#help` channel (https://thepeacockproject.org/discord)
-    -   Close the Peacock Server. Then run `Tools.cmd`, and press enter.
-    -   Be prepared to provide the `DEBUG_PROFILE.zip` you'll find in the Peacock directory after that.
+-   你的问题未包含在上述常见问题中？ 请前往Peacock Discord `#help`频道中提问(https://thepeacockproject.org/discord)
+    -   关闭Peacock服务器。 接着运行`Tools.cmd`，并点击回车键。
+    -   准备好提供`DEBUG_PROFILE.zip`，此文件将出现在Peacock目录下。
 
-## How Peacock Works FAQ
+## Peacock运作的常见问题
 
--   See [What is Peacock](./what-is-peacock.md)
-    -   See above link for questions on Freelancer integration with Peacock, whether or not you need Internet to use Peacock, or any other general questions on how Peacock works
+-   参阅[Peacock是什么](./what-is-peacock.md)。
+    -   请参阅上面的链接，了解有关进度（挑战和精通等）、自由职业者与Peacock的集成、是否需要网络才能使用Peacock，或有关Peacock如何工作的任何其他一般问题。
 
-## Feature Request FAQ
+## 常见功能请求解答
 
--   Before asking any questions about Ghost Mode, escalations, user contracts, elusive targets, please check the [Custom Content Page](.././custom-content.md) as well as the [Ghost Mode Page](.././ghost-mode.md).
--   Mod compatibility: almost all mods are compatible with Peacock without extra work, including contract and unlockable mods. Menu changes may sometimes be incompatible, but should usually be fine.
+-   在询问任何有关幽灵模式、升级、用户契约、行踪不定的目标之前，请参阅[自定义内容页面](.././custom-content.md)以及[幽灵模式页面](.././ghost-mode.md)。
+-   模组适配：绝大多数模组无需额外设置即可适配于Peacock，包括契约与解锁道具模组。 菜单修改有时可能会不兼容，但大部分情况下是没有问题的。
 
-## Piracy FAQ
--   We do not support pirated games.
--   Why though?
-    -   IOI is aware that Peacock exists and is not hostile towards the project, supporting piracy would be the quickest way to change that and get the project taken down, erasing over 3 years of work on the project.
-    -   Peacock exists, because we enjoy the WoA trilogy games, and want to preserve them, we have little reason to support anything that could significantly hurt IOI financially.
+## 盗版常见问题
+-   我们不支持盗版游戏。
+-   为什么呢？
+    -   IOI 知道 Peacock 的存在并且对该项目没有敌意，支持盗版是改变这种状况并让该项目下线的最快方式，从而抹去该项目 3 年多的工作成果。
+    -   Peacock 之所以存在，是因为我们喜欢 WoA 三部曲游戏，并且想要保留它们，我们没有理由支持任何可能对 IOI 造成重大财务损害的事情。

@@ -1,91 +1,91 @@
 ---
-sidebar_label: Privacy Policy
-description: How The Peacock Project handles and stores user data.
+sidebar_label: 隐私条款
+description: Peacock项目如何处理和储存用户数据
 ---
 
-# Peacock Privacy Policy
+# Peacock隐私条款
 
-We respect your privacy regarding any information we may collect while operating our Services, and this page describes how we use data collected, and for what purposes.
+基于我们对进行服务可能需要收集的信息，我们尊重你的隐私，本页将描述我们如何收集信息和使用信息。
 
-## Scope
+## 范围
 
-This policy applies to the following websites and products (collectively, the "Services"):
+本条款适用于以下网站和产品（统称，“服务”）：
 
--   All routes starting with '/peacock' on backend.rdil.rocks.
--   Any content displayed on thepeacockproject.org
--   Data sent to us when using the Peacock Server.
+-   在backend.rdil.rocks上所有以“/peacock”开头的路径。
+-   在thepeacockproject.org上所有展示的内容。
+-   使用Peacock服务器时发送给我们的数据。
 
-## What data do we collect?
+## 我们收集哪些数据？
 
-When you view any of the pages this policy covers, exactly which page, as well as your IP address, and the time gets logged by us. This practice is typical and used by most websites. This information is stored on our servers for a maximum of 72 hours.
+当你浏览本条款涵盖的任何页面时，你浏览的具体页面、你的IP地址、你浏览的时间将被我们记录。 此行为很典型，为大部分网站所用。 该数据在我们的服务器上最多储存72小时。
 
-When complete a level in-game when leaderboards are enabled, your score and other details about your session will be sent to us and stored indefinitely.
+若排行榜启用，当你在游戏内完成一个关卡时，你的分数和其他关于你游戏进程的细节会被发送给我们并分类保存。
 
-## What do we use this data for?
+## 我们如何使用数据？
 
-We use this data for purposes including:
+我们因以下原因使用该数据：
 
--   Assigning roles based on ownership status in the Discord server
--   Keeping track of leaderboard positions and statistics, and for moderation of these leaderboards.
+-   基于所有权状态在Discord服务器上授予角色。
+-   追踪排行榜上的位置、数据以供管理。
 
-## Request deletion of your data
+## 请求删除你的数据
 
-Please contact a project admin on Discord, or email admin [at symbol] thepeacockproject [dot] org.
+请在Discord上联系一名项目管理员，或电邮admin [at symbol] thepeacockproject [dot] org。
 
-## Opting out where possible
+## 在何处退出
 
-The Peacock server has the built-in capability as of recently released versions to opt out of certain features that may collect personal information.
+在最近版本的Peacock服务器中，有内置的功能以退出使用需要收集个人信息的功能。
 
-To opt out of leaderboard data being submitted to our servers, run the server once, then edit the generated `options.ini` file, setting the `leaderboardsOptOut` value to `true`. To opt out of update checking, run the server once, then edit the generated `options.ini` file, setting the `updateChecking` value to `false`.
+要退出提交到我们服务器的排行榜数据，可以在运行服务器一次后，将`options.ini`文件中的`leaderboardsOptOut`修改为`true`。 要退出自动更新检查，可以在运行服务器一次后，将`options.ini`文件中的`updateChecking`修改为`false`。
 
-## Legal bases for information collection/usage
+## 信息收集/使用的法律依据
 
-A note here for those in the European Union about legal grounds for processing information about you under EU data protection laws, which is that our use of your information is based on the grounds that:
+在这里为欧盟成员国内的用户说明，根据欧盟信息保护法，我们基于以下理由使用你的数据：
 
-1. The use is necessary in order to fulfill our commitments to you under our Terms of Service or other agreements with you or is necessary to administer your account–for example, in order to enable access to our Services on your device; or
-2. The use is necessary for compliance with a legal obligation; or
-3. The use is necessary in order to protect your vital interests or those of another person; or
-4. We have a legitimate interest in using your information–for example, to provide and update our Services, to improve our Services, to safeguard our Services, to communicate with you, to monitor and prevent any problems with our Services, and to personalize your experience; or
-5. You have given us your consent.
+1. 对数据的使用对于我们履行服务条款以及其他与你的承诺来说是必须的，或对于管理你的账户来说是必须的——例如，为了使你能够在你的设备上访问我们的服务；或
+2. 对数据的使用对于我们履行相关法律义务来说是必须的；或
+3. 对数据的使用对于保护你或者他人的切身利益来说是必须的；或
+4. 我们有合法的权益使用你的信息——例如，提供和更新我们的服务，优化我们的服务，保护我们的服务，和你交流沟通，追踪和防止我们的服务出现任何问题，个性化你的体验；或
+5. 我们已取得你的同意。
 
-## How we share information
+## 我们如何共享数据
 
-We do not sell our users' private personal information.
+我们不售卖我们用户的个人信息。
 
-We share information about you in the limited circumstances spelled out below and with appropriate safeguards on your privacy:
+我们在如下列举的有限情境下以及我们协议中的恰当安全措施中共享有关你的信息：
 
--   Legal requests: We may disclose information about you in response to a subpoena, court order, or other governmental request.
--   To protect rights, property, and others: We may disclose information about you when we believe in good faith that disclosure is reasonably necessary to protect the property or rights of The Peacock Project, third parties, or the public at large. For example, if we have a good faith belief that there is an imminent danger of death or serious physical injury, we may disclose information related to the emergency without delay.
--   With your consent: We may share and disclose information with your consent or at your direction. For example, we may share your information with third parties with which you authorize us to do so.
+-   法律要求：我们可能根据传票、法庭要求或其他政府要求提供关于你的信息。
+-   为保护权利、资产等：当我们诚挚认为在某些理由下公开你的数据对保护Peacock项目、第三方或大众的资产、权利是必须的时，我们可能会公开关于你的信息。 例如，如果我们坚信可能会发生紧迫的死亡或严重人身伤害危险事件时，我们可能毫不犹豫地公开有关此紧急事件地信息。
+-   你同意：我们可能会在你的同意或要求下共享和公开你的信息。 例如，在你的同意之下，我们可能与第三方共享你的信息。
 
-## Responsible disclosure of data breaches
+## 数据泄露的责任纰漏
 
-In the case that any data collected is ever leaked, we will try our best to notify the affected users. Please note that we may not be able to contact you if you leave the Discord server, disable Discord direct messages, or fail to check Discord when we inform you.
+若任何收集地信息被泄露，我们将尽全力通知受到影响地用户。 请注意若你在我们尝试告知你时，退出了Discord群组、禁用了Discord陌生人私信、未查看Discord信息，我们可能无法联系到你。
 
-## Your rights
+## 您的权利
 
-If you are located in certain countries, including those that fall under the scope of the European General Data Protection Regulation (AKA the “GDPR”), data protection laws give you rights with respect to your personal data, subject to any exemptions provided by the law, including the rights to:
+若你在某些特定的国家，包括受欧盟通用数据保护条例（简称“GDPR”），除了受法律规定的任何豁免外，数据保护法赋予你包括但不限于以下地个人数据保护权利：
 
--   Request access to your personal data
--   Request correction or deletion of your personal data
--   Object to our use and processing of your personal data
--   Request that we limit our use and processing of your personal data
--   Request portability of your personal data
+-   请求访问你的个人数据
+-   请求修正或删除你的个人数据
+-   反对我们使用和处理你的个人数据
+-   请求我们受限地使用和处理你的个人数据
+-   请求移植你的个人数据
 
-EU individuals also have the right to make a complaint to a government supervisory authority.
+欧盟成员国的公民也有向政府监管机构提出申诉的权利。
 
-## Use of data by third parties
+## 第三方数据使用
 
-Our infrastructure makes use of third parties which may process or retain your data, the privacy policies of those Services can be found at:
+我们的服务设备使用第三方来处理和保留你的数据，这些服务器的隐私协议可以在这里查看：
 
 -   https://www.cloudflare.com/privacypolicy/
 -   https://discord.com/privacy
 -   https://www.hitmaps.com/privacy-policy
 
-## Updates to this policy
+## 本政策的更新
 
-This policy was created on May 5th, 2021. This policy may change without notice at any time. We advise regularly checking it for any updates that may affect you. You can view the history of this policy [here](https://github.com/thepeacockproject/peacockprojectorg/commits/main/docs/legal/privacy-policy.md).
+本协议在2021年5月5日创建。 本协议可能在任何时候未经提醒的修改。 我们建议你定期查看以知悉任何可能影响你的更新。 你可以在[这里](https://github.com/thepeacockproject/peacockprojectorg/commits/main/docs/legal/privacy-policy.md)查看本协议的历史。
 
-## Ask a question
+## 提问
 
-To ask a question about this policy, please follow the instructions outlined under the "Request deletion of your data" section.
+若对此协议有疑问，请按照“请求删除你的数据”板块的部分操作。
