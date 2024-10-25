@@ -1,26 +1,22 @@
 ---
-title: Elusive Targets
+title: Неуловимые Цели
 ---
 
-On Peacock, you can play all Elusive Targets in the game.
-Our implementation of Elusive Targets is simple: you can play them whenever you want, and finish or fail the missions as
-many times as you want, with no time penalties.
+В Peacock вы можете играть в Неуловимые Цели.
+Наша версия Неуловимых Целей проста: вы можете играть когда угодно и завершать или проваливать миссии сколько вам угодно, без штрафов по времени.
 
 ## How to Play
 
-On HITMAN&trade; 2016, you will see an Elusive Targets tile on the main menu.
+В HITMAN&trade; 2016 вы увидите Неуловимые цели в главном меню.
 
-For other game versions, after starting up the game with Peacock, scroll right on the top bar of the main menu.
-Click the `Career` tab, then select the `Elusive Targets` tile.
+Для других версий игры после запуска с Peacock прокрутите верхнюю панель вправо в главном меню.
+Нажмите кнопку "Карьера" и выберите "Неуловимые цели".
 
-:::info The Brothers
+:::info Братья
 
-You may see an Elusive Target on the menu titled "The Brothers", which the game will say you are missing the required
-content for.
-This Elusive Target is cut/unfinished content, and while the files are in the game, it needs to be activated by using
-mods.
+Вы можете увидеть Неуловимую цель в меню под названием "Братья", но игра сообщит что отсутствует нужный контент.
+Неуловимые Цели являются вырезанным/незавершенным контентом, и хотя файлы присутствуют в игре, его нужно активировать с помощью модов.
 
-Check out [this mod](https://www.nexusmods.com/hitman3/mods/375) by community member Kevin Rudd which adds back and
-polishes the mission.
+Ознакомьтесь с этим [модом](https://www.nexusmods.com/hitman3/mods/375) от члена сообщества Kevin Rudd, который добавляет эту миссию обратно и улучшает её.
 
 :::
