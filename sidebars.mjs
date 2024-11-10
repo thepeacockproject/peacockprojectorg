@@ -34,7 +34,8 @@ export default {
                     },
                     items: [
                         "troubleshooting/fix-port-in-use",
-                        "troubleshooting/missing-strings"
+                        "troubleshooting/missing-strings",
+                        "troubleshooting/patcher-errors"
                     ]
                 }
             ]
@@ -75,7 +76,7 @@ export default {
         {
             type: "link",
             href: "/plugins",
-            label: "Plugin Development",
+            label: "Plugin Development"
         },
         {
             type: "category",
