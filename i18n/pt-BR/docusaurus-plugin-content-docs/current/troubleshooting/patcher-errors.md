@@ -1,29 +1,29 @@
 ---
-title: Patcher Error Reference
+title: Referência para Erros no Inicializador
 ---
 
-Having an error with the patcher? Here's a guidebook on the most common errors and how to remedy them.
+Está tendo um erro com o inicializador? Aqui está um guia sobre os erros mais comuns e como remediá-los.
 
 ## `Unknown version`
 
-This error occurs when the patcher encounters a version of the game that it doesn't know how to find the relevant data.
+Esse erro ocorre quando o inicializador encontra uma versão do jogo em que não sabe como encontrar os dados relevantes.
 
-Here are the most common causes:
+Aqui estão algumas das causas mais comuns:
 
-- You are using an unsupported version of the game (e.g. the Microsoft Store version). These versions of the game won't
-  work with Peacock. Please check our [supported versions guide](../intel/requirements.md).
-- You are using an out of date version of the game. Try updating your game to the latest version.
-- Verify your game files. Also, ensure you haven't tampered with the game's `.exe` file.
+- Você está usando uma versão não suportada do jogo (e.g. a versão Microsoft Store). Essas versões do jogo não
+  funcionarão com o Peacock. Por favor, verifique nosso [guia de versões suportadas](../intel/requirements.md).
+- Você está utilizando uma versão não atualizada do jogo. Tente atualizar o jogo para a última versão.
+- Verifique seus arquivos de jogo. Também certifique-se que não modificou o arquivo `.exe` do jogo.
 
 ## `Only part of a wpm was completed`
 
-This happens when the patcher encounters an error mid-way through its process.
-Usually, this is a temporary error that can be resolved by restarting your computer.
+Isso ocorre quando o inicializador encontra um erro durante o processamento.
+Muitas vezes, esse é apenas um erro temporário que pode ser resolvido reiniciando seu computador.
 
-If it continues, try verifying your game files.
+Se o erro persistir, tente verificar seus arquivos de jogo.
 
-After verifying your game files, if it still isn't resolved, contact us on [Discord](/discord).
+Após essa verificação, se ainda não estiver resolvido, contate-nos no [Discord](/discord).
 
-## `Error at wpm for offset` or `error code 5`
+## `Error at wpm for offset` ou `error code 5`
 
-Please contact us on [Discord](/discord), as we are still investigating this issue.
+Contate-nos no [Discord](/discord), já que ainda estamos investigando esse erro.
