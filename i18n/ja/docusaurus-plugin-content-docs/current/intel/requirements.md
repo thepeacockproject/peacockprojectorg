@@ -1,9 +1,9 @@
 ---
-title: Requirements
-description: Requirements for running and using Peacock.
+title: システム要件
+description: Peacockを起動し利用するためのシステム要件は以下の通りです。
 ---
 
-:::tip Video Tutorial
+動画によるチュートリアル
 
 Want this guide in video/spoken form? Check out our [video tutorial](https://www.youtube.com/watch?v=nF5ngiuDe5M).
 
@@ -45,9 +45,9 @@ Windows 10 and 11 are the best supported operating systems, but Windows 7 or 8 a
 
 :::warning Windows 7 Support
 
-Windows 7 is no longer supported by Microsoft or Node.js, and as such, we provide no guarantees that it will be a bug-free experience.
+Windows7は現在MicrosoftやNode.jsによってサポートされていないため、Windows7でPeacockを利用する場合にバグが発生する可能性があることをあらかじめご了承下さい。
 
-Please upgrade to a newer version of Windows to get security updates and a more stable experience.
+セキュリティに関連するアップデートやより安定したプレイングのために、より新しいバージョンのWindowsに更新して下さい。
 
 Some previous Hitman games (2016 and 2) support Windows 7, but you will need to host the server on another machine or virtual machine in order to make things work.
 

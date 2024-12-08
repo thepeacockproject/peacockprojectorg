@@ -1,5 +1,5 @@
 ---
-title: What is Peacock?
+title: Peacockとは?
 description: A rundown on what Peacock is, and why you may want to give it a try.
 ---
 
