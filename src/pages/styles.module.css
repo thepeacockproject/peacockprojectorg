@@ -27,6 +27,8 @@
 .featureImage {
     height: 200px;
     width: 200px;
+    background-color: white;
+    border-radius: 20px;
 }
 
 .cardSpace {
