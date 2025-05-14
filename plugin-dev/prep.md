@@ -20,6 +20,8 @@ To fix this, run `Set-ExecutionPolicy Unrestricted` and try again.
 
 Lastly, you will need to install [Git](https://git-scm.com). The installer on Windows has a lot of options, and the defaults are fine.
 
+Note: Peacock development will need to be done on a drive that supports symlinks, like NTFS. Older file systems like FAT32 and exFAT do not natively support symlinks. 
+
 ## Workspace Setup
 
 Once you have all the pre-requisites satisfied, you will need to clone the Peacock repository.
@@ -33,7 +35,7 @@ git clone https://github.com/thepeacockproject/Peacock.git
 
 You will then want to open the project in a code editor of your choice, such as [Visual Studio Code](https://code.visualstudio.com) or [WebStorm](https://jetbrains.com/webstorm).
 
-Once you have opened the project, run the following command to install the dependencies:
+Once you have opened the project, run the following command in an administrator terminal to install the dependencies:
 
 ```bash
 yarn install

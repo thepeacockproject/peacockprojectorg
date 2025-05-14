@@ -43,8 +43,8 @@ module.exports = function roccoCampaign(controller: Controller) {
         "RoccoCampaignPlugin",
         (
             campaigns: Campaign[],
-            genSingleMissionFunc: GenSingleMissionFunc,
-            genSingleVideoFunc: GenSingleVideoFunc,
+            genSingleMission: GenSingleMissionFunc,
+            genSingleVideo: GenSingleVideoFunc,
             gameVersion: GameVersion
         ) => {
             const myStoryData: StoryData[] = [
@@ -95,7 +95,7 @@ controller.hooks.getNextCampaignMission.tap(
         contractId: string,
         gameVersion: GameVersion
     ): PlayNextGetCampaignsHookReturn | undefined => {
-    if (mission !== "my_first_mission_uuid") {
+    if (contractId !== "my_first_mission_uuid") {
         // we are not currently playing the first mission in the campaign, so we don't need to do anything
         return;
     }
