@@ -23,25 +23,19 @@ This tool is meant for use in full game Hitman speedruns.
 
 ## Installation
 
-1. Install [Peacock](./installation.md) and [LiveSplit](https://livesplit.org/downloads/) if you don't have either of them installed (just unzip them wherever you want). **If you already have Peacock installed, make sure to you have it updated to the latest version.** After you get these apps installed/updated, close them for now.
+1. Install [Peacock](./installation.md) and [LiveSplit](https://livesplit.org/downloads/) if you don't have either of them installed (just unzip them wherever you want). **If you already have Peacock installed, make sure to you have it updated to the latest version.** After you get these apps installed/updated, close Peacock for now and start LiveSplit if you haven't yet.
 
-2. Download `Livesplit.Server.zip` from here: https://github.com/LiveSplit/LiveSplit.Server/releases/latest
+2. Right click on main LiveSplit window, then click on `Edit Splits`. Edit your split names (`Segment Name`) to your liking. Click on `Insert Above / Below` to add new segments. If you like, you can enter your estimated times in `Segment Times`.
 
-3. Unzip `Livesplit.Server.zip`. Move the `Livesplit.Server.dll` and `Noes.Javascript.dll` files found within the unzipped folder to `Livesplit/Components` folder (refer to step 1 if you forgot where you installed the main Livesplit application). Here is an example of how your `Livesplit/Components`folder should look afterwards: ![example image](/img/livesplit_component.png)
+3. Click `ok` on the Splits Editor, then right-click the main LiveSplit window and select `Save Splits` for future use.
 
-4. Start LiveSplit.
+4. Right click on main LiveSplit window, then click on `Edit Layout`. Double-click on `Timer`, then select `Game Time` for timing method.
 
-5. Right click on main LiveSplit window, then click on `Edit Splits`. Edit your split names (`Segment Name`) to your liking. Click on `Insert Above / Below` to add new segments. If you like, you can enter your estimated times in `Segment Times`.
+5. While still on the `Edit Layout` page: Click `+` button, then `Control`, then `Livesplit Server`.
 
-6. Click `ok` on the Splits Editor, then right-click the main LiveSplit window and select `Save Splits` for future use.
+6. Click `ok` on the Layout Editor, then right-click the main LiveSplit window and select `save layout` for future use.
 
-7. Right click on main LiveSplit window, then click on `Edit Layout`. Double-click on `Timer`, then select `Game Time` for timing method.
-
-8. While still on the `Edit Layout` page: Click `+` button, then `Control`, then `Livesplit Server`.
-
-9. Click `ok` on the Layout Editor, then right-click the main LiveSplit window and select `save layout` for future use.
-
-10. Open `options.ini` in the Peacock folder and set `liveSplit = false` to be `liveSplit = true` instead, or else the livesplit integration will not work (it is turned off by default).
+7. Open `options.ini` in the Peacock folder and set `liveSplit = false` to be `liveSplit = true` instead to enable the livesplit integration (turned off by default), and adjust the other LiveSplit options as needed.
 
 ## How to Use
 
@@ -49,11 +43,11 @@ This tool is meant for use in full game Hitman speedruns.
 
 1. Open LiveSplit
 
-2. Right-click on the main LiveSplit window, then select `Control`, then `Start Server`.
+2. Right-click on the main LiveSplit window, then select `Control`, then `Start TCP Server`.
 
 3. If you would like to change what full game category you are running, edit `options.ini` file inside the Peacock folder and change the `autoSplitterCampaign` option to either `trilogy`, `1`, `2`, or `3` depending on which campaign you want to run (The autosplitter is set to `trilogy` by default). The autosplitter will only work so long as you play the selected campaign, in order.
 
-4. Open the folder where you have installed Peacock, and run `Start Server.cmd` and `PeacockPatcher.exe`.
+4. Open the folder where you have installed Peacock, and run `Start Server.cmd` and `PeacockPatcher.exe`. You should see a message in the Peacock Server Window saying `LiveSplit initialized`.
 
 5. Start game as normal.
 
