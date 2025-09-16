@@ -43,7 +43,7 @@ This tool is meant for use in full game Hitman speedruns.
 
 1. Open LiveSplit
 
-2. Right-click on the main LiveSplit window, then select `Control`, then `Start TCP Server`.
+2. Right-click on the main LiveSplit window, then select `Control`, then `Start TCP Server`. If this button isn't there you are likely running an outdated version of LiveSplit, as this server was originally separate from the main LiveSplit download, please update to at least LiveSplit 1.8.29, released May 11, 2024.
 
 3. If you would like to change what full game category you are running, edit `options.ini` file inside the Peacock folder and change the `autoSplitterCampaign` option to either `trilogy`, `1`, `2`, or `3` depending on which campaign you want to run (The autosplitter is set to `trilogy` by default). The autosplitter will only work so long as you play the selected campaign, in order.
 
