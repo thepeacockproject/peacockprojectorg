@@ -3,7 +3,7 @@ title: Installation and Usage
 description: How to get started with Peacock.
 ---
 
-## Installation
+## 安裝
 
 ### Video Tutorial
 

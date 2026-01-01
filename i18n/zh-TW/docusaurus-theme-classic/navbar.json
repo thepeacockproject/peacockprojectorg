@@ -4,7 +4,7 @@
     "description": "The title in the navbar"
   },
   "item.label.Wiki": {
-    "message": "Wiki",
+    "message": "維基百科",
     "description": "Navbar item with label Wiki"
   },
   "item.label.Discord": {
@@ -16,11 +16,11 @@
     "description": "Navbar item with label GitHub"
   },
   "item.label.Installation Guide": {
-    "message": "Installation Guide",
+    "message": "安裝指導",
     "description": "Navbar item with label Installation Guide"
   },
   "logo.alt": {
-    "message": "Peacock Logo",
+    "message": "Peacock 標誌",
     "description": "The alt text of navbar logo"
   }
 }

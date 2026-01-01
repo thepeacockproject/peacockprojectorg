@@ -9,28 +9,28 @@ title: 缺少字符串（UI_PEACOCK）
 
 您可以通过自定义 Peacock 菜单元素的文本来识别它，该文本显示以 `['UI_PEACOCK` 开头的文本，如图所示。
 
-![来自《杀手暗杀世界》中Peacock的特色页面截图。 自定义Peacock菜单元素显示以“['UI PEACOCK\`.](/image/wiki/missing strings.png)”开头的文本
+![来自《杀手暗杀世界》中Peacock的特色页面截图。 自定义Peacock菜单元素显示以“`['UI PEACOCK`”开头的文本。(/img/wiki/missing_strings.png)
 
 ## 如何修复
 
 :::note 无模组/其他游戏版本
 
-如果您不使用Simple Mod Framework或者您正在使用《杀手》2016或《杀手2》。
+如果您不使用Simple Mod Framework或者您使用的是《杀手2016》或《杀手2》。
 确保您的“thumbs.dat”文件不会通过控制台命令禁用动态资源包。
 
 如果您不确定如何检查，您可以验证您的游戏文件以确保您拥有原始版本。
 
 :::
 
-您可以通过安装使用Simple Mod Framework的mod来解决此问题。
+您可以通过安装使用Simple Mod Framework的模组来解决此问题。
 
 - 使用[此链接](https://hitman-resources.netlify.app/smf-install-link/https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip)，或；
-- 通过[直接下载](https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip)并通过mod管理器添加。
+- 通过[直接下载](https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip)并通过模组管理器添加。
 
 不要忘记重新应用你的模组。
 
-:::note 如果你已经安装了mod
+:::note 如果你已经安装了模组
 
-确保它已更新！ 您可以通过Simple Mod Framework的mod管理器执行此操作。
+确保它已更新！ 您可以通过 Simple Mod Framework 的模组管理器执行此操作。
 
 :::

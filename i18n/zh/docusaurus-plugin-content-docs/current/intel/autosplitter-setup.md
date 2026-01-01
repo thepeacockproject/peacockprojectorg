@@ -23,25 +23,19 @@ _教程由[Fusha](https://github.com/fu5ha)编写_。
 
 ## 安装
 
-1. 如果你还未安装，安装[Peacock](./installation.md)和[LiveSplit](https://livesplit.org/downloads/)（只需解压到你想要的地方）。 **如果你已经安装过了Peacock，请确保它处于最新版本。 **在你完成软件的安装/更新后，暂时关闭它们。
+1. 如果你还未安装，安装[Peacock](./installation.md)和[LiveSplit](https://livesplit.org/downloads/)（只需解压到你想要的地方）。 **If you already have Peacock installed, make sure to you have it updated to the latest version.** After you get these apps installed/updated, close Peacock for now and start LiveSplit if you haven't yet.
 
-2. 在这里下载`Livesplit.Server.zip`：https://github.com/LiveSplit/LiveSplit.Server/releases/latest
+2. 在LiveSplit主窗口上点击右键，然后点击`Edit Splits`。 将计时名称（`Segment Name`）修改为你想要的名字。 点击`Insert Above / Below`来添加新的小节。 如果你想，你可以在`Segment Times`中输入你的预估时间。
 
-3. 解压`Livesplit.Server.zip`。 将你从压缩包中解压出来的`Livesplit.Server.dll`和`Noes.Javascript.dll`文件移动到`Livesplit/Components`文件夹（如果你忘记了Livesplit的主程序在哪，查阅第一步）。 以下是`Livesplit/Components`文件夹之后的外观示例： ![示例图像](/img/livesplit_component.png)
+3. 在Splits Editor按下`ok`，然后在LiveSplit主窗口上点击右键，并选择`Save Splits`以备后续使用。
 
-4. 启动LiveSplit。
+4. 在LiveSplit主窗口上点击右键，然后点击`Edit Layout`。 在`Timer`上双击，然后选择`Game Time`来设定计时方式。
 
-5. 在LiveSplit主窗口上点击右键，然后点击`Edit Splits`。 将计时名称（`Segment Name`）修改为你想要的名字。 点击`Insert Above / Below`来添加新的小节。 如果你想，你可以在`Segment Times`中输入你的预估时间。
+5. 在`Edit Layout`页面上：点击`+`按钮，然后点击`Control`，再点击`Livesplit Server`。
 
-6. 在Splits Editor按下`ok`，然后在LiveSplit主窗口上点击右键，并选择`Save Splits`以备后续使用。
+6. 在Layout Editor页面点击`ok`，然后在LiveSplit主窗口点击右键，并选择`save layout`以备后续使用。
 
-7. 在LiveSplit主窗口上点击右键，然后点击`Edit Layout`。 在`Timer`上双击，然后选择`Game Time`来设定计时方式。
-
-8. 在`Edit Layout`页面上：点击`+`按钮，然后点击`Control`，再点击`Livesplit Server`。
-
-9. 在Layout Editor页面点击`ok`，然后在LiveSplit主窗口点击右键，并选择`save layout`以备后续使用。
-
-10. 打开Peacock文件夹中的`options.ini`，将`liveSplit`修改为`liveSplit = true`，否则livesplit整合将不会生效（此选项默认是关闭的）。
+7. Open `options.ini` in the Peacock folder and set `liveSplit = false` to be `liveSplit = true` instead to enable the livesplit integration (turned off by default), and adjust the other LiveSplit options as needed.
 
 ## 如何使用
 
@@ -49,11 +43,11 @@ _教程由[Fusha](https://github.com/fu5ha)编写_。
 
 1. 打开LiveSplit
 
-2. 在LiveSplit主窗口上点击右键，然后点击`Control`，再点击`Start Server`。
+2. Right-click on the main LiveSplit window, then select `Control`, then `Start TCP Server`. If this button isn't there you are likely running an outdated version of LiveSplit, as this server was originally separate from the main LiveSplit download, please update to at least LiveSplit 1.8.29, released May 11, 2024.
 
 3. 如果你想要修改运行的整局游戏类别，打开Peacock文件夹中的`options.ini`，然后将`autoSplitterCampaign`选项修改为`trilogy`， `1`，`2`，或 `3`，取决于你想要速通的战役（自动计时器默认设置为`trilogy`）。 仅在你按顺序游玩选中的战役时，计时器才会工作。
 
-4. 打开你安装Peacock的文件夹，运行`Start Server.cmd`和`PeacockPatcher.exe`。
+4. 打开你安装Peacock的文件夹，运行`Start Server.cmd`和`PeacockPatcher.exe`。 You should see a message in the Peacock Server Window saying `LiveSplit initialized`.
 
 5. 正常启动游戏。
 

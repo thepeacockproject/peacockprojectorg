@@ -3,7 +3,7 @@ image: /img/ghostmode.jpg
 description: Details about The Peacock Project's Ghost Mode server, allowing players to use the now-scrapped game mode.
 ---
 
-# Ghost Mode
+# 幽靈模式
 
 The Peacock Project is happy to announce that we are running our own [LocalGhost](https://gitlab.com/grappigegovert/LocalGhost) server!
 

@@ -9,28 +9,28 @@ But this also stops Peacock's dynamic resources package from being downloaded, t
 
 You can identify it by the text of custom Peacock menu elements showing text starting with `['UI_PEACOCK` as shown in the image.
 
-![Screenshot from the featured page of Peacock in HITMAN: World of Assassination. Custom Peacock menu elements show text starting with \['UI\_PEACOCK.](/img/wiki/missing_strings.png)
+![Screenshot from the featured page of Peacock in HITMAN: World of Assassination. Custom Peacock menu elements show text starting with ['UI_PEACOCK.](/img/wiki/missing_strings.png)
 
-## How to fix
+## 修正方法
 
 :::note No mods/other game versions
 
 If you do not use Simple Mod Framework or you are using Hitman 2016 or 2.
 Ensure that your `thumbs.dat` file does not disable the dynamic resources package through a console command.
 
-If you are unsure how to check this, you can verify your game files to ensure you have the vanilla version.
+確認方法がわからない場合は、ゲームファイルの整合性を確認することでバニラバージョンのゲームを確実に入手できます。
 
 :::
 
-You can fix this by installing a mod using Simple Mod Framework.
+Simple Mod Frameworkを用いてModをインストールすることで修正できます。
 
-- Using [this link](https://hitman-resources.netlify.app/smf-install-link/https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip), or;
-- By [downloading it directly](https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip) and adding it through the mod manager.
+- [こちらのリンク](https://hitman-resources.netlify.app/smf-install-link/https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip)をご利用頂くか、
+- [直接ダウンロード](https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip) して頂いた後、Modマネージャーを通して追加して頂いたりすることができます。
 
-Don't forget to re-apply your mods.
+Modを再適用するのをお忘れなく。
 
-:::note If you already have the mod installed
+:::note 既にModがインストールされている場合
 
-Ensure it is updated! You can do this through Simple Mod Framework's mod manager.
+Modがアップデートされていることをご確認下さい。 Simple Mod FrameworkのModマネージャーからご確認頂けます。
 
 :::

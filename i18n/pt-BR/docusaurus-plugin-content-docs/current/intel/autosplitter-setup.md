@@ -23,25 +23,19 @@ Essa ferramenta tem o propósito de ser usada em speedruns completas de Hitman.
 
 ## Instalação
 
-1. Instale o [Peacock](./installation.md) e o [LiveSplit](https://livesplit.org/downloads/) se você já não os tiver instalados (extraia-os em qualquer lugar que desejar). **Se você já tem o Peacock instalado, tenha a certeza de ter atualizado para a última versão.** Após ter esses aplicativos instalados/atualizados, feche-os no momento.
+1. Instale o [Peacock](./installation.md) e o [LiveSplit](https://livesplit.org/downloads/) se você já não os tiver instalados (extraia-os em qualquer lugar que desejar). **If you already have Peacock installed, make sure to you have it updated to the latest version.** After you get these apps installed/updated, close Peacock for now and start LiveSplit if you haven't yet.
 
-2. Extraia e coloque os dois arquivo que você acabou de baixar no arquivo zip do componente do servidor LiveSplit na pasta Components dentro da pasta de instalação `LiveSplit`.
+2. Clique com o botão direito na janela principal do Livesplit, e clique em `Edit Splits`. Edite seus nomes split (`Segment Name`) para o que desejar. Clique em `Insert Above / Below` para adicionar dois novos segmentos. Se desejar, você pode inserir seus tempos estimados em `Segment Times`.
 
-3. Unzip `Livesplit. Server.zip`. Move the `Livesplit. Server.dll` and `Noes. Javascript.dll` files found within the unzipped folder to `Livesplit/Components` folder (refer to step 1 if you forgot where you installed the main Livesplit application). Aqui está um exemplo de como sua pasta `Livesplit/Components` deve estar depois: ![imagem de exemplo](/img/livesplit_component.png)
+3. Clique em `ok` no Splits Editor, depois clique com o botão direito na janela principal do Livesplit e secione `Save Splits` para uso futuro.
 
-4. Inicie o LiveSplit.
+4. Clique com o botão direito na janela principal do Livesplit, e clique em `Edit Layout`. Clique duas vezes em `Timer`, então selecione `Game Time` para método de cronometragem.
 
-5. Clique com o botão direito na janela principal do Livesplit, e clique em `Edit Splits`. Edite seus nomes split (`Segment Name`) para o que desejar. Clique em `Insert Above / Below` para adicionar dois novos segmentos. Se desejar, você pode inserir seus tempos estimados em `Segment Times`.
+5. Enquanto ainda estiver na página `Edit Layout`: Clique no botão `+`, então em `Control`, e depois em `Livesplit Server`.
 
-6. Clique em `ok` no Splits Editor, depois clique com o botão direito na janela principal do Livesplit e secione `Save Splits` para uso futuro.
+6. Clique em `ok` no Splits Editor, depois clique com o botão direito na janela principal do Livesplit e secione `Save Layout` para uso futuro.
 
-7. Clique com o botão direito na janela principal do Livesplit, e clique em `Edit Layout`. Clique duas vezes em `Timer`, então selecione `Game Time` para método de cronometragem.
-
-8. Enquanto ainda estiver na página `Edit Layout`: Clique no botão `+`, então em `Control`, e depois em `Livesplit Server`.
-
-9. Clique em `ok` no Splits Editor, depois clique com o botão direito na janela principal do Livesplit e secione `Save Layout` para uso futuro.
-
-10. Abra `options.ini` na pasta Peacock e configure `liveSplit = false` para `liveSplit = true`, ou a integração livesplit não irá funcionar (está desligada por padrão).
+7. Open `options.ini` in the Peacock folder and set `liveSplit = false` to be `liveSplit = true` instead to enable the livesplit integration (turned off by default), and adjust the other LiveSplit options as needed.
 
 ## Como Usar
 
@@ -49,11 +43,11 @@ Essa ferramenta tem o propósito de ser usada em speedruns completas de Hitman.
 
 1. Abra o LiveSplit
 
-2. Clique com o botão direito na janela principal do LiveSplit, selecione `Control`, e depois em `Start Server`.
+2. Right-click on the main LiveSplit window, then select `Control`, then `Start TCP Server`. If this button isn't there you are likely running an outdated version of LiveSplit, as this server was originally separate from the main LiveSplit download, please update to at least LiveSplit 1.8.29, released May 11, 2024.
 
 3. Se você quiser mudar qual categoria de jogo completo você está jogando, edite o arquivo `options.ini` dentro da pasta do Peacock e mude a opção `autoSplitterCampaign` para `trilogy` (trilogia), `1`, `2`, ou `3` dependendo em qual campanha você quer jogar (O autosplitter está configurado para `trilogy`, por predefinição). O autosplitter só irá funcionar enquanto você jogar a campanha, em ordem.
 
-4. Abra a pasta onde você instalou o Peacock, e inicie `Start Server.cmd` e `PeacockPatcher.exe`.
+4. Abra a pasta onde você instalou o Peacock, e inicie `Start Server.cmd` e `PeacockPatcher.exe`. You should see a message in the Peacock Server Window saying `LiveSplit initialized`.
 
 5. Inicie o jogo normalmente.
 

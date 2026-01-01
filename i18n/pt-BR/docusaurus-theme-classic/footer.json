@@ -44,7 +44,7 @@
     "description": "The label of footer link with label=Terms of Service linking to /wiki/legal/terms-of-service"
   },
   "copyright": {
-    "message": "Copyright © 2022-2025 The Peacock Project. Não é propriedade de, afiliado de ou apoiado por IO Interactive. <br /><br /><small class=\"ioi-copyright\">HITMAN 3 © 2020 IO Interactive A/S. HITMAN™ 2 © 2018 IO Interactive A/S. HITMAN™ © 2019 IO Interactive A/S. IO Interactive, logomarcas da IOI, HITMAN, logomarcas HITMAN, e WORLD OF ASSASSINATION são marcas ou marcas registradas pertencentes ou exclusivamente licenciadas por IO Interactive A/S. Todas as outras marcas são propriedade de seus respectivos donos.</small>",
+    "message": "Copyright © 2022-2025 The Peacock Project. Not owned by, affiliated with, or endorsed by IO Interactive.<br /><br /><small class=\"ioi-copyright\">HITMAN 3 © 2020 IO Interactive A/S. HITMAN™ 2 © 2018 IO Interactive A/S. HITMAN™ © 2019 IO Interactive A/S. IO Interactive, IOI logos, HITMAN, HITMAN logos, and WORLD OF ASSASSINATION are trademarks or registered trademarks owned by or exclusively licensed to IO Interactive A/S. All other trademarks are the property of their respective owners.</small>",
     "description": "The footer copyright"
   },
   "link.item.label.GitHub": {

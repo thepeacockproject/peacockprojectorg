@@ -1,33 +1,33 @@
 ---
 title: Wat is Peacock?
-description: Een overzicht van wat Peacock is en waarom je het misschien eens een keer wilt uitproberen.
+description: Een overzicht van wat Peacock is en waarom je het misschien wel eens wilt proberen.
 ---
 
-Peacock is een Hitman-serveremulator die op uw eigen PC draait.
+Peacock is een Hitman-serveremulator die op je eigen pc draait.
 
-Wanneer je het spel start, verbind het zich niet met de servers van IOI, maar met die van Peacock.
+Als je het spel start, maakt het geen verbinding met de servers van IOI, maar alleen met Peacock.
 
-## How does Peacock Work?
+## Hoe werkt Peacock?
 
-Here's a brief breakdown of what Peacock does:
+Hier volgt een overzicht van wat Peacock doet:
 
--   Peacock lets you access Hitman's rating system without being connected to IOI's servers.
-    -   **Opmerking: Peacock is niet een volledige offline ervaring.**
-    -   Elke keer dat je het spel start, moet je een internetverbinding hebben, om zo de Steam of Epic verificatie te doorstaan.
-    -   Nadat je de Steam of Epic verificatie hebt doorstaan en als je met Peacock verbonden bent, kan je gerust jouw internet verbreken als dat wenselijk is, en je zal verbonden blijven met Peacock zolang het spel niet afgesloten wordt.
--   **In general, as of Peacock v6.3.1, challenges, mastery, progression, scoring, earning merces (Freelancer) are all supported, and the experience is 1:1 with the official servers experience**
-    -   Minor Exception: Some challenges, especially for Freelancer, may have some minor bugs. Please report any issues to the Peacock Discord `#help` channel (https://thepeacockproject.org/discord).
-    -   Please check the `options.ini` file in your Peacock install folder for any additional configuration tweaks, such as **turning progression / challenge completion on and off** (e.g. if you want to get all unlocks right away on purpose).
-    -   **By default, progression / challenge completion is turned on to simulate an official servers experience.**
-    -   **You can reset progress (challenges, XP, mastery, etc) at any time** by deleting your `userdata` folder within your Peacock Install directory.
-    -   Als je het spel voor de eerste keer speelt (op Peacock of op de officiële servers), zullen sommige uitgangen afgesloten zijn. Je moet eerst de uitgangen in Dubai ontgrendelen ([de liften ontgrendelen)](https://youtu.be/IEQgRQyQRf8), de Dartmoor uitgangen ([je moet minimaal een keer met de motor vertrekken](https://youtu.be/AJtJZe9jEi8?t=151)), en de Colorado uitgangen ([je moet minimaal een keer met de tornado uitgang de map verlaten](https://youtu.be/3XKWHrKpXwk?t=140)). Deze uitgangen worden client-side afgehandeld.
--   Peacock lets you play [custom](../custom-content.md) or otherwise discontinued / time limited content such as [Ghost Mode](../ghost-mode.md), Sniper co-op, escalations, elusive targets, and contracts.
-    -   Both official server escalation / elusive targets / contracts and custom / modded ones are supported, see [here](../custom-content.md) for more info.
--   Display leaderboards for other Peacock users (Cross Platform, Epic and Steam)
--   In Game Saving is supported, and as of Peacock v5.0.1 you can load official server saves in Peacock.
+-   Met Peacock krijg je toegang tot het classificatiesysteem van Hitman zonder dat je verbonden bent met de servers van IOI.
+    -   **Opmerking: Peacock is niet volledig offline.**
+    -   Elke keer dat je het spel start, moet je eerst nog verbonden zijn met het internet om door Steam of Epic verificatie te komen.
+    -   Nadat je de Steam / Epic verificatie hebt doorstaan en verbinding hebt gemaakt met Peacock, kun je je internetverbinding verbreken als je wilt en blijf je verbonden met Peacock voor de duur van je gamesessie.
+-   **In het algemeen worden vanaf Peacock v6.3.1 challenges, mastery, progressie, scoring, merces verdienen (Freelancer) allemaal ondersteund en is de ervaring 1:1 met de ervaring op de officiële servers**
+    -   Kleine uitzondering: Sommige challenges, vooral voor Freelancer, kunnen wat kleine bugs bevatten. Meld problemen in het `#help` kanaal in de Peacock Discord (https://thepeacockproject.org/discord).
+    -   Controleer het `options.ini` bestand in je Peacock installatiemap voor eventuele extra configuratie-tweaks, zoals **het aan- en uitzetten van progressie / challenge voltooiing** (bijvoorbeeld als je expres alle unlocks meteen wilt krijgen).
+    -   **Vooruitgang/challenge voltooiing is standaard ingeschakeld om een officiële serverervaring te simuleren.**
+    -   **Je kunt je voortgang (challenges, XP, mastery, etc.) op elk moment resetten** door je `userdata` map in je Peacock Install map te verwijderen.
+    -   Als je voor het eerst speelt (op de Peacock/officiële servers), worden sommige uitgangen vergrendeld. Je moet uitgangen in Dubai vrijspelen ([nodig om de liften vrij te spelen](https://youtu.be/IEQgRQyQRf8)), uitgangen in Dartmoor ([nodig om minstens één keer via de fiets uit te gaan](https://youtu.be/AJtJZe9jEi8?t=151)) en uitgangen in Colorado ([nodig om minstens één keer de tornado-uitgang te gebruiken](https://youtu.be/3XKWHrKpXwk?t=140)). Deze uitgangen worden client-side afgehandeld.
+-   Met Peacock kun je [aangepaste](../custom-content.md) of anderszins beëindigde/tijdgebonden content spelen, zoals [Ghost Mode](../ghost-mode.md), Sniper co-op, escalaties, elusive targets en contracten.
+    -   Zowel officiële serverescalatie/elusive targets/(custom, modded) contracten worden ondersteund, zie [hier](../custom-content.md) voor meer informatie.
+-   Toon leaderboards voor andere Peacock gebruikers (Cross Platform, Epic en Steam)
+-   In Game Saving wordt ondersteund en vanaf Peacock v5.0.1 kun je officiële server saves in Peacock laden.
 
-:::info Trivia: Waarom heet het Peacock?
+:::info Trivia: Waarom de naam Peacock?
 
-Peacock is de naam dat het spel gebruikt in de broncode voor de missie "The Showstopper", wat een nieuw tijdperk van Hitman luidde. Vandaar de naam "Peacock".
+Peacock is de naam die het spel gebruikt in de broncode voor de missie “The Showstopper”, die een nieuw tijdperk van Hitman inluidde. Vandaar de naam “Peacock”.
 
 :::

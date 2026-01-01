@@ -1,30 +1,30 @@
 ---
-title: Port in Use Error
+title: ”Port in Use(ポートが使用中です)"エラー
 ---
 
-The "Port in Use" error happens when Peacock is trying to start, but the port it's set to use is already in use.
+Peacockが起動しようとしているが、Peacockが使用するよう設定されているポートが既に使用中である場合、"Port in Use"エラーが発生します。
 
-Here's what it looks like:
+エラーが発生すると、以下のようなメッセージが表示されます:
 
-![The error message shown when Peacock tries to use a port that's in use](/img/wiki/port_in_use.png)
+![Peacockが既に使用されているポートを使用しようとした際に表示されるエラーメッセージ](/img/wiki/port_in_use.png)
 
-## What is a Port?
+## ポートとは何か?
 
 In simple terms, a port is a thing programs and other computers can connect to and get data from.
 In order for the game to talk to Peacock's server, the server has to occupy a port.
-Ports must have an assigned number. The default port used by Peacock is 80, but port numbers can be any whole number between 1 and 65535.
+Ports must have an assigned number. Peacockがデフォルトで使用するポートは80番ですが、1から65535までのあらゆる整数がポート番号になり得ます。
 
 ## Visual Studio
 
-If you use Visual Studio, you may have installed some services that interfere with Peacock by also running on Port 80. To fix:
+If you use Visual Studio, you may have installed some services that interfere with Peacock by also running on Port 80. 以下の手順で修正を試みて下さい:
 
-1. Press the Windows key and R at the same time.
-2. Type services.msc in the popup box, then hit Okay.
+1. WindowsキーとRキーを同時に押して下さい。
+2. ポップアップされた画面に"services.msc"と入力し、Okayを押して下さい。
 3. Check for `W3SVC: World Wide Web Publishing Service` and `Web Deployment Agent Service` in the service manager.
-4. Disable both if present.
+4. もしこれらが存在している場合、両方を無効化して下さい。
 5. Try again, if it doesn't work, restart your computer, then try once more.
 
-## Changing the Port
+## ポートの変更
 
 Here's how to change the port Peacock uses, if you don't want to stop the process on Port 80:
 
@@ -42,7 +42,7 @@ In the instructions below, please substitute `PORTNUMBER` with a port that is no
   ```
 - Type `127.0.0.1:PORTNUMBER` into the Patcher's URL field, as shown here (click on the text and then type, the UI/UX will hopefully be improved soon): ![](/img/wiki/patcher_port.png)
 
-## On Linux
+## Linuxの場合
 
-Peacock's default port is 80, but on Linux, the normal user account does not have permission to use port 80.
-Check out the Changing the Port section above.
+Peacockのデフォルトのポートは80番ですが、Linuxでは、通常のユーザーアカウントには80番のポートを使用する権限がございません。
+上記の『ポートの変更』の項目をご確認下さい。

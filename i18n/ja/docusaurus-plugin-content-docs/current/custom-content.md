@@ -1,13 +1,13 @@
 ---
-title: Custom Content
-description: An overview of the custom content that Peacock provides.
+title: カスタムコンテンツ
+description: このページではPeacockがご提供するカスタムコンテンツについてご紹介致します。
 ---
 
 Peacock has lots of goodies packed in for our users. Here's a peek at our custom content!
 
-## Escalations
+## エスカレーション
 
-### Custom Peacock Escalations
+### カスタムPeacockエスカレーション
 
 Peacock supports custom (Peacock original) escalations. These escalations are available in-game by default. You can see some custom escalations listed in the [Roadmaps](./roadmaps.mdx) as well.
 
@@ -17,7 +17,7 @@ Peacock also supports all official server escalations, including Hitman 2016 esc
 
 - Note: You can select specific escalation levels to start on using the Escalation Level Picker tool, as explained [here](./intel/loadout-profiles-elp.md#escalation-level-picker)
 
-## Contracts Mode
+## コントラクトモード
 
 Peacock supports both official server and custom Peacock contracts.
 
@@ -33,7 +33,7 @@ Go to `Game Modes` -> `Contracts` -> `Featured` menu in-game.
 
 ### User-Created Official Server Contracts
 
-#### How to Install
+#### インストールの手順
 
 - Note: This only works while the HITMAPS bot is authenticated for the platform in question.
   - [More info on how to authenticate it](https://bot.hitmaps.com/).
@@ -48,13 +48,13 @@ Go to `Game Modes` -> `Contracts` -> `My Contracts` in-game to play.
 
 ### User-Created Peacock Contracts
 
-#### How to Install
+#### インストールの手順
 
 Download the contract's `.json` file from the `share-contracts` channel in Peacock Discord. Place the `.json` file in your `Contracts` folder, as shown here: ![](/img/wiki/contracts_folder.png).
 
-#### How to create your own
+#### ご自分でコントラクトを作成する方法
 
-- If you create a contract in-game while in Peacock server, your contract will be saved as an `.json` file in `Contracts` folder, as shown in the image above.
+- Peacockサーバーに接続中にゲーム内でコントラクトを作成すると、作成されたコントラクトは上にございます画像のように`.json<code>ファイルとして<code>Contracts `フォルダの中に保存されます。
 - Be sure to share your `.json` file in Peacock Discord's `share-contracts` channel if you want others to play your custom Peacock contract.
 
 #### How to Play

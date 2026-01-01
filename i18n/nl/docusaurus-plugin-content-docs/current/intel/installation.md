@@ -5,41 +5,41 @@ description: Hoe te beginnen met Peacock.
 
 ## Installatie
 
-### Video Tutorial
+### Video-handleiding
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nF5ngiuDe5M?start=92" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="true"></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nF5ngiuDe5M?start=92" title="YouTube-videospeler" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="true"></iframe>
 
-Check out the video tutorial above for a walkthrough of the installation process. It may help to enable full-screen mode!
+Bekijk de bovenstaande video-handleiding voor een overzicht van het installatieproces. Het kan helpen om full-screen in te schakelen!
 
 ### Instructies
 
-Here's how to get up and running with Peacock.
+Hier lees je hoe je aan de slag kunt met Peacock.
 
--   Steps 4-5 need to be repeated every time you launch the game. Het spel zal anders terug gaan naar de officiële servers.
+-   Stappen 4-5 moeten worden herhaald elke keer dat je het spel start. Het spel zal anders terug gaan naar de officiële servers.
 
 ---
 
-1. Be sure to check the [requirements](./requirements.md) before reading further to ensure you have the required games / operating systems. The **Microsoft Store version** of Hitman 3 **is not supported**, and [Linux users should check this page](../guides/linux-setup.md).
+1. Controleer de [vereisten](./requirements.md) voordat je verder leest om er zeker van te zijn dat je de vereiste games/besturingssystemen hebt. De **Microsoft Store versie** van Hitman 3 **wordt niet ondersteund**, en [Linux gebruikers moeten deze pagina bekijken](../guides/linux-setup.md).
 
-2. [Download the latest Peacock release here](https://github.com/thepeacockproject/Peacock/releases/latest). Select `Peacock-vX.Y.Z.zip` to download.
+2. [Download de nieuwste versie van Peacock hier](https://github.com/thepeacockproject/Peacock/releases/latest). Selecteer `Peacock-vX.Y.Z.zip` om te downloaden.
 
-    - Note: There is also a `Peacock-vX.Y.Z-lite.zip` option, only for Linux users. Refer to the [Linux guide](../guides/linux-setup.md) for Linux instructions.
+    - Opmerking: Er is ook een `Peacock-vX.Y.Z-lite.zip` optie, alleen voor Linux gebruikers. Raadpleeg de [Linux gids](../guides/linux-setup.md) voor Linux-instructies.
 
-3. Extract (unzip) the files. Running the files while they're in the zipped folder won't work.
+3. Pak de bestanden uit. Het uitvoeren van de bestanden in de gezipte map werkt niet.
 
-   - To avoid issues, **do not** put the extracted files in:
-     - `Program Files` (including the x86 version)
-     - The folder where your game is installed.
-   - A great place to put them is somewhere easily accessible, like your Documents folder, or on your Desktop.
+   - Om problemen te voorkomen, plaats de uitgepakte bestanden niet **niet** in:
+     - `Program Files` (inclusief de x86-versie)
+     - De map waar je spel is geïnstalleerd.
+   - Een goede plek om ze neer te zetten is ergens waar je ze makkelijk kunt vinden, zoals je map Documenten of op je Bureaublad.
 
-4. Go to the folder you put the files in, and run both `Start Server.cmd` and `PeacockPatcher.exe`.
+4. Ga naar de map waarin je de bestanden hebt geplaatst en voer zowel `Start Server.cmd` als `PeacockPatcher.exe` uit.
 
-   ![Example image showcasing folder structure](/img/patcher_and_server.png)
+   ![Voorbeeldafbeelding van de mappenstructuur](/img/patcher_and_server.png)
 
-5. Now start up the game while `Start Server` and `PeacockPatcher.exe` are still running. The game should launch with Peacock server. Check the [FAQ](./faq.md) or ask in the `#help` channel on [Peacock Discord](https://thepeacockproject.org/discord) if you have trouble getting it to work.
+5. Start nu het spel op terwijl `Start server` en `PeacockPatcher.exe` nog steeds actief zijn. Het spel zou moeten starten met de Peacock-server. Bekijk de [FAQ](./faq.md) of vraag het in het `#help` kanaal op de [Peacock Discord](https://thepeacockproject.org/discord) als je problemen hebt om het werkend te krijgen.
 
-6. (Optional step) If you want to immediately unlock all weapons, items, starting locations, etc., [here's how](../intel/faq.md#how-to-get-all-items).
+6. (Optionele stap) Als je onmiddellijk alle wapens, voorwerpen, startlocaties, etc. wilt ontgrendelen, [hier is hoe](../intel/faq.md#how-to-get-all-items).
 
-## Updating
+## Updaten
 
-Steps 2-3 may need to be repeated whenever Peacock receives an update (more info on the [Updating](./updating.md) page).
+Het is mogelijk dat stappen 2-3 moeten worden herhaald wanneer Peacock een update ontvangt (meer info op de [Updaten](./updating.md) pagina).

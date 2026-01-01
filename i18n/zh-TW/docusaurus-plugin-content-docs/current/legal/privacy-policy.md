@@ -1,5 +1,5 @@
 ---
-sidebar_label: Privacy Policy
+sidebar_label: 隱私政策
 description: How The Peacock Project handles and stores user data.
 ---
 

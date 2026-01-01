@@ -5,9 +5,9 @@ description: Hoe je de functies kunt gebruiken zoals de Loadout Profiles en de E
 
 ## Loadout Profiles
 
--   Om meerdere loadouts per map op te slaan (loadout profiles): [Volg deze gids](https://www.youtube.com/watch?v=ouD9QBSVHI0)
-    -   Opmerking: Je moet Hitman met Peacock eerst open hebben voordat je de stappen in deze gids volgt. In aanvulling op de Loadout Profiles, je kan nu gewoon `localhost` of `127.0.0.1` in jouw browser intypen in plaats van `localhost/loadouts`. Wanneer je op de `localhost` pagina bent, klik dan op `Loadout Profiles` in de linker bovenkant van de navigatiebalk. Ga dan verder met de rest van de gids.
+-   Om meerdere loadouts per map op te slaan (loadout profiles): [Volg deze handleiding](https://www.youtube.com/watch?v=ouD9QBSVHI0)
+    -   Opmerking: Je moet Hitman openen met Peacock voordat je de stappen in deze handleiding volgt. Daarnaast heeft Peacock een nieuwe update ontvangen, dus ga nu gewoon naar `localhost` of `127.0.0.1` in je browser in plaats van `localhost/loadouts`. Als je op de pagina `localhost` bent, klik je op `Loadout Profiles` in de navigatiebalk linksboven. Ga dan verder met de rest van de video-handleiding.
 
-## Escalation Level Picker
+## Escalatieniveau kiezer
 
--   To pick specific escalation levels, run `Start Server.cmd` from your Peacock Install folder, then open up a web browser and go to `localhost` or `127.0.0.1`. Go to `Escalation Level Picker` and proceed from there following instructions on screen.
+-   Om specifieke escalatieniveaus te kiezen, voer je `Start Server.cmd` uit vanuit je Peacock installatiemap. Open vervolgens een webbrowser en ga naar `localhost` of `127.0.0.1`. Ga naar `Escalation Level Picker` en volg de instructies op het scherm.

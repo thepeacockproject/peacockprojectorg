@@ -3,20 +3,20 @@ title: Updaten naar nieuwere versies
 description: Wanneer moet ik updaten? Hoe update ik? Een gids over alles wat je moet weten over updaten.
 ---
 
-## Video Tutorial
+## Video-handleiding
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nF5ngiuDe5M?start=484" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media;picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="true"></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nF5ngiuDe5M?start=484" title="YouTube-videospeler" frameborder="0" allow="autoplay; encrypted-media;picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="true"></iframe>
 
-Check out the video tutorial above for a walkthrough of the updating process. It may help to enable full-screen mode!
+Bekijk de bovenstaande video-handleiding voor een uitleg van het updateproces. Het kan helpen om full-screen in te schakelen!
 
 ## Instructies
 
-1. When you run `Start Server.cmd`, you may get an alert that Peacock is out of date, as shown in this example image: ![Out of date Peacock warning](/img/peacock_out_of_date.png).
-2. Normaalgesproken hoef je Peacock alleen maar te updaten als er een nieuwe versie is van het spel, maar blijf op de hoogte van het `#updates` kanaal en het `#downloads` kanaal van de Peacock Discord om zeker te zijn.
-    - Opmerking: Peacock kan tijdelijk onbeschikbaar zijn na een update voor het spel, het duurt namelijk een paar uur voordat de Peacock Patcher weer geupdated is.
-3. If there is a new Peacock update, go to the [latest Peacock release on GitHub](https://github.com/thepeacockproject/Peacock/releases/latest) to download the latest build.
-4. Extract (unzip) de bestanden. De bestanden vanuit de gezipte folder uitvoeren zal niet werken.
-5. **Assuming you have used Peacock during the previous game update**, follow the instructions below to keep your loadouts and in-game save files (Otherwise, your loadouts will all default back to ICA19/coins/fiberwire, and your in-game save files will be lost).
+1. Als je `Start Server.cmd` uitvoert, krijg je mogelijk een melding dat Peacock verouderd is, zoals te zien is in deze voorbeeldafbeelding: ![Out of date Peacock warning](/img/peacock_out_of_date.png).
+2. Normaal gesproken hoef je Peacock alleen te updaten als er een nieuwe game-update is, maar blijf voor de zekerheid op de hoogte in de Peacock Discord kanalen `#updates` en `#downloads`.
+    - Opmerking: Peacock kan tijdelijk niet beschikbaar zijn na een game-update, omdat het een paar uur duurt voordat de Peacock Patcher ook is bijgewerkt.
+3. Als er een nieuwe Peacock update is, ga dan naar de [laatste Peacock release op GitHub](https://github.com/thepeacockproject/Peacock/releases/latest) om de laatste build te downloaden.
+4. Pak de bestanden uit. Het uitvoeren van de bestanden vanuit de gezipte map werkt niet.
+5. **Aannemend dat je Peacock hebt gebruikt tijdens de vorige game-update**, volg de onderstaande instructies om je loadouts en in-game savebestanden te behouden (Anders worden al je loadouts standaard teruggezet naar ICA19/munten/fiberwire en gaan je in-game savebestanden verloren).
 
-    - Kopieer jouw oude `userdata` en `contractSessions` uit uw vorige Peacock installatiefolder en plak deze in uw nieuwe Peacock installatiefolder. Vervang (als het nodig is) bestaande bestanden in de nieuwe folder van Peacock.
-    - Check this example image if you have trouble finding the `userdata` and `contractSessions` folders: ![](/img/userdata_contractsessions.png)
+    - Kopieer je oude `userdata` en `contractSessions` mappen van je vorige Peacock installatiemap en plak deze in je nieuwe Peacock installatiemap. Vervang indien nodig bestaande bestanden in de map van de nieuwe Peacock build.
+    - Bekijk deze voorbeeldafbeelding als je problemen hebt met het vinden van de mappen `userdata` en `contractSessions`: ![](/img/userdata_contractsessions.png)

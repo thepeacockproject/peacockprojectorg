@@ -3,7 +3,7 @@ title: Servicevoorwaarden
 description: Peacock's Servicevoorwaarden en Gebruik.
 ---
 
-While we aren't lawyers, we do have some terms and conditions that must be followed.
+Hoewel we geen advocaten zijn, hebben we wel een aantal voorwaarden waaraan we ons moeten houden.
 
 ## Voorwaarden
 
@@ -19,7 +19,7 @@ We stemmen ermee in om toegang te verlenen tot Peacock voor geselecteerde eigena
 
 ## Licentie
 
-As of October 20th, 2022, Peacock is an open-source project under the [GNU Affero General Public License, version 3.0](https://www.gnu.org/licenses/agpl-3.0.en.html).
+Vanaf 20 oktober 2022 is Peacock een open-source project onder de [GNU Affero General Public License, versie 3.0](https://www.gnu.org/licenses/agpl-3.0.en.html).
 
 ## Donaties
 
@@ -35,4 +35,4 @@ Alle vertalingen worden puur ter informatie verstrekt. In geval van discrepantie
 
 ## Verandering
 
-Dit beleid kan altijd worden gewijzigd. Wij zullen proberen u op de hoogte te stellen van eventuele wijzigingen, maar in sommige gevallen kunnen wij dat niet. De datum waarop dit beleid voor het laatst is gewijzigd, vindt u onderaan deze pagina. Additionally, you can view the revision history of this page [here](https://github.com/thepeacockproject/peacockprojectorg/commits/main/docs/legal/terms-of-service.md).
+Dit beleid kan altijd worden gewijzigd. Wij zullen proberen u op de hoogte te stellen van eventuele wijzigingen, maar in sommige gevallen kunnen wij dat niet. De datum waarop dit beleid voor het laatst is gewijzigd, vindt u onderaan deze pagina. Daarnaast kun je de revisiegeschiedenis van deze pagina [hier](https://github.com/thepeacockproject/peacockprojectorg/commits/main/docs/legal/terms-of-service.md) bekijken.

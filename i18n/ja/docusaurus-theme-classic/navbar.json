@@ -16,11 +16,11 @@
     "description": "Navbar item with label GitHub"
   },
   "item.label.Installation Guide": {
-    "message": "Installation Guide",
+    "message": "インストールに関するご案内",
     "description": "Navbar item with label Installation Guide"
   },
   "logo.alt": {
-    "message": "Peacock Logo",
+    "message": "Peacockのロゴ",
     "description": "The alt text of navbar logo"
   }
 }

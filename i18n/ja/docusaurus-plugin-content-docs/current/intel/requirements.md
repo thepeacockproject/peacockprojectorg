@@ -5,11 +5,11 @@ description: Peacockを起動し利用するためのシステム要件は以下
 
 動画によるチュートリアル
 
-Want this guide in video/spoken form? Check out our [video tutorial](https://www.youtube.com/watch?v=nF5ngiuDe5M).
+このチュートリアルを動画や音声で確認したい場合はこちらの [解説動画](https://www.youtube.com/watch?v=nF5ngiuDe5M)をご視聴下さい。
 
 :::
 
-## Supported Games / Platforms
+## サポートされているゲームおよびプラットフォームの一覧
 
 -   Hitman 2016 ([Steam](https://store.steampowered.com/app/236870/HITMAN/) / [Epic](https://www.epicgames.com/store/en-US/p/hitman))
 -   Hitman Sniper Assassin ([Steam Depot](https://steamdb.info/app/783780/))
@@ -19,9 +19,9 @@ Want this guide in video/spoken form? Check out our [video tutorial](https://www
 ### Unsupported games and platforms
 
 -   Any other platform not listed in "Supported" section, such as console platforms, are not supported.
--   Demo versions of Hitman 3 are not supported.
--   Game Pass or Microsoft PC edition of Hitman 3 is not supported.
--   **Any cracked or pirated version of Hitman 1-3 is not supported, and you will be banned from the Peacock Discord upon asking about how to use any pirated or cracked version.**
+-   Hitman3のデモバージョンはサポートされていません。
+-   ゲームパス版やMicrosoft PCエディションのヒットマン3はサポートされていません。
+-   **不正に入手されたゲームや海賊版はサポートされていません。また、これらの非合法なバージョンの取り扱いについてPeacockのDiscordサーバーでご質問頂いた場合、追放処分を取らせて頂きます。**
 
 ## Supported Operating Systems
 

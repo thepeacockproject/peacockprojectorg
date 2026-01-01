@@ -1,8 +1,8 @@
 ---
-title: Port in Use Error
+title: Poort in gebruik error
 ---
 
-The "Port in Use" error happens when Peacock is trying to start, but the port it's set to use is already in use.
+De fout “Poort in gebruik” treedt op wanneer Peacock probeert te starten, maar de poort waarvoor het is ingesteld al in gebruik is.
 
 Here's what it looks like:
 

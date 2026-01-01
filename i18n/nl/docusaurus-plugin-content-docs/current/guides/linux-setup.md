@@ -5,65 +5,65 @@ description: Gids voor het opzetten van Peacock op Linux of macOS.
 
 Peacock is primair gemaakt om te werken op Windows, maar ben niet bang, het is namelijk mogelijk om het ook op Linux gebruiken!
 
-:::info Update as of November 2022
+:::info Update vanaf november 2022
 
--   Go to [this GitHub repo](https://github.com/thepeacockproject/linux-steam-setup) for updated instructions on how to get Peacock running on Linux with Steam.
--   **Original Instructions below may also work.**
+-   Ga naar [deze GitHub repo](https://github.com/thepeacockproject/linux-steam-setup) voor bijgewerkte instructies over hoe je Peacock draaiend krijgt op Linux met Steam.
+-   **De originele instructies hieronder kunnen ook werken.**
 
 :::
 
 ## Server
 
-To get the server working on Linux, you will need to first prepare Node.js.
+Om de server werkend te krijgen op Linux, moet je eerst Node.js voorbereiden.
 
-### Install nvm
+### Installeer nvm
 
-In order to do so, run the following command the first time:
+Voer hiervoor de eerste keer het volgende commando uit:
 
 ```shell
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ```
 
-This will download and install [nvm](https://nvm.sh), which allows quickly swapping between multiple Node.js versions. This will allow Peacock to always use the version of Node.js it needs to.
+Hiermee wordt [nvm](https://nvm.sh) gedownload en geïnstalleerd, waarmee snel tussen meerdere Node.js-versies kan worden gewisseld. Hierdoor zal Peacock altijd de versie van Node.js gebruiken die het nodig heeft.
 
-### Install Node.js
+### Installeer Node.js
 
-Next, `cd` to the directory you have Peacock unzipped to, and run the following command:
+Ga vervolgens met `cd` naar de map waarin Peacock is uitgepakt en voer het volgende commando uit:
 
 ```shell
 nvm install
 ```
 
-This will install the version of Node.js required by Peacock. You will need to re-run this when Peacock updates.
+Dit installeert de versie van Node.js die Peacock nodig heeft. Je moet dit opnieuw uitvoeren wanneer Peacock een update heeft.
 
-### Create a launcher script
+### Maak een launcher-script
 
-Finally, create a script that lets you easily start the server, with the suggested contents being as follows:
+Maak ten slotte een script waarmee je de server gemakkelijk kunt starten, met de volgende voorgestelde inhoud:
 
 ```shell
 node --enable-source-maps --harmony chunk0.js --hmr
 ```
 
--   Note: If you are using a port other than port 80, you should specify the port in your launcher script. Substitute `PORTNUMBER` in the script below with your port number of choice.
+-   Opmerking: Als je een andere poort dan poort 80 gebruikt, moet je de poort opgeven in je launcher-script. Vervang `PORTNUMBER` in het onderstaande script door een poortnummer naar keuze.
 
     -   ` ```shell PORT=PORTNUMBER node --enable-source-maps --harmony chunk0.js --hmr `
 
-And then make the script executable:
+En maak het script vervolgens uitvoerbaar:
 
 ```shell
 ```shell
 chmod +x ./theScriptsName.sh
 ```
 
-You can now launch the server by running the script you just created.
+Je kunt nu de server starten door het script uit te voeren dat je zojuist hebt gemaakt.
 
 ## Patcher
 
-This part is a lot more tricky. You need to run the patcher in _the same Wine prefix as the game_.
+Dit deel is een stuk lastiger. Je moet de patcher uitvoeren in _dezelfde Wine-prefix als het spel_.
 
-Some users have gotten it to work, but others haven't. Feel free to document your experience in the Discord's `#help` channel for anybody that has problems in the future to reference.
+Sommige gebruikers hebben het werkend gekregen, anderen niet. Deel je ervaring in het `#help`-kanaal van de Discord, zodat iedereen die in de toekomst problemen ondervindt deze kan raadplegen.
 
-Some people have gotten it to work using the following command:
+Sommige mensen hebben het werkend gekregen met het volgende commando:
 
 ```shell
 STEAM_COMPAT_DATA_PATH="$HOME/.steam/root/steamapps/compatdata/1659040" \
@@ -72,4 +72,4 @@ STEAM_COMPAT_DATA_PATH="$HOME/.steam/root/steamapps/compatdata/1659040" \
   "$HOME/.steam/root/steamapps/common/Proton\ -\ Experimental/proton" run /path/to/PeacockPatcher.exe
 ```
 
-Obviously, you will need to change the paths to match your install of Steam, Proton, and the patcher.
+Uiteraard moet je de paden aanpassen aan je installatie van Steam, Proton en de patcher.

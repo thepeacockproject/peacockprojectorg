@@ -1,10 +1,10 @@
 {
   "Fast": {
-    "message": "敏捷",
+    "message": "快速",
     "description": "Homepage 'fast' feature header"
   },
   "homepage.fastDescription": {
-    "message": "Peacock是为快速而生的。延迟、滞后和延误无趣至极，这就是我们把重点放在尽可能消除这些因素上的原因。",
+    "message": "Peacock是为快速而生的。延迟和滞后无趣至极，这就是我们把重点放在尽可能消除这些因素上的原因。",
     "description": "The homepage's 'Fast' feature description"
   },
   "Easy to set up": {

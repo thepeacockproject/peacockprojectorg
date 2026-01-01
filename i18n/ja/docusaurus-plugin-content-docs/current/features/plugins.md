@@ -2,51 +2,45 @@
 title: Plugins
 ---
 
-Peacock supports a broad variety of server side mods (plugins). Plugins can add new content to the game, or change
-existing mechanics.
+Peacockはサーバー側に導入可能な様々なMod(プラグイン)をサポートしています。 プラグインは新たなコンテンツをゲームに追加したり、既存の仕様を変更することができます。
 
-## What can plugins do?
+## プラグインを導入するとできること
 
-Plugins are able to make changes to the parts of the game that Peacock handles.
-This includes menus, missions, contracts mode, leaderboards, and unlockables, among other things.
+プラグインはPeacockが扱うゲームの一部の仕様に変更を加えることが可能です。
+変更可能なものの例として、メニュー、ミッション、コントラクトモード、リーダーボード、アンロック可能な要素が挙げられます。
 
-One limitation of plugins is that they can't modify the game's files on their own, but some mods for the game have
-plugins that go along with them to make certain features work in Peacock's online mode, instead of only offline mode.
+プラグインの限界の１つとして、ゲームのファイルをプラグイン自身が変更することはできないということが挙げられます。しかしながら、一部のModには特定の仕様をオフラインモード限定ではなく、Peacockのオンラインモードでも実現可能にするプラグインが含まれています。
 
 :::note
 
-Plugins are only a small portion of the Hitman modding scene. **Many Hitman mods are done client-side and out of
-scope of Peacock.** More general-use client-side mods, outside the scope of Peacock, are aggregated here:
+プラグインはHitmanをModによって改造する方法のごく一部に過ぎません。 HitmanのModの多くはクライアント側で実行され、Peacockの管轄外にあります。上記のようなクライアント側で機能する汎用Modは以下のウェブサイトにアップロードされています。
 
 - [NexusMods](https://www.nexusmods.com/hitman3)
 - [Glacier Modding Discord](https://discord.com/invite/6UDtuYhZP6)
 
 :::
 
-## Examples
+## プラグインの例
 
-Here are some of the plugins that have been made by our community:
+私達のコミュニティによって作成されたプラグインの例として、以下をご紹介致します。
 
-- Kill Everyone Campaign by Anthony Fuller
-  - All real NPC's marked as targets, can get Silent Assassin rating back after killing everyone.
-  - Note: Very buggy for maps with 200+ targets, guns may jam randomly. You may need to start by melee killing people.
-- Plugins that add unused weapons to the game (such as the [Beanbag Shotgun](/img/wiki/beanbag_shotgun.png))
-- Plugins to modify existing weapons and disguises
+- Anthony Fuller作　Kill Everyone Campaign(全員殺害ミッション)
+  - 群衆NPCを除くすべてのNPCがターゲットとしてマークされます。全員殺害するとサイレントアサシンを達成できます。
+  - 注意: ターゲットの数が200人を超えるマップでは、銃がいきなり動作不良を起こす等の不具合が非常に起こりやすくなります。 近接攻撃でNPCを殺害する必要に迫られるかもしれません。
+- ビーンバッグショットガン(/img/wiki/beanbag_shotgun.png)などの、データとしては存在するが、ゲーム内に実装されていない武器を追加するプラグイン
+- 既にゲーム内に存在する武器や変装の仕様を変更するプラグイン
 
-## How to Install Plugins
+## プラグインのインストール方法
 
-To install plugins, go to either the `plugins` or `#plugin-releases` (being phased out) channel in the Peacock Discord
-and download a plugin you are interested in.
+プラグインをインストールするには、PeacockのDiscordサーバーの`plugins` または `#plugin-releases` (こちらは現在は更新されていません)チャンネルをご確認の上、ご興味のあるプラグインをダウンロードして下さい。
 
-- Put the downloaded files into the `plugins` folder, located in the Peacock folder (created automatically by the server
-  the first time you launch it).
-- The plugin should end with `.plugin.js` or `Plugin.js` - if it's distributed as a `.zip`, extract it first.
+- ダウンロードしたファイルをPeacockフォルダ(サーバーを初めて起動する際に自動的に生成されます)内の"plugins"フォルダに入れて下さい。
+- プラグインは ”.plugin.js” または ”Plugin.js”という拡張子で終わります。".zip"という拡張子になっている場合、まず展開してプラグインを抽出して下さい。
 
-Example of the `plugins` folder: ![Plugins folder](/img/wiki/plugins_folder.png)
+"plugins"フォルダの例:  ![Plugins フォルダ](/img/wiki/plugins_folder.png)
 
-:::info Instructions
+:::info プラグインごとの説明書について
 
-Be sure to check for any further instructions in the plugin's description. Some plugins may require further setup steps
-or haven't been updated yet for newer versions of Peacock.
+プラグインには、正しく動作させるために追加の設定等の作業を行う必要があるものがあります。プラグインの説明書にこのような作業についての説明が含まれている場合がございますので、目を通すようにして下さい。 プラグインによってはセットアップのために更なる過程を経る必要があったり、最新版のPeacockと互換性を得るためのアップデートが未だ為されていなかったりする場合がございます。
 
 :::

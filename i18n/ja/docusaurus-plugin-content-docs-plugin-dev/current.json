@@ -1,10 +1,10 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "次",
     "description": "The label for version current"
   },
   "sidebar.sidebar.category.Plugin Development": {
-    "message": "Plugin Development",
+    "message": "プラグイン開発",
     "description": "The label for category Plugin Development in sidebar sidebar"
   }
 }

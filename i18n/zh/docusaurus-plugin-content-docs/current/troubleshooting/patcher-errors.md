@@ -1,29 +1,28 @@
 ---
-title: Patcher Error Reference
+title: 补丁程序错误参考
 ---
 
-Having an error with the patcher? Here's a guidebook on the most common errors and how to remedy them.
+补丁程序出现错误？ 这是有关最常见错误及其纠正方法的指南。
 
-## `Unknown version`
+## `Unknown version`（未知版本）
 
-This error occurs when the patcher encounters a version of the game that it doesn't know how to find the relevant data.
+当补丁程序遇到不知道如何查找相关数据的游戏版本时，就会发生此错误。
 
-Here are the most common causes:
+以下是最常见的原因：
 
-- You are using an unsupported version of the game (e.g. the Microsoft Store version). These versions of the game won't
-  work with Peacock. Please check our [supported versions guide](../intel/requirements.md).
-- You are using an out of date version of the game. Try updating your game to the latest version.
-- Verify your game files. Also, ensure you haven't tampered with the game's `.exe` file.
+- 您正在使用不受支持的游戏版本（例如 Microsoft Store 版本）。 这些版本的游戏不适用于 Peacock。 请查看我们的[支持版本指南](../intel/requirements.md)。
+- 您正在使用的游戏版本已过时。 试试将游戏更新到最新版本。
+- 验证游戏文件。 此外，确保您没有篡改游戏的`.exe`文件。
 
-## `Only part of a wpm was completed`
+## `Only part of a wpm was completed`（仅完成了部分 wpm）
 
-This happens when the patcher encounters an error mid-way through its process.
-Usually, this is a temporary error that can be resolved by restarting your computer.
+当补丁程序在执行过程中遇到错误时，就会发生这种情况。
+通常这只是一个临时错误，可通过重启计算机来解决。
 
-If it continues, try verifying your game files.
+如果问题仍然存在，请尝试验证您的游戏文件。
 
-After verifying your game files, if it still isn't resolved, contact us on [Discord](/discord).
+验证游戏文件后，如果问题仍未解决，请通过 [Discord](/discord) 联系我们。
 
-## `Error at wpm for offset` or `error code 5`
+## `Error at wpm for offset`（偏移量为 wpm 时出错）或`error code 5`（错误代码 5）
 
-Please contact us on [Discord](/discord), as we are still investigating this issue.
+请通过 [Discord](/discord) 联系我们，我们仍在调查此问题。

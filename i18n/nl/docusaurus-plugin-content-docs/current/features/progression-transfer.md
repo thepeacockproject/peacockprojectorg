@@ -18,13 +18,13 @@ Bekijk de bovenstaande video-handleiding voor een uitleg van het progressieoverd
 1. Start eerst Peacock. Maak vervolgens verbinding met Peacock met het spel. We raden je aan om het spel nu af te sluiten.
 
 2. Navigeer naar de Peacock Web UI, de meeste gebruikers kunnen [hier klikken](http://localhost/) om deze te openen.
-   Als Peacock op een andere poort draait, kun je naar `http://localhost:PORT/` navigeren in een webbrowser.
+  Als Peacock op een andere poort draait, kun je naar `http://localhost:PORT/` navigeren in een webbrowser.
 
 3. Ga vervolgens naar de knop **Progressie-overdracht** op de navigatiebalk boven aan de pagina.
-   Kies het account waarnaar je de voortgang wilt overboeken.
+  Kies het account waarnaar je de voortgang wilt overboeken.
 
 4. Hier kun je zien wanneer je de progressie van dit account voor het laatst hebt overgedragen (indien van toepassing).
-   Druk nu op de groene knop **Synchroniseer nu**.
+  Druk nu op de groene knop **Synchroniseer nu**.
 
 5. Er verschijnt een pop-up **LEES HET GOED** - dit is je laatste kans om je af te melden.
 

@@ -1,5 +1,5 @@
 ---
-title: Terms of Service
+title: サービス利用規約
 description: Peacock's Terms of Service.
 ---
 

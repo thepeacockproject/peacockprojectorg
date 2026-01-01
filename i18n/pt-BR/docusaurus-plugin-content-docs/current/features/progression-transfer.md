@@ -18,13 +18,13 @@ Veja esse tutorial em vídeo para um passo-a-passo do processo de transferência
 1. Primeiro, inicie o Peacock. Depois conecte-se ao Peacock com o jogo. É recomendado que você feche o jogo nesse momento.
 
 2. Navegue a UI do Peacock na web, a maioria dos usuários pode [clicar aqui](http://localhost/) para acessar.
-   Se o Peacock estiver rodando em uma porta diferente, acesse `http://localhost:PORTA/` por um navegador.
+  Se o Peacock estiver rodando em uma porta diferente, acesse `http://localhost:PORTA/` por um navegador.
 
 3. Depois, vá para o botão **Progress Transfer** na barra de navegação no topo da página.
-   Escolha a conta para a qual você deseja transferir o progresso.
+  Escolha a conta para a qual você deseja transferir o progresso.
 
 4. Aqui você pode ver quando você transferiu a progressão dessa conta pela última vez (se for o caso).
-   Agora pressione o botão verde **Sync Now**.
+  Agora pressione o botão verde **Sync Now**.
 
 5. Uma janela aparecerá. **Leia atentamente** - essa será sua última chance de cancelar o procedimento.
 

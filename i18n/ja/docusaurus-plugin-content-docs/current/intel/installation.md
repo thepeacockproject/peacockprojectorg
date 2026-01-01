@@ -1,21 +1,21 @@
 ---
-title: Installation and Usage
-description: How to get started with Peacock.
+title: インストールとご利用について
+description: このページではPeacockの始め方についてご説明致します。
 ---
 
 ## Installation
 
-### Video Tutorial
+### 解説動画
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nF5ngiuDe5M?start=92" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="true"></iframe>
 
-Check out the video tutorial above for a walkthrough of the installation process. It may help to enable full-screen mode!
+上にございます、インストールの手順に関する解説動画をご視聴下さい。 フルスクリーンモードにするとよりわかりやすくなるかもしれません。
 
-### Instructions
+### プラグインごとの説明書について
 
 Here's how to get up and running with Peacock.
 
--   Steps 4-5 need to be repeated every time you launch the game. The game defaults back to the official servers otherwise.
+-   ステップ4およびステップ5はゲームを起動する度に逐一実行される必要がございます。 実行を怠った場合、ゲームはPeacockサーバーから公式サーバーに戻ってしまいます。
 
 ---
 
@@ -40,6 +40,6 @@ Here's how to get up and running with Peacock.
 
 6. (Optional step) If you want to immediately unlock all weapons, items, starting locations, etc., [here's how](../intel/faq.md#how-to-get-all-items).
 
-## Updating
+## アップデートについて
 
 Steps 2-3 may need to be repeated whenever Peacock receives an update (more info on the [Updating](./updating.md) page).

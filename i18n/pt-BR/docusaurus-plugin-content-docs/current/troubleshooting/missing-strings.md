@@ -9,7 +9,7 @@ Porém, isso também impede que o pacote de recursos dinâmicos do Peacock seja 
 
 Você pode indentificar esse efeito vendo se o texto de elementos do menu de conteúdos customizados Peacock estiver começando com `['UI_PEACOCK` como mostrado na imagem.
 
-![Captura de tela da página em destaque do Peacock em HITMAN: World of Assassination. Texto de elementos do menu de conteúdos customizados Peacock com \['UI\_PEACOCK.](/img/wiki/missing_strings.png)
+![Captura de tela da página em destaque do Peacock em HITMAN: World of Assassination. Texto de elementos do menu de conteúdos customizados Peacock com ['UI_PEACOCK.](/img/wiki/missing_strings.png)
 
 ## Como resolver
 

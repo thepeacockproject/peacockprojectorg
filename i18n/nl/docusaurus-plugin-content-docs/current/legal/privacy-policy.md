@@ -84,7 +84,7 @@ Onze infrastructuur maakt gebruik van derde partijen die uw gegevens kunnen verw
 
 ## Updates van dit beleid
 
-Dit beleid is gemaakt op 5 mei 2021. Dit beleid kan op elk moment zonder kennisgeving worden gewijzigd. We raden u aan om dit beleid regelmatig te controleren op updates die u kunnen beïnvloeden. You can view the history of this policy [here](https://github.com/thepeacockproject/peacockprojectorg/commits/main/docs/legal/privacy-policy.md).
+Dit beleid is gemaakt op 5 mei 2021. Dit beleid kan op elk moment zonder kennisgeving worden gewijzigd. We raden u aan om dit beleid regelmatig te controleren op updates die u kunnen beïnvloeden. Je kunt de geschiedenis van dit beleid [hier](https://github.com/thepeacockproject/peacockprojectorg/commits/main/docs/legal/privacy-policy.md) bekijken.
 
 ## Stel een vraag
 

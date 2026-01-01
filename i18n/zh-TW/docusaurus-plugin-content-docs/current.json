@@ -1,22 +1,22 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "下一個",
     "description": "The label for version current"
   },
   "sidebar.sidebar.category.User Guide": {
-    "message": "User Guide",
+    "message": "用戶指南",
     "description": "The label for category User Guide in sidebar sidebar"
   },
   "sidebar.sidebar.category.Legal": {
-    "message": "Legal",
+    "message": "法律聲明",
     "description": "The label for category Legal in sidebar sidebar"
   },
   "sidebar.sidebar.doc.Home": {
-    "message": "Home",
+    "message": "主頁",
     "description": "The label for the doc item Home in sidebar sidebar, linking to the doc home"
   },
   "sidebar.sidebar.category.Troubleshooting Guides": {
-    "message": "Troubleshooting Guides",
+    "message": "故障排除指南",
     "description": "The label for category Troubleshooting Guides in sidebar sidebar"
   }
 }

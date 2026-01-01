@@ -9,7 +9,7 @@ But this also stops Peacock's dynamic resources package from being downloaded, t
 
 You can identify it by the text of custom Peacock menu elements showing text starting with `['UI_PEACOCK` as shown in the image.
 
-![Screenshot from the featured page of Peacock in HITMAN: World of Assassination. Custom Peacock menu elements show text starting with \['UI\_PEACOCK.](/img/wiki/missing_strings.png)
+![Screenshot from the featured page of Peacock in HITMAN: World of Assassination. Custom Peacock menu elements show text starting with ['UI_PEACOCK.](/img/wiki/missing_strings.png)
 
 ## How to fix
 

@@ -1,33 +1,33 @@
 ---
-title: Frequently Asked Questions
+title: 常見問題
 ---
 
-## How to Get All Items
+## 如何獲得所有物品
 
-Peacock v6.1.0 introduced progression support, meaning you now can unlock items as you play. This is **enabled by default**, to emulate the experience of the official servers.
+Peacock v6.1.0 引入了進度支持，這意味著你現在可以在遊戲過程中解鎖物品。 此功能**預設為啟用**，以模擬官方伺服器的體驗。
 
-To disable progression and **immediately get all items**, set `enableMasteryProgression` in `options.ini` to `false`.
+若要停用進度並**立即獲得所有物品**，請在 `options.ini` 中將 `enableMasteryProgression` 設定為 `false`。
 
-## Troubleshooting FAQ
+## 故障排除常見問題解答
 
-### Before Troubleshooting
+### 故障排除前
 
--   Check the [Requirements](./requirements.md) section of this guide, make sure you have a supported game version and platform, etc.
-    -   **Microsoft Store version of Hitman 3 is not supported (commonly asked)**.
-    -   Check [Linux Setup Guide](../guides/./linux-setup.md) if on Linux.
--   Make sure you have the latest versions of Hitman and Peacock, older versions may not be supported.
+-   請查看本指南的[要求](./requirements.md)部分，確保您擁有受支援的遊戲版本和平台等。
+    -   **微軟商店版《Hitman 3》不支援（常見問題）**。
+    -   如果您使用的是 Linux 系統，請查看[Linux 設定指南](../guides/./linux-setup.md)。
+-   請確保您擁有最新版本的《Hitman》和 Peacock，舊版本可能不受支援。
 
-### Try to Reconnect
+### 嘗試重新連線
 
--   Make sure Peacock Patcher is set to "Peacock Local" option and not "IOI Official" when you are trying to connect to Peacock.
--   It may take a few tries to connect to Peacock. If you can't connect, try going back to the Peacock Patcher application and clicking on "Re-patch" until the Peacock Patcher shows "Successfully patched ID".
--   If your game is already connected to the official servers, you may need to disconnect the game from official servers first to connect to Peacock. To disconnect from official servers, go to "Options" from the Hitman 3 main menu, then "Privacy Policy", then "Opt out". Then when you reconnect you should be on Peacock.
--   To return to Official servers, you can go offline while connected to Peacock, then toggle the Peacock Patcher application to patch you to Official Servers, then go "online" again to connect to official servers.
--   **If you still have trouble connecting, then continue to the next section below.**
+-   當您嘗試連結到 Peacock 時，請確保 Peacock Patcher 設定為「Peacock Local」選項，而不是「IOI Official」選項。
+-   可能需要嘗試幾次才能連結到 Peacock。 如果無法連結，請嘗試返回 Peacock Patcher 應用程式並點擊「重新修補」，直到 Peacock Patcher 顯示「成功修補 ID」。
+-   如果您的遊戲已經連結到官方伺服器，您可能需要先中斷遊戲與官方伺服器的連結，才能連結到 Peacock。 要斷開與官方伺服器的連結，請從 Hitman 3 主選單轉到「選項」，然後選擇「隱私權政策」，再選擇「退出」。 然後當你重新連線後，你應該就能造訪 Peacock 了。
+-   要返回官方伺服器，您可以先在連結到 Peacock 的情況下離線，然後切換 Peacock Patcher 應用程式將您連結到官方伺服器，然後再「上線」連結到官方伺服器。
+-   **如果連結仍然有問題，請繼續閱讀下面的下一部分。**
 
-### Connection Issues
+### 連結問題
 
--   As explained in the [What is Peacock](./what-is-peacock.md) page, **you need to be connected to the Internet, at least initially, to use Peacock**. This is to get past Steam / Epic verification. After connecting to Peacock the first time, you may disconnect from the Internet and stay connected to Peacock for the duration of your game session.
+-   正如「[什麼是 Peacock](./what-is-peacock.md)」頁面中所述，**要使用 Peacock，您至少在最初階段需要連結到互聯網**。 This is to get past Steam / Epic verification. After connecting to Peacock the first time, you may disconnect from the Internet and stay connected to Peacock for the duration of your game session.
     -   If you have a phone with cellular data plan, you can use the phone as hotspot for your computer to connect to Internet.
 -   Don't try to use Peacock if it's literally your first time playing the game. You need to connect to the official servers at least once before you can connect to Peacock. After you've connected to official servers at least once you no longer have to do so in the future in order to use Peacock.
 -   Try running the `PeacockPatcher.exe` as admin.
@@ -43,7 +43,7 @@ The error message for this issue will be something along the lines of "failed to
 
 Check [this guide](../troubleshooting/fix-port-in-use.md) for an explanation and instructions on how to fix it.
 
-## Other
+## 其他
 
 -   Check [Peacock Unique Features](../intel/loadout-profiles-elp.md) page for info on how to set multiple loadouts per map or choose specific escalation levels with Peacock.
 -   Default Suits - If you tick `getDefaultSuits = true` in your `options.ini` file in your Peacock Install folder, please note the following behavior:

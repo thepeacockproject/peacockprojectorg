@@ -43,7 +43,7 @@ The error message for this issue will be something along the lines of "failed to
 
 Check [this guide](../troubleshooting/fix-port-in-use.md) for an explanation and instructions on how to fix it.
 
-## Other
+## その他
 
 -   Check [Peacock Unique Features](../intel/loadout-profiles-elp.md) page for info on how to set multiple loadouts per map or choose specific escalation levels with Peacock.
 -   Default Suits - If you tick `getDefaultSuits = true` in your `options.ini` file in your Peacock Install folder, please note the following behavior:
