@@ -29,11 +29,9 @@ PAUSE
 ```
 
 ### Create Launcher
-Using a text editor, create a new fils and save it as ```Launcher.bat``` in the main Hitman directory.
+Using a text editor, create a new file and save it as ```Launcher.bat``` in the main Hitman directory.
 
 Add the text below and save the file.
-
-Add the ```Launcher.bat``` file to Steam as a non-steam game in the usual way, instead of launching ```Hitman.exe``` directly. This file launches the Peacock utilities and Hitman from a single shortcut.
 
 ```shell
 @ECHO OFF
@@ -50,8 +48,10 @@ cd "%HITMAN%\Retail"
 "%EXENAME%"
 ```
 
+Add the ```Launcher.bat``` file to Steam as a non-steam game in the usual way, instead of launching ```Hitman.exe``` directly. This file launches the Peacock utilities and Hitman from a single shortcut.
+
 ### Launch the Game
-Launch the game by opening the ```Launcher.bat``` shortcut.
+Launch the game by opening the ```Launcher.bat``` shortcut via Wine.
 
 On the first launch, you will need to change the IP in the Peacock Patcher to 127.0.0.1:6969 per [this guide](../troubleshooting/fix-port-in-use.md).
 
