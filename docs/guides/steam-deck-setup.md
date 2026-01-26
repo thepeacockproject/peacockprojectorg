@@ -50,15 +50,28 @@ cd "%HITMAN%\Retail"
 
 Add the ```Launcher.bat``` file to Steam as a non-steam game in the usual way, instead of launching ```Hitman.exe``` directly. This file launches the Peacock utilities and Hitman from a single shortcut.
 
+### Add to Lutris
+Install Lutris via the Discover app and launch.
+
+Add a new game by clicking the + symbol on top left of the Lutris window. Choose 'Add locally installed game'. 
+
+Enter `Hitman 3` into the Name field and in the Runner dropdown field choose `Wine`. 
+
+Select the 'Game Options' tab, click Browse for the Executable field and choose the `Launcher.bat` file created earlier.
+
+In the 'Runner Options' tab, you can choose alternative Wine versions if the default doesn’t work. 
+
+Once saved, the game will appear in the Lutris library.
+
+Right click on Hitman in the Lutris library and select ‘Add Steam Shortcut’.
+
+The Steam library graphics can be added later using [Decky](https://decky.xyz) and the SteamGridDB plugin.
+
 ### Launch the Game
-Launch the game by opening the ```Launcher.bat``` shortcut via Wine.
+Select the game in Lutris and click on Play to test the installation. This should open two windows: Peaock Patcher and a server window titled Peacock, and then launch the game. If the game fails to launch try a different version of Wine.
 
-On the first launch, you will need to change the IP in the Peacock Patcher to 127.0.0.1:6969 per [this guide](../troubleshooting/fix-port-in-use.md).
-
-This only needs to be done once. 
-
-It is easier to do this from desktop mode rather than the Deck's gaming mode.
+On the first launch, you will need to change the Server address field in the Peacock Patcher to `127.0.0.1:6969`. This only needs to be done once and is best done in desktop mode.
 
 ### Closing the Game
-After quitting the main Hitman game, you will need to close the other two windows manually by using the Steam button and selecting 'Exit Game'.
+In Gaming mode, after quitting the main Hitman game, you will need to close the other two windows manually by using the Steam button and selecting 'Exit Game'.
 
