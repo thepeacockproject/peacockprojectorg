@@ -19,7 +19,14 @@ export default {
             items: [
                 "intel/requirements",
                 "intel/installation",
-                "guides/linux-setup",
+                {
+                    type: "category",
+                    label: "Linux and macOS",
+                    items: [
+                        "guides/linux-setup",
+                        "guides/macos-crossover-setup",
+                    ]
+                },
                 "intel/updating",
                 "intel/autosplitter-setup",
                 "intel/loadout-profiles-elp",
