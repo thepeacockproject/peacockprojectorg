@@ -23,7 +23,7 @@ Hier lees je hoe je aan de slag kunt met Peacock.
 
 2. [Download de nieuwste versie van Peacock hier](https://github.com/thepeacockproject/Peacock/releases/latest). Selecteer `Peacock-vX.Y.Z.zip` om te downloaden.
 
-    - Opmerking: Er is ook een `Peacock-vX.Y.Z-lite.zip` optie, alleen voor Linux gebruikers. Raadpleeg de [Linux gids](../guides/linux-setup.md) voor Linux-instructies.
+    - Note: There is also a `Peacock-vX.Y.Z-linux.zip` option, only for Linux users. Raadpleeg de [Linux gids](../guides/linux-setup.md) voor Linux-instructies.
 
 3. Pak de bestanden uit. Het uitvoeren van de bestanden in de gezipte map werkt niet.
 

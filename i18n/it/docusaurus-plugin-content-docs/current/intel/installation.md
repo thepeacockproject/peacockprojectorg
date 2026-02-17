@@ -23,7 +23,7 @@ Here's how to get up and running with Peacock.
 
 2. [Download the latest Peacock release here](https://github.com/thepeacockproject/Peacock/releases/latest). Select `Peacock-vX.Y.Z.zip` to download.
 
-    - Note: There is also a `Peacock-vX.Y.Z-lite.zip` option, only for Linux users. Refer to the [Linux guide](../guides/linux-setup.md) for Linux instructions.
+    - Note: There is also a `Peacock-vX.Y.Z-linux.zip` option, only for Linux users. Refer to the [Linux guide](../guides/linux-setup.md) for Linux instructions.
 
 3. Extract (unzip) the files. Running the files while they're in the zipped folder won't work.
 
