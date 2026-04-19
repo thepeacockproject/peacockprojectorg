@@ -23,7 +23,7 @@ Aqui estão as instruções para se começar a usar o Peacock.
 
 2. [Faça o download da última versão do Peacock aqui](https://github.com/thepeacockproject/Peacock/releases/latest). Selecione `Peacock-vX.Y.Z.zip` para baixar.
 
-    - Note: There is also a `Peacock-vX.Y.Z-linux.zip` option, only for Linux users. Veja o [guia Linux](../guides/linux-setup.md) para instruções.
+    - Observação: Também há uma opção `Peacock-vX.Y.Z-linux.zip`, para usuários do Linux. Veja o [guia Linux](../guides/linux-setup.md) para instruções.
 
 3. Extraia (descompacte) os arquivos. Rodar os arquivos enquanto eles estiverem no diretório compactado não irá funcionar.
 
