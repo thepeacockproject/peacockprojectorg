@@ -22,10 +22,12 @@ Ensure that your `thumbs.dat` file does not disable the dynamic resources packag
 
 :::
 
-Simple Mod Frameworkを用いてModをインストールすることで修正できます。
+Install the Peacock Strings mod using Simple Mod Framework to fix this issue.
 
-- [こちらのリンク](https://hitman-resources.netlify.app/smf-install-link/https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip)をご利用頂くか、
-- [直接ダウンロード](https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip) して頂いた後、Modマネージャーを通して追加して頂いたりすることができます。
+Download the mod either
+
+- Using [this smf install link](https://hitman-resources.netlify.app/smf-install-link/https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip);
+- Or download it [from github](https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip) and add it through the mod manager.
 
 Modを再適用するのをお忘れなく。
 

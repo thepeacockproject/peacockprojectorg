@@ -9,7 +9,7 @@ But this also stops Peacock's dynamic resources package from being downloaded, t
 
 You can identify it by the text of custom Peacock menu elements showing text starting with `['UI_PEACOCK` as shown in the image.
 
-![Screenshot from the featured page of Peacock in HITMAN: World of Assassination. Custom Peacock menu elements show text starting with \['UI\_PEACOCK.](/img/wiki/missing_strings.png)
+![Screenshot from the featured page of Peacock in HITMAN: World of Assassination. Custom Peacock menu elements show text starting with ['UI_PEACOCK.](/img/wiki/missing_strings.png)
 
 ## How to fix
 
@@ -22,10 +22,12 @@ If you are unsure how to check this, you can verify your game files to ensure yo
 
 :::
 
-You can fix this by installing a mod using Simple Mod Framework.
+Install the Peacock Strings mod using Simple Mod Framework to fix this issue.
 
-- Using [this link](https://hitman-resources.netlify.app/smf-install-link/https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip), or;
-- By [downloading it directly](https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip) and adding it through the mod manager.
+Download the mod either
+
+- Using [this smf install link](https://hitman-resources.netlify.app/smf-install-link/https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip);
+- Or download it [from github](https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip) and add it through the mod manager.
 
 Don't forget to re-apply your mods.
 

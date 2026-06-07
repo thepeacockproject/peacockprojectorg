@@ -22,10 +22,12 @@ Se você não tem certeza de como fazer isso, você pode verificar seus arquivos
 
 :::
 
-Você pode consertar isso instalando um mod usando o Simple Mod Framework.
+Install the Peacock Strings mod using Simple Mod Framework to fix this issue.
 
-- Usando [esse link](https://hitman-resources.netlify.app/smf-install-link/https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip), ou;
-- [Baixando diretamente](https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip) e adicionando pelo gerenciador de mods.
+Download the mod either
+
+- Using [this smf install link](https://hitman-resources.netlify.app/smf-install-link/https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip);
+- Or download it [from github](https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip) and add it through the mod manager.
 
 Não se esqueça de re-aplicar seus mods.
 

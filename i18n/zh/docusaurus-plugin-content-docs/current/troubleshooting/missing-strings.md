@@ -22,10 +22,12 @@ title: 缺少字符串（UI_PEACOCK）
 
 :::
 
-您可以通过安装使用Simple Mod Framework的模组来解决此问题。
+Install the Peacock Strings mod using Simple Mod Framework to fix this issue.
 
-- 使用[此链接](https://hitman-resources.netlify.app/smf-install-link/https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip)，或；
-- 通过[直接下载](https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip)并通过模组管理器添加。
+Download the mod either
+
+- Using [this smf install link](https://hitman-resources.netlify.app/smf-install-link/https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip);
+- Or download it [from github](https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip) and add it through the mod manager.
 
 不要忘记重新应用你的模组。
 
