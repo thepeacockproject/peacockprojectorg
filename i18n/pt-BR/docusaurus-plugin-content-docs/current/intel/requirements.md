@@ -3,7 +3,7 @@ title: Requisitos
 description: Requisitos para rodar e usar o Peacock.
 ---
 
-:::tip Tutorial de Vídeo
+:::tip[Video Tutorial]
 
 Quer acessar esse guia em forma de vídeo/fala? Veja o nosso [tutorial em vídeo](https://www.youtube.com/watch?v=nF5ngiuDe5M).
 
@@ -43,7 +43,7 @@ O Patcher informa ao jogo para se conectar ao Peacock em vez dos servidores ofic
 
 Windows 10 e 11 são os sistemas operacionais mais suportados, mas o Windows 7 e o Linux também devem funcionar, com solução de problemas (troubleshooting) adicional. **Pergunte no [Discord](https://thepeacockproject.org/discord) em dúvida.**
 
-:::aviso Suporte para Windows 7
+:::warning[Windows 7 Support]
 
 O Windows 7 não é mais suportado pela Microsoft ou compatível com o Node.js, dessa forma, não providenciamos nenhuma garantia de que será uma experiência sem problemas.
 

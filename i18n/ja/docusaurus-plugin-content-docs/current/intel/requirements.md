@@ -3,7 +3,7 @@ title: システム要件
 description: Peacockを起動し利用するためのシステム要件は以下の通りです。
 ---
 
-動画によるチュートリアル
+:::tip[Video Tutorial]
 
 このチュートリアルを動画や音声で確認したい場合はこちらの [解説動画](https://www.youtube.com/watch?v=nF5ngiuDe5M)をご視聴下さい。
 
@@ -43,7 +43,7 @@ The patcher tells the game to actually connect to Peacock, and must be on the sa
 
 Windows 10 and 11 are the best supported operating systems, but Windows 7 or 8 and Linux should work as well, with additional troubleshooting. **Ask in the [Discord](https://thepeacockproject.org/discord) if in doubt.**
 
-:::warning Windows 7 Support
+:::warning[Windows 7 Support]
 
 Windows7は現在MicrosoftやNode.jsによってサポートされていないため、Windows7でPeacockを利用する場合にバグが発生する可能性があることをあらかじめご了承下さい。
 

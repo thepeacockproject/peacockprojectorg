@@ -44,7 +44,7 @@ and download a plugin you are interested in.
 
 Example of the `plugins` folder: ![Plugins folder](/img/wiki/plugins_folder.png)
 
-:::info Instructions
+:::info\[Instructions]
 
 Be sure to check for any further instructions in the plugin's description. Some plugins may require further setup steps
 or haven't been updated yet for newer versions of Peacock.

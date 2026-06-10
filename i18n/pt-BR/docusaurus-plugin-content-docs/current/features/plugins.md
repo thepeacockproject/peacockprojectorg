@@ -39,7 +39,7 @@ Para baixar plugins, vá para os canais `plugins` ou `#plugin-releases` (Está s
 
 Exemplo da pasta `plugins`: ![pasta Plugins](/img/wiki/plugins_folder.png)
 
-:::info Instruções
+:::info\[Instructions]
 
 Certifique-se de procurar por quaisquer outras instruções na descrição do plugin. Alguns plugins podem necessitar de passos de instalação adicionais ou não foram atualizados para novas versões do Peacock.
 

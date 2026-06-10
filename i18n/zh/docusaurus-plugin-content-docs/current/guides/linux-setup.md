@@ -5,7 +5,7 @@ description: 在Linux或macOS上初始化Peacock的教程。
 
 Peacock主要是为在Windows上工作而构建的，但不要担心，在Linux上使用它也是可能的！
 
-:::2022年11月更新信息
+:::info[Update as of November 2022]
 
 -   请访问[该GitHub资源库](https://github.com/thepeacockproject/linux-steam-setup)获取有关如何在Linux上通过Steam运行Peacock的最新说明。
 -   **下面的原始指南可能仍然有效。**

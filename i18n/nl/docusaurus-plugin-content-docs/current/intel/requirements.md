@@ -3,7 +3,7 @@ title: Vereisten
 description: Vereisten voor het uitvoeren en het gebruiken van Peacock.
 ---
 
-:::tip Video-handleiding
+:::tip[Video Tutorial]
 
 Wil je deze gids in video/gesproken vorm? Bekijk onze [video-handleiding](https://www.youtube.com/watch?v=nF5ngiuDe5M).
 
@@ -43,7 +43,7 @@ De patcher vertelt het spel om daadwerkelijk verbinding te maken met Peacock en 
 
 Windows 10 en 11 zijn de best ondersteunde besturingssystemen, maar Windows 7 of 8 en Linux zouden ook moeten werken, met extra probleemoplossing. **Vraag het in de [Discord](https://thepeacockproject.org/discord) in geval van twijfel.**
 
-:::warning Windows 7 ondersteuning
+:::warning[Windows 7 Support]
 
 Windows 7 wordt niet langer ondersteund door Microsoft of Node.js en daarom kunnen we niet garanderen dat het een bugvrije ervaring zal zijn.
 

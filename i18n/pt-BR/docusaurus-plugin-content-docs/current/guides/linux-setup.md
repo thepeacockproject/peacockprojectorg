@@ -5,7 +5,7 @@ description: Guia para configurar o Peacock no Linux ou macOS.
 
 O Peacock foi feito para funcionar no Windows, mas não tema, usá-lo no Linux é possível!
 
-:::informação Atualização em Novembro de 2022
+:::info[Update as of November 2022]
 
 -   Vá para [esse repositório do GitHub](https://github.com/thepeacockproject/linux-steam-setup) para instruções atualizadas sobre como fazer o Peacock rodar no Linux com Steam.
 -   **As Instruções Originais abaixo podem também funcionar.**

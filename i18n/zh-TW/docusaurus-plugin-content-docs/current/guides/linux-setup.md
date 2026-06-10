@@ -5,7 +5,7 @@ description: 在 Linux 或 macOS 上設定 Peacock 的指南。
 
 Peacock 主要在 Windows 上運行，但不用擔心，也可以在 Linux 上使用它！
 
-:::info 截至 2022 年 11 月的更新
+:::info[Update as of November 2022]
 
 -   請造訪[此 GitHub 儲存庫](https://github.com/thepeacockproject/linux-steam-setup)，以取得有關如何使用 Steam 在 Linux 上執行 Peacock 的更新說明。
 -   **以下原始說明可能也有效。**

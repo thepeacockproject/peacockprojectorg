@@ -13,7 +13,7 @@ On HITMAN&trade; 2016, you will see an Elusive Targets tile on the main menu.
 For other game versions, after starting up the game with Peacock, scroll right on the top bar of the main menu.
 Click the `Career` tab, then select the `Elusive Targets` tile.
 
-:::info The Brothers
+:::info[The Brothers]
 
 You may see an Elusive Target on the menu titled "The Brothers", which the game will say you are missing the required
 content for.

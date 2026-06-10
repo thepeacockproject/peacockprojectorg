@@ -3,7 +3,7 @@ title: 需求
 description: 运行和使用Peacock的需求。
 ---
 
-:::提示：视频教程
+:::tip[Video Tutorial]
 
 想要视频或音频形式的指南？ 请观看我们的[视频教程](https://www.youtube.com/watch?v=nF5ngiuDe5M)。
 
@@ -43,7 +43,7 @@ description: 运行和使用Peacock的需求。
 
 Windows 10和11是受最佳支持的操作系统，但Windows 7/8以及Linux也能运行，但会有额外的故障。 **如有问题，请在[Discord](https://thepeacockproject.org/discord)上询问**
 
-:::warning Windows 7支持
+:::warning[Windows 7 Support]
 
 Windows 7 将不被Microsoft或Node.js支持，所以，我们无法保证提供一个无故障的使用体验。
 

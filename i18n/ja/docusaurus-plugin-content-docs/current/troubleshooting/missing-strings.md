@@ -13,7 +13,7 @@ You can identify it by the text of custom Peacock menu elements showing text sta
 
 ## 修正方法
 
-:::note No mods/other game versions
+:::note[No mods/other game versions]
 
 If you do not use Simple Mod Framework or you are using Hitman 2016 or 2.
 Ensure that your `thumbs.dat` file does not disable the dynamic resources package through a console command.
@@ -27,11 +27,11 @@ Install the Peacock Strings mod using Simple Mod Framework to fix this issue.
 Download the mod either
 
 - Using [this smf install link](https://hitman-resources.netlify.app/smf-install-link/https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip);
-- Or download it [from github](https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip) and add it through the mod manager.
+- Or download it [from GitHub](https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip) and add it through the mod manager.
 
 Modを再適用するのをお忘れなく。
 
-:::note 既にModがインストールされている場合
+:::note[If you already have the mod installed]
 
 Modがアップデートされていることをご確認下さい。 Simple Mod FrameworkのModマネージャーからご確認頂けます。
 

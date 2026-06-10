@@ -26,7 +26,7 @@ Here's a brief breakdown of what Peacock does:
 -   Display leaderboards for other Peacock users (Cross Platform, Epic and Steam)
 -   In Game Saving is supported, and as of Peacock v5.0.1 you can load official server saves in Peacock.
 
-トリビア: Peacockという名称の由来
+:::info[Trivia: Why name it Peacock?]
 
 Peacock is the name that the game uses in its source code for the mission "The Showstopper", which ushered in a new era of Hitman. Hence, the reason for the name "Peacock".
 

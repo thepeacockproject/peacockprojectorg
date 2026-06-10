@@ -3,7 +3,7 @@ title: Requirements
 description: Requirements for running and using Peacock.
 ---
 
-:::tip Video Tutorial
+:::tip[Video Tutorial]
 
 Want this guide in video/spoken form? Check out our [video tutorial](https://www.youtube.com/watch?v=nF5ngiuDe5M).
 
@@ -43,7 +43,7 @@ The patcher tells the game to actually connect to Peacock, and must be on the sa
 
 Windows 10 and 11 are the best supported operating systems, but Windows 7 or 8 and Linux should work as well, with additional troubleshooting. **Ask in the [Discord](https://thepeacockproject.org/discord) if in doubt.**
 
-:::warning Windows 7 Support
+:::warning[Windows 7 Support]
 
 Windows 7 is no longer supported by Microsoft or Node.js, and as such, we provide no guarantees that it will be a bug-free experience.
 
