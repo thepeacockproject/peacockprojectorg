@@ -3,9 +3,9 @@ import clsx from "clsx"
 import Layout from "@theme/Layout"
 import styles from "./styles.module.css"
 import OpenIcon from "../components/open-icon.svg"
-import CustomLight from "../../static/img/home/CustomLight.svg"
-import FastLight from "../../static/img/home/FastLight.svg"
-import EasyLight from "../../static/img/home/EasyLight.svg"
+import CustomLight from "@site/static/img/home/CustomLight.svg"
+import FastLight from "@site/static/img/home/FastLight.svg"
+import EasyLight from "@site/static/img/home/EasyLight.svg"
 import Translate, { translate } from "@docusaurus/Translate"
 
 const features = [
@@ -14,7 +14,7 @@ const features = [
             message: "Fast",
             description: "Homepage 'fast' feature header",
         }),
-        imageUrl: <FastLight className={styles.featureImage} />,
+        imageUrl: <img src={FastLight} className={styles.featureImage} alt="" />,
         description: (
             <Translate
                 id="homepage.fastDescription"
@@ -31,7 +31,7 @@ const features = [
             message: "Easy to set up",
             description: "Homepage 'Easy to set up' feature header",
         }),
-        imageUrl: <EasyLight className={styles.featureImage} />,
+        imageUrl: <img src={EasyLight} className={styles.featureImage} alt="" />,
         description: (
             <Translate
                 id="homepage.easyToSetUpDescription"
@@ -48,7 +48,7 @@ const features = [
             message: "Custom content",
             description: "Homepage 'Custom content' feature header",
         }),
-        imageUrl: <CustomLight className={styles.featureImage} />,
+        imageUrl: <img src={CustomLight} className={styles.featureImage} alt="" />,
         description: (
             <Translate
                 id="homepage.customContentDescription"
@@ -137,7 +137,7 @@ function Home() {
                             >
                                 Read Installation Guide
                             </Translate>{" "}
-                            <OpenIcon className={styles.icon} />
+                            <img src={OpenIcon} className={styles.icon} alt="" />
                         </a>
                     </div>
                     <small className="text--center">
@@ -164,7 +164,7 @@ function Home() {
                             >
                                 Join our Discord!
                             </Translate>{" "}
-                            <OpenIcon className={styles.icon} />
+                            <img src={OpenIcon} className={styles.icon} alt="" />
                         </a>
                     </div>
                     <small className="text--center">
