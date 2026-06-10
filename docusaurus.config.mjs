@@ -10,7 +10,15 @@ export default {
     url: "https://thepeacockproject.org",
     baseUrl: "/",
     onBrokenLinks: "warn",
-    onBrokenMarkdownLinks: "warn",
+    markdown: {
+        hooks: {
+            onBrokenMarkdownLinks: "warn",
+        },
+    },
+    future: {
+        faster: true,
+        v4: true,
+    },
     favicon: "/favicon.ico",
     organizationName: "thepeacockproject",
     projectName: "peacockprojectorg",
