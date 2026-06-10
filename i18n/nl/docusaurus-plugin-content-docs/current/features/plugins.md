@@ -44,7 +44,7 @@ en download je een plugin waarin je geïnteresseerd bent.
 
 Voorbeeld van de `plugins` map: ![Plugins folder](/img/wiki/plugins_folder.png)
 
-:::info\[Instructions]
+:::info[Instructions]
 
 Zorg ervoor dat je kijkt voor verdere instructies in de beschrijving van de plugin. Sommige plugins vereisen mogelijk verdere installatiestappen
 of zijn nog niet bijgewerkt voor nieuwere versies van Peacock.

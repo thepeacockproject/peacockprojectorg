@@ -39,7 +39,7 @@ Peacock支持各种各样的服务器端模组（插件）。 插件可以为游
 
 `plugins`文件夹示例：[插件文件夹](/img/wiki/plugins_folder.png)
 
-:::info\[Instructions]
+:::info[Instructions]
 
 请务必查看插件说明中的进一步说明。 有些插件可能需要进一步的设置步骤，或者尚未针对新版本的 Peacock 进行更新。
 
