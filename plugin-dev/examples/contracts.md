@@ -10,7 +10,7 @@ Every mission, escalation, and piece of playable content has a contract.
 For the purposes of this guide, we'll be talking about contracts as a whole, unless we specify we're talking about
 contracts *mode*.
 
-:::note "Mission manifest" Naming
+:::note["Mission manifest" Naming]
 
 `getMissionManifest` (and it's siblings like `addMission`) were added earlier on then a lot of the other APIs. Their
 names are inconsistent with the rest of the system, but "mission manifest" and "contracts" are synonymous.

@@ -32,7 +32,7 @@ Notice how we import the `log` function from the `loggingInterop` module.
 Almost all of Peacock's core APIs are available to be consumed from plugins.
 You can take a look at the generated API type definitions [here](https://unpkg.com/browse/@peacockproject/core/).
 
-:::info Exposed APIs
+:::info[Exposed APIs]
 
 While the type definitions are a complete representation of the API, some files are not exposed at runtime.
 Namely, files that only contain type definitions as well as `cli` and `index` are not exposed (either because they would be

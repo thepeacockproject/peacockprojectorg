@@ -11,7 +11,7 @@ First, you will need to install [Node.js](https://nodejs.org) - use the [same ma
 After installing Node, you will need to active Node.js' package manager-manager, `corepack`.
 Visit a terminal or command prompt, and use the command `corepack enable` to do so.
 
-:::note PowerShell error
+:::note[PowerShell error]
 
 If you are using PowerShell on Windows, you may run into an issue where it says you can't run unsigned scripts.
 To fix this, run `Set-ExecutionPolicy Unrestricted` and try again.
