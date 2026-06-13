@@ -19,7 +19,9 @@ Dit beleid is van toepassing op de volgende websites en producten (gezamenlijk d
 
 Wanneer je één van de pagina's bekijkt waarop dit beleid betrekking heeft, wordt precies gelogd welke pagina, evenals je IP-adres en de tijd door ons. Deze praktijk is typisch en wordt door de meeste websites toegepast. Deze informatie wordt maximaal 72 uur op onze servers bewaard.
 
-Tenzij je je expliciet afmeldt voor de leaderboards, worden de details van de gebeurtenissen die tijdens de levels plaatsvinden, evenals de scoringsdetails, in onze database opgeslagen.
+When you complete a level in-game, if leaderboards are enabled, your score and other details about your session will be sent to us and stored indefinitely.
+
+When connecting to Peacock using the Steam version of HITMAN World of Assassination (appid: `1659040`), if Steam authentication is set to `BACKEND` (in `options.ini`), the Steam session ticket will be sent to us for validation and a hashed version of this will be stored until it expires (the expiry time is managed by Steam, usually no longer than 3 weeks from when it was created).
 
 ## Waar gebruiken we deze gegevens voor?
 
@@ -27,6 +29,7 @@ Wij gebruiken deze gegevens onder meer voor:
 
 -   Rollen toewijzen op basis van eigendomsstatus in de Discord server
 -   Het bijhouden van leaderboard posities en statistieken, en voor moderatie van deze leaderboards.
+-   Validating Steam session tickets (including with Steam directly) to ensure ownership of the game and relevant DLCs without the use of the game's servers.
 
 ## Verzoek om verwijdering van uw gegevens
 
@@ -36,7 +39,13 @@ Neem contact op met een projectbeheerder op Discord, of email me [at symbol] rdi
 
 In recente versies van de Peacock-server is de mogelijkheid ingebouwd om bepaalde functies die persoonlijke informatie kunnen verzamelen, uit te schakelen.
 
-Als je je wilt afmelden voor leaderboard-gegevens die naar onze servers worden verzonden, voer je de server één keer uit, bewerk je vervolgens het gegenereerde bestand `options.ini` en stel je de waarde voor `leaderboardsOptOut` in op `true`. Als je je wilt afmelden voor updatecontrole, voer je de server één keer uit en bewerk je vervolgens het gegenereerde bestand `options.ini` en stel je de waarde voor `updateChecking` in op `false`.
+-   To opt out of leaderboard data being submitted to our servers, edit the `options.ini` file, setting `leaderboardsOptOut` to `true`.
+-   To opt out of update checking, edit the `options.ini` file, setting `updateChecking` to `false`.
+-   To opt out of Steam session ticket validation, there are three alternatives, all require editing the `options.ini` file;
+    -   Set `steamAuthenticationMethod` to `OFFICIAL` - this will use the game's servers to validate ownership.
+    -   Set `steamAuthenticationMethod` to `STEAM` - Peacock will issue requests to Steam directly to validate ownership, falling back to the game's servers if validation fails.
+    -   Set `steamAuthenticationMethod` to `STEAM_STRICT` - Peacock will issue requests to Steam directly to validate ownership, no fallback will be used if validation fails.
+    -   NOTE: `STEAM` and `STEAM_STRICT` both require `steamApiKey` to be set to a valid [Steam Web API key](https://steamcommunity.com/dev/apikey) to function properly.
 
 ## Rechtsgrondslagen voor het verzamelen/gebruik van informatie
 
@@ -81,6 +90,7 @@ Onze infrastructuur maakt gebruik van derde partijen die uw gegevens kunnen verw
 -   https://www.cloudflare.com/privacypolicy/
 -   https://discord.com/privacy
 -   https://www.hitmaps.com/privacy-policy
+-   https://store.steampowered.com/privacy_agreement/
 
 ## Updates van dit beleid
 
