@@ -25,7 +25,7 @@ This information is stored on our servers for a maximum of 72 hours.
 When you complete a level in-game, if leaderboards are enabled, your score and other details about your session will be sent to us and stored indefinitely.
 
 When connecting to Peacock using the Steam version of HITMAN World of Assassination (appid: `1659040`), if Steam authentication is set to `BACKEND` (in `options.ini`), the Steam session ticket will be sent to us for validation and a hashed
-version of this will be stored until it expires (this is managed by Steam, usually no longer than 3 weeks from when it was created).
+version of this will be stored until it expires (the expiry time is managed by Steam, usually no longer than 3 weeks from when it was created).
 
 ## What do we use this data for?
 
