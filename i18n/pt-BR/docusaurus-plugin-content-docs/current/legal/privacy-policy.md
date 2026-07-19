@@ -19,9 +19,9 @@ Esta política se aplica aos seguintes websites e produtos (coletivamente, os "S
 
 Quando você vê qualquer página que esta política de privacidade cobre, exatamente qual página, assim como o seu indereço de IP, e a hora é guardado por nós. Essa prática é típica da maioria dos websites. Essa informação fica guardada em nossos servidores por no máximo 72 horas.
 
-When you complete a level in-game, if leaderboards are enabled, your score and other details about your session will be sent to us and stored indefinitely.
+Quando completar uma missão em jogo, se tabela de classificação estiver ativada, a sua pontuação e outros detalhes sobre a sua sessão serão enviadas para nós e armazenadas indefinidamente.
 
-When connecting to Peacock using the Steam version of HITMAN World of Assassination (appid: `1659040`), if Steam authentication is set to `BACKEND` (in `options.ini`), the Steam session ticket will be sent to us for validation and a hashed version of this will be stored until it expires (the expiry time is managed by Steam, usually no longer than 3 weeks from when it was created).
+Quando estiver se conectando ao Peacock usando a versão Steam do HITMAN World of Assassination (appid: `1659040`), se a autenticação Steam estiver descrita como `BACKEND` (no arquivo `options.ini`), o tíquete da sessão Steam será enviada para nós para validação e uma versão criptografada dele será armazenada até sua data de expiração (gerenciada pelo Steam, geralmente não mais do que três semanas desde a criação).
 
 ## Para que usamos essa informação?
 
@@ -29,7 +29,7 @@ Usamos essa informação para propósitos que incluem:
 
 -   Atribuir cargos com base no seu status de proprietário no servidor Discord
 -   Manter um acompanhamento das posições de tabelas de classificação e estatísticas, e para a moderação dessas tabelas de classificação.
--   Validating Steam session tickets (including with Steam directly) to ensure ownership of the game and relevant DLCs without the use of the game's servers.
+-   Validar tíquetes de sessão da Steam (incluindo diretamente com a Steam) para verificar se o usuário possui o jogo e DLCs relevantes sem o uso dos servidores do jogo.
 
 ## Requerimento da exclusão dos seus dados
 
@@ -39,13 +39,13 @@ Por favor contacte um administrador do projeto no Discord, ou evie um email para
 
 O Servidor Peacock tem a capacidade embutida em versões recentemente lançadas de ter a exclusão de certos recursos que podem coletar informações pessoais.
 
--   To opt out of leaderboard data being submitted to our servers, edit the `options.ini` file, setting `leaderboardsOptOut` to `true`.
--   To opt out of update checking, edit the `options.ini` file, setting `updateChecking` to `false`.
--   To opt out of Steam session ticket validation, there are three alternatives, all require editing the `options.ini` file;
-    -   Set `steamAuthenticationMethod` to `OFFICIAL` - this will use the game's servers to validate ownership.
-    -   Set `steamAuthenticationMethod` to `STEAM` - Peacock will issue requests to Steam directly to validate ownership, falling back to the game's servers if validation fails.
-    -   Set `steamAuthenticationMethod` to `STEAM_STRICT` - Peacock will issue requests to Steam directly to validate ownership, no fallback will be used if validation fails.
-    -   NOTE: `STEAM` and `STEAM_STRICT` both require `steamApiKey` to be set to a valid [Steam Web API key](https://steamcommunity.com/dev/apikey) to function properly.
+-   Para desativar o envio de dados da tabela de classificação aos nossos servidores, edite o arquivo `options.ini`, modificando `leaderboardsOptOut` para `true`.
+-   Para desativar a verificação de atualizações, edite o arquivo `options.ini`, modificando `updateChecking` para `false`.
+-   Para desativar a validação de tíquetes de sessão da Steam, existem três alternativas, modificando o arquivo `options.ini`;
+    -   Configure `steamAuthenticationMethod` como `OFFICIAL` - os servidores oficiais serão usados para validar se o usuário possui o jogo.
+    -   Configure `steamAuthenticationMethod` como `STEAM` - o Peacock enviará pedidos à Steam diretamente para validar se o usuário possui o jogo, e usará os servidores oficiais em caso de falha.
+    -   Configure `steamAuthenticationMethod` com `STEAM_STRICT` - o Peacock enviará pedidos à Steam diretamente para validar se o usuário possui o jogo, e não terá nenhum mecanismo reserva caso a validação falhe.
+    -   OBSERVAÇÃO: `STEAM` e `STEAM_STRICT` requerem que o campo `steamApiKey` seja configurado com uma [Chave Steam Web API](https://steamcommunity.com/dev/apikey) para funcionar corretamente.
 
 ## Bases legais para coleta/uso de informações
 

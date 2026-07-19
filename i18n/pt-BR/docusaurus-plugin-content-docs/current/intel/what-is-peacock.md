@@ -26,7 +26,7 @@ Aqui está um breve resumo do que o Peacock faz:
 -   Veja as leaderboards de outros usuários Peacock (Cross-Platform, Epic Games e Steam)
 -   Salvamentos em jogo são suportados, e a partir da versão v5.0.1 você pode acessar salvamentos dos servidores oficiais no Peacock.
 
-:::info[Trivia: Why name it Peacock?]
+:::info[Curiosidade: Porque chamar de Peacock?]
 
 Peacock, ou pavão, é o nome que o jogo usa em seu código base para se referir à missão "Showstopper", que começou uma nova era de Hitman. Daí, a razão do nome "Peacock".
 

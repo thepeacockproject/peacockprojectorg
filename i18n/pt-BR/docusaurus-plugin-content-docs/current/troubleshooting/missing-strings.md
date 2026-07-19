@@ -13,7 +13,7 @@ Você pode indentificar esse efeito vendo se o texto de elementos do menu de con
 
 ## Como resolver
 
-:::note[No mods/other game versions]
+:::note[No mods/outras versões de jogo]
 
 Se você não utiliza o Simple Mod Framework ou usa o Hitman 2016 ou Hitman 2.
 Certifique-se de que seu arquivo `thumbs.dat` não desativa o pacote de recursos dinâmico por um comando de console.
@@ -22,16 +22,16 @@ Se você não tem certeza de como fazer isso, você pode verificar seus arquivos
 
 :::
 
-Install the Peacock Strings mod using Simple Mod Framework to fix this issue.
+Instale o mod Peacock Strings usando o Simple Mod Framework para resolver este erro.
 
-Download the mod either
+Faça o download
 
-- Using [this smf install link](https://hitman-resources.netlify.app/smf-install-link/https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip);
-- Or download it [from GitHub](https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip) and add it through the mod manager.
+- Usando [este link do SMF](https://hitman-resources.netlify.app/smf-install-link/https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip);
+- Ou baixe [através do GitHub](https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip) e adicione através do gerenciador de mods.
 
 Não se esqueça de re-aplicar seus mods.
 
-:::note[If you already have the mod installed]
+:::note[If você já tem o mod instalado]
 
 Certifique-se de tê-lo atualizado! Você pode fazer isso através do gerenciador de mods do Simple Mod Framework.
 
