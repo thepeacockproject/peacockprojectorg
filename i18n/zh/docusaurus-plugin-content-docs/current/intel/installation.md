@@ -23,7 +23,7 @@ description: 如何上手Peacock。
 
 2. [在此处下载最新版本的Peacock](https://github.com/thepeacockproject/Peacock/releases/latest)。 选择`Peacock-v主版本号.副版本号.小版本号.zip`来下载。
 
-    - Note: There is also a `Peacock-vX.Y.Z-linux.zip` option, only for Linux users. 有关Linux的说明，请参阅[Linux指南](../guides/linux-setup.md)。
+    - 注意：还有一个 `Peacock-vX.Y.Z-linux.zip` 选项，仅适用于 Linux 用户。 有关Linux的说明，请参阅[Linux指南](../guides/linux-setup.md)。
 
 3. 解压文件。 在压缩包内运行程序是无效的。
 

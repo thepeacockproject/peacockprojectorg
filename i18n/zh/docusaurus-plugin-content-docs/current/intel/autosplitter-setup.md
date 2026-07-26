@@ -23,7 +23,7 @@ _教程由[Fusha](https://github.com/fu5ha)编写_。
 
 ## 安装
 
-1. 如果你还未安装，安装[Peacock](./installation.md)和[LiveSplit](https://livesplit.org/downloads/)（只需解压到你想要的地方）。 **If you already have Peacock installed, make sure to you have it updated to the latest version.** After you get these apps installed/updated, close Peacock for now and start LiveSplit if you haven't yet.
+1. 如果你还未安装，安装[Peacock](./installation.md)和[LiveSplit](https://livesplit.org/downloads/)（只需解压到你想要的地方）。 **如果您已经安装了 Peacock，请确保将其更新到最新版本。** 安装/更新这些应用程序后，请暂时关闭 Peacock，如果您还没有启动 LiveSplit，请启动它。
 
 2. 在LiveSplit主窗口上点击右键，然后点击`Edit Splits`。 将计时名称（`Segment Name`）修改为你想要的名字。 点击`Insert Above / Below`来添加新的小节。 如果你想，你可以在`Segment Times`中输入你的预估时间。
 
@@ -35,7 +35,7 @@ _教程由[Fusha](https://github.com/fu5ha)编写_。
 
 6. 在Layout Editor页面点击`ok`，然后在LiveSplit主窗口点击右键，并选择`save layout`以备后续使用。
 
-7. Open `options.ini` in the Peacock folder and set `liveSplit = false` to be `liveSplit = true` instead to enable the livesplit integration (turned off by default), and adjust the other LiveSplit options as needed.
+7. 打开 Peacock 文件夹中的 `options.ini` 文件，将 `liveSplit = false` 改为 `liveSplit = true` 以启用 LiveSplit 集成（默认关闭），并根据需要调整其他 LiveSplit 选项。
 
 ## 如何使用
 
@@ -43,11 +43,11 @@ _教程由[Fusha](https://github.com/fu5ha)编写_。
 
 1. 打开LiveSplit
 
-2. Right-click on the main LiveSplit window, then select `Control`, then `Start TCP Server`. If this button isn't there you are likely running an outdated version of LiveSplit, as this server was originally separate from the main LiveSplit download, please update to at least LiveSplit 1.8.29, released May 11, 2024.
+2. 右键单击 LiveSplit 主窗口，然后选择 `控制`，再选择 `启动 TCP 服务器`。 如果此按钮不存在，则说明您运行的是过时的 LiveSplit 版本，因为此服务器最初与 LiveSplit 主下载是分开的，请更新到 2024 年 5 月 11 日发布的 LiveSplit 1.8.29 及以上版本。
 
 3. 如果你想要修改运行的整局游戏类别，打开Peacock文件夹中的`options.ini`，然后将`autoSplitterCampaign`选项修改为`trilogy`， `1`，`2`，或 `3`，取决于你想要速通的战役（自动计时器默认设置为`trilogy`）。 仅在你按顺序游玩选中的战役时，计时器才会工作。
 
-4. 打开你安装Peacock的文件夹，运行`Start Server.cmd`和`PeacockPatcher.exe`。 You should see a message in the Peacock Server Window saying `LiveSplit initialized`.
+4. 打开你安装Peacock的文件夹，运行`Start Server.cmd`和`PeacockPatcher.exe`。 您应该会在 Peacock 服务器窗口中看到一条消息，内容为 `LiveSplit 已初始化`。
 
 5. 正常启动游戏。
 

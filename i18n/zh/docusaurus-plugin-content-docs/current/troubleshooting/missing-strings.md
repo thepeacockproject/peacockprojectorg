@@ -13,7 +13,7 @@ title: 缺少字符串（UI_PEACOCK）
 
 ## 如何修复
 
-:::note[No mods/other game versions]
+:::note[No 模组/其他游戏版本]
 
 如果您不使用Simple Mod Framework或者您使用的是《杀手2016》或《杀手2》。
 确保您的“thumbs.dat”文件不会通过控制台命令禁用动态资源包。
@@ -22,16 +22,16 @@ title: 缺少字符串（UI_PEACOCK）
 
 :::
 
-Install the Peacock Strings mod using Simple Mod Framework to fix this issue.
+使用 Simple Mod Framework 安装 Peacock Strings 模组即可解决此问题。
 
-Download the mod either
+下载该模组
 
-- Using [this smf install link](https://hitman-resources.netlify.app/smf-install-link/https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip);
-- Or download it [from GitHub](https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip) and add it through the mod manager.
+- 使用[此 smf 链接](https://hitman-resources.netlify.app/smf-install-link/https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip)，或；
+- 或[从 Github](https://github.com/thepeacockproject/peacock-strings/releases/latest/download/mod.framework.zip)直接下载并通过模组管理器添加。
 
 不要忘记重新应用你的模组。
 
-:::note[If you already have the mod installed]
+:::note[If 你已经安装了模组]
 
 确保它已更新！ 您可以通过 Simple Mod Framework 的模组管理器执行此操作。
 

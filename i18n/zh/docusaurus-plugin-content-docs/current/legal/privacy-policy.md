@@ -19,9 +19,9 @@ description: Peacock项目如何处理和储存用户数据
 
 当你浏览本条款涵盖的任何页面时，你浏览的具体页面、你的IP地址、你浏览的时间将被我们记录。 此行为很典型，为大部分网站所用。 该数据在我们的服务器上最多储存72小时。
 
-When you complete a level in-game, if leaderboards are enabled, your score and other details about your session will be sent to us and stored indefinitely.
+当您在游戏中完成一个关卡时，如果排行榜已启用，您的分数和有关您游戏的其他详细信息将被发送给我们并无限期保存。
 
-When connecting to Peacock using the Steam version of HITMAN World of Assassination (appid: `1659040`), if Steam authentication is set to `BACKEND` (in `options.ini`), the Steam session ticket will be sent to us for validation and a hashed version of this will be stored until it expires (the expiry time is managed by Steam, usually no longer than 3 weeks from when it was created).
+使用 Steam 版《HITMAN暗杀世界》（appid：`1659040`）连接到 Peacock 时，如果 Steam 身份验证设置为`“后端”`（在 `options.ini` 文件中），则 Steam 会话票证将发送给我们进行验证，并且该票证的哈希版本将被存储，直到过期（过期时间由 Steam 管理，通常不超过创建后 3 周）。
 
 ## 我们如何使用数据？
 
@@ -29,7 +29,7 @@ When connecting to Peacock using the Steam version of HITMAN World of Assassinat
 
 -   基于所有权状态在Discord服务器上授予角色。
 -   追踪排行榜上的位置、数据以供管理。
--   Validating Steam session tickets (including with Steam directly) to ensure ownership of the game and relevant DLCs without the use of the game's servers.
+-   验证 Steam 会话票证（包括直接与 Steam 验证），以确保拥有游戏和相关 DLC 的所有权，而无需使用游戏服务器。
 
 ## 请求删除你的数据
 
@@ -39,13 +39,13 @@ When connecting to Peacock using the Steam version of HITMAN World of Assassinat
 
 在最近版本的Peacock服务器中，有内置的功能以退出使用需要收集个人信息的功能。
 
--   To opt out of leaderboard data being submitted to our servers, edit the `options.ini` file, setting `leaderboardsOptOut` to `true`.
--   To opt out of update checking, edit the `options.ini` file, setting `updateChecking` to `false`.
--   To opt out of Steam session ticket validation, there are three alternatives, all require editing the `options.ini` file;
-    -   Set `steamAuthenticationMethod` to `OFFICIAL` - this will use the game's servers to validate ownership.
-    -   Set `steamAuthenticationMethod` to `STEAM` - Peacock will issue requests to Steam directly to validate ownership, falling back to the game's servers if validation fails.
-    -   Set `steamAuthenticationMethod` to `STEAM_STRICT` - Peacock will issue requests to Steam directly to validate ownership, no fallback will be used if validation fails.
-    -   NOTE: `STEAM` and `STEAM_STRICT` both require `steamApiKey` to be set to a valid [Steam Web API key](https://steamcommunity.com/dev/apikey) to function properly.
+-   要退出提交到我们服务器的排行榜数据，可将`options.ini`文件中的`leaderboardsOptOut`修改为`true`。
+-   要退出自动更新检查，可将`options.ini`文件中的`updateChecking`修改为`false`。
+-   要选择不进行 Steam 会话票证验证，有三种方法，都需要编辑 `options.ini` 文件；
+    -   将 `steamAuthenticationMethod` 设置为 `“官方”` ——这将使用游戏服务器来验证所有权。
+    -   将 `steamAuthenticationMethod` 设置为 `STEAM` ——Peacock 将直接向 Steam 发出请求以验证所有权，如果验证失败，则回退到游戏服务器。
+    -   将 `steamAuthenticationMethod` 设置为 `STEAM_STRICT` ——Peacock 将直接向 Steam 发出请求以验证所有权，如果验证失败，则不会使用回退机制。
+    -   注意：`STEAM` 和 `STEAM_STRICT` 都需要将 `steamApiKey` 设置为有效的 [Steam Web API 密钥](https://steamcommunity.com/dev/apikey) 才能正常工作。
 
 ## 信息收集/使用的法律依据
 

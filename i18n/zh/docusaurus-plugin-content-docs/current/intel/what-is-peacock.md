@@ -26,7 +26,7 @@ Peacock本质上是一个在你自己的电脑上运行的《杀手》服务器�
 -   为其他Peacock用户显示排行榜（跨平台，Epic和Steam）。
 -   游戏内存档是受支持的，且从Peacock v5.0.1起，你可以在Peacock中载入官方服务器存档。
 
-:::info[Trivia: Why name it Peacock?]
+:::info[趣闻：为什么叫 Peacock（孔雀）？]
 
 Peacock是“精彩表演”，一个引领了杀手系列新时代的任务，在其源代码中使用的名称。 所以，我们使用了Peacock这一名字。
 
