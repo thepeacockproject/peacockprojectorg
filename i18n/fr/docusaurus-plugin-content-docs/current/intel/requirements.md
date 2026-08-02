@@ -1,6 +1,6 @@
 ---
-title: Requirements
-description: Requirements for running and using Peacock.
+title: Prérequis
+description: Prérequis pour exécuter et utiliser Peacock.
 ---
 
 :::tip[Video Tutorial]
@@ -9,23 +9,23 @@ Want this guide in video/spoken form? Check out our [video tutorial](https://www
 
 :::
 
-## Supported Games / Platforms
+## Jeux et plateformes supportées
 
 -   Hitman 2016 ([Steam](https://store.steampowered.com/app/236870/HITMAN/) / [Epic](https://www.epicgames.com/store/en-US/p/hitman))
--   Hitman Sniper Assassin ([Steam Depot](https://steamdb.info/app/783780/))
+-   Hitman Sniper Assassin ([Dépôt Steam](https://steamdb.info/app/783780/))
 -   Hitman 2 ([Steam](https://store.steampowered.com/app/863550/HITMAN_2/))
 -   Hitman 3 ([Steam](https://store.steampowered.com/app/1659040/HITMAN_3/) / [Epic](https://www.epicgames.com/store/en-US/p/hitman-3))
 
-### Unsupported games and platforms
+### Jeux et plateformes non supportées
 
 -   Any other platform not listed in "Supported" section, such as console platforms, are not supported.
 -   Demo versions of Hitman 3 are not supported.
 -   Game Pass or Microsoft PC edition of Hitman 3 is not supported.
 -   **Any cracked or pirated version of Hitman 1-3 is not supported, and you will be banned from the Peacock Discord upon asking about how to use any pirated or cracked version.**
 
-## Supported Operating Systems
+## Systèmes d'exploitation pris en charge
 
-### Server
+### Serveur
 
 The server is the part responsible for handling the game's requests. It is portable, and doesn't even need to run on the same machine as the game.
 
@@ -37,9 +37,9 @@ The server is the part responsible for handling the game's requests. It is porta
 
 The patcher tells the game to actually connect to Peacock, and must be on the same machine as the game.
 
--   Windows 7 or up
+-   Windows 7 ou plus récent
 
-### Summary
+### Synthèse
 
 Windows 10 and 11 are the best supported operating systems, but Windows 7 or 8 and Linux should work as well, with additional troubleshooting. **Ask in the [Discord](https://thepeacockproject.org/discord) if in doubt.**
 

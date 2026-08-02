@@ -3,11 +3,11 @@ title: Auto-Splitter Setup
 description: How to set up the Peacock auto-splitter for full-game speedruns.
 ---
 
-_Guide written originally by [Fusha](https://github.com/fu5ha)_.
+_Guide écrit originellement par [Fusha](https://github.com/fu5ha)_.
 
 This tool is meant for use in full game Hitman speedruns.
 
-## Specifications
+## Caractéristiques
 
 (see "How to Use" and "Other Usage Notes" below as well)
 
@@ -37,7 +37,7 @@ This tool is meant for use in full game Hitman speedruns.
 
 7. Open `options.ini` in the Peacock folder and set `liveSplit = false` to be `liveSplit = true` instead to enable the livesplit integration (turned off by default), and adjust the other LiveSplit options as needed.
 
-## How to Use
+## Mode d'emploi
 
 (Do each time you open the game, order is important! Make sure to start LiveSplit and start the server before you start Peacock).
 
@@ -51,7 +51,7 @@ This tool is meant for use in full game Hitman speedruns.
 
 5. Start game as normal.
 
-## Other Usage Notes
+## Autres notes d'utilisation
 
 -   The splitter will always fully reset and start a new run as soon as you start the first mission in the selected campaign, no matter what other state it is in. You do not need to start or reset the run in LiveSplit manually (by pressing numpad keys etc).
 

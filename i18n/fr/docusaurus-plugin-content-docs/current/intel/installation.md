@@ -1,11 +1,11 @@
 ---
-title: Installation and Usage
-description: How to get started with Peacock.
+title: Installation et utilisation
+description: Comment bien démarrer avec Peacock.
 ---
 
 ## Installation
 
-### Video Tutorial
+### Tutoriel vidéo
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nF5ngiuDe5M?start=92" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="true"></iframe>
 
@@ -40,6 +40,6 @@ Here's how to get up and running with Peacock.
 
 6. (Optional step) If you want to immediately unlock all weapons, items, starting locations, etc., [here's how](../intel/faq.md#how-to-get-all-items).
 
-## Updating
+## Mises à jour
 
 Steps 2-3 may need to be repeated whenever Peacock receives an update (more info on the [Updating](./updating.md) page).

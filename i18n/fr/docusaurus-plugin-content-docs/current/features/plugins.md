@@ -5,7 +5,7 @@ title: Plugins
 Peacock supports a broad variety of server side mods (plugins). Plugins can add new content to the game, or change
 existing mechanics.
 
-## What can plugins do?
+## Que peuvent faire les plugins ?
 
 Plugins are able to make changes to the parts of the game that Peacock handles.
 This includes menus, missions, contracts mode, leaderboards, and unlockables, among other things.
@@ -23,7 +23,7 @@ scope of Peacock.** More general-use client-side mods, outside the scope of Peac
 
 :::
 
-## Examples
+## Exemples
 
 Here are some of the plugins that have been made by our community:
 
@@ -33,7 +33,7 @@ Here are some of the plugins that have been made by our community:
 - Plugins that add unused weapons to the game (such as the [Beanbag Shotgun](/img/wiki/beanbag_shotgun.png))
 - Plugins to modify existing weapons and disguises
 
-## How to Install Plugins
+## Comment installer des plugins
 
 To install plugins, go to either the `plugins` or `#plugin-releases` (being phased out) channel in the Peacock Discord
 and download a plugin you are interested in.

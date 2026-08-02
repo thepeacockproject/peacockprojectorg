@@ -1,6 +1,6 @@
 ---
-title: What is Peacock?
-description: A rundown on what Peacock is, and why you may want to give it a try.
+title: Qu'est-ce que Peacock ?
+description: Un aperçu de ce qu'est Peacock et pourquoi vous pourriez avoir envie de l'essayer.
 ---
 
 Peacock is essentially a Hitman server emulator that runs on your own PC.

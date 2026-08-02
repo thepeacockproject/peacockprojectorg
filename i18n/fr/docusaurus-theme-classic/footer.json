@@ -4,23 +4,23 @@
     "description": "The title of the footer links column with title=Wiki in the footer"
   },
   "link.title.Community": {
-    "message": "Community",
+    "message": "Communauté",
     "description": "The title of the footer links column with title=Community in the footer"
   },
   "link.title.Other": {
-    "message": "Other",
+    "message": "Autres",
     "description": "The title of the footer links column with title=Other in the footer"
   },
   "link.item.label.Knowledge Base": {
-    "message": "Knowledge Base",
+    "message": "Base de connaissances",
     "description": "The label of footer link with label=Knowledge Base linking to /wiki/intel"
   },
   "link.item.label.Help/Bugs/Feature Requests (in our Discord)": {
-    "message": "Help/Bugs/Feature Requests (in our Discord)",
+    "message": "Aide/Bugs/Demandes de fonctionnalités (sur notre Discord)",
     "description": "The label of footer link with label=Help/Bugs/Feature Requests (in our Discord) linking to https://discord.gg/F8qQTfnajw"
   },
   "link.item.label.Testimonials": {
-    "message": "Testimonials",
+    "message": "Témoignages",
     "description": "The label of footer link with label=Testimonials linking to /testimonials"
   },
   "link.item.label.Ghost Mode": {
@@ -28,23 +28,23 @@
     "description": "The label of footer link with label=Ghost Mode linking to /wiki/ghost-mode"
   },
   "link.item.label.Branding": {
-    "message": "Branding",
+    "message": "Marque",
     "description": "The label of footer link with label=Branding linking to /branding"
   },
   "link.item.label.Credits": {
-    "message": "Credits",
+    "message": "Crédits",
     "description": "The label of footer link with label=Credits linking to /wiki/credits"
   },
   "link.item.label.Privacy Policy": {
-    "message": "Privacy Policy",
+    "message": "Politique de confidentialité",
     "description": "The label of footer link with label=Privacy Policy linking to /wiki/legal/privacy-policy"
   },
   "link.item.label.Terms of Service": {
-    "message": "Terms of Service",
+    "message": "Conditions d'utilisation",
     "description": "The label of footer link with label=Terms of Service linking to /wiki/legal/terms-of-service"
   },
   "copyright": {
-    "message": "Copyright © 2022-2025 The Peacock Project. Not owned by, affiliated with, or endorsed by IO Interactive.<br /><br /><small class=\"ioi-copyright\">HITMAN 3 © 2020 IO Interactive A/S. HITMAN™ 2 © 2018 IO Interactive A/S. HITMAN™ © 2019 IO Interactive A/S. IO Interactive, IOI logos, HITMAN, HITMAN logos, and WORLD OF ASSASSINATION are trademarks or registered trademarks owned by or exclusively licensed to IO Interactive A/S. All other trademarks are the property of their respective owners.</small>",
+    "message": "Copyright © 2022-2025 The Peacock Project. Ce contenu n'est ni détenu, ni affilié, ni approuvé par IO Interactive.<br /><br /><small class=\"ioi-copyright\">HITMAN 3 © 2020 IO Interactive A/S. HITMAN™ 2 © 2018 IO Interactive A/S. HITMAN™ © 2019 IO Interactive A/S. IO Interactive, les logos IOI, HITMAN, les logos HITMAN et WORLD OF ASSASSINATION sont des marques commerciales ou des marques déposées appartenant à IO Interactive A/S ou faisant l'objet d'une licence exclusive accordée à cette dernière. Toutes les autres marques commerciales appartiennent à leurs propriétaires respectifs.</small>",
     "description": "The footer copyright"
   },
   "link.item.label.GitHub": {
@@ -52,11 +52,11 @@
     "description": "The label of footer link with label=GitHub linking to https://github.com/thepeacockproject"
   },
   "logo.alt": {
-    "message": "Peacock Feather Logo",
+    "message": "Logo plume de Peacock",
     "description": "The alt text of footer logo"
   },
   "link.item.label.Plugin Development": {
-    "message": "Plugin Development",
+    "message": "Développement de plugins",
     "description": "The label of footer link with label=Plugin Development linking to /plugins"
   }
 }

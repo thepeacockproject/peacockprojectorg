@@ -1,14 +1,14 @@
 ---
-title: Port in Use Error
+title: Erreur port utilisé
 ---
 
-The "Port in Use" error happens when Peacock is trying to start, but the port it's set to use is already in use.
+L'erreur "port utilisé" arrive quand Peacock essaie de démarrer, mais le port il souhaite utiliser est déjà en cours d'utilisation.
 
-Here's what it looks like:
+Voici à quoi cela ressemble :
 
-![The error message shown when Peacock tries to use a port that's in use](/img/wiki/port_in_use.png)
+![Le message affiché quand Peacock essaie d'utiliser un port en cours d'utilisation](/img/wiki/port_in_use.png)
 
-## What is a Port?
+## Qu'est-ce qu'un port ?
 
 In simple terms, a port is a thing programs and other computers can connect to and get data from.
 In order for the game to talk to Peacock's server, the server has to occupy a port.
@@ -24,7 +24,7 @@ If you use Visual Studio, you may have installed some services that interfere wi
 4. Disable both if present.
 5. Try again, if it doesn't work, restart your computer, then try once more.
 
-## Changing the Port
+## Changer le port utilisé
 
 Here's how to change the port Peacock uses, if you don't want to stop the process on Port 80:
 
@@ -42,7 +42,7 @@ In the instructions below, please substitute `PORTNUMBER` with a port that is no
   ```
 - Type `127.0.0.1:PORTNUMBER` into the Patcher's URL field, as shown here (click on the text and then type, the UI/UX will hopefully be improved soon): ![](/img/wiki/patcher_port.png)
 
-## On Linux
+## Sous Linux
 
-Peacock's default port is 80, but on Linux, the normal user account does not have permission to use port 80.
-Check out the Changing the Port section above.
+Le port par défaut de Peacock est le port 80, mais sous Linux, le compte utilisateur normal n'a pas la permission d'utiliser le port 80.
+Consultez la section Changer le port utilisé ci-dessus.

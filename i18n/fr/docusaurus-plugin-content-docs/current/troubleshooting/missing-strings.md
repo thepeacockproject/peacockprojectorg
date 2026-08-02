@@ -1,5 +1,5 @@
 ---
-title: Missing Strings (UI_PEACOCK)
+title: Texte manquant (UI_PEACOCK)
 ---
 
 This is caused by the dynamic resources package not being downloaded from Peacock.
@@ -11,7 +11,7 @@ You can identify it by the text of custom Peacock menu elements showing text sta
 
 ![Screenshot from the featured page of Peacock in HITMAN: World of Assassination. Custom Peacock menu elements show text starting with ['UI_PEACOCK.](/img/wiki/missing_strings.png)
 
-## How to fix
+## Comment résoudre
 
 :::note[No mods/other game versions]
 

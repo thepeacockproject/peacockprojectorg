@@ -1,13 +1,13 @@
 ---
-title: Custom Content
-description: An overview of the custom content that Peacock provides.
+title: Contenu personnalisé
+description: Un aperçu du contenu personnalisé fourni par Peacock.
 ---
 
 Peacock has lots of goodies packed in for our users. Here's a peek at our custom content!
 
-## Escalations
+## Escalades
 
-### Custom Peacock Escalations
+### Escalades Peacock personnalisées
 
 Peacock supports custom (Peacock original) escalations. These escalations are available in-game by default. You can see some custom escalations listed in the [Roadmaps](./roadmaps.mdx) as well.
 
@@ -17,23 +17,23 @@ Peacock also supports all official server escalations, including Hitman 2016 esc
 
 - Note: You can select specific escalation levels to start on using the Escalation Level Picker tool, as explained [here](./intel/loadout-profiles-elp.md#escalation-level-picker)
 
-## Contracts Mode
+## Mode contrats
 
 Peacock supports both official server and custom Peacock contracts.
 
-### Featured contracts
+### Contrats à la une
 
 This includes custom (Peacock original) contracts created by Peacock dev team. You can see some of these custom featured contracts [here](./roadmaps.mdx).
 
 - **Note: Official Servers Featured Contracts are not included.**
 
-#### How to Play
+#### Comment jouer
 
 Go to `Game Modes` -> `Contracts` -> `Featured` menu in-game.
 
-### User-Created Official Server Contracts
+### Contrats créés par les utilisateurs sur les serveurs officiels
 
-#### How to Install
+#### Comment installer
 
 - Note: This only works while the HITMAPS bot is authenticated for the platform in question.
   - [More info on how to authenticate it](https://bot.hitmaps.com/).
@@ -42,21 +42,21 @@ Go to `Game Modes` -> `Contracts` -> `Featured` menu in-game.
 - Enter the official server contract ID (**Contracts from every platform except Nintendo Switch are supported for this**).
 - The contract will now be downloaded in your `contracts` folder.
 
-#### How to Play
+#### Comment jouer
 
 Go to `Game Modes` -> `Contracts` -> `My Contracts` in-game to play.
 
-### User-Created Peacock Contracts
+### Contrats Peacock créés par les utilisateurs
 
-#### How to Install
+#### Comment installer
 
 Download the contract's `.json` file from the `share-contracts` channel in Peacock Discord. Place the `.json` file in your `Contracts` folder, as shown here: ![](/img/wiki/contracts_folder.png).
 
-#### How to create your own
+#### Comment créer le vôtre
 
 - If you create a contract in-game while in Peacock server, your contract will be saved as an `.json` file in `Contracts` folder, as shown in the image above.
 - Be sure to share your `.json` file in Peacock Discord's `share-contracts` channel if you want others to play your custom Peacock contract.
 
-#### How to Play
+#### Comment jouer
 
 - Go to `Game Modes` -> `Contracts` -> `My Contracts` in-game to play.

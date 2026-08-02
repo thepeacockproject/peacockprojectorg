@@ -1,5 +1,5 @@
 ---
-title: Progression Transfer
+title: Transfert de progression
 ---
 
 Peacock supports transferring your progress from official World of Assassination game servers. This will override all of your current progress on Peacock.
@@ -7,13 +7,13 @@ Peacock supports transferring your progress from official World of Assassination
 We currently only support same game and platform, for example, you can only go from Hitman 3 Steam → Hitman 3 Steam.
 Support for cross-game progression transfer is planned.
 
-## Video Tutorial
+## Tutoriel vidéo
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nF5ngiuDe5M?start=201" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="true"></iframe>
 
 Check out the video tutorial above for a walkthrough of the progression transfer process. It may help to enable full-screen mode!
 
-## How do I do it?
+## Comment faire ?
 
 1. First, Start Peacock. Then connect to Peacock with the game. It is recommended that you now close the game.
 
@@ -31,7 +31,7 @@ Check out the video tutorial above for a walkthrough of the progression transfer
 You will now see a pop-up box. If it is **green** then it was completed successfully!
 If it was **red**, it failed, read below for some common issues and their fixes.
 
-## Common Issues
+## Problèmes fréquents
 
 ### Failed to get official authentication data
 

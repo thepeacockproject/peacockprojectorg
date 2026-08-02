@@ -1,15 +1,15 @@
 ---
-description: Details about The Peacock Project's Initiatives
+description: Détails à propos des initiatives du projet Peacock
 ---
 
 # Initiatives
 
-List of additional projects from the Peacock developers intended to help the Hitman community.
+Une liste des projets supplémentaires des développeurs de Peacock pour le bénéfice de la communauté Hitman.
 
-## Contracts Repository
+## Dépôt des contrats
 
--   [Contracts Database GitHub Repository](https://github.com/thepeacockproject/Contracts)
+-   [Dépôt GitHub de la base de données des contrats](https://github.com/thepeacockproject/Contracts)
 
-This repository stores information about Hitman contracts, so that they are not lost to time.
+Ce dépôt stocke les contrats réalisés sur Hitman, pour les préserver dans le temps.
 
-The contract information is pulled from HITMAPS' [contract bot](https://bot.hitmaps.com/).
+Les données des contrats sont téléchargées depuis le [robot dédié](https://bot.hitmaps.com/) de HITMAPS.

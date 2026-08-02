@@ -1,9 +1,9 @@
 ---
-sidebar_label: Privacy Policy
-description: How The Peacock Project handles and stores user data.
+sidebar_label: Politique de confidentialité
+description: Comment Le Projet Peacock gère et stocke les données des utilisateurs.
 ---
 
-# Peacock Privacy Policy
+# Politique de confidentialité de Peacock
 
 We respect your privacy regarding any information we may collect while operating our Services, and this page describes how we use data collected, and for what purposes.
 

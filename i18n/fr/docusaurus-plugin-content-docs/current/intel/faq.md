@@ -1,5 +1,5 @@
 ---
-title: Frequently Asked Questions
+title: Foire aux questions
 ---
 
 ## How to Get All Items
@@ -8,16 +8,16 @@ Peacock v6.1.0 introduced progression support, meaning you now can unlock items 
 
 To disable progression and **immediately get all items**, set `enableMasteryProgression` in `options.ini` to `false`.
 
-## Troubleshooting FAQ
+## FAQ dépannage
 
-### Before Troubleshooting
+### Avant de démarrer
 
 -   Check the [Requirements](./requirements.md) section of this guide, make sure you have a supported game version and platform, etc.
     -   **Microsoft Store version of Hitman 3 is not supported (commonly asked)**.
     -   Check [Linux Setup Guide](../guides/./linux-setup.md) if on Linux.
 -   Make sure you have the latest versions of Hitman and Peacock, older versions may not be supported.
 
-### Try to Reconnect
+### Essayez de vous reconnecter
 
 -   Make sure Peacock Patcher is set to "Peacock Local" option and not "IOI Official" when you are trying to connect to Peacock.
 -   It may take a few tries to connect to Peacock. If you can't connect, try going back to the Peacock Patcher application and clicking on "Re-patch" until the Peacock Patcher shows "Successfully patched ID".
@@ -25,7 +25,7 @@ To disable progression and **immediately get all items**, set `enableMasteryProg
 -   To return to Official servers, you can go offline while connected to Peacock, then toggle the Peacock Patcher application to patch you to Official Servers, then go "online" again to connect to official servers.
 -   **If you still have trouble connecting, then continue to the next section below.**
 
-### Connection Issues
+### Problèmes de connexion
 
 -   As explained in the [What is Peacock](./what-is-peacock.md) page, **you need to be connected to the Internet, at least initially, to use Peacock**. This is to get past Steam / Epic verification. After connecting to Peacock the first time, you may disconnect from the Internet and stay connected to Peacock for the duration of your game session.
     -   If you have a phone with cellular data plan, you can use the phone as hotspot for your computer to connect to Internet.
@@ -33,7 +33,7 @@ To disable progression and **immediately get all items**, set `enableMasteryProg
 -   Try running the `PeacockPatcher.exe` as admin.
 -   Keep the option "Use http instead of https" in Peacock patcher ticked unless you are playing Ghost Mode.
 
-#### Port In Use
+#### Ports déjà utilisés
 
 If you're getting an error that looks like this:
 
@@ -43,7 +43,7 @@ The error message for this issue will be something along the lines of "failed to
 
 Check [this guide](../troubleshooting/fix-port-in-use.md) for an explanation and instructions on how to fix it.
 
-## Other
+## Autres
 
 -   Check [Peacock Unique Features](../intel/loadout-profiles-elp.md) page for info on how to set multiple loadouts per map or choose specific escalation levels with Peacock.
 -   Default Suits - If you tick `getDefaultSuits = true` in your `options.ini` file in your Peacock Install folder, please note the following behavior:
@@ -62,17 +62,17 @@ Check [this guide](../troubleshooting/fix-port-in-use.md) for an explanation and
     -   Close the Peacock Server. Then run `Tools.cmd`, and press enter.
     -   Be prepared to provide the `DEBUG_PROFILE.zip` you'll find in the Peacock directory after that.
 
-## How Peacock Works FAQ
+## FAQ comment fonctionne Peacock
 
 -   See [What is Peacock](./what-is-peacock.md)
     -   See above link for questions on Freelancer integration with Peacock, whether or not you need Internet to use Peacock, or any other general questions on how Peacock works
 
-## Feature Request FAQ
+## FAQ demande de fonctionnalité
 
 -   Before asking any questions about Ghost Mode, escalations, user contracts, elusive targets, please check the [Custom Content Page](.././custom-content.md) as well as the [Ghost Mode Page](.././ghost-mode.md).
 -   Mod compatibility: almost all mods are compatible with Peacock without extra work, including contract and unlockable mods. Menu changes may sometimes be incompatible, but should usually be fine.
 
-## Piracy FAQ
+## FAQ piratage
 -   We do not support pirated games.
 -   Why though?
     -   IOI is aware that Peacock exists and is not hostile towards the project, supporting piracy would be the quickest way to change that and get the project taken down, erasing over 3 years of work on the project.

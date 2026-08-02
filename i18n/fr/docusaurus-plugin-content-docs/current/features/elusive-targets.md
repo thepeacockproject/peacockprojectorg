@@ -1,26 +1,22 @@
 ---
-title: Elusive Targets
+title: Cibles fugitives
 ---
 
-On Peacock, you can play all Elusive Targets in the game.
-Our implementation of Elusive Targets is simple: you can play them whenever you want, and finish or fail the missions as
-many times as you want, with no time penalties.
+Avec Peacock, vous pouvez jouer à toutes les cibles fugitives.
+Notre implémentation des cibles fugitives est simple : vous pouvez y jouer ni'mporte quand, et vous pouvez réussir ou échouez autant de fois que vous voulez, sans pénalités de temps.
 
-## How to Play
+## Comment jouer
 
-On HITMAN&trade; 2016, you will see an Elusive Targets tile on the main menu.
+Dans HITMAN&trade; 2016, vous verrez une vignette Cibles fugitives dans le menu principal.
 
-For other game versions, after starting up the game with Peacock, scroll right on the top bar of the main menu.
-Click the `Career` tab, then select the `Elusive Targets` tile.
+Pour les autres versions du jeu, après avoir démarré le jeu avec Peacock, faites défiler la barre du haut vers la droite.
+Cliquez sur l'onglet « Carrière », puis sélectionnez la vignette « Cibles fugitives ».
 
 :::info[The Brothers]
 
-You may see an Elusive Target on the menu titled "The Brothers", which the game will say you are missing the required
-content for.
-This Elusive Target is cut/unfinished content, and while the files are in the game, it needs to be activated by using
-mods.
+Vous verrez peut-être une cible fugitive dans le menu intitulée « Les Frères », pour laquelle le jeu indiquera que vous ne disposez pas du contenu requis.
+Cette cible fugitive n'a pas été finie/inachevée, et bien que les fichiers soient présents dans le jeu, le contenu doit être activé à l'aide de mods.
 
-Check out [this mod](https://www.nexusmods.com/hitman3/mods/375) by community member Kevin Rudd which adds back and
-polishes the mission.
+Découvrez [ce mod](https://www.nexusmods.com/hitman3/mods/375) de Kevin Rudd, membre de la communauté, qui réintègre et améliore la mission.
 
 :::

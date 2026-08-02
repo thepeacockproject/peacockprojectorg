@@ -4,7 +4,7 @@ title: Patcher Error Reference
 
 Having an error with the patcher? Here's a guidebook on the most common errors and how to remedy them.
 
-## `Unknown version`
+## Version inconnue
 
 This error occurs when the patcher encounters a version of the game that it doesn't know how to find the relevant data.
 

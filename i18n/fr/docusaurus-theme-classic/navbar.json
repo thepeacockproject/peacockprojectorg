@@ -1,6 +1,6 @@
 {
   "title": {
-    "message": "The Peacock Project",
+    "message": "Le projet Peacock",
     "description": "The title in the navbar"
   },
   "item.label.Wiki": {
@@ -16,11 +16,11 @@
     "description": "Navbar item with label GitHub"
   },
   "item.label.Installation Guide": {
-    "message": "Installation Guide",
+    "message": "Guide d'installation",
     "description": "Navbar item with label Installation Guide"
   },
   "logo.alt": {
-    "message": "Peacock Logo",
+    "message": "Logo de Peacock",
     "description": "The alt text of navbar logo"
   }
 }

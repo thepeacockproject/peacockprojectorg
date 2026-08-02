@@ -1,9 +1,9 @@
 ---
-title: Updating to New Versions
-description: When should I update? How do I update? A guide on everything you need to know about updating.
+title: Mettre à jour vers de nouvelles versions
+description: Quand mettre jour ? Comment mettre à jour ? Un guide sur tout ce qu'il faut savoir pour mettre à jour Peacock.
 ---
 
-## Video Tutorial
+## Tutoriel vidéo
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nF5ngiuDe5M?start=484" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media;picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="true"></iframe>
 
