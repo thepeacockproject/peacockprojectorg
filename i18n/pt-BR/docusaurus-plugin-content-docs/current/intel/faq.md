@@ -53,7 +53,7 @@ Veja [este guia](../troubleshooting/fix-port-in-use.md) para uma explicação e 
         -   Trajes padrão da Temporada 1 (e.g. Traje de Verão de Marrakesh): Funciona em todos os mapas
         -   Trajes padrão da Temporada 2 (e.g. Turista Casual de Santa Fortuna): Funciona em mapas da Temporada 2 e 3
             -   Nova Iorque e Maldivas (Haven) estão incluídas na Temporada 2
-        -   Trajes padrão da Temporada 3 (e.g. Traje Urbano Neon de Chongqing): Funciona apenas em mapas da Temporada 3
+        -   Trajes padrão da Temporada 3 (e.g. Traje Urbano Neon de Xunquim): Funciona apenas em mapas da Temporada 3
         -   A Ilha Ambrose se encontra fora do sistema de temporadas, então seu traje padrão (Roupa de Mergulho de Guerrilha) é usável em todos os mapas, e os trajes padrão de qualquer mapa pode ser usado na Ilha Ambrose
 
 ### Solicitando Suporte Técnico
