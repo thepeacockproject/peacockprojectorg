@@ -2,28 +2,27 @@
 title: Patcher Error Reference
 ---
 
-Having an error with the patcher? Here's a guidebook on the most common errors and how to remedy them.
+Heb je foutmeldingen in de patcher? Met deze gids vindt je de vaakst voorkomende fouten en hoe je ze op kan lossen.
 
 ## `Unknown version`
 
-This error occurs when the patcher encounters a version of the game that it doesn't know how to find the relevant data.
+Deze foutmelding komt voor als de patcher een versie van de game vindt waar geen relevante data voor bestaat.
 
-Here are the most common causes:
+Meestal komt dit probleem door:
 
-- You are using an unsupported version of the game (e.g. the Microsoft Store version). These versions of the game won't
-  work with Peacock. Please check our [supported versions guide](../intel/requirements.md).
-- You are using an out of date version of the game. Try updating your game to the latest version.
-- Verify your game files. Also, ensure you haven't tampered with the game's `.exe` file.
+- Het gebruik van een niet ondersteunde versie van het spel (zoals bijvoorbeeld de Microsoft Store versie). Deze versies van de game werken niet in Peacock. Zie onze [lijst met ondersteunde versies](../intel/requirements.md).
+- Je gebruikt een verouderde versie van de game. Probeer de game te updaten naar de nieuwste versie.
+- Verifieer de integriteit van je gamebestanden. Controleer ook of er niet gesleuteld is aan het `.exe` bestand van de game.
 
 ## `Only part of a wpm was completed`
 
-This happens when the patcher encounters an error mid-way through its process.
-Usually, this is a temporary error that can be resolved by restarting your computer.
+Dit gebeurd wanneer er de patcher tijdens het verwerken een fout tegen komt.
+Normaal is dit een tijdelijk probleem en is dit op te lossen door je computer opnieuw op te starten.
 
-If it continues, try verifying your game files.
+Als het probleem aanhoudt probeer dan je game bestanden te verifiëren.
 
-After verifying your game files, if it still isn't resolved, contact us on [Discord](/discord).
+Als het probleem na het verifiëren van je gamebestanden nog niet is opgelost, neem dan contact op via [Discord](/discord).
 
-## `Error at wpm for offset` or `error code 5`
+## `Error at wpm for offset` of `error code 5`
 
-Please contact us on [Discord](/discord), as we are still investigating this issue.
+Neem alsjeblieft contact met ons op via [Discord](/discord), we zijn nog steeds bezig met het oplossen van dit probleem.
